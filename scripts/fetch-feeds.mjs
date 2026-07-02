@@ -1,61 +1,28 @@
 // scripts/fetch-feeds.mjs
-//
-// Single script that does everything in one hourly run:
-//   1. Fetches all RSS feeds grouped by theme
-//   2. Fetches VN market index data (VNDirect) + USD/VND (Vietcombank)
-//   3. Calls Gemini to generate a Vietnamese AI summary per theme
-//   4. Writes everything to src/data/feed.json
-//
-// Run manually:  npm run fetch
-// Scheduled:     see .github/workflows/update-feed.yml (runs hourly)
-//
-// CONTENT POLICY — enforced here, never bypass:
-//   Only title + RSS-provided excerpt (~160 chars) + link per article.
-//   Full article bodies are never fetched, stored, or displayed.
-//   Every article carries sourceId + sourceName + sourceUrl for attribution.
-//   AI summaries are based only on headlines — no speculation, no invention.
-
 import { XMLParser } from 'fast-xml-parser';
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-// ─── Constants ────────────────────────────────────────────────────────────────
+const MAX_ITEMS_PER_FEED    = 3;
+const EXCERPT_LENGTH        = 160;
+const FETCH_TIMEOUT_MS      = 15000;
+const AI_SUMMARY_MAX_TOKENS = 180;
 
-const MAX_ITEMS_PER_FEED   = 3;   // articles per source per theme
-const EXCERPT_LENGTH       = 160;  // max chars for excerpt
-const FETCH_TIMEOUT_MS     = 15000;
-const AI_SUMMARY_MAX_TOKENS = 120;
-
-// ─── Config ───────────────────────────────────────────────────────────────────
-// ALL sources, themes, and endpoints live here.
-// To add a source: add feed entries to each theme below.
-// To add a theme: add a new object to THEMES.
-// To change section order: reorder the THEMES array.
-// Nothing else in the codebase needs to change.
-
+// ─── Theme + source config ────────────────────────────────────────────────────
 const THEMES = [
   {
     key: 'stocks',
     displayName: 'Chứng khoán',
     feeds: [
       {
-        sourceId: 'cafef',
-        sourceName: 'CafeF',
-        sourceUrl: 'https://cafef.vn',
-        attribution: 'CafeF',
-        candidateUrls: [
-          'https://cafef.vn/thi-truong-chung-khoan.rss',
-          'https://cafef.vn/chung-khoan.rss'
-        ]
+        sourceId: 'cafef', sourceName: 'CafeF',
+        sourceUrl: 'https://cafef.vn', attribution: 'CafeF',
+        candidateUrls: ['https://cafef.vn/thi-truong-chung-khoan.rss','https://cafef.vn/chung-khoan.rss']
       },
       {
-        sourceId: 'vneconomy',
-        sourceName: 'VnEconomy',
-        sourceUrl: 'https://vneconomy.vn',
-        attribution: 'VnEconomy',
-        candidateUrls: [
-          'https://vneconomy.vn/chung-khoan.rss'
-        ]
+        sourceId: 'vneconomy', sourceName: 'VnEconomy',
+        sourceUrl: 'https://vneconomy.vn', attribution: 'VnEconomy',
+        candidateUrls: ['https://vneconomy.vn/chung-khoan.rss']
       }
     ]
   },
@@ -64,22 +31,14 @@ const THEMES = [
     displayName: 'Bất động sản',
     feeds: [
       {
-        sourceId: 'cafef',
-        sourceName: 'CafeF',
-        sourceUrl: 'https://cafef.vn',
-        attribution: 'CafeF',
-        candidateUrls: [
-          'https://cafef.vn/bat-dong-san.rss'
-        ]
+        sourceId: 'cafef', sourceName: 'CafeF',
+        sourceUrl: 'https://cafef.vn', attribution: 'CafeF',
+        candidateUrls: ['https://cafef.vn/bat-dong-san.rss']
       },
       {
-        sourceId: 'vneconomy',
-        sourceName: 'VnEconomy',
-        sourceUrl: 'https://vneconomy.vn',
-        attribution: 'VnEconomy',
-        candidateUrls: [
-          'https://vneconomy.vn/dia-oc.rss'
-        ]
+        sourceId: 'vneconomy', sourceName: 'VnEconomy',
+        sourceUrl: 'https://vneconomy.vn', attribution: 'VnEconomy',
+        candidateUrls: ['https://vneconomy.vn/dia-oc.rss']
       }
     ]
   },
@@ -88,32 +47,50 @@ const THEMES = [
     displayName: 'Vĩ mô / Đầu tư',
     feeds: [
       {
-        sourceId: 'cafef',
-        sourceName: 'CafeF',
-        sourceUrl: 'https://cafef.vn',
-        attribution: 'CafeF',
+        sourceId: 'cafef', sourceName: 'CafeF',
+        sourceUrl: 'https://cafef.vn', attribution: 'CafeF',
+        candidateUrls: ['https://cafef.vn/vi-mo-dau-tu.rss']
+      },
+      {
+        sourceId: 'vneconomy', sourceName: 'VnEconomy',
+        sourceUrl: 'https://vneconomy.vn', attribution: 'VnEconomy',
+        candidateUrls: ['https://vneconomy.vn/dau-tu.rss','https://vneconomy.vn/tieu-diem.rss']
+      }
+    ]
+  },
+  {
+    key: 'international',
+    displayName: 'International',
+    feeds: [
+      {
+        sourceId: 'cnbc', sourceName: 'CNBC',
+        sourceUrl: 'https://www.cnbc.com', attribution: 'CNBC',
         candidateUrls: [
-          'https://cafef.vn/vi-mo-dau-tu.rss'
+          'https://www.cnbc.com/id/20910258/device/rss/rss.html',
+          'https://www.cnbc.com/id/100003114/device/rss/rss.html'
         ]
       },
       {
-        sourceId: 'vneconomy',
-        sourceName: 'VnEconomy',
-        sourceUrl: 'https://vneconomy.vn',
-        attribution: 'VnEconomy',
-        // dau-tu.rss is primary; tieu-diem.rss is fallback — resolve which is
-        // better in Phase 5 once live data is visible (open item in PLANNING.md)
+        sourceId: 'marketwatch', sourceName: 'MarketWatch',
+        sourceUrl: 'https://www.marketwatch.com', attribution: 'MarketWatch',
         candidateUrls: [
-          'https://vneconomy.vn/dau-tu.rss',
-          'https://vneconomy.vn/tieu-diem.rss'
+          'https://feeds.content.dowjones.io/public/rss/mw_topstories',
+          'https://www.marketwatch.com/rss/topstories'
+        ]
+      },
+      {
+        sourceId: 'apbusiness', sourceName: 'AP News',
+        sourceUrl: 'https://apnews.com', attribution: 'AP News',
+        candidateUrls: [
+          'https://apnews.com/hub/business.rss',
+          'https://feeds.apnews.com/rss/apf-business'
         ]
       }
     ]
   }
 ];
 
-// Market data — candidateUrls tried in order, first success wins.
-// If VNDirect changes their API, add the new URL at the front of the array.
+// ─── Market data config ───────────────────────────────────────────────────────
 const MARKET_CONFIG = {
   indices: {
     candidateUrls: [
@@ -122,32 +99,58 @@ const MARKET_CONFIG = {
     ]
   },
   usdvnd: {
-    candidateUrls: [
-      'https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx?b=10'
-    ]
+    candidateUrls: ['https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx?b=10']
   },
   goldVnd: {
-    candidateUrls: [
-      'https://sjc.com.vn/xml/tygiavang.xml'
-    ]
+    candidateUrls: ['https://sjc.com.vn/xml/tygiavang.xml']
   },
   goldUsd: {
-    candidateUrls: [
-      'https://data-asg.goldprice.org/dbXRates/USD'
-    ]
+    candidateUrls: ['https://data-asg.goldprice.org/dbXRates/USD']
   }
 };
 
-// Gemini — swap provider here if needed. Keep the interface the same:
-// generateSummary(headlines: string[]) => Promise<string|null>
-const GEMINI_MODEL = 'gemini-2.5-flash';
+// Global indices shown inside the International section
+// To add/remove: edit this array only — no other changes needed
+const GLOBAL_INDICES = [
+  { symbol: '^GSPC',  name: 'S&P 500',   region: 'US'     },
+  { symbol: '^IXIC',  name: 'Nasdaq',    region: 'US'     },
+  { symbol: '^N225',  name: 'Nikkei',    region: 'Asia'   },
+  { symbol: '^HSI',   name: 'Hang Seng', region: 'Asia'   },
+  { symbol: '^GDAXI', name: 'DAX',       region: 'Europe' }
+];
+
+// ─── Content filter ───────────────────────────────────────────────────────────
+// DESIGN DECISION: filter on content TYPE only, not location.
+// Province mentions are fine — many legit market stories involve provinces.
+// We only drop articles that are clearly non-market by nature:
+// awards, political ceremonies, promotional/ad content.
+// Add new patterns here as config — no code change needed.
+const CONTENT_BLOCKLIST = [
+  // Awards / political ceremony
+  'tặng bằng khen', 'được khen thưởng', 'xuất sắc trong phong trào',
+  'toàn dân', 'chào mừng kỷ niệm', 'kỷ niệm 50 năm', 'kỷ niệm ngày',
+  // Promotional / ad content
+  'chào bạn mới', 'ưu đãi khách hàng', 'khuyến mãi', 'tri ân khách hàng',
+  // Pure political fluff (no market relevance)
+  'cam kết với người dân', 'mời gọi đầu tư hàng chục',
+];
+
+function filterArticles(articles, isInternational = false) {
+  // International section: English content, VN blocklist not applicable
+  if (isInternational) return articles;
+  const lower = s => (s ?? '').toLowerCase();
+  return articles.filter(a => {
+    const text = lower(a.title) + ' ' + lower(a.excerpt);
+    return !CONTENT_BLOCKLIST.some(phrase => text.includes(lower(phrase)));
+  });
+}
+
+// ─── Gemini config ────────────────────────────────────────────────────────────
+const GEMINI_MODEL    = 'gemini-2.5-flash';
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
-
 async function loadEnv() {
-  // Reads .env file if present (local dev). In GitHub Actions, secrets are
-  // injected directly as environment variables — no .env file needed there.
   try {
     const raw = await readFile(path.resolve('.env'), 'utf-8');
     for (const line of raw.split('\n')) {
@@ -159,9 +162,7 @@ async function loadEnv() {
       const val = trimmed.slice(eqIdx + 1).trim();
       if (key && !process.env[key]) process.env[key] = val;
     }
-  } catch {
-    // No .env file — fine in CI, expected in production
-  }
+  } catch {}
 }
 
 const xmlParser = new XMLParser({
@@ -175,9 +176,17 @@ function stripTags(html = '') {
   return html
     .replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '')
     .replace(/<[^>]*>/g, ' ')
+    // Named entities
     .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&apos;/g, "'").replace(/&mdash;/g, '—')
+    .replace(/&ndash;/g, '–').replace(/&hellip;/g, '…')
+    .replace(/&lsquo;/g, '‘').replace(/&rsquo;/g, '’')
+    .replace(/&ldquo;/g, '“').replace(/&rdquo;/g, '”')
+    // Hex and decimal numeric entities
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#([0-9]+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
     .replace(/\s+/g, ' ').trim();
 }
 
@@ -217,20 +226,16 @@ async function fetchWithTimeout(url, options = {}) {
 }
 
 // ─── RSS fetching ─────────────────────────────────────────────────────────────
-
 async function fetchOneFeed(feed) {
-  let lastError;
   for (const url of feed.candidateUrls) {
     try {
-      const res  = await fetchWithTimeout(url);
-      const xml  = await res.text();
-      const parsed = xmlParser.parse(xml);
+      const res     = await fetchWithTimeout(url);
+      const xml     = await res.text();
+      const parsed  = xmlParser.parse(xml);
       const channel = parsed?.rss?.channel;
       if (!channel) throw new Error('No <channel> in XML');
-
       let items = channel.item ?? [];
       if (!Array.isArray(items)) items = [items];
-
       const articles = items
         .slice(0, MAX_ITEMS_PER_FEED)
         .map(item => {
@@ -239,20 +244,14 @@ async function fetchOneFeed(feed) {
           const pubRaw  = getText(item.pubDate);
           const pubDate = pubRaw ? new Date(pubRaw).toISOString() : null;
           const excerpt = truncate(stripTags(getText(item.description)), EXCERPT_LENGTH);
-          return {
-            title, link, pubDate, excerpt,
-            sourceId:   feed.sourceId,
-            sourceName: feed.sourceName,
-            sourceUrl:  feed.sourceUrl,
-            attribution: feed.attribution
-          };
+          return { title, link, pubDate, excerpt,
+            sourceId: feed.sourceId, sourceName: feed.sourceName,
+            sourceUrl: feed.sourceUrl, attribution: feed.attribution };
         })
         .filter(a => a.title && a.link);
-
-      console.log(`  ✓ ${feed.sourceName} [${url.split('/').pop()}]: ${articles.length} articles`);
+      console.log(`  ✓ ${feed.sourceName} [${url.split('/').pop().slice(0,30)}]: ${articles.length} articles`);
       return articles;
     } catch (err) {
-      lastError = err;
       console.warn(`  ⚠ ${feed.sourceName}: ${url} — ${err.message}`);
     }
   }
@@ -263,43 +262,38 @@ async function fetchOneFeed(feed) {
 async function fetchTheme(theme) {
   console.log(`\nFetching theme: ${theme.displayName}`);
   const allArticles = (await Promise.all(theme.feeds.map(fetchOneFeed))).flat();
-
-  // Sort all articles from all sources newest-first
   allArticles.sort((a, b) => {
     if (!a.pubDate) return 1;
     if (!b.pubDate) return -1;
     return new Date(b.pubDate) - new Date(a.pubDate);
   });
-
-  return allArticles;
+  const isIntl = theme.key === 'international';
+  const clean = filterArticles(allArticles, isIntl);
+  const dropped = allArticles.length - clean.length;
+  if (dropped > 0) console.log(`  → ${dropped} articles dropped by content filter`);
+  return clean;
 }
 
 // ─── Market data ──────────────────────────────────────────────────────────────
-
 function isMarketOpen() {
-  const now = new Date();
-  // Convert to Vietnam time (UTC+7)
+  const now    = new Date();
   const vnTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Ho_Chi_Minh' }));
-  const day  = vnTime.getDay();   // 0=Sun, 6=Sat
-  const hour = vnTime.getHours();
-  const min  = vnTime.getMinutes();
-  const timeNum = hour * 100 + min;
-  return day >= 1 && day <= 5 && timeNum >= 900 && timeNum < 1500;
+  const day    = vnTime.getDay();
+  const hour   = vnTime.getHours();
+  const min    = vnTime.getMinutes();
+  return day >= 1 && day <= 5 && (hour * 100 + min) >= 900 && (hour * 100 + min) < 1500;
 }
 
 async function fetchMarketIndices() {
   for (const url of MARKET_CONFIG.indices.candidateUrls) {
     try {
-      const res  = await fetchWithTimeout(url);
-      const data = await res.json();
+      const res   = await fetchWithTimeout(url);
+      const data  = await res.json();
       const items = data?.data ?? [];
-
       const vnIndex  = items.find(i => i.code === 'VNINDEX');
       const hnxIndex = items.find(i => i.code === 'HNXINDEX');
-
       if (!vnIndex && !hnxIndex) throw new Error('No index data in response');
-
-      console.log(`  ✓ Market indices from VNDirect`);
+      console.log(`  ✓ VN market indices from VNDirect`);
       return {
         vnIndex:  vnIndex  ? { value: vnIndex.close,  change: vnIndex.change,  changePercent: vnIndex.percentChange  } : null,
         hnxIndex: hnxIndex ? { value: hnxIndex.close, change: hnxIndex.change, changePercent: hnxIndex.percentChange } : null
@@ -315,83 +309,30 @@ async function fetchMarketIndices() {
 async function fetchUsdVnd() {
   for (const url of MARKET_CONFIG.usdvnd.candidateUrls) {
     try {
-      const res  = await fetchWithTimeout(url);
-      const xml  = await res.text();
+      const res    = await fetchWithTimeout(url);
+      const xml    = await res.text();
       const parsed = xmlParser.parse(xml);
-
-      // Vietcombank XML: ExrateList > Exrate[@CurrencyCode="USD"]
       const exrates = parsed?.ExrateList?.Exrate ?? [];
-      const list = Array.isArray(exrates) ? exrates : [exrates];
-      const usd = list.find(e => e['@_CurrencyCode'] === 'USD');
-
-      if (!usd) throw new Error('USD rate not found in XML');
-
-      // Sell rate is the reference rate most sites display
+      const list    = Array.isArray(exrates) ? exrates : [exrates];
+      const usd     = list.find(e => e['@_CurrencyCode'] === 'USD');
+      if (!usd) throw new Error('USD rate not found');
       const sell = parseFloat(String(usd['@_Sell']).replace(',', ''));
-      console.log(`  ✓ USD/VND from Vietcombank: ${sell}`);
+      console.log(`  ✓ USD/VND: ${sell}`);
       return { value: sell, source: 'Vietcombank' };
     } catch (err) {
       console.warn(`  ⚠ USD/VND: ${url} — ${err.message}`);
     }
   }
-  console.error('  ✗ USD/VND: all sources failed');
   return null;
 }
-
-// ─── AI summaries (Gemini) ────────────────────────────────────────────────────
-
-async function generateSummary(themeName, articles) {
-  const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) {
-    console.warn('  ⚠ GEMINI_API_KEY not set — skipping AI summary');
-    return null;
-  }
-  if (articles.length === 0) return null;
-
-  const headlines = articles
-    .slice(0, 12)
-    .map((a, i) => `${i + 1}. ${a.title}`)
-    .join('\n');
-
-  const prompt = `Viết 1-2 câu theo phong cách Bloomberg/Reuters bằng tiếng Việt về chủ đề "${themeName}".
-Ngắn gọn, súc tích, nêu bật con số và diễn biến cụ thể. Không dùng gạch đầu dòng.
-Chỉ dựa vào các tiêu đề sau — không suy đoán:
-${headlines}`;
-
-  try {
-    const res = await fetchWithTimeout(
-      `${GEMINI_ENDPOINT}?key=${apiKey}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { maxOutputTokens: AI_SUMMARY_MAX_TOKENS, temperature: 0.3 }
-        })
-      }
-    );
-    const data = await res.json();
-    const summary = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
-    if (!summary) throw new Error('Empty response from Gemini');
-    console.log(`  ✓ AI summary for "${themeName}": ${summary.slice(0, 60)}…`);
-    return summary;
-  } catch (err) {
-    console.warn(`  ⚠ Gemini summary for "${themeName}": ${err.message}`);
-    return null;
-  }
-}
-
-// ─── Gold prices ──────────────────────────────────────────────────────────────
 
 async function fetchGoldVnd() {
   for (const url of MARKET_CONFIG.goldVnd.candidateUrls) {
     try {
-      const res  = await fetchWithTimeout(url);
-      const xml  = await res.text();
+      const res    = await fetchWithTimeout(url);
+      const xml    = await res.text();
       const parsed = xmlParser.parse(xml);
-
-      // SJC XML: look for SJC 1L row, take sell price (in thousands VND)
-      const cities = parsed?.root?.city ?? parsed?.giatot?.city ?? [];
+      const cities   = parsed?.root?.city ?? parsed?.giatot?.city ?? [];
       const cityList = Array.isArray(cities) ? cities : [cities];
       let sell = null;
       for (const city of cityList) {
@@ -402,7 +343,6 @@ async function fetchGoldVnd() {
             const raw = String(row?.sell ?? '').replace(/[,.]/g, '');
             const val = parseFloat(raw);
             if (!isNaN(val) && val > 1000) {
-              // Values > 100000 are already full VND, smaller values are in thousands
               sell = val > 100000 ? val : val * 1000;
               break;
             }
@@ -410,14 +350,13 @@ async function fetchGoldVnd() {
         }
         if (sell) break;
       }
-      if (!sell) throw new Error('SJC sell price not parsed');
+      if (!sell) throw new Error('SJC price not parsed');
       console.log(`  ✓ Gold VND (SJC): ${sell.toLocaleString()}`);
       return { value: sell, unit: 'VND/lượng', source: 'SJC' };
     } catch (err) {
       console.warn(`  ⚠ Gold VND: ${url} — ${err.message}`);
     }
   }
-  console.error('  ✗ Gold VND: all sources failed');
   return null;
 }
 
@@ -426,10 +365,9 @@ async function fetchGoldUsd() {
     try {
       const res  = await fetchWithTimeout(url);
       const data = await res.json();
-      // goldprice.org format: { items: [{ curr: 'USD', xauPrice: 3350.25 }] }
-      const item = data?.items?.find(i => i.curr === 'USD');
+      const item  = data?.items?.find(i => i.curr === 'USD');
       const price = item?.xauPrice ?? data?.price ?? data?.USD?.price;
-      if (!price) throw new Error('Gold USD price not found in response');
+      if (!price) throw new Error('Gold USD price not found');
       const rounded = Math.round(price * 100) / 100;
       console.log(`  ✓ Gold USD: $${rounded}`);
       return { value: rounded, unit: 'USD/oz', source: 'goldprice.org' };
@@ -437,58 +375,122 @@ async function fetchGoldUsd() {
       console.warn(`  ⚠ Gold USD: ${url} — ${err.message}`);
     }
   }
-  console.error('  ✗ Gold USD: all sources failed');
   return null;
 }
 
-// ─── Main ─────────────────────────────────────────────────────────────────────
+// ─── Global indices (Yahoo Finance unofficial API) ────────────────────────────
+async function fetchOneGlobalIndex(idx) {
+  const sym = encodeURIComponent(idx.symbol);
+  const urls = [
+    `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=5d`,
+    `https://query2.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=5d`
+  ];
+  for (const url of urls) {
+    try {
+      const res  = await fetchWithTimeout(url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          Accept: 'application/json',
+          'Accept-Language': 'en-US,en;q=0.9'
+        }
+      });
+      const data   = await res.json();
+      const meta   = data?.chart?.result?.[0]?.meta;
+      if (!meta) throw new Error('No meta in chart response');
+      const value         = meta.regularMarketPrice ?? meta.previousClose ?? null;
+      const prevClose     = meta.chartPreviousClose ?? meta.previousClose ?? null;
+      const change        = value != null && prevClose != null ? value - prevClose : null;
+      const changePercent = change != null && prevClose ? (change / prevClose) * 100 : null;
+      return { ...idx, value, change, changePercent };
+    } catch (err) {
+      console.warn(`  ⚠ ${idx.name}: ${err.message}`);
+    }
+  }
+  return { ...idx, value: null, change: null, changePercent: null };
+}
 
+async function fetchGlobalIndices() {
+  console.log('  Fetching global indices individually...');
+  const results = await Promise.all(GLOBAL_INDICES.map(fetchOneGlobalIndex));
+  const success = results.filter(i => i.value != null).length;
+  console.log(`  ✓ Global indices: ${success}/${results.length} fetched`);
+  return results;
+}
+
+// ─── AI summaries ─────────────────────────────────────────────────────────────
+async function generateSummary(themeName, themeKey, articles) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) { console.warn('  ⚠ GEMINI_API_KEY not set'); return null; }
+  if (articles.length === 0) return null;
+
+  const headlines = articles.slice(0, 12).map((a, i) => `${i + 1}. ${a.title}`).join('\n');
+
+  const prompt = themeKey === 'international'
+    ? `These are international finance headlines. Write 1-2 sharp sentences in Vietnamese explaining what this means for Vietnamese investors. Be specific, no bullet points, no speculation. Headlines:\n${headlines}`
+    : `Viết 1-2 câu theo phong cách Bloomberg/Reuters bằng tiếng Việt về chủ đề "${themeName}". Ngắn gọn, súc tích, nêu bật con số và diễn biến cụ thể. Không dùng gạch đầu dòng. Chỉ dựa vào các tiêu đề sau — không suy đoán:\n${headlines}`;
+
+  try {
+    const res = await fetchWithTimeout(`${GEMINI_ENDPOINT}?key=${apiKey}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { maxOutputTokens: AI_SUMMARY_MAX_TOKENS, temperature: 0.3 }
+      })
+    });
+    const data    = await res.json();
+    const summary = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+    if (!summary) throw new Error('Empty response from Gemini');
+    console.log(`  ✓ AI summary for "${themeName}": ${summary.slice(0, 60)}…`);
+    return summary;
+  } catch (err) {
+    console.warn(`  ⚠ Gemini summary for "${themeName}": ${err.message}`);
+    return null;
+  }
+}
+
+// ─── Main ─────────────────────────────────────────────────────────────────────
 async function main() {
   await loadEnv();
-
   console.log('=== VNin1 feed fetch starting ===\n');
 
-  // 1. Fetch all RSS feeds by theme
+  // 1. RSS feeds
   const themeResults = [];
   for (const theme of THEMES) {
     const articles = await fetchTheme(theme);
     themeResults.push({ key: theme.key, displayName: theme.displayName, articles });
   }
 
-  // 2. Fetch market data
+  // 2. Market data
   console.log('\nFetching market data...');
-  const [indices, usdvnd, goldVnd, goldUsd] = await Promise.all([
-    fetchMarketIndices(), fetchUsdVnd(), fetchGoldVnd(), fetchGoldUsd()
+  const [indices, usdvnd, goldVnd, goldUsd, globalIndices] = await Promise.all([
+    fetchMarketIndices(), fetchUsdVnd(), fetchGoldVnd(), fetchGoldUsd(), fetchGlobalIndices()
   ]);
   const marketOpen = isMarketOpen();
 
-  // 3. Generate AI summaries (sequential to be safe with rate limits)
+  // 3. AI summaries
   console.log('\nGenerating AI summaries...');
   for (const theme of themeResults) {
-    theme.aiSummary = await generateSummary(theme.displayName, theme.articles);
+    theme.aiSummary = await generateSummary(theme.displayName, theme.key, theme.articles);
   }
 
-  // 4. Build output
+  // 4. Write output
   const output = {
     lastUpdated: new Date().toISOString(),
     market: {
-      vnIndex:   indices.vnIndex,
-      hnxIndex:  indices.hnxIndex,
-      usdVnd:    usdvnd,
-      goldVnd,
-      goldUsd,
-      marketOpen,
+      vnIndex: indices.vnIndex, hnxIndex: indices.hnxIndex,
+      usdVnd: usdvnd, goldVnd, goldUsd, marketOpen,
       note: marketOpen ? null : 'Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất'
     },
+    globalIndices,
     themes: themeResults
   };
 
-  // 5. Write feed.json
   const outPath = path.resolve('src/data/feed.json');
   await mkdir(path.dirname(outPath), { recursive: true });
   await writeFile(outPath, JSON.stringify(output, null, 2), 'utf-8');
 
-  const total = themeResults.reduce((sum, t) => sum + t.articles.length, 0);
+  const total        = themeResults.reduce((sum, t) => sum + t.articles.length, 0);
   const summaryCount = themeResults.filter(t => t.aiSummary).length;
   console.log(`\n=== Done ===`);
   console.log(`Articles: ${total} across ${themeResults.length} themes`);
@@ -496,12 +498,8 @@ async function main() {
   console.log(`Market open: ${marketOpen}`);
   console.log(`Output: ${outPath}`);
 
-  // Fail the build only if everything failed — one broken source is OK
   const noArticles = themeResults.every(t => t.articles.length === 0);
-  if (noArticles) {
-    console.error('\n✗ No articles fetched from any source. Check network and feed URLs.');
-    process.exitCode = 1;
-  }
+  if (noArticles) process.exitCode = 1;
 }
 
 main();
