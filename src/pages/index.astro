@@ -1,0 +1,470 @@
+---
+import Layout from '../layouts/Layout.astro';
+import feed from '../data/feed.json';
+
+const { lastUpdated, market, themes } = feed;
+const { vnIndex, hnxIndex, usdVnd, goldVnd, goldUsd, marketOpen, note } = market ?? {};
+
+// ── Time helpers ──────────────────────────────────────────────────────────────
+function timeAgoVi(iso) {
+  if (!iso) return null;
+  const diff = Date.now() - new Date(iso).getTime();
+  const min  = Math.floor(diff / 60000);
+  if (min < 1)  return 'vừa xong';
+  if (min < 60) return `${min} phút trước`;
+  const hr = Math.floor(min / 60);
+  if (hr < 24)  return `${hr} giờ trước`;
+  return `${Math.floor(hr / 24)} ngày trước`;
+}
+
+function formatClock(iso) {
+  if (!iso) return '--:--';
+  return new Date(iso).toLocaleString('vi-VN', {
+    hour: '2-digit', minute: '2-digit',
+    day: '2-digit',  month: '2-digit',
+    timeZone: 'Asia/Ho_Chi_Minh'
+  });
+}
+
+// ── Freshness indicator ───────────────────────────────────────────────────────
+const hoursSince = lastUpdated
+  ? (Date.now() - new Date(lastUpdated).getTime()) / 3600000
+  : null;
+
+const health = hoursSince === null ? 'stale'
+  : hoursSince < 3  ? 'fresh'
+  : hoursSince < 12 ? 'warm'
+  : 'stale';
+
+const healthLabel = health === 'fresh' ? 'Đang cập nhật'
+  : health === 'warm' ? 'Cập nhật gần đây'
+  : 'Chưa có dữ liệu';
+
+// ── Market helpers ────────────────────────────────────────────────────────────
+function fmtIndex(val) {
+  if (val == null) return '—';
+  return Number(val).toLocaleString('vi-VN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function fmtChange(val) {
+  if (val == null) return '';
+  const sign = val >= 0 ? '+' : '';
+  return `${sign}${Number(val).toFixed(2)}`;
+}
+function fmtUsd(val) {
+  if (val == null) return '—';
+  return Number(val).toLocaleString('vi-VN');
+}
+function fmtGoldVnd(val) {
+  if (val == null) return '—';
+  // Convert to triệu (millions) for compact display
+  const m = val / 1000000;
+  return m.toFixed(1) + ' tr/l';
+}
+function fmtGoldUsd(val) {
+  if (val == null) return '—';
+  return '$' + Number(val).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+}
+
+const totalArticles = themes.reduce((s, t) => s + t.articles.length, 0);
+---
+
+<Layout>
+  <div class="page">
+
+    <!-- ── Sticky ticker ─────────────────────────────────────────────────── -->
+    <div class="ticker" role="banner">
+      <div class="ticker__inner">
+        <span class={`dot dot--${health}`} aria-hidden="true"></span>
+
+        <!-- Market indices -->
+        {vnIndex ? (
+          <span class="ticker__market">
+            <span class="ticker__label">VNINDEX</span>
+            <span class="ticker__val">{fmtIndex(vnIndex.value)}</span>
+            <span class={`ticker__chg ${vnIndex.change >= 0 ? 'up' : 'down'}`}>
+              {fmtChange(vnIndex.change)}
+            </span>
+          </span>
+        ) : null}
+
+        {hnxIndex ? (
+          <span class="ticker__market">
+            <span class="ticker__label">HNX</span>
+            <span class="ticker__val">{fmtIndex(hnxIndex.value)}</span>
+            <span class={`ticker__chg ${hnxIndex.change >= 0 ? 'up' : 'down'}`}>
+              {fmtChange(hnxIndex.change)}
+            </span>
+          </span>
+        ) : null}
+
+        {usdVnd ? (
+          <span class="ticker__market">
+            <span class="ticker__label">USD/VND</span>
+            <span class="ticker__val">{fmtUsd(usdVnd.value)}</span>
+          </span>
+        ) : null}
+
+        {goldVnd ? (
+          <span class="ticker__market">
+            <span class="ticker__label">VÀNG SJC</span>
+            <span class="ticker__val">{fmtGoldVnd(goldVnd.value)}</span>
+          </span>
+        ) : null}
+
+        {goldUsd ? (
+          <span class="ticker__market">
+            <span class="ticker__label">GOLD</span>
+            <span class="ticker__val">{fmtGoldUsd(goldUsd.value)}</span>
+          </span>
+        ) : null}
+
+        {note ? (
+          <span class="ticker__closed">{note}</span>
+        ) : null}
+
+        <span class="ticker__sep" aria-hidden="true">·</span>
+        <span class="ticker__status">
+          {healthLabel} · {formatClock(lastUpdated)} · {totalArticles} tin
+        </span>
+      </div>
+    </div>
+
+    <!-- ── Masthead ───────────────────────────────────────────────────────── -->
+    <header class="masthead">
+      <a href="/" class="nameplate" aria-label="VNin1 trang chủ">
+        VNin<span class="nameplate__one">1</span>
+      </a>
+      <p class="tagline">Tin tài chính Việt Nam — gọn trong một trang</p>
+    </header>
+
+    <!-- ── Theme sections ────────────────────────────────────────────────── -->
+    <main>
+      {themes.map((theme) => (
+        <section class="theme-section" aria-labelledby={`theme-${theme.key}`}>
+
+          <div class="theme-head">
+            <h2 id={`theme-${theme.key}`} class="theme-title">
+              {theme.displayName}
+            </h2>
+            <span class="theme-count">{theme.articles.length} tin</span>
+          </div>
+
+          <!-- AI summary -->
+          {theme.aiSummary && (
+            <div class="ai-summary" role="note" aria-label="Tóm tắt tự động">
+              <span class="ai-summary__label">Tóm tắt tự động · Gemini</span>
+              <p class="ai-summary__text">{theme.aiSummary}</p>
+            </div>
+          )}
+
+          <!-- Article cards -->
+          {theme.articles.length === 0 ? (
+            <p class="theme-empty">
+              Chưa có tin trong phần này — trang sẽ tự cập nhật theo lịch hàng giờ.
+            </p>
+          ) : (
+            <ul class="cardlist">
+              {theme.articles.map((article) => (
+                <li class="card">
+                  <a
+                    class="card__link"
+                    href={article.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${article.title} — ${article.sourceName}`}
+                  >
+                    <h3 class="card__title">{article.title}</h3>
+                    {article.excerpt && (
+                      <p class="card__excerpt">{article.excerpt}</p>
+                    )}
+                    <div class="card__meta">
+                      <a
+                        class="card__source"
+                        href={article.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {article.sourceName}
+                      </a>
+                      {article.pubDate && (
+                        <span class="card__time">
+                          {timeAgoVi(article.pubDate)}
+                        </span>
+                      )}
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      ))}
+    </main>
+
+    <!-- ── Footer ────────────────────────────────────────────────────────── -->
+    <footer class="footer">
+      <p class="footer__disclaimer">
+        VNin1 là trang tổng hợp tiêu đề tự động, không phải đơn vị xuất bản.
+        Mỗi tin hiển thị tiêu đề và tóm tắt do chính nguồn cung cấp qua RSS,
+        kèm liên kết về bài gốc. Toàn bộ nội dung thuộc về các nguồn gốc.
+      </p>
+      <div class="footer__sources">
+        <span>Nguồn:</span>
+        <a href="https://cafef.vn" target="_blank" rel="noopener noreferrer">CafeF</a>
+        <span>·</span>
+        <a href="https://vneconomy.vn" target="_blank" rel="noopener noreferrer">VnEconomy</a>
+      </div>
+    </footer>
+
+  </div>
+</Layout>
+
+<style>
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+  }
+
+  /* ── Ticker ─────────────────────────────────────────────────────────────── */
+  .ticker {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--ink);
+    border-bottom: 1px solid var(--hairline);
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+
+  .ticker__inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 9px 0;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--muted);
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  .ticker__inner::-webkit-scrollbar { display: none; }
+
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot--fresh {
+    background: var(--down-green);
+    animation: pulse 2.5s infinite;
+  }
+  .dot--warm  { background: var(--gold); }
+  .dot--stale { background: var(--up-red); }
+
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(47,158,100,0.6); }
+    70%  { box-shadow: 0 0 0 6px rgba(47,158,100,0); }
+    100% { box-shadow: 0 0 0 0 rgba(47,158,100,0); }
+  }
+
+  .ticker__market {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .ticker__label { color: var(--muted); letter-spacing: 0.06em; }
+  .ticker__val   { color: var(--paper); font-weight: 500; }
+  .ticker__chg   { font-size: 11px; }
+  .ticker__chg.up   { color: var(--down-green); }
+  .ticker__chg.down { color: var(--up-red); }
+  .ticker__closed   { color: var(--gold); font-size: 11px; }
+  .ticker__sep      { color: var(--hairline); }
+  .ticker__status   { color: var(--muted); font-size: 11px; }
+
+  /* ── Masthead ───────────────────────────────────────────────────────────── */
+  .masthead {
+    padding: 32px 0 20px;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .nameplate {
+    display: inline-block;
+    font-weight: 800;
+    font-size: clamp(32px, 5vw, 48px);
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: var(--paper);
+    line-height: 1;
+  }
+  .nameplate__one { color: var(--gold); }
+
+  .tagline {
+    margin: 6px 0 0;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  /* ── Theme sections ─────────────────────────────────────────────────────── */
+  .theme-section {
+    padding: 24px 0 4px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .theme-section:last-of-type { border-bottom: none; }
+
+  .theme-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .theme-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--paper);
+  }
+
+  .theme-count {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .theme-empty {
+    color: var(--muted);
+    font-size: 14px;
+    padding: 20px 0;
+  }
+
+  /* ── AI summary ─────────────────────────────────────────────────────────── */
+  .ai-summary {
+    background: var(--ink-softer);
+    border-left: 3px solid var(--gold);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+  }
+
+  .ai-summary__label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--gold-soft);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .ai-summary__text {
+    margin: 0;
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: var(--paper);
+    opacity: 0.9;
+  }
+
+  /* ── Cards ──────────────────────────────────────────────────────────────── */
+  .cardlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 0;
+  }
+
+  .card { border-top: 1px solid var(--hairline); }
+
+  .card__link {
+    display: block;
+    text-decoration: none;
+    padding: 12px 10px 12px 12px;
+    border-left: 2px solid transparent;
+    border-radius: 2px;
+    transition: background 0.12s, border-color 0.12s;
+  }
+  .card__link:hover,
+  .card__link:focus-visible {
+    background: var(--ink-soft);
+    border-left-color: var(--gold);
+  }
+
+  .card__title {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--paper);
+  }
+
+  .card__excerpt {
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+
+  .card__meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+  }
+
+  .card__source {
+    color: var(--gold-soft);
+    text-decoration: none;
+    background: rgba(212, 165, 58, 0.1);
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+  }
+  .card__source:hover { background: rgba(212,165,58,0.2); }
+
+  .card__time {
+    color: var(--muted);
+    font-size: 10px;
+  }
+
+  /* ── Footer ─────────────────────────────────────────────────────────────── */
+  .footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--hairline);
+    color: var(--muted);
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+
+  .footer__disclaimer { margin: 0 0 8px; }
+
+  .footer__sources {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+  }
+
+  .footer a {
+    color: var(--gold-soft);
+    text-decoration: none;
+  }
+  .footer a:hover { text-decoration: underline; }
+
+  /* ── Responsive ─────────────────────────────────────────────────────────── */
+  @media (max-width: 680px) {
+    .cardlist {
+      grid-template-columns: 1fr;
+    }
+    .masthead { padding: 36px 0 24px; }
+    .theme-section { padding: 28px 0 8px; }
+  }
+</style>

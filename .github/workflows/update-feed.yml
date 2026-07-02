@@ -1,0 +1,42 @@
+name: Update news feed
+
+on:
+  schedule:
+    # Runs at minute 5 past every hour, UTC. Adjust if you want a different cadence —
+    # GitHub's free tier gives 2,000 build minutes/month, and each run here takes
+    # well under a minute, so hourly is very safe.
+    - cron: '5 * * * *'
+  workflow_dispatch: {} # lets you trigger a manual refresh from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch latest feeds
+        run: npm run fetch
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          if git diff --quiet -- src/data/feed.json; then
+            echo "No changes — nothing to commit."
+          else
+            git add src/data/feed.json
+            git commit -m "chore: refresh feed data [skip ci]"
+            git push
+          fi

@@ -1,0 +1,68 @@
+---
+const {
+  title = 'VNin1 — Tin tài chính Việt Nam, gọn trong một trang',
+  description = 'VNin1 gộp tin mới nhất từ CafeF và VnEconomy theo chủ đề — chứng khoán, bất động sản, vĩ mô.'
+} = Astro.props;
+---
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,800;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --ink:        #0e1420;
+    --ink-soft:   #161d2c;
+    --ink-softer: #1d2538;
+    --paper:      #eceff3;
+    --muted:      #8893a6;
+    --gold:       #d4a53a;
+    --gold-soft:  #e8c879;
+    --up-red:     #d64545;
+    --down-green: #2f9e64;
+    --hairline:   rgba(236,239,243,0.10);
+
+    --font-display: 'Be Vietnam Pro', system-ui, sans-serif;
+    --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--font-display);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+</style>

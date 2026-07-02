@@ -1,0 +1,16 @@
+{
+  "name": "vn-biz-wire",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch": "node scripts/fetch-feeds.mjs"
+  },
+  "dependencies": {
+    "astro": "^4.16.0",
+    "fast-xml-parser": "^4.5.0"
+  }
+}
