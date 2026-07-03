@@ -6,7 +6,7 @@ import path from 'node:path';
 const MAX_ITEMS_PER_FEED    = 3;
 const EXCERPT_LENGTH        = 160;
 const FETCH_TIMEOUT_MS      = 15000;
-const AI_SUMMARY_MAX_TOKENS = 180;
+const AI_SUMMARY_MAX_TOKENS = 300;
 
 // ─── Theme + source config ────────────────────────────────────────────────────
 const THEMES = [
@@ -71,11 +71,11 @@ const THEMES = [
         ]
       },
       {
-        sourceId: 'marketwatch', sourceName: 'MarketWatch',
-        sourceUrl: 'https://www.marketwatch.com', attribution: 'MarketWatch',
+        sourceId: 'cnbc2', sourceName: 'CNBC Markets',
+        sourceUrl: 'https://www.cnbc.com', attribution: 'CNBC',
         candidateUrls: [
-          'https://feeds.content.dowjones.io/public/rss/mw_topstories',
-          'https://www.marketwatch.com/rss/topstories'
+          'https://www.cnbc.com/id/15839135/device/rss/rss.html',
+          'https://www.cnbc.com/id/10000664/device/rss/rss.html'
         ]
       },
       {
@@ -135,10 +135,26 @@ const CONTENT_BLOCKLIST = [
   'cam kết với người dân', 'mời gọi đầu tư hàng chục',
 ];
 
+// Non-market content patterns for international English sources
+// Personal finance, lifestyle, opinion pieces that aren't market-moving news
+const INTL_BLOCKLIST = [
+  'social security', 'my doctor', 'my husband', 'my wife', 'my boss',
+  'dear quentin', 'dear moneyist', 'fundraising tactics', 'working at walmart',
+  'labor of love', 'best places to retire', 'buying a home', 'paying off debt',
+  'i claimed', 'i retired', 'i have a', 'how to save', 'how to pay',
+  'opinion:', 'column:', 'commentary:', 'what to know about mail'
+];
+
 function filterArticles(articles, isInternational = false) {
-  // International section: English content, VN blocklist not applicable
-  if (isInternational) return articles;
   const lower = s => (s ?? '').toLowerCase();
+  if (isInternational) {
+    // For international: drop personal finance / lifestyle, keep market news
+    return articles.filter(a => {
+      const text = lower(a.title) + ' ' + lower(a.excerpt);
+      return !INTL_BLOCKLIST.some(phrase => text.includes(phrase));
+    });
+  }
+  // For VN sections: drop propaganda / ad content
   return articles.filter(a => {
     const text = lower(a.title) + ' ' + lower(a.excerpt);
     return !CONTENT_BLOCKLIST.some(phrase => text.includes(lower(phrase)));
@@ -146,7 +162,7 @@ function filterArticles(articles, isInternational = false) {
 }
 
 // ─── Gemini config ────────────────────────────────────────────────────────────
-const GEMINI_MODEL    = 'gemini-2.5-flash';
+const GEMINI_MODEL    = 'gemini-2.0-flash';
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -420,31 +436,70 @@ async function fetchGlobalIndices() {
 // ─── AI summaries ─────────────────────────────────────────────────────────────
 async function generateSummary(themeName, themeKey, articles) {
   const apiKey = process.env.GEMINI_API_KEY;
-  if (!apiKey) { console.warn('  ⚠ GEMINI_API_KEY not set'); return null; }
+  if (!apiKey) { console.warn('  \u26a0 GEMINI_API_KEY not set'); return null; }
   if (articles.length === 0) return null;
 
-  const headlines = articles.slice(0, 12).map((a, i) => `${i + 1}. ${a.title}`).join('\n');
+  const headlines = articles
+    .slice(0, 12)
+    .map((a, i) => (i + 1) + '. ' + a.title)
+    .join('\n');
 
-  const prompt = themeKey === 'international'
-    ? `These are international finance headlines. Write 1-2 sharp sentences in Vietnamese explaining what this means for Vietnamese investors. Be specific, no bullet points, no speculation. Headlines:\n${headlines}`
-    : `Viết 1-2 câu theo phong cách Bloomberg/Reuters bằng tiếng Việt về chủ đề "${themeName}". Ngắn gọn, súc tích, nêu bật con số và diễn biến cụ thể. Không dùng gạch đầu dòng. Chỉ dựa vào các tiêu đề sau — không suy đoán:\n${headlines}`;
+  let prompt;
+  if (themeKey === 'international') {
+    prompt = 'You are a financial wire editor. Based only on these headlines, write a 2-sentence Vietnamese summary (max 40 words total).\n\n'
+      + 'STRUCTURE:\n'
+      + 'Sentence 1: What happened — be specific: index names, % moves, company names.\n'
+      + 'Sentence 2: Why/context — one sharp causal factor.\n\n'
+      + 'RULES:\n'
+      + '- NO filler: "các tiêu đề cho thấy", "đáng chú ý"\n'
+      + '- Lead with numbers or named entities where available\n'
+      + '- Vietnamese language only\n'
+      + '- Only use information from the headlines — no speculation\n'
+      + '- Start directly with the summary, no preamble\n\n'
+      + 'GOOD: "Thị trường Mỹ tăng mạnh, S&P 500 +1.7% sau số liệu việc làm tháng 6 yếu hơn dự báo. Khả năng Fed cắt lãi suất sớm hơn tăng lên."\n\n'
+      + 'Headlines:\n' + headlines;
+  } else {
+    prompt = 'Bạn là biên tập viên tin tức tài chính. Viết tóm tắt cho mục "' + themeName + '" theo đúng định dạng:\n\n'
+      + 'CẤU TRÚC (2 câu, tối đa 40 từ):\n'
+      + 'Câu 1: Điều gì xảy ra — nêu cụ thể: số liệu, tên công ty/tổ chức, mức thay đổi.\n'
+      + 'Câu 2: Tại sao/Bối cảnh — một nguyên nhân ngắn gọn.\n\n'
+      + 'QUY TẮC:\n'
+      + '- KHÔNG dùng: "các tiêu đề cho thấy", "thị trường đang", "đáng chú ý", "nhiều diễn biến"\n'
+      + '- Bắt đầu TRỰC TIẾP bằng nội dung tóm tắt, không dùng "Vui lòng", không hỏi thêm\n'
+      + '- Chỉ dựa vào thông tin trong tiêu đề, không suy đoán\n\n'
+      + 'VÍ DỤ TỐT: "PNJ giảm kịch sàn, dư bán 12,5 triệu đơn vị sau vụ khởi tố giám đốc P-Lab. Cổ phiếu chứng khoán nhỏ tăng hơn 14%, dẫn đầu thanh khoản toàn thị trường."\n\n'
+      + 'Tiêu đề:\n' + headlines;
+  }
 
   try {
-    const res = await fetchWithTimeout(`${GEMINI_ENDPOINT}?key=${apiKey}`, {
+    const res = await fetchWithTimeout(GEMINI_ENDPOINT + '?key=' + apiKey, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { maxOutputTokens: AI_SUMMARY_MAX_TOKENS, temperature: 0.3 }
+        generationConfig: { maxOutputTokens: AI_SUMMARY_MAX_TOKENS, temperature: 0.2 }
       })
     });
     const data    = await res.json();
-    const summary = data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
+    // Filter out 'thought' parts (thinking models return both thinking + answer)
+    // Take only the actual response parts
+    const parts = data?.candidates?.[0]?.content?.parts ?? [];
+    const summary = parts
+      .filter(p => !p.thought)
+      .map(p => p.text ?? '')
+      .join('')
+      .trim();
     if (!summary) throw new Error('Empty response from Gemini');
-    console.log(`  ✓ AI summary for "${themeName}": ${summary.slice(0, 60)}…`);
+    console.log('  \u2713 AI summary for "' + themeName + '": ' + summary.slice(0, 80) + '...');
     return summary;
   } catch (err) {
-    console.warn(`  ⚠ Gemini summary for "${themeName}": ${err.message}`);
+    console.warn('  \u26a0 Gemini summary for "' + themeName + '": ' + err.message);
+    if (err.message.includes('HTTP')) {
+      try {
+        const errData = await res?.json?.();
+        console.warn('  API error details:', JSON.stringify(errData?.error ?? errData).slice(0, 200));
+      } catch {}
+    }
     return null;
   }
 }
