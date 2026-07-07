@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T11:23:39.462Z",
+  "lastUpdated": "2026-07-07T19:17:48.887Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -17,17 +17,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7537.43,
-      "change": 183.40999999999985,
-      "changePercent": 2.4940100788412303
+      "value": 7491.51,
+      "change": 51.07999999999993,
+      "changePercent": 0.6865194619128185
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26121.16,
-      "change": 823.5400000000009,
-      "changePercent": 3.255405053914166
+      "value": 25771.705,
+      "change": -48.43499999999767,
+      "changePercent": -0.1875861246298342
     },
     {
       "symbol": "^N225",
@@ -49,9 +49,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25665.64,
-      "change": 669.8299999999981,
-      "changePercent": 2.679769129306064
+      "value": 25465.25,
+      "change": 469.4399999999987,
+      "changePercent": 1.8780747653306642
     }
   ],
   "themes": [
@@ -60,10 +60,30 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Hai cổ phiếu lớn bị tự doanh CTCK \"xả\" ròng trăm tỷ phiên 7/7",
-          "link": "https://cafef.vn/hai-co-phieu-lon-bi-tu-doanh-ctck-xa-rong-tram-ty-phien-7-7-18826070717204852.chn",
-          "pubDate": "2026-07-07T10:20:00.000Z",
-          "excerpt": "Tự doanh CTCK bán ròng 206 tỷ đồng trên HOSE.",
+          "title": "Nhà đầu tư nước ngoài bán gần 800 nghìn cổ phiếu PNJ sau biến cố kim cương",
+          "link": "https://cafef.vn/nha-dau-tu-nuoc-ngoai-ban-gan-800-nghin-co-phieu-pnj-sau-bien-co-kim-cuong-188260707224855479.chn",
+          "pubDate": "2026-07-07T17:08:00.000Z",
+          "excerpt": "Đây cũng là giai đoạn cổ phiếu này liên tục giảm hết biên độ, với lượng dư bán tại giá sàn duy trì ở mức cao.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Ba kịch bản cho chứng khoán Việt Nam trong tháng 7",
+          "link": "https://cafef.vn/ba-kich-ban-cho-chung-khoan-viet-nam-trong-thang-7-188260707224806786.chn",
+          "pubDate": "2026-07-07T17:05:00.000Z",
+          "excerpt": "TPS cho rằng nền tảng vĩ mô đang chuyển biến thuận lợi hơn, trong khi mùa công bố kết quả kinh doanh quý 2 có thể trở thành tâm điểm của dòng tiền.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Dragon Capital chỉ ra nghịch lý trên thị trường chứng khoán, gọi tên hai cổ phiếu đang bị định giá thấp hơn giá trị",
+          "link": "https://cafef.vn/dragon-capital-chi-ra-nghich-ly-tren-thi-truong-chung-khoan-goi-ten-hai-co-phieu-dang-bi-dinh-gia-thap-hon-gia-tri-188260707220306571.chn",
+          "pubDate": "2026-07-07T17:03:00.000Z",
+          "excerpt": "Theo Dragon Capital, thị trường biến động mạnh khiến giá cổ phiếu tại nhiều doanh nghiệp chưa phản ánh đầy đủ giá trị nội tại.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -98,26 +118,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
-        },
-        {
-          "title": "Hàng triệu cổ phiếu PNJ được “giải cứu”",
-          "link": "https://cafef.vn/hang-trieu-co-phieu-pnj-duoc-giai-cuu-188260707152310484.chn",
-          "pubDate": "2026-07-07T08:45:00.000Z",
-          "excerpt": "Trong trường hợp cổ phiếu tiếp tục chịu áp lực giảm sâu ở những phiên kế tiếp, số cổ phiếu này có thể được xem là đã tạm thời được “giải cứu” khỏi chuỗi giảm…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Phiên 7/7: Khối ngoại đảo chiều mua ròng, tung hơn trăm tỷ gom một cổ phiếu trên HOSE",
-          "link": "https://cafef.vn/phien-7-7-khoi-ngoai-dao-chieu-mua-rong-tung-hon-tram-ty-gom-mot-co-phieu-tren-hose-18826070715154753.chn",
-          "pubDate": "2026-07-07T08:45:00.000Z",
-          "excerpt": "Giao dịch của khối ngoại là điểm cộng khi mua ròng khoảng 43 tỷ đồng cổ phiếu trên toàn thị trường.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -127,30 +127,30 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Có những nơi chốn không chỉ để ở, mà để định danh",
-          "link": "https://cafef.vn/co-nhung-noi-chon-khong-chi-de-o-ma-de-dinh-danh-188260707153948616.chn",
-          "pubDate": "2026-07-07T10:30:00.000Z",
-          "excerpt": "Một vị trí xác định nơi để sống, nhưng chính địa danh ấy mới phản chiếu lựa chọn, hệ giá trị và vị thế của chủ nhân. Đó cũng là khác biệt giữa một bất động sản…",
+          "title": "Vi phạm lựa chọn nhà thầu, nghiệm thu thanh toán tại Cục Hàng hải và Đường thủy Việt Nam",
+          "link": "https://cafef.vn/vi-pham-lua-chon-nha-thau-nghiem-thu-thanh-toan-tai-cuc-hang-hai-va-duong-thuy-viet-nam-188260707195203743.chn",
+          "pubDate": "2026-07-07T14:19:00.000Z",
+          "excerpt": "Cục Hàng hải và Đường thủy Việt Nam bị kết luận để xảy ra nhiều vi phạm trong công tác lập, phê duyệt quy trình bảo trì công trình hàng hải; công tác lựa chọn…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Giá căn hộ TP.HCM lập mặt bằng mới 76 triệu đồng/m², 90% nguồn hàng được hấp thụ",
-          "link": "https://cafef.vn/gia-can-ho-tphcm-lap-mat-bang-moi-76-trieu-dong-m-90-nguon-hang-duoc-hap-thu-188260707164106882.chn",
-          "pubDate": "2026-07-07T10:23:00.000Z",
-          "excerpt": "Thị trường bất động sản nhà ở TP.HCM tiếp tục ghi nhận những tín hiệu phục hồi mạnh mẽ trong quý II/2026 khi nguồn cung tăng, sức mua duy trì tích cực và giá…",
+          "title": "Hà Nội: Vì sao vỉa hè vừa làm xong lại đào lên lắp cống?",
+          "link": "https://cafef.vn/ha-noi-vi-sao-via-he-vua-lam-xong-lai-dao-len-lap-cong-188260707193307068.chn",
+          "pubDate": "2026-07-07T13:59:00.000Z",
+          "excerpt": "Theo UBND phường Yên Sở, TP. Hà Nội, việc “Vỉa hè vừa 'thay áo mới' đã tiếp tục đào lên thi công cống thoát nước” ở đường Đỗ Mười do khi thực hiện dự án đơn vị…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Sau khi Vingroup, T&T,... đổ bộ, tỉnh từng rộng nhất Việt Nam sắp có thêm khu đô thị hơn 7.200 tỷ đồng",
-          "link": "https://cafef.vn/sau-khi-vingroup-tt-do-bo-tinh-tung-rong-nhat-viet-nam-sap-co-them-khu-do-thi-hon-7200-ty-dong-18826070716080282.chn",
-          "pubDate": "2026-07-07T09:54:00.000Z",
-          "excerpt": "Dự án Khu đô thị, du lịch nghỉ dưỡng và thể thao phía Nam đường N2 (giai đoạn 1) tại Nghệ An có tổng vốn đầu tư hơn 7.226 tỷ đồng.",
+          "title": "Hà Nội giao hơn 24.000m2 đất cho doanh nghiệp xây dựng nhà ở tại phường Bồ Đề",
+          "link": "https://cafef.vn/ha-noi-giao-hon-24000m2-dat-cho-doanh-nghiep-xay-dung-nha-o-tai-phuong-bo-de-18826070719311497.chn",
+          "pubDate": "2026-07-07T13:30:00.000Z",
+          "excerpt": "Hà Nội giao doanh nghiệp tổng diện tích 24.727 m² đất để xây dựng khu nhà ở (bao gồm: 17.559,6 m2 đất để xây dựng công trình nhà ở thấp tầng và nhà ở cao tầng)…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -194,30 +194,40 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Chính quyền nói gì về việc 'vỉa hè vừa thay áo mới đã tiếp tục đào lên thi công cống thoát nước'?",
-          "link": "https://cafef.vn/chinh-quyen-noi-gi-ve-viec-via-he-vua-thay-ao-moi-da-tiep-tuc-dao-len-thi-cong-cong-thoat-nuoc-188260707162812686.chn",
-          "pubDate": "2026-07-07T10:00:00.000Z",
-          "excerpt": "UBND phường Yên Sở (TP Hà Nội) vừa có thông tin phản hồi liên quan đến vấn đề báo Tiền Phong nêu “Vỉa hè vừa 'thay áo mới' đã tiếp tục đào lên thi công cống…",
+          "title": "Dồn lực triển khai dự án khoa học công nghệ hạt nhân",
+          "link": "https://vneconomy.vn/don-luc-trien-khai-du-an-khoa-hoc-cong-nghe-hat-nhan.htm",
+          "pubDate": "2026-07-07T15:33:06.000Z",
+          "excerpt": "Việt Nam đang từng bước làm chủ công nghệ lò phản ứng mô-đun nhỏ; phát triển các dược chất phóng xạ thế hệ mới để chẩn đoán và điều trị ung thư, hướng đến phục…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Cơ quan Thuế yêu cầu BIDV, Agribank, VietinBank, MB... trừ tiền, phong toả tài khoản ngân hàng của loạt người nộp thuế có tên sau đây",
+          "link": "https://cafef.vn/co-quan-thue-yeu-cau-bidv-agribank-vietinbank-mb-tru-tien-phong-toa-tai-khoan-ngan-hang-cua-loat-nguoi-nop-thue-co-ten-sau-day-188260707212049493.chn",
+          "pubDate": "2026-07-07T15:30:00.000Z",
+          "excerpt": "Các trường hợp này bị cưỡng chế với lý do người nộp thuế có tiền thuế nợ quá 90 ngày kể từ ngày hết thời hạn nộp theo quy định.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Cơ quan Thuế cảnh báo tới tất cả người dân có giao dịch trong tài khoản với nội dung chuyển khoản sau",
-          "link": "https://cafef.vn/co-quan-thue-canh-bao-toi-tat-ca-nguoi-dan-co-giao-dich-trong-tai-khoan-voi-noi-dung-chuyen-khoan-sau-188260707154802362.chn",
-          "pubDate": "2026-07-07T09:40:00.000Z",
-          "excerpt": "Những thông tin quan trọng về thuế mà nhiều người dân cần nắm rõ.",
+          "title": "Chưa áp dụng ngay giá điện theo giờ đối với khách hàng sinh hoạt",
+          "link": "https://cafef.vn/chua-ap-dung-ngay-gia-dien-theo-gio-doi-voi-khach-hang-sinh-hoat-188260707193938459.chn",
+          "pubDate": "2026-07-07T13:13:00.000Z",
+          "excerpt": "Chiều 7/7, tại buổi họp báo thường kỳ quý II do Bộ Công Thương tổ chức, đại diện Cục Điện lực cho biết hiện việc áp dụng biểu giá điện theo thời gian sử dụng…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Cao tốc Hà Nội - Bắc Giang: Bao giờ hết bất cập giao thông hỗn hợp?",
-          "link": "https://cafef.vn/cao-toc-ha-noi-bac-giang-bao-gio-het-bat-cap-giao-thong-hon-hop-188260707160329071.chn",
-          "pubDate": "2026-07-07T09:33:00.000Z",
-          "excerpt": "Sau 10 năm đi vào hoạt động tuyến cao tốc Hà Nội - Bắc Giang vẫn tồn tại nhiều bất cập. Trong đó có việc xe máy vẫn đi chung ô tô dẫn đến nguy cơ tai nạn, quá…",
+          "title": "Nhập siêu cao nhất 10 năm: Có trong tầm kiểm soát?",
+          "link": "https://cafef.vn/nhap-sieu-cao-nhat-10-nam-co-trong-tam-kiem-soat-188260707194124237.chn",
+          "pubDate": "2026-07-07T13:12:00.000Z",
+          "excerpt": "Sau hơn 10 năm liên tục duy trì xuất siêu, cán cân thương mại của Việt Nam trong 6 tháng đầu năm nay ghi nhận mức nhập siêu khoảng 16,6 tỷ USD. Lãnh đạo Cục…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -238,16 +248,6 @@
           "link": "https://vneconomy.vn/tu-1072026-the-len-tau-hoa-se-khong-con-hien-thi-gia-ve.htm",
           "pubDate": "2026-07-07T02:59:57.000Z",
           "excerpt": "Từ ngày 10/7/2026, ngành Đường sắt sẽ điều chỉnh thông tin hiển thị trên \"Thẻ lên tàu hỏa\", theo đó không còn thể hiện giá vé trên thẻ nhằm phù hợp với chính…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
-        },
-        {
-          "title": "Huế mời gọi đầu tư Khu công nghiệp La Sơn - Khu số 02 với tổng vốn hơn 1.700 tỷ đồng",
-          "link": "https://vneconomy.vn/hue-moi-goi-dau-tu-khu-cong-nghiep-la-son-khu-so-02-voi-tong-von-hon-1700-ty-dong.htm",
-          "pubDate": "2026-07-07T02:49:15.000Z",
-          "excerpt": "Tiếp tục mở rộng không gian phát triển công nghiệp, thành phố Huế vừa công bố mời quan tâm dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng Khu công nghiệp…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
