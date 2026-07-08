@@ -170,9 +170,7 @@ const hasGlobalIndices = globalIndices.some(i => i.value != null);
           <!-- AI summary -->
           {theme.aiSummary && (
             <div class="ai-summary" role="note">
-              <span class="ai-summary__label">
-                {theme.key === 'international' ? 'AI Summary' : 'AI Summary'}
-              </span>
+              <span class="ai-summary__label">AI Summary</span>
               <p class="ai-summary__text">{theme.aiSummary}</p>
             </div>
           )}
@@ -336,7 +334,7 @@ const hasGlobalIndices = globalIndices.some(i => i.value != null);
     text-transform: uppercase; margin-bottom: 8px;
   }
   .ai-summary__text {
-    margin: 0; font-size: 14.5px; line-height: 1.65;
+    margin: 0; font-size: 14px; line-height: 1.65;
     color: var(--paper); opacity: 0.9;
   }
 
