@@ -5,17 +5,24 @@ echo.
 
 cd /d "C:\Users\phong\OneDrive\Desktop\Astro page"
 
+:: Pull latest from GitHub first
+echo Syncing with GitHub...
+git fetch origin
+git merge origin/main --no-edit
+
+:: Stage everything EXCEPT feed.json (which is managed by GitHub Actions only)
+git add -- . ":(exclude)src/data/feed.json"
+
 :: Check if there is anything to commit
-git diff --quiet && git diff --cached --quiet
+git diff --cached --quiet
 if %errorlevel%==0 (
-  echo No changes to deploy.
+  echo No code changes to deploy.
   pause
   exit /b 0
 )
 
 :: Show what changed
 echo Changed files:
-git diff --name-only
 git diff --cached --name-only
 echo.
 
@@ -23,8 +30,7 @@ echo.
 set /p MSG=Commit message (or press Enter for default): 
 if "%MSG%"=="" set MSG=Update site content and code
 
-:: Stage, commit, push
-git add .
+:: Commit and push
 git commit -m "%MSG%"
 git push
 
