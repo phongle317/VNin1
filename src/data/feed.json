@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T16:44:18.650Z",
+  "lastUpdated": "2026-07-14T20:43:22.425Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4066.5,
+      "value": 4058.9,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7543.52,
-      "change": 39.67000000000007,
-      "changePercent": 0.5286619535305219
+      "value": 7543.59,
+      "change": 39.73999999999978,
+      "changePercent": 0.5295948079985578
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26118.898,
-      "change": 300.20800000000236,
-      "changePercent": 1.1627545781757416
+      "value": 26107.008,
+      "change": 288.31800000000294,
+      "changePercent": 1.1167026677186294
     },
     {
       "symbol": "^N225",
@@ -64,6 +64,76 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "Quả trầu bà được săn lùng nhờ 'trào lưu mukbang'",
+          "link": "https://vnexpress.net/qua-trau-ba-duoc-san-lung-nho-trao-luu-mukbang-5097334.html",
+          "pubDate": "2026-07-14T17:20:49.000Z",
+          "excerpt": "Vốn chỉ để rụng dưới gốc, trái trầu bà từ các nhà vườn Việt nay được nhiều người săn lùng, bán 250.000-380.000 đồng mỗi quả nhờ trào lưu mukbang trên nền tảng…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "FIFA kiếm bội tiền khi Messi, Ronaldo, Mbappé “đổ mồ hôi” mùa World Cup",
+          "link": "https://cafef.vn/fifa-kiem-boi-tien-khi-messi-ronaldo-mbappe-do-mo-hoi-mua-world-cup-188260714224335848.chn",
+          "pubDate": "2026-07-14T17:10:00.000Z",
+          "excerpt": "Sức hút của World Cup 2026 rất lớn khi hầu hết các ngôi sao lớn của làng bóng đá thế giới như Messi, C.Ronaldo, Kylian Mbappé, Harry Kane, Erling Haaland,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Hai “gã khổng lồ” nghìn tỷ USD bán hơn trăm tấn vàng chỉ trong vài tháng",
+          "link": "https://cafef.vn/hai-ga-khong-lo-nghin-ty-usd-ban-hon-tram-tan-vang-chi-trong-vai-thang-188260714223901896.chn",
+          "pubDate": "2026-07-14T17:07:00.000Z",
+          "excerpt": "Điều này không đồng nghĩa các tổ chức đang quay lưng với vàng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Một doanh nghiệp sắp trả cổ tức tiền mặt “khủng” 4.500 đồng/cp, cao kỷ lục",
+          "link": "https://cafef.vn/mot-doanh-nghiep-sap-tra-co-tuc-tien-mat-khung-4500-dong-cp-cao-ky-luc-188260714235717506.chn",
+          "pubDate": "2026-07-14T17:06:00.000Z",
+          "excerpt": "Đây là mức cổ tức tiền mặt cao nhất kể từ khi doanh nghiệp niêm yết.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "CGV thông báo quan trọng về lãnh đạo cấp cao",
+          "link": "https://cafef.vn/cgv-thong-bao-quan-trong-ve-lanh-dao-cap-cao-188260714222208239.chn",
+          "pubDate": "2026-07-14T17:05:00.000Z",
+          "excerpt": "Ở một diễn biến khác, CGV cũng công bố quyết định bổ nhiệm Kế toán trưởng mới.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Buồn của nhà đầu tư chứng khoán: Gần 900 cổ phiếu giảm giá, tài khoản thua lỗ hàng chục phần trăm",
+          "link": "https://cafef.vn/buon-cua-nha-dau-tu-chung-khoan-gan-900-co-phieu-giam-gia-tai-khoan-thua-lo-hang-chuc-phan-tram-188260714221619499.chn",
+          "pubDate": "2026-07-14T17:03:00.000Z",
+          "excerpt": "Không ít cổ phiếu có thể khiến nhà đầu tư “mất tiền” nếu nắm giữ từ đầu năm.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Giới đầu tư dự báo Fed chưa tăng lãi suất",
+          "link": "https://vnexpress.net/gioi-dau-tu-du-bao-fed-chua-tang-lai-suat-5097493.html",
+          "pubDate": "2026-07-14T17:03:00.000Z",
+          "excerpt": "Sau kết quả chỉ số giá tiêu dùng (CPI) tháng 6 giảm nhẹ, giới đầu tư dự báo khả năng Fed tăng lãi suất cuối tháng này khá thấp.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
           "title": "Chuyên gia: Áp lực margin tăng cao, thị trường vẫn nghiêng về tiêu cực",
           "link": "https://vneconomy.vn/chuyen-gia-ap-luc-margin-tang-cao-thi-truong-van-nghieng-ve-tieu-cuc.htm",
           "pubDate": "2026-07-14T15:49:20.000Z",
@@ -72,76 +142,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
-        },
-        {
-          "title": "Bộ Tài chính sang Nhật trao đổi kinh nghiệm về phát triển thị trường chứng khoán",
-          "link": "https://cafef.vn/bo-tai-chinh-sang-nhat-trao-doi-kinh-nghiem-ve-phat-trien-thi-truong-chung-khoan-188260714220703727.chn",
-          "pubDate": "2026-07-14T15:13:00.000Z",
-          "excerpt": "Theo Thứ trưởng, những kinh nghiệm và sự hỗ trợ của phía Nhật Bản đã góp phần quan trọng vào quá trình xây dựng, hoàn thiện thể chế và phát triển thị trường…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Ngọc Châu Âu lên tiếng về chất lượng những viên kim cương đã bán ra",
-          "link": "https://cafef.vn/ngoc-chau-au-len-tieng-ve-chat-luong-nhung-vien-kim-cuong-da-ban-ra-188260714204822424.chn",
-          "pubDate": "2026-07-14T14:32:00.000Z",
-          "excerpt": "Doanh nghiệp cam kết mọi sản phẩm kim cương đã bán ra đều đảm bảo đúng chất lượng theo công bố.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Dòng tiền tổ chức tiếp tục gom hàng",
-          "link": "https://vneconomy.vn/dong-tien-to-chuc-tiep-tuc-gom-hang.htm",
-          "pubDate": "2026-07-14T14:18:25.000Z",
-          "excerpt": "Nhà đầu tư tổ chức trong nước hôm nay mua ròng 358,3 tỷ đồng. Tính riêng giao dịch khớp lệnh, khối này mua ròng 168,8 tỷ đồng.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
-        },
-        {
-          "title": "Ba thương hiệu kim cương lớn đồng loạt đóng cửa",
-          "link": "https://vnexpress.net/ba-thuong-hieu-kim-cuong-kim-ly-ngoc-tam-ngoc-chau-au-dong-loat-dong-cua-5097467.html",
-          "pubDate": "2026-07-14T12:21:28.000Z",
-          "excerpt": "Sau khi ba chủ tiệm Kim Lý, Ngọc Châu Âu, Ngọc Tâm bị khởi tố trong đường dây buôn lậu gần 30.000 viên kim cương, các cửa hàng thuộc những thương hiệu này đồng…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Tại sao chiết khấu b&aacute;n lẻ xăng dầu giảm mạnh?",
-          "link": "https://thanhnien.vn/tai-sao-chiet-khau-ban-le-xang-dau-giam-manh-185260714150506924.htm",
-          "pubDate": "2026-07-14T12:00:00.000Z",
-          "excerpt": "Khi gi&aacute; dầu thế giới biến động tăng mạnh, chiết khấu b&aacute;n lẻ xăng dầu trong nước lại lao dốc, nhiều nơi chỉ 5 - 20 đồng/l&iacute;t, thậm…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Cục Thuế lưu &yacute; điểm mới về khai thuế bổ sung, ho&agrave;n thuế tự động",
-          "link": "https://thanhnien.vn/cuc-thue-luu-y-diem-moi-ve-khai-thue-bo-sung-hoan-thue-tu-dong-185260713102248125.htm",
-          "pubDate": "2026-07-14T11:20:00.000Z",
-          "excerpt": "Từ 1.7, người nộp thuế ph&aacute;t hiện hồ sơ khai thuế đ&atilde; nộp c&oacute; sai s&oacute;t được khai bổ sung trong 5 năm (trước đ&acirc;y l&agrave; 10…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Phát ngôn của chủ tiệm vàng Kim Lý trước khi bị khởi tố gây chú ý: \"Mình làm đúng thì không có gì phải sợ\"",
-          "link": "https://cafef.vn/phat-ngon-cua-chu-tiem-vang-kim-ly-truoc-khi-bi-khoi-to-gay-chu-y-minh-lam-dung-thi-khong-co-gi-phai-so-188260714164455948.chn",
-          "pubDate": "2026-07-14T11:18:00.000Z",
-          "excerpt": "Ngày 14/7, Cơ quan công an đã khởi tố bà Lê Thị Ngọc Mỹ (chủ tiệm vàng Kim Lý) cùng 2 chủ tiệm vàng và 1 nhân viên kiểm định thuộc Công ty TNHH một thành viên…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -150,6 +150,26 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Chung cư mini ồ ạt treo biển tìm khách thuê",
+          "link": "https://vnexpress.net/chung-cu-mini-o-at-treo-bien-tim-khach-thue-5097509.html",
+          "pubDate": "2026-07-14T17:15:30.000Z",
+          "excerpt": "Nhiều khu vực là \"thủ phủ chung cư mini\" ở Hà Nội rơi vào cảnh khó lấp kín khi nguồn cung lớn, giá thuê cao.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Có nên bỏ phòng khách để mở rộng khu bếp và bàn ăn?",
+          "link": "https://vnexpress.net/co-nen-bo-phong-khach-de-mo-rong-khu-bep-va-ban-an-5096870.html",
+          "pubDate": "2026-07-14T17:10:49.000Z",
+          "excerpt": "Nhu cầu sử dụng thay đổi khiến gia đình tôi muốn phân bổ lại diện tích căn hộ, ưu tiên không gian bếp sử dụng thường xuyên hơn.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Thị trường bất động sản 6 tháng cuối năm 2026 sẽ chịu tác động từ nhiều yếu tố",
           "link": "https://vneconomy.vn/thi-truong-bat-dong-san-6-thang-cuoi-nam-2026-se-chiu-tac-dong-tu-nhieu-yeu-to.htm",
@@ -209,26 +229,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
-        },
-        {
-          "title": "Thu phí 5 đoạn cao tốc Bắc - Nam qua miền Trung từ tối 15/7",
-          "link": "https://cafef.vn/thu-phi-5-doan-cao-toc-bac-nam-qua-mien-trung-tu-toi-15-7-188260714165456242.chn",
-          "pubDate": "2026-07-14T13:06:00.000Z",
-          "excerpt": "Cục Đường bộ Việt Nam sẽ tổ chức thu phí sử dụng đường bộ cao tốc với 5 dự án thành đường cao tốc Bắc - Nam từ 20h ngày 15/7.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Một tiến sĩ trở về Việt Nam, chọn Nha Trang để thực hành triết lý đầu tư đặc biệt",
-          "link": "https://cafef.vn/mot-tien-si-tro-ve-viet-nam-chon-nha-trang-de-thuc-hanh-triet-ly-dau-tu-dac-biet-188260714204109225.chn",
-          "pubDate": "2026-07-14T12:30:00.000Z",
-          "excerpt": "Không chỉ nhìn vào vị trí hay biên độ tăng giá, một bộ phận nhà đầu tư đang tìm kiếm những khu đô thị có khả năng tạo ra cộng đồng, sinh kế cho người dân song…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -237,6 +237,26 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Quả trầu bà được săn lùng nhờ 'trào lưu mukbang'",
+          "link": "https://vnexpress.net/qua-trau-ba-duoc-san-lung-nho-trao-luu-mukbang-5097334.html",
+          "pubDate": "2026-07-14T17:20:49.000Z",
+          "excerpt": "Vốn chỉ để rụng dưới gốc, trái trầu bà từ các nhà vườn Việt nay được nhiều người săn lùng, bán 250.000-380.000 đồng mỗi quả nhờ trào lưu mukbang trên nền tảng…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Giới đầu tư dự báo Fed chưa tăng lãi suất",
+          "link": "https://vnexpress.net/gioi-dau-tu-du-bao-fed-chua-tang-lai-suat-5097493.html",
+          "pubDate": "2026-07-14T17:03:00.000Z",
+          "excerpt": "Sau kết quả chỉ số giá tiêu dùng (CPI) tháng 6 giảm nhẹ, giới đầu tư dự báo khả năng Fed tăng lãi suất cuối tháng này khá thấp.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Ông Trump bỏ kế hoạch thu phí qua eo biển Hormuz",
           "link": "https://vnexpress.net/ong-trump-bo-ke-hoach-thu-phi-qua-eo-bien-hormuz-5097505.html",
@@ -296,26 +316,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "The Global City khuấy động m&ugrave;a h&egrave; với h&agrave;ng loạt trải nghiệm lần đầu c&oacute; tại TP.HCM",
-          "link": "https://thanhnien.vn/the-global-city-khuay-dong-mua-he-voi-hang-loat-trai-nghiem-lan-dau-co-tai-tphcm-185260714174603804.htm",
-          "pubDate": "2026-07-14T10:38:00.000Z",
-          "excerpt": "Kh&ocirc;ng cần đi xa khỏi TP.HCM, giới trẻ v&agrave; c&aacute;c gia đ&igrave;nh vẫn c&oacute; thể tận hưởng loạt hoạt động giải tr&iacute; mang tinh thần quốc…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Thị trường căn hộ sơ cấp: Mặt bằng gi&aacute; bước v&agrave;o giai đoạn điều chỉnh",
-          "link": "https://thanhnien.vn/sau-thoi-gian-tang-nong-gia-can-ho-tren-thi-truong-so-cap-da-giam-185260714164237138.htm",
-          "pubDate": "2026-07-14T10:35:00.000Z",
-          "excerpt": "C&aacute;c c&ocirc;ng ty nghi&ecirc;n cứu thị trường trong b&aacute;o c&aacute;o qu&yacute; 2/2026 đều nhận định, gi&aacute; b&aacute;n căn hộ tr&ecirc;n thị…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -325,10 +325,60 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Trump scraps Hormuz toll plan but presses ahead with Iran blockade",
-          "link": "https://www.scmp.com/news/us/diplomacy/article/3360574/trump-scraps-hormuz-toll-plan-presses-ahead-iran-blockade?utm_source=rss_feed",
-          "pubDate": "2026-07-14T16:37:29.000Z",
-          "excerpt": "US President Donald Trump on Tuesday abandoned plans to impose a 20 per cent charge on commercial cargo passing through the Strait of Hormuz, less than a day…",
+          "title": "Supreme Court justices facing spike in threats, they tell US lawmakers",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360581/supreme-court-justices-facing-spike-threats-they-tell-us-lawmakers?utm_source=rss_feed",
+          "pubDate": "2026-07-14T20:15:28.000Z",
+          "excerpt": "US Supreme Court Justice Amy Coney Barrett told lawmakers Tuesday that a sharp increase in threats targeting her and other justices is increasingly encroaching…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "IBM shares plunge 25% as customers shift spending to AI",
+          "link": "https://www.ft.com/content/da478c37-7a32-415d-9f30-3b2981149f95",
+          "pubDate": "2026-07-14T20:11:17.000Z",
+          "excerpt": "Chief executive Arvind Krishna says company ‘faltered’ as clients raced to buy servers and storage",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "Warren Buffett cuts off donations to Bill Gates’ charity after Epstein revelations",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360580/warren-buffett-cuts-donations-bill-gates-charity-after-epstein-revelations?utm_source=rss_feed",
+          "pubDate": "2026-07-14T19:44:49.000Z",
+          "excerpt": "Warren Buffett has stopped donating to the Gates Foundation, ending a two-decade philanthropic partnership following revelations about interactions between…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "Reform UK’s Ann Widdecombe murdered in targeted attack, police say",
+          "link": "https://www.scmp.com/news/world/europe/article/3360579/reform-uks-ann-widdecombe-murdered-targeted-attack-police-say?utm_source=rss_feed",
+          "pubDate": "2026-07-14T19:08:26.000Z",
+          "excerpt": "British ⁠counterterrorism police said on Tuesday that ⁠former government minister Ann Widdecombe, who was found murdered at her home last week, was clearly…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "ICE halts vehicle stops for US immigration enforcement after deadly shootings",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360576/ice-halts-vehicle-stops-us-immigration-enforcement-after-deadly-shootings?utm_source=rss_feed",
+          "pubDate": "2026-07-14T17:48:08.000Z",
+          "excerpt": "US Immigration and Customs Enforcement (ICE) on Tuesday suspended vehicle stops related to immigration enforcement, two sources briefed on the matter said,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "E. Jean Carroll paid US$5.6 million owed by Trump in sex abuse and defamation case",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360575/e-jean-carroll-paid-us56-million-owed-trump-sex-abuse-and-defamation-case?utm_source=rss_feed",
+          "pubDate": "2026-07-14T16:58:14.000Z",
+          "excerpt": "Writer E. Jean Carroll has collected over US$5.6 million that a jury awarded in her sexual abuse and defamation lawsuit against US President Donald Trump,…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -353,56 +403,6 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
-        },
-        {
-          "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
-          "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
-          "pubDate": "2026-07-14T15:45:07.000Z",
-          "excerpt": "The consumer price index in June was expected to increase 3.8% from a year ago.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC"
-        },
-        {
-          "title": "US inflation cools on brief ceasefire but Fed keeps rate hike option",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360570/us-inflation-cools-brief-ceasefire-fed-keeps-rate-hike-option?utm_source=rss_feed",
-          "pubDate": "2026-07-14T15:27:41.000Z",
-          "excerpt": "US consumer inflation slowed more than expected in June as energy prices retreated, but the moderation was insufficient to convince financial markets to take…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "Ukraine targets Russian shipping in ‘unprecedented’ drone assault",
-          "link": "https://www.ft.com/content/6d5e952f-eb03-4277-a8b4-caae478a02d9",
-          "pubDate": "2026-07-14T14:43:45.000Z",
-          "excerpt": "Over the past week, Kyiv has struck vessels in the Sea of Azov at a faster pace than during the 1980s Iran-Iraq tanker wars",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "Louis Vuitton takes China’s trademark regulator to court as legal drive continues",
-          "link": "https://www.scmp.com/economy/china-economy/article/3360560/louis-vuitton-takes-chinas-trademark-regulator-court-legal-drive-continues?utm_source=rss_feed",
-          "pubDate": "2026-07-14T14:00:08.000Z",
-          "excerpt": "Louis Vuitton is set to face off against China’s trademark regulator in a Chinese intellectual property court on Thursday, as the French luxury brand deals…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "German deaths rise 32% during record June heatwave, data shows",
-          "link": "https://www.scmp.com/news/world/europe/article/3360561/german-deaths-rise-32-during-record-june-heatwave-data-shows?utm_source=rss_feed",
-          "pubDate": "2026-07-14T13:19:46.000Z",
-          "excerpt": "Deaths in Germany spiked 32 per cent during a record heatwave in June compared to levels in the previous four years, official data showed Tuesday. Nationwide,…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
         }
       ],
       "aiSummary": null
