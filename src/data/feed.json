@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T12:01:08.134Z",
+  "lastUpdated": "2026-07-14T16:44:18.650Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4035,
+      "value": 4066.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7515.34,
-      "change": -22.090000000000146,
-      "changePercent": -0.2930707150845865
+      "value": 7543.52,
+      "change": 39.67000000000007,
+      "changePercent": 0.5286619535305219
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25873.176,
-      "change": -247.98400000000038,
-      "changePercent": -0.9493605950118617
+      "value": 26118.898,
+      "change": 300.20800000000236,
+      "changePercent": 1.1627545781757416
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24911.25,
-      "change": -554,
-      "changePercent": -2.1755136902249146
+      "value": 25147.03,
+      "change": -318.22000000000116,
+      "changePercent": -1.2496244882732397
     }
   ],
   "themes": [
@@ -63,6 +63,56 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Chuyên gia: Áp lực margin tăng cao, thị trường vẫn nghiêng về tiêu cực",
+          "link": "https://vneconomy.vn/chuyen-gia-ap-luc-margin-tang-cao-thi-truong-van-nghieng-ve-tieu-cuc.htm",
+          "pubDate": "2026-07-14T15:49:20.000Z",
+          "excerpt": "Một số công ty chứng khoán đã công bố kết quả kinh doanh. Điểm đáng chú ý là dư nợ ký quỹ trong quý 2/2026 tiếp tục tăng so với quý 1. Điều này tạo áp lực tâm…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Bộ Tài chính sang Nhật trao đổi kinh nghiệm về phát triển thị trường chứng khoán",
+          "link": "https://cafef.vn/bo-tai-chinh-sang-nhat-trao-doi-kinh-nghiem-ve-phat-trien-thi-truong-chung-khoan-188260714220703727.chn",
+          "pubDate": "2026-07-14T15:13:00.000Z",
+          "excerpt": "Theo Thứ trưởng, những kinh nghiệm và sự hỗ trợ của phía Nhật Bản đã góp phần quan trọng vào quá trình xây dựng, hoàn thiện thể chế và phát triển thị trường…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Ngọc Châu Âu lên tiếng về chất lượng những viên kim cương đã bán ra",
+          "link": "https://cafef.vn/ngoc-chau-au-len-tieng-ve-chat-luong-nhung-vien-kim-cuong-da-ban-ra-188260714204822424.chn",
+          "pubDate": "2026-07-14T14:32:00.000Z",
+          "excerpt": "Doanh nghiệp cam kết mọi sản phẩm kim cương đã bán ra đều đảm bảo đúng chất lượng theo công bố.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Dòng tiền tổ chức tiếp tục gom hàng",
+          "link": "https://vneconomy.vn/dong-tien-to-chuc-tiep-tuc-gom-hang.htm",
+          "pubDate": "2026-07-14T14:18:25.000Z",
+          "excerpt": "Nhà đầu tư tổ chức trong nước hôm nay mua ròng 358,3 tỷ đồng. Tính riêng giao dịch khớp lệnh, khối này mua ròng 168,8 tỷ đồng.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Ba thương hiệu kim cương lớn đồng loạt đóng cửa",
+          "link": "https://vnexpress.net/ba-thuong-hieu-kim-cuong-kim-ly-ngoc-tam-ngoc-chau-au-dong-loat-dong-cua-5097467.html",
+          "pubDate": "2026-07-14T12:21:28.000Z",
+          "excerpt": "Sau khi ba chủ tiệm Kim Lý, Ngọc Châu Âu, Ngọc Tâm bị khởi tố trong đường dây buôn lậu gần 30.000 viên kim cương, các cửa hàng thuộc những thương hiệu này đồng…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Tại sao chiết khấu b&aacute;n lẻ xăng dầu giảm mạnh?",
           "link": "https://thanhnien.vn/tai-sao-chiet-khau-ban-le-xang-dau-giam-manh-185260714150506924.htm",
@@ -92,56 +142,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "The Global City khuấy động m&ugrave;a h&egrave; với h&agrave;ng loạt trải nghiệm lần đầu c&oacute; tại TP.HCM",
-          "link": "https://thanhnien.vn/the-global-city-khuay-dong-mua-he-voi-hang-loat-trai-nghiem-lan-dau-co-tai-tphcm-185260714174603804.htm",
-          "pubDate": "2026-07-14T10:38:00.000Z",
-          "excerpt": "Kh&ocirc;ng cần đi xa khỏi TP.HCM, giới trẻ v&agrave; c&aacute;c gia đ&igrave;nh vẫn c&oacute; thể tận hưởng loạt hoạt động giải tr&iacute; mang tinh thần quốc…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Sau thời gian tăng n&oacute;ng, gi&aacute; căn hộ tr&ecirc;n thị trường sơ cấp đ&atilde; giảm",
-          "link": "https://thanhnien.vn/sau-thoi-gian-tang-nong-gia-can-ho-tren-thi-truong-so-cap-da-giam-185260714164237138.htm",
-          "pubDate": "2026-07-14T10:35:00.000Z",
-          "excerpt": "C&aacute;c c&ocirc;ng ty nghi&ecirc;n cứu thị trường trong b&aacute;o c&aacute;o qu&yacute; 2/2026 đều nhận định, gi&aacute; b&aacute;n căn hộ tr&ecirc;n thị…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Thủ đoạn lừa đảo hàng trăm tỷ đồng của cựu CEO Công ty cổ phần tư vấn đầu tư Sao Vàng",
-          "link": "https://cafef.vn/thu-doan-lua-dao-hang-tram-ty-dong-cua-cuu-ceo-cong-ty-co-phan-tu-van-dau-tu-sao-vang-188260714164126033.chn",
-          "pubDate": "2026-07-14T10:32:00.000Z",
-          "excerpt": "Huỳnh Thị Ngân Trang, cựu Tổng giám đốc Công ty cổ phần tư vấn đầu tư Sao Vàng đưa ra các chương trình hợp tác đầu tư với cam kết lợi nhuận từ 22-30%/năm, cam…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Một cổ phiếu lớn bị tự doanh CTCK \"xả\" 150 tỷ đồng phiên 14/7",
-          "link": "https://cafef.vn/mot-co-phieu-lon-bi-tu-doanh-ctck-xa-150-ty-dong-phien-14-7-188260714165417125.chn",
-          "pubDate": "2026-07-14T09:54:00.000Z",
-          "excerpt": "Tự doanh CTCK bán ròng 100 tỷ đồng trên HOSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "V&igrave; sao si&ecirc;u s&acirc;n bay Long Th&agrave;nh muốn vừa khai th&aacute;c vừa khắc phục lỗi ph&aacute;t sinh?",
-          "link": "https://thanhnien.vn/vi-sao-sieu-san-bay-long-thanh-muon-vua-khai-thac-vua-khac-phuc-loi-phat-sinh-185260714163825465.htm",
-          "pubDate": "2026-07-14T09:47:00.000Z",
-          "excerpt": "Trong b&aacute;o c&aacute;o vừa gửi Cục H&agrave;ng kh&ocirc;ng, Tổng c&ocirc;ng ty Cảng h&agrave;ng kh&ocirc;ng Việt Nam (ACV) dự kiến si&ecirc;u cảng Long…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -151,80 +151,80 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Tại sao chiết khấu b&aacute;n lẻ xăng dầu giảm mạnh?",
-          "link": "https://thanhnien.vn/tai-sao-chiet-khau-ban-le-xang-dau-giam-manh-185260714150506924.htm",
-          "pubDate": "2026-07-14T12:00:00.000Z",
-          "excerpt": "Khi gi&aacute; dầu thế giới biến động tăng mạnh, chiết khấu b&aacute;n lẻ xăng dầu trong nước lại lao dốc, nhiều nơi chỉ 5 - 20 đồng/l&iacute;t, thậm…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
+          "title": "Thị trường bất động sản 6 tháng cuối năm 2026 sẽ chịu tác động từ nhiều yếu tố",
+          "link": "https://vneconomy.vn/thi-truong-bat-dong-san-6-thang-cuoi-nam-2026-se-chiu-tac-dong-tu-nhieu-yeu-to.htm",
+          "pubDate": "2026-07-14T14:09:35.000Z",
+          "excerpt": "Ba kịch bản được đưa ra cho thị trường bất động sản Việt Nam trong 6 tháng cuối năm 2026, gồm: kịch bản thách thức, kỳ vọng và lý tưởng, tương ứng với những…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
         },
         {
-          "title": "Ba tác động định hình lại thị trường bất động sản",
-          "link": "https://cafef.vn/ba-tac-dong-dinh-hinh-lai-thi-truong-bat-dong-san-18826071416482815.chn",
-          "pubDate": "2026-07-14T11:47:00.000Z",
-          "excerpt": "Thị trường bất động sản Việt Nam đang định hình một chu kỳ phát triển mới, dẫn dắt bởi quy hoạch, hạ tầng, minh bạch thông tin và nhu cầu thực.",
+          "title": "Những câu hỏi đặt ra với dự án BT cải tạo sông Nhuệ vừa được đề xuất cho Tập đoàn Geleximco thực hiện",
+          "link": "https://cafef.vn/nhung-cau-hoi-dat-ra-voi-du-an-bt-cai-tao-song-nhue-vua-duoc-de-xuat-cho-tap-doan-geleximco-thuc-hien-188260714165814191.chn",
+          "pubDate": "2026-07-14T14:06:00.000Z",
+          "excerpt": "Thẩm tra Tờ trình của UBND TP Hà Nội đề xuất cho Tập đoàn Geleximco thực hiện dự án BT cải tạo sông Nhuệ 75.115 tỷ đồng, Ban Đô thị - HĐND TP Hà Nội đề nghị…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Cục Thuế lưu &yacute; điểm mới về khai thuế bổ sung, ho&agrave;n thuế tự động",
-          "link": "https://thanhnien.vn/cuc-thue-luu-y-diem-moi-ve-khai-thue-bo-sung-hoan-thue-tu-dong-185260713102248125.htm",
-          "pubDate": "2026-07-14T11:20:00.000Z",
-          "excerpt": "Từ 1.7, người nộp thuế ph&aacute;t hiện hồ sơ khai thuế đ&atilde; nộp c&oacute; sai s&oacute;t được khai bổ sung trong 5 năm (trước đ&acirc;y l&agrave; 10…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "The Global City khuấy động m&ugrave;a h&egrave; với h&agrave;ng loạt trải nghiệm lần đầu c&oacute; tại TP.HCM",
-          "link": "https://thanhnien.vn/the-global-city-khuay-dong-mua-he-voi-hang-loat-trai-nghiem-lan-dau-co-tai-tphcm-185260714174603804.htm",
-          "pubDate": "2026-07-14T10:38:00.000Z",
-          "excerpt": "Kh&ocirc;ng cần đi xa khỏi TP.HCM, giới trẻ v&agrave; c&aacute;c gia đ&igrave;nh vẫn c&oacute; thể tận hưởng loạt hoạt động giải tr&iacute; mang tinh thần quốc…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Sau thời gian tăng n&oacute;ng, gi&aacute; căn hộ tr&ecirc;n thị trường sơ cấp đ&atilde; giảm",
-          "link": "https://thanhnien.vn/sau-thoi-gian-tang-nong-gia-can-ho-tren-thi-truong-so-cap-da-giam-185260714164237138.htm",
-          "pubDate": "2026-07-14T10:35:00.000Z",
-          "excerpt": "C&aacute;c c&ocirc;ng ty nghi&ecirc;n cứu thị trường trong b&aacute;o c&aacute;o qu&yacute; 2/2026 đều nhận định, gi&aacute; b&aacute;n căn hộ tr&ecirc;n thị…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Khám phá hành trình nâng tầm phong cách sống tại Vlasta Premier - Phú Thuận",
-          "link": "https://cafef.vn/kham-pha-hanh-trinh-nang-tam-phong-cach-song-tai-vlasta-premier-phu-thuan-188260714173917597.chn",
-          "pubDate": "2026-07-14T10:30:00.000Z",
-          "excerpt": "Giữa nhịp phát triển sôi động của Nam TP. Hồ Chí Minh Vlasta Premier - Phú Thuận dẫn dắt chủ nhân trải nghiệm một chuẩn mực sống cao cấp định hình chân dung…",
+          "title": "Thủ tướng: Đưa Phú Thọ trở thành 'thủ phủ' công nghiệp, phấn đấu tăng trưởng trên 11%",
+          "link": "https://cafef.vn/thu-tuong-dua-phu-tho-tro-thanh-thu-phu-cong-nghiep-phan-dau-tang-truong-tren-11-188260714210031918.chn",
+          "pubDate": "2026-07-14T13:59:59.000Z",
+          "excerpt": "Chiều 14/7, làm việc với Ban Thường vụ Tỉnh ủy Phú Thọ về tình hình phát triển kinh tế - xã hội, Thủ tướng Lê Minh Hưng yêu cầu tỉnh tập trung tháo gỡ các điểm…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Sonadezi Long Bình trả cổ tức năm 2025 bằng tiền tỷ lệ 45%",
-          "link": "https://cafef.vn/sonadezi-long-binh-tra-co-tuc-nam-2025-bang-tien-ty-le-45-188260714170519623.chn",
-          "pubDate": "2026-07-14T10:17:00.000Z",
-          "excerpt": "Ngày 28/7/2026 tới, Sonadezi Long Bình sẽ chốt danh sách cổ đông để thực hiện chi trả cổ tức năm 2025 bằng tiền mặt với tỷ lệ 45%.",
+          "title": "Quy hoạch, hạ tầng và nhu cầu ở thực dẫn dắt chu kỳ mới của thị trường bất động sản",
+          "link": "https://vneconomy.vn/quy-hoach-ha-tang-va-nhu-cau-o-thuc-dan-dat-chu-ky-moi-cua-thi-truong-bat-dong-san.htm",
+          "pubDate": "2026-07-14T13:59:48.000Z",
+          "excerpt": "Thị trường bất động sản đang bước vào một chu kỳ phát triển mới, được dẫn dắt bởi quy hoạch, hạ tầng, tính minh bạch của thị trường và nhu cầu ở thực. Xu hướng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Giám đốc Sở Nông nghiệp và Môi trường lí giải nguyên nhân người dân làm sổ đỏ bị trả lại nhiều lần, nhưng “cò” dịch vụ làm nhanh hơn",
+          "link": "https://cafef.vn/giam-doc-so-nong-nghiep-va-moi-truong-li-giai-nguyen-nhan-nguoi-dan-lam-so-do-bi-tra-lai-nhieu-lan-nhung-co-lich-vu-lam-nhanh-hon-188260714205819024.chn",
+          "pubDate": "2026-07-14T13:58:00.000Z",
+          "excerpt": "Giám đốc Sở Nông nghiệp và Môi trường tỉnh Nghệ An lý giải, vì “cò” làm thường xuyên, có tính chuyên nghiệp. Họ được trả tiền để thực hiện thủ tục nên phải đầu…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Dự án cải tạo hạ lưu sông Kim Ngưu gần 700 tỷ đồng giờ ra sao?",
-          "link": "https://cafef.vn/du-an-cai-tao-ha-luu-song-kim-nguu-gan-700-ty-dong-gio-ra-sao-188260714165121962.chn",
-          "pubDate": "2026-07-14T10:08:00.000Z",
-          "excerpt": "Khởi công từ cuối năm 2025, dự án cải tạo tuyến hạ lưu sông Kim Ngưu dài gần 5,8 km hiện đã hoàn thành phần lớn hạng mục chính. Trên công trường, các đơn vị…",
+          "title": "Hải Phòng gỡ vướng cho 1.900 ha đất công nghiệp",
+          "link": "https://vneconomy.vn/hai-phong-go-vuong-cho-1900-ha-dat-cong-nghiep.htm",
+          "pubDate": "2026-07-14T13:41:14.000Z",
+          "excerpt": "Hải Phòng tập trung tháo gỡ vướng mắc về giải phóng mặt bằng cho 9 dự án khu công nghiệp để có thêm 1.900 ha mặt bằng sạch đất công nghiệp…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Thu phí 5 đoạn cao tốc Bắc - Nam qua miền Trung từ tối 15/7",
+          "link": "https://cafef.vn/thu-phi-5-doan-cao-toc-bac-nam-qua-mien-trung-tu-toi-15-7-188260714165456242.chn",
+          "pubDate": "2026-07-14T13:06:00.000Z",
+          "excerpt": "Cục Đường bộ Việt Nam sẽ tổ chức thu phí sử dụng đường bộ cao tốc với 5 dự án thành đường cao tốc Bắc - Nam từ 20h ngày 15/7.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Một tiến sĩ trở về Việt Nam, chọn Nha Trang để thực hành triết lý đầu tư đặc biệt",
+          "link": "https://cafef.vn/mot-tien-si-tro-ve-viet-nam-chon-nha-trang-de-thuc-hanh-triet-ly-dau-tu-dac-biet-188260714204109225.chn",
+          "pubDate": "2026-07-14T12:30:00.000Z",
+          "excerpt": "Không chỉ nhìn vào vị trí hay biên độ tăng giá, một bộ phận nhà đầu tư đang tìm kiếm những khu đô thị có khả năng tạo ra cộng đồng, sinh kế cho người dân song…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -237,6 +237,36 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Ông Trump bỏ kế hoạch thu phí qua eo biển Hormuz",
+          "link": "https://vnexpress.net/ong-trump-bo-ke-hoach-thu-phi-qua-eo-bien-hormuz-5097505.html",
+          "pubDate": "2026-07-14T15:49:10.000Z",
+          "excerpt": "Chỉ một ngày sau khi thông báo sẽ thu \"phí bảo vệ\" 20% với các tàu hàng qua Hormuz, Tổng thống Mỹ đã rút lại ý định này.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Doanh nghiệp kỳ vọng thu hẹp khoảng cách từ chính sách đến thực thi",
+          "link": "https://vneconomy.vn/doanh-nghiep-ky-vong-thu-hep-khoang-cach-tu-chinh-sach-den-thuc-thi.htm",
+          "pubDate": "2026-07-14T13:38:07.000Z",
+          "excerpt": "Dù môi trường kinh doanh đã xuất hiện nhiều tín hiệu tích cực sau các chủ trương cải cách lớn, song doanh nghiệp vẫn thận trọng với kế hoạch mở rộng đầu tư do…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Ba thương hiệu kim cương lớn đồng loạt đóng cửa",
+          "link": "https://vnexpress.net/ba-thuong-hieu-kim-cuong-kim-ly-ngoc-tam-ngoc-chau-au-dong-loat-dong-cua-5097467.html",
+          "pubDate": "2026-07-14T12:21:28.000Z",
+          "excerpt": "Sau khi ba chủ tiệm Kim Lý, Ngọc Châu Âu, Ngọc Tâm bị khởi tố trong đường dây buôn lậu gần 30.000 viên kim cương, các cửa hàng thuộc những thương hiệu này đồng…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Tại sao chiết khấu b&aacute;n lẻ xăng dầu giảm mạnh?",
           "link": "https://thanhnien.vn/tai-sao-chiet-khau-ban-le-xang-dau-giam-manh-185260714150506924.htm",
@@ -278,7 +308,7 @@
           "attribution": "Thanh Niên"
         },
         {
-          "title": "Sau thời gian tăng n&oacute;ng, gi&aacute; căn hộ tr&ecirc;n thị trường sơ cấp đ&atilde; giảm",
+          "title": "Thị trường căn hộ sơ cấp: Mặt bằng gi&aacute; bước v&agrave;o giai đoạn điều chỉnh",
           "link": "https://thanhnien.vn/sau-thoi-gian-tang-nong-gia-can-ho-tren-thi-truong-so-cap-da-giam-185260714164237138.htm",
           "pubDate": "2026-07-14T10:35:00.000Z",
           "excerpt": "C&aacute;c c&ocirc;ng ty nghi&ecirc;n cứu thị trường trong b&aacute;o c&aacute;o qu&yacute; 2/2026 đều nhận định, gi&aacute; b&aacute;n căn hộ tr&ecirc;n thị…",
@@ -286,36 +316,6 @@
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Cận cảnh cao tốc TP.HCM - Mộc Bài đồng loạt triển khai nhiều mũi thi công",
-          "link": "https://cafef.vn/can-canh-cao-toc-tphcm-moc-bai-dong-loat-trien-khai-nhieu-mui-thi-cong-188260714154534501.chn",
-          "pubDate": "2026-07-14T10:00:00.000Z",
-          "excerpt": "Cao tốc TP.HCM - Mộc Bài dài 51 km đang đồng loạt triển khai nhiều mũi thi công, từ phát quang mặt bằng, làm đường gom dân sinh đến xây dựng cầu vượt ngang.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "V&igrave; sao si&ecirc;u s&acirc;n bay Long Th&agrave;nh muốn vừa khai th&aacute;c vừa khắc phục lỗi ph&aacute;t sinh?",
-          "link": "https://thanhnien.vn/vi-sao-sieu-san-bay-long-thanh-muon-vua-khai-thac-vua-khac-phuc-loi-phat-sinh-185260714163825465.htm",
-          "pubDate": "2026-07-14T09:47:00.000Z",
-          "excerpt": "Trong b&aacute;o c&aacute;o vừa gửi Cục H&agrave;ng kh&ocirc;ng, Tổng c&ocirc;ng ty Cảng h&agrave;ng kh&ocirc;ng Việt Nam (ACV) dự kiến si&ecirc;u cảng Long…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Bộ Công an lý giải quy định người thân phải thông báo lưu trú khi ở qua đêm",
-          "link": "https://cafef.vn/bo-cong-an-ly-giai-quy-dinh-nguoi-than-phai-thong-bao-luu-tru-khi-o-qua-dem-188260714155329939.chn",
-          "pubDate": "2026-07-14T09:35:00.000Z",
-          "excerpt": "Mục đích của quy định mới là bảo đảm thông tin nơi ở thực tế của công dân được cập nhật đầy đủ, chính xác, phục vụ quản lý cư trú, bảo đảm an ninh, trật tự,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -325,84 +325,84 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "EU demands ‘youth mode’ to protect children from addictive social media features",
-          "link": "https://www.scmp.com/news/world/europe/article/3360546/eu-demands-youth-mode-protect-children-addictive-social-media-features?utm_source=rss_feed",
-          "pubDate": "2026-07-14T11:14:32.000Z",
-          "excerpt": "There should be a “youth mode” for children on social media platforms in which addictive features and targeted advertising are turned off, EU lawmakers…",
+          "title": "Trump scraps Hormuz toll plan but presses ahead with Iran blockade",
+          "link": "https://www.scmp.com/news/us/diplomacy/article/3360574/trump-scraps-hormuz-toll-plan-presses-ahead-iran-blockade?utm_source=rss_feed",
+          "pubDate": "2026-07-14T16:37:29.000Z",
+          "excerpt": "US President Donald Trump on Tuesday abandoned plans to impose a 20 per cent charge on commercial cargo passing through the Strait of Hormuz, less than a day…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
         },
         {
-          "title": "Democrats are not in great shape",
-          "link": "https://www.ft.com/content/bd5f3950-3c80-41af-852e-fe736da603ac",
-          "pubDate": "2026-07-14T10:55:23.000Z",
-          "excerpt": "A fractious opposition is doing everything it can to spurn an open goal",
+          "title": "Wall Street banks smash records on stock trading boom",
+          "link": "https://www.ft.com/content/137efc01-087f-4b1d-b2a4-e18ea61197f2",
+          "pubDate": "2026-07-14T16:23:20.000Z",
+          "excerpt": "Earnings at JPMorgan, Goldman Sachs, Citigroup and BofA benefit from AI frenzy and SpaceX IPO",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
         },
         {
-          "title": "UK borrowing costs hit highest level since May as oil surges",
-          "link": "https://www.ft.com/content/107fc895-14db-4003-baa0-d81ed29c477f",
-          "pubDate": "2026-07-14T10:48:56.000Z",
-          "excerpt": "Ten-year yield back above 5% just days before Andy Burnham set to become prime minister",
+          "title": "Big banks and Big Tech are surfing the same wave",
+          "link": "https://www.ft.com/content/8218ea69-27ba-42b1-9ac0-beeba1b0fb1d",
+          "pubDate": "2026-07-14T16:08:34.000Z",
+          "excerpt": "Wall Street is no longer the only industry reaching into every corner of the economy",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
         },
         {
-          "title": "Spain bull run injuries hit 57 after chaotic final day in Pamplona",
-          "link": "https://www.scmp.com/news/world/europe/article/3360542/spain-bull-run-injuries-hit-57-after-chaotic-final-day-pamplona?utm_source=rss_feed",
-          "pubDate": "2026-07-14T10:32:45.000Z",
-          "excerpt": "Ten men suffered injuries on Tuesday during the eighth and final bull run of Spain’s famed San Fermin festival, bringing to 57 the total number of daredevils…",
+          "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+          "link": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+          "pubDate": "2026-07-14T15:45:07.000Z",
+          "excerpt": "The consumer price index in June was expected to increase 3.8% from a year ago.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC"
+        },
+        {
+          "title": "US inflation cools on brief ceasefire but Fed keeps rate hike option",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360570/us-inflation-cools-brief-ceasefire-fed-keeps-rate-hike-option?utm_source=rss_feed",
+          "pubDate": "2026-07-14T15:27:41.000Z",
+          "excerpt": "US consumer inflation slowed more than expected in June as energy prices retreated, but the moderation was insufficient to convince financial markets to take…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
         },
         {
-          "title": "JPMorgan and Goldman profits surge on blockbuster trading haul",
-          "link": "https://www.ft.com/content/f4231724-bb67-4cfd-81e2-d20f4badb82e",
-          "pubDate": "2026-07-14T09:29:58.000Z",
-          "excerpt": "Wall Street banks seize on jolt of volatility in equities markets to post stronger than expected results",
+          "title": "Ukraine targets Russian shipping in ‘unprecedented’ drone assault",
+          "link": "https://www.ft.com/content/6d5e952f-eb03-4277-a8b4-caae478a02d9",
+          "pubDate": "2026-07-14T14:43:45.000Z",
+          "excerpt": "Over the past week, Kyiv has struck vessels in the Sea of Azov at a faster pace than during the 1980s Iran-Iraq tanker wars",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
         },
         {
-          "title": "Watch: pomp and colour in Paris as France holds Bastille Day parade",
-          "link": "https://www.scmp.com/news/world/europe/article/3360505/watch-pomp-and-colour-paris-france-holds-bastille-day-parade?utm_source=rss_feed",
-          "pubDate": "2026-07-14T08:05:49.000Z",
-          "excerpt": "Ukrainian fighter pilots and troops took pride of place in France’s national Bastille Day celebrations on Tuesday as a massive parade showcased support for…",
+          "title": "Louis Vuitton takes China’s trademark regulator to court as legal drive continues",
+          "link": "https://www.scmp.com/economy/china-economy/article/3360560/louis-vuitton-takes-chinas-trademark-regulator-court-legal-drive-continues?utm_source=rss_feed",
+          "pubDate": "2026-07-14T14:00:08.000Z",
+          "excerpt": "Louis Vuitton is set to face off against China’s trademark regulator in a Chinese intellectual property court on Thursday, as the French luxury brand deals…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
         },
         {
-          "title": "RIP the US state department",
-          "link": "https://www.ft.com/content/ae268a4e-5134-4d34-ba5e-a908cc74c52d",
-          "pubDate": "2026-07-14T04:00:08.000Z",
-          "excerpt": "America’s diplomats used to have global sway. Now they are besieged by their own president",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "Why the world should copy Trump for once",
-          "link": "https://www.ft.com/content/6ff504c6-1cee-4e37-a56d-6a06c3107819",
-          "pubDate": "2026-07-14T04:00:08.000Z",
-          "excerpt": "The US is offering $1,000 to fund investment accounts for children born during the president’s second term",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
+          "title": "German deaths rise 32% during record June heatwave, data shows",
+          "link": "https://www.scmp.com/news/world/europe/article/3360561/german-deaths-rise-32-during-record-june-heatwave-data-shows?utm_source=rss_feed",
+          "pubDate": "2026-07-14T13:19:46.000Z",
+          "excerpt": "Deaths in Germany spiked 32 per cent during a record heatwave in June compared to levels in the previous four years, official data showed Tuesday. Nationwide,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
         }
       ],
       "aiSummary": null
