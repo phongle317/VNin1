@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T12:55:39.149Z",
+  "lastUpdated": "2026-07-15T17:50:26.326Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4069.8,
+      "value": 4064.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7543.59,
-      "change": 39.73999999999978,
-      "changePercent": 0.5295948079985578
+      "value": 7565.97,
+      "change": 83.26000000000022,
+      "changePercent": 1.1126984742158954
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26107.008,
-      "change": 288.31800000000294,
-      "changePercent": 1.1167026677186294
+      "value": 26236.23,
+      "change": 365.5799999999981,
+      "changePercent": 1.413107131053909
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25017.72,
-      "change": 120.27000000000044,
-      "changePercent": 0.48306151834826627
+      "value": 24999.53,
+      "change": 102.07999999999811,
+      "changePercent": 0.41000182749638253
     }
   ],
   "themes": [
@@ -63,6 +63,66 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Quê hương Argentina của Messi: Chỉ số chứng khoán tăng “vô địch” thế giới, nhưng lại khiến hàng chục triệu người \"đau đầu\"",
+          "link": "https://cafef.vn/que-huong-argentina-cua-messi-chi-so-chung-khoan-tang-vo-dich-the-gioi-nhung-lai-khien-hang-chuc-trieu-nguoi-dau-dau-188260715230245928.chn",
+          "pubDate": "2026-07-15T17:10:00.000Z",
+          "excerpt": "Đằng sau những con số tưởng như phi thường của chứng khoán Argentina không phải là một phép màu kinh tế, mà là câu chuyện kéo dài hàng thập kỷ về những vấn đề…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Chứng khoán chờ một sự kiện quan trọng trong tháng 9, gần 3.400 tỷ đồng cổ phiếu Việt Nam có thể lọt \"tầm ngắm\"",
+          "link": "https://cafef.vn/chung-khoan-cho-mot-su-kien-quan-trong-trong-thang-9-gan-3400-ty-dong-co-phieu-viet-nam-co-the-lot-tam-ngam-188260715225610343.chn",
+          "pubDate": "2026-07-15T17:08:00.000Z",
+          "excerpt": "Tổng giá trị mua ròng ước tính trong kỳ cơ cấu tháng 9/2026 đạt khoảng 128 triệu USD, tương đương 3.371 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Chuyên gia Vinacapital nói thẳng về nghịch lý trên thị trường chứng khoán",
+          "link": "https://cafef.vn/chuyen-gia-vinacapital-noi-thang-ve-nghich-ly-tren-thi-truong-chung-khoan-188260715222918016.chn",
+          "pubDate": "2026-07-15T17:06:00.000Z",
+          "excerpt": "VinaCapital cho rằng sự lệch pha giữa giá cổ phiếu và kết quả kinh doanh xuất phát từ nhiều yếu tố vĩ mô tác động đồng thời đến tâm lý thị trường.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Một cổ phiếu “lạ” tăng phi mã 230% chỉ trong 2 tuần",
+          "link": "https://cafef.vn/mot-co-phieu-la-tang-phi-ma-230-chi-trong-2-tuan-188260715225659501.chn",
+          "pubDate": "2026-07-15T17:05:00.000Z",
+          "excerpt": "Trước diễn biến bất thường của cổ phiếu, DN từng có văn bản giải trình về việc cổ phiếu tăng trần 5 phiên liên tiếp trong giai đoạn từ ngày 1/7 đến 7/7.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Chứng khoán \"rơi\" 150 điểm từ đỉnh, đáy đã dần lộ diện?",
+          "link": "https://cafef.vn/chung-khoan-roi-150-diem-tu-dinh-day-da-dan-lo-dien-188260715222801359.chn",
+          "pubDate": "2026-07-15T17:03:00.000Z",
+          "excerpt": "Theo ông Phước, việc xác định chính xác đâu là đáy của thị trường không phải điều quan trọng nhất, bởi đáy chỉ có thể được xác nhận sau khi đã hình thành.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Dòng tiền ETF đảo chiều tiếp tục đổ mạnh vào cổ phiếu Mỹ đặc biệt là nhóm công nghệ AI",
+          "link": "https://vneconomy.vn/dong-tien-etf-dao-chieu-tiep-tuc-do-manh-vao-co-phieu-my-dac-biet-la-nhom-cong-nghe-ai.htm",
+          "pubDate": "2026-07-15T13:26:44.000Z",
+          "excerpt": "Báo cáo của Chứng khoán Yuanta cho biết dòng vốn vào các quỹ ETF đầu tư vào cổ phiếu Mỹ đã đảo chiều, hút ròng trở lại gần 2,5 tỷ USD trong tuần qua. Dữ liệu…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
         {
           "title": "Gia Lai th&agrave;nh lập doanh nghiệp trong 3 giờ",
           "link": "https://thanhnien.vn/gia-lai-thanh-lap-doanh-nghiep-trong-3-gio-185260715174412088.htm",
@@ -82,66 +142,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
-        },
-        {
-          "title": "\"Bom tấn\" 100.000 tỷ chính thức nộp hồ sơ lên HoSE",
-          "link": "https://cafef.vn/bom-tan-100000-ty-chinh-thuc-nop-ho-so-len-hose-188260715183315177.chn",
-          "pubDate": "2026-07-15T11:34:00.000Z",
-          "excerpt": "HOSE thông báo đã tiếp nhận hồ sơ đăng ký niêm yết cổ phiếu của DMX vào ngày 13/7.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Bắt nhóm quản lý cao cấp của hệ thống cá độ bóng đá nghìn tỷ có hơn 30.000 thành viên",
-          "link": "https://cafef.vn/bat-nhom-quan-ly-cao-cap-cua-he-thong-ca-do-bong-da-nghin-ty-co-hon-30000-thanh-vien-188260715175240407.chn",
-          "pubDate": "2026-07-15T10:56:00.000Z",
-          "excerpt": "Lực lượng chức năng vừa triệt phá thành công đường dây tổ chức đánh bạc trực tuyến xuyên quốc gia quy mô đặc biệt lớn, hoạt động tại Việt Nam, Philippines và…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Thanh H&oacute;a nhất qu&aacute;n nguy&ecirc;n tắc '2 ng&agrave;y l&agrave;m việc', 'một đầu mối'",
-          "link": "https://thanhnien.vn/thanh-hoa-nhat-quan-nguyen-tac-2-ngay-lam-viec-mot-dau-moi-185260715172003944.htm",
-          "pubDate": "2026-07-15T10:39:00.000Z",
-          "excerpt": "Tỉnh Thanh H&oacute;a y&ecirc;u cầu với c&aacute;c c&ocirc;ng việc, nhiệm vụ thuộc thẩm quyền của c&aacute;c đơn vị, địa phương th&igrave; phải giải quyết…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Cổ phiếu bị hủy niêm yết, CEO Bamboo Capital viết tâm thư xin lỗi cổ đông",
-          "link": "https://cafef.vn/co-phieu-bi-huy-niem-yet-ceo-bamboo-capital-viet-tam-thu-xin-loi-co-dong-188260715165539139.chn",
-          "pubDate": "2026-07-15T09:57:00.000Z",
-          "excerpt": "Lãnh đạo Bamboo Capital cho biết việc hủy niêm yết không đồng nghĩa với việc chấm dứt tư cách pháp nhân của công ty.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Hàng trăm mã giảm điểm, VN-Index 'thủng' mốc 1.800",
-          "link": "https://cafef.vn/hang-tram-ma-giam-diem-vn-index-thung-moc-1800-188260715165350526.chn",
-          "pubDate": "2026-07-15T09:56:00.000Z",
-          "excerpt": "Trong phiên giao dịch hôm nay, bảng điện tử bị nhấn chìm trong sắc đỏ, trước áp lực bán tháo ồ ạt khiến VN-Index rời xa mốc 1.800 điểm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Yến s&agrave;o Kh&aacute;nh H&ograve;a bị l&agrave;m giả khắp nơi",
-          "link": "https://thanhnien.vn/yen-sao-khanh-hoa-bi-lam-gia-khap-noi-185260715130001992.htm",
-          "pubDate": "2026-07-15T09:33:00.000Z",
-          "excerpt": "Từ những cửa h&agrave;ng truyền thống đến c&aacute;c s&agrave;n thương mại điện tử, mạng x&atilde; hội, t&igrave;nh trạng giả mạo thương hiệu Yến s&agrave;o…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -150,6 +150,46 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "\"Đại gia phố núi\" vang bóng một thời vừa được giao nghiên cứu xây dựng cao tốc gần 77.000 tỷ đồng",
+          "link": "https://cafef.vn/dai-gia-pho-nui-vang-bong-mot-thoi-vua-duoc-giao-nghien-cuu-xay-dung-cao-toc-gan-77000-ty-dong-188260716002603208.chn",
+          "pubDate": "2026-07-15T17:25:00.000Z",
+          "excerpt": "Tập đoàn Đức Long Gia Lai vừa được Bộ Xây dựng chấp thuận nghiên cứu tuyến cao tốc Bắc – Nam phía Tây đoạn Pleiku – Buôn Ma Thuột – Gia Nghĩa, với tổng vốn gần…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Văn hóa nướng thịt định hình không gian nhà ở Argentina",
+          "link": "https://vnexpress.net/van-hoa-nuong-thit-dinh-hinh-khong-gian-nha-o-argentina-5097651.html",
+          "pubDate": "2026-07-15T17:00:36.000Z",
+          "excerpt": "Thói quen tụ họp bên bàn tiệc thịt nướng cuối tuần đã định hình nên những thiết kế nhà mang phong cách riêng, ưu tiên không gian mở của người Argentina.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Siêu dự án “kỳ tích sông Hồng” 28 tỷ USD của liên danh Đại Quang Minh – THACO – Hòa Phát có diễn biến mới",
+          "link": "https://cafef.vn/sieu-du-an-ky-tich-song-hong-28-ty-usd-cua-lien-danh-dai-quang-minh-thaco-hoa-phat-co-dien-bien-moi-188260715170619401.chn",
+          "pubDate": "2026-07-15T13:21:00.000Z",
+          "excerpt": "Sở Tài chính Hà Nội cho biết, thời gian tới các sở ngành sẽ tiếp tục phối hợp với liên danh nhà đầu tư để khẩn trương lập, thẩm định, trình phê duyệt Điều…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Dân Hà Nội 'hờ hững' với đất nền, hào hứng với chung cư - Chuyên gia lý giải nguyên nhân",
+          "link": "https://cafef.vn/dan-ha-noi-ho-hung-voi-dat-nen-hao-hung-voi-chung-cu-chuyen-gia-ly-giai-nguyen-nhan-188260715161825876.chn",
+          "pubDate": "2026-07-15T13:09:00.000Z",
+          "excerpt": "Thông tin trên được chuyên gia phân tích và đưa ra tại sự kiện Toàn cảnh thị trường bất động sản 6 tháng đầu năm 2026, diễn ra ngày 14/7.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
         {
           "title": "Chủ đầu tư dự án chống ngập 600 tỷ đồng cam kết về đích cuối năm",
           "link": "https://cafef.vn/chu-dau-tu-du-an-chong-ngap-600-ty-dong-cam-ket-ve-dich-cuoi-nam-188260715155043271.chn",
@@ -189,46 +229,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress"
-        },
-        {
-          "title": "Cận cảnh đại công trường Trung tâm Hội nghị APEC trước ngày về đích",
-          "link": "https://cafef.vn/can-canh-dai-cong-truong-trung-tam-hoi-nghi-apec-truoc-ngay-ve-dich-188260715162555993.chn",
-          "pubDate": "2026-07-15T11:25:00.000Z",
-          "excerpt": "Những cần cẩu khổng lồ vươn cao, tiếng máy móc vang vọng suốt ngày đêm, hàng nghìn công nhân miệt mài bám công trường bất chấp mưa nắng... Đại công trường xây…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Thanh H&oacute;a nhất qu&aacute;n nguy&ecirc;n tắc '2 ng&agrave;y l&agrave;m việc', 'một đầu mối'",
-          "link": "https://thanhnien.vn/thanh-hoa-nhat-quan-nguyen-tac-2-ngay-lam-viec-mot-dau-moi-185260715172003944.htm",
-          "pubDate": "2026-07-15T10:39:00.000Z",
-          "excerpt": "Tỉnh Thanh H&oacute;a y&ecirc;u cầu với c&aacute;c c&ocirc;ng việc, nhiệm vụ thuộc thẩm quyền của c&aacute;c đơn vị, địa phương th&igrave; phải giải quyết…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Giá căn hộ, nhà phố TPHCM thấp hơn Hà Nội gần 50%",
-          "link": "https://cafef.vn/gia-can-ho-nha-pho-tphcm-thap-hon-ha-noi-gan-50-188260715162122734.chn",
-          "pubDate": "2026-07-15T10:20:00.000Z",
-          "excerpt": "Nếu giá căn hộ ở TPHCM dao động quanh mức 3.500 - 5.900 USD/m2 thì ở Hà Nội được giao dịch từ 5.400 - 9.500 USD/m2. Tương tự, nhà phố TPHCM có giá từ 4.900 -…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Khởi tố, tạm giam cán bộ địa chính làm giả 14 sổ đỏ, lừa đảo chiếm đoạt hơn 17 tỷ đồng để chơi game online",
-          "link": "https://cafef.vn/khoi-to-tam-giam-can-bo-dia-chinh-lam-gia-14-so-do-lua-dao-chiem-doat-hon-17-ty-dong-de-choi-game-online-188260715170505487.chn",
-          "pubDate": "2026-07-15T10:05:00.000Z",
-          "excerpt": "Võ Hoàng Thiện đã tạo 14 sổ đỏ giả, sau đó thực hiện nhiều vụ lừa đảo thế chấp, chuyển nhượng với tổng số tiền chiếm đoạt lên tới 17,1 tỷ đồng. Toàn bộ số tiền…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -237,6 +237,26 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Doanh nghiệp giữ lạc quan giữa loạt áp lực",
+          "link": "https://vnexpress.net/doanh-nghiep-giu-lac-quan-giua-loat-ap-luc-5097796.html",
+          "pubDate": "2026-07-15T17:10:00.000Z",
+          "excerpt": "Đối mặt kinh tế toàn cầu bất ổn và môi trường kinh doanh chưa hẳn thuận lợi, niềm tin của doanh nghiệp vẫn cải thiện, theo khảo sát của EuroCham.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Taxi điện giúp Trung Quốc xoa dịu cú sốc giá dầu",
+          "link": "https://vnexpress.net/taxi-dien-giup-trung-quoc-xoa-diu-cu-soc-gia-dau-5097811.html",
+          "pubDate": "2026-07-15T17:00:00.000Z",
+          "excerpt": "Trung Quốc đang sở hữu một bộ đệm ngày càng quan trọng trước các cú sốc giá dầu toàn cầu, đó là đội xe taxi chạy điện.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Gia Lai th&agrave;nh lập doanh nghiệp trong 3 giờ",
           "link": "https://thanhnien.vn/gia-lai-thanh-lap-doanh-nghiep-trong-3-gio-185260715174412088.htm",
@@ -296,26 +316,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "Yến s&agrave;o Kh&aacute;nh H&ograve;a bị l&agrave;m giả khắp nơi",
-          "link": "https://thanhnien.vn/yen-sao-khanh-hoa-bi-lam-gia-khap-noi-185260715130001992.htm",
-          "pubDate": "2026-07-15T09:33:00.000Z",
-          "excerpt": "Từ những cửa h&agrave;ng truyền thống đến c&aacute;c s&agrave;n thương mại điện tử, mạng x&atilde; hội, t&igrave;nh trạng giả mạo thương hiệu Yến s&agrave;o…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Tất cả người dân có bằng lái xe chú ý quy định thời gian cấp đổi giấy phép có hiệu lực từ tháng 7",
-          "link": "https://cafef.vn/tat-ca-nguoi-dan-co-bang-lai-xe-chu-y-quy-dinh-thoi-gian-cap-doi-giay-phep-co-hieu-luc-tu-thang-7-188260715152915678.chn",
-          "pubDate": "2026-07-15T09:25:00.000Z",
-          "excerpt": "Thông tư mới của Bộ Công an quy định bằng lái ôtô hết hạn dưới 30 ngày được cấp đổi không cần sát hạch.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -325,14 +325,64 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Shabana Mahmood set to be named UK chancellor by Andy Burnham",
+          "link": "https://www.ft.com/content/54d17925-a1d3-4bae-a1bc-a325df7577dd",
+          "pubDate": "2026-07-15T16:03:50.000Z",
+          "excerpt": "Current home secretary expected to succeed Rachel Reeves as finance minister",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "UK police arrest man over threat to shoot Reform leader Nigel Farage",
+          "link": "https://www.scmp.com/news/world/europe/article/3360718/uk-police-arrest-man-over-threat-shoot-reform-leader-nigel-farage?utm_source=rss_feed",
+          "pubDate": "2026-07-15T15:37:45.000Z",
+          "excerpt": "A man who threatened on social media in May to shoot Reform UK party leader Nigel Farage was arrested, London police said on Wednesday, as concerns grow over…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "VAT is Burnham’s best tax-raising tool if UK public finances go off track, says OECD",
+          "link": "https://www.ft.com/content/3a62b3fa-1d8c-4c59-8544-17fe78bd63f0",
+          "pubDate": "2026-07-15T15:21:03.000Z",
+          "excerpt": "New report argues long-term reforms should focus on spending restraint, including end to pensions triple lock",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "The UK finally has a blueprint for innovation — now it must act on it",
+          "link": "https://www.ft.com/content/06660166-3796-41c8-923c-482be3643d8b",
+          "pubDate": "2026-07-15T14:42:22.000Z",
+          "excerpt": "The Whittle Lab aims to transform aerothermal engineering, one of the country’s strongest manufacturing industries",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
           "title": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
           "link": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
-          "pubDate": "2026-07-15T12:53:17.000Z",
+          "pubDate": "2026-07-15T14:22:48.000Z",
           "excerpt": "As with consumer prices, the index benefited from easing energy costs, particularly as oil fell due to the brief pause in tensions between the U.S. and Iran.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
           "attribution": "CNBC"
+        },
+        {
+          "title": "‘End of my political journey’: UK’s Starmer takes last Prime Minister’s Questions",
+          "link": "https://www.scmp.com/news/world/europe/article/3360705/end-my-political-journey-uks-starmer-takes-last-prime-ministers-questions?utm_source=rss_feed",
+          "pubDate": "2026-07-15T13:29:16.000Z",
+          "excerpt": "Prime Minister Keir Starmer said that he was leaving the United Kingdom “in better shape than I found it” as he fielded questions, criticism and even a bit of…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
         },
         {
           "title": "UK grooming gangs scandal deepens Labour’s woes amid voter backlash",
@@ -353,56 +403,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
-        },
-        {
-          "title": "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely volatile’ outlook",
-          "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
-          "pubDate": "2026-07-15T11:33:19.000Z",
-          "excerpt": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC"
-        },
-        {
-          "title": "Pentagon blocks review of F-35 fighter jet project for first time in over 20 years",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360686/pentagon-blocks-review-f-35-fighter-jet-project-first-time-over-20-years?utm_source=rss_feed",
-          "pubDate": "2026-07-15T11:01:28.000Z",
-          "excerpt": "The Pentagon has blocked the public release of a congressionally mandated annual report on the costly and controversial F-35 fighter jet programme for the…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "Is artificial intelligence causing a rise in natural human stupidity?",
-          "link": "https://www.scmp.com/news/world/article/3360663/artificial-intelligence-causing-rise-natural-human-stupidity?utm_source=rss_feed",
-          "pubDate": "2026-07-15T09:03:29.000Z",
-          "excerpt": "Generative AI chatbots capable of writing emails and computer code, translating, organising a trip or coming up with gift ideas are now readily available –…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "Miliband trails Mahmood in race to become Burnham’s chancellor",
-          "link": "https://www.ft.com/content/3a200651-ff72-4ebb-a5a2-bcf6abb55e7c",
-          "pubDate": "2026-07-15T08:20:21.000Z",
-          "excerpt": "Home secretary emerges as favourite for role amid criticism of energy secretary’s net zero policies",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "China’s economy grows at one of lowest rates in decades",
-          "link": "https://www.ft.com/content/5b12e491-dcd0-4e0c-a464-96ec37b737ab",
-          "pubDate": "2026-07-15T05:53:35.000Z",
-          "excerpt": "Second-quarter GDP figure falls below annual target range as economic pressure mounts",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
         }
       ],
       "aiSummary": null
