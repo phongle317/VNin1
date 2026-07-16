@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T16:26:24.251Z",
+  "lastUpdated": "2026-07-16T18:08:43.687Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 3994.9,
+      "value": 3988.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7542.12,
-      "change": -1.5200000000004366,
-      "changePercent": -0.020149423885557058
+      "value": 7531.06,
+      "change": -12.579999999999927,
+      "changePercent": -0.16676299505278522
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25998.453,
-      "change": -208.43699999999808,
-      "changePercent": -0.7953519093642858
+      "value": 25938.799,
+      "change": -268.09100000000035,
+      "changePercent": -1.0229790715342428
     },
     {
       "symbol": "^N225",
@@ -64,34 +64,54 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "PNJ tính thuê đơn vị quốc tế kiểm định quy trình và chất lượng kim cương",
-          "link": "https://vnexpress.net/pnj-tinh-thue-don-vi-quoc-te-kiem-dinh-quy-trinh-va-chat-luong-kim-cuong-5098318.html",
-          "pubDate": "2026-07-16T14:38:02.000Z",
-          "excerpt": "PNJ lên kế hoạch thuê đơn vị kiểm định, kiểm toán và tư vấn độc lập quốc tế để đánh giá toàn bộ quy trình và chất lượng kim cương.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Một doanh nghiệp cao su báo lãi quý II tăng vọt, chuẩn bị thưởng cổ phiếu tỷ lệ “khủng” 300%",
-          "link": "https://cafef.vn/mot-doanh-nghiep-cao-su-bao-lai-quy-ii-tang-vot-chuan-bi-thuong-co-phieu-ty-le-khung-300-188260716212335459.chn",
-          "pubDate": "2026-07-16T14:24:00.000Z",
-          "excerpt": "Cao su Tây Ninh (TRC) tiếp tục ghi nhận kết quả kinh doanh khả quan trong quý II/2026 khi lợi nhuận sau thuế tăng hơn 20% so với cùng kỳ, bất chấp doanh thu…",
+          "title": "Giám đốc Đầu tư Vinacapital: Người Việt nên cân nhắc phân bổ khoảng 2/3 tài sản vào chứng khoán",
+          "link": "https://cafef.vn/giam-doc-dau-tu-vinacapital-nguoi-viet-nen-can-nhac-phan-bo-khoang-2-3-tai-san-vao-chung-khoan-188260716223221378.chn",
+          "pubDate": "2026-07-16T17:10:00.000Z",
+          "excerpt": "Phân tích của VinaCapital cho thấy nếu tính cả cổ tức, cổ phiếu không hề kém cạnh vàng hay bất động sản về hiệu quả sinh lời trong dài hạn, đồng thời có ưu thế…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Công ty của tỷ phú Warren Buffett sản xuất độc quyền gấu bông World Cup 2026",
-          "link": "https://vnexpress.net/cong-ty-cua-ty-phu-warren-buffett-san-xuat-doc-quyen-gau-bong-world-cup-2026-5098257.html",
-          "pubDate": "2026-07-16T14:14:40.000Z",
-          "excerpt": "Jazwares, công ty con thuộc Tập đoàn Berkshire Hathaway của tỷ phú Warren Buffett, sản xuất độc quyền gấu bông World Cup 2026 cho FIFA.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
+          "title": "Chuyên gia Vinacapital: Cơ hội giải ngân cổ phiếu đã xuất hiện",
+          "link": "https://cafef.vn/chuyen-gia-vinacapital-co-hoi-giai-ngan-co-phieu-da-xuat-hien-188260716223314293.chn",
+          "pubDate": "2026-07-16T17:08:00.000Z",
+          "excerpt": "Ông Minh cho rằng những giai đoạn thị trường tăng nóng, tâm lý nhà đầu tư hưng phấn mới là thời điểm rủi ro thực sự gia tăng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "4 “viên kim cương” từng được khối ngoại săn đón: FPT, PNJ mất dần sức hút",
+          "link": "https://cafef.vn/4-vien-kim-cuong-tung-duoc-khoi-ngoai-san-don-fpt-pnj-mat-dan-suc-hut-188260716223121019.chn",
+          "pubDate": "2026-07-16T17:05:00.000Z",
+          "excerpt": "Sau nhiều năm được xem là \"hàng hiếm\" trên thị trường chứng khoán Việt Nam, FPT và PNJ đang dần đánh mất sức hút với khối ngoại.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Cập nhật số liệu CTCK ngày 17/7: Xuất hiện khoản lỗ đầu tiên của ngành chứng khoán quý 2/2026",
+          "link": "https://cafef.vn/cap-nhat-so-lieu-ctck-ngay-17-7-xuat-hien-khoan-lo-dau-tien-cua-nganh-chung-khoan-quy-2-2026-188260716222612963.chn",
+          "pubDate": "2026-07-16T17:04:00.000Z",
+          "excerpt": "Tính đến sáng 17/7, đã có 9 công ty chứng khoán công bố lợi nhuận trước thuế quý 2 và lũy kế 6 tháng đầu năm.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Cổ đông một doanh nghiệp phân bón sắp nhận về 3.500 đồng/cp",
+          "link": "https://cafef.vn/co-dong-mot-doanh-nghiep-phan-bon-sap-nhan-ve-3500-dong-cp-188260716220228949.chn",
+          "pubDate": "2026-07-16T17:01:00.000Z",
+          "excerpt": "Với gần 57,2 triệu cổ phiếu đang lưu hành, BFC sẽ phải chi hơn 200 tỷ đồng thanh toán cổ tức cho cổ đông.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
           "title": "Dòng tiền nào kéo thị trường đảo chiều ngoạn mục?",
@@ -104,16 +124,6 @@
           "attribution": "VnEconomy"
         },
         {
-          "title": "“Kỳ quan” triệu USD của tỷ phú Phạm Nhật Vượng vừa ra mắt đã liên tục “cháy vé”, CEO Vinpearl nói gì?",
-          "link": "https://cafef.vn/ky-quan-trieu-usd-cua-ty-phu-pham-nhat-vuong-vua-ra-mat-da-lien-tuc-chay-ve-ceo-vinpearl-noi-gi-188260716183004206.chn",
-          "pubDate": "2026-07-16T13:46:00.000Z",
-          "excerpt": "Đây là tin vui với chương trình xứng tầm “kỳ quan sân khấu” do Tập đoàn Vingroup đầu tư.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
           "title": "Investment Challenge 2026: Hành trình kiến tạo thế hệ nhà đầu tư trẻ Việt Nam",
           "link": "https://vneconomy.vn/investment-challenge-2026-hanh-trinh-kien-tao-the-he-nha-dau-tu-tre-viet-nam.htm",
           "pubDate": "2026-07-16T13:25:56.000Z",
@@ -124,24 +134,14 @@
           "attribution": "VnEconomy"
         },
         {
-          "title": "PNJ thuê đơn vị quốc tế kiểm định sản phẩm, kiểm toán quy trình kinh doanh kim cương",
-          "link": "https://cafef.vn/pnj-thue-don-vi-quoc-te-kiem-dinh-san-pham-kiem-toan-quy-trinh-kinh-doanh-kim-cuong-188260716201731499.chn",
-          "pubDate": "2026-07-16T13:17:00.000Z",
-          "excerpt": "PNJ sẽ thuê các tổ chức quốc tế đánh giá độc lập chất lượng sản phẩm, rà soát toàn bộ quy trình kinh doanh kim cương và hệ thống quản trị rủi ro.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "FPT thắng thầu 14 dự án trị giá ít nhất hơn 3.600 tỷ đồng",
-          "link": "https://cafef.vn/fpt-thang-thau-14-du-an-tri-gia-it-nhat-hon-3600-ty-dong-188260716201654253.chn",
-          "pubDate": "2026-07-16T13:16:00.000Z",
-          "excerpt": "Thông tin vừa được tập đoàn công nghệ này đưa ra trong thông cáo báo chí mới nhất.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
+          "title": "Warren Buffett: Khó tìm cổ phiếu giá tốt khi thị trường chuộng đầu cơ",
+          "link": "https://vneconomy.vn/warren-buffett-kho-tim-co-phieu-gia-tot-khi-thi-truong-chuong-dau-co.htm",
+          "pubDate": "2026-07-16T11:55:08.000Z",
+          "excerpt": "Tỷ phú Warren Buffett, Chủ tịch Berkshire Hathaway và là một trong những nhà đầu tư giá trị nổi tiếng nhất thế giới, chỉ trích làn sóng đầu cơ đang gia tăng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
         }
       ],
       "aiSummary": null
@@ -150,6 +150,36 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Tập đoàn Vingroup vừa làm một việc ý nghĩa tại nơi cách Hà Nội hơn 200 km",
+          "link": "https://cafef.vn/tap-doan-vingroup-vua-lam-mot-viec-y-nghia-tai-noi-cach-ha-noi-hon-200-km-188260716205625609.chn",
+          "pubDate": "2026-07-16T17:04:00.000Z",
+          "excerpt": "Quỹ Thiện Tâm (Tập đoàn Vingroup) vừa hỗ trợ 25 tỷ đồng để xây dựng cầu treo qua sông Gâm tại xã Nà Hang (tỉnh Tuyên Quang).",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Chi 3 tỷ đồng cải tạo nhà liền kề, đưa bếp lên tầng cao nhất",
+          "link": "https://vnexpress.net/chi-3-ty-dong-cai-tao-nha-lien-ke-dua-bep-len-tang-cao-nhat-5098021.html",
+          "pubDate": "2026-07-16T17:00:00.000Z",
+          "excerpt": "Công trình nhà liền kề được tổ chức lại mặt bằng để mở rộng tầm nhìn, tăng ánh sáng và tiện nghi sử dụng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Nhà ở cho thuê: Chuyển từ tư duy sở hữu sang bảo đảm quyền được ở",
+          "link": "https://cafef.vn/nha-o-cho-thue-chuyen-tu-tu-duy-so-huu-sang-bao-dam-quyen-duoc-o-188260716205809771.chn",
+          "pubDate": "2026-07-16T16:47:00.000Z",
+          "excerpt": "Việc Hà Nội đồng loạt khởi công 3 dự án nhà ở cho thuê với hơn 8.000 căn hộ không chỉ bổ sung nguồn cung mới mà còn phản ánh bước chuyển trong tư duy phát…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
         {
           "title": "8 năm sau vụ cháy chung cư Carina: TAND TPHCM tuyên án sơ thẩm lần hai phần trách nhiệm dân sự",
           "link": "https://cafef.vn/8-nam-sau-vu-chay-chung-cu-carina-tand-tphcm-tuyen-an-so-tham-lan-hai-phan-trach-nhiem-dan-su-188260716204624911.chn",
@@ -181,26 +211,6 @@
           "attribution": "CafeF"
         },
         {
-          "title": "Bắt giám đốc, phó giám đốc công ty lập khống hồ sơ thí nghiệm vật liệu xây dựng",
-          "link": "https://cafef.vn/bat-giam-doc-pho-giam-doc-cong-ty-lap-khong-ho-so-thi-nghiem-vat-lieu-xay-dung-188260716204032929.chn",
-          "pubDate": "2026-07-16T13:40:00.000Z",
-          "excerpt": "Ngày 16-7, Công an tỉnh Thanh Hóa cho biết, Cơ quan Cảnh sát điều tra Công an tỉnh đã khởi tố vụ án, khởi tố 9 bị can về các hành vi “Làm giả tài liệu của cơ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Hà Nội sẽ khởi công đồng loạt 114 dự án nhà ở xã hội trong năm 2026",
-          "link": "https://cafef.vn/ha-noi-se-khoi-cong-dong-loat-114-du-an-nha-o-xa-hoi-trong-nam-2026-188260716203524013.chn",
-          "pubDate": "2026-07-16T13:31:00.000Z",
-          "excerpt": "Sở Xây dựng Hà Nội đang xây dựng tiến độ triển khai đối với 114 dự án nhà ở xã hội, phấn đấu khởi công toàn bộ trong năm nay.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
           "title": "Hải quan khẩn cấp chỉ đạo th&ocirc;ng quan sầu ri&ecirc;ng trong ng&agrave;y",
           "link": "https://thanhnien.vn/hai-quan-khan-cap-chi-dao-thong-quan-sau-rieng-trong-ngay-185260716182428787.htm",
           "pubDate": "2026-07-16T11:49:00.000Z",
@@ -219,16 +229,6 @@
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
-        },
-        {
-          "title": "L&agrave;m thế n&agrave;o khi bị k&ecirc; khai thuế thu nhập c&aacute; nh&acirc;n sai?",
-          "link": "https://thanhnien.vn/lam-the-nao-khi-bi-ke-khai-thue-thu-nhap-ca-nhan-sai-185260716150655007.htm",
-          "pubDate": "2026-07-16T10:48:00.000Z",
-          "excerpt": "Người nộp thuế n&ecirc;n kiểm tra th&ocirc;ng tin về thuế thu nhập c&aacute; nh&acirc;n thời gian qua để tr&aacute;nh t&igrave;nh trạng bị sai lệch về thuế.",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -237,6 +237,16 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Sân chung kết World Cup 2026 - cỗ máy kiếm tiền của thể thao Mỹ",
+          "link": "https://vnexpress.net/san-chung-ket-world-cup-2026-co-may-kiem-tien-cua-the-thao-my-5098041.html",
+          "pubDate": "2026-07-16T17:00:00.000Z",
+          "excerpt": "MetLife Stadium - nơi diễn ra trận chung kết World Cup 2026 - được xem là sân vận động bận rộn hàng đầu thế giới với 222 sự kiện mỗi năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Từ ngày mai - 17/7, dịch vụ hàng triệu người đang dùng thay đổi cách tính giá vé",
           "link": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716214944455.chn",
@@ -306,16 +316,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "Hơn 600.000 doanh nghiệp bị r&agrave; so&aacute;t m&atilde; số thuế: L&agrave;m g&igrave; để giảm rủi ro?",
-          "link": "https://thanhnien.vn/hon-600000-doanh-nghiep-bi-ra-soat-ma-so-thue-lam-gi-de-giam-rui-ro-185260716160231549.htm",
-          "pubDate": "2026-07-16T10:53:00.000Z",
-          "excerpt": "Với hơn 600.000 doanh nghiệp ngừng hoạt động nhưng chưa ho&agrave;n th&agrave;nh thủ tục giải thể v&agrave; kh&ocirc;ng hoạt động tại địa chỉ đ&atilde; đăng…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -325,10 +325,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Zelenskyy’s government plunged into turmoil by defence minister’s firing",
+          "title": "Zelenskyy government plunged into turmoil after defence minister fired",
           "link": "https://www.ft.com/content/06865b90-5b62-46c5-ae8d-147842b41cd0?syn-25a6b1a6=1",
-          "pubDate": "2026-07-16T15:57:54.000Z",
-          "excerpt": "Ukrainian president forced into concession after ousting of popular minister prompts public and political backlash",
+          "pubDate": "2026-07-16T16:34:27.000Z",
+          "excerpt": "Ukraine president forced into concession as ousting of popular minister prompts public and political backlash",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
