@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T14:49:11.036Z",
+  "lastUpdated": "2026-07-17T14:54:39.724Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4001.6,
+      "value": 4001.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7484.68,
-      "change": -90.71000000000004,
-      "changePercent": -1.1974300993084188
+      "value": 7478.51,
+      "change": -96.88000000000011,
+      "changePercent": -1.278878051163044
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25553.441,
-      "change": -728.1690000000017,
-      "changePercent": -2.770640763636633
+      "value": 25506.246,
+      "change": -775.3640000000014,
+      "changePercent": -2.9502149982440247
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24780.91,
-      "change": -286.1800000000003,
-      "changePercent": -1.1416562512840553
+      "value": 24799.72,
+      "change": -267.369999999999,
+      "changePercent": -1.0666176249417023
     }
   ],
   "themes": [
@@ -144,7 +144,7 @@
           "attribution": "CafeF"
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Chứng khoán Rồng Việt báo lãi sau thuế Quý 2/2026 gần 45 tỷ đồng. Kết quả này cho thấy sự phục hồi của công ty trong quý vừa qua."
     },
     {
       "key": "realestate",
@@ -231,7 +231,7 @@
           "attribution": "CafeF"
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Trên 80% người bán bất động sản chốt lời và tái đầu tư. Nguyên nhân do nhu cầu đầu tư và thị trường bất động sản biến động."
     },
     {
       "key": "macro",
@@ -318,7 +318,7 @@
           "attribution": "VnExpress"
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Thanh khoản chứng khoán giảm xuống thấp nhất một tháng. Nguyên nhân là do nhà đầu tư vẫn còn thận trọng."
     },
     {
       "key": "international",
@@ -405,7 +405,7 @@
           "attribution": "FT"
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Giá nhập khẩu tăng bất ngờ. Chi phí hàng hóa từ Trung Quốc cao nhất kể từ 2008."
     }
   ]
 }
