@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T15:17:15.689Z",
+  "lastUpdated": "2026-07-17T17:16:13.941Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4010.4,
+      "value": 4021.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7466.67,
-      "change": -108.72000000000025,
-      "changePercent": -1.4351736346247554
+      "value": 7491.78,
+      "change": -83.61000000000058,
+      "changePercent": -1.1037055517933805
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25460.664,
-      "change": -820.9459999999999,
-      "changePercent": -3.123651861510767
+      "value": 25674.16,
+      "change": -607.4500000000007,
+      "changePercent": -2.311311978223559
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24778.84,
-      "change": -288.25,
-      "changePercent": -1.149914090546609
+      "value": 24830.98,
+      "change": -236.11000000000058,
+      "changePercent": -0.941912284194139
     }
   ],
   "themes": [
@@ -63,6 +63,46 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Tỷ phú Mỹ tối ưu doanh thu từng m2 sân diễn ra trận tranh hạng ba World Cup",
+          "link": "https://vnexpress.net/ty-phu-my-toi-uu-doanh-thu-tung-m2-san-dien-ra-tran-tranh-hang-ba-world-cup-5098455.html",
+          "pubDate": "2026-07-17T17:10:00.000Z",
+          "excerpt": "Không có quy mô lớn nhất, nhưng Hard Rock Stadium của tỷ phú bất động sản Stephen Ross lại là hình mẫu hàng đầu về kinh doanh sân vận động kiểu Mỹ.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Bán ròng gần 2.100 tỷ đồng trong tuần Index mất 40 điểm, khối ngoại đang \"xả\" mã nào?",
+          "link": "https://cafef.vn/ban-rong-gan-2100-ty-dong-trong-tuan-index-mat-40-diem-khoi-ngoai-dang-xa-ma-nao-188260718000826322.chn",
+          "pubDate": "2026-07-17T17:08:00.000Z",
+          "excerpt": "Lũy kế sau 5 phiên, khối ngoại bán ròng 2.080 tỷ đồng trên toàn thị trường.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Cập nhật số liệu CTCK ngày 18/7: Nhóm vốn hóa vừa và nhỏ hé lộ lợi nhuận quý 2, một công ty giảm lãi 90%",
+          "link": "https://cafef.vn/cap-nhat-so-lieu-ctck-ngay-18-7-nhom-von-hoa-vua-va-nho-he-lo-loi-nhuan-quy-2-mot-cong-ty-giam-lai-90-188260717233447424.chn",
+          "pubDate": "2026-07-17T17:05:00.000Z",
+          "excerpt": "Bức tranh lợi nhuận quý 2 của ngành chứng khoán tiếp tục cho thấy sự phân hóa rõ nét.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Chuyên gia VinaCapital chỉ cách đầu tư \"không nhìn bảng điện\" vẫn thu lợi nhuận hai chữ số",
+          "link": "https://cafef.vn/chuyen-gia-vinacapital-chi-cach-dau-tu-khong-nhin-bang-dien-van-thu-loi-nhuan-hai-chu-so-188260717231958287.chn",
+          "pubDate": "2026-07-17T17:01:00.000Z",
+          "excerpt": "Chia sẻ tại sự kiện của VinaCapital, ông Đinh Đức Minh, Giám đốc Đầu tư Cấp cao VinaCapital, cho rằng việc nhà đầu tư liên tục theo dõi bảng điện tử là một…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
         {
           "title": "Khẳng định b&aacute;m trụ đến c&ugrave;ng, tiệm kim cương gửi 'thư t&acirc;m sự' đến kh&aacute;ch",
           "link": "https://thanhnien.vn/khang-dinh-bam-tru-den-cung-tiem-kim-cuong-gui-thu-tam-su-den-khach-185260717212745151.htm",
@@ -102,54 +142,24 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "Đ&agrave; Nẵng tăng tốc kinh tế số từ doanh nghiệp nhỏ v&agrave; vừa",
-          "link": "https://thanhnien.vn/da-nang-tang-toc-kinh-te-so-tu-doanh-nghiep-nho-va-vua-185260717194414077.htm",
-          "pubDate": "2026-07-17T12:32:00.000Z",
-          "excerpt": "Đ&agrave; Nẵng triển khai h&agrave;ng loạt ch&iacute;nh s&aacute;ch v&agrave; g&oacute;i hỗ trợ chuyển đổi số d&agrave;nh cho doanh nghiệp nhỏ v&agrave; vừa,…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Chứng khoán Rồng Việt báo lãi sau thuế Quý 2/2026 gần 45 tỷ đồng",
-          "link": "https://cafef.vn/chung-khoan-rong-viet-bao-lai-sau-thue-quy-2-2026-gan-45-ty-dong-188260717140745109.chn",
-          "pubDate": "2026-07-17T12:30:00.000Z",
-          "excerpt": "CTCP Chứng khoán Rồng Việt (HOSE: VDS) vừa công bố Báo cáo tài chính riêng Quý 2/2026 với doanh thu hơn 266 tỷ đồng, tăng 45,6% so với cùng kỳ.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Bảo đảm an ninh năng lượng đến năm 2030",
-          "link": "https://thanhnien.vn/bao-dam-an-ninh-nang-luong-den-nam-2030-185260717113244402.htm",
-          "pubDate": "2026-07-17T12:07:00.000Z",
-          "excerpt": "Trong kỷ nguy&ecirc;n xe điện, an ninh năng lượng phải gắn với năng lực l&agrave;m chủ c&ocirc;ng nghệ, chuỗi cung ứng v&agrave; dữ liệu để bảo đảm t&iacute;nh…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK \"xả\" mạnh phiên cuối tuần",
-          "link": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-xa-manh-phien-cuoi-tuan-18826071717174961.chn",
-          "pubDate": "2026-07-17T10:17:00.000Z",
-          "excerpt": "Tự doanh CTCK bán ròng 479 tỷ đồng trên HOSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Chứng khoán Rồng Việt báo lãi sau thuế Quý 2/2026 gần 45 tỷ đồng. Kết quả này cho thấy sự phục hồi của công ty trong bối cảnh thị trường chứng khoán biến động."
+      "aiSummary": "Khối ngoại bán ròng gần 2.100 tỷ đồng. Do Index mất 40 điểm."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Nhà mái tre 565 m2 với thiết kế làm mát tự nhiên",
+          "link": "https://vnexpress.net/nha-mai-tre-565-m2-voi-thiet-ke-lam-mat-tu-nhien-5091645.html",
+          "pubDate": "2026-07-17T17:00:00.000Z",
+          "excerpt": "Công trình sử dụng mái tre, sân trong và hệ hiên rộng để tăng thông gió, hạn chế phụ thuộc vào điều hòa.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Trên 80% người bán bất động sản đang chốt lời và tái đầu tư",
           "link": "https://cafef.vn/tren-80-nguoi-ban-bat-dong-san-dang-chot-loi-va-tai-dau-tu-188260717214113448.chn",
@@ -219,24 +229,24 @@
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
-        },
-        {
-          "title": "The Emerald River Park – Khai mở phong cách sống từ bất động sản bến du thuyền",
-          "link": "https://cafef.vn/the-emerald-river-park-khai-mo-phong-cach-song-tu-bat-dong-san-ben-du-thuyen-188260717160905775.chn",
-          "pubDate": "2026-07-17T10:30:00.000Z",
-          "excerpt": "The Emerald River Park đánh dấu sự xuất hiện của dòng bất động sản bến du thuyền cao cấp tại TP.HCM, mang đến một chuẩn sống mới - nơi bến du thuyền, thiên…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Trên 80% người bán bất động sản chốt lời và tái đầu tư. Nguyên nhân do nhu cầu đầu tư và thị trường bất động sản biến động."
+      "aiSummary": "Sovico Group thanh toán hơn 3.300 tỷ đồng gốc, lãi trái phiếu. Điều này cho thấy sự ổn định tài chính của công ty."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Tỷ phú Mỹ tối ưu doanh thu từng m2 sân diễn ra trận tranh hạng ba World Cup",
+          "link": "https://vnexpress.net/ty-phu-my-toi-uu-doanh-thu-tung-m2-san-dien-ra-tran-tranh-hang-ba-world-cup-5098455.html",
+          "pubDate": "2026-07-17T17:10:00.000Z",
+          "excerpt": "Không có quy mô lớn nhất, nhưng Hard Rock Stadium của tỷ phú bất động sản Stephen Ross lại là hình mẫu hàng đầu về kinh doanh sân vận động kiểu Mỹ.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
         {
           "title": "Khẳng định b&aacute;m trụ đến c&ugrave;ng, tiệm kim cương gửi 'thư t&acirc;m sự' đến kh&aacute;ch",
           "link": "https://thanhnien.vn/khang-dinh-bam-tru-den-cung-tiem-kim-cuong-gui-thu-tam-su-den-khach-185260717212745151.htm",
@@ -306,24 +316,34 @@
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Thanh khoản chứng khoán thấp nhất một tháng",
-          "link": "https://vnexpress.net/thanh-khoan-chung-khoan-thap-nhat-mot-thang-5098632.html",
-          "pubDate": "2026-07-17T09:31:31.000Z",
-          "excerpt": "Trong phiên chứng khoán giảm gần 17 điểm, dòng tiền giao dịch trên thị trường cũng sụt mạnh về mức thấp nhất trong khoảng một tháng gần đây.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
         }
       ],
-      "aiSummary": "Thanh khoản chứng khoán giảm xuống thấp nhất một tháng. Nguyên nhân là do nhà đầu tư thận trọng khi thị trường không có thông tin tích cực."
+      "aiSummary": "Tập đoàn C.P. mở rộng đầu tư tại Việt Nam, thúc đẩy chế biến sâu và xuất khẩu. Điều này giúp tăng cường sự hiện diện của công ty trong lĩnh vực sản xuất và xuất khẩu."
     },
     {
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts",
+          "link": "https://www.ft.com/content/e466df85-fa3b-4a7f-a4a1-ae04d66db99f?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T16:23:42.000Z",
+          "excerpt": "Family company has quoted the six-figure sum for high-speed access to Truth Social platform",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "Lionel Messi, Argentine legend with nothing left to prove",
+          "link": "https://www.ft.com/content/5918b421-187f-4dc5-8acc-b6c7d5b937cf?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T15:49:48.000Z",
+          "excerpt": "As he plays his third World Cup final, the star has created an alternative global hierarchy",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
         {
           "title": "J.K. Rowling condemns Amnesty for branding her women’s crisis centre anti-rights",
           "link": "https://www.scmp.com/news/world/europe/article/3361007/jk-rowling-condemns-amnesty-branding-her-womens-crisis-centre-anti-rights?utm_source=rss_feed",
@@ -355,26 +375,6 @@
           "attribution": "SCMP"
         },
         {
-          "title": "Apple briefly leapfrogs Nvidia as world’s most valuable company",
-          "link": "https://www.ft.com/content/9586223a-8339-4a57-9e2f-251899ebd211?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T13:49:26.000Z",
-          "excerpt": "Shares in iPhone maker have escaped AI sell-off that has hit chipmaker",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "Andy Burnham will find that hope is not enough to govern",
-          "link": "https://www.ft.com/content/cba7f3d7-fe03-4946-a17d-375d6c96e461?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T12:57:51.000Z",
-          "excerpt": "Once in Downing Street, the new prime minister should tell the Labour Party what it doesn’t want to hear",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
           "title": "To tackle the climate crisis, start small, think big and act at scale",
           "link": "https://www.scmp.com/opinion/world-opinion/article/3360812/tackle-climate-crisis-start-small-think-big-and-act-scale?utm_source=rss_feed",
           "pubDate": "2026-07-17T12:30:05.000Z",
@@ -395,17 +395,17 @@
           "attribution": "SCMP"
         },
         {
-          "title": "The perils of relying on PE ratios",
-          "link": "https://www.ft.com/content/478fe638-84d5-4eab-a2c5-5b43ec106bdf?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T11:00:08.000Z",
-          "excerpt": "Global gyrations in stock prices and earnings favour other markets",
+          "title": "Trump envoy’s tour on $450mn superyacht stirs anger in Italy",
+          "link": "https://www.ft.com/content/f5773412-4604-4078-9fc9-41b715326572?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T11:40:24.000Z",
+          "excerpt": "Rome declines to reveal cost of security for billionaire businessman Tilman Fertitta’s ‘coastal diplomacy’",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
         }
       ],
-      "aiSummary": "Apple vượt Nvidia với giá trị 1,7%. Do giá cổ phiếu tăng."
+      "aiSummary": "Trump Media đề xuất phí 100.000 đô la. Do tốc độ đăng bài nhanh của tổng thống."
     }
   ]
 }
