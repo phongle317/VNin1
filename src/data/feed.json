@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T13:44:27.404Z",
+  "lastUpdated": "2026-07-17T14:37:46.968Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 3970.1,
+      "value": 4004.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7436.24,
-      "change": -139.15000000000055,
-      "changePercent": -1.8368691248899467
+      "value": 7490.8,
+      "change": -84.59000000000015,
+      "changePercent": -1.1166421794785502
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25266.23,
-      "change": -1015.380000000001,
-      "changePercent": -3.863461941639043
+      "value": 25570.455,
+      "change": -711.1549999999988,
+      "changePercent": -2.7059034815599152
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24721.28,
-      "change": -345.8100000000013,
-      "changePercent": -1.37953787216626
+      "value": 24779.9,
+      "change": -287.1899999999987,
+      "changePercent": -1.145685438557083
     }
   ],
   "themes": [
@@ -63,6 +63,16 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Khẳng định b&aacute;m trụ đến c&ugrave;ng, tiệm kim cương gửi 'thư t&acirc;m sự' đến kh&aacute;ch",
+          "link": "https://thanhnien.vn/khang-dinh-bam-tru-den-cung-tiem-kim-cuong-gui-thu-tam-su-den-khach-185260717212745151.htm",
+          "pubDate": "2026-07-17T14:31:00.000Z",
+          "excerpt": "Ng&agrave;y 17.7, tr&ecirc;n trang mạng x&atilde; hội facebook Quy&ecirc;n Diamond – Trang sức kim cương (c&oacute; địa chỉ tại 376 An Dương Vương, Q.5 (cũ),…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
         {
           "title": "Giám đốc cấp cao của VinaCapital: Đầu tư hiệu suất thấp trong 6 tháng qua là bình thường",
           "link": "https://vneconomy.vn/giam-doc-cap-cao-cua-vinacapital-dau-tu-hieu-suat-thap-trong-6-thang-qua-la-binh-thuong.htm",
@@ -132,16 +142,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "Nhóm CII tiếp tục gia tăng sở hữu tại PC1",
-          "link": "https://cafef.vn/nhom-cii-tiep-tuc-gia-tang-so-huu-tai-pc1-188260717171019744.chn",
-          "pubDate": "2026-07-17T10:10:00.000Z",
-          "excerpt": "CII Invest vừa tiếp tục mua thêm gần 1,1 triệu cổ phiếu PC1 trong phiên ngày 16/7/2026, qua đó tăng tỷ lệ sở hữu của cả nhóm CII lên mức 10,55% vốn.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -150,6 +150,36 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "T&T muốn phát triển mô hình \"đô thị tri thức\" tại một tỉnh miền Tây Nam Bộ",
+          "link": "https://cafef.vn/tt-muon-phat-trien-mo-hinh-do-thi-tri-thuc-tai-mot-tinh-mien-tay-nam-bo-188260717213142044.chn",
+          "pubDate": "2026-07-17T14:31:00.000Z",
+          "excerpt": "Theo ông Đỗ Vinh Quang, định hướng lâu dài của doanh nghiệp là phát triển mô hình \"đô thị tri thức\", trong đó tri thức được hiểu theo nghĩa rộng, bao gồm công…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Khẳng định b&aacute;m trụ đến c&ugrave;ng, tiệm kim cương gửi 'thư t&acirc;m sự' đến kh&aacute;ch",
+          "link": "https://thanhnien.vn/khang-dinh-bam-tru-den-cung-tiem-kim-cuong-gui-thu-tam-su-den-khach-185260717212745151.htm",
+          "pubDate": "2026-07-17T14:31:00.000Z",
+          "excerpt": "Ng&agrave;y 17.7, tr&ecirc;n trang mạng x&atilde; hội facebook Quy&ecirc;n Diamond – Trang sức kim cương (c&oacute; địa chỉ tại 376 An Dương Vương, Q.5 (cũ),…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Chủ đầu tư sẽ dành hơn 20% quỹ đất xây gần 6.000 căn nhà ở xã hội tại siêu dự án Bình Quới - Thanh Đa",
+          "link": "https://cafef.vn/chu-dau-tu-se-danh-hon-20-quy-dat-xay-gan-6000-can-nha-o-xa-hoi-tai-sieu-du-an-binh-quoi-thanh-da-18826071721241256.chn",
+          "pubDate": "2026-07-17T14:23:00.000Z",
+          "excerpt": "Siêu dự án Bình Quới - Thanh Đa sẽ dành hơn 20% quỹ đất để phát triển gần 6.000 căn nhà ở xã hội phục vụ tái định cư, trở thành một trong những khu nhà ở xã…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
         {
           "title": "Sovico Group thanh toán hơn 3.300 tỷ đồng gốc, lãi trái phiếu trong nửa đầu năm 2026",
           "link": "https://cafef.vn/sovico-group-thanh-toan-hon-3300-ty-dong-goc-lai-trai-phieu-trong-nua-dau-nam-2026-188260717203517631.chn",
@@ -199,36 +229,6 @@
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Phường Phú Diễn sắp có thêm dự án nhà ở thấp tầng gần 6.500m2",
-          "link": "https://cafef.vn/phuong-phu-dien-sap-co-them-du-an-nha-o-thap-tang-gan-6500m2-188260717153332449.chn",
-          "pubDate": "2026-07-17T09:56:00.000Z",
-          "excerpt": "Phó Chủ tịch UBND Thành phố Bùi Duy Cường đã ký ban hành Quyết định số 3530 về việc giao 6.490m2 đất trúng đấu giá cho Công ty cổ phần phát triển nhà Haland.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Tập đo&agrave;n C.P. mở rộng đầu tư tại Việt Nam, th&uacute;c đẩy chế biến s&acirc;u v&agrave; xuất khẩu",
-          "link": "https://thanhnien.vn/tap-doan-cp-mo-rong-dau-tu-tai-viet-nam-thuc-day-che-bien-sau-va-xuat-khau-185260717164852103.htm",
-          "pubDate": "2026-07-17T09:35:00.000Z",
-          "excerpt": "Trong chuyến c&ocirc;ng t&aacute;c tại Việt Nam, l&atilde;nh đạo Tập đo&agrave;n C.P. cho biết sẽ tiếp tục mở rộng đầu tư v&agrave;o chế biến s&acirc;u, ứng…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Đà Nẵng giảm giá hơn 400 tỷ đồng khu đất sân vận động Chi Lăng",
-          "link": "https://vnexpress.net/da-nang-giam-gia-hon-400-ty-dong-khu-dat-san-van-dong-chi-lang-5098591.html",
-          "pubDate": "2026-07-17T09:25:17.000Z",
-          "excerpt": "Khu đất sân vận động Chi Lăng vừa được thông báo đấu giá lần thứ ba với giá khởi điểm 9.300 tỷ đồng, do không có người mua.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
         }
       ],
       "aiSummary": null
@@ -237,6 +237,16 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Khẳng định b&aacute;m trụ đến c&ugrave;ng, tiệm kim cương gửi 'thư t&acirc;m sự' đến kh&aacute;ch",
+          "link": "https://thanhnien.vn/khang-dinh-bam-tru-den-cung-tiem-kim-cuong-gui-thu-tam-su-den-khach-185260717212745151.htm",
+          "pubDate": "2026-07-17T14:31:00.000Z",
+          "excerpt": "Ng&agrave;y 17.7, tr&ecirc;n trang mạng x&atilde; hội facebook Quy&ecirc;n Diamond – Trang sức kim cương (c&oacute; địa chỉ tại 376 An Dương Vương, Q.5 (cũ),…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
         {
           "title": "Đ&agrave; Nẵng tăng tốc kinh tế số từ doanh nghiệp nhỏ v&agrave; vừa",
           "link": "https://thanhnien.vn/da-nang-tang-toc-kinh-te-so-tu-doanh-nghiep-nho-va-vua-185260717194414077.htm",
@@ -306,16 +316,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress"
-        },
-        {
-          "title": "Quảng Trị dự kiến đấu giá 36 khu vực khoáng sản trong năm 2026",
-          "link": "https://vneconomy.vn/quang-tri-du-kien-dau-gia-36-khu-vuc-khoang-san-trong-nam-2026.htm",
-          "pubDate": "2026-07-17T09:07:19.000Z",
-          "excerpt": "Quảng Trị đang hoàn thiện kế hoạch đấu giá quyền khai thác khoáng sản năm 2026 với 36 khu vực có tổng diện tích hơn 477 ha nhằm đáp ứng nhu cầu vật liệu xây…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
         }
       ],
       "aiSummary": null
@@ -325,9 +325,19 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "J.K. Rowling condemns Amnesty for branding her women’s crisis centre anti-rights",
+          "link": "https://www.scmp.com/news/world/europe/article/3361007/jk-rowling-condemns-amnesty-branding-her-womens-crisis-centre-anti-rights?utm_source=rss_feed",
+          "pubDate": "2026-07-17T14:31:54.000Z",
+          "excerpt": "Britain’s charities regulator is looking into concerns about an Amnesty International report that branded a women’s centre for sexual violence victims founded…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
           "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
           "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-          "pubDate": "2026-07-17T13:34:48.000Z",
+          "pubDate": "2026-07-17T14:13:49.000Z",
           "excerpt": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
@@ -335,10 +345,30 @@
           "attribution": "CNBC"
         },
         {
+          "title": "UK’s next prime minister Andy Burnham vows to ‘give hope back’ to Britons",
+          "link": "https://www.scmp.com/news/world/europe/article/3361003/uks-next-prime-minister-andy-burnham-vows-give-hope-back-britons?utm_source=rss_feed",
+          "pubDate": "2026-07-17T13:52:43.000Z",
+          "excerpt": "Andy Burnham vowed Friday to “give hope” back to the British people as he was confirmed as the ruling Labour Party’s new leader, set to be the next UK prime…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
           "title": "Wall Street tech stocks tumble as AI trade goes into reverse",
           "link": "https://www.ft.com/content/79a15abd-5892-4f1c-b038-b09a1ceecabb?syn-25a6b1a6=1",
           "pubDate": "2026-07-17T13:31:26.000Z",
-          "excerpt": "Index of US semiconductor stocks on track for its worst week since last year’s ‘liberation day’ rout",
+          "excerpt": "Index of US semiconductor stocks on track for worst week since last year’s ‘liberation day’ rout",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "Andy Burnham will find that hope is not enough to govern",
+          "link": "https://www.ft.com/content/cba7f3d7-fe03-4946-a17d-375d6c96e461?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T12:57:51.000Z",
+          "excerpt": "Once in Downing Street, the new prime minister should tell the Labour Party what it doesn’t want to hear",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -373,36 +403,6 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
-        },
-        {
-          "title": "Chemical tanker seized off Yemen coast in suspected Somali pirate hijack",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3360980/chemical-tanker-seized-yemen-coast-suspected-somali-pirate-hijack?utm_source=rss_feed",
-          "pubDate": "2026-07-17T10:58:33.000Z",
-          "excerpt": "⁠Armed assailants are believed to have boarded the chemical tanker Asana off the southern coast of Yemen in the Gulf of Aden on Friday and are in control of…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "Apple targets dozens of OpenAI employees with legal letters",
-          "link": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T10:00:05.000Z",
-          "excerpt": "iPhone maker steps up aggressive tactics in trade secrets dispute with AI lab",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "Xi’s call on AI, Trump blasts China, US tariffs",
-          "link": "https://www.scmp.com/plus/tech/tech-war/article/3360914/xis-call-ai-trump-blasts-china-us-tariffs?utm_source=rss_feed",
-          "pubDate": "2026-07-17T09:01:38.000Z",
-          "excerpt": "Chinese President Xi Jinping stressed the dual nature of artificial intelligence’s opportunities and challenges, calling for a principle of “openness” and…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
         }
       ],
       "aiSummary": null
