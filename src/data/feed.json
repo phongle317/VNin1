@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T14:54:39.724Z",
+  "lastUpdated": "2026-07-17T15:17:15.689Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4001.3,
+      "value": 4010.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7478.51,
-      "change": -96.88000000000011,
-      "changePercent": -1.278878051163044
+      "value": 7466.67,
+      "change": -108.72000000000025,
+      "changePercent": -1.4351736346247554
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25506.246,
-      "change": -775.3640000000014,
-      "changePercent": -2.9502149982440247
+      "value": 25460.664,
+      "change": -820.9459999999999,
+      "changePercent": -3.123651861510767
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24799.72,
-      "change": -267.369999999999,
-      "changePercent": -1.0666176249417023
+      "value": 24778.84,
+      "change": -288.25,
+      "changePercent": -1.149914090546609
     }
   ],
   "themes": [
@@ -144,7 +144,7 @@
           "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Chứng khoán Rồng Việt báo lãi sau thuế Quý 2/2026 gần 45 tỷ đồng. Kết quả này cho thấy sự phục hồi của công ty trong quý vừa qua."
+      "aiSummary": "Chứng khoán Rồng Việt báo lãi sau thuế Quý 2/2026 gần 45 tỷ đồng. Kết quả này cho thấy sự phục hồi của công ty trong bối cảnh thị trường chứng khoán biến động."
     },
     {
       "key": "realestate",
@@ -318,7 +318,7 @@
           "attribution": "VnExpress"
         }
       ],
-      "aiSummary": "Thanh khoản chứng khoán giảm xuống thấp nhất một tháng. Nguyên nhân là do nhà đầu tư vẫn còn thận trọng."
+      "aiSummary": "Thanh khoản chứng khoán giảm xuống thấp nhất một tháng. Nguyên nhân là do nhà đầu tư thận trọng khi thị trường không có thông tin tích cực."
     },
     {
       "key": "international",
@@ -355,7 +355,7 @@
           "attribution": "SCMP"
         },
         {
-          "title": "Apple reclaims crown as world’s most valuable company from Nvidia",
+          "title": "Apple briefly leapfrogs Nvidia as world’s most valuable company",
           "link": "https://www.ft.com/content/9586223a-8339-4a57-9e2f-251899ebd211?syn-25a6b1a6=1",
           "pubDate": "2026-07-17T13:49:26.000Z",
           "excerpt": "Shares in iPhone maker have escaped AI sell-off that has hit chipmaker",
@@ -405,7 +405,7 @@
           "attribution": "FT"
         }
       ],
-      "aiSummary": "Giá nhập khẩu tăng bất ngờ. Chi phí hàng hóa từ Trung Quốc cao nhất kể từ 2008."
+      "aiSummary": "Apple vượt Nvidia với giá trị 1,7%. Do giá cổ phiếu tăng."
     }
   ]
 }
