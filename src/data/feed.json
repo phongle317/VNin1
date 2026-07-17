@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-17T09:12:28.446Z",
+  "lastUpdated": "2026-07-17T11:24:23.020Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26470,
+      "value": 26490,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 3999.2,
+      "value": 3996,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24729.83,
-      "change": -337.2599999999984,
-      "changePercent": -1.3454294056469993
+      "value": 24748.81,
+      "change": -318.27999999999884,
+      "changePercent": -1.2697125992685983
     }
   ],
   "themes": [
@@ -64,30 +64,70 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "Một cổ phiếu ngân hàng bị tự doanh CTCK \"xả\" mạnh phiên cuối tuần",
+          "link": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-tu-doanh-ctck-xa-manh-phien-cuoi-tuan-18826071717174961.chn",
+          "pubDate": "2026-07-17T10:17:00.000Z",
+          "excerpt": "Tự doanh CTCK bán ròng 479 tỷ đồng trên HOSE.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Nhóm CII tiếp tục gia tăng sở hữu tại PC1",
+          "link": "https://cafef.vn/nhom-cii-tiep-tuc-gia-tang-so-huu-tai-pc1-188260717171019744.chn",
+          "pubDate": "2026-07-17T10:10:00.000Z",
+          "excerpt": "CII Invest vừa tiếp tục mua thêm gần 1,1 triệu cổ phiếu PC1 trong phiên ngày 16/7/2026, qua đó tăng tỷ lệ sở hữu của cả nhóm CII lên mức 10,55% vốn.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "VinFast của tỷ phú Phạm Nhật Vượng chơi lớn: Bắt tay ‘gã khổng lồ’ 150 năm tuổi của Đức, tham vọng đưa Việt Nam thành trung tâm kiểm thử ô tô của khu vực",
+          "link": "https://cafef.vn/vinfast-cua-ty-phu-pham-nhat-vuong-choi-lon-bat-tay-ga-khong-lo-150-nam-tuoi-cua-duc-tham-vong-dua-viet-nam-thanh-trung-tam-kiem-thu-o-to-cua-khu-vuc-188260717170656942.chn",
+          "pubDate": "2026-07-17T10:06:00.000Z",
+          "excerpt": "Ngày 17/7, VinFast ký kết biên bản ghi nhớ (MOU) về việc hợp tác chiến lược với TUV Rheinland - đơn vị thử nghiệm, kiểm định và chứng nhận kỹ thuật ô tô hàng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Vàng, chứng khoán, bất động sản có thể cùng lao dốc: Chuyên gia VCBF chỉ ra nguyên nhân",
+          "link": "https://cafef.vn/vang-chung-khoan-bat-dong-san-co-the-cung-lao-doc-chuyen-gia-vcbf-chi-ra-nguyen-nhan-18826071717045134.chn",
+          "pubDate": "2026-07-17T10:04:00.000Z",
+          "excerpt": "Chuyên gia cho rằng dưới tác động của lãi suất, địa chính trị và dòng tiền toàn cầu, các lớp tài sản ngày càng biến động cùng chiều. Trong môi trường đó, chìa…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "To&agrave;n hệ thống metro TP.HCM sẽ được &aacute;p dụng những c&ocirc;ng nghệ 4.0 si&ecirc;u 'xịn'",
+          "link": "https://thanhnien.vn/toan-he-thong-metro-tphcm-se-duoc-ap-dung-nhung-cong-nghe-40-sieu-xin-185260717165329683.htm",
+          "pubDate": "2026-07-17T09:57:00.000Z",
+          "excerpt": "Ban Quản l&yacute; Đường sắt đ&ocirc; thị TP.HCM (MAUR) v&agrave; Tổng c&ocirc;ng ty C&ocirc;ng nghệ - Viễn th&ocirc;ng To&agrave;n cầu (GTEL) vừa tổ chức Lễ…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Tập đo&agrave;n C.P. mở rộng đầu tư tại Việt Nam, th&uacute;c đẩy chế biến s&acirc;u v&agrave; xuất khẩu",
+          "link": "https://thanhnien.vn/tap-doan-cp-mo-rong-dau-tu-tai-viet-nam-thuc-day-che-bien-sau-va-xuat-khau-185260717164852103.htm",
+          "pubDate": "2026-07-17T09:35:00.000Z",
+          "excerpt": "Trong chuyến c&ocirc;ng t&aacute;c tại Việt Nam, l&atilde;nh đạo Tập đo&agrave;n C.P. cho biết sẽ tiếp tục mở rộng đầu tư v&agrave;o chế biến s&acirc;u, ứng…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
           "title": "Chứng khoán VPBankS báo lãi quý 2 cao gấp 4 lần cùng kỳ",
           "link": "https://cafef.vn/chung-khoan-vpbanks-bao-lai-quy-2-cao-gap-4-lan-cung-ky-188260717155933167.chn",
           "pubDate": "2026-07-17T09:02:00.000Z",
           "excerpt": "Nửa đầu năm, VPBankS ghi nhận mức lợi nhuận đạt 2.673 tỷ đồng, gấp gần 3 lần so với cùng kỳ, vượt kế hoạch đã đề ra cho giai đoạn 6 tháng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Niềm vui cuối tuần của cổ đông PNJ",
-          "link": "https://cafef.vn/niem-vui-cuoi-tuan-cua-co-dong-pnj-188260717152939399.chn",
-          "pubDate": "2026-07-17T08:45:00.000Z",
-          "excerpt": "Cổ phiếu PNJ vừa có phiên tăng mạnh sau khi rơi sâu chạm đáy 5 năm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Khối ngoại \"tung\" hơn 250 tỷ gom một cổ phiếu Bluechip phiên 17/7",
-          "link": "https://cafef.vn/khoi-ngoai-tung-hon-250-ty-gom-mot-co-phieu-bluechip-phien-17-7-188260717152638537.chn",
-          "pubDate": "2026-07-17T08:45:00.000Z",
-          "excerpt": "Trên HOSE khối ngoại bán ròng 678 tỷ đồng, song đảo chiều gom một cổ phiếu lớn.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -102,46 +142,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
-        },
-        {
-          "title": "Một tiệm kim cương tại TP.HCM 'ch&agrave;o tạm biệt'",
-          "link": "https://thanhnien.vn/mot-tiem-kim-cuong-tai-tphcm-chao-tam-biet-185260717143004783.htm",
-          "pubDate": "2026-07-17T07:33:00.000Z",
-          "excerpt": "Trưa 17.7, C&ocirc;ng ty TNHH Trang Sức Kim Cương PJA (tại 413 V&otilde; Văn Tần, phường B&agrave;n Cờ, TP.HCM) chuy&ecirc;n mua b&aacute;n trang sức kim cương…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Nhiều người 'đứng ngồi không yên' vì tiệm vàng bất ngờ đóng cửa",
-          "link": "https://cafef.vn/nhieu-nguoi-dung-ngoi-khong-yen-vi-tiem-vang-bat-ngo-dong-cua-188260717135818464.chn",
-          "pubDate": "2026-07-17T06:58:00.000Z",
-          "excerpt": "Tiệm vàng Hồng Phúc ở Mỹ Tho, Đồng Tháp thông báo \"tạm ngưng hoạt động\", nhiều người lo lắng cho tài sản đã mua hoặc cầm cố ở đây. Cơ quan chức năng địa phương…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Thêm một doanh nghiệp bán kim cương thông báo ngừng hoạt động",
-          "link": "https://cafef.vn/them-mot-doanh-nghiep-ban-kim-cuong-thong-bao-ngung-hoat-dong-188260717135520371.chn",
-          "pubDate": "2026-07-17T06:55:00.000Z",
-          "excerpt": "Cửa hàng cho biết không còn lựa chọn nào khác dù rất muốn tiếp tục đồng hành và gắn bó lâu dài cùng khách hàng,",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Bổ sung một số trường hợp khấu trừ, nộp thuế thay người nộp thuế",
-          "link": "https://thanhnien.vn/bo-sung-mot-so-truong-hop-khau-tru-nop-thue-thay-nguoi-nop-thue-185260717120854142.htm",
-          "pubDate": "2026-07-17T05:14:00.000Z",
-          "excerpt": "Cục Thuế đ&atilde; ban h&agrave;nh C&ocirc;ng văn số 4862 về việc giới thiệu một số điểm mới v&agrave; triển khai thực hiện Th&ocirc;ng tư số 90/2026 của Bộ…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -150,6 +150,66 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "The Emerald River Park – Khai mở phong cách sống từ bất động sản bến du thuyền",
+          "link": "https://cafef.vn/the-emerald-river-park-khai-mo-phong-cach-song-tu-bat-dong-san-ben-du-thuyen-188260717160905775.chn",
+          "pubDate": "2026-07-17T10:30:00.000Z",
+          "excerpt": "The Emerald River Park đánh dấu sự xuất hiện của dòng bất động sản bến du thuyền cao cấp tại TP.HCM, mang đến một chuẩn sống mới - nơi bến du thuyền, thiên…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "To&agrave;n hệ thống metro TP.HCM sẽ được &aacute;p dụng những c&ocirc;ng nghệ 4.0 si&ecirc;u 'xịn'",
+          "link": "https://thanhnien.vn/toan-he-thong-metro-tphcm-se-duoc-ap-dung-nhung-cong-nghe-40-sieu-xin-185260717165329683.htm",
+          "pubDate": "2026-07-17T09:57:00.000Z",
+          "excerpt": "Ban Quản l&yacute; Đường sắt đ&ocirc; thị TP.HCM (MAUR) v&agrave; Tổng c&ocirc;ng ty C&ocirc;ng nghệ - Viễn th&ocirc;ng To&agrave;n cầu (GTEL) vừa tổ chức Lễ…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Trước khi gắn với Đại Nam, bà Nguyễn Phương Hằng từng là tay buôn bất động sản có tiếng với biệt danh \"Hằng Canada\", sau này nhiều lần nhắc đến khối tài sản \"kim cương và sổ đỏ tính bằng cân\"",
+          "link": "https://cafef.vn/truoc-khi-gan-voi-dai-nam-ba-nguyen-phuong-hang-tung-la-tay-buon-bat-dong-san-co-tieng-voi-biet-danh-hang-canada-sau-nay-nhieu-lan-nhac-den-khoi-tai-san-kim-cuong-va-so-do-tinh-bang-can-188260717153332449.chn",
+          "pubDate": "2026-07-17T09:56:00.000Z",
+          "excerpt": "Trước khi gắn tên tuổi với ông Dũng “lò vôi”, bà Nguyễn Phương Hằng đã được giới kinh doanh biết đến với biệt danh “Hằng Canada” - một tay buôn bất động sản có…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Tập đo&agrave;n C.P. mở rộng đầu tư tại Việt Nam, th&uacute;c đẩy chế biến s&acirc;u v&agrave; xuất khẩu",
+          "link": "https://thanhnien.vn/tap-doan-cp-mo-rong-dau-tu-tai-viet-nam-thuc-day-che-bien-sau-va-xuat-khau-185260717164852103.htm",
+          "pubDate": "2026-07-17T09:35:00.000Z",
+          "excerpt": "Trong chuyến c&ocirc;ng t&aacute;c tại Việt Nam, l&atilde;nh đạo Tập đo&agrave;n C.P. cho biết sẽ tiếp tục mở rộng đầu tư v&agrave;o chế biến s&acirc;u, ứng…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Hà Nội quyết liệt thực hiện mục tiêu phát triển nhà ở xã hội",
+          "link": "https://vneconomy.vn/ha-noi-quyet-liet-thuc-hien-muc-tieu-phat-trien-nha-o-xa-hoi.htm",
+          "pubDate": "2026-07-17T09:22:04.000Z",
+          "excerpt": "Thành phố Hà Nội đang đẩy nhanh tiến độ phát triển nhà ở xã hội thông qua việc tháo gỡ các vướng mắc về quy hoạch, giải phóng mặt bằng, giao đất và thủ tục đầu…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Nhiều dự án nhà ở thương mại sẽ bị loại khỏi danh mục thí điểm do chồng lấn",
+          "link": "https://cafef.vn/nhieu-du-an-nha-o-thuong-mai-se-bi-loai-khoi-danh-muc-thi-diem-do-chong-lan-188260717151026668.chn",
+          "pubDate": "2026-07-17T09:12:00.000Z",
+          "excerpt": "Hà Nội dự kiến đưa nhiều dự án ra khỏi danh mục thí điểm làm nhà ở thương mại thông qua thỏa thuận về nhận quyền sử dụng đất hoặc đang có quyền sử dụng đất do…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
         {
           "title": "Thera Home: Căn hộ trị liệu có chăm sóc y tế 24/7 đầu tiên tại phía Nam Hà Nội",
           "link": "https://cafef.vn/thera-home-can-ho-tri-lieu-co-cham-soc-y-te-24-7-dau-tien-tai-phia-nam-ha-noi-188260717095436287.chn",
@@ -169,66 +229,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "TP. Hồ Chí Minh yêu cầu đẩy nhanh công tác kiểm định, xây dựng lại chung cư cũ",
-          "link": "https://cafef.vn/tp-ho-chi-minh-yeu-cau-day-nhanh-cong-tac-kiem-dinh-xay-dung-lai-chung-cu-cu-188260717140214078.chn",
-          "pubDate": "2026-07-17T08:18:00.000Z",
-          "excerpt": "Theo báo cáo của Sở Xây dựng TP. Hồ Chí Minh, đến nay, trên địa bàn thành phố mới có 72/220 lô chung cư cũ được kiểm định, đạt 32,72% kế hoạch.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Giá chung cư Hà Nội hơn 120 triệu đồng/m2, nhà đầu tư vẫn chuộng bất động sản",
-          "link": "https://cafef.vn/gia-chung-cu-ha-noi-hon-120-trieu-dong-m2-nha-dau-tu-van-chuong-bat-dong-san-188260717142747447.chn",
-          "pubDate": "2026-07-17T08:07:00.000Z",
-          "excerpt": "Sự chững lại của lượng tiêu thụ bắt nguồn trực tiếp từ áp lực tài chính và tâm lý chờ đợi. Khảo sát trên 605 khách hàng của One Mount trong quý II/2026 cho…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Đấu giá đất đã qua thời kỳ phải mua bằng mọi giá",
-          "link": "https://cafef.vn/dau-gia-dat-da-qua-thoi-ky-phai-mua-bang-moi-gia-188260717140025229.chn",
-          "pubDate": "2026-07-17T07:59:00.000Z",
-          "excerpt": "Sau nhiều năm liên tục tạo mặt bằng giá mới, hoạt động đấu giá quyền sử dụng đất đang có những chuyển biến đáng chú ý. Nguồn cung gia tăng, các quy định pháp…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Một tiệm kim cương tại TP.HCM 'ch&agrave;o tạm biệt'",
-          "link": "https://thanhnien.vn/mot-tiem-kim-cuong-tai-tphcm-chao-tam-biet-185260717143004783.htm",
-          "pubDate": "2026-07-17T07:33:00.000Z",
-          "excerpt": "Trưa 17.7, C&ocirc;ng ty TNHH Trang Sức Kim Cương PJA (tại 413 V&otilde; Văn Tần, phường B&agrave;n Cờ, TP.HCM) chuy&ecirc;n mua b&aacute;n trang sức kim cương…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Bổ sung một số trường hợp khấu trừ, nộp thuế thay người nộp thuế",
-          "link": "https://thanhnien.vn/bo-sung-mot-so-truong-hop-khau-tru-nop-thue-thay-nguoi-nop-thue-185260717120854142.htm",
-          "pubDate": "2026-07-17T05:14:00.000Z",
-          "excerpt": "Cục Thuế đ&atilde; ban h&agrave;nh C&ocirc;ng văn số 4862 về việc giới thiệu một số điểm mới v&agrave; triển khai thực hiện Th&ocirc;ng tư số 90/2026 của Bộ…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Thuế n&oacute;i r&otilde; c&aacute;ch ghi th&ocirc;ng tin người mua tr&ecirc;n h&oacute;a đơn từ th&aacute;ng 7",
-          "link": "https://thanhnien.vn/thue-noi-ro-cach-ghi-thong-tin-nguoi-mua-tren-hoa-don-tu-thang-7-185260717112742072.htm",
-          "pubDate": "2026-07-17T04:59:00.000Z",
-          "excerpt": "Theo Thuế cơ sở 11 TP.H&agrave; Nội, từ ng&agrave;y 1.7, trường hợp người mua kh&ocirc;ng cung cấp đủ t&ecirc;n, địa chỉ, số định danh c&aacute; nh&acirc;n…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -238,6 +238,36 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "To&agrave;n hệ thống metro TP.HCM sẽ được &aacute;p dụng những c&ocirc;ng nghệ 4.0 si&ecirc;u 'xịn'",
+          "link": "https://thanhnien.vn/toan-he-thong-metro-tphcm-se-duoc-ap-dung-nhung-cong-nghe-40-sieu-xin-185260717165329683.htm",
+          "pubDate": "2026-07-17T09:57:00.000Z",
+          "excerpt": "Ban Quản l&yacute; Đường sắt đ&ocirc; thị TP.HCM (MAUR) v&agrave; Tổng c&ocirc;ng ty C&ocirc;ng nghệ - Viễn th&ocirc;ng To&agrave;n cầu (GTEL) vừa tổ chức Lễ…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Vốn FDI chuyển mạnh sang lĩnh vực công nghệ cao",
+          "link": "https://cafef.vn/von-fdi-chuyen-manh-sang-linh-vuc-cong-nghe-cao-188260717163716832.chn",
+          "pubDate": "2026-07-17T09:51:00.000Z",
+          "excerpt": "Giai đoạn 2026-2030, Việt Nam có thể tiếp tục thu hút khoảng 38-40 tỷ USD vốn đầu tư nước ngoài (FDI) mỗi năm. Đáng chú ý, dòng vốn quốc tế đang dịch chuyển…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Tập đo&agrave;n C.P. mở rộng đầu tư tại Việt Nam, th&uacute;c đẩy chế biến s&acirc;u v&agrave; xuất khẩu",
+          "link": "https://thanhnien.vn/tap-doan-cp-mo-rong-dau-tu-tai-viet-nam-thuc-day-che-bien-sau-va-xuat-khau-185260717164852103.htm",
+          "pubDate": "2026-07-17T09:35:00.000Z",
+          "excerpt": "Trong chuyến c&ocirc;ng t&aacute;c tại Việt Nam, l&atilde;nh đạo Tập đo&agrave;n C.P. cho biết sẽ tiếp tục mở rộng đầu tư v&agrave;o chế biến s&acirc;u, ứng…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
           "title": "Quảng Trị dự kiến đấu giá 36 khu vực khoáng sản trong năm 2026",
           "link": "https://vneconomy.vn/quang-tri-du-kien-dau-gia-36-khu-vuc-khoang-san-trong-nam-2026.htm",
           "pubDate": "2026-07-17T09:07:19.000Z",
@@ -246,6 +276,16 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
+        },
+        {
+          "title": "Ủy ban Thường vụ Quốc hội cho ý kiến về chủ trương đầu tư Dự án đường Vành đai 5 - Vùng Thủ đô Hà Nội",
+          "link": "https://cafef.vn/uy-ban-thuong-vu-quoc-hoi-cho-y-kien-ve-chu-truong-dau-tu-du-an-duong-vanh-dai-5-vung-thu-do-ha-noi-188260717152223978.chn",
+          "pubDate": "2026-07-17T09:05:49.000Z",
+          "excerpt": "Chiều 16-7, trong khuôn khổ Phiên họp thứ 4, dưới sự chủ trì của Ủy viên Bộ Chính trị, Chủ tịch Quốc hội Trần Thanh Mẫn, Ủy ban Thường vụ Quốc hội đã cho ý…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
           "title": "Từng là nỗi ám ảnh tắc đường, Nguyễn Tuân giờ khác quá khiến người Hà Nội không khỏi vui mừng",
@@ -276,46 +316,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "ADB: Việt Nam tăng trưởng tích cực nhưng cần nhanh chóng nâng cao năng suất",
-          "link": "https://cafef.vn/adb-viet-nam-tang-truong-tich-cuc-nhung-can-nhanh-chong-nang-cao-nang-suat-188260717135533147.chn",
-          "pubDate": "2026-07-17T08:08:00.000Z",
-          "excerpt": "ADB nhận định Việt Nam đang duy trì đà tăng trưởng tích cực nhưng cần nhanh chóng chuyển sang mô hình phát triển dựa trên năng suất, đổi mới sáng tạo và doanh…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Thống nhất trình Quốc hội chủ trương đầu tư Vành đai 5 Vùng Thủ đô và điều chỉnh dự án đường sắt Lào Cai - Hà Nội - Hải Phòng",
-          "link": "https://vneconomy.vn/thong-nhat-trinh-quoc-hoi-chu-truong-dau-tu-vanh-dai-5-vung-thu-do-va-dieu-chinh-du-an-duong-sat-lao-cai-ha-noi-hai-phong.htm",
-          "pubDate": "2026-07-17T07:33:10.000Z",
-          "excerpt": "Ngày 16/7, Ủy ban Thường vụ Quốc hội (UBTVQH) đã cho ý kiến về chủ trương đầu tư Dự án đường Vành đai 5 - Vùng Thủ đô Hà Nội và việc điều chỉnh chủ trương đầu…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
-        },
-        {
-          "title": "Một tiệm kim cương tại TP.HCM 'ch&agrave;o tạm biệt'",
-          "link": "https://thanhnien.vn/mot-tiem-kim-cuong-tai-tphcm-chao-tam-biet-185260717143004783.htm",
-          "pubDate": "2026-07-17T07:33:00.000Z",
-          "excerpt": "Trưa 17.7, C&ocirc;ng ty TNHH Trang Sức Kim Cương PJA (tại 413 V&otilde; Văn Tần, phường B&agrave;n Cờ, TP.HCM) chuy&ecirc;n mua b&aacute;n trang sức kim cương…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Tăng tốc tiến độ dự án gần 500 tỷ đồng bảo vệ sông Thu Bồn và bờ biển Hội An",
-          "link": "https://cafef.vn/tang-toc-tien-do-du-an-gan-500-ty-dong-bao-ve-song-thu-bon-va-bo-bien-hoi-an-188260717133537184.chn",
-          "pubDate": "2026-07-17T07:20:00.000Z",
-          "excerpt": "Chiều 16-7, Bí thư Thành ủy Đà Nẵng Lê Ngọc Quang dẫn đầu đoàn công tác kiểm tra thực tế Dự án khắc phục khẩn cấp tuyến kè bảo vệ sông Thu Bồn khu vực An…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
         }
       ],
       "aiSummary": null
@@ -324,6 +324,46 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Global tech stocks fall as AI trade goes into reverse",
+          "link": "https://www.ft.com/content/79a15abd-5892-4f1c-b038-b09a1ceecabb?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T11:08:54.000Z",
+          "excerpt": "Index of US semiconductor stocks on track for its worst week since last year’s ‘liberation day’ rout",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "I’m suddenly not loving my UK shares like I used to",
+          "link": "https://www.ft.com/content/478fe638-84d5-4eab-a2c5-5b43ec106bdf?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T11:00:08.000Z",
+          "excerpt": "Global gyrations in stock prices and earnings favour other markets",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "Chemical tanker seized off Yemen coast in suspected Somali pirate hijack",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3360980/chemical-tanker-seized-yemen-coast-suspected-somali-pirate-hijack?utm_source=rss_feed",
+          "pubDate": "2026-07-17T10:58:33.000Z",
+          "excerpt": "⁠Armed assailants are believed to have boarded the chemical tanker Asana off the southern coast of Yemen in the Gulf of Aden on Friday and are in control of…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "Apple targets dozens of OpenAI employees with legal letters",
+          "link": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T10:00:05.000Z",
+          "excerpt": "iPhone maker steps up aggressive tactics in trade secrets dispute with AI lab",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
         {
           "title": "Xi’s call on AI, Trump blasts China, US tariffs",
           "link": "https://www.scmp.com/plus/tech/tech-war/article/3360914/xis-call-ai-trump-blasts-china-us-tariffs?utm_source=rss_feed",
@@ -345,16 +385,6 @@
           "attribution": "SCMP"
         },
         {
-          "title": "Global tech stocks fall as AI trade goes into reverse",
-          "link": "https://www.ft.com/content/79a15abd-5892-4f1c-b038-b09a1ceecabb?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T07:38:43.000Z",
-          "excerpt": "Index of US semiconductor stocks on track for its worst week since last year’s ‘liberation day’ rout",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
           "title": "Chinese scientist’s sodium battery leap; petition to boot Argentina: SCMP’s 7 highlights",
           "link": "https://www.scmp.com/news/china/article/3360888/chinese-scientists-sodium-battery-leap-petition-boot-argentina-scmps-7-highlights?utm_source=rss_feed",
           "pubDate": "2026-07-17T04:34:45.000Z",
@@ -373,36 +403,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
-        },
-        {
-          "title": "‘A casino for investors’: leverage brings huge swings to world’s best-performing market",
-          "link": "https://www.ft.com/content/26ef9428-9445-4b34-8bdf-51166c7d4b3b?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T04:00:33.000Z",
-          "excerpt": "South Korean regulators fear single-stock leveraged ETFs are fuelling volatility",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "The lessons Burnham must heed on the economy",
-          "link": "https://www.ft.com/content/b2be4ef6-8bbb-4a44-a8c0-9c6e7b447463?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T04:00:23.000Z",
-          "excerpt": "Policy must go beyond mere announcements and budget arithmetic",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "The dangers of investor fatalism",
-          "link": "https://www.ft.com/content/e7039185-9c0f-4a55-bb16-3caccb619c00?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T04:00:23.000Z",
-          "excerpt": "Reports of a Russo-Chinese plan to disable satellites underline how markets are ignoring geopolitical threats to the tech boom",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
         }
       ],
       "aiSummary": null
