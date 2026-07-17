@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T17:16:13.941Z",
+  "lastUpdated": "2026-07-17T19:15:24.235Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4021.4,
+      "value": 4012.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7491.78,
-      "change": -83.61000000000058,
-      "changePercent": -1.1037055517933805
+      "value": 7452.88,
+      "change": -122.51000000000022,
+      "changePercent": -1.617210467051864
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25674.16,
-      "change": -607.4500000000007,
-      "changePercent": -2.311311978223559
+      "value": 25501.025,
+      "change": -780.5849999999991,
+      "changePercent": -2.970080600084999
     },
     {
       "symbol": "^N225",
@@ -144,7 +144,7 @@
           "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Khối ngoại bán ròng gần 2.100 tỷ đồng. Do Index mất 40 điểm."
+      "aiSummary": "Khối ngoại bán ròng gần 2.100 tỷ đồng, thanh khoản về đáy 1 tháng. Nguyên nhân do Index mất 40 điểm."
     },
     {
       "key": "realestate",
@@ -318,17 +318,47 @@
           "attribution": "Thanh Niên"
         }
       ],
-      "aiSummary": "Tập đoàn C.P. mở rộng đầu tư tại Việt Nam, thúc đẩy chế biến sâu và xuất khẩu. Điều này giúp tăng cường sự hiện diện của công ty trong lĩnh vực sản xuất và xuất khẩu."
+      "aiSummary": "Tập đoàn C.P. mở rộng đầu tư tại Việt Nam. Điều này thúc đẩy chế biến sầu và xuất khẩu."
     },
     {
       "key": "international",
       "displayName": "International",
       "articles": [
         {
+          "title": "Strong quake off Mexican coast rattles Guatemala and El Salvador",
+          "link": "https://www.scmp.com/news/world/americas/article/3361017/strong-quake-mexican-coast-rattles-guatemala-and-el-salvador?utm_source=rss_feed",
+          "pubDate": "2026-07-17T18:37:47.000Z",
+          "excerpt": "A powerful magnitude 7.3 earthquake struck off the coast of Mexico’s southernmost state of Chiapas on Friday, shaking buildings as far away as Guatemala and El…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "How long can oil markets absorb the Hormuz shock?",
+          "link": "https://www.ft.com/content/55f5860b-6ef0-42ed-a87f-c49af6ef9d29",
+          "pubDate": "2026-07-17T17:52:37.000Z",
+          "excerpt": "Improvements in oil intensity have cushioned the global economy so far — but could prompt reckless political choices",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
           "title": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts",
           "link": "https://www.ft.com/content/e466df85-fa3b-4a7f-a4a1-ae04d66db99f?syn-25a6b1a6=1",
           "pubDate": "2026-07-17T16:23:42.000Z",
           "excerpt": "Family company has quoted the six-figure sum for high-speed access to Truth Social platform",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "Robert Jenrick’s wife knew in 2024 about foreign payments to his top donor, lawyer claimed",
+          "link": "https://www.ft.com/content/48e28711-9c94-4a8e-99ed-7b0de1840b47?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T16:16:39.000Z",
+          "excerpt": "Police are investigating the legality of donations to the politician during his Conservative Party leadership bid",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -373,39 +403,9 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
-        },
-        {
-          "title": "To tackle the climate crisis, start small, think big and act at scale",
-          "link": "https://www.scmp.com/opinion/world-opinion/article/3360812/tackle-climate-crisis-start-small-think-big-and-act-scale?utm_source=rss_feed",
-          "pubDate": "2026-07-17T12:30:05.000Z",
-          "excerpt": "Sitting by the Tanjung Aru beach in Kota Kinabalu, Malaysia, watching one of the most stunning sunsets in the world, I reflected on what it would take to…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "Russian activist arrested a day after predicting Putin will end up in handcuffs",
-          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3360990/russian-activist-arrested-day-after-predicting-putin-will-end-handcuffs?utm_source=rss_feed",
-          "pubDate": "2026-07-17T12:07:39.000Z",
-          "excerpt": "A Russian activist who spent years targeting opponents of the Kremlin before unexpectedly denouncing President Vladimir Putin and his Ukraine offensive was…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
-          "title": "Trump envoy’s tour on $450mn superyacht stirs anger in Italy",
-          "link": "https://www.ft.com/content/f5773412-4604-4078-9fc9-41b715326572?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T11:40:24.000Z",
-          "excerpt": "Rome declines to reveal cost of security for billionaire businessman Tilman Fertitta’s ‘coastal diplomacy’",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
         }
       ],
-      "aiSummary": "Trump Media đề xuất phí 100.000 đô la. Do tốc độ đăng bài nhanh của tổng thống."
+      "aiSummary": "Import tăng bất ngờ với hàng từ Trung Quốc. Giá hàng hóa cao nhất kể từ 2008."
     }
   ]
 }
