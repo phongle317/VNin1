@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-07-17T00:01:48.499Z",
+  "lastUpdated": "2026-07-17T03:15:42.894Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26450,
+      "value": 26440,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 3983.6,
+      "value": 3992.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 66835.54,
-      "change": -407.1900000000023,
-      "changePercent": -0.6055524515438359
+      "value": 63896.48,
+      "change": -3346.2499999999927,
+      "changePercent": -4.976374397648628
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25008.6,
-      "change": 978.4199999999983,
-      "changePercent": 4.071629925368842
+      "value": 24580.72,
+      "change": 405.6000000000022,
+      "changePercent": 1.6777579594227543
     },
     {
       "symbol": "^GDAXI",
@@ -64,84 +64,84 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "&lsquo;Hồi sinh&rsquo; nh&agrave; t&aacute;i định cư bỏ hoang",
-          "link": "https://thanhnien.vn/hoi-sinh-nha-tai-dinh-cu-bo-hoang-185260716211638237.htm",
-          "pubDate": "2026-07-16T23:00:00.000Z",
-          "excerpt": "TP.HCM đề xuất Ch&iacute;nh phủ cho ph&eacute;p chuyển đổi một phần quỹ nh&agrave; t&aacute;i định cư kh&ocirc;ng c&ograve;n nhu cầu, khai th&aacute;c…",
+          "title": "Giá vàng lao dốc về thấp nhất 8 tháng, quỹ vàng lớn nhất thế giới hành động gì?",
+          "link": "https://cafef.vn/gia-vang-lao-doc-ve-thap-nhat-8-thang-quy-vang-lon-nhat-the-gioi-hanh-dong-gi-188260717100117224.chn",
+          "pubDate": "2026-07-17T03:01:00.000Z",
+          "excerpt": "Ở góc nhìn kỹ thuật, Bank of America cho rằng nhịp điều chỉnh hiện tại của giá vàng có thể chưa sớm kết thúc.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Nhiều rủi ro cần theo dõi: Dư nợ margin và xung đột khu vực Trung Đông",
+          "link": "https://vneconomy.vn/nhieu-rui-ro-can-theo-doi-du-no-margin-va-xung-dot-khu-vuc-trung-dong.htm",
+          "pubDate": "2026-07-17T02:46:40.000Z",
+          "excerpt": "Sau khi quá trình tái cơ cấu diễn ra cuối quý 3 đầu quý 4, thị trường mất đi câu chuyện dẫn dắt chính trong khi các yếu tố thay thế còn mỏng và nhiều rủi ro…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Chuyên gia: Không có kênh đầu tư nào chỉ tăng giá mà không giảm, nhà đầu tư cần chuẩn bị tâm lý sẵn",
+          "link": "https://vneconomy.vn/chuyen-gia-khong-co-kenh-dau-tu-nao-chi-tang-gia-ma-khong-giam-nha-dau-tu-can-chuan-bi-tam-ly-san.htm",
+          "pubDate": "2026-07-17T02:46:07.000Z",
+          "excerpt": "Áp lực dòng tiền buộc nhiều người phải ngậm ngùi bán tháo tài sản ở vùng giá đáy để trả nợ, tước đi cơ hội trụ vững qua các nhịp điều chỉnh ngắn hạn. Nguyên…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Làn sóng phát hành cổ phiếu ồ ạt đang đe dọa đà tăng của chứng khoán Mỹ?",
+          "link": "https://vneconomy.vn/lan-song-phat-hanh-co-phieu-o-at-dang-de-doa-da-tang-cua-chung-khoan-my.htm",
+          "pubDate": "2026-07-17T02:26:37.000Z",
+          "excerpt": "Làn sóng phát hành mới cùng xu hướng doanh nghiệp giảm mua lại cổ phiếu đang làm nguồn cung tăng mạnh, đe dọa chu kỳ tăng giá kéo dài của chứng khoán Mỹ...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Hóa chất Đức Giang lùi tiến độ siêu dự án 12.000 tỷ, lý do là gì?",
+          "link": "https://cafef.vn/hoa-chat-duc-giang-lui-tien-do-sieu-du-an-12000-ty-ly-do-la-gi-188260717090858628.chn",
+          "pubDate": "2026-07-17T02:08:00.000Z",
+          "excerpt": "Tổ hợp Hóa chất Đức Giang Nghi Sơn là một trong những dự án trọng điểm nhất của Hóa chất Đức Giang có tổng mức đầu tư 12.000 tỷ đồng, dự kiến được chia làm 3…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Gi&aacute; USD h&ocirc;m nay 17.7.2026: Ng&acirc;n h&agrave;ng giảm nhẹ d&ugrave; tỷ gi&aacute; trung t&acirc;m tăng",
+          "link": "https://thanhnien.vn/gia-usd-hom-nay-1772026-ngan-hang-giam-nhe-du-ty-gia-trung-tam-tang-185260717083510865.htm",
+          "pubDate": "2026-07-17T02:00:00.000Z",
+          "excerpt": "C&aacute;c ng&acirc;n h&agrave;ng thương mại giảm nhẹ gi&aacute; USD d&ugrave; tỷ gi&aacute; trung t&acirc;m li&ecirc;n tục tăng.",
           "sourceId": "thanhnien",
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
         },
         {
-          "title": "Nhiều hệ lụy do thiếu hụt t&agrave;i xế xe tải nặng",
-          "link": "https://thanhnien.vn/nhieu-he-luy-do-thieu-hut-tai-xe-xe-tai-nang-185260716210353779.htm",
-          "pubDate": "2026-07-16T23:00:00.000Z",
-          "excerpt": "Trong 2 năm gần đ&acirc;y, t&igrave;nh trạng thiếu hụt t&agrave;i xế đang trở n&ecirc;n trầm trọng hơn, nhất l&agrave; t&agrave;i xế hạng CE v&agrave; D - lực…",
+          "title": "Gi&aacute; v&agrave;ng h&ocirc;m nay 17.7.2026: 'Bốc hơi' 1,6 triệu, xuống dưới 147 triệu đồng một lượng",
+          "link": "https://thanhnien.vn/gia-vang-hom-nay-1772026-boc-hoi-16-trieu-xuong-duoi-147-trieu-dong-mot-luong-185260717073204571.htm",
+          "pubDate": "2026-07-17T01:58:00.000Z",
+          "excerpt": "Gi&aacute; v&agrave;ng thế giới lẫn trong nước lao dốc mạnh khi gi&aacute; dầu bật tăng cao trở lại.",
           "sourceId": "thanhnien",
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
         },
         {
-          "title": "Giám đốc Đầu tư Vinacapital: Người Việt nên cân nhắc phân bổ khoảng 2/3 tài sản vào chứng khoán",
-          "link": "https://cafef.vn/giam-doc-dau-tu-vinacapital-nguoi-viet-nen-can-nhac-phan-bo-khoang-2-3-tai-san-vao-chung-khoan-188260716223221378.chn",
-          "pubDate": "2026-07-16T17:10:00.000Z",
-          "excerpt": "Phân tích của VinaCapital cho thấy nếu tính cả cổ tức, cổ phiếu không hề kém cạnh vàng hay bất động sản về hiệu quả sinh lời trong dài hạn, đồng thời có ưu thế…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Chuyên gia Vinacapital: Cơ hội giải ngân cổ phiếu đã xuất hiện",
-          "link": "https://cafef.vn/chuyen-gia-vinacapital-co-hoi-giai-ngan-co-phieu-da-xuat-hien-188260716223314293.chn",
-          "pubDate": "2026-07-16T17:08:00.000Z",
-          "excerpt": "Ông Minh cho rằng những giai đoạn thị trường tăng nóng, tâm lý nhà đầu tư hưng phấn mới là thời điểm rủi ro thực sự gia tăng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "4 “viên kim cương” từng được khối ngoại săn đón: FPT, PNJ mất dần sức hút",
-          "link": "https://cafef.vn/4-vien-kim-cuong-tung-duoc-khoi-ngoai-san-don-fpt-pnj-mat-dan-suc-hut-188260716223121019.chn",
-          "pubDate": "2026-07-16T17:05:00.000Z",
-          "excerpt": "Sau nhiều năm được xem là \"hàng hiếm\" trên thị trường chứng khoán Việt Nam, FPT và PNJ đang dần đánh mất sức hút với khối ngoại.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Cập nhật số liệu CTCK ngày 17/7: Xuất hiện khoản lỗ đầu tiên của ngành chứng khoán quý 2/2026",
-          "link": "https://cafef.vn/cap-nhat-so-lieu-ctck-ngay-17-7-xuat-hien-khoan-lo-dau-tien-cua-nganh-chung-khoan-quy-2-2026-188260716222612963.chn",
-          "pubDate": "2026-07-16T17:04:00.000Z",
-          "excerpt": "Tính đến sáng 17/7, đã có 9 công ty chứng khoán công bố lợi nhuận trước thuế quý 2 và lũy kế 6 tháng đầu năm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Cổ đông một doanh nghiệp phân bón sắp nhận về 3.500 đồng/cp",
-          "link": "https://cafef.vn/co-dong-mot-doanh-nghiep-phan-bon-sap-nhan-ve-3500-dong-cp-188260716220228949.chn",
-          "pubDate": "2026-07-16T17:01:00.000Z",
-          "excerpt": "Với gần 57,2 triệu cổ phiếu đang lưu hành, BFC sẽ phải chi hơn 200 tỷ đồng thanh toán cổ tức cho cổ đông.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Sân chung kết World Cup 2026 - cỗ máy kiếm tiền của thể thao Mỹ",
-          "link": "https://vnexpress.net/san-chung-ket-world-cup-2026-co-may-kiem-tien-cua-the-thao-my-5098041.html",
-          "pubDate": "2026-07-16T17:00:00.000Z",
-          "excerpt": "MetLife Stadium - nơi diễn ra trận chung kết World Cup 2026 - được xem là sân vận động bận rộn hàng đầu thế giới với 222 sự kiện mỗi năm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
+          "title": "Chứng khoán Mỹ mất điểm vì cổ phiếu công nghệ bị bán la liệt, giá dầu xuống thang",
+          "link": "https://vneconomy.vn/chung-khoan-my-mat-diem-vi-co-phieu-cong-nghe-bi-ban-la-liet-gia-dau-xuong-thang.htm",
+          "pubDate": "2026-07-17T01:32:57.000Z",
+          "excerpt": "Thị trường chứng khoán Mỹ giảm điểm mạnh trong phiên giao dịch ngày thứ Năm (16/7), khi nhà đầu tư xả mạnh cổ phiếu công nghệ, bao gồm cả cổ phiếu chip...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
         }
       ],
       "aiSummary": null
@@ -151,80 +151,80 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Cận cảnh nút giao 4 tầng đầu tiên ở TP.HCM: Trị giá hơn 3.600 tỷ, là “lối vào” của cảng container lớn nhất cả nước",
-          "link": "https://cafef.vn/can-canh-nut-giao-4-tang-dau-tien-o-tphcm-tri-gia-hon-3600-ty-la-loi-vao-cua-cang-container-lon-nhat-ca-nuoc-188260713114305347.chn",
-          "pubDate": "2026-07-16T23:52:00.000Z",
-          "excerpt": "Nút giao Mỹ Thủy sẽ giúp khơi thông cửa ngõ cảng Cát Lái, nơi xử lý hơn 1/4 sản lượng container cả nước; Đồng thời bổ sung hạ tầng, tăng tính kết nối cho loạt…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Siêu dự án tâm linh 19.000ha do tỷ phú \"ăn chay\" Xuân Trường đầu tư, tham vọng xây dựng công trình lớn nhất thế giới chính thức chấm dứt hoạt động",
-          "link": "https://cafef.vn/sieu-du-an-tam-linh-19000ha-do-ty-phu-an-chay-xuan-truong-dau-tu-tham-vong-xay-dung-cong-trinh-lon-nhat-the-gioi-chinh-thuc-cham-dut-hoat-dong-188260717064155099.chn",
-          "pubDate": "2026-07-16T23:41:00.000Z",
-          "excerpt": "Sở Tài chính Thái Nguyên vừa ban hành quyết định chấm dứt hoạt động đối với Dự án Khu tâm linh Hồ Núi Cốc.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Ông Trịnh Văn Quyết muốn đầu tư vào 2 sân bay tại tỉnh vừa được Tập đoàn FLC khởi công siêu dự án 20.000 tỷ lớn nhất Tây Nguyên",
-          "link": "https://cafef.vn/ong-trinh-van-quyet-muon-dau-tu-vao-2-san-bay-tai-tinh-vua-duoc-tap-doan-flc-khoi-cong-sieu-du-an-20000-ty-lon-nhat-tay-nguyen-188260717062646994.chn",
-          "pubDate": "2026-07-16T23:26:00.000Z",
-          "excerpt": "Tập đoàn FLC vừa đề nghị Bộ Xây dựng và Cục Hàng không Việt Nam ghi nhận chủ trương của UBND tỉnh Gia Lai về việc cho phép doanh nghiệp nghiên cứu, đề xuất…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "&lsquo;Hồi sinh&rsquo; nh&agrave; t&aacute;i định cư bỏ hoang",
-          "link": "https://thanhnien.vn/hoi-sinh-nha-tai-dinh-cu-bo-hoang-185260716211638237.htm",
-          "pubDate": "2026-07-16T23:00:00.000Z",
-          "excerpt": "TP.HCM đề xuất Ch&iacute;nh phủ cho ph&eacute;p chuyển đổi một phần quỹ nh&agrave; t&aacute;i định cư kh&ocirc;ng c&ograve;n nhu cầu, khai th&aacute;c…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Nhiều hệ lụy do thiếu hụt t&agrave;i xế xe tải nặng",
-          "link": "https://thanhnien.vn/nhieu-he-luy-do-thieu-hut-tai-xe-xe-tai-nang-185260716210353779.htm",
-          "pubDate": "2026-07-16T23:00:00.000Z",
-          "excerpt": "Trong 2 năm gần đ&acirc;y, t&igrave;nh trạng thiếu hụt t&agrave;i xế đang trở n&ecirc;n trầm trọng hơn, nhất l&agrave; t&agrave;i xế hạng CE v&agrave; D - lực…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Tập đoàn Vingroup vừa làm một việc ý nghĩa tại nơi cách Hà Nội hơn 200 km",
-          "link": "https://cafef.vn/tap-doan-vingroup-vua-lam-mot-viec-y-nghia-tai-noi-cach-ha-noi-hon-200-km-188260716205625609.chn",
-          "pubDate": "2026-07-16T17:04:00.000Z",
-          "excerpt": "Quỹ Thiện Tâm (Tập đoàn Vingroup) vừa hỗ trợ 25 tỷ đồng để xây dựng cầu treo qua sông Gâm tại xã Nà Hang (tỉnh Tuyên Quang).",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Chi 3 tỷ đồng cải tạo nhà liền kề, đưa bếp lên tầng cao nhất",
-          "link": "https://vnexpress.net/chi-3-ty-dong-cai-tao-nha-lien-ke-dua-bep-len-tang-cao-nhat-5098021.html",
-          "pubDate": "2026-07-16T17:00:00.000Z",
-          "excerpt": "Công trình nhà liền kề được tổ chức lại mặt bằng để mở rộng tầm nhìn, tăng ánh sáng và tiện nghi sử dụng.",
+          "title": "Khải Hoàn Imperial ra mắt sản phẩm căn hộ giới hạn",
+          "link": "https://vnexpress.net/khai-hoan-imperial-ra-mat-san-pham-can-ho-gioi-han-5098129.html",
+          "pubDate": "2026-07-17T03:00:00.000Z",
+          "excerpt": "Khải Hoàn Land giới thiệu dòng căn hộ giới hạn Signature Edition tại dự án Khải Hoàn Imperial cùng chương trình dành riêng cho hệ thống phân phối, ngày 15/7.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress"
         },
         {
-          "title": "Nhà ở cho thuê: Chuyển từ tư duy sở hữu sang bảo đảm quyền được ở",
-          "link": "https://cafef.vn/nha-o-cho-thue-chuyen-tu-tu-duy-so-huu-sang-bao-dam-quyen-duoc-o-188260716205809771.chn",
-          "pubDate": "2026-07-16T16:47:00.000Z",
-          "excerpt": "Việc Hà Nội đồng loạt khởi công 3 dự án nhà ở cho thuê với hơn 8.000 căn hộ không chỉ bổ sung nguồn cung mới mà còn phản ánh bước chuyển trong tư duy phát…",
+          "title": "Gi&aacute; USD h&ocirc;m nay 17.7.2026: Ng&acirc;n h&agrave;ng giảm nhẹ d&ugrave; tỷ gi&aacute; trung t&acirc;m tăng",
+          "link": "https://thanhnien.vn/gia-usd-hom-nay-1772026-ngan-hang-giam-nhe-du-ty-gia-trung-tam-tang-185260717083510865.htm",
+          "pubDate": "2026-07-17T02:00:00.000Z",
+          "excerpt": "C&aacute;c ng&acirc;n h&agrave;ng thương mại giảm nhẹ gi&aacute; USD d&ugrave; tỷ gi&aacute; trung t&acirc;m li&ecirc;n tục tăng.",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Gi&aacute; v&agrave;ng h&ocirc;m nay 17.7.2026: 'Bốc hơi' 1,6 triệu, xuống dưới 147 triệu đồng một lượng",
+          "link": "https://thanhnien.vn/gia-vang-hom-nay-1772026-boc-hoi-16-trieu-xuong-duoi-147-trieu-dong-mot-luong-185260717073204571.htm",
+          "pubDate": "2026-07-17T01:58:00.000Z",
+          "excerpt": "Gi&aacute; v&agrave;ng thế giới lẫn trong nước lao dốc mạnh khi gi&aacute; dầu bật tăng cao trở lại.",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Khu công nghiệp hơn 5.600 tỷ đồng tại thành phố có diện tích nhỏ nhất Việt Nam tăng tốc giải phóng mặt bằng",
+          "link": "https://cafef.vn/khu-cong-nghiep-hon-5600-ty-dong-tai-thanh-pho-co-dien-tich-nho-nhat-viet-nam-tang-toc-giai-phong-mat-bang-188260717083614045.chn",
+          "pubDate": "2026-07-17T01:35:00.000Z",
+          "excerpt": "Dự án Khu công nghiệp Ngũ Phúc (giai đoạn 1) do CTCP Đầu tư Khu công nghiệp Vinhomes Hải Phòng làm chủ đầu tư đang được đẩy nhanh công tác giải phóng mặt bằng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Quyết định về khu du lịch Phong Nha - Kẻ Bàng",
+          "link": "https://cafef.vn/quyet-dinh-ve-khu-du-lich-phong-nha-ke-bang-188260717083421963.chn",
+          "pubDate": "2026-07-17T01:34:00.000Z",
+          "excerpt": "UBND tỉnh Quảng Trị vừa ban hành Quyết định số 2850/QĐ-UBND công nhận Phong Nha - Kẻ Bàng là Khu du lịch cấp tỉnh, tạo cơ sở pháp lý quan trọng để tăng cường…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Tỉnh được Sun Group, T&T, Phú Mỹ Hưng... rót vốn sắp có thêm khu đô thị hơn 30.600 tỷ đồng, rộng lên đến gần 300 ha",
+          "link": "https://cafef.vn/tinh-duoc-sun-group-tt-phu-my-hung-rot-von-sap-co-them-khu-do-thi-hon-30600-ty-dong-rong-len-den-gan-300-ha-18826071708011621.chn",
+          "pubDate": "2026-07-17T01:01:00.000Z",
+          "excerpt": "Dự án Khu đô thị hỗn hợp và chợ quốc tế Bắc Giang tại phường Tiền Phong (tỉnh Bắc Ninh) có tổng vốn đầu tư dự kiến hơn 30.600 tỷ đồng với quy mô khoảng 295 ha.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Chính thức khai trương VPBH dự án Eldora Riverside tại Hữu Lũng - Lạng Sơn",
+          "link": "https://cafef.vn/chinh-thuc-khai-truong-vpbh-du-an-eldora-riverside-tai-huu-lung-lang-son-188260716191907003.chn",
+          "pubDate": "2026-07-17T01:00:00.000Z",
+          "excerpt": "Ngày 15/07/2026, Văn phòng bán hàng dự án Eldora Riverside chính thức khai trương tại Hữu Lũng, Lạng Sơn. Sự kiện đánh dấu bước khởi đầu quan trọng trong quá…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Tung loạt đặc quyền tài chính hiếm có, tổ hợp 12 tòa tháp của Sunshine tại khu Nam TP.HCM đón tin vui",
+          "link": "https://cafef.vn/tung-loat-dac-quyen-tai-chinh-hiem-co-to-hop-12-toa-thap-cua-sunshine-tai-khu-nam-tphcm-don-tin-vui-188260716161229026.chn",
+          "pubDate": "2026-07-17T01:00:00.000Z",
+          "excerpt": "Chiết khấu lên tới 17%; vay tới 70%, hỗ trợ lãi suất 0% trong 24 tháng, bình ổn lãi suất và ân hạn nợ gốc đến 36 tháng; ký quỹ 25%, hưởng lợi ích tương đương…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -238,84 +238,84 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "&lsquo;Hồi sinh&rsquo; nh&agrave; t&aacute;i định cư bỏ hoang",
-          "link": "https://thanhnien.vn/hoi-sinh-nha-tai-dinh-cu-bo-hoang-185260716211638237.htm",
-          "pubDate": "2026-07-16T23:00:00.000Z",
-          "excerpt": "TP.HCM đề xuất Ch&iacute;nh phủ cho ph&eacute;p chuyển đổi một phần quỹ nh&agrave; t&aacute;i định cư kh&ocirc;ng c&ograve;n nhu cầu, khai th&aacute;c…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Nhiều hệ lụy do thiếu hụt t&agrave;i xế xe tải nặng",
-          "link": "https://thanhnien.vn/nhieu-he-luy-do-thieu-hut-tai-xe-xe-tai-nang-185260716210353779.htm",
-          "pubDate": "2026-07-16T23:00:00.000Z",
-          "excerpt": "Trong 2 năm gần đ&acirc;y, t&igrave;nh trạng thiếu hụt t&agrave;i xế đang trở n&ecirc;n trầm trọng hơn, nhất l&agrave; t&agrave;i xế hạng CE v&agrave; D - lực…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Sân chung kết World Cup 2026 - cỗ máy kiếm tiền của thể thao Mỹ",
-          "link": "https://vnexpress.net/san-chung-ket-world-cup-2026-co-may-kiem-tien-cua-the-thao-my-5098041.html",
-          "pubDate": "2026-07-16T17:00:00.000Z",
-          "excerpt": "MetLife Stadium - nơi diễn ra trận chung kết World Cup 2026 - được xem là sân vận động bận rộn hàng đầu thế giới với 222 sự kiện mỗi năm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Từ ngày mai - 17/7, dịch vụ hàng triệu người đang dùng thay đổi cách tính giá vé",
-          "link": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716214944455.chn",
-          "pubDate": "2026-07-16T14:52:00.000Z",
-          "excerpt": "Đây là dịch vụ gì?",
+          "title": "Tái định cư tại chỗ - cách TP.HCM gỡ loạt dự án 'đóng băng' giữa lòng đô thị",
+          "link": "https://cafef.vn/tai-dinh-cu-tai-cho-cach-tphcm-go-loat-du-an-dong-bang-giua-long-do-thi-188260717091008125.chn",
+          "pubDate": "2026-07-17T02:57:00.000Z",
+          "excerpt": "Loạt dự án nhiều năm đóng băng ở TP.HCM từ xây mới chung cư cũ, cải tạo kênh rạch, chỉnh trang đô thị đang gỡ vướng, đẩy nhanh đầu tư từ câu chuyện tái định cư.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "PNJ tính thuê đơn vị quốc tế kiểm định quy trình và chất lượng kim cương",
-          "link": "https://vnexpress.net/pnj-tinh-thue-don-vi-quoc-te-kiem-dinh-quy-trinh-va-chat-luong-kim-cuong-5098318.html",
-          "pubDate": "2026-07-16T14:38:02.000Z",
-          "excerpt": "PNJ lên kế hoạch thuê đơn vị kiểm định, kiểm toán và tư vấn độc lập quốc tế để đánh giá toàn bộ quy trình và chất lượng kim cương.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Công ty của tỷ phú Warren Buffett sản xuất độc quyền gấu bông World Cup 2026",
-          "link": "https://vnexpress.net/cong-ty-cua-ty-phu-warren-buffett-san-xuat-doc-quyen-gau-bong-world-cup-2026-5098257.html",
-          "pubDate": "2026-07-16T14:14:40.000Z",
-          "excerpt": "Jazwares, công ty con thuộc Tập đoàn Berkshire Hathaway của tỷ phú Warren Buffett, sản xuất độc quyền gấu bông World Cup 2026 cho FIFA.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Sân bay Nội Bài cảnh báo: Đừng để lỡ chuyến bay quốc tế chỉ vì quên những thủ tục quan trọng này",
-          "link": "https://cafef.vn/san-bay-noi-bai-canh-bao-dung-de-lo-chuyen-bay-quoc-te-chi-vi-quen-nhung-thu-tuc-quan-trong-nay-188260716140231012.chn",
-          "pubDate": "2026-07-16T13:15:00.000Z",
-          "excerpt": "Việc nắm rõ quy định nhập cảnh và quy trình làm thủ tục tại sân bay là điều kiện tiên quyết để có một hành trình bay quốc tế suôn sẻ.",
+          "title": "TIn cực vui cho toàn bộ người lao động Việt Nam từ năm 2027",
+          "link": "https://cafef.vn/tin-cuc-vui-cho-toan-bo-nguoi-lao-dong-viet-nam-tu-nam-2027-188260717094014051.chn",
+          "pubDate": "2026-07-17T02:39:00.000Z",
+          "excerpt": "Cụ thể, đó là gì?",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Sáu ngân hàng hợp vốn hơn 27.000 tỷ đồng cho dự án mở rộng cao tốc TP.HCM - Trung Lương - Mỹ Thuận",
-          "link": "https://vneconomy.vn/sau-ngan-hang-hop-von-hon-27000-ty-dong-cho-du-an-mo-rong-cao-toc-tphcm-trung-luong-my-thuan.htm",
-          "pubDate": "2026-07-16T12:54:00.000Z",
-          "excerpt": "Việc ký kết hợp đồng tín dụng không chỉ hoàn tất công tác thu xếp vốn mà còn thể hiện sự đồng hành giữa Nhà nước, các tổ chức tín dụng và nhà đầu tư đối với…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
+          "title": "Bí thư Cà Mau: Cán bộ không hoàn thành nhiệm vụ giải phóng mặt bằng, xem xét đưa vào diện tinh giản",
+          "link": "https://cafef.vn/bi-thu-ca-mau-can-bo-khong-hoan-thanh-nhiem-vu-giai-phong-mat-bang-xem-xet-dua-vao-dien-tinh-gian-188260717075056583.chn",
+          "pubDate": "2026-07-17T02:26:00.000Z",
+          "excerpt": "Cà Mau hiện có 26 công trình, dự án trọng điểm đang giải phóng mặt bằng, nhưng ở một số thời điểm, việc xử lý khó khăn, vướng mắc trong công tác này chưa chủ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Doanh nghiệp Nhà nước trước cuộc đại tái cơ cấu: Xoá tư duy giữ vốn dàn trải",
+          "link": "https://cafef.vn/doanh-nghiep-nha-nuoc-truoc-cuoc-dai-tai-co-cau-xoa-tu-duy-giu-von-dan-trai-188260717075205481.chn",
+          "pubDate": "2026-07-17T02:00:00.000Z",
+          "excerpt": "Sau nhiều năm tập trung vào cổ phần hóa và thoái vốn, quá trình tái cơ cấu doanh nghiệp Nhà nước (DNNN) thời gian tới đang được Bộ Tài chính đề xuất theo hướng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Gi&aacute; USD h&ocirc;m nay 17.7.2026: Ng&acirc;n h&agrave;ng giảm nhẹ d&ugrave; tỷ gi&aacute; trung t&acirc;m tăng",
+          "link": "https://thanhnien.vn/gia-usd-hom-nay-1772026-ngan-hang-giam-nhe-du-ty-gia-trung-tam-tang-185260717083510865.htm",
+          "pubDate": "2026-07-17T02:00:00.000Z",
+          "excerpt": "C&aacute;c ng&acirc;n h&agrave;ng thương mại giảm nhẹ gi&aacute; USD d&ugrave; tỷ gi&aacute; trung t&acirc;m li&ecirc;n tục tăng.",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Gi&aacute; v&agrave;ng h&ocirc;m nay 17.7.2026: 'Bốc hơi' 1,6 triệu, xuống dưới 147 triệu đồng một lượng",
+          "link": "https://thanhnien.vn/gia-vang-hom-nay-1772026-boc-hoi-16-trieu-xuong-duoi-147-trieu-dong-mot-luong-185260717073204571.htm",
+          "pubDate": "2026-07-17T01:58:00.000Z",
+          "excerpt": "Gi&aacute; v&agrave;ng thế giới lẫn trong nước lao dốc mạnh khi gi&aacute; dầu bật tăng cao trở lại.",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Hải Phòng thu gần 9.500 tỷ từ xuất nhập khẩu 1 tháng",
+          "link": "https://cafef.vn/hai-phong-thu-gan-9500-ty-tu-xuat-nhap-khau-1-thang-188260717075318779.chn",
+          "pubDate": "2026-07-17T01:27:00.000Z",
+          "excerpt": "6 tháng đầu năm, Hải quan Hải phòng thu ngân sách gần 49.500 tỷ đồng, tăng 19,6% so với cùng kỳ 2025. Riêng tháng 6, số thu ngân sách đạt gần 9.500 tỷ đồng,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "SAWACO k&eacute;o tỷ lệ thất tho&aacute;t nước xuống 11,97%",
+          "link": "https://thanhnien.vn/sawaco-keo-ty-le-that-thoat-nuoc-xuong-1197-185260716162001197.htm",
+          "pubDate": "2026-07-17T01:00:00.000Z",
+          "excerpt": "Trong 6 th&aacute;ng đầu năm 2026, Tổng c&ocirc;ng ty Cấp nước S&agrave;i G&ograve;n (SAWACO) đưa tỷ lệ thất tho&aacute;t nước lũy kế xuống 11,97%, thấp hơn…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
         }
       ],
       "aiSummary": null
@@ -324,6 +324,26 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Trump’s intense attacks have failed to sway Iran. He’s trying again anyway",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3360857/trumps-intense-attacks-have-failed-sway-iran-hes-trying-again-anyway?utm_source=rss_feed",
+          "pubDate": "2026-07-17T01:17:12.000Z",
+          "excerpt": "President Donald ⁠Trump has ramped up US air strikes on Iran and threatened broader escalation, but there is ⁠little sign that a military strategy that has…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "Trump launches rare broadside against China on US election interference – as it happened",
+          "link": "https://www.scmp.com/news/us/article/3360854/trump-address-nation-iran-crisis-china-tensions-and-election-fight-intensify?utm_source=rss_feed",
+          "pubDate": "2026-07-17T00:44:21.000Z",
+          "excerpt": "US President Donald Trump will deliver a prime-time “Speech to the Nation” on Thursday at 9pm Eastern Time, or 9am Hong Kong time on Friday. Such addresses are…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
         {
           "title": "US and Iran exchange blows in rekindled Middle East war",
           "link": "https://www.scmp.com/news/world/middle-east/article/3360852/us-and-iran-exchange-blows-rekindled-middle-east-war?utm_source=rss_feed",
@@ -365,16 +385,6 @@
           "attribution": "FT"
         },
         {
-          "title": "Italian police raid luxury brands Bulgari and Chanel over exploitation of Chinese workers",
-          "link": "https://www.scmp.com/news/world/europe/article/3360847/italian-police-raid-luxury-brands-bulgari-and-chanel-over-exploitation-chinese-workers?utm_source=rss_feed",
-          "pubDate": "2026-07-16T20:01:38.000Z",
-          "excerpt": "Italian police raided the offices of several luxury brands including Bulgari and Chanel over suspicions they used subcontractors employing Chinese workers, a…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
-        },
-        {
           "title": "Andy Burnham plans policy blitz on entering Number 10",
           "link": "https://www.ft.com/content/26ef759a-c5b3-4992-ab58-7b9a11d31371?syn-25a6b1a6=1",
           "pubDate": "2026-07-16T19:41:36.000Z",
@@ -383,16 +393,6 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
-        },
-        {
-          "title": "Trump’s teleprompter operator allegedly made US$90,000 betting on his speeches",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3360845/trumps-teleprompter-operator-allegedly-made-us90000-betting-his-speeches?utm_source=rss_feed",
-          "pubDate": "2026-07-16T18:21:20.000Z",
-          "excerpt": "A teleprompter operator for Donald Trump has been suspended over allegations he placed bets with a prediction market on the content of the US president’s…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
         },
         {
           "title": "Why socialists should embrace luxury apartments",
