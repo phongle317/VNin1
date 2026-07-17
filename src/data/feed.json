@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T19:15:24.235Z",
+  "lastUpdated": "2026-07-17T20:59:11.284Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4012.8,
+      "value": 4019,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7452.88,
-      "change": -122.51000000000022,
-      "changePercent": -1.617210467051864
+      "value": 7457.69,
+      "change": -117.70000000000073,
+      "changePercent": -1.5537153862705515
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25501.025,
-      "change": -780.5849999999991,
-      "changePercent": -2.970080600084999
+      "value": 25520.244,
+      "change": -761.3660000000018,
+      "changePercent": -2.896953421042325
     },
     {
       "symbol": "^N225",
@@ -144,7 +144,7 @@
           "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Khối ngoại bán ròng gần 2.100 tỷ đồng, thanh khoản về đáy 1 tháng. Nguyên nhân do Index mất 40 điểm."
+      "aiSummary": "Khối ngoại bán ròng gần 2.100 tỷ đồng. Do Index mất 40 điểm."
     },
     {
       "key": "realestate",
@@ -318,12 +318,42 @@
           "attribution": "Thanh Niên"
         }
       ],
-      "aiSummary": "Tập đoàn C.P. mở rộng đầu tư tại Việt Nam. Điều này thúc đẩy chế biến sầu và xuất khẩu."
+      "aiSummary": "Tỷ phú Mỹ tối ưu doanh thu sân diễn World Cup. Sự kiện thể thao lớn thu hút nhiều khán giả."
     },
     {
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Trump blames Canada for wildfire smoke, says he’ll add cost to tariffs",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3361020/trump-blames-canada-wildfire-smoke-says-hell-add-cost-tariffs?utm_source=rss_feed",
+          "pubDate": "2026-07-17T20:46:56.000Z",
+          "excerpt": "US President Donald Trump on Friday blamed Canada for wildfire smoke spreading across the United States and said he would add the “incalculable cost” ‌of…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts",
+          "link": "https://www.ft.com/content/e466df85-fa3b-4a7f-a4a1-ae04d66db99f?syn-25a6b1a6=1",
+          "pubDate": "2026-07-17T20:24:36.000Z",
+          "excerpt": "Family company has quoted the six-figure sum for high-speed access to Truth Social platform",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT"
+        },
+        {
+          "title": "US and Iran attack infrastructure, raising fears of escalation",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3361019/us-and-iran-attack-infrastructure-raising-fears-escalation?utm_source=rss_feed",
+          "pubDate": "2026-07-17T19:40:22.000Z",
+          "excerpt": "The US struck ⁠bridges in Iran, and Tehran responded by hitting a power and desalination plant in Kuwait on Friday, as the two sides risked further escalation…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
         {
           "title": "Strong quake off Mexican coast rattles Guatemala and El Salvador",
           "link": "https://www.scmp.com/news/world/americas/article/3361017/strong-quake-mexican-coast-rattles-guatemala-and-el-salvador?utm_source=rss_feed",
@@ -339,16 +369,6 @@
           "link": "https://www.ft.com/content/55f5860b-6ef0-42ed-a87f-c49af6ef9d29",
           "pubDate": "2026-07-17T17:52:37.000Z",
           "excerpt": "Improvements in oil intensity have cushioned the global economy so far — but could prompt reckless political choices",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
-        },
-        {
-          "title": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts",
-          "link": "https://www.ft.com/content/e466df85-fa3b-4a7f-a4a1-ae04d66db99f?syn-25a6b1a6=1",
-          "pubDate": "2026-07-17T16:23:42.000Z",
-          "excerpt": "Family company has quoted the six-figure sum for high-speed access to Truth Social platform",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -383,29 +403,9 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
-        },
-        {
-          "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
-          "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-          "pubDate": "2026-07-17T14:13:49.000Z",
-          "excerpt": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC"
-        },
-        {
-          "title": "UK’s next prime minister Andy Burnham vows to ‘give hope back’ to Britons",
-          "link": "https://www.scmp.com/news/world/europe/article/3361003/uks-next-prime-minister-andy-burnham-vows-give-hope-back-britons?utm_source=rss_feed",
-          "pubDate": "2026-07-17T13:52:43.000Z",
-          "excerpt": "Andy Burnham vowed Friday to “give hope” back to the British people as he was confirmed as the ruling Labour Party’s new leader, set to be the next UK prime…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
         }
       ],
-      "aiSummary": "Import tăng bất ngờ với hàng từ Trung Quốc. Giá hàng hóa cao nhất kể từ 2008."
+      "aiSummary": "Trump tăng thuế với Canada. Xung đột Mỹ - Iran leo thang."
     }
   ]
 }
