@@ -34,13 +34,12 @@ themes (e.g. Thanh Niên's `kinh-te.rss` feeds into Chứng khoán, Bất độn
 *and* Vĩ mô/Đầu tư; VnExpress's `kinh-doanh.rss` feeds into two themes too).
 Since it's the same feed, the same article shows up in multiple sections.
 
-**Status:** code written and **pushed to GitHub (commit `4f20782`)**. A
-shared `seenLinks` Set is passed across all themes in `fetch-feeds.mjs`'s
-`main()`/`fetchTheme()`; first theme to see a link keeps it, later themes
-drop the duplicate and log `N duplicate(s) dropped (already in another
-section)`. **Not yet verified live** — next step is triggering the workflow
-and checking that log line, then checking the live site for no more
-duplicate headlines across sections.
+**Status:** ✅ **Done — verified live.** A shared `seenLinks` Set is passed
+across all themes in `fetch-feeds.mjs`'s `main()`/`fetchTheme()`; first
+theme to see a link keeps it, later themes drop the duplicate. Confirmed via
+GitHub Actions log (`5-16` duplicates caught per run across two separate
+test runs) and confirmed visually on the live site — no headline repeats
+across Chứng khoán / Bất động sản / Vĩ mô-Đầu tư.
 
 ---
 
@@ -122,9 +121,9 @@ Actively prefer, when ranking/selecting articles:
 
 ## Build plan (ordered)
 
-1. **Dedup across themes** (Rule 1) — code written and pushed
-   (`4f20782`), **live verification still pending** — do this first
-2. **Blocklist expansion** (Rule 4) — quick, low-risk, do alongside #1
+1. ~~Dedup across themes~~ (Rule 1) — ✅ done, verified live
+2. **Blocklist expansion** (Rule 4) — quick, low-risk, do next
+2. **Blocklist expansion** (Rule 4) — quick, low-risk
 3. **Theme-summary prompt revision** (Rule 3, what/why/impact) — quick prompt edit
 4. **Populate `training.json` with first examples** (Rule 5, parts 1–2) —
    requires you to supply liked/disliked headline examples; I can't invent
@@ -151,3 +150,6 @@ them into the file.
   `3114e8f`, push interrupted by a git sync issue
 - 2026-07-18 — push completed (`4f20782`), Rule 1 fix now on GitHub,
   live verification pending
+- 2026-07-18 — Rule 1 verified live: GitHub Actions log confirmed
+  duplicates being caught (5-16 per run across two test runs), live site
+  confirmed no repeated headlines across sections. Rule 1 closed.

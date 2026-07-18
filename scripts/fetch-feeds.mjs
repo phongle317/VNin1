@@ -167,10 +167,19 @@ const GLOBAL_INDICES = [
 // Content-type only — no province filtering.
 // Province mentions are fine; awards/promos/political fluff are not.
 const CONTENT_BLOCKLIST = [
+  // Awards / propaganda-flavored (original set)
   'tặng bằng khen', 'được khen thưởng', 'xuất sắc trong phong trào',
   'toàn dân', 'chào mừng kỷ niệm', 'kỷ niệm ngày',
   'chào bạn mới', 'ưu đãi khách hàng', 'khuyến mãi', 'tri ân khách hàng',
   'cam kết với người dân',
+  // Corporate PR / soft promotion — added 2026-07-18, see CONTENT_RULES.md Rule 4
+  'mở rộng đầu tư', 'đồng hành cùng việt nam', 'khai trương',
+  'mở rộng hệ sinh thái', 'nâng cấp hợp tác', 'hút fdi chất lượng cao',
+  'cơ hội mua cổ phiếu', 'tâm điểm thương mại', 'chu kỳ phát triển mới',
+  'siêu đô thị', 'mái nhà của', 'tăng cơ hội kinh doanh cho đối tác',
+  'được phép bán cho người nước ngoài', 'thu hút nhà thầu phụ',
+  // Government/Party rhetoric — added 2026-07-18
+  'quyết liệt thực hiện mục tiêu', 'từ cam kết sang kết quả',
 ];
 
 const INTL_BLOCKLIST = [
