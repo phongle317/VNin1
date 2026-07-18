@@ -34,9 +34,13 @@ themes (e.g. Thanh Niên's `kinh-te.rss` feeds into Chứng khoán, Bất độn
 *and* Vĩ mô/Đầu tư; VnExpress's `kinh-doanh.rss` feeds into two themes too).
 Since it's the same feed, the same article shows up in multiple sections.
 
-**Status:** not yet fixed — needs a dedup step in `fetch-feeds.mjs` that
-checks article links across *all* themes in a single fetch run and keeps
-each story in only one place (see Build Plan below).
+**Status:** code written and **pushed to GitHub (commit `4f20782`)**. A
+shared `seenLinks` Set is passed across all themes in `fetch-feeds.mjs`'s
+`main()`/`fetchTheme()`; first theme to see a link keeps it, later themes
+drop the duplicate and log `N duplicate(s) dropped (already in another
+section)`. **Not yet verified live** — next step is triggering the workflow
+and checking that log line, then checking the live site for no more
+duplicate headlines across sections.
 
 ---
 
@@ -116,9 +120,10 @@ Actively prefer, when ranking/selecting articles:
 
 ---
 
-## Build plan (ordered, not yet started)
+## Build plan (ordered)
 
-1. **Dedup across themes** (Rule 1) — clear bug, isolated fix, do first
+1. **Dedup across themes** (Rule 1) — code written and pushed
+   (`4f20782`), **live verification still pending** — do this first
 2. **Blocklist expansion** (Rule 4) — quick, low-risk, do alongside #1
 3. **Theme-summary prompt revision** (Rule 3, what/why/impact) — quick prompt edit
 4. **Populate `training.json` with first examples** (Rule 5, parts 1–2) —
@@ -142,3 +147,7 @@ them into the file.
 ## Change log
 
 - 2026-07-18 — Rules 1–5 established (first version of this file)
+- 2026-07-18 — Rule 1 (dedup) implemented in code, committed locally as
+  `3114e8f`, push interrupted by a git sync issue
+- 2026-07-18 — push completed (`4f20782`), Rule 1 fix now on GitHub,
+  live verification pending
