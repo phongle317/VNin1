@@ -1,8 +1,10 @@
 // scripts/fetch-feeds.mjs
 import { XMLParser } from 'fast-xml-parser';
-import { decode } from 'he';
+import he from 'he';
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
+
+const { decode } = he;
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const MAX_ITEMS_PER_FEED     = 5;   // fetch up to 5 per source (training filters down)
