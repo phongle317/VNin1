@@ -1,5 +1,6 @@
 // scripts/fetch-feeds.mjs
 import { XMLParser } from 'fast-xml-parser';
+import { decode } from 'he';
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
@@ -225,17 +226,12 @@ const xmlParser = new XMLParser({
 });
 
 function stripTags(html = '') {
-  return html
-    .replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '')
-    .replace(/<[^>]*>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
-    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/&apos;/g, "'").replace(/&mdash;/g, '—')
-    .replace(/&ndash;/g, '–').replace(/&hellip;/g, '…')
-    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/&#([0-9]+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
-    .replace(/\s+/g, ' ').trim();
+  return decode(
+    html
+      .replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '')
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/\s+/g, ' ').trim()
+  );
 }
 
 function truncate(text, len) {
