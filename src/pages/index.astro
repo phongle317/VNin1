@@ -71,6 +71,17 @@ function fmtGlobalIndex(val) {
 
 const totalArticles = themes.reduce((s, t) => s + t.articles.length, 0);
 const hasGlobalIndices = globalIndices.some(i => i.value != null);
+
+// ── Footer sources: derived from whatever actually produced articles this run ──
+// No hardcoded outlet list — adding/removing a feed in fetch-feeds.mjs's THEMES
+// config automatically updates this footer, nothing here needs to change.
+const footerSources = Array.from(
+  new Map(
+    themes
+      .flatMap(t => t.articles)
+      .map(a => [a.sourceId, { name: a.sourceName, url: a.sourceUrl }])
+  ).values()
+).sort((a, b) => a.name.localeCompare(b.name, 'vi'));
 ---
 
 <Layout>
@@ -187,8 +198,8 @@ const hasGlobalIndices = globalIndices.some(i => i.value != null);
                   <a class="card__link" href={article.link}
                      target="_blank" rel="noopener noreferrer">
                     <h3 class="card__title">{article.title}</h3>
-                    {article.excerpt && (
-                      <p class="card__excerpt">{article.excerpt}</p>
+                    {(article.condensed || article.excerpt) && (
+                      <p class="card__excerpt">{article.condensed || article.excerpt}</p>
                     )}
                     <div class="card__meta">
                       <a class="card__source" href={article.sourceUrl}
@@ -213,15 +224,12 @@ const hasGlobalIndices = globalIndices.some(i => i.value != null);
     <footer class="footer">
       <div class="footer__sources">
         <span>Nguồn:</span>
-        <a href="https://cafef.vn" target="_blank" rel="noopener noreferrer">CafeF</a>
-        <span>·</span>
-        <a href="https://vneconomy.vn" target="_blank" rel="noopener noreferrer">VnEconomy</a>
-        <span>·</span>
-        <a href="https://www.cnbc.com" target="_blank" rel="noopener noreferrer">CNBC</a>
-        <span>·</span>
-        <a href="https://www.marketwatch.com" target="_blank" rel="noopener noreferrer">MarketWatch</a>
-        <span>·</span>
-        <a href="https://apnews.com" target="_blank" rel="noopener noreferrer">AP News</a>
+        {footerSources.map((s, i) => (
+          <>
+            <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+            {i < footerSources.length - 1 && <span>·</span>}
+          </>
+        ))}
       </div>
     </footer>
 
