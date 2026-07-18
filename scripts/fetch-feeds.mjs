@@ -392,7 +392,7 @@ async function scoreAndFilter(articles, training, maxArticles) {
   }
 }
 
-async function fetchTheme(theme, training) {
+async function fetchTheme(theme, training, seenLinks) {
   console.log('\nFetching theme: ' + theme.displayName);
   const allArticles = (await Promise.all(theme.feeds.map(fetchOneFeed))).flat();
 
@@ -403,10 +403,23 @@ async function fetchTheme(theme, training) {
     return new Date(b.pubDate) - new Date(a.pubDate);
   });
 
+  // Cross-theme dedup — same story must appear in only one section.
+  // Some feeds (e.g. Thanh Niên kinh-te.rss, VnExpress kinh-doanh.rss) are
+  // reused across multiple themes, so the same article link can surface in
+  // more than one theme. Earlier themes in the THEMES array win; later
+  // themes lose the duplicate and just show one fewer article from it.
+  const deduped = allArticles.filter(a => {
+    if (seenLinks.has(a.link)) return false;
+    seenLinks.add(a.link);
+    return true;
+  });
+  const dupCount = allArticles.length - deduped.length;
+  if (dupCount > 0) console.log('  ' + dupCount + ' duplicate(s) dropped (already in another section)');
+
   // Content-type filter (blocklist)
   const isIntl = theme.key === 'international';
-  const filtered = filterArticles(allArticles, isIntl);
-  const dropped = allArticles.length - filtered.length;
+  const filtered = filterArticles(deduped, isIntl);
+  const dropped = deduped.length - filtered.length;
   if (dropped > 0) console.log('  ' + dropped + ' articles dropped by content filter');
 
   // Training scorer (activates only when training.json has examples)
@@ -599,10 +612,11 @@ async function main() {
   }
   console.log('');
 
-  // 1. Fetch all themes (includes content filter + training scorer)
+  // 1. Fetch all themes (includes cross-theme dedup + content filter + training scorer)
   const themeResults = [];
+  const seenLinks = new Set(); // shared across all themes — enforces Rule 1 (no duplicate stories)
   for (const theme of THEMES) {
-    const articles = await fetchTheme(theme, training);
+    const articles = await fetchTheme(theme, training, seenLinks);
     themeResults.push({ key: theme.key, displayName: theme.displayName, articles });
   }
 
