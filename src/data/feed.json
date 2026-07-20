@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T00:00:51.567Z",
+  "lastUpdated": "2026-07-20T03:25:34.910Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 3996.1,
+      "value": 4028.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -45,9 +45,9 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 24562.24,
-      "change": 387.1200000000026,
-      "changePercent": 1.6013157328691754
+      "value": 25037.03,
+      "change": 823.3099999999977,
+      "changePercent": 3.400179732812627
     },
     {
       "symbol": "^GDAXI",
@@ -64,14 +64,44 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Cấp thiết đáp ứng nhu cầu điện tăng mạnh",
-          "link": "https://thanhnien.vn/cap-thiet-dap-ung-nhu-cau-dien-tang-manh-185260719214221148.htm",
-          "pubDate": "2026-07-19T22:55:00.000Z",
-          "excerpt": "Nắng nóng kéo dài cùng đà tăng trưởng mạnh của kinh tế khiến nhu cầu điện tăng nhanh, tạo áp lực lớn lên vận hành hệ thống điện. Nhu cầu hiện nay không chỉ là…",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
+          "title": "Mức đánh giá xu hướng của VN-Index bị hạ xuống tiêu cực, chưa thể đảo chiều ngay sau World Cup",
+          "link": "https://vneconomy.vn/muc-danh-gia-xu-huong-cua-vn-index-bi-ha-xuong-tieu-cuc-chua-the-dao-chieu-ngay-sau-world-cup.htm",
+          "pubDate": "2026-07-20T03:13:57.000Z",
+          "excerpt": "Mức đánh giá xu hướng của VN-Index đã bị hạ xuống mức tiêu cực, phản ánh cơ hội tìm kiếm lợi nhuận trong giai đoạn hiện nay trở nên khó khăn hơn.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Lãi suất huy động đã ở vùng đỉnh, sẽ tiếp tục duy trì mức cao trong quý 3/2026",
+          "link": "https://vneconomy.vn/lai-suat-huy-dong-da-o-vung-dinh-se-tiep-tuc-duy-tri-muc-cao-trong-quy-32026.htm",
+          "pubDate": "2026-07-20T03:14:10.000Z",
+          "excerpt": "KBSV nhận định lãi suất huy động đã ở vùng đỉnh, sẽ tiếp tục duy trì ở mức cao trong quý 3/2026 và có thể giảm nhẹ từ đầu quý 4/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Áp lực đòn bẩy cao đang được xử lý chủ động, có dòng tiền bắt đáy",
+          "link": "https://vneconomy.vn/ap-luc-don-bay-cao-dang-duoc-xu-ly-chu-dong-co-dong-tien-bat-day.htm",
+          "pubDate": "2026-07-20T03:13:01.000Z",
+          "excerpt": "Thanh khoản khớp lệnh toàn thị trường tăng cho thấy đã có hoạt động cắt lỗ kỹ thuật, thậm chí ở một vài thời điểm thị trường có hiện tượng bán sàn, là dấu hiệu…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Giá dầu thế giới vượt 90 USD một thùng",
+          "link": "https://vnexpress.net/gia-dau-the-gioi-vuot-90-usd-mot-thung-5099317.html",
+          "pubDate": "2026-07-20T01:25:55.000Z",
+          "excerpt": "Việc Mỹ - Iran tăng cường tập kích lẫn nhau tại Trung Đông khiến giá dầu Brent hiện lên trên 90 USD, cao nhất kể từ phiên 11/6.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
         },
         {
           "title": "Cập nhật số liệu CTCK ngày 20/7: Tấp nập công bố BCTC quý 2, tên tuổi lớn bất ngờ báo lãi \"đi lùi\"",
@@ -84,102 +114,42 @@
           "attribution": "CafeF"
         },
         {
-          "title": "MBS gọi tên 2 doanh nghiệp kỳ vọng hưởng lợi nhờ chu kỳ đầu tư công 2026–2030",
-          "link": "https://cafef.vn/mbs-goi-ten-2-doanh-nghiep-ky-vong-huong-loi-nho-chu-ky-dau-tu-cong-20262030-188260719215413274.chn",
-          "pubDate": "2026-07-19T17:07:00.000Z",
-          "excerpt": "Theo dự báo của MBS, backlog của các doanh nghiệp xây dựng niêm yết có thể tăng khoảng 15% so với cùng kỳ trong năm 2026 và tăng thêm 10% trong năm 2027.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Vì sao tỷ giá ngân hàng, 'chợ đen' diễn biến ngược chiều?",
-          "link": "https://vnexpress.net/vi-sao-ty-gia-ngan-hang-cho-den-dien-bien-nguoc-chieu-5098879.html",
-          "pubDate": "2026-07-19T17:05:00.000Z",
-          "excerpt": "Tỷ giá trung tâm đang neo cao nhất 11 tháng để tạo \"vùng đệm\" dự phòng cho cuối năm, trong khi giá USD ngân hàng ổn định, còn 'chợ đen' giảm sâu bởi đầu cơ hạ…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Mức chi trả tối đa cho tất cả tiền gửi tăng lên 350 triệu đồng",
-          "link": "https://thanhnien.vn/muc-chi-tra-toi-da-cho-tat-ca-tien-gui-tang-len-350-trieu-dong-185260716132606421.htm",
-          "pubDate": "2026-07-19T12:37:00.000Z",
-          "excerpt": "Kể từ ngày 13.7, mức chi trả tối đa cho tất cả tiền gửi của một người tại một ngân hàng lên 350 triệu đồng, tăng 225 triệu đồng so với mức cũ trước đó.",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "“Đại gia” dầu khí ước lãi 820 tỷ đồng sau nửa năm",
-          "link": "https://cafef.vn/dai-gia-dau-khi-uoc-lai-820-ty-dong-sau-nua-nam-188260719215541033.chn",
-          "pubDate": "2026-07-19T17:10:00.000Z",
-          "excerpt": "Sau 6 tháng, doanh nghiệp đã thực hiện được gần 55% chỉ tiêu doanh thu và 83% chỉ tiêu lợi nhuận cả năm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Các “cá mập” đẩy mạnh giải ngân trong tháng 6, tiền mặt giảm đáng kể",
-          "link": "https://vneconomy.vn/cac-ca-map-day-manh-giai-ngan-trong-thang-6-tien-mat-giam-dang-ke.htm",
-          "pubDate": "2026-07-19T02:47:29.000Z",
-          "excerpt": "Đáng chú ý, một số quỹ thuộc VinaCapital vẫn duy trì trạng thái vào ròng, cho thấy lượng vốn huy động mới đã được giải ngân thay vì tích lũy dưới dạng tiền mặt.",
+          "title": "Hàn Quốc công bố kế hoạch mở đường cho đồng won giao dịch tự do ở nước ngoài",
+          "link": "https://vneconomy.vn/han-quoc-cong-bo-ke-hoach-mo-duong-cho-dong-won-giao-dich-tu-do-o-nuoc-ngoai.htm",
+          "pubDate": "2026-07-20T03:13:29.000Z",
+          "excerpt": "Theo hãng tin Bloomberg, Chính phủ Hàn Quốc vừa công bố kế hoạch chi tiết nhằm cho phép nhà đầu tư nước ngoài tự do giao dịch đồng won. Đây là bước đi mạnh mẽ…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
         },
         {
-          "title": "Một doanh nhân Việt vừa rớt khỏi danh sách tỷ phú USD",
-          "link": "https://cafef.vn/mot-doanh-nhan-viet-vua-rot-khoi-danh-sach-ty-phu-usd-188260719230243795.chn",
-          "pubDate": "2026-07-19T17:12:00.000Z",
-          "excerpt": "Việc rời danh sách lần này chủ yếu đến từ diễn biến kém tích cực của cổ phiếu.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
+          "title": "Đồng yên Nhật có thể giảm giá qua 170 yên/USD trước khi phục hồi",
+          "link": "https://vneconomy.vn/dong-yen-nhat-co-the-giam-gia-qua-170-yenusd-truoc-khi-phuc-hoi.htm",
+          "pubDate": "2026-07-20T02:34:24.000Z",
+          "excerpt": "Một chuyên gia cho rằng việc Ngân hàng Trung ương Nhật Bản (BOJ) tăng lãi suất sẽ không đủ để chặn sự trượt giá của đồng yên...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Giá vàng hôm nay 20.7.2026: Thế giới giảm mạnh",
+          "link": "https://thanhnien.vn/gia-vang-hom-nay-2072026-the-gioi-giam-manh-185260720084140006.htm",
+          "pubDate": "2026-07-20T02:15:00.000Z",
+          "excerpt": "Giá vàng thế giới tăng giảm mạnh trong đầu tuần khiến kim loại quý trong nước biến động trái chiều giữa các công ty.",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
         }
       ],
-      "aiSummary": "Chứng khoán hôm nay: \n- CTCP Chứng khoán MB (MBS) gọi tên 2 doanh nghiệp kỳ vọng hưởng lợi nhờ chu kỳ đầu tư công 2026–2030. \n- Nguyên nhân là do đầu tư công sẽ thúc đẩy tăng trưởng kinh tế."
+      "aiSummary": "VN-Index bị hạ mức đánh giá, chưa thể đảo chiều. Áp lực kinh tế toàn cầu gây ảnh hưởng."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
-        {
-          "title": "Tập đoàn xây dựng hàng đầu Trung Quốc nghiên cứu loạt dự án hạ tầng tại tỉnh rộng nhất Việt Nam",
-          "link": "https://cafef.vn/tap-doan-xay-dung-hang-dau-trung-quoc-nghien-cuu-loat-du-an-ha-tang-tai-tinh-rong-nhat-viet-nam-188260720055556159.chn",
-          "pubDate": "2026-07-19T22:55:00.000Z",
-          "excerpt": "Hiện nay, Tập đoàn Tô Thương đã khảo sát, nghiên cứu một số dự án trọng điểm tại Lâm Đồng như, dự án đầu tư xây dựng tuyến đường động lực Gia Nghĩa - Bảo Lâm;…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Đề xuất xây dựng khu thương mại tự do gần 2.800ha tại tỉnh hẹp nhất cả nước, tích hợp sân bay và cảng biển",
-          "link": "https://cafef.vn/de-xuat-xay-dung-khu-thuong-mai-tu-do-gan-2800ha-tai-tinh-hep-nhat-ca-nuoc-tich-hop-san-bay-va-cang-bien-188260720055821864.chn",
-          "pubDate": "2026-07-19T22:58:00.000Z",
-          "excerpt": "Đề xuất xây dựng khu thương mại tự do quy mô gần 2.800ha tại Quảng Trị được kỳ vọng tạo động lực phát triển mới, kết nối cảng biển, sân bay và Hành lang kinh…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Tuyến đường cửa ngõ “đắt bậc nhất” TP.HCM: Mỗi m2 ngốn 3,3 tỷ đồng, hơn 20 năm “nằm trên giấy” sắp thành đại lộ 14 làn xe",
-          "link": "https://cafef.vn/tuyen-duong-cua-ngo-dat-bac-nhat-tphcm-moi-m2-ngon-33-ty-dong-hon-20-nam-nam-tren-giay-sap-thanh-dai-lo-14-lan-xe-188260717153215447.chn",
-          "pubDate": "2026-07-19T22:30:00.000Z",
-          "excerpt": "Từng đình trệ nhiều năm, dự án mở rộng Quốc lộ 13 nay chính thức tái khởi động. Đây là dự án thuộc nhóm đường đô thị đắt bậc nhất TP.HCM, do chi phí giải phóng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
         {
           "title": "Hàng chục bất động sản liên quan bà Trương Mỹ Lan sẽ được định giá",
           "link": "https://vnexpress.net/hang-chuc-bat-dong-san-lien-quan-ba-truong-my-lan-se-duoc-dinh-gia-5099123.html",
@@ -189,6 +159,16 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress"
+        },
+        {
+          "title": "Hạ tầng bứt phá thúc đẩy phát triển đô thị Đông Bắc TP.HCM",
+          "link": "https://vneconomy.vn/ha-tang-but-pha-thuc-day-phat-trien-do-thi-dong-bac-tphcm.htm",
+          "pubDate": "2026-07-20T01:00:00.000Z",
+          "excerpt": "Sự phát triển của hạ tầng cùng hệ sinh thái đô thị - công nghiệp hiện đại đang tạo nên những xung lực mới cho cửa ngõ Đông Bắc TP.HCM mà trọng tâm là đô thị…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
         },
         {
           "title": "Phú Mỹ Hưng triển khai tổ hợp giáo dục 40 triệu USD tại Hồng Hạc City",
@@ -201,24 +181,34 @@
           "attribution": "VnExpress"
         },
         {
-          "title": "Đường ven biển TPHCM - Lâm Đồng 'khát' vật liệu, mặt bằng",
-          "link": "https://cafef.vn/duong-ven-bien-tphcm-lam-dong-khat-vat-lieu-mat-bang-18826072006222574.chn",
-          "pubDate": "2026-07-19T23:32:00.000Z",
-          "excerpt": "TPO - Tại dự án đường ven biển kết nối TPHCM - Lâm Đồng, đoạn từ Phước Hải đến xã Bình Châu, các nhà thầu vừa tăng tốc thi công, vừa chờ mặt bằng và nguồn vật…",
+          "title": "Đất công nghiệp và nhà kho xây sẵn dẫn dắt đà tăng trưởng của thị trường bất động sản",
+          "link": "https://vneconomy.vn/dat-cong-nghiep-va-nha-kho-xay-san-dan-dat-da-tang-truong-cua-thi-truong-bat-dong-san.htm",
+          "pubDate": "2026-07-20T03:12:38.000Z",
+          "excerpt": "Thị trường bất động sản công nghiệp phía Bắc tiếp tục duy trì đà tăng trưởng trong 6 tháng đầu năm 2026 khi nguồn cung mới được bổ sung, nhu cầu thuê ổn định…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Bất động sản liền kề metro dẫn dắt chu kỳ tăng trưởng mới",
+          "link": "https://cafef.vn/bat-dong-san-lien-ke-metro-dan-dat-chu-ky-tang-truong-moi-188260717123356755.chn",
+          "pubDate": "2026-07-20T03:00:00.000Z",
+          "excerpt": "Hà Nội vừa khởi công 5 tuyến đường sắt đô thị với tổng chiều dài hơn 303 km. Đây là cột mốc quan trọng đánh dấu giai đoạn phát triển đô thị theo mô hình TOD…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Diện mạo quy hoạch mới của 'siêu' khu đô thị 'treo' lâu đời nhất TPHCM",
-          "link": "https://cafef.vn/dien-mao-quy-hoach-moi-cua-sieu-khu-do-thi-treo-lau-doi-nhat-tphcm-188260720061813496.chn",
-          "pubDate": "2026-07-19T23:18:00.000Z",
-          "excerpt": "TPO - Khu đô thị Bình Quới - Thanh Đa dự kiến phát triển 23.171 sản phẩm nhà ở, trong đó 13.150 căn chung cư cao tầng là loại hình chủ đạo, chiếm hơn một nửa…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
+          "title": "Bất động sản liền kề metro trước cơ hội tăng trưởng mới",
+          "link": "https://vneconomy.vn/bat-dong-san-lien-ke-metro-truoc-co-hoi-tang-truong-moi.htm",
+          "pubDate": "2026-07-20T01:00:00.000Z",
+          "excerpt": "Hà Nội vừa khởi công 5 tuyến đường sắt đô thị với tổng chiều dài hơn 303 km. Đây là cột mốc quan trọng đánh dấu giai đoạn phát triển đô thị theo mô hình TOD…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
         },
         {
           "title": "Trần thu nhập mua nhà xã hội ở Hải Phòng lên 29 triệu đồng từ 1/8",
@@ -229,23 +219,33 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress"
+        },
+        {
+          "title": "Mường Than sau lũ: Đề xuất xây khu tái định cư gần 200 hộ dân",
+          "link": "https://cafef.vn/muong-than-sau-lu-de-xuat-xay-khu-tai-dinh-cu-gan-200-ho-dan-188260720100254365.chn",
+          "pubDate": "2026-07-20T03:02:00.000Z",
+          "excerpt": "Chiều nay (19/7), Quốc lộ 32 qua địa phận xã Mường Than, tỉnh Lai Châu đã thông xe. Về tái thiết đời sống Nhân dân, Thứ trưởng Nông nghiệp và Môi trường Nguyễn…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Tập đoàn xây dựng hàng đầu Trung Quốc nghiên cứu dự án hạ tầng tại tỉnh rộng nhất Việt Nam. Dự án này nhằm thúc đẩy phát triển kinh tế địa phương."
+      "aiSummary": "Hàng chục bất động sản của bà Trương Mỹ Lan sẽ được định giá. Nguyên nhân là vụ khởi tố gần đây."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Tăng tốc thi công cầu trên cao tốc Bến Lức - Long Thành nối TP.HCM với Đồng Nai",
-          "link": "https://cafef.vn/tang-toc-thi-cong-cau-tren-cao-toc-ben-luc-long-thanh-noi-tphcm-voi-dong-nai-188260719144621017.chn",
-          "pubDate": "2026-07-19T08:03:00.000Z",
-          "excerpt": "Cầu Phước Khánh, hạng mục cuối cùng trên cao tốc Bến Lức - Long Thành, đạt hơn 95% khối lượng, nhà thầu tăng tốc thi công 3 ca, 4 kíp để hợp long.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
+          "title": "Nhiều ngân hàng đóng tài khoản không đủ số dư",
+          "link": "https://vnexpress.net/nhieu-ngan-hang-dong-tai-khoan-khong-du-so-du-5099153.html",
+          "pubDate": "2026-07-19T07:10:00.000Z",
+          "excerpt": "Nhiều ngân hàng thông báo đóng tài khoản thanh toán không đủ số dư và không phát sinh giao dịch trong 1-2 năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
         },
         {
           "title": "Dự thảo Nghị định PPP mới: Tháo gỡ điểm nghẽn, khơi thông nguồn lực đầu tư",
@@ -258,10 +258,10 @@
           "attribution": "VnEconomy"
         },
         {
-          "title": "Tăng tốc metro, kiến tạo không gian phát triển mới",
-          "link": "https://cafef.vn/tang-toc-metro-kien-tao-khong-gian-phat-trien-moi-18826071916004426.chn",
-          "pubDate": "2026-07-19T09:03:00.000Z",
-          "excerpt": "Hà Nội khởi công 5 tuyến metro, không chỉ mở rộng năng lực vận tải công cộng mà còn tạo động lực tái cấu trúc không gian đô thị, hướng tới phát triển bền vững.",
+          "title": "Bộ Xây dựng: Đề xuất 6 tiêu chí xét thứ tự ưu tiên đầu tư mở rộng cao tốc",
+          "link": "https://cafef.vn/bo-xay-dung-de-xuat-6-tieu-chi-xet-thu-tu-uu-tien-dau-tu-mo-rong-cao-toc-188260720084116779.chn",
+          "pubDate": "2026-07-20T02:09:00.000Z",
+          "excerpt": "Bộ Xây dựng vừa có văn bản báo cáo về kết quả rà soát, đầu tư nâng cấp hoàn thiện các tuyến đường bộ cao tốc quy mô phân kỳ.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -278,62 +278,52 @@
           "attribution": "VnEconomy"
         },
         {
-          "title": "Nhà máy Nhiệt điện Vĩnh Tân 4 làm việc với đoàn doanh nghiệp Hàn Quốc",
-          "link": "https://cafef.vn/nha-may-nhiet-dien-vinh-tan-4-lam-viec-voi-doan-doanh-nghiep-han-quoc-188260719163626356.chn",
-          "pubDate": "2026-07-19T09:44:00.000Z",
-          "excerpt": "Nhà máy Nhiệt điện Vĩnh Tân 4 đã có buổi tiếp và làm việc chính thức với Đoàn doanh nghiệp Hàn Quốc trong lĩnh vực sản xuất thiết bị điện phục vụ nhà máy điện.",
+          "title": "Tin vui: Hàng triệu người lao động sắp có cơ hội mua nhà ở giá rẻ",
+          "link": "https://cafef.vn/tin-vui-hang-trieu-nguoi-lao-dong-sap-co-co-hoi-mua-nha-o-gia-re-188260719100352772.chn",
+          "pubDate": "2026-07-20T03:00:00.000Z",
+          "excerpt": "Chương trình nhà ở xã hội đang được đẩy mạnh trên cả nước, mở thêm cơ hội an cư với mức giá phù hợp cho đông đảo người lao động.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Trung tâm thương mại hơn 30 năm chưa hoàn thành: Thu hồi đất trước quyết định giao đất",
-          "link": "https://cafef.vn/trung-tam-thuong-mai-hon-30-nam-chua-hoan-thanh-thu-hoi-dat-truoc-quyet-dinh-giao-dat-188260719163814122.chn",
-          "pubDate": "2026-07-19T10:30:00.000Z",
-          "excerpt": "Sau hơn 30 năm khởi công, Dự án Khu trung tâm thương mại Bạc Liêu vẫn chưa hoàn thành, nguyên nhân chính do việc thu hồi, giao mặt bằng cho chủ đầu tư diễn ra…",
+          "title": "Hà Nội phấn đấu hoàn thành dự án ổn định cửa sông Đuống trong tháng 8-2026",
+          "link": "https://cafef.vn/ha-noi-phan-dau-hoan-thanh-du-an-on-dinh-cua-song-duong-trong-thang-8-2026-188260720092758552.chn",
+          "pubDate": "2026-07-20T03:05:00.000Z",
+          "excerpt": "Dự án đảm bảo ổn định khu vực cửa sông Đuống (giai đoạn 1) sau khi hoàn thành sẽ góp phần quan trọng bảo đảm an toàn đê điều, phòng, chống thiên tai trên hệ…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Mở rộng hợp tác Việt Nam - Hy Lạp trong kinh tế biển, logistics và năng lượng",
-          "link": "https://vneconomy.vn/mo-rong-hop-tac-viet-nam-hy-lap-trong-kinh-te-bien-logistics-va-nang-luong.htm",
-          "pubDate": "2026-07-18T01:05:04.000Z",
-          "excerpt": "Thủ tướng Lê Minh Hưng đề nghị Việt Nam và Hy Lạp khai thác hiệu quả EVFTA, tăng kết nối doanh nghiệp, mở rộng hợp tác hàng hải, logistics, năng lượng, đồng…",
+          "title": "Mô hình phát triển bất động sản thuần túy sẽ thay đổi bởi TOD",
+          "link": "https://vneconomy.vn/mo-hinh-phat-trien-bat-dong-san-thuan-tuy-se-thay-doi-boi-tod.htm",
+          "pubDate": "2026-07-20T01:50:41.000Z",
+          "excerpt": "Hà Nội vừa khởi công xây dựng đồng thời 5 tuyến metro, định hình cấu trúc đô thị đa cực, chuyển dần từ mô hình phát triển tập trung vào khu vực trung tâm sang…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
         },
         {
-          "title": "Giá vàng tuần này dự báo khó tăng",
-          "link": "https://vnexpress.net/gia-vang-tuan-nay-du-bao-kho-tang-5099227.html",
-          "pubDate": "2026-07-19T17:00:00.000Z",
-          "excerpt": "Phần lớn chuyên gia Phố Wall dự báo giá vàng giảm, trong khi quan điểm của nhà đầu tư cá nhân chia rẽ do kim loại quý liên tục lên xuống quanh mốc 4.000 USD.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
+          "title": "Tăng lương tối thiểu 7,8%: Tiếp sức người lao động vượt áp lực chi tiêu",
+          "link": "https://cafef.vn/tang-luong-toi-thieu-78-tiep-suc-nguoi-lao-dong-vuot-ap-luc-chi-tieu-188260720091743221.chn",
+          "pubDate": "2026-07-20T02:32:00.000Z",
+          "excerpt": "Khảo sát của Tổng Liên đoàn Lao động Việt Nam cho thấy đời sống của nhiều công nhân, người lao động vẫn gặp nhiều khó khăn khi thu nhập chỉ đủ trang trải chi…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Cầu trên cao tốc Bến Lức - Long Thành nối TP.HCM với Đồng Nai tăng tốc thi công. Dự án này nhằm cải thiện kết nối giao thông giữa hai địa phương."
+      "aiSummary": "Nhiều ngân hàng đóng tài khoản không đủ số dư. Nguyên nhân do yêu cầu về số dư tối thiểu."
     },
     {
       "key": "international",
       "displayName": "International",
       "articles": [
-        {
-          "title": "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely volatile’ outlook",
-          "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
-          "pubDate": "2026-07-15T11:33:19.000Z",
-          "excerpt": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC"
-        },
         {
           "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
           "link": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
@@ -345,10 +335,10 @@
           "attribution": "CNBC"
         },
         {
-          "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
-          "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-          "pubDate": "2026-07-17T14:13:49.000Z",
-          "excerpt": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
+          "title": "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely volatile’ outlook",
+          "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
+          "pubDate": "2026-07-15T11:33:19.000Z",
+          "excerpt": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
@@ -365,6 +355,16 @@
           "attribution": "CNBC"
         },
         {
+          "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
+          "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
+          "pubDate": "2026-07-17T14:13:49.000Z",
+          "excerpt": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC"
+        },
+        {
           "title": "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
           "link": "https://www.cnbc.com/2026/07/15/world-cup-economy-spending-alcohol-hotels-fed.html",
           "pubDate": "2026-07-15T21:53:10.000Z",
@@ -375,37 +375,37 @@
           "attribution": "CNBC"
         },
         {
-          "title": "Ukraine blames Russia for deadly strike on Turkish cargo ship",
-          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3361133/ukraine-blames-russia-deadly-strike-turkish-cargo-ship?utm_source=rss_feed",
-          "pubDate": "2026-07-19T23:43:30.000Z",
-          "excerpt": "Ukraine said on Sunday that Russian missile strikes on a Turkish-owned cargo ship carrying grain had killed six people, hours after Moscow fired a fresh…",
+          "title": "Trump demands damages from Canada over heavy smoke from Ontario wildfires",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3361152/trump-demands-damages-canada-over-heavy-smoke-ontario-wildfires?utm_source=rss_feed",
+          "pubDate": "2026-07-20T03:20:27.000Z",
+          "excerpt": "US President Donald Trump ⁠said that he told Canadian ⁠Prime Minister Mark Carney that Canada must do better at controlling Ontario wildfires whose smoke has…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
         },
         {
-          "title": "Spain beat Argentina to win World Cup for second time",
-          "link": "https://www.ft.com/content/424d3c10-0068-4005-ad9b-d15daa70b842?syn-25a6b1a6=1",
-          "pubDate": "2026-07-19T23:35:31.000Z",
-          "excerpt": "Extra-time winner from Ferran Torres is decisive moment in tight but completely one-sided final",
+          "title": "Spain outplay Messi’s Argentina to reach World Cup summit",
+          "link": "https://www.ft.com/content/9f8b8f8d-cc2e-45a3-b4fb-3f57fb415c16",
+          "pubDate": "2026-07-20T02:10:13.000Z",
+          "excerpt": "Tournament’s best team wins one-sided final 1-0 and claims clutch of individual prizes",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT"
         },
         {
-          "title": "Ferry capsizes off Guyana, authorities searching for 66 missing passengers",
-          "link": "https://www.scmp.com/news/world/americas/article/3361132/ferry-capsizes-guyana-authorities-searching-66-missing-passengers?utm_source=rss_feed",
-          "pubDate": "2026-07-19T23:17:21.000Z",
-          "excerpt": "An ageing ferry carrying more than 100 people capsized off the coast of Guyana, with 67 saved and rescue teams searching for the rest, officials said on…",
+          "title": "US ‘hit Iran very hard’, Trump says, as both inch closer to all-out war",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3361137/us-hit-iran-very-hard-trump-says-both-inch-closer-all-out-war?utm_source=rss_feed",
+          "pubDate": "2026-07-20T01:20:07.000Z",
+          "excerpt": "The United States began a new round of air strikes early on Monday targeting Iran after announcing the death of another American service member, and Iran fired…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
         }
       ],
-      "aiSummary": "S&P 500 và ECB không được đề cập. 8 tiêu đề không cung cấp thông tin cụ thể về chỉ số hoặc công ty. \nKhông có thông tin cụ thể về chỉ số hoặc công ty. Giá hàng hóa tăng bất ngờ."
+      "aiSummary": "Tăng trưởng Trung Quốc chậm nhất kể từ 2022. Xung đột Hormuz làm ECB tái xem xét lãi suất."
     }
   ]
 }
