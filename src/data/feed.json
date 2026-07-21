@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T23:05:59.001Z",
+  "lastUpdated": "2026-07-21T02:52:43.967Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4003.3,
+      "value": 4044.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 64141.12,
-      "change": -3101.6099999999933,
-      "changePercent": -4.612558115947989
+      "value": 65255.68,
+      "change": -2487.8199999999997,
+      "changePercent": -3.672411375261095
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25143.05,
-      "change": 929.3299999999981,
-      "changePercent": 3.8380306702150606
+      "value": 25094.18,
+      "change": 753.4500000000007,
+      "changePercent": 3.095428937422997
     },
     {
       "symbol": "^GDAXI",
@@ -64,24 +64,64 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Công ty chứng khoán \"họ\" Sunshine báo lãi đột biến 800 tỷ trong quý 2",
-          "link": "https://cafef.vn/cong-ty-chung-khoan-ho-sunshine-bao-lai-dot-bien-800-ty-trong-quy-2-188260721005840932.chn",
-          "pubDate": "2026-07-20T17:58:00.000Z",
-          "excerpt": "Đây là một trong những trường hợp đảo chiều đáng chú ý nhất trong quý vừa qua.",
+          "title": "Chứng khoán Mỹ giảm vì xung đột ở Vùng Vịnh nóng thêm, giá dầu leo thang",
+          "link": "https://vneconomy.vn/chung-khoan-my-giam-vi-xung-dot-o-vung-vinh-nong-them-gia-dau-leo-thang.htm",
+          "pubDate": "2026-07-21T01:20:27.000Z",
+          "excerpt": "Thị trường chứng khoán Mỹ giảm điểm trong phiên giao dịch ngày thứ Hai (20/7) khi nhà đầu tư lo ngại về những diễn biến căng thẳng mới trong cuộc chiến giữa Mỹ…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Các ETF tiếp tục rút ròng ồ ạt khỏi Việt Nam do hiệu suất đầu tư yếu",
+          "link": "https://vneconomy.vn/cac-etf-tiep-tuc-rut-rong-o-at-khoi-viet-nam-do-hieu-suat-dau-tu-yeu.htm",
+          "pubDate": "2026-07-21T02:51:07.000Z",
+          "excerpt": "Tính từ đầu tháng 7/2026, quy mô rút ròng của các quỹ ETF đạt 819 tỷ đồng, tăng 98,6% so với tháng 6/2026. Lũy kế từ đầu năm 2026, quy mô rút ròng đạt 5,3…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "MSB được Ngân hàng Nhà nước chấp thuận tăng vốn điều lệ tối đa 37.440 tỉ đồng",
+          "link": "https://thanhnien.vn/msb-duoc-ngan-hang-nha-nuoc-chap-thuan-tang-von-dieu-le-toi-da-37440-ti-dong-185260721092722819.htm",
+          "pubDate": "2026-07-21T02:13:00.000Z",
+          "excerpt": "Ngân hàng TMCP Hàng Hải Việt Nam (HoSE: MSB) vừa được Ngân hàng Nhà nước Việt Nam chấp thuận tăng vốn điều lệ thông qua phương án phát hành cổ phiếu để trả cổ…",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "Dư nợ cho vay ký quỹ và ứng trước tiền bán của DNSE đạt kỷ lục trên 6.300 tỷ đồng",
+          "link": "https://cafef.vn/du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-cua-dnse-dat-ky-luc-tren-6300-ty-dong-188260720144246691.chn",
+          "pubDate": "2026-07-21T01:00:00.000Z",
+          "excerpt": "Chứng khoán DNSE ghi nhận doanh thu hoạt động đạt 453,1 tỷ đồng trong Quý 2 và 848,2 tỷ đồng sau 6 tháng đầu năm, tăng lần lượt 56% và gần 59% so với cùng kỳ…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "Cập nhật số liệu CTCK ngày 21/7: 6 công ty báo lãi nghìn tỷ, “ngôi vương” bất ngờ đổi chủ, một tên tuổi lớn giảm lãi 95%",
-          "link": "https://cafef.vn/cap-nhat-so-lieu-ctck-ngay-21-7-6-cong-ty-bao-lai-nghin-ty-ngoi-vuong-bat-ngo-doi-chu-mot-ten-tuoi-lon-giam-lai-95-188260721003315674.chn",
-          "pubDate": "2026-07-20T17:33:00.000Z",
-          "excerpt": "Câu lạc bộ lãi nghìn tỷ tăng gấp đôi số thành viên so với quý đầu năm, trong khi nhiều doanh nghiệp vừa và nhỏ chuyển từ lỗ sang lãi.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
+          "title": "Dư nợ cho vay ký quỹ và ứng trước tiền bán của DNSE đạt kỷ lục trên 6.300 tỷ đồng",
+          "link": "https://vneconomy.vn/du-no-cho-vay-ky-quy-va-ung-truoc-tien-ban-cua-dnse-dat-ky-luc-tren-6300-ty-dong.htm",
+          "pubDate": "2026-07-21T01:00:00.000Z",
+          "excerpt": "Chứng khoán DNSE ghi nhận doanh thu hoạt động đạt 453,1 tỷ đồng trong quý 2 và 848,2 tỷ đồng sau 6 tháng đầu năm, tăng lần lượt 56% và gần 59% so với cùng kỳ…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "ASML - niềm hy vọng công ty nghìn tỷ đầu tiên của châu Âu",
+          "link": "https://vnexpress.net/asml-niem-hy-vong-cong-ty-nghin-ty-dau-tien-cua-chau-au-5099491.html",
+          "pubDate": "2026-07-21T00:03:35.000Z",
+          "excerpt": "Nhờ đơn hàng bùng nổ từ làn sóng AI, ASML vốn hóa gần 700 tỷ USD, được kỳ vọng thành doanh nghiệp nghìn tỷ USD đầu tiên của châu Âu.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
         },
         {
           "title": "Chứng khoán SSI cho vay kỷ lục hơn 40.000 tỷ đồng",
@@ -94,57 +134,17 @@
           "attribution": "VnExpress"
         },
         {
-          "title": "Dư nợ margin toàn thị trường lập kỷ lục gần 450.000 tỷ, loạt CTCK cho vay \"tỷ USD\"",
-          "link": "https://cafef.vn/du-no-margin-toan-thi-truong-lap-ky-luc-gan-450000-ty-loat-ctck-cho-vay-ty-usd-188260721001349581.chn",
-          "pubDate": "2026-07-20T17:13:00.000Z",
-          "excerpt": "Dư nợ cho vay ký quỹ (margin) tại các CTCK ước tính khoảng 435.000 tỷ đồng vào cuối quý 2, tăng 30.000 tỷ chỉ sau 1 quý và cũng là con số cao nhất trong lịch…",
+          "title": "REE sẽ phát hành cổ phiếu ESOP cho 54 cá nhân",
+          "link": "https://cafef.vn/ree-se-phat-hanh-co-phieu-esop-cho-54-ca-nhan-188260721094103554.chn",
+          "pubDate": "2026-07-21T02:40:00.000Z",
+          "excerpt": "REE sẽ phát hành 500.000 cổ phiếu ESOP với giá 10.000 đồng/cổ phiếu cho 54 cá nhân, trong đó bà Nguyễn Thị Mai Thanh dự kiến được mua nhiều nhất.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
-        },
-        {
-          "title": "Một công ty chứng khoán báo lãi gấp 5 lần cùng kỳ, tạm thắng lớn với cổ phiếu Vingroup",
-          "link": "https://cafef.vn/mot-cong-ty-chung-khoan-bao-lai-gap-5-lan-cung-ky-tam-thang-lon-voi-co-phieu-vingroup-188260720221458361.chn",
-          "pubDate": "2026-07-20T17:08:00.000Z",
-          "excerpt": "Lũy kế 6 tháng, công ty ghi nhận lợi nhuận trước thuế 370 tỷ đồng, tăng 155% so với nửa đầu năm ngoái.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Cổ phiếu sàn cả loạt, VN-Index lao dốc “nặng” nhất 6 tuần",
-          "link": "https://vneconomy.vn/co-phieu-san-ca-loat-vn-index-lao-doc-nang-nhat-6-tuan.htm",
-          "pubDate": "2026-07-20T08:25:16.000Z",
-          "excerpt": "Áp lực bán tháo không có dấu hiệu hạ nhiệt chiều nay, thậm chí còn mạnh thêm. Phiên sáng mới có 5 cổ phiếu giảm sàn, đóng cửa lên tới 33 mã. Thanh khoản HoSE…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
-        },
-        {
-          "title": "VN-Index \"bốc hơi\" 44 điểm, chuyên gia nhắc nhà đầu tư một điều quan trọng",
-          "link": "https://cafef.vn/vn-index-boc-hoi-44-diem-chuyen-gia-nhac-nha-dau-tu-mot-dieu-quan-trong-188260721001558477.chn",
-          "pubDate": "2026-07-20T17:15:00.000Z",
-          "excerpt": "\"Nhà đầu tư không nên bị ru ngủ bởi những lời trấn an rằng thị trường đã giảm quá sâu, đồng thời cần hạn chế tối đa đòn bẩy và luôn duy trì tiền mặt”, chuyên…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "BlackRock đang quản lý hơn 15 nghìn tỷ USD tài sản",
-          "link": "https://vneconomy.vn/blackrock-dang-quan-ly-hon-15-nghin-ty-usd-tai-san.htm",
-          "pubDate": "2026-07-20T08:46:07.000Z",
-          "excerpt": "BlackRock đã trở thành công ty quản lý tài sản đầu tiên trên thế giới vượt mốc 15 nghìn tỷ USD tài sản, một con số gần gấp ba lần tổng sản phẩm quốc nội (GDP)…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
         }
       ],
-      "aiSummary": "Công ty chứng khoán \"họ\" Sunshine báo lãi đột biến 800 tỷ trong quý 2. Lãi đột biến do hoạt động kinh doanh chứng khoán tăng trưởng mạnh."
+      "aiSummary": "Chứng khoán Mỹ giảm vì xung đột ở Vùng Vịnh. Giá dầu tăng cao do căng thẳng."
     },
     {
       "key": "realestate",
@@ -161,6 +161,16 @@
           "attribution": "VnEconomy"
         },
         {
+          "title": "Thanh khoản suy giảm, chủ đầu tư tăng chiết khấu kích cầu bất động sản",
+          "link": "https://cafef.vn/thanh-khoan-suy-giam-chu-dau-tu-tang-chiet-khau-kich-cau-bat-dong-san-188260721071411048.chn",
+          "pubDate": "2026-07-21T01:13:00.000Z",
+          "excerpt": "Trong bối cảnh thanh khoản suy giảm, thay vì giảm giá niêm yết, các chủ đầu tư đang tăng chiết khấu và hỗ trợ tài chính nhằm kích cầu thị trường bất động sản.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
           "title": "Đất công nghiệp và nhà kho xây sẵn dẫn dắt đà tăng trưởng của thị trường bất động sản",
           "link": "https://vneconomy.vn/dat-cong-nghiep-va-nha-kho-xay-san-dan-dat-da-tang-truong-cua-thi-truong-bat-dong-san.htm",
           "pubDate": "2026-07-20T03:12:38.000Z",
@@ -169,26 +179,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
-        },
-        {
-          "title": "Địa ốc Kido, Xây dựng số 14 bị xử phạt do chậm công bố thông tin",
-          "link": "https://cafef.vn/dia-oc-kido-xay-dung-so-14-bi-xu-phat-do-cham-cong-bo-thong-tin-188260720221924284.chn",
-          "pubDate": "2026-07-20T15:45:00.000Z",
-          "excerpt": "Địa ốc Kido, Xây dựng số 14 mỗi doanh nghiệp bị phạt tiền 92,5 triệu đồng do chậm công bố thông tin từ 15 ngày trở lên.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Giao dịch bất động sản giảm mạnh nửa đầu năm",
-          "link": "https://vnexpress.net/giao-dich-bat-dong-san-giam-manh-nua-dau-nam-5097659.html",
-          "pubDate": "2026-07-20T02:47:57.000Z",
-          "excerpt": "Dù nguồn cung nhà ở tiếp tục cải thiện, giao dịch bất động sản vẫn giảm mạnh do chi phí vay vốn neo ở mức cao, khiến người mua ở thực lẫn nhà đầu tư dè dặt…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
         },
         {
           "title": "Novaland mở bán lại dự án 'đất vàng' TP HCM sau nhiều năm đình trệ",
@@ -201,20 +191,30 @@
           "attribution": "VnExpress"
         },
         {
-          "title": "Nhà đầu tư căn hộ hạ kỳ vọng lợi nhuận",
-          "link": "https://vnexpress.net/nha-dau-tu-can-ho-ha-ky-vong-loi-nhuan-5094901.html",
-          "pubDate": "2026-07-20T00:00:00.000Z",
-          "excerpt": "Từng kỳ vọng lãi tiền tỷ khi bán căn hộ, anh Hùng nay chấp nhận giảm một nửa để thoát hàng.",
+          "title": "Giao dịch bất động sản giảm mạnh nửa đầu năm",
+          "link": "https://vnexpress.net/giao-dich-bat-dong-san-giam-manh-nua-dau-nam-5097659.html",
+          "pubDate": "2026-07-20T02:47:57.000Z",
+          "excerpt": "Dù nguồn cung nhà ở tiếp tục cải thiện, giao dịch bất động sản vẫn giảm mạnh do chi phí vay vốn neo ở mức cao, khiến người mua ở thực lẫn nhà đầu tư dè dặt…",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress"
         },
         {
-          "title": "Cận cảnh công trường ga ngầm S1 trên đường Văn Cao",
-          "link": "https://cafef.vn/can-canh-cong-truong-ga-ngam-s1-tren-duong-van-cao-188260720221538705.chn",
-          "pubDate": "2026-07-20T15:36:00.000Z",
-          "excerpt": "Hà Nội đã hoàn tất lắp đặt hệ thống rào chắn dài gần 500m trên đường Văn Cao để triển khai thi công ga ngầm S1 (Quần Ngựa) thuộc tuyến metro số 5. Công trường…",
+          "title": "Đại công trường gần 9.600 tỷ đồng mở rộng cửa ngõ phía Tây Hà Nội: Tăng tốc thông xe trước Tết Nguyên Đán",
+          "link": "https://cafef.vn/dai-cong-truong-gan-9600-ty-dong-mo-rong-cua-ngo-phia-tay-ha-noi-tang-toc-thong-xe-truoc-tet-nguyen-dan-188260719002029503.chn",
+          "pubDate": "2026-07-21T02:10:00.000Z",
+          "excerpt": "Dự án mở rộng Quốc lộ 6 đoạn Ba La - Xuân Mai đang bước vào giai đoạn tăng tốc giải phóng mặt bằng và thi công, mở ra dư địa phát triển mới cho cửa ngõ phía…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Hà Nội cắt giảm 50% thủ tục quy hoạch, xây dựng để khởi công 114 dự án NOXH",
+          "link": "https://cafef.vn/ha-noi-cat-giam-50-thu-tuc-quy-hoach-xay-dung-de-khoi-cong-114-du-an-noxh-188260721080450126.chn",
+          "pubDate": "2026-07-21T01:36:00.000Z",
+          "excerpt": "Hà Nội thành lập Tổ công tác đặc biệt về triển khai đầu tư xây dựng nhà ở xã hội. Đồng thời áp dụng cơ chế \"làn xanh\" đối với toàn bộ thủ tục liên quan đến nhà…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -231,7 +231,7 @@
           "attribution": "VnExpress"
         }
       ],
-      "aiSummary": "Đất công nghiệp và nhà kho xây sẵn dẫn dắt tăng trưởng. Do nhu cầu tăng cao về kho bãi và sản xuất."
+      "aiSummary": "Thanh khoản suy giảm, chủ đầu tư tăng chiết khấu. Nguyên nhân do nhu cầu mua giảm."
     },
     {
       "key": "macro",
@@ -248,14 +248,14 @@
           "attribution": "VnEconomy"
         },
         {
-          "title": "Mô hình phát triển bất động sản thuần túy sẽ thay đổi bởi TOD",
-          "link": "https://vneconomy.vn/mo-hinh-phat-trien-bat-dong-san-thuan-tuy-se-thay-doi-boi-tod.htm",
-          "pubDate": "2026-07-20T01:50:41.000Z",
-          "excerpt": "Hà Nội vừa khởi công xây dựng đồng thời 5 tuyến metro, định hình cấu trúc đô thị đa cực, chuyển dần từ mô hình phát triển tập trung vào khu vực trung tâm sang…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
+          "title": "Đứng trước cơ hội 'kiến thiết' thị trường được định giá sẽ đạt 5,4 nghìn tỷ USD vào 2030, Việt Nam cần lưu ý những gì để không bỏ lỡ cơ hội?",
+          "link": "https://cafef.vn/dung-truoc-co-hoi-kien-thiet-thi-truong-duoc-dinh-gia-se-dat-54-nghin-ty-usd-vao-2030-viet-nam-can-luu-y-nhung-gi-de-khong-bo-lo-co-hoi-188260721092955577.chn",
+          "pubDate": "2026-07-21T02:29:00.000Z",
+          "excerpt": "Mã hóa tài sản thực - Real World Assets (RWA) được dự báo sẽ trở thành thị trường trị giá hàng nghìn tỷ USD trong vài năm tới. Tuy nhiên, theo các chuyên gia…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
           "title": "Nghệ An: Đấu giá khu \"đất vàng\" hơn 37.000 m2 tại phường Trường Vinh",
@@ -268,6 +268,26 @@
           "attribution": "VnEconomy"
         },
         {
+          "title": "Mô hình phát triển bất động sản thuần túy sẽ thay đổi bởi TOD",
+          "link": "https://vneconomy.vn/mo-hinh-phat-trien-bat-dong-san-thuan-tuy-se-thay-doi-boi-tod.htm",
+          "pubDate": "2026-07-20T01:50:41.000Z",
+          "excerpt": "Hà Nội vừa khởi công xây dựng đồng thời 5 tuyến metro, định hình cấu trúc đô thị đa cực, chuyển dần từ mô hình phát triển tập trung vào khu vực trung tâm sang…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Ngoại giao kinh tế mở rộng không gian xuất khẩu",
+          "link": "https://cafef.vn/ngoai-giao-kinh-te-mo-rong-khong-gian-xuat-khau-188260721081523564.chn",
+          "pubDate": "2026-07-21T02:30:00.000Z",
+          "excerpt": "Ngoại giao kinh tế có vai trò mở đường, kết nối và hỗ trợ hàng Việt tiếp cận những khu vực còn nhiều dư địa như khu vực Trung Đông, châu Phi và Mỹ Latinh.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
           "title": "6 tháng đầu năm 2026, lượng khách quốc tế qua đường hàng không tăng 15,4%",
           "link": "https://vneconomy.vn/6-thang-dau-nam-2026-luong-khach-quoc-te-qua-duong-hang-khong-tang-154.htm",
           "pubDate": "2026-07-20T07:22:51.000Z",
@@ -276,9 +296,29 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
+        },
+        {
+          "title": "Những điểm nghẽn trong thực thi chính sách hỗ trợ doanh nghiệp nhỏ và vừa",
+          "link": "https://vneconomy.vn/nhung-diem-nghen-trong-thuc-thi-chinh-sach-ho-tro-doanh-nghiep-nho-va-vua.htm",
+          "pubDate": "2026-07-21T02:26:23.000Z",
+          "excerpt": "Theo thống kê mới nhất từ Bộ Tài chính, hiện cả nước có 859.048 doanh nghiệp đang hoạt động sản xuất kinh doanh, trong đó doanh nghiệp nhỏ và vừa chiếm khoảng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Thủ tướng yêu cầu tăng tốc xây dựng trường nội trú, hoàn thành trước 30/8",
+          "link": "https://cafef.vn/thu-tuong-yeu-cau-tang-toc-xay-dung-truong-noi-tru-hoan-thanh-truoc-30-8-188260721081047485.chn",
+          "pubDate": "2026-07-21T02:34:00.000Z",
+          "excerpt": "Thủ tướng Chính phủ yêu cầu các bộ, ngành và địa phương ưu tiên cao nhất mọi nguồn lực để hoàn thành xây dựng các trường phổ thông nội trú liên cấp tại các xã…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         }
       ],
-      "aiSummary": "Lượng khách quốc tế qua đường hàng không tăng 15,4% trong 6 tháng đầu năm 2026. Sự tăng trưởng này có thể do nhu cầu du lịch tăng cao."
+      "aiSummary": "Tài trợ chuỗi cung ứng định hình tương lai Trung tâm Tài chính quốc tế Đà Nẵng. Cơ hội 'kiến thiết' thị trường sẽ đạt 5,4 nghìn tỷ USD vào 2030."
     },
     {
       "key": "international",
@@ -293,16 +333,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
-        },
-        {
-          "title": "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely volatile’ outlook",
-          "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
-          "pubDate": "2026-07-15T11:33:19.000Z",
-          "excerpt": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC"
         },
         {
           "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
@@ -325,34 +355,14 @@
           "attribution": "SCMP"
         },
         {
-          "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
-          "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
-          "pubDate": "2026-07-17T14:13:49.000Z",
-          "excerpt": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
+          "title": "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely volatile’ outlook",
+          "link": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html",
+          "pubDate": "2026-07-15T11:33:19.000Z",
+          "excerpt": "Several consecutive days of strikes exchanged between the U.S. and Iran have cast uncertainty on the European Central Bank's interest rate decision next week.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
           "attribution": "CNBC"
-        },
-        {
-          "title": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
-          "link": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
-          "pubDate": "2026-07-15T14:22:48.000Z",
-          "excerpt": "As with consumer prices, the index benefited from easing energy costs, particularly as oil fell due to the brief pause in tensions between the U.S. and Iran.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC"
-        },
-        {
-          "title": "Gilts under pressure as investors brace for higher spending under new PM",
-          "link": "https://www.ft.com/content/b7cc3ea9-c89c-4f94-8ce0-3786034a6ddc?syn-25a6b1a6=1",
-          "pubDate": "2026-07-20T18:37:43.000Z",
-          "excerpt": "Andy Burnham said he will ‘use any flexibility’ within the fiscal rules",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT"
         },
         {
           "title": "US judge suspends Paramount’s acquisition of Warner Bros",
@@ -363,9 +373,39 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP"
+        },
+        {
+          "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
+          "link": "https://www.cnbc.com/2026/07/17/import-prices-post-surprise-gain-as-costs-of-goods-from-china-hit-highest-since-2008.html",
+          "pubDate": "2026-07-17T14:13:49.000Z",
+          "excerpt": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC"
+        },
+        {
+          "title": "US Justice Department investigating Harvard over financial aid programmes",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3361270/us-justice-department-investigating-whether-harvard-aid-programmes-are-discriminatory?utm_source=rss_feed",
+          "pubDate": "2026-07-20T22:31:45.000Z",
+          "excerpt": "The US Department of Justice said on Monday it launched a probe reviewing whether some Harvard University financial aid programmes were discriminatory, marking…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP"
+        },
+        {
+          "title": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
+          "link": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
+          "pubDate": "2026-07-15T14:22:48.000Z",
+          "excerpt": "As with consumer prices, the index benefited from easing energy costs, particularly as oil fell due to the brief pause in tensions between the U.S. and Iran.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC"
         }
       ],
-      "aiSummary": "S&P 500 tăng 1,2% sau số liệu lạm phát Mỹ giảm. Giá dầu giảm do nguồn cung dồi dào."
+      "aiSummary": "Giá bán buôn giảm 0,3% vào tháng 6. Giá xăng giảm mạnh."
     }
   ]
 }
