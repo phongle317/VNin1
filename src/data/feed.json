@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T07:55:11.634Z",
+  "lastUpdated": "2026-07-21T08:25:54.404Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4076.5,
+      "value": 4072.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25151.86,
-      "change": 811.130000000001,
-      "changePercent": 3.332398001210321
+      "value": 25132.29,
+      "change": 791.5600000000013,
+      "changePercent": 3.2519977831396236
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 24875.29,
-      "change": -271.73999999999796,
-      "changePercent": -1.0806047473598193
+      "value": 24856.97,
+      "change": -290.0599999999977,
+      "changePercent": -1.1534562928504786
     }
   ],
   "themes": [
@@ -64,87 +64,87 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "“Gã khổng lồ” ngành điện báo lãi quý 2 gần 3.600 tỷ đồng, gấp gần 5 lần cùng kỳ",
-          "link": "https://cafef.vn/ga-khong-lo-nganh-dien-bao-lai-quy-2-gan-3600-ty-dong-gap-gan-5-lan-cung-ky-188260721135954834.chn",
-          "pubDate": "2026-07-21T07:01:00.000Z",
-          "excerpt": "Trong nửa đầu năm, doanh thu toàn tổng công ty ước đạt 33.520 tỷ đồng, vượt 29% kế hoạch 6 tháng và tăng 87% so với cùng kỳ năm 2025.",
+          "title": "Áp lực cắt lỗ xuất hiện, nhịp phục hồi thất bại",
+          "link": "https://vneconomy.vn/ap-luc-cat-lo-xuat-hien-nhip-phuc-hoi-that-bai.htm",
+          "pubDate": "2026-07-21T08:24:35.000Z",
+          "excerpt": "Không ít nhà đầu tư lợi dụng giá hồi kỹ thuật hôm nay đã cắt lỗ giá tốt. Áp lực này mạnh lên rõ rệt trong phiên chiều, đẩy giá cổ phiếu đảo chiều giảm trở lại…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Giá vàng 'rung lắc' liên tục, bạc tăng hơn 2 triệu/kg",
+          "link": "https://thanhnien.vn/gia-vang-rung-lac-lien-tuc-bac-tang-hon-2-trieu-kg-185260721151342723.htm",
+          "pubDate": "2026-07-21T08:22:00.000Z",
+          "excerpt": "Chiều nay 21.7, chưa tới 15 giờ, giá vàng miếng SJC được điều chỉnh tới 3 lần với 1 nhịp tăng và 2 nhịp giảm; trong khi đó, giá bạc bật tăng đáng kể.",
+          "sourceId": "thanhnien",
+          "sourceName": "Thanh Niên",
+          "sourceUrl": "https://thanhnien.vn",
+          "attribution": "Thanh Niên"
+        },
+        {
+          "title": "CEO PNJ thừa nhận chịu áp lực thanh khoản, cổ phiếu thủng đáy 5 năm",
+          "link": "https://cafef.vn/ceo-pnj-thua-nhan-chiu-ap-luc-thanh-khoan-co-phieu-thung-day-5-nam-18826072115200684.chn",
+          "pubDate": "2026-07-21T08:19:00.000Z",
+          "excerpt": "Vốn hóa thị trường PNJ đã “bốc hơi” 55% từ đỉnh hồi cuối tháng 1, còn khoảng 19.500 tỷ đồng.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF"
         },
         {
-          "title": "ABBank hoàn tất phát hành gần 209.6 triệu cp trả cổ tức, tăng vốn lên gần 16,068 tỷ",
-          "link": "http://vietstock.vn/2026/07/abbank-hoan-tat-phat-hanh-gan-2096-trieu-cp-tra-co-tuc-tang-von-len-gan-16068-ty-757-1468886.htm",
-          "pubDate": "2026-07-21T05:15:06.000Z",
-          "excerpt": "Ngân hàng TMCP An Bình (ABBank, UPCoM: ABB) thông báo đã hoàn tất đợt phát hành cổ phiếu để trả cổ tức cho cổ đông hiện hữu theo phương án được ĐHĐCĐ thường…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock"
+          "title": "Giá cổ phiếu lao dốc, lãnh đạo doanh nghiệp tranh thủ 'gom hàng'",
+          "link": "https://cafef.vn/gia-co-phieu-lao-doc-lanh-dao-doanh-nghiep-tranh-thu-gom-hang-188260721151152281.chn",
+          "pubDate": "2026-07-21T08:11:00.000Z",
+          "excerpt": "Từ đầu năm đến nay, mã chứng khoán KDH của Công ty CP Đầu tư và Kinh doanh Nhà Khang Điền đã giảm hơn 40% về mức 17.950 đồng/cổ phiếu. Ông Lý Tuấn Kiệt - Phó…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
-          "title": "ABBank phát hành thành công hơn 209 triệu cổ phiếu",
-          "link": "https://thanhnien.vn/abbank-phat-hanh-thanh-cong-hon-209-trieu-co-phieu-185260721110437795.htm",
-          "pubDate": "2026-07-21T04:35:00.000Z",
-          "excerpt": "ABBank đã phát hành thành công gần 209,6 triệu cổ phiếu để trả cổ tức cho cổ đông hiện hữu với tỷ lệ 15%. Sau đợt phát hành này, vốn điều lệ của nhà băng này…",
+          "title": "Giá USD tự do lao dốc",
+          "link": "https://vnexpress.net/gia-usd-tu-do-lao-doc-5099905.html",
+          "pubDate": "2026-07-21T08:03:30.000Z",
+          "excerpt": "Các điểm thu đổi ngoại tệ trên thị trường tự do giảm mạnh giá mua USD còn gần 26.000 đồng, thấp hơn giao dịch tại ngân hàng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Khách hàng bán nhiều, PNJ áp dụng hạn mức chi trả theo khi mua lại kim cương",
+          "link": "https://thanhnien.vn/khach-hang-ban-nhieu-pnj-ap-dung-han-muc-chi-tra-theo-khi-mua-lai-kim-cuong-185260721144837518.htm",
+          "pubDate": "2026-07-21T07:58:00.000Z",
+          "excerpt": "Tại buổi trao đổi với báo chí trưa 21.7, ông Phan Quốc Công, Tổng giám đốc Công ty cổ phần Vàng bạc đá quý Phú Nhuận (PNJ) cho biết doanh số mua lại gấp 5 lần…",
           "sourceId": "thanhnien",
           "sourceName": "Thanh Niên",
           "sourceUrl": "https://thanhnien.vn",
           "attribution": "Thanh Niên"
         },
         {
-          "title": "6 tháng đầu năm 2026, lợi nhuận trước thuế PGBank tăng gần 66%",
-          "link": "http://vietstock.vn/2026/07/6-thang-dau-nam-2026-loi-nhuan-truoc-thue-pgbank-tang-gan-66-757-1468835.htm",
-          "pubDate": "2026-07-21T04:25:00.000Z",
-          "excerpt": "Ngày 20 tháng 7 năm 2026, Ngân hàng TMCP Thịnh Vượng và Phát triển (PGBank) công bố kết quả kinh doanh Quý 2/2026 với nhiều tín hiệu tích cực trong hoạt động…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock"
+          "title": "Savico sắp trả cổ tức bằng tiền mặt tỷ lệ 5%",
+          "link": "https://cafef.vn/savico-sap-tra-co-tuc-bang-tien-mat-ty-le-5-188260721145309115.chn",
+          "pubDate": "2026-07-21T07:57:00.000Z",
+          "excerpt": "Ngày 31/7/2026 tới đây, Savico sẽ chốt danh sách cổ đông để thực hiện chi trả cổ tức năm 2025 bằng tiền mặt với tỷ lệ 5%.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
-          "title": "Các ETF tiếp tục rút ròng ồ ạt khỏi Việt Nam do hiệu suất đầu tư yếu",
-          "link": "https://vneconomy.vn/cac-etf-tiep-tuc-rut-rong-o-at-khoi-viet-nam-do-hieu-suat-dau-tu-yeu.htm",
-          "pubDate": "2026-07-21T02:51:07.000Z",
-          "excerpt": "Tính từ đầu tháng 7/2026, quy mô rút ròng của các quỹ ETF đạt 819 tỷ đồng, tăng 98,6% so với tháng 6/2026. Lũy kế từ đầu năm 2026, quy mô rút ròng đạt 5,3…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
-        },
-        {
-          "title": "Chứng khoán Mỹ giảm vì xung đột ở Vùng Vịnh nóng thêm, giá dầu leo thang",
-          "link": "https://vneconomy.vn/chung-khoan-my-giam-vi-xung-dot-o-vung-vinh-nong-them-gia-dau-leo-thang.htm",
-          "pubDate": "2026-07-21T01:20:27.000Z",
-          "excerpt": "Thị trường chứng khoán Mỹ giảm điểm trong phiên giao dịch ngày thứ Hai (20/7) khi nhà đầu tư lo ngại về những diễn biến căng thẳng mới trong cuộc chiến giữa Mỹ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
-        },
-        {
-          "title": "BVBank niêm yết 640 triệu cổ phiếu trên sàn HoSE",
-          "link": "https://thanhnien.vn/bvbank-niem-yet-640-trieu-co-phieu-tren-san-hose-185260721135527901.htm",
-          "pubDate": "2026-07-21T06:59:00.000Z",
-          "excerpt": "Sáng 21.7, hơn 640 triệu cổ phiếu BVB của Ngân hàng TMCP Bản Việt (BVBank) chính thức niêm yết và giao dịch trên Sở Giao dịch chứng khoán TP.HCM (HoSE).",
-          "sourceId": "thanhnien",
-          "sourceName": "Thanh Niên",
-          "sourceUrl": "https://thanhnien.vn",
-          "attribution": "Thanh Niên"
-        },
-        {
-          "title": "Dòng tiền quá yếu, đà phục hồi “lịm” dần",
-          "link": "https://vneconomy.vn/dong-tien-qua-yeu-da-phuc-hoi-lim-dan.htm",
-          "pubDate": "2026-07-21T05:00:57.000Z",
-          "excerpt": "Sau phiên bán tháo dữ dội hôm qua thị trường đã cố gắng hồi phục sáng nay, nhưng dòng tiền không chấp nhận. Thanh khoản sụt giảm 17% so với sáng hôm qua và gần…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
+          "title": "Doanh nghiệp của CEO SN 1998 huy động thành công 2.000 tỷ đồng từ kênh trái phiếu",
+          "link": "https://cafef.vn/doanh-nghiep-cua-ceo-sn-1998-huy-dong-thanh-cong-2000-ty-dong-tu-kenh-trai-phieu-188260721145210221.chn",
+          "pubDate": "2026-07-21T07:57:00.000Z",
+          "excerpt": "Hạ tầng Crystal vừa huy động thành công 2.000 tỷ đồng thông qua việc phát hành lô trái phiếu CIC12601 kỳ hạn 60 tháng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         }
       ],
-      "aiSummary": "PNJ giảm kịch sàn, dư bán 12,5 triệu đơn vị sau vụ khởi tố giám đốc P-Lab. Nhóm cổ phiếu chứng khoán nhỏ tăng hơn 14%, dẫn đầu thanh khoản."
+      "aiSummary": "Savico sắp trả cổ tức bằng tiền mặt tỷ lệ 5%. Doanh nghiệp này thực hiện trả cổ tức cho cổ đông."
     },
     {
       "key": "realestate",
@@ -154,17 +154,7 @@
           "title": "Sunshine Group ký kết các hợp đồng tổng thầu với DELTA Group và Xây dựng Hòa Bình, tổng giá trị gần 80.000 tỷ đồng",
           "link": "https://cafef.vn/sunshine-group-ky-ket-cac-hop-dong-tong-thau-voi-delta-group-va-xay-dung-hoa-binh-tong-gia-tri-gan-80000-ty-dong-188260721140934902.chn",
           "pubDate": "2026-07-21T07:09:00.000Z",
-          "excerpt": "Chỉ trong thời gian ngắn, Sunshine Group liên tiếp ký kết các hợp đồng tổng thầu quy mô lớn với DELTA Group và Tập đoàn Xây dựng Hòa Bình, nâng tổng giá trị…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF"
-        },
-        {
-          "title": "Di dời hàng xà cừ cổ thụ phục vụ dự án đường 70 hơn 3.370 tỷ đồng",
-          "link": "https://cafef.vn/di-doi-hang-xa-cu-co-thu-phuc-vu-du-an-duong-70-hon-3370-ty-dong-188260721114256618.chn",
-          "pubDate": "2026-07-21T04:53:00.000Z",
-          "excerpt": "Hàng xà cừ cổ thụ trên đường 70 đang được đánh chuyển để phục vụ dự án mở rộng tuyến đường hơn 3.370 tỷ đồng. Công trình được kỳ vọng góp phần giảm ùn tắc,…",
+          "excerpt": "Chỉ trong thời gian ngắn, Công ty CP Tập đoàn Sunshine (Sunshine Group - Mã CK: KSF) liên tiếp ký kết các hợp đồng tổng thầu quy mô lớn với DELTA Group và Tập…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,24 +171,14 @@
           "attribution": "VnEconomy"
         },
         {
-          "title": "Novaland mở bán lại dự án 'đất vàng' TP HCM sau nhiều năm đình trệ",
-          "link": "https://vnexpress.net/novaland-mo-ban-lai-du-an-dat-vang-tp-hcm-sau-nhieu-nam-dinh-tre-5099613.html",
-          "pubDate": "2026-07-20T11:18:54.000Z",
-          "excerpt": "Sau hơn ba năm tập trung xử lý khó khăn về pháp lý và tài chính, Novaland đưa dự án The Grand Manhattan tại quận 1 cũ, TP HCM trở lại thị trường.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
-        },
-        {
-          "title": "Phú Thọ chuyển đổi 70 ha đất rừng làm sân golf gần nghìn tỷ đồng",
-          "link": "https://vnexpress.net/phu-tho-chuyen-doi-70-ha-dat-rung-lam-san-golf-gan-nghin-ty-dong-5099558.html",
-          "pubDate": "2026-07-20T09:08:14.000Z",
-          "excerpt": "Hơn 70 ha đất rừng sản xuất được chuyển đổi mục đích sử dụng để thực hiện dự án sân golf Kỳ Sơn tại xã Thịnh Minh.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress"
+          "title": "Đề xuất 7 chính sách sửa đổi Luật Đất đai",
+          "link": "https://cafef.vn/de-xuat-7-chinh-sach-sua-doi-luat-dat-dai-188260721142629871.chn",
+          "pubDate": "2026-07-21T08:07:00.000Z",
+          "excerpt": "Chính phủ thông qua đề xuất 7 chính sách của Luật Đất đai (sửa đổi), giao Bộ Nông nghiệp và Môi trường chủ trì hoàn thiện hồ sơ dự án luật nhằm tháo gỡ vướng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
           "title": "Lãi suất tăng khiến người mua bất động sản thận trọng",
@@ -211,6 +191,16 @@
           "attribution": "CafeF"
         },
         {
+          "title": "Novaland mở bán lại dự án 'đất vàng' TP HCM sau nhiều năm đình trệ",
+          "link": "https://vnexpress.net/novaland-mo-ban-lai-du-an-dat-vang-tp-hcm-sau-nhieu-nam-dinh-tre-5099613.html",
+          "pubDate": "2026-07-20T11:18:54.000Z",
+          "excerpt": "Sau hơn ba năm tập trung xử lý khó khăn về pháp lý và tài chính, Novaland đưa dự án The Grand Manhattan tại quận 1 cũ, TP HCM trở lại thị trường.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
           "title": "Giao dịch bất động sản giảm mạnh nửa đầu năm",
           "link": "https://vnexpress.net/giao-dich-bat-dong-san-giam-manh-nua-dau-nam-5097659.html",
           "pubDate": "2026-07-20T02:47:57.000Z",
@@ -221,41 +211,61 @@
           "attribution": "VnExpress"
         },
         {
-          "title": "Trên 80% người bán bất động sản đang chốt lời và tái đầu tư",
-          "link": "https://cafebiz.vn/tren-80-nguoi-ban-bat-dong-san-dang-chot-loi-va-tai-dau-tu-176260717182424372.chn",
-          "pubDate": "2026-07-17T11:21:00.000Z",
-          "excerpt": "83% người bán đang rao giá cao hơn giá mua ban đầu – 81% số người bán bất động sản dự định sẽ tiếp tục đầu tư lĩnh vực này - theo nhận định của ông Đồng Quang…",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz"
+          "title": "Trong 6 tháng cuối năm, Hà Nội quyết tâm hoàn thành tối thiểu 18.700 căn hộ nhà ở xã hội",
+          "link": "https://cafef.vn/trong-6-thang-cuoi-nam-ha-noi-quyet-tam-hoan-thanh-toi-thieu-18700-can-ho-nha-o-xa-hoi-188260721141455488.chn",
+          "pubDate": "2026-07-21T07:23:00.000Z",
+          "excerpt": "Hà Nội đặt mục tiêu quyết tâm hoàn thành chỉ tiêu tối thiểu 18.700 căn hộ nhà ở xã hội được Thủ tướng Chính phủ giao trong năm 2026; đồng thời phấn đấu đưa…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Quảng Trị khẩn trương xây dựng cơ chế đặc thù cho 5 phường đô thị trung tâm",
+          "link": "https://vneconomy.vn/quang-tri-khan-truong-xay-dung-co-che-dac-thu-cho-5-phuong-do-thi-trung-tam.htm",
+          "pubDate": "2026-07-21T04:30:11.000Z",
+          "excerpt": "Trước yêu cầu phát triển trong giai đoạn mới, Quảng Trị khẩn trương nghiên cứu cơ chế, chính sách riêng cho 5 phường thuộc thành phố Đồng Hới và thành phố Đông…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
         }
       ],
-      "aiSummary": "Sunshine Group ký kết hợp đồng tổng thầu gần 80.000 tỷ đồng. Lãi suất tăng khiến người mua thận trọng."
+      "aiSummary": "Sunshine Group ký hợp đồng tổng thầu gần 80.000 tỷ đồng. Nguyên nhân là nhu cầu đầu tư cơ sở hạ tầng tăng cao."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Tài trợ chuỗi cung ứng: Yếu tố định hình tương lai Trung tâm Tài chính quốc tế Đà Nẵng",
-          "link": "https://vneconomy.vn/tai-tro-chuoi-cung-ung-yeu-to-dinh-hinh-tuong-lai-trung-tam-tai-chinh-quoc-te-da-nang.htm",
-          "pubDate": "2026-07-19T16:30:37.000Z",
-          "excerpt": "Không chỉ xây dựng các cơ chế vận hành, việc tập trung vào các sản phẩm, dịch vụ chiến lược, có lợi thế cạnh tranh sẽ giúp Trung tâm Tài chính quốc tế tại Đà…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
+          "title": "Tất cả người dân mua ô tô, xe máy chú ý quy định miễn phí từ 15/8",
+          "link": "https://cafef.vn/tat-ca-nguoi-dan-mua-o-to-xe-may-chu-y-quy-dinh-mien-phi-tu-15-8-18826072113272122.chn",
+          "pubDate": "2026-07-21T06:33:00.000Z",
+          "excerpt": "Người mua xe mô tô, xe gắn máy có thể được miễn phí hoàn toàn nếu đáp ứng đầy đủ các tiêu chí này.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
-          "title": "6 tháng đầu năm 2026, lượng khách quốc tế qua đường hàng không tăng 15,4%",
-          "link": "https://vneconomy.vn/6-thang-dau-nam-2026-luong-khach-quoc-te-qua-duong-hang-khong-tang-154.htm",
-          "pubDate": "2026-07-20T07:22:51.000Z",
-          "excerpt": "6 tháng đầu năm 2026, vận tải hàng không quốc tế đạt 26,2 triệu lượt hành khách, tăng 15,4% so với cùng kỳ năm trước. Theo đó, Cục Hàng không Việt Nam yêu cầu…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy"
+          "title": "ASML - niềm hy vọng công ty nghìn tỷ đầu tiên của châu Âu",
+          "link": "https://vnexpress.net/asml-niem-hy-vong-cong-ty-nghin-ty-dau-tien-cua-chau-au-5099491.html",
+          "pubDate": "2026-07-21T00:03:35.000Z",
+          "excerpt": "Nhờ đơn hàng bùng nổ từ làn sóng AI, ASML vốn hóa gần 700 tỷ USD, được kỳ vọng thành doanh nghiệp nghìn tỷ USD đầu tiên của châu Âu.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
+        },
+        {
+          "title": "Nhiều ngày trước, sân bay Tân Sơn Nhất ghi nhận một máy bay lạ hạ cánh",
+          "link": "https://cafef.vn/nhieu-ngay-truoc-san-bay-tan-son-nhat-ghi-nhan-mot-may-bay-la-ha-canh-188260721102652556.chn",
+          "pubDate": "2026-07-21T07:00:00.000Z",
+          "excerpt": "Vì sao đây lại là một máy bay lạ?",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
         },
         {
           "title": "Giá vàng sáng 29/6: Đồng loạt hạ nhiệt, nhiều thương hiệu mất nửa triệu đồng/lượng",
@@ -268,81 +278,61 @@
           "attribution": "CafeBiz"
         },
         {
-          "title": "Giá vàng cuối tuần gây bất ngờ",
-          "link": "https://cafebiz.vn/gia-vang-cuoi-tuan-gay-bat-ngo-176260627093209716.chn",
-          "pubDate": "2026-06-27T02:31:00.000Z",
-          "excerpt": "Sau một tuần điều chỉnh giảm liên tục, giá vàng phiên giao dịch cuối tuần bất ngờ tăng trở lại mốc đầu tuần qua.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz"
-        },
-        {
-          "title": "Giá vàng sáng 26/5: Người mua tiếp tục mất nửa triệu đồng mỗi lượng so với hôm qua",
-          "link": "https://cafebiz.vn/gia-vang-sang-26-5-nguoi-mua-tiep-tuc-mat-nua-trieu-dong-moi-luong-so-voi-hom-qua-176260526091749268.chn",
-          "pubDate": "2026-05-26T02:17:00.000Z",
-          "excerpt": "Sau phiên tăng ngày hôm qua, giá vàng miếng và vàng nhẫn trong nước sáng nay tiếp tục điều chỉnh giảm.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz"
-        },
-        {
-          "title": "Giá vàng SJC sáng 25/5 mất thêm 400.000 đồng/lượng",
-          "link": "https://cafebiz.vn/gia-vang-sjc-sang-25-5-mat-them-400000-dong-luong-176260525074031633.chn",
-          "pubDate": "2026-05-25T00:40:00.000Z",
-          "excerpt": "Giá vàng SJC dù giảm giá nhưng vẫn cao hơn vàng thế giới gần 17 triệu đồng/lượng.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz"
-        },
-        {
-          "title": "Giá vàng hôm nay 23/5 giảm đồng loạt: Vàng miếng rẻ ngang vàng nhẫn",
-          "link": "https://cafebiz.vn/gia-vang-hom-nay-23-5-giam-dong-loat-vang-mieng-re-ngang-vang-nhan-17626052308473731.chn",
-          "pubDate": "2026-05-23T01:47:00.000Z",
-          "excerpt": "Giá vàng miếng và vàng nhẫn hôm nay đều đồng loạt giảm, phổ biến quanh mốc 159-162 triệu đồng/lượng.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz"
-        },
-        {
-          "title": "Những điểm nghẽn trong thực thi chính sách hỗ trợ doanh nghiệp nhỏ và vừa",
-          "link": "https://vneconomy.vn/nhung-diem-nghen-trong-thuc-thi-chinh-sach-ho-tro-doanh-nghiep-nho-va-vua.htm",
-          "pubDate": "2026-07-21T02:26:23.000Z",
-          "excerpt": "Theo thống kê mới nhất từ Bộ Tài chính, hiện cả nước có 859.048 doanh nghiệp đang hoạt động sản xuất kinh doanh, trong đó doanh nghiệp nhỏ và vừa chiếm khoảng…",
+          "title": "6 tháng đầu năm 2026, lượng khách quốc tế qua đường hàng không tăng 15,4%",
+          "link": "https://vneconomy.vn/6-thang-dau-nam-2026-luong-khach-quoc-te-qua-duong-hang-khong-tang-154.htm",
+          "pubDate": "2026-07-20T07:22:51.000Z",
+          "excerpt": "6 tháng đầu năm 2026, vận tải hàng không quốc tế đạt 26,2 triệu lượt hành khách, tăng 15,4% so với cùng kỳ năm trước. Theo đó, Cục Hàng không Việt Nam yêu cầu…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy"
+        },
+        {
+          "title": "Sơn La bác thông tin về việc thông qua nghị quyết về sát nhập xã, phường",
+          "link": "https://cafef.vn/son-la-bac-thong-tin-ve-viec-thong-qua-nghi-quyet-ve-sat-nhap-xa-phuong-188260721134640688.chn",
+          "pubDate": "2026-07-21T07:27:00.000Z",
+          "excerpt": "Trước thông tin lan truyền trên mạng xã hội cho rằng HĐND tỉnh Sơn La đã thông qua nghị quyết sắp xếp, sát nhập đơn vị hành chính cấp xã, lãnh đạo tỉnh Sơn La…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF"
+        },
+        {
+          "title": "Sứ mệnh khu công nghiệp trong giai đoạn phát triển mới",
+          "link": "https://vneconomy.vn/su-menh-khu-cong-nghiep-trong-giai-doan-phat-trien-moi.htm",
+          "pubDate": "2026-07-21T02:25:55.000Z",
+          "excerpt": "Trong bối cảnh Việt Nam hướng tới mục tiêu tăng trưởng hai con số và đón làn sóng FDI công nghệ cao, khu công nghiệp không còn chỉ là nơi cung cấp mặt bằng sản…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy"
+        },
+        {
+          "title": "Cam kết mua lại kim cương với giá 90% không còn dễ thực hiện",
+          "link": "https://vnexpress.net/cam-ket-mua-lai-kim-cuong-voi-gia-90-khong-con-de-thuc-hien-5099012.html",
+          "pubDate": "2026-07-21T00:35:06.000Z",
+          "excerpt": "Nhiều người hụt hẫng khi bán lại kim cương vì chỉ được trả 50-60% giá mua ban đầu thay vì mức 90% như cam kết, thậm chí không thể giao dịch do một số doanh…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress"
         }
       ],
-      "aiSummary": "Lượng khách quốc tế qua đường hàng không tăng 15,4% trong 6 tháng đầu năm 2026. Sự phục hồi của ngành du lịch sau đại dịch là nguyên nhân chính."
+      "aiSummary": "Giá vàng hạ nhiệt, nhiều thương hiệu mất nửa triệu đồng/lượng. Do nhu cầu thị trường giảm."
     },
     {
       "key": "international",
       "displayName": "International",
       "articles": [
         {
-          "title": "Stock Market News, July 20, 2026: Chip Stocks Pare Gains as S&P 500 Finishes Lower",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-20-2026?mod=rss_markets_main",
-          "pubDate": "2026-07-20T08:01:54.000Z",
-          "excerpt": "Oil edges higher as Mideast tensions continue",
+          "title": "Stock Market Today: Global Stocks Rise, Oil Slips",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-21-2026?mod=rss_markets_main",
+          "pubDate": "2026-07-21T08:19:44.000Z",
+          "excerpt": "U.S. tech futures climb",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ"
-        },
-        {
-          "title": "Ông trùm JPMorgan: “Tôi sẽ không mua cổ phiếu hay trái phiếu lúc này”",
-          "link": "http://vietstock.vn/2026/07/ong-trum-jpmorgan-toi-se-khong-mua-co-phieu-hay-trai-phieu-luc-nay-773-1468795.htm",
-          "pubDate": "2026-07-21T03:52:22.000Z",
-          "excerpt": "CEO JPMorgan Chase Jamie Dimon cho rằng giới đầu tư đang đánh giá thấp những rủi ro đối với kinh tế toàn cầu, đồng thời khẳng định ông sẽ không mua cả cổ phiếu…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock"
         },
         {
           "title": "Phố Wall nhuốm sắc đỏ, Dow Jones giảm hơn 300 điểm",
@@ -375,24 +365,14 @@
           "attribution": "MarketWatch"
         },
         {
-          "title": "Insurers Find Workarounds on Risky Debt as Regulators Play Whac-A-Mole",
-          "link": "https://www.wsj.com/finance/regulation/insurers-find-workarounds-on-risky-debt-as-regulators-play-whac-a-mole-ef732939?mod=rss_markets_main",
-          "pubDate": "2026-07-21T00:00:00.000Z",
-          "excerpt": "It took state insurance commissioners four years to clamp down on one kind of structured debt. Meanwhile, insurers piled into other, equally risky, flavors.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ"
-        },
-        {
-          "title": "China won’t waste its reserves to cushion oil price impact of Iran war",
-          "link": "https://www.scmp.com/opinion/china-opinion/article/3360973/china-wont-waste-its-reserves-cushion-oil-price-impact-iran-war?utm_source=rss_feed",
-          "pubDate": "2026-07-20T21:30:07.000Z",
-          "excerpt": "Oil prices are set to rise once more as renewed US attacks on Iran leave the Strait of Hormuz, a major artery of oil trade, closed again. With US strategic…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP"
+          "title": "U.S. hits Canada with stiff new tariffs, escalating trade tensions",
+          "link": "https://www.marketwatch.com/story/u-s-hits-canada-with-stiff-new-tariffs-escalating-trade-tensions-4a97065f?mod=mw_rss_topstories",
+          "pubDate": "2026-07-21T00:13:00.000Z",
+          "excerpt": "The Trump administration on Monday said it would slap 50% tariffs on some goods imported from Canada, in an effort to end what it sees as discriminatory trade…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch"
         },
         {
           "title": "Nỗi lo ngành bán dẫn đạt đỉnh khiến cổ phiếu công nghệ lao dốc",
@@ -403,6 +383,26 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock"
+        },
+        {
+          "title": "China posts slowest quarterly growth since 2022 as investment slumps, fanning stimulus calls",
+          "link": "https://www.cnbc.com/2026/07/15/china-gdp-retail-sales-investment-june-.html",
+          "pubDate": "2026-07-15T05:14:11.000Z",
+          "excerpt": "That second-quarter growth came below Beijing's full-year growth target range of 4.5% to 5%, the least ambitious goal in decades.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC"
+        },
+        {
+          "title": "Insurers Find Workarounds on Risky Debt as Regulators Play Whac-A-Mole",
+          "link": "https://www.wsj.com/finance/regulation/insurers-find-workarounds-on-risky-debt-as-regulators-play-whac-a-mole-ef732939?mod=rss_markets_main",
+          "pubDate": "2026-07-21T00:00:00.000Z",
+          "excerpt": "It took state insurance commissioners four years to clamp down on one kind of structured debt. Meanwhile, insurers piled into other, equally risky, flavors.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ"
         }
       ],
       "aiSummary": "Dow Jones giảm 300 điểm. Nỗi lo ngành bán dẫn đạt đỉnh."
