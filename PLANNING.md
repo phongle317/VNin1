@@ -58,19 +58,37 @@ summary below.
      (site active, but no RSS URL found yet — needs more digging)
    - Not viable: **Reuters** (killed official RSS years ago, only
      available via unreliable third-party generators — skip)
-2. **Theme-summary prompt revision** (Rule 3 — add explicit
+2. **Cross-source content-similarity dedup (Rule 1b)** — new problem found
+   this session, different from Rule 1. Rule 1's dedup only catches exact
+   link matches (same feed reused across themes). This is a different case:
+   **two different sources (e.g. CafeF and VnEconomy) both cover the same
+   real-world event with different wording and different links** — e.g.
+   both publishing near-identical "Hà Nội khởi công 5 tuyến đường sắt đô
+   thị" stories, likely both rewriting the same press release. Exact-link
+   dedup can't catch this since the articles are genuinely different URLs.
+
+   **Approach confirmed (Cách 2):** piggyback on the Groq call already made
+   in `scoreAndFilter()` for relevance scoring — extend that same prompt to
+   also ask Groq to flag which headlines within the batch describe the same
+   underlying event, then drop all but one (keep the one from the
+   higher-priority source, same priority order as Rule 1's THEMES order).
+   No extra API calls needed, reuses existing infrastructure. Rejected
+   alternative: plain text/keyword similarity matching — cheaper but far
+   less accurate for headlines phrased differently about the same event,
+   which is exactly this failure mode.
+3. **Theme-summary prompt revision** (Rule 3 — add explicit
    what/why/impact structure to the AI summary prompt) — quick prompt edit,
    no new architecture.
-3. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
+4. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
    moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota).
    Replaces the raw RSS excerpt currently shown on cards with a real
    AI-condensed 30-40 word summary per article.
-4. **Bank/securities 30% quota logic** (Rule 5, part 3) — new feature,
+5. **Bank/securities 30% quota logic** (Rule 5, part 3) — new feature,
    needs a sector-tagging step (how do we know an article is "about a bank
    or securities company"? keyword match on company names, or a separate
    Groq classification call?) before a quota check can run. Needs a design
    decision before coding starts.
-5. **Recency vs. sharpness trade-off** — user asked about reducing
+6. **Recency vs. sharpness trade-off** — user asked about reducing
    article staleness on the live site (some articles showing 9h old while
    fresher ones exist). Root cause identified: `scoreAndFilter()`'s
    relevance score outweighs its small recency bonus, by design (Rule 5).
@@ -123,6 +141,19 @@ summary below.
    phone). User has been warned: always `git pull` before hand-editing
    `EXAMPLES.md` locally, same discipline as `feed.json`, to avoid
    overwriting button-added lines.
+
+   **Decided 2026-07-20: no background auto-pull.** Considered using
+   Windows Task Scheduler to run `git pull` automatically in the
+   background, rejected — it would fail silently on the same
+   uncommitted-`feed.json` conflict that's hit repeatedly this project,
+   creating false confidence that local is synced when it might not be.
+   Also, once the voting buttons are built, the user won't need to
+   hand-edit `EXAMPLES.md` locally anymore (buttons replace that entirely),
+   so the sync problem this would have solved mostly disappears on its
+   own. `deploy.bat` already pulls before every push — that remains
+   sufficient. If local verification of `EXAMPLES.md` is ever needed, a
+   one-off manual `git pull` at that moment is enough; no standing
+   automation needed.
 
    **Build components needed (none started):**
    - Vercel Serverless Function (new — first one in this project) that can
@@ -280,11 +311,58 @@ documented here so nobody "simplifies" the import back to the broken form.
 
 ## Open items — backlog, not blocking
 
-1. **VN-Index / HNX-Index** — VNDirect finfo API still failing (`fetch failed`)
-2. **Gold VND** — both candidate sources still failing (giavang.org 404,
+1. **Top bar upgrade (VNIndex, VN30, %, khối lượng)** — user requested
+   2026-07-21: add VNIndex points, VN30 points, % change, and trading
+   volume to the sticky top bar, remove the "Thị trường đóng cửa — hiển thị
+   giá đóng cửa gần nhất" explanatory text (always show latest available,
+   no status caveat). This is really one bundled task, not separate small
+   ones — don't ship the UI half without the data half, since a bar showing
+   empty VNIndex/VN30 fields is worse than not having them.
+
+   **Data blocker — VNDirect finfo API still down**, same root cause as
+   item 2 below. `fetchMarketIndices()` in `fetch-feeds.mjs` already has
+   the code to parse `change`/`changePercent`/`totalMatchVolume` — the
+   fields needed for % and volume already exist in VNDirect's response
+   shape, they're just never reached because the fetch itself fails.
+
+   **Two replacement candidates researched 2026-07-21, not yet tested in
+   code:**
+   - **TCBS** (`apipubaws.tcbs.com.vn`) — public, no-auth endpoint, widely
+     used by open-source VN stock tools (e.g. the `vnstock` Python library)
+     as a VNDirect alternative. Confirmed real/live via multiple
+     independent sources, but the exact JSON shape for an index snapshot
+     (as opposed to per-stock historical bars) wasn't confirmed by URL —
+     needs testing directly in `fetch-feeds.mjs`.
+   - **FireAnt** (`restv2.fireant.vn`) — confirmed domain is live (fetched
+     root page successfully). Their public dashboard
+     (fireant.vn/dashboard) displays VNINDEX + HNXINDEX + VN30 together
+     with point value, change, and % change in one place — exactly the
+     shape needed. Underlying JSON API endpoint for this snapshot not
+     confirmed by direct URL yet (search tooling couldn't reach deep
+     enough to verify) — same "test it for real" step needed as TCBS.
+   - **VN30 specifically** has no existing code at all (only VNIndex/HNX
+     are coded today) — whichever source wins, VN30 parsing is new code,
+     not just a URL swap.
+   - Next session: try both candidates directly with a real
+     `npm run fetch` test (same approach used for RSS sources this
+     session) rather than trying to fully verify via search first — search
+     confirmed both are legitimate/live but couldn't pin down exact JSON
+     endpoints with certainty.
+
+2. **VN-Index / HNX-Index (existing code path)** — VNDirect finfo API
+   still failing (`fetch failed`). Superseded by item 1 above once a
+   replacement source is wired in — this line can be deleted then.
+3. **Gold VND** — both candidate sources still failing (giavang.org 404,
    api.btmc.vn fetch failed)
-3. **README.md rewrite** — still describes an older/different state than
+4. **README.md rewrite** — still describes an older/different state than
    reality in places; `PLANNING.md` (this file) is the accurate one
+5. **CafeBiz occasional fetch failures** — observed intermittently
+   2026-07-21 (different URL each time: `bat-dong-san.rss` once,
+   `dau-tu.rss` another time), CafeF also failed once. Same category as
+   VNDirect/giavang.org — source-side flakiness, not a code bug. Pipeline
+   already handles this gracefully (skips, continues, no crash). Only
+   worth revisiting if it starts happening on every run instead of
+   occasionally.
 
 ---
 

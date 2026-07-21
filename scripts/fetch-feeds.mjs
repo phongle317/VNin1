@@ -654,21 +654,25 @@ async function generateSummary(themeName, themeKey, articles) {
 
   let prompt;
   if (themeKey === 'international') {
-    prompt = 'You are a financial wire editor. Based only on these headlines, write a 2-sentence Vietnamese summary (max 40 words total).\n\n'
+    prompt = 'You are a financial wire editor. Based only on these headlines, write a Vietnamese summary in 2-3 sentences (~30 words typical, 40 words max).\n\n'
       + 'STRUCTURE:\n'
       + 'Sentence 1: What happened — specific: index names, % moves, company names.\n'
-      + 'Sentence 2: Why/context — one sharp causal factor.\n\n'
-      + 'RULES: No filler. Lead with numbers/names. Vietnamese only. No speculation. Start directly.\n\n'
-      + 'GOOD: "S&P 500 tăng 1,7% sau số liệu việc làm Mỹ yếu hơn dự báo. Khả năng Fed cắt lãi suất sớm tăng lên."\n\n'
+      + 'Sentence 2: Why/how — one sharp causal factor.\n'
+      + 'Sentence 3: Impact/consequence — what this means going forward (for rates, investors, the sector). '
+      + 'Only include if the headlines actually support a clear consequence — otherwise stop at 2 sentences rather than inventing one.\n\n'
+      + 'RULES: No filler. Lead with numbers/names. Vietnamese only. No speculation beyond what headlines support. Start directly.\n\n'
+      + 'GOOD: "S&P 500 tăng 1,7% sau số liệu việc làm Mỹ yếu hơn dự báo. Thị trường lao động hạ nhiệt nhanh hơn kỳ vọng. Khả năng Fed cắt lãi suất trong cuộc họp tới tăng lên rõ rệt."\n\n'
       + 'Headlines:\n' + headlines;
   } else {
     prompt = 'Bạn là biên tập viên tin tức tài chính. Viết tóm tắt cho mục "' + themeName + '":\n\n'
-      + 'CẤU TRÚC (2 câu, tối đa 40 từ):\n'
+      + 'CẤU TRÚC (2-3 câu, khoảng 30 từ, tối đa 40 từ):\n'
       + 'Câu 1: Điều gì xảy ra — số liệu, tên công ty, mức thay đổi cụ thể.\n'
-      + 'Câu 2: Tại sao — một nguyên nhân ngắn gọn.\n\n'
+      + 'Câu 2: Tại sao/như thế nào — một nguyên nhân ngắn gọn.\n'
+      + 'Câu 3: Tác động/hệ quả — điều này ảnh hưởng gì tiếp theo (nhà đầu tư, ngành, chính sách...). '
+      + 'Chỉ thêm câu này nếu tiêu đề thực sự cho đủ dữ kiện — nếu không, dừng ở 2 câu thay vì suy đoán.\n\n'
       + 'KHÔNG dùng: "các tiêu đề cho thấy", "thị trường đang", "đáng chú ý".\n'
       + 'Bắt đầu TRỰC TIẾP. Chỉ dùng thông tin từ tiêu đề. Tiếng Việt có dấu đầy đủ.\n\n'
-      + 'VÍ DỤ: "PNJ giảm kịch sàn, dư bán 12,5 triệu đơn vị sau vụ khởi tố giám đốc P-Lab. Nhóm cổ phiếu chứng khoán nhỏ tăng hơn 14%, dẫn đầu thanh khoản."\n\n'
+      + 'VÍ DỤ: "PNJ giảm kịch sàn, dư bán 12,5 triệu đơn vị sau vụ khởi tố giám đốc P-Lab. Nhóm cổ phiếu chứng khoán nhỏ tăng hơn 14%, dẫn đầu thanh khoản. Tâm lý nhà đầu tư có thể còn thận trọng với nhóm ngành này trong ngắn hạn."\n\n'
       + 'Tiêu đề:\n' + headlines;
   }
 
