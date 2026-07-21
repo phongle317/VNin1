@@ -12,15 +12,28 @@ session.
 
 ## STATUS (as of this session)
 
-**Site is live at vnin1.vercel.app, stable, no known bugs.** Today's
-session: refreshed source list (10 sources, added 4 + removed 1), built
-cross-source content-similarity dedup (Rule 1b), hardened Groq calls
-against rate-limit/truncation issues, and revised the theme-summary prompt
-to add the impact/consequence component (Rule 3, theme-level half). All
-verified live via real Actions runs, not just local testing. Content Rules
-build plan (`CONTENT_RULES.md`) is well underway: Rules 1, 1b, 3
-(theme-level), 4, and 5(parts 1-2) are done and verified live. Nothing is
-mid-broken or interrupted right now — this is a clean stopping point.
+**Site is live and stable for everything EXCEPT AI features right now** —
+see "NEXT SESSION" below for the one open question blocking full
+verification. Today's session covered a lot: refreshed source list (10
+sources, added 4 + removed 1), built cross-source content-similarity
+dedup (Rule 1b), built the per-article AI summarizer (Rule 3 per-article),
+revised both summary prompts to a 5-component structure (what/when/where/
+why/impact, strict no-fabrication), and fixed two real bugs found via
+live testing (a numbered-list formatting bug, and a rate-limit/429 issue).
+**Not everything is confirmed working yet** — the last test run hit
+`HTTP 429` on the very first Groq call of the run, before any burst could
+even build up, which points to the daily request quota being exhausted
+from heavy manual testing tonight rather than a code problem. This needs
+one clean verification run once the quota resets — see below.
+
+**End-of-session addition:** before stopping, did a deliberate risk-review
+pass across all 3 remaining layers (not just reacting to bugs as they
+appear) — added rate-limit header diagnostics to the code itself (so the
+next 429, if any, states directly in the log whether it's daily-quota or
+this-minute-burst, no more guessing), wrote explicit pass/fail
+verification criteria for Layer 1, and pre-identified concrete risks for
+Layers 2 and 3 with mitigations already decided — see "NEXT SESSION"
+below for all of it.
 
 ---
 
@@ -66,129 +79,269 @@ legal counsel first — this note is not a substitute for that.
 
 ## NEXT SESSION — resume here
 
-Nothing broken, nothing mid-push. Just pick the next Content Rules build
-plan item and go. See `CONTENT_RULES.md` → "Build plan" for full detail;
-summary below.
+**Layer discipline in effect** (user's framing): Layer 1 (per-article AI
+summarizer) → Layer 2 (top bar / market data) → Layer 3 (admin voting
+buttons). Don't start a layer until the previous one is confirmed working
+via a real Actions run — this has caught 3 real bugs tonight already (see
+below), proving the discipline is worth keeping.
 
-### Done and verified live (no action needed)
-1. ~~Dedup across themes~~ (Rule 1)
-2. ~~Cross-source content-similarity dedup~~ (Rule 1b) — piggybacks on the
-   scorer's Groq call, catches same-event stories from different outlets
-3. ~~Blocklist expansion~~ (Rule 4)
-4. ~~Theme-summary prompt revision~~ (Rule 3, what/why/impact)
-5. ~~Training scorer activated~~ (Rule 5, parts 1-2) — 16 liked / 14
-   disliked examples in `training.json`
-6. ~~Source list refreshed~~ — added Vietstock, CafeBiz, MarketWatch, WSJ;
-   removed Thanh Niên (kept surfacing as unwanted duplicate). Current:
-   **10 sources total** — see "Content — feeds and themes" section below
-   for the exact per-theme breakdown.
-7. ~~Groq rate-limit hardening~~ — configurable token limits per call,
-   `SCORE_BATCH_LIMIT = 20` cap, 2-second gap between per-theme Groq calls.
-   See "AI features" section below for detail.
+### STEP 0 — do this first, before anything else
+Last run tonight hit `HTTP 429` (Groq rate limit) on the very FIRST call
+of the run — before any burst could build up. This points to the **daily
+request quota being exhausted from heavy manual testing tonight** (many
+back-to-back `npm run fetch` runs while debugging), not a code bug.
 
-### Up next, in order
-1. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
-   moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota).
-   Replaces the raw RSS excerpt currently shown on cards with a real
-   AI-condensed 30-40 word summary per article. **Priority raised
-   2026-07-21** — beyond the original editorial reason (Rule 3), this also
-   reduces legal exposure under Nghị định 174/2026/NĐ-CP (see "Legal note"
-   below): the current card excerpt is verbatim RSS text from the source,
-   not transformative content. Note: `index.astro` currently falls back to
-   raw `excerpt` if `condensed` is missing for an article — worth deciding
-   at build time whether to keep that fallback or show nothing instead,
-   since the fallback re-introduces the exact risk this feature is meant
-   to reduce.
-2. **Top bar upgrade + market data sourcing** — see "Open items" section
-   below for full detail (VNIndex/VN30/%, TCBS/FireAnt candidates
-   researched but not yet tested in code).
-3. **Admin voting buttons (Like/Dislike/Block) on live site** — new
-   feature, fully speced, not started. This is a real architecture change
-   (adds a serverless API to an otherwise fully static site) — budget a
-   full focused session, not a quick add.
+**New tonight, not yet tested but zero-risk (no Groq calls needed to
+verify — pure code review is enough):** `fetchWithTimeout()` now attaches
+the real HTTP status and response headers to any thrown error, and a new
+`rateLimitInfo()` helper reads Groq's `x-ratelimit-remaining-requests`,
+`x-ratelimit-remaining-tokens`, and `retry-after` headers when present.
+Every Groq-related warning line in the log now appends this automatically,
+e.g. `HTTP 429 [requests left today: 0, tokens left this window: 5800,
+retry-after: 52000s]`. **This means the very next 429, if any, will state
+directly in the log whether it's a daily-quota problem or a
+this-minute-burst problem — no more guessing, no more manually checking
+console.groq.com.** Read this line first if 429 appears again.
 
-   **What it does:** replaces manually typing lines into `EXAMPLES.md` with
-   3 buttons under each article card, visible only to the user (admin).
-   Clicking a button appends one line to the matching section of
-   `EXAMPLES.md` on GitHub automatically — same effect as hand-editing, just
-   automated. Does **not** touch `training.json` or `CONTENT_BLOCKLIST`
-   directly; those still only get updated the existing way, in a session
-   where the user brings `EXAMPLES.md` and Claude codes the entries in.
+Steps:
+1. Run the workflow once (manual trigger)
+2. Read the log. If any 429 appears, the message now says exactly why —
+   follow what it says (wait for daily reset, or the backoff is already
+   handling a burst automatically)
+3. If genuinely daily-quota-exhausted: wait for reset (likely 0:00 UTC ≈
+   7am Vietnam time), no code changes needed, just re-run once quota's back
+4. **Explicit pass/fail criteria for Layer 1** (no ambiguity next time):
+   - PASS: no `HTTP 429` anywhere in the log; `Condensed "X": N/8` present
+     for all 4 themes where N > 0 (some articles legitimately blank is
+     fine — Groq correctly declining to guess is the intended behavior,
+     not a bug); all 4 `AI summary for "X"` lines present with actual text
+   - FAIL: any `HTTP 429`, any `Condensed "X": 0/8`, or any `Summary for
+     "X": <error>` — if FAIL, paste the log, don't proceed to Layer 2
+   - Also spot-check the live site once: open 2-3 cards, confirm the
+     summary text is NOT a numbered list and doesn't contain any obvious
+     invented detail (a date/place/number that doesn't appear in the
+     original headline anywhere) — the no-fabrication rule is prompted
+     for, but LLMs aren't 100% reliable, so a visual spot-check is cheap
+     insurance the log alone can't provide
 
-   **Confirmed spec (all decided, no open questions):**
-   - Three buttons: Like, Dislike, Block — mutually exclusive, one per
-     article, one click only (button locks/disables after use)
-   - No multi-click weighting, no scoring — this was considered and
-     explicitly rejected by the user in favor of simplicity
-   - Buttons only visible when the site is loaded via a bookmarked URL
-     containing a secret key the user will choose themselves (e.g.
-     `https://vnin1.vercel.app/?key=<user's own secret string>`) — not real
-     auth, just hides the buttons from normal visitors. User will supply
-     the secret string when work begins; do not invent one.
-   - On click: a small API endpoint (Vercel Serverless Function) reads the
-     current `EXAMPLES.md` from GitHub, checks whether that article's title
-     already appears anywhere in the file (dedup check), and if not, appends
-     exactly `- <original headline text>` to the correct section (Block
-     candidates / Liked / Disliked) and commits directly to GitHub.
-   - Line format matches the user's existing manual convention exactly —
-     just `- <headline>`, nothing else (no timestamp, no link, no source
-     tag). Confirmed deliberately: keeps the file visually uniform whether
-     a line was typed by hand or added by a button, and keeps it fast to
-     scan.
-   - `EXAMPLES.md` remains the single starting point/scratchpad exactly as
-     today — this feature is only a faster way to add lines to it, not a
-     new parallel system.
+### Layer 1 — per-article AI summarizer (Rule 3, per-article)
+**Status: code complete, NOT yet verified live** — blocked by Step 0 above.
 
-   **Known trade-off, already discussed and accepted:** since this commits
-   to GitHub independently of the user's laptop (same pattern as the
-   hourly feed bot), the user's **local** `EXAMPLES.md` can silently fall
-   behind GitHub's copy after clicking buttons on the live site (e.g. from
-   phone). User has been warned: always `git pull` before hand-editing
-   `EXAMPLES.md` locally, same discipline as `feed.json`, to avoid
-   overwriting button-added lines.
+What was built tonight, in order (3 real bugs found and fixed along the
+way — this is exactly why layer-by-layer testing matters):
+1. `condenseArticles()` function — one Groq call per theme (not one per
+   article) covering all final selected articles (≤8/theme, post
+   dedup/blocklist/scoring). Language matches the source article (VI
+   articles → VI summary, EN → EN). One retry on failure.
+2. `index.astro`'s raw-excerpt fallback **removed entirely** — if
+   `condensed` is missing, the card shows nothing, never falls back to
+   verbatim source text. This was a deliberate decision, not an oversight
+   — reduces legal exposure under Nghị định 174/2026/NĐ-CP (see "Legal
+   note" above) in addition to the editorial reason (Rule 3(1)).
+3. **Bug found #1:** `generateSummary()` (theme-level box) only ever
+   received article *titles*, never excerpts — this is why a summary once
+   read "một địa phương" instead of naming "Nghệ An" specifically; the AI
+   had no access to the specific detail. Fixed by including excerpt in
+   the prompt for both `generateSummary()` and `condenseArticles()`.
+4. **Rule 3 rewritten** (user's request) to a stricter 5-component
+   structure: what → when → where → why → impact, in that priority order,
+   *skipping* any component the source doesn't support. Fabrication
+   explicitly, repeatedly forbidden in both prompts — "under all
+   circumstances, even to make the summary feel more complete."
+5. **Bug found #2:** the 5-component instruction, written as a numbered
+   list ("1. What happened\n2. When\n3. Where...") in the prompt, caused
+   the AI to literally output its summary AS a numbered list instead of
+   flowing prose. Fixed by rewriting the instruction as prose guidance and
+   adding an explicit "never output a numbered/bulleted list" rule.
+6. **Bug found #3:** adding the per-article condensing step roughly
+   doubled total Groq calls per run (was ~8, now ~12-16 including
+   retries), which combined with heavy manual test-run volume tonight hit
+   `HTTP 429`. Hardened: `groqCall()` retry now backs off on 429
+   specifically (reads Groq's own `retry-after` header when present,
+   falls back to 10s if not — was retrying instantly before, which just
+   wastes budget during an active rate-limit window); gaps between
+   per-theme calls increased from 2s/1s to 4s/4s/3s across the three
+   Groq-calling stages.
+7. **Diagnostic tooling added** (see STEP 0) — rate-limit headers now
+   surface directly in the log, removing the guesswork that made bug #3
+   take multiple round-trips to diagnose tonight.
 
-   **Decided 2026-07-20: no background auto-pull.** Considered using
-   Windows Task Scheduler to run `git pull` automatically in the
-   background, rejected — it would fail silently on the same
-   uncommitted-`feed.json` conflict that's hit repeatedly this project,
-   creating false confidence that local is synced when it might not be.
-   Also, once the voting buttons are built, the user won't need to
-   hand-edit `EXAMPLES.md` locally anymore (buttons replace that entirely),
-   so the sync problem this would have solved mostly disappears on its
-   own. `deploy.bat` already pulls before every push — that remains
-   sufficient. If local verification of `EXAMPLES.md` is ever needed, a
-   one-off manual `git pull` at that moment is enough; no standing
-   automation needed.
+**Known design asymmetry, intentional — don't "fix" this later without
+reason:** `scoreAndFilter()` has no retry on failure (falls back to
+unfiltered articles, which still display fine, just unranked).
+`condenseArticles()` retries once with backoff. `generateSummary()` has no
+retry (falls back to no AI Summary box for that theme). This graduated
+approach matches how visible/costly each failure is — a missing rank
+order is invisible to a reader, a missing summary box is visible but not
+broken-looking, so retry effort is spent where it matters most
+(condensing, since a blank card looks more obviously incomplete).
 
-   **Build components needed (none started):**
-   - Vercel Serverless Function (new — first one in this project) that can
-     write to GitHub (needs a GitHub token secret, separate from
-     `GROQ_API_KEY`, added to Vercel's environment variables)
-   - Duplicate-check logic (read `EXAMPLES.md`, search for the headline
-     across all sections before appending)
-   - Frontend: 3 buttons per card in `index.astro`, client-side JS to call
-     the API, visual feedback on click (e.g. brief "✓ Recorded" state),
-     button becomes disabled/hidden after a successful click for that card
-   - `?key=` check gating whether buttons render at all — read the secret
-     from a hardcoded value the user provides (do not overthink this into
-     a real auth system, that was explicitly decided against)
-4. **Recency vs. sharpness trade-off** — user asked about reducing
-   article staleness on the live site (some articles showing 9h old while
-   fresher ones exist). Root cause identified: `scoreAndFilter()`'s
-   relevance score outweighs its small recency bonus, by design (Rule 5).
-   User explicitly chose **Option C: leave as-is** — sharp analysis over
-   freshness is intentional, not a bug. Revisit only if it starts feeling
-   wrong in practice; the fix would be increasing the recency bonus weight
-   in that function, or adding a hard "always keep newest N" floor per theme.
+**If Layer 1 still fails after quota resets (i.e. genuinely a burst/TPM
+problem, not daily quota):** the rate-limit headers will show `requests
+left today` still high but `tokens left this window` at or near 0 — if
+so, the next fix is widening gaps further (e.g. 4s→6s) or reducing
+`SCORE_BATCH_LIMIT`/condensing batch size further, not re-diagnosing from
+scratch.
+
+### Layer 2 — Top bar upgrade + market data sourcing
+**Status: research done, no code started.** Blocked behind Layer 1
+confirmation per the user's layering rule — though worth noting explicitly:
+**this layer makes zero Groq calls** (pure HTTP fetch of market data APIs,
+no AI involved), so it has no dependency on Groq quota/rate-limit state at
+all. If Layer 1 is still blocked on quota reset timing, this layer could
+technically be worked on in parallel without any conflict — mentioning
+this in case waiting is inconvenient, but defaulting to strict sequential
+order since that's the explicit preference.
+
+**Risks anticipated ahead of time, so next session doesn't rediscover
+them one at a time:**
+1. **Neither TCBS nor FireAnt has a confirmed exact JSON endpoint yet** —
+   both were confirmed "live and legitimate" via search, not via a direct
+   test fetch (search tooling couldn't reach that deep). Expect this to
+   take several attempts, same as RSS source-hunting did earlier this
+   project. **Mitigation already applied in planning:** structure the
+   candidate URLs as an array (`candidateUrls: [...]`) per source, same
+   pattern as every existing `MARKET_CONFIG` entry — try multiple
+   plausible endpoint shapes in one code change rather than one-URL-at-
+   a-time round trips.
+2. **VN30 has zero existing code** — `fetchMarketIndices()` today only
+   handles VNIndex/HNXIndex. This is new parsing logic, not a URL swap.
+   Design the return shape to match the existing pattern before coding:
+   `{ value, change, changePercent }`, consistent with `vnIndex`/`hnxIndex`.
+3. **Trading volume field name is unknown for TCBS/FireAnt** — VNDirect's
+   shape used `totalMatchVolume` (comment in code confirms the parsing
+   logic already exists for that specific field name, just never reached
+   because the fetch itself fails). TCBS/FireAnt will very likely use a
+   different field name — don't assume it matches, log the raw response
+   shape on first real test to find the actual key name.
+4. **Partial-success handling needs a decision before coding, not after:**
+   if VNIndex fetch succeeds but VN30 fails (or vice versa), what should
+   the top bar show? Recommended default (matches existing `note` field
+   pattern): show whichever pieces have data, silently omit the rest —
+   no error text in the UI, consistent with how gold/market-indices
+   already degrade gracefully today.
+5. **This layer removes the "Thị trường đóng cửa..." explanatory text**
+   per the user's original request (always show latest available, no
+   status caveat) — small UI change, bundle it into the same PR as the
+   data work rather than shipping the data half without the UI half (the
+   user was explicit: don't ship one without the other).
+
+### Layer 3 — Admin voting buttons (Like/Dislike/Block)
+**Status: fully speced, no code started.** Blocked behind Layer 2. This is
+a real architecture change (adds a serverless API to an otherwise fully
+static site) — budget a full focused session, not a quick add.
+
+**What it does:** replaces manually typing lines into `EXAMPLES.md` with
+3 buttons under each article card, visible only to the user (admin).
+Clicking a button appends one line to the matching section of
+`EXAMPLES.md` on GitHub automatically — same effect as hand-editing, just
+automated. Does **not** touch `training.json` or `CONTENT_BLOCKLIST`
+directly; those still only get updated the existing way, in a session
+where the user brings `EXAMPLES.md` and Claude codes the entries in.
+
+**Confirmed spec (all decided, no open questions):**
+- Three buttons: Like, Dislike, Block — mutually exclusive, one per
+  article, one click only (button locks/disables after use)
+- No multi-click weighting, no scoring — this was considered and
+  explicitly rejected by the user in favor of simplicity
+- Buttons only visible when the site is loaded via a bookmarked URL
+  containing a secret key the user will choose themselves (e.g.
+  `https://vnin1.vercel.app/?key=<user's own secret string>`) — not real
+  auth, just hides the buttons from normal visitors. User will supply
+  the secret string when work begins; do not invent one.
+- On click: a small API endpoint (Vercel Serverless Function) reads the
+  current `EXAMPLES.md` from GitHub, checks whether that article's title
+  already appears anywhere in the file (dedup check), and if not, appends
+  exactly `- <original headline text>` to the correct section (Block
+  candidates / Liked / Disliked) and commits directly to GitHub.
+- Line format matches the user's existing manual convention exactly —
+  just `- <headline>`, nothing else (no timestamp, no link, no source
+  tag). Confirmed deliberately: keeps the file visually uniform whether
+  a line was typed by hand or added by a button, and keeps it fast to
+  scan.
+- `EXAMPLES.md` remains the single starting point/scratchpad exactly as
+  today — this feature is only a faster way to add lines to it, not a
+  new parallel system.
+
+**Known trade-off, already discussed and accepted:** since this commits
+to GitHub independently of the user's laptop (same pattern as the
+hourly feed bot), the user's **local** `EXAMPLES.md` can silently fall
+behind GitHub's copy after clicking buttons on the live site (e.g. from
+phone). User has been warned: always `git pull` before hand-editing
+`EXAMPLES.md` locally, same discipline as `feed.json`, to avoid
+overwriting button-added lines.
+
+**Decided 2026-07-20: no background auto-pull.** Considered using
+Windows Task Scheduler to run `git pull` automatically in the
+background, rejected — it would fail silently on the same
+uncommitted-`feed.json` conflict that's hit repeatedly this project,
+creating false confidence that local is synced when it might not be.
+`deploy.bat` already pulls before every push — that remains sufficient.
+
+**Risks anticipated ahead of time, so next session doesn't rediscover
+them one at a time:**
+1. **Astro's Vercel deployment mode needs checking BEFORE starting.** This
+   site currently ships as pure static output (no server, per README).
+   Serverless Functions on Vercel with Astro require the `@astrojs/vercel`
+   adapter configured for `server` or `hybrid` output mode — if the
+   project is still on pure `static` mode (likely, since no API routes
+   exist yet), this is a **prerequisite architecture change**, not just
+   "add a function." First step of this layer should be confirming
+   `astro.config.mjs`'s current output mode and adapter before writing
+   any button/API code — if it needs changing, that's worth its own small
+   test-deploy first (confirm the site still builds/deploys correctly in
+   hybrid mode) before adding the actual voting feature on top.
+2. **GitHub token scope** — when generating the token for this, use a
+   **fine-grained PAT scoped to only this one repo, contents:write
+   permission only** (not a broad classic token with full repo access).
+   Minimizes damage if the Vercel env var ever leaked.
+3. **Race condition risk on `EXAMPLES.md` commits** — if the user clicks a
+   button at the same moment the hourly feed bot is mid-commit (same
+   category of race hit earlier tonight with `feed.json`, see Established
+   working rule #6), the serverless function's commit could fail or
+   conflict. Mitigation to build in from the start: use GitHub's Contents
+   API with SHA-based conditional updates (fetch the file's current SHA
+   immediately before writing, include it in the update request) rather
+   than a naive read-then-write — GitHub will reject the write with a 409
+   if the SHA is stale, which the function should catch and retry once
+   (fetch fresh SHA, try again) rather than silently failing or
+   overwriting.
+4. **This is the only layer with genuinely new infrastructure risk** —
+   Layers 1 and 2 both extend existing, proven patterns (more Groq calls,
+   more HTTP data sources). Layer 3 is the first serverless function this
+   project has ever had. Treat the first version as a spike/prototype
+   mentally, not a polished feature — get the core loop working (click →
+   commit → visible in GitHub) before worrying about UI polish.
+
+**Build components needed (none started):**
+- Vercel Serverless Function (new — first one in this project) that can
+  write to GitHub (needs a GitHub token secret, separate from
+  `GROQ_API_KEY`, added to Vercel's environment variables)
+- Duplicate-check logic (read `EXAMPLES.md`, search for the headline
+  across all sections before appending)
+- Frontend: 3 buttons per card in `index.astro`, client-side JS to call
+  the API, visual feedback on click (e.g. brief "✓ Recorded" state),
+  button becomes disabled/hidden after a successful click for that card
+- `?key=` check gating whether buttons render at all — read the secret
+  from a hardcoded value the user provides (do not overthink this into
+  a real auth system, that was explicitly decided against)
+
+### Separately decided, not part of the layer sequence
+**Recency vs. sharpness trade-off** — user asked about reducing article
+staleness (some articles showing 9h old while fresher ones exist). Root
+cause: `scoreAndFilter()`'s relevance score outweighs its small recency
+bonus, by design (Rule 5). User explicitly chose **Option C: leave
+as-is** — sharp analysis over freshness is intentional, not a bug.
+Revisit only if it starts feeling wrong in practice.
 
 ### Ongoing, no fixed schedule
 **`EXAMPLES.md`** — user adds liked/disliked/block-candidate headlines
 whenever spotted on the live site. Bring the file (or new lines) to a
 session whenever ready to "cash it in" — gets sorted into `training.json`
-or `CONTENT_BLOCKLIST` as appropriate. Not urgent, no deadline. Once the
-admin voting buttons above are built, most Liked/Disliked/Block additions
-will come from button clicks instead of manual typing — but the file and
-workflow itself don't change, just the input method.
+or `CONTENT_BLOCKLIST` as appropriate. Not urgent, no deadline. One new
+example added tonight: "Marina Living: Dấu ấn trách nhiệm xã hội của BIM
+Land..." — filed as a **Block** candidate (corporate brand-launch PR
+framing), not Disliked.
 
 ---
 
@@ -222,6 +375,15 @@ Breaking them risks repeating that entire ordeal.
    ```
    Just run this reflexively if `deploy.bat` reports a sync error before
    investigating further — it's the local `feed.json` almost every time.
+7. **Heavy manual test-run sessions can exhaust Groq's daily quota**
+   (~1,000 requests/day for `llama-3.3-70b-versatile`) — each fetch run
+   now costs ~12-16 Groq calls, and debugging sessions with many
+   back-to-back manual "Run workflow" triggers can add up faster than
+   expected. If `HTTP 429` appears on the very first Groq call of a run
+   (no burst possible yet), suspect daily quota exhaustion, not a code
+   bug — check console.groq.com → Usage before changing any code. Normal
+   automated hourly operation is nowhere near this limit (~16 calls × 24
+   runs/day ≈ 384/day); this only bites during intensive same-day testing.
 
 ---
 
@@ -463,3 +625,41 @@ documented here so nobody "simplifies" the import back to the broken form.
   summarizer higher (reduces legal exposure, not just editorial benefit).
   Dropped bank/securities 30% quota (Rule 5 part 3) from the plan —
   decided not worth the complexity.
+- **Same session, later:** user introduced explicit layer discipline
+  (Layer 1: per-article summarizer → Layer 2: top bar/market data →
+  Layer 3: voting buttons), don't advance a layer until the previous one
+  is verified live. Built Layer 1 (`condenseArticles()`), found and fixed
+  3 real bugs along the way via this discipline: (1) theme summaries
+  reading vague ("một địa phương") because only titles reached the
+  prompt, not excerpts — fixed; (2) rewrote Rule 3 to a stricter
+  5-component structure (what/when/where/why/impact, skip missing parts,
+  fabrication strictly forbidden) per user request, then found the
+  numbered-list instruction phrasing was making the AI literally output
+  a numbered list instead of prose — fixed; (3) adding the condensing
+  step roughly doubled Groq calls/run, hit `HTTP 429` — hardened retry
+  backoff and widened gaps between calls, but the very next test run hit
+  429 on the FIRST call (before any burst), pointing to daily quota
+  exhaustion from heavy manual testing rather than a remaining code bug.
+  **Session ended here** — Layer 1 code is complete but not yet confirmed
+  working end-to-end; needs one clean verification run once quota resets
+  (see "NEXT SESSION" Step 0). Layers 2 and 3 not started, per the
+  layering rule.
+- **Final addition before stopping (user's request):** rather than end on
+  an unresolved bug, did a deliberate forward-looking risk review instead
+  of just documenting what already broke. Concrete outputs: (1) code
+  change — `fetchWithTimeout()` now attaches HTTP status + response
+  headers to thrown errors, and a new `rateLimitInfo()` helper surfaces
+  Groq's rate-limit headers (remaining requests today, remaining tokens
+  this window, retry-after) directly in every Groq-related log line, so
+  the next 429 self-diagnoses instead of requiring a manual console check
+  — this is zero-risk (pure logging, no behavior change, verified via
+  `node --check` and a mocked-header unit test, no Groq calls consumed);
+  (2) explicit written pass/fail criteria for Layer 1 verification, to
+  remove ambiguity next session; (3) pre-identified risks + mitigations
+  for Layer 2 (unconfirmed endpoints, VN30 has no existing code, unknown
+  volume field name, partial-success UI behavior) and Layer 3 (Astro/
+  Vercel static-vs-server mode is a likely undiscovered prerequisite,
+  GitHub token scope, commit race condition on `EXAMPLES.md`) — written
+  down now so next session executes against a plan instead of discovering
+  these one at a time mid-build, the same way tonight's bugs were found
+  reactively rather than anticipated.

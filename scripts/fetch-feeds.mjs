@@ -296,11 +296,37 @@ async function fetchWithTimeout(url, options = {}) {
       },
       ...options
     });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
+    if (!res.ok) {
+      // Attach status + headers to the error (not just the message) so
+      // callers that care — currently only the Groq call sites — can read
+      // rate-limit diagnostics (remaining requests/tokens, retry-after) on
+      // a 429 without changing behavior for every other caller of this
+      // shared helper (RSS/market fetches just see err.message as before).
+      const err = new Error('HTTP ' + res.status);
+      err.status = res.status;
+      err.headers = res.headers;
+      throw err;
+    }
     return res;
   } finally {
     clearTimeout(timer);
   }
+}
+
+// Extracts whatever rate-limit diagnostics Groq's response headers expose,
+// so a 429 log line says WHY (out of requests-today vs tokens-this-minute)
+// instead of just "HTTP 429" — turns guesswork into a direct read next time.
+function rateLimitInfo(err) {
+  const h = err?.headers;
+  if (!h || typeof h.get !== 'function') return '';
+  const parts = [];
+  const remReq = h.get('x-ratelimit-remaining-requests');
+  const remTok = h.get('x-ratelimit-remaining-tokens');
+  const retryAfter = h.get('retry-after');
+  if (remReq != null) parts.push('requests left today: ' + remReq);
+  if (remTok != null) parts.push('tokens left this window: ' + remTok);
+  if (retryAfter != null) parts.push('retry-after: ' + retryAfter + 's');
+  return parts.length ? ' [' + parts.join(', ') + ']' : '';
 }
 
 async function groqCall(prompt, maxTokens = 300) {
@@ -470,7 +496,7 @@ async function scoreAndFilter(articles, training, maxArticles) {
     console.log('  \u2713 Training filter: ' + result.length + '/' + articles.length + ' kept');
     return result.map(({ _score, ...a }) => a);
   } catch (err) {
-    console.warn('  \u26a0 Training scorer failed: ' + err.message + ' — using unfiltered articles');
+    console.warn('  \u26a0 Training scorer failed: ' + err.message + rateLimitInfo(err) + ' — using unfiltered articles');
     return articles.slice(0, maxArticles);
   }
 }
@@ -708,14 +734,18 @@ async function condenseArticles(themeName, themeKey, articles) {
   try {
     results = await attempt();
   } catch (err) {
-    const isRateLimit = /429/.test(err.message);
-    console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message
-      + (isRateLimit ? ' — rate limited, backing off 10s before retry' : ' — retrying'));
-    await new Promise(r => setTimeout(r, isRateLimit ? 10000 : 2000));
+    const isRateLimit = err.status === 429;
+    const retryAfterHeader = err?.headers?.get?.('retry-after');
+    const backoffMs = isRateLimit
+      ? (retryAfterHeader ? Number(retryAfterHeader) * 1000 + 500 : 10000)
+      : 2000;
+    console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message + rateLimitInfo(err)
+      + (isRateLimit ? ' — rate limited, backing off ' + Math.round(backoffMs / 1000) + 's before retry' : ' — retrying'));
+    await new Promise(r => setTimeout(r, backoffMs));
     try {
       results = await attempt();
     } catch (err2) {
-      console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 2): ' + err2.message + ' — leaving blank');
+      console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 2): ' + err2.message + rateLimitInfo(err2) + ' — leaving blank');
       results = [];
     }
   }
@@ -795,7 +825,7 @@ async function generateSummary(themeName, themeKey, articles) {
     console.log('  \u2713 AI summary for "' + themeName + '": ' + summary.slice(0, 80) + '...');
     return summary;
   } catch (err) {
-    console.warn('  \u26a0 Summary for "' + themeName + '": ' + err.message);
+    console.warn('  \u26a0 Summary for "' + themeName + '": ' + err.message + rateLimitInfo(err));
     return null;
   }
 }
