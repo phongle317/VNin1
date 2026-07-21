@@ -89,13 +89,19 @@ Never collect:
    international-relations/diplomatic** articles with no direct business/
    investment angle
 
-**Status:** partially covered.
-- `CONTENT_BLOCKLIST` already excludes some promo language (`khuyến mãi`,
-  `tri ân khách hàng`, `ưu đãi khách hàng`) and some propaganda-flavored
-  anniversary content (`chào mừng kỷ niệm`, `toàn dân`).
-- Not yet covered: "implied" promotion (soft PR dressed as news — hard to
-  keyword-match, better handled via training examples), and pure diplomatic/
-  international-relations content has no blocklist entries yet.
+**Status:** ✅ **Done — verified live.** `CONTENT_BLOCKLIST` expanded with 16
+phrases covering corporate PR/soft-promotion framing (`mở rộng đầu tư`,
+`khai trương`, `đồng hành cùng việt nam`, `siêu đô thị`, etc.) and
+government rhetoric (`quyết liệt thực hiện mục tiêu`, `từ cam kết sang kết
+quả`). Every phrase was tested against real examples before shipping: 16/16
+known-bad headlines caught, 0/10 false positives against known-good
+headlines. Confirmed live via Actions log — content filter actively
+dropping articles on real hourly runs (e.g. `3 articles dropped by content
+filter`, `1 articles dropped by content filter`).
+
+"Implied" promotion that isn't keyword-detectable (soft pitches, vague
+expert-quote fluff dressed as analysis) is handled via `training.json`
+disliked examples instead — see Rule 5.
 
 ---
 
@@ -109,25 +115,33 @@ Actively prefer, when ranking/selecting articles:
 3. **Sector quota:** articles about **banks and securities companies** should
    make up **at least 30%** of what's collected, by area
 
-**Status:** not yet implemented.
-- (1) and (2) are naturally suited to the training scorer
-  (`scoreAndFilter()` in `fetch-feeds.mjs`), which already exists in code
-  but is inactive because `training.json` has no examples yet.
-- (3) is a new kind of rule — a *quota*, not a preference. Needs new logic:
-  after scoring/filtering, check bank/securities-tagged article share and
-  backfill from that category if under 30%.
+**Status:**
+- ✅ **(1) and (2) done — verified live.** `training.json` now holds 16
+  liked + 14 disliked real examples; `scoreAndFilter()` is active and
+  confirmed running on real hourly fetches (e.g. `Training filter: 8/20
+  kept`, `6/11 kept` per theme in Actions logs).
+- **Known trade-off, deliberately kept as-is:** the scorer weighs relevance
+  (sharp analysis, audience fit) more heavily than freshness — a small
+  recency bonus (`+2` under 6h, `+1` under 24h) isn't enough to beat a
+  strong relevance score. In practice this means some displayed articles
+  are several hours old even when fresher, thinner articles exist. This was
+  explicitly reviewed and kept (Option C) on 2026-07-18 — Rule 5(1)
+  "prioritize sharp analysis" was written to mean exactly this. Revisit if
+  it starts feeling too stale; the fix would be increasing the recency
+  bonus weight or adding a hard "always keep the newest N" floor.
+- ⏳ **(3) not yet implemented** — needs new logic: after scoring/filtering,
+  check bank/securities-tagged article share and backfill from that
+  category if under 30%.
 
 ---
 
 ## Build plan (ordered)
 
 1. ~~Dedup across themes~~ (Rule 1) — ✅ done, verified live
-2. **Blocklist expansion** (Rule 4) — quick, low-risk, do next
-2. **Blocklist expansion** (Rule 4) — quick, low-risk
-3. **Theme-summary prompt revision** (Rule 3, what/why/impact) — quick prompt edit
-4. **Populate `training.json` with first examples** (Rule 5, parts 1–2) —
-   requires you to supply liked/disliked headline examples; I can't invent
-   your editorial taste, only encode it once you provide samples
+2. ~~Blocklist expansion~~ (Rule 4) — ✅ done, verified live
+3. **Theme-summary prompt revision** (Rule 3, what/why/impact) — quick prompt edit, next up
+4. ~~Populate `training.json` with first examples~~ (Rule 5, parts 1–2) —
+   ✅ done, verified live (16 liked / 14 disliked)
 5. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
    moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota)
 6. **Bank/securities 30% quota logic** (Rule 5, part 3) — new feature,
@@ -137,9 +151,10 @@ Actively prefer, when ranking/selecting articles:
 
 ## Training examples status
 
-`src/data/training.json` — **0 liked, 0 disliked.** Inactive until populated.
-To add examples: paste headlines you'd want more/less of, and I'll format
-them into the file.
+`src/data/training.json` — **16 liked, 14 disliked.** Active and confirmed
+running on real hourly fetches. More examples always welcome — drop them in
+`EXAMPLES.md` as you spot them on the live site, batch them up whenever
+convenient, and I'll fold them in.
 
 ---
 
@@ -153,3 +168,11 @@ them into the file.
 - 2026-07-18 — Rule 1 verified live: GitHub Actions log confirmed
   duplicates being caught (5-16 per run across two test runs), live site
   confirmed no repeated headlines across sections. Rule 1 closed.
+- 2026-07-18 — Rule 4 (blocklist expansion) implemented from real examples
+  in `EXAMPLES.md`, tested (16/16 caught, 0/10 false positives), pushed,
+  verified live via Actions log. Rule 4 closed.
+- 2026-07-18 — Rule 5 parts 1-2 (training scorer) activated with first
+  16 liked / 14 disliked examples from `EXAMPLES.md`, pushed, verified
+  live via Actions log (`Training filter: X/Y kept` per theme). Sharp-
+  analysis-over-freshness trade-off reviewed and deliberately kept as-is.
+  Part 3 (30% bank/securities quota) remains open.

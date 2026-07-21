@@ -48,6 +48,16 @@ const THEMES = [
         sourceId: 'thanhnien', sourceName: 'Thanh Niên',
         sourceUrl: 'https://thanhnien.vn', attribution: 'Thanh Niên',
         candidateUrls: ['https://thanhnien.vn/rss/kinh-te.rss']
+      },
+      {
+        sourceId: 'vietstock', sourceName: 'Vietstock',
+        sourceUrl: 'https://vietstock.vn', attribution: 'Vietstock',
+        candidateUrls: ['https://vietstock.vn/757/tai-chinh/ngan-hang.rss']
+      },
+      {
+        sourceId: 'cafebiz', sourceName: 'CafeBiz',
+        sourceUrl: 'https://cafebiz.vn', attribution: 'CafeBiz',
+        candidateUrls: ['https://cafebiz.vn/rss/ngan-hang-tai-chinh.rss']
       }
     ]
   },
@@ -74,6 +84,11 @@ const THEMES = [
         sourceId: 'thanhnien', sourceName: 'Thanh Niên',
         sourceUrl: 'https://thanhnien.vn', attribution: 'Thanh Niên',
         candidateUrls: ['https://thanhnien.vn/rss/kinh-te.rss']
+      },
+      {
+        sourceId: 'cafebiz', sourceName: 'CafeBiz',
+        sourceUrl: 'https://cafebiz.vn', attribution: 'CafeBiz',
+        candidateUrls: ['https://cafebiz.vn/rss/bat-dong-san.rss']
       }
     ]
   },
@@ -100,6 +115,11 @@ const THEMES = [
         sourceId: 'thanhnien', sourceName: 'Thanh Niên',
         sourceUrl: 'https://thanhnien.vn', attribution: 'Thanh Niên',
         candidateUrls: ['https://thanhnien.vn/rss/kinh-te.rss']
+      },
+      {
+        sourceId: 'cafebiz', sourceName: 'CafeBiz',
+        sourceUrl: 'https://cafebiz.vn', attribution: 'CafeBiz',
+        candidateUrls: ['https://cafebiz.vn/rss/dau-tu.rss']
       }
     ]
   },
@@ -124,6 +144,21 @@ const THEMES = [
         sourceId: 'scmp', sourceName: 'SCMP',
         sourceUrl: 'https://www.scmp.com', attribution: 'SCMP',
         candidateUrls: ['https://www.scmp.com/rss/5/feed', 'https://www.scmp.com/rss/91/feed']
+      },
+      {
+        sourceId: 'vietstock', sourceName: 'Vietstock',
+        sourceUrl: 'https://vietstock.vn', attribution: 'Vietstock',
+        candidateUrls: ['https://vietstock.vn/773/the-gioi/chung-khoan-the-gioi.rss']
+      },
+      {
+        sourceId: 'marketwatch', sourceName: 'MarketWatch',
+        sourceUrl: 'https://www.marketwatch.com', attribution: 'MarketWatch',
+        candidateUrls: ['https://feeds.content.dowjones.io/public/rss/mw_topstories']
+      },
+      {
+        sourceId: 'wsj', sourceName: 'WSJ',
+        sourceUrl: 'https://www.wsj.com', attribution: 'WSJ',
+        candidateUrls: ['https://feeds.content.dowjones.io/public/rss/RSSMarketsMain']
       }
     ]
   }
