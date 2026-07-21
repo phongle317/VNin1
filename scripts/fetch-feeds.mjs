@@ -645,6 +645,73 @@ async function fetchGlobalIndices() {
   return results;
 }
 
+// ─── Per-article AI condensing (Rule 3, per-article) ──────────────────────────
+// Replaces the raw RSS excerpt with an AI-written summary in the reader's own
+// words. Runs on the FINAL selected articles per theme (post dedup/blocklist/
+// scoring — usually ≤8), not the raw fetch pool, keeping the batch small and
+// the JSON response small (lesson learned from the scorer's truncation bug).
+// One Groq call per theme returns an array covering every article in that
+// theme — each article still gets its own distinct summary, this just avoids
+// making 8 separate network calls per theme.
+async function condenseArticles(themeName, themeKey, articles) {
+  if (articles.length === 0) return articles;
+  if (!process.env.GROQ_API_KEY) {
+    console.warn('  \u26a0 GROQ_API_KEY not set — condensing skipped');
+    return articles.map(a => ({ ...a, condensed: null }));
+  }
+
+  const isIntl = themeKey === 'international';
+  const list = articles
+    .map((a, i) => (i + 1) + '. ' + a.title + (a.excerpt ? ' — ' + a.excerpt : ''))
+    .join('\n');
+
+  const prompt = isIntl
+    ? 'You are a financial wire editor. For each numbered headline+excerpt below, '
+      + 'write an ORIGINAL English summary in your own words (never copy phrasing '
+      + 'from the excerpt), 30-45 words. Structure: what happened, plus one sharp '
+      + 'relevant detail. No filler like "reports say" or "according to".\n\n'
+      + 'Return ONLY a JSON array, nothing else: [{"index":1,"summary":"..."}]\n'
+      + 'If you are not confident summarizing an item accurately, OMIT it from the '
+      + 'array rather than guessing.\n\nItems:\n' + list
+    : 'Bạn là biên tập viên tài chính. Với mỗi tiêu đề + trích đoạn được đánh số '
+      + 'dưới đây, viết một tóm tắt tiếng Việt HOÀN TOÀN BẰNG LỜI VĂN CỦA BẠN '
+      + '(không sao chép câu chữ từ trích đoạn gốc), 30-45 từ. Cấu trúc: điều gì '
+      + 'xảy ra, kèm một chi tiết đáng chú ý. Không dùng "theo đó", "được biết".\n\n'
+      + 'Chỉ trả về JSON, không thêm gì khác: [{"index":1,"summary":"..."}]\n'
+      + 'Nếu không đủ tự tin tóm tắt chính xác một mục nào, BỎ QUA mục đó thay vì '
+      + 'đoán bừa.\n\nDanh sách:\n' + list;
+
+  const attempt = async () => {
+    const raw = await groqCall(prompt, 1200); // small batch (≤8 items) — ample headroom
+    const clean = raw.replace(/```json|```/g, '').trim();
+    const parsed = JSON.parse(clean);
+    return Array.isArray(parsed) ? parsed : [];
+  };
+
+  let results = [];
+  try {
+    results = await attempt();
+  } catch (err) {
+    console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message + ' — retrying once');
+    try {
+      results = await attempt();
+    } catch (err2) {
+      console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 2): ' + err2.message + ' — leaving blank');
+      results = [];
+    }
+  }
+
+  const withCondensed = articles.map((a, i) => {
+    const r = results.find(x => x.index === i + 1);
+    const summary = typeof r?.summary === 'string' ? r.summary.trim() : null;
+    return { ...a, condensed: summary || null };
+  });
+  const gotCount = withCondensed.filter(a => a.condensed).length;
+  console.log('  ' + (gotCount === articles.length ? '\u2713' : '\u26a0')
+    + ' Condensed "' + themeName + '": ' + gotCount + '/' + articles.length);
+  return withCondensed;
+}
+
 // ─── AI summaries (Groq) ──────────────────────────────────────────────────────
 async function generateSummary(themeName, themeKey, articles) {
   if (!process.env.GROQ_API_KEY) { console.warn('  \u26a0 GROQ_API_KEY not set'); return null; }
@@ -718,14 +785,22 @@ async function main() {
   ]);
   const marketOpen = isMarketOpen();
 
-  // 3. AI summaries
+  // 3. Per-article AI condensing (Rule 3, per-article) — replaces raw RSS
+  // excerpt with AI-written text. Runs on final selected articles only.
+  console.log('\nCondensing articles...');
+  for (const theme of themeResults) {
+    theme.articles = await condenseArticles(theme.displayName, theme.key, theme.articles);
+    await new Promise(r => setTimeout(r, 2000)); // same TPM-safety gap as theme scoring
+  }
+
+  // 4. AI summaries
   console.log('\nGenerating AI summaries...');
   for (const theme of themeResults) {
     theme.aiSummary = await generateSummary(theme.displayName, theme.key, theme.articles);
     await new Promise(r => setTimeout(r, 1000));
   }
 
-  // 4. Write output
+  // 5. Write output
   const output = {
     lastUpdated: new Date().toISOString(),
     market: {

@@ -12,11 +12,55 @@ session.
 
 ## STATUS (as of this session)
 
-**Site is live at vnin1.vercel.app, stable, no known bugs.** All infra work
-is done (see Tech stack / HTML entity decoding sections below). Content
-Rules build plan (`CONTENT_RULES.md`) is well underway: Rules 1, 4, and
-5(parts 1-2) are done and verified live. Nothing is mid-broken or
-interrupted right now — this is a clean stopping point.
+**Site is live at vnin1.vercel.app, stable, no known bugs.** Today's
+session: refreshed source list (10 sources, added 4 + removed 1), built
+cross-source content-similarity dedup (Rule 1b), hardened Groq calls
+against rate-limit/truncation issues, and revised the theme-summary prompt
+to add the impact/consequence component (Rule 3, theme-level half). All
+verified live via real Actions runs, not just local testing. Content Rules
+build plan (`CONTENT_RULES.md`) is well underway: Rules 1, 1b, 3
+(theme-level), 4, and 5(parts 1-2) are done and verified live. Nothing is
+mid-broken or interrupted right now — this is a clean stopping point.
+
+---
+
+## Legal note — Nghị định 174/2026/NĐ-CP (added 2026-07-21)
+
+User asked whether this project risks violating Vietnamese press-copyright
+regulation effective 1/7/2026. Researched via web search (not legal
+advice — Claude is not a lawyer, flagged explicitly to the user).
+
+**The rule:** Điều 95, Khoản 1, Điểm d — fines 20-30 million VND for
+"cung cấp, chia sẻ tác phẩm báo chí... mà không được sự đồng ý của chủ thể
+quyền sở hữu trí tuệ" (providing/sharing press works without IP rights
+holder consent).
+
+**Key distinction found across multiple legal-commentary sources:**
+sharing a link to the original article is explicitly NOT considered a
+violation (helps readers reach the source, doesn't replace it). What's
+targeted: verbatim full-text reproduction, screenshots, full video
+reposts — content that lets readers avoid visiting the source. Vietnam's
+IP Law still recognizes "trích dẫn hợp lý" (reasonable citation) as an
+exception.
+
+**How VNin1's current design compares:** structurally aligned with the
+lower-risk "link-out aggregator" pattern — title links to the original
+URL (not to VNin1), every card credits the source, no full article text
+is ever fetched/stored. This is a meaningfully different shape from what
+the regulation targets.
+
+**Genuine gray area, not resolved by research:** the RSS-provided excerpt
+(~160 chars) is still verbatim source text, not VNin1's own words. Whether
+a publisher publishing an RSS feed counts as "consent" to reproduce even
+a short excerpt is genuinely unclear from available sources — this is the
+main reason the per-article AI summarizer (replacing excerpt with
+AI-paraphrased text) was reprioritized higher, see "Up next" item 1 above.
+
+**Commercial use raises stakes:** several sources distinguish "chia sẻ để
+lan tỏa" (sharing to spread information) from "khai thác nhằm mục đích
+thu lợi" (exploiting for profit) — the latter is treated more seriously.
+Site currently has no ads/monetization. If that ever changes, get real
+legal counsel first — this note is not a substitute for that.
 
 ---
 
@@ -28,79 +72,40 @@ summary below.
 
 ### Done and verified live (no action needed)
 1. ~~Dedup across themes~~ (Rule 1)
-2. ~~Blocklist expansion~~ (Rule 4)
-3. ~~Training scorer activated~~ (Rule 5, parts 1-2) — 16 liked / 14
+2. ~~Cross-source content-similarity dedup~~ (Rule 1b) — piggybacks on the
+   scorer's Groq call, catches same-event stories from different outlets
+3. ~~Blocklist expansion~~ (Rule 4)
+4. ~~Theme-summary prompt revision~~ (Rule 3, what/why/impact)
+5. ~~Training scorer activated~~ (Rule 5, parts 1-2) — 16 liked / 14
    disliked examples in `training.json`
+6. ~~Source list refreshed~~ — added Vietstock, CafeBiz, MarketWatch, WSJ;
+   removed Thanh Niên (kept surfacing as unwanted duplicate). Current:
+   **10 sources total** — see "Content — feeds and themes" section below
+   for the exact per-theme breakdown.
+7. ~~Groq rate-limit hardening~~ — configurable token limits per call,
+   `SCORE_BATCH_LIMIT = 20` cap, 2-second gap between per-theme Groq calls.
+   See "AI features" section below for detail.
 
 ### Up next, in order
-1. **Add 4 new confirmed sources** (researched + RSS-verified this session,
-   not yet coded) — expands 7 sources → 11:
-   - **Vietstock** (VI): `vietstock.vn/757/tai-chinh/ngan-hang.rss` → Chứng
-     khoán; `vietstock.vn/773/the-gioi/chung-khoan-the-gioi.rss` → International
-   - **CafeBiz** (VI): `cafebiz.vn/rss/ngan-hang-tai-chinh.rss` → Chứng
-     khoán/Vĩ mô; `cafebiz.vn/rss/bat-dong-san.rss` → Bất động sản;
-     `cafebiz.vn/rss/dau-tu.rss` → Vĩ mô/Đầu tư
-   - **MarketWatch** (EN): `feeds.content.dowjones.io/public/rss/mw_topstories`
-     → International (NOTE: this is the real Dow-Jones-infrastructure RSS
-     URL, different from the dead marketwatch.com link that was in the old
-     hardcoded footer — that one was never a real RSS source, just a
-     leftover broken link)
-   - **WSJ** (EN): `feeds.content.dowjones.io/public/rss/RSSMarketsMain`
-     → International (headline+excerpt only, free; full article paywalled,
-     irrelevant since we never fetch full text anyway)
-   - All 4 URLs fetch-tested this session, confirmed correct MIME type
-     (`application/rss+xml` / `application/xml`) — not yet tested inside
-     the actual `fetch-feeds.mjs` pipeline, so still run a real
-     `npm run fetch` check after adding, same as any new source.
-   - Deferred, lower confidence, check manually before adding:
-     **NDH.vn** (possible reduced activity since ~2022 per a forum post —
-     verify site is still updating before use), **Tinnhanhchungkhoan.vn**
-     (site active, but no RSS URL found yet — needs more digging)
-   - Not viable: **Reuters** (killed official RSS years ago, only
-     available via unreliable third-party generators — skip)
-2. **Cross-source content-similarity dedup (Rule 1b)** — new problem found
-   this session, different from Rule 1. Rule 1's dedup only catches exact
-   link matches (same feed reused across themes). This is a different case:
-   **two different sources (e.g. CafeF and VnEconomy) both cover the same
-   real-world event with different wording and different links** — e.g.
-   both publishing near-identical "Hà Nội khởi công 5 tuyến đường sắt đô
-   thị" stories, likely both rewriting the same press release. Exact-link
-   dedup can't catch this since the articles are genuinely different URLs.
-
-   **Approach confirmed (Cách 2):** piggyback on the Groq call already made
-   in `scoreAndFilter()` for relevance scoring — extend that same prompt to
-   also ask Groq to flag which headlines within the batch describe the same
-   underlying event, then drop all but one (keep the one from the
-   higher-priority source, same priority order as Rule 1's THEMES order).
-   No extra API calls needed, reuses existing infrastructure. Rejected
-   alternative: plain text/keyword similarity matching — cheaper but far
-   less accurate for headlines phrased differently about the same event,
-   which is exactly this failure mode.
-3. **Theme-summary prompt revision** (Rule 3 — add explicit
-   what/why/impact structure to the AI summary prompt) — quick prompt edit,
-   no new architecture.
-4. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
+1. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
    moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota).
    Replaces the raw RSS excerpt currently shown on cards with a real
-   AI-condensed 30-40 word summary per article.
-5. **Bank/securities 30% quota logic** (Rule 5, part 3) — new feature,
-   needs a sector-tagging step (how do we know an article is "about a bank
-   or securities company"? keyword match on company names, or a separate
-   Groq classification call?) before a quota check can run. Needs a design
-   decision before coding starts.
-6. **Recency vs. sharpness trade-off** — user asked about reducing
-   article staleness on the live site (some articles showing 9h old while
-   fresher ones exist). Root cause identified: `scoreAndFilter()`'s
-   relevance score outweighs its small recency bonus, by design (Rule 5).
-   User explicitly chose **Option C: leave as-is** this session — sharp
-   analysis over freshness is intentional, not a bug. Revisit only if it
-   starts feeling wrong in practice; the fix would be increasing the
-   recency bonus weight in that function, or adding a hard "always keep
-   newest N" floor per theme.
-6. **Admin voting buttons (Like/Dislike/Block) on live site** — new
-   feature, fully speced this session, not started. This is a real
-   architecture change (adds a serverless API to an otherwise fully static
-   site) — budget a full focused session, not a quick add.
+   AI-condensed 30-40 word summary per article. **Priority raised
+   2026-07-21** — beyond the original editorial reason (Rule 3), this also
+   reduces legal exposure under Nghị định 174/2026/NĐ-CP (see "Legal note"
+   below): the current card excerpt is verbatim RSS text from the source,
+   not transformative content. Note: `index.astro` currently falls back to
+   raw `excerpt` if `condensed` is missing for an article — worth deciding
+   at build time whether to keep that fallback or show nothing instead,
+   since the fallback re-introduces the exact risk this feature is meant
+   to reduce.
+2. **Top bar upgrade + market data sourcing** — see "Open items" section
+   below for full detail (VNIndex/VN30/%, TCBS/FireAnt candidates
+   researched but not yet tested in code).
+3. **Admin voting buttons (Like/Dislike/Block) on live site** — new
+   feature, fully speced, not started. This is a real architecture change
+   (adds a serverless API to an otherwise fully static site) — budget a
+   full focused session, not a quick add.
 
    **What it does:** replaces manually typing lines into `EXAMPLES.md` with
    3 buttons under each article card, visible only to the user (admin).
@@ -167,15 +172,23 @@ summary below.
    - `?key=` check gating whether buttons render at all — read the secret
      from a hardcoded value the user provides (do not overthink this into
      a real auth system, that was explicitly decided against)
+4. **Recency vs. sharpness trade-off** — user asked about reducing
+   article staleness on the live site (some articles showing 9h old while
+   fresher ones exist). Root cause identified: `scoreAndFilter()`'s
+   relevance score outweighs its small recency bonus, by design (Rule 5).
+   User explicitly chose **Option C: leave as-is** — sharp analysis over
+   freshness is intentional, not a bug. Revisit only if it starts feeling
+   wrong in practice; the fix would be increasing the recency bonus weight
+   in that function, or adding a hard "always keep newest N" floor per theme.
 
 ### Ongoing, no fixed schedule
 **`EXAMPLES.md`** — user adds liked/disliked/block-candidate headlines
 whenever spotted on the live site. Bring the file (or new lines) to a
 session whenever ready to "cash it in" — gets sorted into `training.json`
 or `CONTENT_BLOCKLIST` as appropriate. Not urgent, no deadline. Once the
-admin voting buttons (item 6 above) are built, most Liked/Disliked/Block
-additions will come from button clicks instead of manual typing — but the
-file and workflow itself don't change, just the input method.
+admin voting buttons above are built, most Liked/Disliked/Block additions
+will come from button clicks instead of manual typing — but the file and
+workflow itself don't change, just the input method.
 
 ---
 
@@ -238,15 +251,19 @@ Defined entirely in `THEMES` inside `scripts/fetch-feeds.mjs`. Adding a
 source or theme = editing that config; nothing else in the codebase should
 need to change.
 
-**Current sources (7 total, 4 themes):**
-- Chứng khoán: CafeF, VnEconomy, VnExpress, Thanh Niên
-- Bất động sản: CafeF, VnEconomy, VnExpress, Thanh Niên
-- Vĩ mô / Đầu tư: CafeF, VnEconomy, VnExpress, Thanh Niên
-- International: CNBC, Financial Times, SCMP
+**Current sources (10 total, 4 themes):**
+- Chứng khoán: CafeF, VnEconomy, VnExpress, Vietstock, CafeBiz
+- Bất động sản: CafeF, VnEconomy, VnExpress, CafeBiz
+- Vĩ mô / Đầu tư: CafeF, VnEconomy, VnExpress, CafeBiz
+- International: CNBC, Financial Times, SCMP, Vietstock, MarketWatch, WSJ
 
-**As of this session:** cross-theme dedup means a story appearing in
-multiple themes' feeds now only shows in the first-matching theme (by
-`THEMES` array order) — see Rule 1 in `CONTENT_RULES.md`.
+(Thanh Niên was removed 2026-07-21 — kept surfacing as an unwanted
+duplicate across themes since its RSS feed was too generic to distinguish
+which theme a story actually belonged to.)
+
+**Two dedup layers active** (see Rules 1 and 1b in `CONTENT_RULES.md`):
+exact-link dedup (same feed reused across themes) and cross-source
+content-similarity dedup (different outlets covering the same event).
 
 **Content editorial rules:** see `CONTENT_RULES.md` — source of truth for
 what/how content gets collected and summarized. See also `EXAMPLES.md` — the
@@ -260,15 +277,31 @@ feeds into `CONTENT_RULES.md`'s rules over time.
 Two Groq-powered features exist in `fetch-feeds.mjs` (a third is planned,
 see Content Rules build plan):
 
-1. **Theme summaries** (`generateSummary`) — 2-sentence Vietnamese wire-style
-   summary per theme, shown at the top of each section, labeled "AI Summary".
-   Prompt revision pending (Content Rules build plan, next up).
-2. **Training scorer** (`scoreAndFilter`) — ✅ **active, verified live.**
-   Scores articles against 16 liked / 14 disliked examples in
-   `src/data/training.json`, filters + re-ranks by relevance + recency.
-   Confirmed running on real hourly fetches (Actions log shows
-   `Training filter: X/Y kept` per theme). Deliberately weighs sharp
-   analysis over freshness — see "NEXT SESSION" open design question above.
+1. **Theme summaries** (`generateSummary`) — ✅ **active, verified live.**
+   2-3 sentence Vietnamese wire-style summary per theme (what → why/how →
+   impact/consequence), shown at the top of each section, labeled
+   "AI Summary". Revised 2026-07-21 to explicitly add the impact component.
+2. **Training scorer + cross-source dedup** (`scoreAndFilter`) — ✅
+   **active, verified live.** Scores articles against 16 liked / 14
+   disliked examples in `src/data/training.json`, filters + re-ranks by
+   relevance + recency, and (as of 2026-07-21) also flags same-event
+   duplicates across sources in the same call. Confirmed running on real
+   hourly fetches (Actions log shows `Training filter: X/Y kept` and
+   `Cross-source dedup: N similar-content duplicate(s) dropped` per theme).
+   Deliberately weighs sharp analysis over freshness — see "Up next" item 5
+   in NEXT SESSION above.
+
+   **Rate-limit hardening (2026-07-21):** `groqCall()`'s `max_tokens` is now
+   configurable per call (scorer requests 1500, summaries stay at the 300
+   default) — fixes JSON-truncation errors that started appearing once
+   themes with many sources produced 25-30 articles per scoring call.
+   `SCORE_BATCH_LIMIT = 20` caps how many articles get sent to Groq for
+   scoring per theme (oldest overflow held back as a fallback pool only).
+   A 2-second gap between each theme's Groq call avoids bunching all 4
+   scorer calls into the same 60-second TPM window. Free tier for
+   `llama-3.3-70b-versatile` is tighter than the model comment below used
+   to suggest — roughly 30 RPM / 6,000 TPM / 1,000 RPD, not the
+   14,400 RPD figure (that number is for a different, smaller model).
 
 Model: `llama-3.3-70b-versatile`. Endpoint: Groq's OpenAI-compatible chat
 completions API. Secret: `GROQ_API_KEY` — confirmed correctly wired into
@@ -402,3 +435,31 @@ documented here so nobody "simplifies" the import back to the broken form.
 - **This session:** training scorer activated with first 16 liked / 14
   disliked examples, verified live (Rule 5 parts 1-2 — done). Sharp-
   analysis-over-freshness trade-off reviewed and deliberately kept.
+- **New session (2026-07-21):** added Vietstock, CafeBiz, MarketWatch, WSJ
+  (7 → 11 sources), then removed Thanh Niên (11 → 10) after it kept
+  surfacing as an unwanted duplicate across themes. Fetch-tested all 4
+  additions in production via real Actions runs, not just locally.
+- **New session:** built and verified Rule 1b (cross-source
+  content-similarity dedup) — piggybacks on the existing scorer Groq call,
+  confirmed catching real duplicates (the reported CafeF/VnEconomy metro
+  story case, plus others) via Actions log across multiple runs.
+- **New session:** diagnosed and fixed a real bug the dedup feature
+  exposed — `Training scorer failed: Unexpected end of JSON input` on
+  high-article-count themes, caused by the old 300-token output cap
+  truncating the longer JSON response. Fixed with configurable
+  `groqCall()` token limits, `SCORE_BATCH_LIMIT = 20`, and a 2-second gap
+  between per-theme Groq calls. Verified clean across 2 consecutive runs
+  with no truncation errors, including on the highest-article-count theme.
+- **New session:** revised the theme-summary AI prompt to explicitly add
+  the impact/consequence component (Rule 3, theme-level) — verified live,
+  summaries now read what → why/how → impact when headlines support it.
+- **New session:** researched VN-Index/HNX/VN30 replacement sources
+  (TCBS, FireAnt) — both confirmed live/legitimate but exact JSON
+  endpoints not yet verified by direct testing; queued as a bundled
+  top-bar task for a future session (see "Open items" above).
+- **New session (2026-07-21):** researched Nghị định 174/2026/NĐ-CP
+  (Vietnamese press-copyright regulation, effective 1/7/2026) at user's
+  request — see "Legal note" section above. Reprioritized per-article AI
+  summarizer higher (reduces legal exposure, not just editorial benefit).
+  Dropped bank/securities 30% quota (Rule 5 part 3) from the plan —
+  decided not worth the complexity.

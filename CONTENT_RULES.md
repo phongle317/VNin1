@@ -43,6 +43,37 @@ across Chứng khoán / Bất động sản / Vĩ mô-Đầu tư.
 
 ---
 
+## RULE 1b — No duplicate stories across sources (same event, different link)
+*Added: 2026-07-21*
+
+Different from Rule 1: two different sources (e.g. CafeF and VnEconomy)
+covering the same real-world event with different wording and different
+links — likely both rewriting the same press release. Exact-link dedup
+(Rule 1) can't catch this since the URLs are genuinely different.
+
+**Status:** ✅ **Done — verified live.** Piggybacks on the same Groq call
+already made in `scoreAndFilter()` for relevance scoring — the prompt now
+also asks Groq to flag which headlines within the batch describe the same
+underlying event; within each flagged group, the highest-scoring article
+is kept and the rest dropped. No extra API calls needed. Confirmed via
+Actions log (`Cross-source dedup: N similar-content duplicate(s) dropped`,
+seen catching 1-5 duplicates per run across multiple real test runs) and
+confirmed visually on the live site — the specific case reported (CafeF +
+VnEconomy both covering "Bất động sản liền kề metro...") no longer repeats.
+
+**Related fix, same session:** this feature initially caused
+`Training scorer failed: Unexpected end of JSON input` on themes with many
+articles (25-30, after 11 sources were added) — the longer JSON response
+(scores + duplicate groups) was hitting the old 300-token output cap.
+Fixed by making `groqCall()`'s token limit configurable per call (scorer
+now requests 1500) and adding `SCORE_BATCH_LIMIT = 20` to cap how many
+articles get sent to Groq per theme (oldest overflow articles are excluded
+from scoring, only used as a fallback if too few scored articles survive
+filtering). Also added a 2-second gap between each theme's Groq calls to
+avoid bunching into the same 60-second TPM window.
+
+---
+
 ## RULE 2 — Headlines are never rewritten
 *Added: 2026-07-18*
 
@@ -70,11 +101,15 @@ summaries:
    ("các tiêu đề cho thấy", "đáng chú ý", "thị trường đang").
 
 **Status:**
-- Theme-level AI Summary: prompt exists, needs revision to explicitly add
-  the "impact/consequence" third component (currently only does what+why).
-- Per-article summary: **does not exist yet.** Cards currently show the raw
-  RSS excerpt (copied text from the source), which violates 3(1). Needs to
-  be built as a new AI call per article.
+- ✅ **Theme-level AI Summary: done, verified live.** Prompt revised to
+  explicitly request 2-3 sentences (what → why/how → impact/consequence),
+  with the third sentence only included when headlines actually support a
+  clear consequence (explicit instruction against inventing one). Confirmed
+  on live site — summaries now read with a clear causal chain, not just
+  what+why.
+- ⏳ **Per-article summary: still does not exist.** Cards currently show the
+  raw RSS excerpt (copied text from the source), which violates 3(1). Needs
+  to be built as a new AI call per article — next up on the build plan.
 
 ---
 
@@ -112,8 +147,13 @@ Actively prefer, when ranking/selecting articles:
 1. **Sharp arguments, solid data, real analysis** — over vague/soft reporting
 2. **Audience fit:** 80% business-owner/investor relevance, 20% economics/
    investment-student relevance (see Audience section above)
-3. **Sector quota:** articles about **banks and securities companies** should
-   make up **at least 30%** of what's collected, by area
+
+*(Part 3, a hard 30% bank/securities sector quota, was considered but
+**removed from the plan on 2026-07-21** — decided not worth the added
+complexity of building a sector-tagging step. Audience fit via the
+training scorer already tends to surface bank/securities content when
+it's genuinely sharp; a hard quota risked forcing in weaker articles just
+to hit a number.)*
 
 **Status:**
 - ✅ **(1) and (2) done — verified live.** `training.json` now holds 16
@@ -129,23 +169,22 @@ Actively prefer, when ranking/selecting articles:
   "prioritize sharp analysis" was written to mean exactly this. Revisit if
   it starts feeling too stale; the fix would be increasing the recency
   bonus weight or adding a hard "always keep the newest N" floor.
-- ⏳ **(3) not yet implemented** — needs new logic: after scoring/filtering,
-  check bank/securities-tagged article share and backfill from that
-  category if under 30%.
 
 ---
 
 ## Build plan (ordered)
 
 1. ~~Dedup across themes~~ (Rule 1) — ✅ done, verified live
-2. ~~Blocklist expansion~~ (Rule 4) — ✅ done, verified live
-3. **Theme-summary prompt revision** (Rule 3, what/why/impact) — quick prompt edit, next up
-4. ~~Populate `training.json` with first examples~~ (Rule 5, parts 1–2) —
+2. ~~Cross-source content-similarity dedup~~ (Rule 1b) — ✅ done, verified live
+3. ~~Blocklist expansion~~ (Rule 4) — ✅ done, verified live
+4. ~~Theme-summary prompt revision~~ (Rule 3, what/why/impact) — ✅ done, verified live
+5. ~~Populate `training.json` with first examples~~ (Rule 5, parts 1–2) —
    ✅ done, verified live (16 liked / 14 disliked)
-5. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
-   moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota)
-6. **Bank/securities 30% quota logic** (Rule 5, part 3) — new feature,
-   needs a sector-tagging step before the quota check can run
+6. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
+   moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota).
+   Next up on the build plan — priority raised 2026-07-21, also reduces
+   legal exposure under Nghị định 174/2026/NĐ-CP (see `PLANNING.md` →
+   "Legal note" for detail).
 
 ---
 
@@ -176,3 +215,23 @@ convenient, and I'll fold them in.
   live via Actions log (`Training filter: X/Y kept` per theme). Sharp-
   analysis-over-freshness trade-off reviewed and deliberately kept as-is.
   Part 3 (30% bank/securities quota) remains open.
+- 2026-07-21 — Added Vietstock, CafeBiz, MarketWatch, WSJ (7 → 11 sources),
+  removed Thanh Niên (11 → 10 sources) after it kept surfacing as an
+  unwanted duplicate source across themes.
+- 2026-07-21 — Rule 1b (cross-source content-similarity dedup) built,
+  tested against the real reported case (CafeF + VnEconomy both covering
+  the same metro/real-estate story), pushed, verified live via Actions log
+  (`Cross-source dedup: N similar-content duplicate(s) dropped`). Required
+  a follow-up fix same session: the longer JSON response was hitting the
+  old 300-token cap on high-article-count themes — fixed via configurable
+  `groqCall()` token limits (1500 for the scorer) + `SCORE_BATCH_LIMIT = 20`
+  + a 2-second gap between per-theme Groq calls to avoid TPM bursts. Rule
+  1b closed.
+- 2026-07-21 — Rule 3 theme-level summary prompt revised to explicitly
+  request what → why/how → impact/consequence (was previously only
+  what+why), with an explicit instruction not to invent an impact when
+  headlines don't support one. Verified live — summaries read with a clear
+  causal chain. Rule 3 theme-level closed; per-article half remains open,
+  priority raised (see `PLANNING.md` → "Legal note").
+- 2026-07-21 — Rule 5 part 3 (30% bank/securities quota) dropped from the
+  plan — decided not worth the sector-tagging complexity it would need.
