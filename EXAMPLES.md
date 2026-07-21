@@ -61,23 +61,7 @@ get collected, not how they get summarized.
 *Promo/PR/advertising (implied or direct), government/Party propaganda,
 pure diplomatic/international-relations content with no business angle.*
 
-- Sun Group phát triển siêu đô thị Bình Quới - Thanh Đa gần 99.000 tỷ đồng: Quy mô 424ha, là "mái nhà" của 54.000 người
-- Thủ tướng Lê Minh Hưng: Chuyển từ đối thoại sang hành động, từ cam kết sang kết quả cụ thể
-- Việt Nam mong doanh nghiệp Hoa Kỳ mở rộng đầu tư vào các lĩnh vực ưu tiên
-- Nhật Bản đồng hành cùng Việt Nam phát triển trong kỷ nguyên mới
-- Hà Nội quyết liệt thực hiện mục tiêu phát triển nhà ở xã hội
-- VIRES: Điều gì sẽ quyết định giá trị bất động sản Vĩnh Long trong chu kỳ phát triển mới?
-- Khu công nghiệp xanh trở thành chuẩn cạnh tranh mới để hút FDI chất lượng cao
-- Dự án hơn 4.300 tỷ đồng của FPT Quy Nhơn được phép bán cho người nước ngoài
-- Tập đoàn C.P. mở rộng đầu tư tại Việt Nam
-- Siêu thị Aeon MaxValu đầu tiên khai trương tại TP HCM
-- ShopeeFood đầu tư giải pháp mới, tăng cơ hội kinh doanh cho đối tác
-- Chính sách của VinCons thu hút nhà thầu phụ
-- Chuyên gia: Việt Nam là tâm điểm thương mại AI ở châu Á
-- LPBank và Vietnam Post nâng cấp hợp tác, đẩy mạnh chuyển đổi số
-- Tập đoàn Rita Võ mở rộng hệ sinh thái đa ngành
-- SGI Capital: Cơ hội mua cổ phiếu tốt với giá rẻ đang đến
-- 
+- Marina Living: Dấu ấn trách nhiệm xã hội của BIM Land trong phân khúc nhà ở xã hội
 
 ---
 
@@ -86,24 +70,7 @@ pure diplomatic/international-relations content with no business angle.*
 *Sharp arguments, solid data/analysis, relevant to business owners/investors
 (80%) or economics/investment students (20%).*
 
-- Chủ tịch Tập đoàn Hoa Lâm đăng ký mua 22 triệu cổ phiếu Vietbank
-- Thanh khoản chứng khoán thấp nhất một tháng
-- Nhu cầu điện miền Bắc mỗi năm cần thêm 2.000 MW
-- VPBank lãi kỷ lục gần 11.000 tỷ đồng
-- Vay hơn 27.000 tỷ đồng mở rộng cao tốc TP HCM - Trung Lương - Mỹ Thuận
-- VN-Index xuống mức thấp nhất ba tháng
-- CII muốn vay hơn tỷ USD để mở rộng cao tốc TP HCM - Trung Lương - Mỹ Thuận
-- Kinh tế Trung Quốc tăng chậm nhất 4 năm
-- Cổ phiếu PNJ chạm trần
-- Vietbank chào sàn HoSE, vốn hóa hơn 14.000 tỷ đồng
-- World stocks fall in semiconductor rout; oil rises on Middle East escalation
-- Fed rate-hike voices swell before July decision, rates still seen on hold
-- US regional banks brush off war jitters with lending surge, fee boost
-- China set to leave benchmark lending rates unchanged for 14th month in July
-- Apple unseats Nvidia to become world's most valuable company as AI bets shift
-- Meta, Anthropic in talks for potential $10 billion compute lease deal, source says
-- 
-
+- (add examples here)
 
 ---
 
@@ -112,22 +79,7 @@ pure diplomatic/international-relations content with no business angle.*
 *Vague, soft, filler content — technically on-topic but not sharp or
 useful to the target audience.*
 
-- Chuyên gia: Không có kênh đầu tư nào chỉ tăng giá mà không giảm, nhà đầu tư cần chuẩn bị tâm lý sẵn
-- Giám đốc cấp cao của VinaCapital: Đầu tư hiệu suất thấp trong 6 tháng qua là bình thường
-- Khoảng 42,6% doanh nghiệp đang hoạt động có lãi
-- Doanh nghiệp kỳ vọng thu hẹp khoảng cách từ chính sách đến thực thi
-- Thị trường bất động sản đang trong quá trình thanh lọc
-- Thúc đẩy AI tại Việt Nam: Từ hạ tầng sẵn sàng đến bài toán triển khai thực tiễn
-- Giá vé trận tranh hạng ba World Cup giảm mạnh
-- Mất hàng chục triệu đồng vì mua vàng qua fanpage giả mạo SJC
-- PNJ tính thuê đơn vị quốc tế kiểm định quy trình và chất lượng kim cương
-- Bài học từ các nền kinh tế sở hữu tập đoàn hàng đầu thế giới
-- SGI Capital: Cơ hội mua cổ phiếu tốt với giá rẻ đang đến
-- Musk's SpaceX in talks to supply the Pentagon with computing power, WSJ reports
-- US judge won't block Meta from laying off workers who filed AI discrimination lawsuit
-- Top US prosecutor will not dispute DOJ decision to drop Indian tycoon Gautam Adani's criminal case
-- The economic goal that never came: World Cup falls short of boosting Mexico
-- 
+- (add examples here)
 
 ---
 

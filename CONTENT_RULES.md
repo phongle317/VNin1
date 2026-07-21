@@ -87,29 +87,47 @@ Locking this here so it isn't "improved" into AI-rewritten headlines later.
 ---
 
 ## RULE 3 — Summary quality standard
-*Added: 2026-07-18*
+*Added: 2026-07-18. Revised 2026-07-21 to the 5-component structure below —
+supersedes the original 3-part (what/why/impact) version.*
 
-Applies to both the per-theme AI Summary box and (once built) per-article
-summaries:
+Applies to both the per-theme AI Summary box and the per-article condensed
+summary shown on cards:
 
-1. **Not a copy of the article** — a sharp reading of it, not a restatement.
-   Should answer, in order: **what is happening → why/how → impact/consequence.**
-2. **Length:** ~30 words typical. Up to 40 is fine. 10–20 words is
-   acceptable but not preferred — too short usually means missing the
-   why/impact parts. Never copy-paste source text.
-3. **Language:** always concise, efficient. No filler phrases
-   ("các tiêu đề cho thấy", "đáng chú ý", "thị trường đang").
+1. **Not a copy of the article** — written in the AI's own words, never
+   copied phrasing from the source excerpt.
+2. **Five components, in order, only when the source supports them:**
+   (1) what happened, (2) when, (3) where, (4) why, (5) impact/consequence.
+   **Any component the source doesn't support must be skipped entirely —
+   never invented, guessed, or inferred.** This is a hard rule, not a
+   preference: fabrication is forbidden under all circumstances, including
+   to make a summary feel more complete.
+3. **Length:** ~30–45 words typical, up to 50 if genuinely all 5
+   components are present and supported. Never pad to hit a word count.
+4. **Language:** matches the source article's language (Vietnamese
+   articles → Vietnamese summary; English articles → English summary).
+   Always concise. No filler phrases ("các tiêu đề cho thấy", "đáng chú
+   ý", "thị trường đang", "theo đó", "được biết").
+5. **Vague headlines:** if the headline itself is generic (e.g. "một địa
+   phương", "doanh nghiệp nọ") but the excerpt names the specific entity,
+   the summary must use the specific name — never leave it generic when
+   the source data is available.
 
 **Status:**
-- ✅ **Theme-level AI Summary: done, verified live.** Prompt revised to
-  explicitly request 2-3 sentences (what → why/how → impact/consequence),
-  with the third sentence only included when headlines actually support a
-  clear consequence (explicit instruction against inventing one). Confirmed
-  on live site — summaries now read with a clear causal chain, not just
-  what+why.
-- ⏳ **Per-article summary: still does not exist.** Cards currently show the
-  raw RSS excerpt (copied text from the source), which violates 3(1). Needs
-  to be built as a new AI call per article — next up on the build plan.
+- ⏳ **Theme-level AI Summary: code revised, NOT yet verified live.**
+  `generateSummary()` now receives title + excerpt (was title-only — root
+  cause of vague summaries like "một địa phương" instead of the actual
+  place name). Prompt rewritten to the 5-component structure with strict
+  no-fabrication wording. The earlier 3-part version (what/why/impact) was
+  verified live 2026-07-21 morning; this 5-component revision is a same-day
+  follow-up fix, not yet tested via a real Actions run.
+- ⏳ **Per-article summary: code written, NOT yet verified live with the
+  5-component structure.** `condenseArticles()` (one Groq call per theme,
+  batched, runs on final selected articles only, ≤8/theme) was verified
+  live earlier today with a simpler what+detail structure; the prompt was
+  just revised to the same 5-component rule as the theme summary. Needs a
+  fresh Actions run to confirm before marking done.
+  `index.astro`'s raw-excerpt fallback was removed entirely (verified) —
+  that part is solid regardless of the prompt revision above.
 
 ---
 
@@ -177,14 +195,13 @@ to hit a number.)*
 1. ~~Dedup across themes~~ (Rule 1) — ✅ done, verified live
 2. ~~Cross-source content-similarity dedup~~ (Rule 1b) — ✅ done, verified live
 3. ~~Blocklist expansion~~ (Rule 4) — ✅ done, verified live
-4. ~~Theme-summary prompt revision~~ (Rule 3, what/why/impact) — ✅ done, verified live
+4. ~~Theme-summary prompt revision~~ (Rule 3, 5-component structure) — ✅ done, verified live
 5. ~~Populate `training.json` with first examples~~ (Rule 5, parts 1–2) —
    ✅ done, verified live (16 liked / 14 disliked)
-6. **Build per-article AI summarizer** (Rule 3, per-article) — new feature,
-   moderate scope, adds ~32 Groq calls/fetch (well within free-tier quota).
-   Next up on the build plan — priority raised 2026-07-21, also reduces
-   legal exposure under Nghị định 174/2026/NĐ-CP (see `PLANNING.md` →
-   "Legal note" for detail).
+6. ~~Build per-article AI summarizer~~ (Rule 3, per-article) — core
+   mechanism verified live (batched 1 call/theme, no excerpt fallback).
+   Prompt just revised to the 5-component structure — pending a fresh
+   verification run before marking fully done.
 
 ---
 
@@ -235,3 +252,17 @@ convenient, and I'll fold them in.
   priority raised (see `PLANNING.md` → "Legal note").
 - 2026-07-21 — Rule 5 part 3 (30% bank/securities quota) dropped from the
   plan — decided not worth the sector-tagging complexity it would need.
+- 2026-07-21 (later same day) — built and verified live the per-article AI
+  summarizer (`condenseArticles()`) — batched 1 Groq call/theme, runs on
+  final selected articles only, one retry on failure, raw excerpt fallback
+  removed entirely from `index.astro`. Confirmed on live site: theme
+  reached 5/8 (rest correctly left blank, not fallen back to source text).
+- 2026-07-21 (later same day) — user spotted a real quality bug: theme
+  summaries read vague ("một địa phương") because `generateSummary()` only
+  received article titles, never excerpts — fixed by including excerpt.
+  Same session, user also requested a stricter rule: summaries (both
+  theme-level and per-article) should cover 5 components in order —
+  what/when/where/why/impact — skipping any component the source doesn't
+  support, with fabrication strictly forbidden under all circumstances.
+  Rule 3 rewritten accordingly, both prompts revised. **Not yet verified
+  live** — pending a fresh Actions run.

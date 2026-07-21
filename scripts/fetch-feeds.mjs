@@ -668,15 +668,25 @@ async function condenseArticles(themeName, themeKey, articles) {
   const prompt = isIntl
     ? 'You are a financial wire editor. For each numbered headline+excerpt below, '
       + 'write an ORIGINAL English summary in your own words (never copy phrasing '
-      + 'from the excerpt), 30-45 words. Structure: what happened, plus one sharp '
-      + 'relevant detail. No filler like "reports say" or "according to".\n\n'
+      + 'from the excerpt), 30-45 words, covering IN THIS ORDER only the components '
+      + 'actually supported by the text: 1. What happened 2. When 3. Where 4. Why '
+      + '5. Impact/consequence.\n\n'
+      + 'STRICT RULE: If the text does not support one of these five components, '
+      + 'SKIP it — do NOT invent, guess, or infer one that isn\'t there. Fabrication '
+      + 'is forbidden under all circumstances, even to make an item feel complete. '
+      + 'No filler like "reports say" or "according to".\n\n'
       + 'Return ONLY a JSON array, nothing else: [{"index":1,"summary":"..."}]\n'
-      + 'If you are not confident summarizing an item accurately, OMIT it from the '
-      + 'array rather than guessing.\n\nItems:\n' + list
+      + 'If you are not confident summarizing an item accurately at all, OMIT it '
+      + 'from the array rather than guessing.\n\nItems:\n' + list
     : 'Bạn là biên tập viên tài chính. Với mỗi tiêu đề + trích đoạn được đánh số '
       + 'dưới đây, viết một tóm tắt tiếng Việt HOÀN TOÀN BẰNG LỜI VĂN CỦA BẠN '
-      + '(không sao chép câu chữ từ trích đoạn gốc), 30-45 từ. Cấu trúc: điều gì '
-      + 'xảy ra, kèm một chi tiết đáng chú ý. Không dùng "theo đó", "được biết".\n\n'
+      + '(không sao chép câu chữ từ trích đoạn gốc), 30-45 từ, gồm THEO ĐÚNG THỨ TỰ '
+      + 'chỉ những thành phần thực sự có trong nguồn: 1. Điều gì xảy ra 2. Khi nào '
+      + '3. Ở đâu 4. Tại sao 5. Tác động/hệ quả.\n\n'
+      + 'QUY TẮC NGHIÊM NGẶT: Nếu nguồn không có dữ liệu cho một thành phần nào, BỎ '
+      + 'QUA thành phần đó — TUYỆT ĐỐI KHÔNG bịa, suy đoán, hoặc thêm chi tiết không '
+      + 'có trong nguồn, dưới bất kỳ hình thức nào, kể cả để câu văn nghe đầy đủ hơn. '
+      + 'Không dùng "theo đó", "được biết".\n\n'
       + 'Chỉ trả về JSON, không thêm gì khác: [{"index":1,"summary":"..."}]\n'
       + 'Nếu không đủ tự tin tóm tắt chính xác một mục nào, BỎ QUA mục đó thay vì '
       + 'đoán bừa.\n\nDanh sách:\n' + list;
@@ -717,29 +727,50 @@ async function generateSummary(themeName, themeKey, articles) {
   if (!process.env.GROQ_API_KEY) { console.warn('  \u26a0 GROQ_API_KEY not set'); return null; }
   if (articles.length === 0) return null;
 
-  const headlines = articles.slice(0, 12).map((a, i) => (i + 1) + '. ' + a.title).join('\n');
+  // Include excerpt, not just title — headlines are often vague by design
+  // ("Một địa phương...", "Doanh nghiệp nọ...") and the excerpt usually has
+  // the specific name/number the headline omits. Without this, the AI
+  // faithfully reflects a vague headline instead of being specific.
+  const headlines = articles.slice(0, 12)
+    .map((a, i) => (i + 1) + '. ' + a.title + (a.excerpt ? ' — ' + a.excerpt : ''))
+    .join('\n');
 
   let prompt;
   if (themeKey === 'international') {
-    prompt = 'You are a financial wire editor. Based only on these headlines, write a Vietnamese summary in 2-3 sentences (~30 words typical, 40 words max).\n\n'
-      + 'STRUCTURE:\n'
-      + 'Sentence 1: What happened — specific: index names, % moves, company names.\n'
-      + 'Sentence 2: Why/how — one sharp causal factor.\n'
-      + 'Sentence 3: Impact/consequence — what this means going forward (for rates, investors, the sector). '
-      + 'Only include if the headlines actually support a clear consequence — otherwise stop at 2 sentences rather than inventing one.\n\n'
-      + 'RULES: No filler. Lead with numbers/names. Vietnamese only. No speculation beyond what headlines support. Start directly.\n\n'
-      + 'GOOD: "S&P 500 tăng 1,7% sau số liệu việc làm Mỹ yếu hơn dự báo. Thị trường lao động hạ nhiệt nhanh hơn kỳ vọng. Khả năng Fed cắt lãi suất trong cuộc họp tới tăng lên rõ rệt."\n\n'
+    prompt = 'You are a financial wire editor. Each item below has a headline and an '
+      + 'excerpt (after the dash). Write a Vietnamese summary covering, IN THIS ORDER, '
+      + 'only the components actually supported by the text:\n'
+      + '1. What happened\n2. When\n3. Where\n4. Why\n5. Impact/consequence\n\n'
+      + 'STRICT RULE: If the text does not support one of these five components, SKIP '
+      + 'it entirely — do NOT invent, guess, or infer a when/where/why/impact that '
+      + 'isn\'t actually there. Fabrication is forbidden under all circumstances, even '
+      + 'to make the summary feel more complete.\n\n'
+      + 'Length: ~30-45 words, up to 50 if genuinely all 5 components are present. '
+      + 'If a headline is vague (e.g. "a company", "a region"), use the excerpt to name '
+      + 'the specific entity instead. No filler. Vietnamese only. Start directly.\n\n'
+      + 'GOOD (what+why+impact present, no specific when/where in source so both '
+      + 'skipped): "S&P 500 tăng 1,7% sau số liệu việc làm Mỹ yếu hơn dự báo. Thị '
+      + 'trường lao động hạ nhiệt nhanh hơn kỳ vọng. Khả năng Fed cắt lãi suất trong '
+      + 'cuộc họp tới tăng lên rõ rệt."\n\n'
       + 'Headlines:\n' + headlines;
   } else {
-    prompt = 'Bạn là biên tập viên tin tức tài chính. Viết tóm tắt cho mục "' + themeName + '":\n\n'
-      + 'CẤU TRÚC (2-3 câu, khoảng 30 từ, tối đa 40 từ):\n'
-      + 'Câu 1: Điều gì xảy ra — số liệu, tên công ty, mức thay đổi cụ thể.\n'
-      + 'Câu 2: Tại sao/như thế nào — một nguyên nhân ngắn gọn.\n'
-      + 'Câu 3: Tác động/hệ quả — điều này ảnh hưởng gì tiếp theo (nhà đầu tư, ngành, chính sách...). '
-      + 'Chỉ thêm câu này nếu tiêu đề thực sự cho đủ dữ kiện — nếu không, dừng ở 2 câu thay vì suy đoán.\n\n'
+    prompt = 'Bạn là biên tập viên tin tức tài chính. Mỗi mục dưới đây gồm tiêu đề và '
+      + 'trích đoạn (sau dấu gạch ngang). Viết tóm tắt cho mục "' + themeName + '" bao '
+      + 'gồm, THEO ĐÚNG THỨ TỰ, chỉ những thành phần thực sự có trong nguồn:\n'
+      + '1. Điều gì xảy ra\n2. Khi nào\n3. Ở đâu\n4. Tại sao\n5. Tác động/hệ quả\n\n'
+      + 'QUY TẮC NGHIÊM NGẶT: Nếu nguồn không cung cấp dữ liệu cho một thành phần nào, '
+      + 'BỎ QUA thành phần đó hoàn toàn — TUYỆT ĐỐI KHÔNG bịa, suy đoán, hoặc thêm '
+      + 'chi tiết không có trong tiêu đề/trích đoạn, dưới bất kỳ hình thức nào, kể cả '
+      + 'để câu văn nghe đầy đủ hơn.\n\n'
+      + 'Độ dài: khoảng 30-45 từ, tối đa 50 từ nếu thực sự đủ cả 5 thành phần.\n'
       + 'KHÔNG dùng: "các tiêu đề cho thấy", "thị trường đang", "đáng chú ý".\n'
-      + 'Bắt đầu TRỰC TIẾP. Chỉ dùng thông tin từ tiêu đề. Tiếng Việt có dấu đầy đủ.\n\n'
-      + 'VÍ DỤ: "PNJ giảm kịch sàn, dư bán 12,5 triệu đơn vị sau vụ khởi tố giám đốc P-Lab. Nhóm cổ phiếu chứng khoán nhỏ tăng hơn 14%, dẫn đầu thanh khoản. Tâm lý nhà đầu tư có thể còn thận trọng với nhóm ngành này trong ngắn hạn."\n\n'
+      + 'Nếu tiêu đề mơ hồ (vd: "một địa phương", "doanh nghiệp nọ"), dùng trích đoạn '
+      + 'để nêu đích danh — không để chung chung nếu trích đoạn đã có tên cụ thể.\n'
+      + 'Bắt đầu TRỰC TIẾP. Tiếng Việt có dấu đầy đủ.\n\n'
+      + 'VÍ DỤ (có what/why/impact, nguồn không nêu rõ khi nào/ở đâu nên bỏ qua 2 mục '
+      + 'đó): "PNJ giảm kịch sàn, dư bán 12,5 triệu đơn vị sau vụ khởi tố giám đốc '
+      + 'P-Lab. Nhóm cổ phiếu chứng khoán nhỏ tăng hơn 14%, dẫn đầu thanh khoản. Tâm lý '
+      + 'nhà đầu tư có thể còn thận trọng với nhóm ngành này trong ngắn hạn."\n\n'
       + 'Tiêu đề:\n' + headlines;
   }
 
