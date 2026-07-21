@@ -9,6 +9,9 @@ const { decode } = he;
 // ─── Constants ────────────────────────────────────────────────────────────────
 const MAX_ITEMS_PER_FEED     = 5;   // fetch up to 5 per source (training filters down)
 const MAX_ARTICLES_PER_THEME = 8;   // display at most 8 per theme after filtering
+const SCORE_BATCH_LIMIT      = 20;  // cap articles sent to Groq for scoring per theme —
+                                     // keeps prompt/response size predictable as more
+                                     // sources get added, avoids TPM rate-limit risk
 const EXCERPT_LENGTH         = 160;
 const FETCH_TIMEOUT_MS       = 15000;
 
@@ -45,11 +48,6 @@ const THEMES = [
         candidateUrls: ['https://vnexpress.net/rss/kinh-doanh.rss']
       },
       {
-        sourceId: 'thanhnien', sourceName: 'Thanh Niên',
-        sourceUrl: 'https://thanhnien.vn', attribution: 'Thanh Niên',
-        candidateUrls: ['https://thanhnien.vn/rss/kinh-te.rss']
-      },
-      {
         sourceId: 'vietstock', sourceName: 'Vietstock',
         sourceUrl: 'https://vietstock.vn', attribution: 'Vietstock',
         candidateUrls: ['https://vietstock.vn/757/tai-chinh/ngan-hang.rss']
@@ -81,11 +79,6 @@ const THEMES = [
         candidateUrls: ['https://vnexpress.net/rss/bat-dong-san.rss']
       },
       {
-        sourceId: 'thanhnien', sourceName: 'Thanh Niên',
-        sourceUrl: 'https://thanhnien.vn', attribution: 'Thanh Niên',
-        candidateUrls: ['https://thanhnien.vn/rss/kinh-te.rss']
-      },
-      {
         sourceId: 'cafebiz', sourceName: 'CafeBiz',
         sourceUrl: 'https://cafebiz.vn', attribution: 'CafeBiz',
         candidateUrls: ['https://cafebiz.vn/rss/bat-dong-san.rss']
@@ -110,11 +103,6 @@ const THEMES = [
         sourceId: 'vnexpress', sourceName: 'VnExpress',
         sourceUrl: 'https://vnexpress.net', attribution: 'VnExpress',
         candidateUrls: ['https://vnexpress.net/rss/kinh-doanh.rss']
-      },
-      {
-        sourceId: 'thanhnien', sourceName: 'Thanh Niên',
-        sourceUrl: 'https://thanhnien.vn', attribution: 'Thanh Niên',
-        candidateUrls: ['https://thanhnien.vn/rss/kinh-te.rss']
       },
       {
         sourceId: 'cafebiz', sourceName: 'CafeBiz',
@@ -315,7 +303,7 @@ async function fetchWithTimeout(url, options = {}) {
   }
 }
 
-async function groqCall(prompt) {
+async function groqCall(prompt, maxTokens = 300) {
   const apiKey = process.env.GROQ_API_KEY;
   if (!apiKey) throw new Error('GROQ_API_KEY not set');
   const res = await fetchWithTimeout(GROQ_ENDPOINT, {
@@ -324,7 +312,7 @@ async function groqCall(prompt) {
     body: JSON.stringify({
       model: GROQ_MODEL,
       messages: [{ role: 'user', content: prompt }],
-      max_tokens: 300,
+      max_tokens: maxTokens,
       temperature: 0.2
     })
   });
@@ -394,7 +382,14 @@ async function scoreAndFilter(articles, training, maxArticles) {
     return articles.slice(0, maxArticles);
   }
 
-  const titleList = articles.map((a, i) => (i + 1) + '. ' + a.title).join('\n');
+  // Cách A — cap how many articles get sent to Groq for scoring. `articles`
+  // is already sorted newest-first (from fetchTheme), so this keeps the
+  // freshest ones and just excludes the older overflow from the AI call
+  // entirely — they still exist as a safety-net pool below, just unscored.
+  const toScore = articles.slice(0, SCORE_BATCH_LIMIT);
+  const overflow = articles.slice(SCORE_BATCH_LIMIT);
+
+  const titleList = toScore.map((a, i) => (i + 1) + '. ' + a.title).join('\n');
   const likedList  = training.liked.length  ? training.liked.map(t => '- ' + t).join('\n')  : '(none yet)';
   const dislikedList = training.disliked.length ? training.disliked.map(t => '- ' + t).join('\n') : '(none yet)';
 
@@ -413,15 +408,23 @@ async function scoreAndFilter(articles, training, maxArticles) {
     + 'Headlines:\n' + titleList;
 
   try {
-    const raw = await groqCall(prompt);
+    // Needs a generous token budget: with 11 sources some themes can have
+    // 25-30 articles, and the JSON response now includes both per-article
+    // scores AND duplicate-group indices. The old 300-token default (fine
+    // for short AI summaries) was truncating this response on themes with
+    // many sources — confirmed via two real runs both failing exactly on
+    // the highest-article-count themes. 1500 gives ample headroom even as
+    // more sources get added later.
+    const raw = await groqCall(prompt, 1500);
     const clean = raw.replace(/```json|```/g, '').trim();
     const parsed = JSON.parse(clean);
     const scores = parsed.scores ?? [];
     const duplicateGroups = parsed.duplicateGroups ?? [];
 
-    // Combine relevance score with recency bonus
+    // Combine relevance score with recency bonus (only for the batch that was
+    // actually sent to Groq — toScore)
     const now = Date.now();
-    const scored = articles.map((a, i) => {
+    const scored = toScore.map((a, i) => {
       const s = scores.find(x => x.index === i + 1);
       const relevance = s?.score ?? 5;
       // Recency bonus: articles from last 6 hours get +2, last 24h get +1
@@ -454,10 +457,16 @@ async function scoreAndFilter(articles, training, maxArticles) {
 
     deduped.sort((a, b) => b._score - a._score);
 
-    // Drop clearly irrelevant (score < 3) but always keep at least 4 articles
+    // Drop clearly irrelevant (score < 3) but always keep at least 4 articles.
+    // If the scored batch alone can't reach MIN_KEEP, fall back to the
+    // unscored overflow pool (oldest articles, excluded from the Groq call
+    // by SCORE_BATCH_LIMIT) rather than showing fewer than 4 articles.
     const MIN_KEEP = 4;
     const filtered = deduped.filter(a => a._score >= 3);
-    const result = (filtered.length >= MIN_KEEP ? filtered : deduped).slice(0, maxArticles);
+    let result = (filtered.length >= MIN_KEEP ? filtered : deduped).slice(0, maxArticles);
+    if (result.length < MIN_KEEP && overflow.length > 0) {
+      result = result.concat(overflow.slice(0, MIN_KEEP - result.length));
+    }
     console.log('  \u2713 Training filter: ' + result.length + '/' + articles.length + ' kept');
     return result.map(({ _score, ...a }) => a);
   } catch (err) {
@@ -692,6 +701,10 @@ async function main() {
   for (const theme of THEMES) {
     const articles = await fetchTheme(theme, training, seenLinks);
     themeResults.push({ key: theme.key, displayName: theme.displayName, articles });
+    // Cách B — small gap between themes so the 4 scoring calls to Groq don't
+    // all land in the same 60-second window (TPM rate-limit risk), now that
+    // 11 sources mean longer prompts/responses than before.
+    await new Promise(r => setTimeout(r, 2000));
   }
 
   // 2. Market data
