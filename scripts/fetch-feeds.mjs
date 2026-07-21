@@ -398,18 +398,26 @@ async function scoreAndFilter(articles, training, maxArticles) {
   const likedList  = training.liked.length  ? training.liked.map(t => '- ' + t).join('\n')  : '(none yet)';
   const dislikedList = training.disliked.length ? training.disliked.map(t => '- ' + t).join('\n') : '(none yet)';
 
-  const prompt = 'You are a news relevance filter for a Vietnamese financial news reader.\n\n'
+  const prompt = 'You are a news relevance filter and duplicate-detector for a Vietnamese financial news reader.\n\n'
     + 'The reader LIKES stories like these:\n' + likedList + '\n\n'
     + 'The reader DISLIKES stories like these:\n' + dislikedList + '\n\n'
-    + 'Score each headline below 1-10 for relevance to this reader\'s taste.\n'
-    + 'Return ONLY a JSON array of objects with "index" (1-based) and "score" fields.\n'
-    + 'Example: [{"index":1,"score":8},{"index":2,"score":3}]\n\n'
+    + 'TASK 1 — Score each headline below 1-10 for relevance to this reader\'s taste.\n\n'
+    + 'TASK 2 — Some headlines may describe the SAME real-world event or story, just '
+    + 'written differently by different outlets (e.g. two outlets both covering the same '
+    + 'company announcement, project groundbreaking, or policy change, with different '
+    + 'wording). Group any such headlines together by their index number.\n\n'
+    + 'Return ONLY a JSON object with this exact shape, nothing else:\n'
+    + '{"scores":[{"index":1,"score":8},{"index":2,"score":3}],"duplicateGroups":[[3,7],[5,12]]}\n'
+    + '"duplicateGroups" holds arrays of 2+ indices that describe the same event. '
+    + 'If none found, use an empty array for "duplicateGroups".\n\n'
     + 'Headlines:\n' + titleList;
 
   try {
     const raw = await groqCall(prompt);
     const clean = raw.replace(/```json|```/g, '').trim();
-    const scores = JSON.parse(clean);
+    const parsed = JSON.parse(clean);
+    const scores = parsed.scores ?? [];
+    const duplicateGroups = parsed.duplicateGroups ?? [];
 
     // Combine relevance score with recency bonus
     const now = Date.now();
@@ -422,12 +430,34 @@ async function scoreAndFilter(articles, training, maxArticles) {
       return { ...a, _score: relevance + recencyBonus };
     });
 
-    scored.sort((a, b) => b._score - a._score);
+    // Cross-source content-similarity dedup (Rule 1b) — same real-world event
+    // covered by different outlets under different links, so the exact-link
+    // dedup in fetchTheme() can't catch it. Within each group flagged by
+    // Groq, keep only the highest-scoring article, drop the rest.
+    const dropIndices = new Set();
+    for (const group of duplicateGroups) {
+      if (!Array.isArray(group) || group.length < 2) continue;
+      let bestIdx = null, bestScore = -Infinity;
+      for (const idx of group) {
+        const s = scored[idx - 1];
+        if (!s) continue;
+        if (s._score > bestScore) { bestScore = s._score; bestIdx = idx; }
+      }
+      for (const idx of group) {
+        if (idx !== bestIdx) dropIndices.add(idx);
+      }
+    }
+    const deduped = scored.filter((a, i) => !dropIndices.has(i + 1));
+    if (dropIndices.size > 0) {
+      console.log('  \u2713 Cross-source dedup: ' + dropIndices.size + ' similar-content duplicate(s) dropped');
+    }
+
+    deduped.sort((a, b) => b._score - a._score);
 
     // Drop clearly irrelevant (score < 3) but always keep at least 4 articles
     const MIN_KEEP = 4;
-    const filtered = scored.filter(a => a._score >= 3);
-    const result = (filtered.length >= MIN_KEEP ? filtered : scored).slice(0, maxArticles);
+    const filtered = deduped.filter(a => a._score >= 3);
+    const result = (filtered.length >= MIN_KEEP ? filtered : deduped).slice(0, maxArticles);
     console.log('  \u2713 Training filter: ' + result.length + '/' + articles.length + ' kept');
     return result.map(({ _score, ...a }) => a);
   } catch (err) {
