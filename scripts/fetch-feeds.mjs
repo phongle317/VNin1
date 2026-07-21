@@ -708,7 +708,10 @@ async function condenseArticles(themeName, themeKey, articles) {
   try {
     results = await attempt();
   } catch (err) {
-    console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message + ' — retrying once');
+    const isRateLimit = /429/.test(err.message);
+    console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message
+      + (isRateLimit ? ' — rate limited, backing off 10s before retry' : ' — retrying'));
+    await new Promise(r => setTimeout(r, isRateLimit ? 10000 : 2000));
     try {
       results = await attempt();
     } catch (err2) {
@@ -816,10 +819,11 @@ async function main() {
   for (const theme of THEMES) {
     const articles = await fetchTheme(theme, training, seenLinks);
     themeResults.push({ key: theme.key, displayName: theme.displayName, articles });
-    // Cách B — small gap between themes so the 4 scoring calls to Groq don't
-    // all land in the same 60-second window (TPM rate-limit risk), now that
-    // 11 sources mean longer prompts/responses than before.
-    await new Promise(r => setTimeout(r, 2000));
+    // Cách B — gap between themes so the Groq calls don't all land in the
+    // same rate-limit window. Increased 2s → 4s after a real 429 (rate
+    // limit) was hit once total Groq calls/run grew to 12+ (scorer +
+    // condenser + summary combined).
+    await new Promise(r => setTimeout(r, 4000));
   }
 
   // 2. Market data
@@ -834,14 +838,14 @@ async function main() {
   console.log('\nCondensing articles...');
   for (const theme of themeResults) {
     theme.articles = await condenseArticles(theme.displayName, theme.key, theme.articles);
-    await new Promise(r => setTimeout(r, 2000)); // same TPM-safety gap as theme scoring
+    await new Promise(r => setTimeout(r, 4000)); // same rate-limit-safety gap as theme scoring
   }
 
   // 4. AI summaries
   console.log('\nGenerating AI summaries...');
   for (const theme of themeResults) {
     theme.aiSummary = await generateSummary(theme.displayName, theme.key, theme.articles);
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 3000));
   }
 
   // 5. Write output
