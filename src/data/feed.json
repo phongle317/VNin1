@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T17:15:08.742Z",
+  "lastUpdated": "2026-07-22T19:09:42.143Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4162.6,
+      "value": 4150.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7517.64,
-      "change": -54.75999999999931,
-      "changePercent": -0.7231525011885177
+      "value": 7516.33,
+      "change": -56.06999999999971,
+      "changePercent": -0.7404521684010316
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25809.186,
-      "change": -460.04399999999805,
-      "changePercent": -1.7512656442537449
+      "value": 25796.742,
+      "change": -472.4880000000012,
+      "changePercent": -1.7986366558898044
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25174.1,
-      "change": 174.5699999999997,
-      "changePercent": 0.6982931279108036
+      "value": 25155.41,
+      "change": 155.88000000000102,
+      "changePercent": 0.6235317223963852
     }
   ],
   "themes": [
@@ -63,6 +63,83 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Chứng khoán Việt Nam mất 1,3 triệu tỷ đồng vốn hóa",
+          "link": "https://cafef.vn/chung-khoan-viet-nam-mat-13-trieu-ty-dong-von-hoa-188260722225851876.chn",
+          "pubDate": "2026-07-22T17:05:00.000Z",
+          "excerpt": "VN-Index đã mất gần 260 điểm từ đỉnh, vốn hóa toàn thị trường chứng khoán giảm 1,3 triệu tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Vốn hóa thị trường chứng khoán giảm 1,3 triệu tỷ đồng."
+        },
+        {
+          "title": "Báo lãi quý 2 tăng vọt, một doanh nghiệp chuẩn bị \"lăn chốt\" cổ tức 3.000 đồng/cp",
+          "link": "https://cafef.vn/bao-lai-quy-2-tang-vot-mot-doanh-nghiep-chuan-bi-lan-chot-co-tuc-3000-dong-cp-18826072222075069.chn",
+          "pubDate": "2026-07-22T17:04:00.000Z",
+          "excerpt": "Thời gian thanh toán dự kiến vào ngày 16/10/2026.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Doanh nghiệp chuẩn bị trả cổ tức 3.000 đồng/cp."
+        },
+        {
+          "title": "Lời khuyên cho nhà đầu tư chứng khoán sau nhịp \"lao dốc\" gần 200 điểm của VN-Index",
+          "link": "https://cafef.vn/loi-khuyen-cho-nha-dau-tu-chung-khoan-sau-nhip-lao-doc-gan-200-diem-cua-vn-index-188260722222057465.chn",
+          "pubDate": "2026-07-22T17:03:00.000Z",
+          "excerpt": "Vị chuyên gia cho rằng nhà đầu tư cần hạn chế tâm lý đuổi giá khi cổ phiếu tăng nóng, thay vào đó nên chuẩn bị kế hoạch giải ngân tại những nhịp biến động mạnh.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Nhà đầu tư cần hạn chế tâm lý đuổi giá."
+        },
+        {
+          "title": "Tiền nằm chờ trên tài khoản chứng khoán thấp nhất 6 quý",
+          "link": "https://cafef.vn/tien-nam-cho-tren-tai-khoan-chung-khoan-thap-nhat-6-quy-188260722231319651.chn",
+          "pubDate": "2026-07-22T17:01:00.000Z",
+          "excerpt": "Chỉ trong vòng 3 tháng, số dư tiền gửi của khách hàng tại các công ty chứng khoán đã giảm khoảng 32.000 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Số dư tiền gửi tại công ty chứng khoán giảm."
+        },
+        {
+          "title": "Hãng mũ bảo hiểm xe đạp cuối cùng tại Đức chuyển sản xuất sang Trung Quốc",
+          "link": "https://vnexpress.net/hang-mu-bao-hiem-xe-dap-cuoi-cung-tai-duc-chuyen-san-xuat-sang-trung-quoc-5100458.html",
+          "pubDate": "2026-07-22T17:00:00.000Z",
+          "excerpt": "Tháng trước, KED (Đức) thông báo dừng sản xuất trong nước từ cuối năm nay, khi chi phí nhân công, nguyên liệu và sức ép cạnh tranh ngày càng…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Hãng mũ bảo hiểm chuyển sản xuất sang Trung Quốc."
+        },
+        {
+          "title": "Tiền cá nhân bắt đáy, gom ròng 2.000 tỷ",
+          "link": "https://vneconomy.vn/tien-ca-nhan-bat-day-gom-rong-2000-ty.htm",
+          "pubDate": "2026-07-22T15:46:30.000Z",
+          "excerpt": "Nhà đầu tư cá nhân trong nước hôm nay mua ròng 1.863,8 tỷ đồng, riêng khớp lệnh mua ròng 2.070 tỷ đồng.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Nhà đầu tư cá nhân mua ròng 2.000 tỷ đồng."
+        },
+        {
+          "title": "Eximbank công bố danh sách ứng viên HĐQT trước thềm ĐHĐCĐ bất thường",
+          "link": "http://vietstock.vn/2026/07/eximbank-cong-bo-danh-sach-ung-vien-hdqt-truoc-them-dhdcd-bat-thuong-757-1469894.htm",
+          "pubDate": "2026-07-22T15:32:40.000Z",
+          "excerpt": "Ngân hàng TMCP Xuất Nhập khẩu Việt Nam (Eximbank, HOSE: EIB) dự kiến tổ chức ĐHĐCĐ bất thường năm 2026 vào ngày 24/07/2026 tại Hà Nội. Đại hội dự kiến miễn…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "Eximbank công bố danh sách ứng viên HĐQT."
+        },
         {
           "title": "Tổng giám đốc Thép Nam Kim đăng ký mua 1 triệu cổ phiếu NKG",
           "link": "https://cafef.vn/tong-giam-doc-thep-nam-kim-dang-ky-mua-1-trieu-co-phieu-nkg-188260722213041588.chn",
@@ -72,84 +149,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Tổng giám đốc Thép Nam Kim mua 1 triệu cổ phiếu NKG để đầu tư tài chính."
-        },
-        {
-          "title": "Hòa Phát cất nóc công trình hơn 800 căn nhà ở xã hội tại Hưng Yên",
-          "link": "https://cafef.vn/hoa-phat-cat-noc-cong-trinh-hon-800-can-nha-o-xa-hoi-tai-hung-yen-188260722205743114.chn",
-          "pubDate": "2026-07-22T13:57:00.000Z",
-          "excerpt": "Công trình hoàn thiện gồm 2 cụm tòa cao 11 tầng, cung cấp 842 căn hộ nhà ở xã hội với diện tích đa dạng từ 34,9 đến 77m², được tối ưu hóa ánh sáng tự nhiên và…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Hòa Phát cất nóc công trình 842 căn nhà xã hội tại Hưng Yên."
-        },
-        {
-          "title": "Vì sao chứng khoán lao dốc, mất hơn 60 điểm?",
-          "link": "https://vnexpress.net/vi-sao-chung-khoan-lao-doc-mat-hon-60-diem-5100511.html",
-          "pubDate": "2026-07-22T13:16:02.000Z",
-          "excerpt": "VN-Index chốt phiên ở 1.668 điểm, thấp nhất 4 tháng bởi lực bán giải chấp diện rộng, cùng tâm lý bi quan của nhà đầu tư trong nước và đợt rút vốn mạnh từ khối…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Chứng khoán mất hơn 60 điểm do lực bán và tâm lý bi quan."
-        },
-        {
-          "title": "Cựu Tổng Giám đốc SJC chỉ đạo trưởng phòng kinh doanh nhập lậu kim cương, đưa vào hệ thống bán lẻ",
-          "link": "https://cafef.vn/cuu-tong-giam-doc-sjc-chi-dao-truong-phong-kinh-doanh-nhap-lau-kim-cuong-dua-vao-he-thong-ban-le-188260722201622895.chn",
-          "pubDate": "2026-07-22T13:16:00.000Z",
-          "excerpt": "Công an tỉnh Thanh Hóa đã vạch trần thủ đoạn tinh vi của các đối tượng, hòng đưa kim cương nhập lậu vào hệ thống bán lẻ SJC.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cựu Tổng Giám đốc SJC chỉ đạo nhập lậu kim cương vào hệ thống bán lẻ."
-        },
-        {
-          "title": "Tài sản của các tỷ phú Việt giảm hơn 3 tỷ USD",
-          "link": "https://vnexpress.net/tai-san-cua-cac-ty-phu-viet-giam-hon-3-ty-usd-5100486.html",
-          "pubDate": "2026-07-22T12:56:25.000Z",
-          "excerpt": "Tài sản của các tỷ phú Việt giảm 3,1 tỷ USD sau phiên chứng khoán \"bốc hơi\" hơn 60 điểm hôm nay.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Tài sản tỷ phú Việt giảm 3,1 tỷ USD sau phiên chứng khoán giảm."
-        },
-        {
-          "title": "SJC: 170.000 viên đá màu, đá quý, đá bán quý nằm ngoài bảng cân đối kế toán",
-          "link": "https://cafef.vn/sjc-170000-vien-da-mau-da-quy-da-ban-quy-nam-ngoai-bang-can-doi-ke-toan-188260722181729184.chn",
-          "pubDate": "2026-07-22T12:56:00.000Z",
-          "excerpt": "Theo Báo cáo tài chính 2025, công ty SJC đang theo dõi, quản lý ngoài bảng cân đối kế toán một lượng lớn đá màu, đá quý, đá bán quý.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "SJC theo dõi 170.000 viên đá màu ngoài bảng cân đối kế toán."
-        },
-        {
-          "title": "SJC thu lại kim cương giá bao nhiêu, trường hợp nào từ chối mua?",
-          "link": "https://cafef.vn/sjc-thu-lai-kim-cuong-gia-bao-nhieu-truong-hop-nao-tu-choi-mua-188260722181825197.chn",
-          "pubDate": "2026-07-22T11:18:00.000Z",
-          "excerpt": "Chính sách thu mua lại kim cương của SJC đang được nhiều người quan tâm sau khi có thông tin khoảng 3.400 viên kim cương nhập lậu được đưa vào hệ thống.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "SJC thu lại kim cương với chính sách cụ thể."
-        },
-        {
-          "title": "Vingroup bán 10% vốn công ty bảo hiểm cho One Mount Group",
-          "link": "https://vnexpress.net/vingroup-ban-10-von-cong-ty-bao-hiem-cho-one-mount-group-5100423.html",
-          "pubDate": "2026-07-22T11:10:47.000Z",
-          "excerpt": "Vingroup sẽ chuyển nhượng toàn bộ 10% cổ phần tại Công ty cổ phần bảo hiểm nhân thọ Kỹ thương (Techcom Life) cho One Mount Group.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Vingroup bán 10% vốn bảo hiểm cho One Mount Group."
+          "condensed": "Tổng giám đốc Thép Nam Kim đăng ký mua cổ phiếu."
         }
       ],
       "aiSummary": null
@@ -158,6 +158,50 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Ngắm 10 làn trượt nước dài hơn 1.000 m tạo nên kỷ lục thế giới trong công viên có 10.000 cây dừa ở TP.HCM",
+          "link": "https://cafef.vn/ngam-10-lan-truot-nuoc-dai-hon-1000-m-tao-nen-ky-luc-the-gioi-trong-cong-vien-co-10000-cay-dua-o-tphcm-188260720154452272.chn",
+          "pubDate": "2026-07-22T17:02:00.000Z",
+          "excerpt": "Nằm ở trung tâm dự án 37.000 tỷ đồng Blanca City, công viên giải trí 15ha đã đưa vào sử dụng siêu đường đua nước 10 làn trượt đầu tiên trên thế giới và tàu…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Công viên giải trí ở TP.HCM có làn trượt nước dài hơn 1.000 m tạo kỷ lục thế giới."
+        },
+        {
+          "title": "Siêu dự án hơn 25.000 tỷ đồng do Sun Group triển khai, nối Hà Nội với sân bay lớn nhất miền Bắc nhận chỉ đạo mới",
+          "link": "https://cafef.vn/sieu-du-an-hon-25000-ty-dong-do-sun-group-trien-khai-noi-ha-noi-voi-san-bay-lon-nhat-mien-bac-nhan-chi-dao-moi-188260722234458544.chn",
+          "pubDate": "2026-07-22T16:44:00.000Z",
+          "excerpt": "Lãnh đạo UBND tỉnh Bắc Ninh vừa yêu cầu các sở, ngành, địa phương và đơn vị liên quan đẩy nhanh tiến độ giải phóng mặt bằng, thi công tuyến đường kết nối Cảng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "TPHCM dự kiến ban hành 154 nghị quyết triển khai Luật Phát triển đô thị",
+          "link": "https://cafef.vn/tphcm-du-kien-ban-hanh-154-nghi-quyet-trien-khai-luat-phat-trien-do-thi-188260722214053622.chn",
+          "pubDate": "2026-07-22T15:57:00.000Z",
+          "excerpt": "Chiều 22-7, Tổ Chỉ đạo triển khai thực hiện Luật Phát triển đô thị của Thường trực HĐND TPHCM đã tổ chức phiên họp nhằm đánh giá tiến độ, thảo luận giải pháp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Không phải Phú Quốc hay Đà Lạt, đây mới là những điểm đến được người Việt săn tìm nhiều nhất cuối hè 2026",
+          "link": "https://cafef.vn/khong-phai-phu-quoc-hay-da-lat-day-moi-la-nhung-diem-den-duoc-nguoi-viet-san-tim-nhieu-nhat-cuoi-he-2026-188260722225427983.chn",
+          "pubDate": "2026-07-22T15:54:00.000Z",
+          "excerpt": "Người Việt đang thay đổi xu hướng du lịch cuối hè, với nhiều lựa chọn khác biệt so với những năm trước.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Xây dựng Anh Quân chi 500 tỷ đồng mua lại trái phiếu trước hạn",
           "link": "https://cafef.vn/xay-dung-anh-quan-chi-500-ty-dong-mua-lai-trai-phieu-truoc-han-188260722213302674.chn",
@@ -170,48 +214,15 @@
           "condensed": "Xây dựng Anh Quân mua lại 500 tỷ đồng trái phiếu trước hạn."
         },
         {
-          "title": "Bất động sản An Gia chuẩn bị phát hành thêm 18,8 triệu cổ phiếu",
-          "link": "https://cafef.vn/bat-dong-san-an-gia-chuan-bi-phat-hanh-them-188-trieu-co-phieu-188260722213122653.chn",
-          "pubDate": "2026-07-22T15:17:00.000Z",
-          "excerpt": "Bất động sản An Gia dự kiến phát hành 16,2 triệu cổ phiếu trả cổ tức năm 2025. Sau khi hoàn tất, công ty tiếp tục phát hành 2,6 triệu cổ phiếu thưởng ESOP cho…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Bất động sản An Gia phát hành thêm 18,8 triệu cổ phiếu."
-        },
-        {
-          "title": "Chuyên gia phong thủy: Đây là 5 loại cây chớ nên trồng trước cửa nhà",
-          "link": "https://cafef.vn/chuyen-gia-phong-thuy-day-la-5-loai-cay-cho-nen-trong-truoc-cua-nha-188260722212840872.chn",
-          "pubDate": "2026-07-22T14:59:00.000Z",
-          "excerpt": "Không phải loại cây xanh nào cũng phù hợp để trồng trước cửa nhà.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Chuyên gia: Cần áp trần giá nhà ở thương mại vừa túi tiền",
+          "link": "https://vnexpress.net/chuyen-gia-can-ap-tran-gia-nha-o-thuong-mai-vua-tui-tien-5100491.html",
+          "pubDate": "2026-07-22T11:38:48.000Z",
+          "excerpt": "Phân khúc nhà thương mại giá phù hợp cần được chuẩn hóa cách tính dựa trên khả năng chi trả của người dân và áp giá trần, theo chuyên gia.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Bộ Chính trị định hướng Đồng Nai phát triển thành trung tâm hàng không hiện đại, đô thị đa trung tâm",
-          "link": "https://cafef.vn/bo-chinh-tri-dinh-huong-dong-nai-phat-trien-thanh-trung-tam-hang-khong-hien-dai-do-thi-da-trung-tam-188260722113329142.chn",
-          "pubDate": "2026-07-22T14:47:00.000Z",
-          "excerpt": "Theo nghị quyết của Bộ Chính trị, đến năm 2045, TP Đồng Nai trở thành trung tâm hàng không hiện đại của khu vực châu Á - Thái Bình Dương, là trung tâm kinh tế…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Luật Nhà ở (sửa đổi) mở \"luồng xanh\" cho dự án nhà ở xã hội",
-          "link": "https://cafef.vn/luat-nha-o-sua-doi-mo-luong-xanh-cho-du-an-nha-o-xa-hoi-188260722212319548.chn",
-          "pubDate": "2026-07-22T14:45:00.000Z",
-          "excerpt": "Những thay đổi này được kỳ vọng sẽ tháo gỡ điểm nghẽn lớn nhất khiến nguồn cung nhà ở xã hội nhiều năm qua tăng chậm dù nhu cầu rất lớn.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Luật Nhà ở sửa đổi tháo gỡ điểm nghẽn dự án nhà ở xã hội."
         },
         {
           "title": "Đà Nẵng hoàn thành xử lý 206/354 dự án, đất đai vướng mắc bằng cơ chế đặc thù",
@@ -222,24 +233,13 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Đà Nẵng hoàn thành xử lý 206 dự án đất đai vướng mắc."
+          "condensed": null
         },
         {
           "title": "Hà Nội thành lập Tổ công tác đặc biệt về nhà ở xã hội",
           "link": "https://vneconomy.vn/ha-noi-thanh-lap-to-cong-tac-dac-biet-ve-nha-o-xa-hoi.htm",
           "pubDate": "2026-07-22T07:58:37.000Z",
           "excerpt": "UBND TP. Hà Nội vừa ban hành Quyết định số 3659/QĐ-UBND về việc thành lập Tổ công tác đặc biệt về triển khai đầu tư xây dựng nhà ở xã hội, nhằm góp phần thực…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Hà Nội thành lập Tổ công tác đặc biệt về nhà ở xã hội."
-        },
-        {
-          "title": "Dragon Eden khánh thành công viên Eden Park 2,1ha, giới thiệu phân khu River tại CEO Summit 2026",
-          "link": "https://vneconomy.vn/dragon-eden-khanh-thanh-cong-vien-eden-park-21ha-gioi-thieu-phan-khu-river-tai-ceo-summit-2026.htm",
-          "pubDate": "2026-07-22T07:45:26.000Z",
-          "excerpt": "Chủ đầu tư Công ty Cổ phần Tandoland tổ chức Lễ khánh thành Công viên Eden Park kết hợp CEO Summit 2026 vào ngày 21/7.",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -254,6 +254,17 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "TS. Nguyễn Đức Kiên chỉ ra nhiệm vụ lớn nhất của các doanh nghiệp trong kỷ nguyên mới và cơ chế để Viettel, Vingroup, Hoà Phát… thực hiện sứ mệnh kiến quốc",
+          "link": "https://cafef.vn/ts-nguyen-duc-kien-chi-ra-nhiem-vu-lon-nhat-cua-cac-doanh-nghiep-trong-ky-nguyen-moi-va-co-che-de-viettel-vingroup-hoa-phat-thuc-hien-su-menh-kien-quoc-188260722234607481.chn",
+          "pubDate": "2026-07-22T17:12:00.000Z",
+          "excerpt": "Bước vào giai đoạn mới, khi mục tiêu không chỉ là tăng trưởng mà còn là nâng tầm vị thế quốc gia, nội hàm của hai chữ \"kiến quốc” được mở rộng, đặt ra những…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Doanh nghiệp thực hiện sứ mệnh kiến quốc trong kỷ nguyên mới."
+        },
+        {
           "title": "Mật phục trong đêm, phát hiện 2 xe tải màu xám lạ, công an Việt Nam lập tức theo dõi giám sát",
           "link": "https://cafef.vn/mat-phuc-trong-dem-phat-hien-2-xe-tai-mau-xam-la-cong-an-viet-nam-lap-tuc-theo-doi-giam-sat-188260722190011688.chn",
           "pubDate": "2026-07-22T12:00:00.000Z",
@@ -262,7 +273,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Công an Việt Nam phát hiện 2 xe tải màu xám lạ và lập tức theo dõi giám sát"
+          "condensed": "Công an Việt Nam phát hiện xe tải lạ."
         },
         {
           "title": "Đúng 9h30, đại bàng khổng lồ dài 63m xuất hiện, Việt Nam ghi nhận điều chưa từng có trong lịch sử tại dự án từng khiến Mỹ và Hàn rút lui",
@@ -273,7 +284,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Việt Nam ghi nhận điều chưa từng có."
         },
         {
           "title": "Hàng triệu người dân tại tỉnh tăng trưởng top đầu cả nước đang chờ một sự thay đổi lớn, dự kiến Quốc hội xem xét ngay tháng sau",
@@ -284,18 +295,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người dân tại tỉnh tăng trưởng top đầu cả nước đang chờ một sự thay đổi lớn"
-        },
-        {
-          "title": "Bến xe khách \"trăm tỷ\" sắp được đưa vào phục vụ người dân: Nằm ở cửa ngõ Hà Nội, thiết kế có cả tầng hầm",
-          "link": "https://cafef.vn/ben-xe-khach-tram-ty-sap-duoc-dua-vao-phuc-vu-nguoi-dan-nam-o-cua-ngo-thiet-ke-co-ca-tang-ham-188260722160309187.chn",
-          "pubDate": "2026-07-22T09:29:00.000Z",
-          "excerpt": "Bến xe này sẽ nằm ở đâu? Thuận tiện cho những ai?",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Người dân chờ sự thay đổi lớn."
         },
         {
           "title": "Minh bạch dữ liệu bền vững đang trở thành \"tấm vé\" tiếp cận vốn quốc tế",
@@ -306,7 +306,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Minh bạch dữ liệu bền vững trở thành tấm vé tiếp cận vốn quốc tế"
+          "condensed": "Minh bạch dữ liệu bền vững quan trọng."
         },
         {
           "title": "Ninh Bình xây dựng đề án trở thành thành phố trực thuộc Trung ương vào năm 2030",
@@ -317,7 +317,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Ninh Bình xây dựng đề án trở thành thành phố trực thuộc Trung ương vào năm 2030"
+          "condensed": "Ninh Bình xây dựng đề án trở thành thành phố trực thuộc Trung ương."
         },
         {
           "title": "Phương án nào được Nghệ An chọn cho bài toán tái định cư đường sắt tốc độ cao?",
@@ -328,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Nghệ An giải quyết bài toán tái định cư đường sắt tốc độ cao."
         },
         {
           "title": "Tái cơ cấu doanh nghiệp Nhà nước: Khơi thông điểm nghẽn thể chế để dẫn dắt nền kinh tế",
@@ -339,7 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Tái cơ cấu doanh nghiệp Nhà nước để dẫn dắt nền kinh tế."
         }
       ],
       "aiSummary": null
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Fed’s favorite inflation tracker is getting an overhaul — just as the central bank weighs interest-rate hikes. What’s going on?",
-          "link": "https://www.marketwatch.com/story/feds-favorite-inflation-tracker-is-getting-an-overhaul-just-as-the-central-bank-weighs-interest-rate-hikes-whats-going-on-3ecb3a1c?mod=mw_rss_topstories",
-          "pubDate": "2026-07-22T15:44:00.000Z",
-          "excerpt": "The inflation tracker that exerts the biggest influence on the actions of the Federal Reserve is getting a makeover just as a divided central bank weighs…",
+          "title": "Ukraine’s strikes on ‘Russia’s Amazon’ bring war closer to ordinary Russians",
+          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3361507/ukraines-strikes-russias-amazon-bring-war-closer-ordinary-russians?utm_source=rss_feed",
+          "pubDate": "2026-07-22T17:07:07.000Z",
+          "excerpt": "⁠From humble origins as a family business run out of an ⁠apartment near Moscow, Wildberries has grown in under two decades into Russia’s top online retailer…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": "Ukraine's strikes on Wildberries bring war closer to ordinary Russians"
+        },
+        {
+          "title": "This the best way to ask strangers on the internet for financial advice",
+          "link": "https://www.marketwatch.com/story/how-to-ask-strangers-on-the-internet-for-financial-advice-ba5b3fb7?mod=mw_rss_topstories",
+          "pubDate": "2026-07-22T17:06:00.000Z",
+          "excerpt": "Whether you’re emailing an expert or posting on a public forum, you need some ground rules",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,65 +371,32 @@
           "condensed": null
         },
         {
-          "title": "I want to transfer $17,000 in credit-card debt. Why did Wells Fargo offer me only a $4,000 credit limit?",
-          "link": "https://www.marketwatch.com/story/i-wanted-to-transfer-17-000-in-credit-card-debt-why-did-wells-fargo-offer-me-only-a-4-000-credit-limit-7ad0a3f0?mod=mw_rss_topstories",
-          "pubDate": "2026-07-22T15:31:00.000Z",
-          "excerpt": "“I asked why the limit was so low, but they couldn’t give me an explanation.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Yes, the AI stock selloff looks terrifying. But it might actually save the bull market.",
-          "link": "https://www.marketwatch.com/story/yes-the-ai-stock-selloff-looks-terrifying-but-it-might-actually-save-the-bull-market-3bef59be?mod=mw_rss_topstories",
-          "pubDate": "2026-07-22T15:24:00.000Z",
-          "excerpt": "The hottest tech trades of 2026 just got slammed — smart investors are buying anyway.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "AMD is investing $5 billion into Anthropic as it seeks to cut into Nvidia’s dominance",
+          "title": "AMD plans to invest to up $5 billion into Anthropic as it seeks to cut into Nvidia’s dominance",
           "link": "https://www.marketwatch.com/story/amd-is-investing-5-billion-into-anthropic-as-it-seeks-to-cut-into-nvidias-dominance-b882654d?mod=mw_rss_topstories",
-          "pubDate": "2026-07-22T15:04:00.000Z",
+          "pubDate": "2026-07-22T16:58:00.000Z",
           "excerpt": "The two companies also struck a chip deal.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
+          "condensed": "AMD plans to invest up to $5 billion into Anthropic"
+        },
+        {
+          "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
+          "link": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html",
+          "pubDate": "2026-07-22T16:57:55.000Z",
+          "excerpt": "In five public appearances, Warsh has used the phrase \"family fight\" 13 times, returning to \"first principles\" 11 times and \"inflation is a choice\" for the Fed…",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
           "condensed": null
         },
         {
-          "title": "Trump threatens to bomb Iranian bridge or power plant after Hormuz attacks",
-          "link": "https://www.scmp.com/news/us/diplomacy/article/3361503/trump-threatens-bomb-iranian-bridge-or-power-plant-after-hormuz-attacks?utm_source=rss_feed",
-          "pubDate": "2026-07-22T14:41:21.000Z",
-          "excerpt": "US President Donald Trump threatened on Wednesday to destroy an Iranian bridge or power plant each time Tehran attacks a vessel in the Strait of Hormuz,…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Digital Bank Revolut, Europe’s Most Valuable Startup, Valued at $115 Billion",
-          "link": "https://www.wsj.com/finance/banking/digital-bank-revolut-europes-most-valuable-startup-valued-at-115-billion-0344c14e?mod=rss_markets_main",
-          "pubDate": "2026-07-22T14:34:00.000Z",
-          "excerpt": "The British company agreed to a secondary share sale that boosted its valuation by around 50%.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "We have $8 million in traditional IRAs. Should we tap them to buy a house — and take the tax hit?",
-          "link": "https://www.marketwatch.com/story/we-have-8-million-in-traditional-iras-should-we-tap-them-to-buy-a-house-and-take-the-tax-hit-c2478daa?mod=mw_rss_topstories",
-          "pubDate": "2026-07-22T14:31:00.000Z",
-          "excerpt": "“We would rather pay taxes upfront than pay mortgage interest.”",
+          "title": "Can you beat the market? Maybe with this strategy.",
+          "link": "https://www.marketwatch.com/story/this-could-be-the-right-time-to-buy-a-momentum-fund-05e7a1fa?mod=mw_rss_topstories",
+          "pubDate": "2026-07-22T16:33:00.000Z",
+          "excerpt": "This could be the right time to buy a momentum fund",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -426,14 +404,36 @@
           "condensed": null
         },
         {
-          "title": "Trump threatens tit-for-tat strikes on Iranian infrastructure",
-          "link": "https://www.ft.com/content/755c218f-40db-4a8a-8e0b-acd2ccee3d3d?syn-25a6b1a6=1",
-          "pubDate": "2026-07-22T14:23:13.000Z",
-          "excerpt": "US president’s warning marks latest attempts to assert American control over the Strait of Hormuz",
+          "title": "India should listen to its frustrated youth",
+          "link": "https://www.ft.com/content/f51afc65-1569-446c-a23e-5afa583a67c2?syn-25a6b1a6=1",
+          "pubDate": "2026-07-22T16:31:48.000Z",
+          "excerpt": "Gen Z protests reflect young people’s growing anxiety about their future",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
+          "condensed": "India's frustrated youth reflect growing anxiety about their future"
+        },
+        {
+          "title": "This is the ideal retirement strategy if you want to keep your healthcare costs down",
+          "link": "https://www.marketwatch.com/story/heres-how-to-time-your-retirement-to-keep-your-healthcare-costs-down-b1a4d427?mod=mw_rss_topstories",
+          "pubDate": "2026-07-22T16:31:00.000Z",
+          "excerpt": "Plus, more ways to lower how much you pay out of pocket for medical care in retirement.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Do I use $300,000 of my $1.2 million retirement savings so my daughter can attend her dream college?",
+          "link": "https://www.marketwatch.com/story/do-i-use-300-000-of-my-1-2-million-retirement-savings-so-my-daughter-can-attend-her-dream-college-50842e7a?mod=mw_rss_topstories",
+          "pubDate": "2026-07-22T16:30:00.000Z",
+          "excerpt": "“Our daughter is a highly ranked competitive softball pitcher with a 3.94 GPA.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
