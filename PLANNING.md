@@ -13,27 +13,40 @@ session.
 ## STATUS (as of this session)
 
 **Site is live and stable for everything EXCEPT AI features right now** —
-see "NEXT SESSION" below for the one open question blocking full
-verification. Today's session covered a lot: refreshed source list (10
+see "NEXT SESSION" below, and **check the very top of STEP 0 first** —
+there is one code fix given verbally tonight whose push to GitHub is
+**unconfirmed**. Today's session covered a lot: refreshed source list (10
 sources, added 4 + removed 1), built cross-source content-similarity
 dedup (Rule 1b), built the per-article AI summarizer (Rule 3 per-article),
 revised both summary prompts to a 5-component structure (what/when/where/
-why/impact, strict no-fabrication), and fixed two real bugs found via
-live testing (a numbered-list formatting bug, and a rate-limit/429 issue).
-**Not everything is confirmed working yet** — the last test run hit
-`HTTP 429` on the very first Groq call of the run, before any burst could
-even build up, which points to the daily request quota being exhausted
-from heavy manual testing tonight rather than a code problem. This needs
-one clean verification run once the quota resets — see below.
+why/impact, strict no-fabrication), and found+fixed 4 real bugs via live
+testing (vague summaries from missing excerpt data, a numbered-list
+formatting bug, a rate-limit/429 issue, and an unbounded-retry hang bug).
 
-**End-of-session addition:** before stopping, did a deliberate risk-review
-pass across all 3 remaining layers (not just reacting to bugs as they
-appear) — added rate-limit header diagnostics to the code itself (so the
-next 429, if any, states directly in the log whether it's daily-quota or
-this-minute-burst, no more guessing), wrote explicit pass/fail
+**Not everything is confirmed working yet.** Sequence of events tonight,
+in order: (1) hit 429 repeatedly, assumed daily *request* quota exhausted;
+(2) added rate-limit diagnostics + wider gaps + backoff-on-429 retry logic;
+(3) next test run **hung for 10+ minutes** with no output — a new bug in
+the retry logic itself (no cap on the backoff wait, and Groq's suggested
+wait was apparently very long); (4) fixed with a 15-second hard cap on
+retry backoff; (5) checked Groq's actual usage dashboard and found the
+real constraint is more likely **daily token usage** (100.5K tokens
+today) rather than request count (only ~150-160 requests today) — this
+refines Step 1's diagnosis but doesn't change the practical fix (wait for
+reset). **The hang-bug fix (step 4) was given to the user but not
+confirmed pushed** — this must be checked before any further testing, or
+the same hang risks recurring.
+
+**End-of-session addition (earlier, before the hang bug was found):** did
+a deliberate risk-review pass across all 3 remaining layers — added
+rate-limit header diagnostics to the code, wrote explicit pass/fail
 verification criteria for Layer 1, and pre-identified concrete risks for
 Layers 2 and 3 with mitigations already decided — see "NEXT SESSION"
-below for all of it.
+below for all of it. That review remains valid; the hang bug was found
+*after* it, during actual verification, which is exactly the kind of
+thing a risk-review pass can't catch in advance — only real testing does,
+which is why the layering discipline (verify before advancing) keeps
+earning its keep.
 
 ---
 
@@ -86,30 +99,59 @@ via a real Actions run — this has caught 3 real bugs tonight already (see
 below), proving the discipline is worth keeping.
 
 ### STEP 0 — do this first, before anything else
-Last run tonight hit `HTTP 429` (Groq rate limit) on the very FIRST call
-of the run — before any burst could build up. This points to the **daily
-request quota being exhausted from heavy manual testing tonight** (many
-back-to-back `npm run fetch` runs while debugging), not a code bug.
 
-**New tonight, not yet tested but zero-risk (no Groq calls needed to
-verify — pure code review is enough):** `fetchWithTimeout()` now attaches
-the real HTTP status and response headers to any thrown error, and a new
-`rateLimitInfo()` helper reads Groq's `x-ratelimit-remaining-requests`,
-`x-ratelimit-remaining-tokens`, and `retry-after` headers when present.
-Every Groq-related warning line in the log now appends this automatically,
-e.g. `HTTP 429 [requests left today: 0, tokens left this window: 5800,
-retry-after: 52000s]`. **This means the very next 429, if any, will state
-directly in the log whether it's a daily-quota problem or a
-this-minute-burst problem — no more guessing, no more manually checking
-console.groq.com.** Read this line first if 429 appears again.
+**IMPORTANT — verify this first, before anything else:** a fix for a real
+hang bug (see "Bug found #4" below) was written and given to the user
+near the end of this session, but **it is not confirmed pushed to
+GitHub.** Check `scripts/fetch-feeds.mjs` on GitHub for a constant named
+`MAX_RETRY_BACKOFF_MS` near the top of the file. If it's **not there**,
+the hang-fix never got deployed — copy it in and push before doing
+anything else below, or the next test run risks hanging again exactly
+like it did tonight.
 
-Steps:
+**Refined diagnosis (updated from earlier in this session):** originally
+assumed the 429s were from exhausting the **daily request count** (~1,000
+RPD). Checked Groq's actual usage dashboard (console.groq.com →
+Organization Usage → Activity) tonight: **request count for today was
+only ~150-160 — nowhere near a 1,000 RPD cap.** But the **token usage**
+chart told a different story: **100.5K tokens used today (86.7K input +
+13.8K output)**, unusually high. This session significantly grew prompt
+sizes (excerpts added to both summary prompts, 5-component structure is
+more verbose, `max_tokens` raised to 1500 for the scorer and 1200 for the
+condenser) — combined with many repeated manual test runs while debugging,
+this most likely exhausted a **daily TOKEN quota**, not a request-count
+quota. Bottom line is the same (wait for reset), but the mechanism is now
+understood precisely instead of guessed.
+
+**Diagnostic tooling from earlier in this session still applies:**
+`fetchWithTimeout()` attaches HTTP status + response headers to thrown
+errors, and `rateLimitInfo()` reads Groq's rate-limit headers into every
+Groq-related warning line, e.g. `HTTP 429 [requests left today: X, tokens
+left this window: Y, retry-after: Zs]`. Read this line first if 429
+appears again — it states directly which budget is exhausted.
+
+**Bug found #4 (found very late tonight, fix given, push unconfirmed —
+see top of this section):** the retry-backoff logic added earlier this
+session read Groq's `retry-after` header and waited that long before
+retrying — but had **no upper cap**. When quota is genuinely exhausted for
+the day, `retry-after` can be a very large number (observed: the run hung
+for 10+ minutes with no output, consistent with a `retry-after` in the
+thousands of seconds). Fixed by adding `MAX_RETRY_BACKOFF_MS = 15000` — if
+Groq's suggested wait exceeds 15s, the code now skips the retry entirely
+and leaves that theme's condensed summaries blank, instead of blocking the
+whole job for potentially an hour. **This fix needs verification first**
+(see the check at the very top of this section).
+
+Steps once the hang-fix is confirmed pushed:
 1. Run the workflow once (manual trigger)
 2. Read the log. If any 429 appears, the message now says exactly why —
-   follow what it says (wait for daily reset, or the backoff is already
-   handling a burst automatically)
-3. If genuinely daily-quota-exhausted: wait for reset (likely 0:00 UTC ≈
-   7am Vietnam time), no code changes needed, just re-run once quota's back
+   follow what it says (wait for daily reset if quota's the issue; a
+   this-minute burst should self-resolve via the capped backoff)
+3. If genuinely daily-quota-exhausted (either requests or tokens): wait
+   for reset (likely 0:00 UTC ≈ 7am Vietnam time), no code changes needed,
+   just re-run once quota's back. Don't run more than one or two test
+   fetches back-to-back tonight even after reset — that's exactly what
+   consumed 100K+ tokens this session already.
 4. **Explicit pass/fail criteria for Layer 1** (no ambiguity next time):
    - PASS: no `HTTP 429` anywhere in the log; `Condensed "X": N/8` present
      for all 4 themes where N > 0 (some articles legitimately blank is
@@ -127,7 +169,7 @@ Steps:
 ### Layer 1 — per-article AI summarizer (Rule 3, per-article)
 **Status: code complete, NOT yet verified live** — blocked by Step 0 above.
 
-What was built tonight, in order (3 real bugs found and fixed along the
+What was built tonight, in order (4 real bugs found and fixed along the
 way — this is exactly why layer-by-layer testing matters):
 1. `condenseArticles()` function — one Groq call per theme (not one per
    article) covering all final selected articles (≤8/theme, post
@@ -162,19 +204,41 @@ way — this is exactly why layer-by-layer testing matters):
    wastes budget during an active rate-limit window); gaps between
    per-theme calls increased from 2s/1s to 4s/4s/3s across the three
    Groq-calling stages.
-7. **Diagnostic tooling added** (see STEP 0) — rate-limit headers now
-   surface directly in the log, removing the guesswork that made bug #3
-   take multiple round-trips to diagnose tonight.
+7. **Diagnostic tooling added** — rate-limit headers now surface directly
+   in the log, removing the guesswork that made bug #3 take multiple
+   round-trips to diagnose tonight.
+8. **Bug found #4 (found late, fix given, PUSH UNCONFIRMED — check this
+   first next session, see STEP 0):** the bug #3 fix above had no upper
+   cap on the retry-after-based backoff. A test run hung for 10+ minutes
+   with no log output — almost certainly because Groq's `retry-after`
+   header returned a very large value (consistent with the daily quota
+   genuinely being exhausted, meaning "wait" translates to "wait until
+   tomorrow"), and the code was synchronously waiting that entire
+   duration before doing anything else. Fixed by adding
+   `MAX_RETRY_BACKOFF_MS = 15000` — if Groq's suggested wait exceeds 15s,
+   skip the retry entirely (leave that theme's condensed summaries blank)
+   instead of blocking the whole job.
+9. **Diagnosis refined using Groq's own usage dashboard** (console.groq.com
+   → Organization Usage → Activity): today's request count was only
+   ~150-160 (nowhere near a 1,000 RPD-style cap), but token usage was
+   100.5K (86.7K input + 13.8K output) — unusually high. This points to a
+   **daily TOKEN quota** being the actual constraint hit tonight, not a
+   request-count quota as first assumed. Makes sense given this session
+   grew prompt sizes substantially (excerpts added, 5-component structure,
+   `max_tokens` raised to 1500/1200) on top of many repeated manual test
+   runs. The practical fix is the same either way (wait for reset, don't
+   test back-to-back), but now understood precisely rather than guessed.
 
 **Known design asymmetry, intentional — don't "fix" this later without
 reason:** `scoreAndFilter()` has no retry on failure (falls back to
 unfiltered articles, which still display fine, just unranked).
-`condenseArticles()` retries once with backoff. `generateSummary()` has no
-retry (falls back to no AI Summary box for that theme). This graduated
-approach matches how visible/costly each failure is — a missing rank
-order is invisible to a reader, a missing summary box is visible but not
-broken-looking, so retry effort is spent where it matters most
-(condensing, since a blank card looks more obviously incomplete).
+`condenseArticles()` retries once with backoff (capped, see bug #4 above).
+`generateSummary()` has no retry (falls back to no AI Summary box for that
+theme). This graduated approach matches how visible/costly each failure
+is — a missing rank order is invisible to a reader, a missing summary box
+is visible but not broken-looking, so retry effort is spent where it
+matters most (condensing, since a blank card looks more obviously
+incomplete).
 
 **If Layer 1 still fails after quota resets (i.e. genuinely a burst/TPM
 problem, not daily quota):** the rate-limit headers will show `requests
@@ -663,3 +727,16 @@ documented here so nobody "simplifies" the import back to the broken form.
   down now so next session executes against a plan instead of discovering
   these one at a time mid-build, the same way tonight's bugs were found
   reactively rather than anticipated.
+- **Actually final entry:** the user then tested the fixes from the risk
+  review, which surfaced a bug the review itself couldn't have caught (it
+  only exists once you actually hit a real rate-limit response) — the
+  retry-backoff logic had no upper cap, and a run hung 10+ minutes when
+  Groq's `retry-after` header returned a large value. Fixed with
+  `MAX_RETRY_BACKOFF_MS = 15000`, skip-retry-if-exceeded logic. **Fix was
+  given to the user but push to GitHub was not confirmed before the
+  session ended — verify this first thing next time (see STEP 0 top).**
+  Separately, checked Groq's real usage dashboard and found today's
+  constraint is more precisely a **daily token quota** (100.5K tokens
+  used) rather than a daily request-count quota (only ~150-160 requests)
+  as first assumed — same practical fix (wait for reset), more accurate
+  understanding of why.

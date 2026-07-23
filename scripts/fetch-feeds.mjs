@@ -14,6 +14,14 @@ const SCORE_BATCH_LIMIT      = 20;  // cap articles sent to Groq for scoring per
                                      // sources get added, avoids TPM rate-limit risk
 const EXCERPT_LENGTH         = 160;
 const FETCH_TIMEOUT_MS       = 15000;
+const MAX_RETRY_BACKOFF_MS   = 15000; // hard cap — never block the whole job
+                                       // waiting on a Groq retry-after value.
+                                       // If Groq asks for longer than this
+                                       // (real case seen: retry-after in the
+                                       // thousands of seconds when the DAILY
+                                       // quota is exhausted, not a burst),
+                                       // skip the retry entirely instead of
+                                       // hanging the run for potentially hours.
 
 // ─── AI provider: Groq ────────────────────────────────────────────────────────
 // Free tier: 14,400 RPD — sufficient for hourly summaries + training scoring
@@ -736,17 +744,26 @@ async function condenseArticles(themeName, themeKey, articles) {
   } catch (err) {
     const isRateLimit = err.status === 429;
     const retryAfterHeader = err?.headers?.get?.('retry-after');
-    const backoffMs = isRateLimit
-      ? (retryAfterHeader ? Number(retryAfterHeader) * 1000 + 500 : 10000)
-      : 2000;
-    console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message + rateLimitInfo(err)
-      + (isRateLimit ? ' — rate limited, backing off ' + Math.round(backoffMs / 1000) + 's before retry' : ' — retrying'));
-    await new Promise(r => setTimeout(r, backoffMs));
-    try {
-      results = await attempt();
-    } catch (err2) {
-      console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 2): ' + err2.message + rateLimitInfo(err2) + ' — leaving blank');
+    const suggestedMs = retryAfterHeader != null ? Number(retryAfterHeader) * 1000 : null;
+
+    if (isRateLimit && suggestedMs != null && suggestedMs > MAX_RETRY_BACKOFF_MS) {
+      // Groq is asking us to wait longer than our cap — this means daily
+      // quota is exhausted (not a this-minute burst). Retrying would just
+      // hang the whole job for potentially hours. Skip the retry entirely.
+      console.warn('  \u26a0 Condensing "' + themeName + '" failed: ' + err.message + rateLimitInfo(err)
+        + ' — retry-after exceeds ' + (MAX_RETRY_BACKOFF_MS / 1000) + 's cap (likely daily quota, not a burst), skipping retry — leaving blank');
       results = [];
+    } else {
+      const backoffMs = isRateLimit ? Math.min(suggestedMs ?? 10000, MAX_RETRY_BACKOFF_MS) : 2000;
+      console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 1): ' + err.message + rateLimitInfo(err)
+        + (isRateLimit ? ' — rate limited, backing off ' + Math.round(backoffMs / 1000) + 's before retry' : ' — retrying'));
+      await new Promise(r => setTimeout(r, backoffMs));
+      try {
+        results = await attempt();
+      } catch (err2) {
+        console.warn('  \u26a0 Condensing "' + themeName + '" failed (try 2): ' + err2.message + rateLimitInfo(err2) + ' — leaving blank');
+        results = [];
+      }
     }
   }
 
