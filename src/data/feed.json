@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-07-27T00:08:19.083Z",
+  "lastUpdated": "2026-07-27T04:39:25.951Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26510,
+      "value": 26520,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4096.2,
+      "value": 4090,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 64611.15,
-      "change": -1621.0400000000009,
-      "changePercent": -2.4475107949774886
+      "value": 64711.2,
+      "change": -1520.9900000000052,
+      "changePercent": -2.2964513177051904
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 24963.23,
-      "change": 400.98999999999796,
-      "changePercent": 1.632546542986299
+      "value": 25166.58,
+      "change": 23.530000000002474,
+      "changePercent": 0.09358450943701133
     },
     {
       "symbol": "^GDAXI",
@@ -64,166 +64,100 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "FPT “bốc hơi” 114.000 tỷ vốn hóa từ đỉnh, bằng 3 ngân hàng cộng lại",
-          "link": "https://cafef.vn/fpt-boc-hoi-114000-ty-von-hoa-tu-dinh-bang-3-ngan-hang-cong-lai-18826072623565161.chn",
-          "pubDate": "2026-07-26T17:08:00.000Z",
-          "excerpt": "FPT hiện không còn nằm trong top 10 vốn hóa dù từng có thời điểm là tập đoàn tư nhân lớn nhất lớn nhất sàn chứng khoán.",
+          "title": "Hanoi Re (PRE) nhận danh hiệu “Best (Re)Insurer”: Lợi nhuận vượt 300 tỷ đồng, cổ tức 17%, cổ phiếu lập đỉnh lịch sử",
+          "link": "https://cafef.vn/hanoi-re-pre-nhan-danh-hieu-best-reinsurer-loi-nhuan-vuot-300-ty-dong-co-tuc-17-co-phieu-lap-dinh-lich-su-188260725224039268.chn",
+          "pubDate": "2026-07-27T03:00:00.000Z",
+          "excerpt": "Ngày 20/7/2026, đúng dịp kỷ niệm 15 năm thành lập, Tổng công ty Cổ phần Tái bảo hiểm Hà Nội – Hanoi Re (mã chứng khoán: PRE) được InsuranceAsia News vinh danh…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "FPT mất 114.000 tỷ vốn hóa từ đỉnh, không còn trong top 10."
+          "condensed": "Hanoi Re nhận danh hiệu Best Insurer ngày 20/7/2026."
         },
         {
-          "title": "Lạ: Lần đầu tiên sau 165 ngày, quỹ Đài Loan trở lại mua cổ phiếu Việt Nam",
-          "link": "https://cafef.vn/la-lan-dau-tien-sau-165-ngay-quy-dai-loan-tro-lai-mua-co-phieu-viet-nam-188260727003114912.chn",
-          "pubDate": "2026-07-26T17:31:00.000Z",
-          "excerpt": "Quỹ này đã trải qua hơn 10 quý liên tiếp ghi nhận dòng vốn âm.",
+          "title": "3 ngày sau khi nữ Chủ tịch 27 tuổi nhậm chức, CII bật đèn xanh mua thêm cổ phiếu PC1",
+          "link": "https://cafef.vn/3-ngay-sau-khi-nu-chu-tich-27-tuoi-nham-chuc-cii-bat-den-xanh-mua-them-co-phieu-pc1-188260727105108897.chn",
+          "pubDate": "2026-07-27T03:54:00.000Z",
+          "excerpt": "CII lấy việc bộ máy PC1 “đã đi vào ổn định” sau đại hội bất thường làm một trong những căn cứ cho quyết định mới.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Quỹ Đài Loan mua lại cổ phiếu Việt Nam sau 165 ngày."
+          "condensed": null
         },
         {
-          "title": "VN-Index mất hơn 100 điểm trong một tuần: Điều gì chờ đợi nhà đầu tư?",
-          "link": "https://cafef.vn/vn-index-mat-hon-100-diem-trong-mot-tuan-dieu-gi-cho-doi-nha-dau-tu-188260726202344392.chn",
-          "pubDate": "2026-07-26T17:04:00.000Z",
-          "excerpt": "Cú lao dốc hơn 100 điểm trong tuần qua đã kéo VN-Index xuống dưới mốc 1.700 điểm. Dù lực cầu bắt đáy đã xuất hiện ở những phiên cuối tuần, giới phân tích cho…",
+          "title": "VikkiBankS chốt thời gian chào bán 300 triệu cổ phiếu riêng lẻ",
+          "link": "https://cafef.vn/vikkibanks-chot-thoi-gian-chao-ban-300-trieu-co-phieu-rieng-le-188260727100208571.chn",
+          "pubDate": "2026-07-27T03:28:00.000Z",
+          "excerpt": "VikkiBankS sẽ thời gian chào bán 300 triệu cổ phiếu riêng lẻ từ ngày 31/07/2026 đến ngày 30/09/2026.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "VN-Index mất hơn 100 điểm trong một tuần."
+          "condensed": "VikkiBankS chào bán 300 triệu cổ phiếu riêng lẻ từ 31/07/2026 đến 30/09/2026."
         },
         {
-          "title": "Lãi suất cho vay tăng rất mạnh, điều gì đang xảy ra?",
-          "link": "http://vietstock.vn/2026/07/lai-suat-cho-vay-tang-rat-manh-dieu-gi-dang-xay-ra-757-1471212.htm",
-          "pubDate": "2026-07-25T08:54:29.000Z",
-          "excerpt": "Trong bối cảnh tín dụng tăng nhanh hơn huy động vốn, nhiều ngân hàng đang áp dụng lãi suất cho vay trên 10%/năm đối với khách hàng cá nhân. Theo chuyên gia,…",
+          "title": "VN-Index có thể hồi phục trong ngắn hạn song dài hạn vẫn giảm do thị trường toàn cầu chưa có điểm sáng?",
+          "link": "https://vneconomy.vn/vn-index-co-the-hoi-phuc-trong-ngan-han-song-dai-han-van-giam-do-thi-truong-toan-cau-chua-co-diem-sang.htm",
+          "pubDate": "2026-07-27T00:49:03.000Z",
+          "excerpt": "Đối với chỉ số VN-Index có thể hồi phục trong phiên đầu tuần ngày 27/7/2026. Đồng thời, vùng 1.640 điểm được xem là vùng hỗ trợ của chỉ số VN-Index.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Tuần 20-24/07: NHNN hút ròng tuần thứ 3 liên tiếp hơn 26,300 tỷ",
+          "link": "http://vietstock.vn/2026/07/tuan-20-2407-nhnn-hut-rong-tuan-thu-3-lien-tiep-hon-26300-ty-757-1471256.htm",
+          "pubDate": "2026-07-27T02:32:59.000Z",
+          "excerpt": "Trong tuần thứ 4 của tháng 7 (20-24/07), Ngân hàng Nhà nước (NHNN) tiếp tục rút ròng tuần thứ 3 liên tiếp 26,352 tỷ đồng.",
           "sourceId": "vietstock",
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Lãi suất cho vay tăng mạnh do tín dụng tăng nhanh."
+          "condensed": "NHNN hút ròng 26,352 tỷ đồng trong tuần 20-24/07."
         },
         {
-          "title": "Chứng khoán Mỹ chững lại trong lúc chờ thêm tin về chiến tranh, giá dầu trượt sâu dưới 100 USD/thùng",
-          "link": "https://vneconomy.vn/chung-khoan-my-chung-lai-trong-luc-cho-them-tin-ve-chien-tranh-gia-dau-truot-sau-duoi-100-usdthung.htm",
-          "pubDate": "2026-07-25T02:53:30.000Z",
-          "excerpt": "Nhà đầu tư không muốn nắm giữ vị thế lớn trước khi bước vào kỳ nghỉ cuối tuần mà Mỹ có thể một cuộc tấn công lớn vào Iran...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Chứng khoán Mỹ chững lại chờ tin về chiến tranh."
-        },
-        {
-          "title": "Khối ngoại đã bán khoảng 35 triệu cổ phiếu PNJ, vẫn còn nắm hơn 211 triệu đơn vị",
-          "link": "https://cafef.vn/khoi-ngoai-da-ban-khoang-35-trieu-co-phieu-pnj-van-con-nam-hon-211-trieu-don-vi-18826072700240233.chn",
-          "pubDate": "2026-07-26T17:23:00.000Z",
-          "excerpt": "Khối ngoại liên tục bán ròng cổ phiếu PNJ, trong bối cảnh thị giá đã giảm hơn một nửa chỉ trong hơn ba tuần.",
+          "title": "Ladophar lên lộ trình khắc phục tình trạng chứng khoán bị cảnh báo",
+          "link": "https://cafef.vn/ladophar-len-lo-trinh-khac-phuc-tinh-trang-chung-khoan-bi-canh-bao-188260727111538457.chn",
+          "pubDate": "2026-07-27T04:15:00.000Z",
+          "excerpt": "Ladophar vừa có báo cáo về biện pháp và lộ trình khắc phục tình trạng chứng khoán bị cảnh báo gửi đến HNX theo quy định.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Khối ngoại bán khoảng 35 triệu cổ phiếu PNJ."
+          "condensed": null
         },
         {
-          "title": "Maybank và CGIF ký kết Biên bản ghi nhớ thúc đẩy phát triển thị trường vốn ASEAN+3",
-          "link": "https://vneconomy.vn/maybank-va-cgif-ky-ket-bien-ban-ghi-nho-thuc-day-phat-trien-thi-truong-von-asean3.htm",
-          "pubDate": "2026-07-26T02:12:50.000Z",
-          "excerpt": "Maybank và Quỹ Bảo lãnh Tín dụng và Đầu tư (CGIF) vừa ký Biên bản ghi nhớ nhằm thúc đẩy phát triển thị trường vốn bằng đồng nội tệ tại khu vực ASEAN+3. Hai bên…",
+          "title": "Tổ chức trong nước không còn lực đỡ trong tuần qua, dòng tiền cá nhân mạnh lên",
+          "link": "https://vneconomy.vn/to-chuc-trong-nuoc-khong-con-luc-do-trong-tuan-qua-dong-tien-ca-nhan-manh-len.htm",
+          "pubDate": "2026-07-27T01:57:20.000Z",
+          "excerpt": "Lực đỡ của thị trường trong tuần 30 rất yếu và phân tán. Nhà đầu tư tổ chức trong nước bán ròng 5.573,6 tỷ đồng; tính riêng giao dịch khớp lệnh, họ mua ròng…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Maybank và CGIF ký kết thúc đẩy thị trường vốn ASEAN+3."
+          "condensed": null
         },
         {
-          "title": "Vì sao vấn đề tỷ giá nhân dân tệ khiến châu Âu lo lắng?",
-          "link": "https://vneconomy.vn/vi-sao-van-de-ty-gia-nhan-dan-te-khien-chau-au-lo-lang.htm",
-          "pubDate": "2026-07-25T13:43:57.000Z",
-          "excerpt": "Tỷ giá nhân dân tệ đã trở thành một điểm nóng trong quan hệ thương mại giữa Liên minh châu Âu (EU) và Trung Quốc...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Tỷ giá nhân dân tệ khiến châu Âu lo lắng."
+          "title": "Bà Phạm Thu Hương sở hữu 4.96% vốn LPBank, nâng tổng sở hữu nhóm liên quan lên 9.86%",
+          "link": "http://vietstock.vn/2026/07/ba-pham-thu-huong-so-huu-496-von-lpbank-nang-tong-so-huu-nhom-lien-quan-len-986-757-1471311.htm",
+          "pubDate": "2026-07-27T03:34:06.000Z",
+          "excerpt": "Ngân hàng TMCP Lộc Phát Việt Nam (LPBank, HOSE: LPB) vừa công bố danh sách cổ đông sở hữu trên 1% vốn điều lệ, cập nhật thêm danh sách cá nhân bà Phạm Thu…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Hanoi Re nhận danh hiệu “Best (Re)Insurer” với lợi nhuận vượt 300 tỷ đồng, cổ tức 17%, cổ phiếu lập đỉnh lịch sử."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
-        {
-          "title": "Thị trấn mát mẻ quanh năm chỉ 15 độ, được Oscar du lịch vinh danh có siêu tổ hợp nghỉ dưỡng đầu tiên quy tụ loạt loạt tên tuổi InterContinental, JW Marriott, Sofitel...",
-          "link": "https://cafef.vn/thi-tran-mat-me-quanh-nam-chi-15-do-duoc-oscar-du-lich-vinh-danh-co-sieu-to-hop-nghi-duong-dau-tien-quy-tu-loat-loat-ten-tuoi-intercontinental-jw-marriott-sofitel-188260727062032225.chn",
-          "pubDate": "2026-07-26T23:20:00.000Z",
-          "excerpt": "Được phát triển trên khu đất rộng 83 ha giữa thung lũng Mường Hoa, Alphora Muong Hoa quy tụ hàng loạt thương hiệu nghỉ dưỡng quốc tế, hướng tới trở thành điểm…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ít ngày nữa sẽ hợp long cây cầu hơn 1.800 tỷ nối Hà Nội với \"thủ phủ công nghiệp\" nước ta, thay thế cây cầu hơn 120 năm tuổi",
-          "link": "https://cafef.vn/it-ngay-nua-se-hop-long-cay-cau-hon-1800-ty-noi-ha-noi-voi-thu-phu-cong-nghiep-nuoc-ta-thay-the-cay-cau-hon-120-nam-tuoi-188260727061736495.chn",
-          "pubDate": "2026-07-26T23:17:00.000Z",
-          "excerpt": "Theo kế hoạch, cầu Đuống mới sẽ được hợp long trong tháng 7 và cơ bản hoàn thành vào tháng 9/2026. Khi công trình đi vào khai thác, cầu Đuống hiện hữu sẽ được…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Biệt thự tân cổ điển 550 m2 'mềm hóa' không gian bằng hệ vòm",
-          "link": "https://vnexpress.net/biet-thu-tan-co-dien-550-m2-mem-hoa-khong-gian-bang-he-vom-5101517.html",
-          "pubDate": "2026-07-26T19:38:00.000Z",
-          "excerpt": "Phong cách tân cổ điển được tiết chế qua phào chỉ, gam màu trung tính và các chi tiết bo cong xuất hiện xuyên suốt 5 tầng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Có nên trả thêm 200 triệu đồng để mua căn hộ có chỗ đỗ ôtô?",
-          "link": "https://vnexpress.net/co-nen-tra-them-200-trieu-dong-de-mua-can-ho-co-cho-do-oto-5101408.html",
-          "pubDate": "2026-07-26T17:03:00.000Z",
-          "excerpt": "Cặp vợ chồng tại Hà Nội phân vân giữa việc mua căn hộ giá cao hơn có chỗ đỗ ôtô dưới hầm và căn rẻ hơn nhưng phải gửi xe ở bên ngoài.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Bắc Ninh phát triển 12 đô thị động lực, hướng tới thành phố trực thuộc Trung ương",
-          "link": "https://cafef.vn/bac-ninh-phat-trien-12-do-thi-dong-luc-huong-toi-thanh-pho-truc-thuoc-trung-uong-18826072622020967.chn",
-          "pubDate": "2026-07-26T15:16:00.000Z",
-          "excerpt": "Chương trình phát triển đô thị tỉnh Bắc Ninh đến năm 2030 vừa được UBND tỉnh Bắc Ninh phê duyệt đã xác định định hướng phát triển hệ thống đô thị theo mô hình…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất gần 30.000 tỷ đồng làm cao tốc Bắc Kạn - Cao Bằng",
-          "link": "https://cafef.vn/de-xuat-gan-30000-ty-dong-lam-cao-toc-bac-kan-cao-bang-18826072622002403.chn",
-          "pubDate": "2026-07-26T14:56:00.000Z",
-          "excerpt": "Dự án cao tốc Bắc Kạn - Cao Bằng dài hơn 82 km được đề xuất có tổng vốn đầu tư gần 30.000 tỷ đồng. Đây là đoạn cuối của tuyến cao tốc CT.07, góp phần hoàn…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
         {
           "title": "Đà Nẵng sẽ có khu công nghiệp VSIP hơn 3.700 tỷ đồng",
           "link": "https://vnexpress.net/da-nang-se-co-khu-cong-nghiep-vsip-hon-3-700-ty-dong-5101815.html",
@@ -233,80 +167,135 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
+          "condensed": "Đà Nẵng chấp thuận đầu tư khu công nghiệp VSIP hơn 3.700 tỷ đồng"
         },
         {
-          "title": "Nửa cuối năm 2026, giá bất động sản sẽ diễn biến thế nào?",
-          "link": "https://cafef.vn/nua-cuoi-nam-2026-gia-bat-dong-san-se-dien-bien-the-nao-188260726185738175.chn",
-          "pubDate": "2026-07-26T13:41:00.000Z",
-          "excerpt": "Theo các chuyên gia, thị trường bất động sản năm 2026 trải qua nhiều biến động, vì vậy diễn biến giá bất động sản cuối năm 2026 đang được nhiều người quan tâm.",
+          "title": "Thanh Hóa đưa 51 dự án đầu tư gần 64.000 tỷ vào hoạt động năm 2026",
+          "link": "https://vneconomy.vn/thanh-hoa-dua-51-du-an-dau-tu-gan-64000-ty-vao-hoat-dong-nam-2026.htm",
+          "pubDate": "2026-07-26T03:19:06.000Z",
+          "excerpt": "Với tổng vốn đầu tư gần 64.000 tỷ đồng, 51 dự án đầu tư ngoài ngân sách được kỳ vọng sẽ tạo thêm động lực tăng trưởng cho Thanh Hóa trong năm 2026. Đến nay,…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Thanh Hóa đưa 51 dự án đầu tư vào hoạt động năm 2026"
+        },
+        {
+          "title": "Bắt đầu hiệu chuẩn đường băng số 2 sân bay Phú Quốc",
+          "link": "https://cafef.vn/bat-dau-hieu-chuan-duong-bang-so-2-san-bay-phu-quoc-188260727101057291.chn",
+          "pubDate": "2026-07-27T03:10:00.000Z",
+          "excerpt": "Hệ thống đèn hiệu trên đường cất hạ cánh số 2 của sân bay quốc tế Phú Quốc, An Giang đã được kích hoạt, hoàn tất những bước cuối cùng để đón chuyến bay đầu…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Sân bay Phú Quốc bắt đầu hiệu chuẩn đường băng số 2"
+        },
+        {
+          "title": "CEO Avison Young: Lãi suất không phải yếu tố quyết định dòng vốn ngoại",
+          "link": "https://cafebiz.vn/ceo-avison-young-lai-suat-tang-nguoi-chiu-ap-luc-ro-nhat-khong-phai-chu-dau-tu-ma-la-nguoi-mua-nha-176260723141922675.chn",
+          "pubDate": "2026-07-23T07:17:00.000Z",
+          "excerpt": "Tổng Giám đốc Avison Young Việt Nam cho rằng, người mua nhà đang là nhóm chịu ảnh hưởng nặng nề nhất khi lãi suất tăng. Thị trường bất động sản có thể mất…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": "Lãi suất không quyết định dòng vốn ngoại"
+        },
+        {
+          "title": "Siết chặt quản lý giá điện bán lẻ tại nhà cho thuê trọ",
+          "link": "https://cafef.vn/siet-chat-quan-ly-gia-dien-ban-le-tai-nha-cho-thue-tro-188260727101531877.chn",
+          "pubDate": "2026-07-27T03:18:00.000Z",
+          "excerpt": "Suốt một thời gian dài, thị trường bán lẻ điện tại các khu nhà cho thuê trọ gần như bị thả nổi, chủ trọ mặc sức ra giá theo ý của mình. Sự ra đời của Nghị định…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Siết quản lý giá điện bán lẻ tại nhà cho thuê trọ"
+        },
+        {
+          "title": "Tập đoàn quy hoạch hàng đầu châu Âu chia sẻ hành trình kiến tạo đô thị biển bền vững tại Quảng Ngãi",
+          "link": "https://vneconomy.vn/tap-doan-quy-hoach-hang-dau-chau-au-chia-se-hanh-trinh-kien-tao-do-thi-bien-ben-vung-tai-quang-ngai.htm",
+          "pubDate": "2026-07-27T01:00:00.000Z",
+          "excerpt": "Đô thị bền vững không bắt đầu từ những tuyên ngôn lớn, mà từ cách quy hoạch “lắng nghe” khí hậu, địa hình, văn hóa và nhu cầu của con người bản địa. Trong cuộc…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Tập đoàn châu Âu chia sẻ quy hoạch đô thị biển bền vững tại Quảng Ngãi"
+        },
+        {
+          "title": "Mức lãi suất nào khiến người mua nhà sẵn sàng đi vay?",
+          "link": "https://vnexpress.net/muc-lai-suat-nao-khien-nguoi-mua-nha-san-sang-di-vay-5101188.html",
+          "pubDate": "2026-07-26T01:00:00.000Z",
+          "excerpt": "Hầu hết người mua nhà chỉ sẵn sàng đi vay khi lãi suất dưới 9% một năm, trong khi mặt bằng lãi vay hiện phổ biến 12-14%, tạo khoảng cách lớn giữa kỳ vọng và…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Người mua nhà chỉ vay khi lãi suất dưới 9%"
+        },
+        {
+          "title": "Điều cần đổi không chỉ là cách tính giá đất",
+          "link": "https://cafef.vn/dieu-can-doi-khong-chi-la-cach-tinh-gia-dat-188260727101348238.chn",
+          "pubDate": "2026-07-27T03:50:00.000Z",
+          "excerpt": "Trong dự thảo Luật Đất đai (sửa đổi), đề xuất bỏ cơ chế xác định giá đất cụ thể để chuyển sang áp dụng bảng giá đất và hệ số điều chỉnh đang thu hút nhiều sự…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Cần đổi cách tính giá đất"
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Đà Nẵng sẽ có khu công nghiệp VSIP hơn 3.700 tỷ đồng, do UBND TP Đà Nẵng chấp thuận chủ trương đầu tư tại phường Điện Bàn Bắc."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Vịnh Hạ Long dẫn đầu danh sách tìm kiếm điểm đến trong nước",
-          "link": "https://cafef.vn/vinh-ha-long-dan-dau-danh-sach-tim-kiem-diem-den-trong-nuoc-188260726183234465.chn",
-          "pubDate": "2026-07-26T11:32:00.000Z",
-          "excerpt": "Dữ liệu tìm kiếm trên Cốc Cốc trong giai đoạn từ ngày 01/05 đến 20/07/2026 cho thấy người dùng chủ động lên kế hoạch cho các chuyến đi hè, với sự quan tâm tập…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
+          "title": "Vợ ông Phạm Nhật Vượng mua thêm gần 5% vốn LPBank",
+          "link": "https://vnexpress.net/vo-ong-pham-nhat-vuong-mua-them-gan-5-von-lpbank-5099980.html",
+          "pubDate": "2026-07-27T02:37:30.000Z",
+          "excerpt": "Bà Phạm Thu Hương, vợ của tỷ phú Phạm Nhật Vượng, vừa mua 148,3 triệu cổ phiếu LPB, tương đương 4,97% vốn của LPBank.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Vợ ông Phạm Nhật Vượng mua thêm gần 5% vốn LPBank."
         },
         {
-          "title": "Tất cả chủ xe máy, ô tô vi phạm giao thông có biển số sau nhanh chóng nộp phạt nguội theo Nghị định 168",
-          "link": "https://cafef.vn/tat-ca-chu-xe-may-o-to-vi-pham-giao-thong-co-bien-so-sau-nhanh-chong-nop-phat-nguoi-theo-nghi-dinh-168-188260726165240343.chn",
-          "pubDate": "2026-07-26T10:48:00.000Z",
-          "excerpt": "Danh sách được ghi nhận từ ngày 1/7 đến ngày 15/7, với 74 trường hợp người điều khiển xe mô tô, ô tô vi phạm.",
+          "title": "Tin vui: Người nộp thuế sắp được hưởng nhiều lợi ích thiết thực từ cơ sở pháp lý mới tại Thông tư 89",
+          "link": "https://cafef.vn/tin-vui-nguoi-nop-thue-sap-duoc-huong-nhieu-loi-ich-thiet-thuc-tu-co-so-phap-ly-moi-tai-thong-tu-89-188260727101153002.chn",
+          "pubDate": "2026-07-27T03:11:00.000Z",
+          "excerpt": "Từ cơ sở pháp lý mới tại Thông tư 89/2026/TT-BTC, hoạt động kiểm tra thuế được triển khai trên môi trường điện tử, giúp tiết kiệm thời gian, chi phí, đồng thời…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Hoạt động kiểm tra thuế được triển khai trên môi trường điện tử."
         },
         {
-          "title": "Trường hợp không thành lập Hội đồng kiểm tra khi tiếp nhận công chức",
-          "link": "https://cafef.vn/truong-hop-khong-thanh-lap-hoi-dong-kiem-tra-khi-tiep-nhan-cong-chuc-18826072615441356.chn",
-          "pubDate": "2026-07-26T10:30:00.000Z",
-          "excerpt": "Bà Dương Thị Thanh Hà (Lai Châu) là viên chức hơn 10 năm, sau đó làm việc trong các hội do Đảng và Nhà nước giao nhiệm vụ đến nay được 2 năm. Bà Hà hỏi, khi…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
+          "title": "Giá vàng lên 143 triệu đồng một lượng",
+          "link": "https://vnexpress.net/gia-vang-len-143-trieu-dong-mot-luong-5101974.html",
+          "pubDate": "2026-07-27T03:54:56.000Z",
+          "excerpt": "Mỗi lượng vàng sáng nay tăng 1,5 triệu đồng lên vùng 143 triệu, chênh lệch với thế giới nới rộng hơn 12 triệu đồng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Giá vàng tăng lên 143 triệu đồng một lượng."
         },
         {
-          "title": "Phó Bí thư Thành ủy Đà Nẵng Lê Trí Thanh giữ chức Phó Bí thư Thành ủy Huế",
-          "link": "https://cafef.vn/pho-bi-thu-thanh-uy-da-nang-le-tri-thanh-giu-chuc-pho-bi-thu-thanh-uy-hue-188260726154258262.chn",
-          "pubDate": "2026-07-26T10:00:00.000Z",
-          "excerpt": "Ông Lê Trí Thanh, Phó Bí thư Thành ủy, Chủ tịch Ủy ban MTTQ Việt Nam TP Đà Nẵng được Ban Bí thư điều động, phân công làm Phó Bí thư Thành ủy Huế nhiệm kỳ…",
+          "title": "Khu kinh tế ven biển phía Nam Hải Phòng quy mô, tầm cỡ thế nào?",
+          "link": "https://cafef.vn/khu-kinh-te-ven-bien-phia-nam-hai-phong-quy-mo-tam-co-the-nao-188260727100905776.chn",
+          "pubDate": "2026-07-27T03:11:00.000Z",
+          "excerpt": "Hải Phòng sẽ xây dựng và phát triển Khu kinh tế ven biển tổng hợp, đa ngành theo mô hình Khu kinh tế áp dụng công nghệ tiên tiến trên thế giới.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cảnh báo sử dụng phần mềm vi phạm bản quyền",
-          "link": "https://cafef.vn/canh-bao-su-dung-phan-mem-vi-pham-ban-quyen-188260726082241133.chn",
-          "pubDate": "2026-07-26T09:26:00.000Z",
-          "excerpt": "Nhiều người dùng Adobe bị khóa tài khoản. Chuyên gia khuyến cáo kiểm tra bản quyền và nguồn mua phần mềm để tránh rủi ro.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Hải Phòng xây dựng Khu kinh tế ven biển."
         },
         {
           "title": "Những tác động từ chính sách thuế quan mới của Hoa Kỳ đối với Việt Nam",
@@ -317,69 +306,58 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Chính sách thuế quan mới của Hoa Kỳ ảnh hưởng đến Việt Nam."
         },
         {
-          "title": "Kịch bản nào giúp Quảng Trị hoàn thành mục tiêu tăng trưởng 10,6%?",
-          "link": "https://vneconomy.vn/kich-ban-nao-giup-quang-tri-hoan-thanh-muc-tieu-tang-truong-106.htm",
-          "pubDate": "2026-07-26T04:00:03.000Z",
-          "excerpt": "Sau 6 tháng đầu năm 2026 đạt mức tăng trưởng GRDP khoảng 8,16%, Quảng Trị đang bước vào giai đoạn tăng tốc với mục tiêu hoàn thành chỉ tiêu tăng trưởng cả năm…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
+          "title": "Hơn 1.000 doanh nghiệp ngành thực phẩm, đồ uống từ hơn 20 quốc gia, vùng lãnh thổ sắp quy tụ tại một sự kiện tầm cỡ tại TP.HCM",
+          "link": "https://cafef.vn/hon-1000-doanh-nghiep-nganh-thuc-pham-do-uong-tu-hon-20-quoc-gia-vung-lanh-tho-sap-quy-tu-tai-mot-su-kien-tam-co-tai-tphcm-188260727112259811.chn",
+          "pubDate": "2026-07-27T04:22:00.000Z",
+          "excerpt": "Trong bối cảnh hiện nay, ngoài dây chuyền sản xuất, doanh nghiệp quan tâm nhiều hơn đến các giải pháp tiết kiệm nguyên liệu, tự động hóa sản xuất, cải tiến bao…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Sự kiện quy tụ doanh nghiệp ngành thực phẩm tại TP.HCM."
         },
         {
-          "title": "Thanh Hóa quyết tâm cải thiện 4 chỉ số phát triển",
-          "link": "https://vneconomy.vn/thanh-hoa-quyet-tam-cai-thien-4-chi-so-phat-trien.htm",
-          "pubDate": "2026-07-26T03:57:54.000Z",
-          "excerpt": "UBND tỉnh Thanh Hóa vừa ban hành kế hoạch cải thiện và nâng cao 4 bộ chỉ số quan trọng gồm Chỉ số năng lực cạnh tranh cấp tỉnh (PCI), Chỉ số hiệu quả kinh tế…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
+          "title": "Một loại hình du lịch mới đang bùng nổ, Việt Nam có tiềm năng trở thành điểm đến hấp dẫn của khu vực",
+          "link": "https://cafef.vn/mot-loai-hinh-du-lich-moi-dang-bung-no-viet-nam-co-tiem-nang-tro-thanh-diem-den-hap-dan-cua-khu-vuc-188260727110834167.chn",
+          "pubDate": "2026-07-27T04:08:00.000Z",
+          "excerpt": "Trong những năm gần đây, du lịch không còn chỉ gắn với nghỉ dưỡng hay tham quan danh lam thắng cảnh. Thay vào đó, ngày càng nhiều du khách lựa chọn những…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Du lịch mới bùng nổ, Việt Nam có tiềm năng."
+        },
+        {
+          "title": "Thông tin quan trọng về đăng ký tạm trú, tất cả người dân cần biết để tránh bị phạt",
+          "link": "https://cafef.vn/thong-tin-quan-trong-ve-dang-ky-tam-tru-tat-ca-nguoi-dan-can-biet-de-tranh-bi-phat-188260727110707048.chn",
+          "pubDate": "2026-07-27T04:07:00.000Z",
+          "excerpt": "Cơ quan công an khuyến cáo người dân cần thực hiện nghiêm việc khai báo tạm trú trên hệ thống theo đúng quy định của pháp luật để tránh bị xử phạt hành chính.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Người dân cần khai báo tạm trú đúng quy định."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Bà Phạm Thu Hương, vợ của tỷ phú Phạm Nhật Vượng, mua 148,3 triệu cổ phiếu LPB, tương đương 4,97% vốn LPBank."
     },
     {
       "key": "international",
       "displayName": "International",
       "articles": [
         {
-          "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
-          "link": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
-          "pubDate": "2026-07-26T23:45:00.000Z",
-          "excerpt": "U.S. stock-index futures rallied and oil prices tumbled on Sunday as the U.S. and Iran took a pause from fighting, and as Wall Street gears up for the Fed’s…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Oil prices fall as Iran and US pause strikes over Strait of Hormuz tensions",
-          "link": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1",
-          "pubDate": "2026-07-26T23:37:11.000Z",
-          "excerpt": "Brent opens lower after two weeks of escalating violence pushed crude to more than $100 a barrel",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Federal Probe into Dodgers Owner’s Financial Empire Was Sparked By Whistleblower",
-          "link": "https://www.wsj.com/finance/regulation/federal-probe-into-dodgers-owners-financial-empire-was-sparked-by-whistleblower-013b0053?mod=rss_markets_main",
-          "pubDate": "2026-07-26T23:24:00.000Z",
-          "excerpt": "Authorities are examining about $16 billion in private-credit deals involving Mark Walter’s insurance companies to determine whether fraud occurred.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
+          "title": "Nhà đầu tư đổ xô vào cổ phiếu chip Trung Quốc, CXMT tăng gần 500% trong ngày đầu niêm yết",
+          "link": "http://vietstock.vn/2026/07/nha-dau-tu-do-xo-vao-co-phieu-chip-trung-quoc-cxmt-tang-gan-500-trong-ngay-dau-niem-yet-773-1471313.htm",
+          "pubDate": "2026-07-27T03:28:19.000Z",
+          "excerpt": "Cổ phiếu CXMT, nhà sản xuất chip nhớ của Trung Quốc, tăng gần 500% trong phiên giao dịch đầu tiên trên Sàn Giao dịch Chứng khoán Thượng Hải ngày 27/07, khi nhà…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "CXMT stock surged nearly 500% on its first trading day"
         },
         {
           "title": "Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center",
@@ -390,54 +368,76 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": null
+          "condensed": "Nvidia discusses financing with OpenAI for a large AI computing hub"
         },
         {
-          "title": "Venezuela opposition leader Machado says she will not take part in US-backed talks",
-          "link": "https://www.scmp.com/news/world/americas/article/3361923/venezuela-opposition-leader-machado-says-she-will-not-take-part-us-backed-talks?utm_source=rss_feed",
-          "pubDate": "2026-07-26T23:05:30.000Z",
-          "excerpt": "Venezuelan Nobel Peace Prize laureate and opposition leader Maria Corina Machado said on Sunday she will not take part in US-backed talks with the de facto…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
+          "title": "Vốn hóa các “ông lớn” công nghệ bốc hơi hơn 500 tỷ USD trong một tuần",
+          "link": "http://vietstock.vn/2026/07/von-hoa-cac-ong-lon-cong-nghe-boc-hoi-hon-500-ty-usd-trong-mot-tuan-773-1471277.htm",
+          "pubDate": "2026-07-27T01:53:22.000Z",
+          "excerpt": "Làn sóng hoài nghi về hiệu quả đầu tư AI khiến vốn hóa của nhiều tập đoàn công nghệ lớn như Alphabet và Tesla sụt giảm mạnh, trong khi dòng tiền chuyển sang…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "Tech giants lost over $500 billion in value amid AI investment doubts"
         },
         {
-          "title": "Gatwick airport apologises after water shortage hits toilets",
-          "link": "https://www.ft.com/content/c6c745fc-58d6-4a31-9410-ce4e8f5bcfcf?syn-25a6b1a6=1",
-          "pubDate": "2026-07-26T23:04:56.000Z",
-          "excerpt": "Many bars and restaurants were also forced to close, although flights were still running during the disruption",
+          "title": "Oil falls more than 4% as Iran and US pause strikes over Strait of Hormuz",
+          "link": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1",
+          "pubDate": "2026-07-27T04:12:10.000Z",
+          "excerpt": "Brent opens lower after two weeks of escalating violence pushed crude to more than $100 a barrel",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
+          "condensed": "Oil prices fell over 4% as US and Iran paused strikes"
         },
         {
-          "title": "US border tsar says vetting of ICE officer is under internal review after Maine shooting",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3361922/us-border-tsar-says-vetting-ice-officer-under-internal-review-after-maine-shooting?utm_source=rss_feed",
-          "pubDate": "2026-07-26T22:18:01.000Z",
-          "excerpt": "US President Donald Trump’s border tsar said on Sunday that the vetting of an immigration officer involved in the deadly shooting of a Colombian native in…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
+          "title": "Singapore tightens monetary policy in surprise move as rising oil prices rekindle inflation risk",
+          "link": "https://www.cnbc.com/2026/07/27/singapore-mas-july-monetary-policy-middle-east-oil-prices-inflation-.html",
+          "pubDate": "2026-07-27T03:36:08.000Z",
+          "excerpt": "Unlike most central banks, the MAS manages medium-term price stability by managing the Singapore dollar exchange rate against a trade-weighted basket of…",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": "Singapore tightened monetary policy due to rising oil prices"
         },
         {
-          "title": "UK PM Burnham to welcome Ukraine’s Zelensky in first foreign leader visit",
-          "link": "https://www.scmp.com/news/world/europe/article/3361921/uks-burnham-welcome-ukraines-zelensky-first-foreign-leader-visit?utm_source=rss_feed",
-          "pubDate": "2026-07-26T21:50:15.000Z",
-          "excerpt": "Britain’s Prime Minister Andy Burnham will on Monday host Ukrainian President Volodymyr Zelensky as his first foreign leader since taking office a week ago, to…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
+          "title": "Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week",
+          "link": "https://www.marketwatch.com/story/oil-prices-sink-stock-futures-rally-as-u-s-and-iran-pause-attacks-wall-street-awaits-busy-week-75030e00?mod=mw_rss_topstories",
+          "pubDate": "2026-07-27T03:02:00.000Z",
+          "excerpt": "U.S. stock-index futures rallied and oil prices tumbled on Sunday as the U.S. and Iran took a pause from fighting, and as Wall Street gears up for the Fed’s…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "Oil prices sank and stock futures rallied as US and Iran paused attacks"
+        },
+        {
+          "title": "JGB Futures Rise Amid Falling Crude Oil Prices",
+          "link": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195?mod=rss_markets_main",
+          "pubDate": "2026-07-27T00:20:00.000Z",
+          "excerpt": "JGB futures rose in early Tokyo trade amid falling crude oil prices that typically lead to lower inflation in Japan.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": "JGB futures rose amid falling crude oil prices"
+        },
+        {
+          "title": "Federal Probe Into Dodgers Owner’s Financial Empire Was Sparked by Whistleblower",
+          "link": "https://www.wsj.com/finance/regulation/federal-probe-into-dodgers-owners-financial-empire-was-sparked-by-whistleblower-013b0053?mod=rss_markets_main",
+          "pubDate": "2026-07-26T23:24:00.000Z",
+          "excerpt": "Authorities are examining about $16 billion in private-credit deals involving Mark Walter’s insurance companies to determine whether fraud occurred.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": "A whistleblower sparked a federal probe into Mark Walter's financial empire"
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Cổ phiếu CXMT tăng gần 500% trong phiên giao dịch đầu tiên trên Sàn Giao dịch Chứng khoán Thượng Hải vì nhà đầu tư đổ xô vào cổ phiếu chip Trung Quốc."
     }
   ]
 }
