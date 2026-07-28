@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T12:57:17.105Z",
+  "lastUpdated": "2026-07-28T15:24:30.064Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4035.2,
+      "value": 4031.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7413.18,
-      "change": -30.099999999999454,
-      "changePercent": -0.40439161229994647
+      "value": 7434.34,
+      "change": -74.85999999999967,
+      "changePercent": -0.9969104565066809
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 24932.082,
-      "change": -575.9880000000012,
-      "changePercent": -2.2580618604230005
+      "value": 24900.107,
+      "change": -937.1029999999992,
+      "changePercent": -3.6269512071930334
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25353.81,
-      "change": 342.46000000000276,
-      "changePercent": 1.3692183748578257
+      "value": 25380.53,
+      "change": 369.1800000000003,
+      "changePercent": 1.476049873357497
     }
   ],
   "themes": [
@@ -64,48 +64,26 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "VN-Index đảo chiều tăng mạnh",
-          "link": "https://vnexpress.net/vn-index-dao-chieu-tang-manh-5102570.html",
-          "pubDate": "2026-07-28T08:37:44.000Z",
-          "excerpt": "Nhiều cổ phiếu nhảy vọt sau tin \"bắt đáy\" của lãnh đạo, góp phần giúp chỉ số đại diện cho sàn TP HCM đảo chiều từ giảm thành tăng gần 12 điểm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "VN-Index tăng mạnh sau tin lãnh đạo bắt đáy, nhiều cổ phiếu nhảy vọt."
-        },
-        {
-          "title": "Chứng khoán đảo chiều trong ngày sinh nhật thị trường",
-          "link": "https://cafef.vn/chung-khoan-dao-chieu-trong-ngay-sinh-nhat-thi-truong-188260728190326916.chn",
-          "pubDate": "2026-07-28T12:03:00.000Z",
-          "excerpt": "Đúng dịp thị trường chứng khoán Việt Nam tròn 26 năm hoạt động, phiên giao dịch ngày 28/7 chứng kiến màn đảo chiều đầy bất ngờ. Sau khi chịu áp lực bán mạnh…",
+          "title": "PNJ trải qua 20 ngày chưa từng có: Mua lại lượng hàng trị giá 5.900 tỷ đồng, gấp 3,7 lần doanh thu",
+          "link": "https://cafef.vn/pnj-trai-qua-20-ngay-chua-tung-co-mua-lai-luong-hang-tri-gia-5900-ty-dong-gap-37-lan-doanh-thu-188260728193434672.chn",
+          "pubDate": "2026-07-28T14:37:00.000Z",
+          "excerpt": "Từ 1/7 - 20/7, PNJ cho biết công ty đạt doanh thu gần 1.600 tỷ đồng, trong khi hàng bán bị trả lại lên tới 5.900 tỷ đồng, gấp 3,7 lần doanh thu.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chứng khoán Việt Nam đảo chiều trong ngày sinh nhật thị trường."
+          "condensed": null
         },
         {
-          "title": "Cổ phiếu chip châu Á đồng loạt lao dốc sau tin Trung Quốc phát triển thành công máy quang khắc DUV",
-          "link": "https://vneconomy.vn/co-phieu-chip-chau-a-dong-loat-lao-doc-sau-tin-trung-quoc-phat-trien-thanh-cong-may-quang-khac-duv.htm",
-          "pubDate": "2026-07-28T08:38:27.000Z",
-          "excerpt": "Cổ phiếu hàng loạt doanh nghiệp bán dẫn hàng đầu châu Á đồng loạt giảm mạnh trong phiên giao dịch ngày thứ Ba, trong đó Reuters đánh giá thị trường Hàn Quốc…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Cổ phiếu chip châu Á giảm mạnh sau tin Trung Quốc phát triển máy quang khắc DUV."
-        },
-        {
-          "title": "Tăng mạnh dự phòng, VietABank giảm 12% lãi trước thuế quý 2",
-          "link": "http://vietstock.vn/2026/07/tang-manh-du-phong-vietabank-giam-12-lai-truoc-thue-quy-2-737-1472110.htm",
-          "pubDate": "2026-07-28T08:18:19.000Z",
-          "excerpt": "Theo BCTC hợp nhất quý 2/2026 vừa được công bố, Ngân hàng TMCP Việt Á (VietABank, HOSE: VAB) sụt giảm lợi nhuận trước thuế 12%, chỉ còn 318 tỷ đồng, dù các…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "VietABank giảm 12% lãi trước thuế quý 2 do tăng dự phòng."
+          "title": "PNJ đã chi hơn 7.000 tỷ đồng thu mua lại kim cương, vàng",
+          "link": "https://vnexpress.net/pnj-da-chi-hon-7-000-ty-dong-thu-mua-lai-kim-cuong-vang-5102673.html",
+          "pubDate": "2026-07-28T12:31:33.000Z",
+          "excerpt": "Từ đầu tháng 7, PNJ đã mua lại tất cả sản phẩm từ khách hàng trị giá khoảng 7.062 tỷ đồng, chủ yếu là kim cương, vàng và trang sức.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
         },
         {
           "title": "Nhiều định chế lớn Vanguard, Blackstone, Morgan Stanley đã hoàn tất chuẩn bị kỹ thuật để đầu tư vào Việt Nam",
@@ -116,29 +94,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Nhiều định chế lớn hoàn tất chuẩn bị kỹ thuật để đầu tư vào Việt Nam."
-        },
-        {
-          "title": "Từng bán cổ phiếu để 'hy sinh lợi ích cá nhân', Chủ tịch Phát Đạt nay muốn mua lại 20 triệu cổ phiếu PDR",
-          "link": "https://cafef.vn/tung-ban-co-phieu-de-hy-sinh-loi-ich-ca-nhan-chu-tich-phat-dat-nay-muon-mua-lai-20-trieu-co-phieu-pdr-188260728143638883.chn",
-          "pubDate": "2026-07-28T11:36:00.000Z",
-          "excerpt": "Vào tháng 8 và đầu tháng 9/2025, Chủ tịch Phát Đạt từng bán ra 88 triệu cổ phiếu PDR khi thị giá ở vùng khoảng 24.550 đồng/cổ phiếu.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Chủ tịch Phát Đạt muốn mua lại 20 triệu cổ phiếu PDR."
-        },
-        {
-          "title": "Một doanh nghiệp nhà nước lần đầu lãi trăm tỷ nhờ cổ tức từ công ty con của Vingroup",
-          "link": "https://vnexpress.net/mot-doanh-nghiep-nha-nuoc-lan-dau-lai-tram-ty-nho-co-tuc-tu-cong-ty-con-cua-vingroup-5102504.html",
-          "pubDate": "2026-07-28T07:16:44.000Z",
-          "excerpt": "Quý II, Xà phòng Hà Nội báo lãi kỷ lục nhờ nhận 113,5 tỷ đồng cổ tức từ Công ty Bất động sản Xavinco, một thành viên trong hệ sinh thái Vingroup.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Xà phòng Hà Nội lãi trăm tỷ nhờ cổ tức từ công ty con của Vingroup."
+          "condensed": null
         },
         {
           "title": "Giữ đà tăng trưởng mạnh mẽ, VPBank liên tiếp chinh phục các bảng xếp hạng, giải thưởng quốc tế",
@@ -149,7 +105,51 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "VPBank tăng trưởng mạnh mẽ, chinh phục các bảng xếp hạng quốc tế."
+          "condensed": null
+        },
+        {
+          "title": "Tổng Công ty Đường sắt Việt Nam báo lãi",
+          "link": "https://cafef.vn/tong-cong-ty-duong-sat-viet-nam-bao-lai-188260728190437938.chn",
+          "pubDate": "2026-07-28T12:59:00.000Z",
+          "excerpt": "Tổng Công ty Đường sắt Việt Nam vừa ghi nhận kết quả kinh doanh khởi sắc trong nửa đầu năm 2026 với lợi nhuận đạt 181 tỷ đồng - vượt xa kế hoạch năm. Doanh…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chứng khoán đảo chiều trong ngày sinh nhật thị trường",
+          "link": "https://cafef.vn/chung-khoan-dao-chieu-trong-ngay-sinh-nhat-thi-truong-188260728190326916.chn",
+          "pubDate": "2026-07-28T12:03:00.000Z",
+          "excerpt": "Đúng dịp thị trường chứng khoán Việt Nam tròn 26 năm hoạt động, phiên giao dịch ngày 28/7 chứng kiến màn đảo chiều đầy bất ngờ. Sau khi chịu áp lực bán mạnh…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Cổ phiếu chip châu Á đồng loạt lao dốc sau tin Trung Quốc phát triển thành công máy quang khắc DUV",
+          "link": "https://vneconomy.vn/co-phieu-chip-chau-a-dong-loat-lao-doc-sau-tin-trung-quoc-phat-trien-thanh-cong-may-quang-khac-duv.htm",
+          "pubDate": "2026-07-28T08:38:27.000Z",
+          "excerpt": "Cổ phiếu hàng loạt doanh nghiệp bán dẫn hàng đầu châu Á đồng loạt giảm mạnh trong phiên giao dịch ngày thứ Ba, trong đó Reuters đánh giá thị trường Hàn Quốc…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Tăng mạnh dự phòng, VietABank giảm 12% lãi trước thuế quý 2",
+          "link": "http://vietstock.vn/2026/07/tang-manh-du-phong-vietabank-giam-12-lai-truoc-thue-quy-2-737-1472110.htm",
+          "pubDate": "2026-07-28T08:18:19.000Z",
+          "excerpt": "Theo BCTC hợp nhất quý 2/2026 vừa được công bố, Ngân hàng TMCP Việt Á (VietABank, HOSE: VAB) sụt giảm lợi nhuận trước thuế 12%, chỉ còn 318 tỷ đồng, dù các…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -192,25 +192,14 @@
           "condensed": null
         },
         {
-          "title": "Hà Nội điểm tên 300 dự án chậm triển khai, xem xét thu hồi",
-          "link": "https://cafef.vn/ha-noi-diem-ten-300-du-an-cham-trien-khai-xem-xet-thu-hoi-188260728155051293.chn",
-          "pubDate": "2026-07-28T09:30:00.000Z",
-          "excerpt": "Hà Nội thúc tiến độ, yêu cầu nhà đầu tư của 300 dự án sử dụng vốn ngoài ngân sách có sử dụng đất chậm triển khai khẩn trương hoàn thiện thủ tục, tiến độ khởi…",
+          "title": "Cổ phiếu bất động sản 'rơi' mạnh, có mã rẻ như trà đá",
+          "link": "https://cafef.vn/co-phieu-bat-dong-san-roi-manh-co-ma-re-nhu-tra-da-188260728162404693.chn",
+          "pubDate": "2026-07-28T09:23:00.000Z",
+          "excerpt": "Trong một năm qua, giá hàng loạt cổ phiếu bất động sản như DIG, CEO, NLG, SCR, DXG, DXS, SGR, VNI, SZC… giảm mạnh, trong đó có nhiều mã cổ phiếu giảm hơn nửa…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "TP. Hồ Chí Minh tháo gỡ vướng mắc về bồi thường diện tích đất còn lại của 25 dự án",
-          "link": "https://vneconomy.vn/tp-ho-chi-minh-thao-go-vuong-mac-ve-boi-thuong-dien-tich-dat-con-lai-cua-25-du-an.htm",
-          "pubDate": "2026-07-28T08:04:40.000Z",
-          "excerpt": "UBND TP. Hồ Chí Minh có quyết định cho phép áp dụng quy định pháp luật tại thời điểm đã phê duyệt phương án bồi thường trước đó để tiếp tục xử lý phần diện…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
           "condensed": null
         },
         {
@@ -225,25 +214,36 @@
           "condensed": null
         },
         {
-          "title": "Cổ phiếu bất động sản 'rơi' mạnh, có mã rẻ như trà đá",
-          "link": "https://cafef.vn/co-phieu-bat-dong-san-roi-manh-co-ma-re-nhu-tra-da-188260728162404693.chn",
-          "pubDate": "2026-07-28T09:23:00.000Z",
-          "excerpt": "Trong một năm qua, giá hàng loạt cổ phiếu bất động sản như DIG, CEO, NLG, SCR, DXG, DXS, SGR, VNI, SZC… giảm mạnh, trong đó có nhiều mã cổ phiếu giảm hơn nửa…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất TP HCM được chuyển đổi linh hoạt giữa dự án nhà ở xã hội và thương mại",
-          "link": "https://vnexpress.net/de-xuat-tp-hcm-duoc-chuyen-doi-linh-hoat-giua-du-an-nha-o-xa-hoi-va-thuong-mai-5102347.html",
-          "pubDate": "2026-07-28T03:54:27.000Z",
-          "excerpt": "Chính phủ đề xuất cho TP HCM linh hoạt chuyển đổi giữa nhà ở thương mại, nhà xã hội và tái định cư nhằm đáp ứng nhu cầu thực tế của người dân.",
+          "title": "Một doanh nghiệp nhà nước lần đầu lãi trăm tỷ nhờ cổ tức từ công ty con của Vingroup",
+          "link": "https://vnexpress.net/mot-doanh-nghiep-nha-nuoc-lan-dau-lai-tram-ty-nho-co-tuc-tu-cong-ty-con-cua-vingroup-5102504.html",
+          "pubDate": "2026-07-28T07:16:44.000Z",
+          "excerpt": "Quý II, Xà phòng Hà Nội báo lãi kỷ lục nhờ nhận 113,5 tỷ đồng cổ tức từ Công ty Bất động sản Xavinco, một thành viên trong hệ sinh thái Vingroup.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Quy định mới về xử phạt vi phạm hành chính trong lĩnh vực đất đai",
+          "link": "https://vneconomy.vn/quy-dinh-moi-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-dat-dai.htm",
+          "pubDate": "2026-07-28T10:27:32.000Z",
+          "excerpt": "Hành vi chuyển đất sản xuất, kinh doanh phi nông nghiệp không phải đất thương mại, dịch vụ sang đất thương mại, dịch vụ thuộc địa giới hành chính của xã với…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "TP. Hồ Chí Minh tháo gỡ vướng mắc về bồi thường diện tích đất còn lại của 25 dự án",
+          "link": "https://vneconomy.vn/tp-ho-chi-minh-thao-go-vuong-mac-ve-boi-thuong-dien-tich-dat-con-lai-cua-25-du-an.htm",
+          "pubDate": "2026-07-28T08:04:40.000Z",
+          "excerpt": "UBND TP. Hồ Chí Minh có quyết định cho phép áp dụng quy định pháp luật tại thời điểm đã phê duyệt phương án bồi thường trước đó để tiếp tục xử lý phần diện…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -254,10 +254,43 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Sau 7 tháng, một khu kinh tế đã thu hút 6,2 tỷ USD vốn đầu tư, quy tụ cùng lúc dự án VinMetal, VinFast, LNG Vũng Áng III với tổng quy mô hơn 140.000 tỷ đồng",
-          "link": "https://cafef.vn/sau-7-thang-mot-khu-kinh-te-da-thu-hut-62-ty-usd-von-dau-tu-quy-tu-cung-luc-du-an-vinmetal-vinfast-lng-vung-ang-iii-voi-tong-quy-mo-hon-140000-ty-dong-188260728154000707.chn",
-          "pubDate": "2026-07-28T09:38:00.000Z",
-          "excerpt": "Sau nhiều năm phát triển, khu kinh tế này tiếp tục khẳng định vai trò đầu tàu, là cực tăng trưởng mới của tỉnh Hà Tĩnh.",
+          "title": "INDEL làm việc với Bộ Ngoại giao Litva và Tập đoàn KN Energy về hợp tác chuyển giao công nghệ tổng kho khí tại Vân Phong",
+          "link": "https://cafef.vn/indel-lam-viec-voi-bo-ngoai-giao-litva-va-tap-doan-kn-energy-ve-hop-tac-chuyen-giao-cong-nghe-tong-kho-khi-tai-van-phong-188260728184414289.chn",
+          "pubDate": "2026-07-28T11:44:00.000Z",
+          "excerpt": "Vào lúc 10 giờ sáng ngày 28/7/2026, Tập đoàn INDEL đã tổ chức lễ ký kết Biên bản ghi nhớ hợp tác (MOU) với Tập đoàn KN Energy (Litva), với sự chứng kiến của…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "VN-Index đảo chiều tăng mạnh",
+          "link": "https://vnexpress.net/vn-index-dao-chieu-tang-manh-5102570.html",
+          "pubDate": "2026-07-28T08:37:44.000Z",
+          "excerpt": "Nhiều cổ phiếu nhảy vọt sau tin \"bắt đáy\" của lãnh đạo, góp phần giúp chỉ số đại diện cho sàn TP HCM đảo chiều từ giảm thành tăng gần 12 điểm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Bộ Xây dựng yêu cầu đẩy nhanh tiến độ hai dự án cao tốc Cần Thơ - Cà Mau",
+          "link": "https://vneconomy.vn/bo-xay-dung-yeu-cau-day-nhanh-tien-do-hai-du-an-cao-toc-can-tho-ca-mau.htm",
+          "pubDate": "2026-07-28T04:30:12.000Z",
+          "excerpt": "Bộ Xây dựng vừa có văn bản gửi các cục chuyên ngành và Ban Quản lý dự án Mỹ Thuận yêu cầu khẩn trương khắc phục các tồn tại, đẩy nhanh tiến độ thi công và giải…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Phó Thủ tướng Thường trực chỉ đạo tháo gỡ vướng mắc cho các dự án điện gió ở tỉnh Lâm Đồng",
+          "link": "https://cafef.vn/pho-thu-tuong-thuong-truc-chi-dao-thao-go-vuong-mac-cho-cac-du-an-dien-gio-o-tinh-lam-dong-188260728202624525.chn",
+          "pubDate": "2026-07-28T14:00:00.000Z",
+          "excerpt": "Sáng 27/7, Ủy viên Bộ Chính trị, Phó Thủ tướng Thường trực Phạm Gia Túc chủ trì cuộc họp với các bộ, ngành liên quan và tỉnh Lâm Đồng về việc tháo gỡ khó khăn,…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -273,28 +306,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Bộ Xây dựng yêu cầu đẩy nhanh tiến độ hai dự án cao tốc Cần Thơ - Cà Mau",
-          "link": "https://vneconomy.vn/bo-xay-dung-yeu-cau-day-nhanh-tien-do-hai-du-an-cao-toc-can-tho-ca-mau.htm",
-          "pubDate": "2026-07-28T04:30:12.000Z",
-          "excerpt": "Bộ Xây dựng vừa có văn bản gửi các cục chuyên ngành và Ban Quản lý dự án Mỹ Thuận yêu cầu khẩn trương khắc phục các tồn tại, đẩy nhanh tiến độ thi công và giải…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "INDEL làm việc với Bộ Ngoại giao Litva và Tập đoàn KN Energy về hợp tác chuyển giao công nghệ tổng kho khí tại Vân Phong",
-          "link": "https://cafef.vn/indel-lam-viec-voi-bo-ngoai-giao-litva-va-tap-doan-kn-energy-ve-hop-tac-chuyen-giao-cong-nghe-tong-kho-khi-tai-van-phong-188260728184414289.chn",
-          "pubDate": "2026-07-28T11:44:00.000Z",
-          "excerpt": "Vào lúc 10 giờ sáng ngày 28/7/2026, Tập đoàn INDEL đã tổ chức lễ ký kết Biên bản ghi nhớ hợp tác (MOU) với Tập đoàn KN Energy (Litva), với sự chứng kiến của…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -320,17 +331,6 @@
           "condensed": null
         },
         {
-          "title": "Giá vàng sáng 29/6: Đồng loạt hạ nhiệt, nhiều thương hiệu mất nửa triệu đồng/lượng",
-          "link": "https://cafebiz.vn/gia-vang-sang-29-6-dong-loat-ha-nhiet-nhieu-thuong-hieu-mat-nua-trieu-dong-luong-17626062909125613.chn",
-          "pubDate": "2026-06-29T02:12:00.000Z",
-          "excerpt": "So với cuối tuần trước, giá vàng miếng và vàng nhẫn ở nhiều thương hiệu đồng loạt giảm từ 500.000 - 800.000 đồng mỗi lượng.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": null
-        },
-        {
           "title": "Hà Nội công khai hơn 150.000 mã số thuế cần rà soát, xử lý",
           "link": "https://cafef.vn/ha-noi-cong-khai-hon-150000-ma-so-thue-can-ra-soat-xu-ly-188260728163027149.chn",
           "pubDate": "2026-07-28T10:30:00.000Z",
@@ -349,9 +349,53 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "US tech stocks enter correction as AI sell-off deepens",
+          "link": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae?syn-25a6b1a6=1",
+          "pubDate": "2026-07-28T14:02:44.000Z",
+          "excerpt": "Semiconductor rout has wiped more than 10% from the Nasdaq 100 since June high",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Tech fund manager says the market is misreading Alphabet’s second-quarter earnings",
+          "link": "https://www.marketwatch.com/story/tech-fund-manager-says-the-market-is-misreading-second-quarter-earnings-9823461b?mod=mw_rss_topstories",
+          "pubDate": "2026-07-28T14:59:00.000Z",
+          "excerpt": "Investors should focus more on earnings growth and less on capital expenditures, says Catalyst Funds’ chief investment officer.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "The Fed isn’t your biggest worry. The central-bank decision that actually impacts your 401(k) lands in Tokyo.",
+          "link": "https://www.marketwatch.com/story/the-fed-isnt-your-biggest-worry-the-central-bank-decision-that-actually-impacts-your-401-k-lands-in-tokyo-fc9d22c8?mod=mw_rss_topstories",
+          "pubDate": "2026-07-28T14:30:00.000Z",
+          "excerpt": "Japan is edging toward the exit on buying America’s debt. Here is why this matters to your retirement plans.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "The Price to Finance the AI Data Center Boom Is Rising, Just Ask Meta",
+          "link": "https://www.wsj.com/finance/the-price-to-finance-the-ai-data-center-boom-is-rising-just-ask-meta-7894d503?mod=rss_markets_main",
+          "pubDate": "2026-07-28T09:30:00.000Z",
+          "excerpt": "Meta’s data-center project priced a $12.5 billion offering with a higher interest rate than a similar deal last year, as AI companies flood the market with new…",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
           "title": "PayPal delivers an earnings beat — and suggests it’s not against a merger deal",
           "link": "https://www.marketwatch.com/story/paypal-delivers-an-earnings-beat-as-investors-await-updates-on-possible-merger-105930b7?mod=mw_rss_topstories",
-          "pubDate": "2026-07-28T12:46:00.000Z",
+          "pubDate": "2026-07-28T14:47:00.000Z",
           "excerpt": "“If we see levers or a path that we believe would create superior value for our shareholders than executing our current strategy, we would, of course,…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -360,10 +404,10 @@
           "condensed": null
         },
         {
-          "title": "As chips sell off, rattled investors should heed this Cisco Systems lesson from the last millennium",
-          "link": "https://www.marketwatch.com/story/as-semis-sell-off-rattled-investors-should-heed-last-millenniums-lesson-from-cisco-systems-4bb53304?mod=mw_rss_topstories",
-          "pubDate": "2026-07-28T12:39:00.000Z",
-          "excerpt": "The market should recover its poise within the next few days, says Fundstrat’s Tom Lee.",
+          "title": "Oil prices decline further after Trump claims ‘deep talks’ with Iran are under way",
+          "link": "https://www.marketwatch.com/story/oil-prices-decline-further-after-trump-claims-deep-talks-are-underway-with-iran-167a5393?mod=mw_rss_topstories",
+          "pubDate": "2026-07-28T15:17:00.000Z",
+          "excerpt": "Brent and West Texas Intermediate crude were on track to notch a third straight session decline on Tuesday, as the pause in fighting between the U.S. and Iran…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -371,10 +415,10 @@
           "condensed": null
         },
         {
-          "title": "America declares international law for thee but not for me",
-          "link": "https://www.scmp.com/opinion/world-opinion/article/3361944/america-declares-international-law-thee-not-me?utm_source=rss_feed",
-          "pubDate": "2026-07-28T12:30:09.000Z",
-          "excerpt": "In Orwellian totalitarianism, two plus two can equal five. But with American hegemony, things can be A and not A at the same time. Earlier this month,…",
+          "title": "Oman offers Iran Gulf-backed plan for voluntary fees to use Hormuz",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3362164/oman-offers-iran-gulf-backed-plan-voluntary-fees-use-hormuz?utm_source=rss_feed",
+          "pubDate": "2026-07-28T13:36:04.000Z",
+          "excerpt": "Oman presented ⁠Iran with a plan backed by Gulf states to manage the Strait of Hormuz, including collecting voluntary fees for using it, a Gulf source and a…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -382,58 +426,14 @@
           "condensed": null
         },
         {
-          "title": "Ebola cases in DR Congo top 3,200, nearing record of country’s worst outbreak",
-          "link": "https://www.scmp.com/news/world/africa/article/3362155/ebola-cases-dr-congo-top-3200-nearing-record-countrys-worst-outbreak?utm_source=rss_feed",
-          "pubDate": "2026-07-28T12:25:32.000Z",
-          "excerpt": "Confirmed cases in the Democratic Republic of Congo’s ongoing Ebola outbreak reached 3,262, its ministry of health said in an overnight update, nearly the same…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Boeing’s stock rallies as surprisingly large loss is offset by upbeat revenue and backlog",
-          "link": "https://www.marketwatch.com/story/boeings-stock-rallies-as-surprisingly-large-loss-is-offset-by-upbeat-revenue-and-backlog-e0ad69c9?mod=mw_rss_topstories",
-          "pubDate": "2026-07-28T12:24:00.000Z",
-          "excerpt": "Sales outpace Wall Street expectations as defense business comes through while commercial airplane sales miss mark.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Meta is up against a wall of AI pessimism heading into earnings",
-          "link": "https://www.marketwatch.com/story/meta-is-up-against-a-wall-of-ai-pessimism-heading-into-earnings-4d3bbcc9?mod=mw_rss_topstories",
-          "pubDate": "2026-07-28T12:17:00.000Z",
-          "excerpt": "Following Alphabet’s earnings last week, investors will be closely scrutinizing Meta’s AI spending.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
-          "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
-          "pubDate": "2026-07-28T12:15:00.000Z",
-          "excerpt": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "AI stock sell-off deepens as investors dump chipmakers",
-          "link": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae?syn-25a6b1a6=1",
-          "pubDate": "2026-07-28T11:36:19.000Z",
-          "excerpt": "Wall Street tech shares set for further declines after South Korean markets tumble",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Banks Want Technophobes and Late Adopters to Use Digital Wallets. It Isn’t Easy.",
+          "link": "https://www.wsj.com/finance/banking/banks-want-technophobes-and-late-adopters-to-use-digital-wallets-it-isnt-easy-794e1762?mod=rss_markets_main",
+          "pubDate": "2026-07-28T14:42:00.000Z",
+          "excerpt": "Paze faces an uphill battle to get people to use its online checkout button over Apple Pay and Google Pay.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
           "condensed": null
         }
       ],
