@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T14:27:57.167Z",
+  "lastUpdated": "2026-07-29T16:24:23.867Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4061.6,
+      "value": 4069.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7367.79,
-      "change": -131.17000000000007,
-      "changePercent": -1.7491758857228212
+      "value": 7357.93,
+      "change": -141.02999999999975,
+      "changePercent": -1.880660784962178
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 24589.365,
-      "change": -1101.5349999999999,
-      "changePercent": -4.28764659860106
+      "value": 24583.068,
+      "change": -1107.8320000000022,
+      "changePercent": -4.312157222985579
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25517.28,
-      "change": 361.869999999999,
-      "changePercent": 1.4385374756364495
+      "value": 25460.48,
+      "change": 305.0699999999997,
+      "changePercent": 1.212741116125715
     }
   ],
   "themes": [
@@ -63,17 +63,6 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
-        {
-          "title": "VN-Index tăng mạnh nhất một tháng",
-          "link": "https://vnexpress.net/vn-index-tang-manh-nhat-mot-thang-5103025.html",
-          "pubDate": "2026-07-29T09:43:14.000Z",
-          "excerpt": "Cổ phiếu \"họ\" Vingroup đồng loạt hút tiền, giúp VN-Index tăng 24 điểm và lấy lại mốc tâm lý 1.700 điểm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
         {
           "title": "Chủ tịch SMC đăng ký mua 5 triệu cổ phiếu, nâng sở hữu lên hơn 8%",
           "link": "https://cafef.vn/chu-tich-smc-dang-ky-mua-5-trieu-co-phieu-nang-so-huu-len-hon-8-188260729211324648.chn",
@@ -83,7 +72,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Chủ tịch SMC đăng ký mua 5 triệu cổ phiếu để tăng sở hữu lên hơn 8%."
         },
         {
           "title": "VietABank được chấp thuận tăng vốn điều lệ lên gần 9,021 tỷ đồng",
@@ -94,18 +83,51 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": null
+          "condensed": "VietABank được chấp thuận tăng vốn điều lệ lên gần 9,021 tỷ đồng."
         },
         {
-          "title": "Lợi nhuận Chứng khoán Thiên Việt (TVS) giảm sâu quý II, tự doanh không còn là điểm tựa",
-          "link": "https://cafef.vn/loi-nhuan-chung-khoan-thien-viet-tvs-giam-sau-quy-ii-tu-doanh-khong-con-la-diem-tua-188260729210618592.chn",
-          "pubDate": "2026-07-29T14:06:00.000Z",
-          "excerpt": "Sự suy giảm của hoạt động đầu tư tài chính khiến lợi nhuận quý II/2026 của Chứng khoán Thiên Việt chỉ còn 15,3 tỷ đồng, giảm gần 76% so với cùng kỳ. Dù doanh…",
+          "title": "Điều tra chống bán phá giá thép dự ứng lực Trung Quốc",
+          "link": "https://cafef.vn/dieu-tra-chong-ban-pha-gia-thep-du-ung-luc-trung-quoc-188260729211548167.chn",
+          "pubDate": "2026-07-29T14:15:00.000Z",
+          "excerpt": "Bộ Công Thương vừa quyết định điều tra chống bán phá giá đối với một số sản phẩm thanh thép dự ứng lực nhập khẩu từ Trung Quốc. Các doanh nghiệp trong nước cáo…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Bộ Công Thương điều tra chống bán phá giá thép dự ứng lực Trung Quốc."
+        },
+        {
+          "title": "Quỹ ngoại: Thật nghịch lý khi dòng vốn FDI vào kỷ lục, khối ngoại lại bán ròng cổ phiếu Việt Nam",
+          "link": "https://vneconomy.vn/quy-ngoai-that-nghich-ly-khi-dong-von-fdi-vao-ky-luc-khoi-ngoai-lai-ban-rong-co-phieu-viet-nam.htm",
+          "pubDate": "2026-07-29T13:18:44.000Z",
+          "excerpt": "Trong khi dòng vốn đầu tư trực tiếp nước ngoài tiếp tục lập kỷ lục, các nhà đầu tư nước ngoài vẫn duy trì trạng thái bán ròng cổ phiếu Việt Nam.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Khối ngoại bán ròng cổ phiếu Việt Nam dù dòng vốn FDI lập kỷ lục."
+        },
+        {
+          "title": "Lãi suất liên ngân hàng xuống thấp nhất đầu năm",
+          "link": "https://vnexpress.net/lai-suat-lien-ngan-hang-xuong-thap-nhat-dau-nam-5103024.html",
+          "pubDate": "2026-07-29T10:52:56.000Z",
+          "excerpt": "Lãi suất vay mượn kỳ hạn qua đêm giữa các ngân hàng xuống 2,2% - thấp nhất kể từ đầu năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Lãi suất liên ngân hàng xuống thấp nhất đầu năm."
+        },
+        {
+          "title": "VN-Index tăng mạnh nhất một tháng",
+          "link": "https://vnexpress.net/vn-index-tang-manh-nhat-mot-thang-5103025.html",
+          "pubDate": "2026-07-29T09:43:14.000Z",
+          "excerpt": "Cổ phiếu \"họ\" Vingroup đồng loạt hút tiền, giúp VN-Index tăng 24 điểm và lấy lại mốc tâm lý 1.700 điểm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "VN-Index tăng mạnh nhất một tháng."
         },
         {
           "title": "Lực đẩy từ bán lẻ và SME, lợi nhuận nửa đầu 2026 của ACB đạt hơn 10,700 tỷ đồng",
@@ -116,7 +138,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": null
+          "condensed": "Lợi nhuận nửa đầu 2026 của ACB đạt hơn 10,700 tỷ đồng."
         },
         {
           "title": "Quý 2 bứt tốc giúp BVBank thực hiện được 80% kế hoạch lợi nhuận năm",
@@ -127,29 +149,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Doanh thu sụt giảm mạnh, công ty bầu Đức vẫn báo lãi nghìn tỷ 2 quý liên tiếp nhờ đâu?",
-          "link": "https://cafef.vn/doanh-thu-sut-giam-manh-cong-ty-bau-duc-van-bao-lai-nghin-ty-2-quy-lien-tiep-nho-dau-188260729211145023.chn",
-          "pubDate": "2026-07-29T14:11:00.000Z",
-          "excerpt": "Dù doanh thu từ hoạt động kinh doanh cốt lõi suy giảm đáng kể trong quý II/2026, Hoàng Anh Gia Lai (HAG) của Chủ tịch Đoàn Nguyên Đức (bầu Đức) vẫn tiếp tục…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Dòng tiền rút ròng mạnh khỏi Đài Loan, rục rịch đổ vào Việt Nam",
-          "link": "https://vneconomy.vn/dong-tien-rut-rong-manh-khoi-dai-loan-ruc-rich-do-vao-viet-nam.htm",
-          "pubDate": "2026-07-29T13:17:04.000Z",
-          "excerpt": "Dòng vốn vào các quỹ ETF có đầu tư tại Việt Nam tiếp tục xu hướng rút ròng nhưng với quy mô thu hẹp còn hơn 2 triệu USD trong tuần qua. Một số ETF tín hiệu…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "BVBank thực hiện được 80% kế hoạch lợi nhuận năm nhờ quý 2 bứt tốc."
         }
       ],
       "aiSummary": null
@@ -167,7 +167,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Amanoi đầu tư 800 tỷ đồng xây 10 căn phòng resort tại Việt Nam."
+          "condensed": null
         },
         {
           "title": "CEO Avison Young: Lãi suất không phải yếu tố quyết định dòng vốn ngoại",
@@ -189,7 +189,40 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Hà Nội phát triển 3 dự án nhà cho thuê đến 2030."
+          "condensed": null
+        },
+        {
+          "title": "Hải Phòng tái thiết 177 chung cư cũ, di dời hơn 9.000 hộ dân",
+          "link": "https://vneconomy.vn/hai-phong-tai-thiet-177-chung-cu-cu-di-doi-hon-9000-ho-dan.htm",
+          "pubDate": "2026-07-29T06:59:10.000Z",
+          "excerpt": "177 chung cư cũ được phá dỡ, xây dựng nhà ở xã hội để tái định cư người dân sống tại chung cư cũ…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Giám đốc Avison Young Việt Nam: Thuê mặt bằng chỉ chiếm 10% chi phí phòng gym",
+          "link": "https://cafebiz.vn/giam-doc-avison-young-viet-nam-thue-mat-bang-chi-chiem-10-chi-phi-phong-gym-176260721091547016.chn",
+          "pubDate": "2026-07-21T02:15:00.000Z",
+          "excerpt": "Với các mô hình giải trí (entertainment) như fitness hay rạp chiếu phim, chi phí thuê thường ở mức khoảng 10% cơ cấu chi phí vận hành.",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội chuyển đổi hơn 2.600 m2 'đất vàng' làm tổ hợp nhà ở, văn phòng",
+          "link": "https://cafef.vn/ha-noi-chuyen-doi-hon-2600-m2-dat-vang-lam-to-hop-nha-o-van-phong-188260729143235119.chn",
+          "pubDate": "2026-07-29T08:09:00.000Z",
+          "excerpt": "Khu đất rộng hơn 2.600 m2 trên đường Trường Chinh được Hà Nội chấp thuận chuyển mục đích sử dụng để xây dựng tổ hợp nhà ở kết hợp văn phòng và thương mại.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
         },
         {
           "title": "Hải Phòng bãi bỏ nghị quyết “trảm” dự án treo",
@@ -203,17 +236,6 @@
           "condensed": null
         },
         {
-          "title": "Hải Phòng tái thiết 177 chung cư cũ, di dời hơn 9.000 hộ dân",
-          "link": "https://vneconomy.vn/hai-phong-tai-thiet-177-chung-cu-cu-di-doi-hon-9000-ho-dan.htm",
-          "pubDate": "2026-07-29T06:59:10.000Z",
-          "excerpt": "177 chung cư cũ được phá dỡ, xây dựng nhà ở xã hội để tái định cư người dân sống tại chung cư cũ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Hải Phòng tái thiết 177 chung cư cũ và di dời hơn 9.000 hộ dân."
-        },
-        {
           "title": "Chi 5% cho công trình xanh, hay trả giá gấp 10 vì chậm chân?",
           "link": "https://cafebiz.vn/chi-5-cho-cong-trinh-xanh-hay-tra-gia-gap-10-vi-cham-chan-176260709145613996.chn",
           "pubDate": "2026-07-09T07:55:00.000Z",
@@ -222,28 +244,6 @@
           "sourceName": "CafeBiz",
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất giao UBND tỉnh quyết việc chuyển nhượng dự án bất động sản",
-          "link": "https://vnexpress.net/de-xuat-giao-ubnd-tinh-quyet-viec-chuyen-nhuong-du-an-bat-dong-san-5103059.html",
-          "pubDate": "2026-07-29T11:25:42.000Z",
-          "excerpt": "Chính phủ đề xuất UBND cấp tỉnh quyết định việc chuyển nhượng một phần hoặc toàn bộ dự án bất động sản, thay vì Thủ tướng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất cho phép cá nhân nước ngoài được mua, thuê mua căn hộ du lịch",
-          "link": "https://cafef.vn/de-xuat-cho-phep-ca-nhan-nuoc-ngoai-duoc-mua-thue-mua-can-ho-du-lich-188260729165824081.chn",
-          "pubDate": "2026-07-29T10:06:00.000Z",
-          "excerpt": "Dự thảo Luật Kinh doanh bất động sản (sửa đổi) cho phép cá nhân nước ngoài mua, thuê mua căn hộ du lịch, căn hộ kết hợp văn phòng và phần diện tích sàn trong…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         }
       ],
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Đề xuất đầu tư đô thị du lịch thế hệ mới 18 tỷ USD tại Vân Đồn",
-          "link": "https://cafef.vn/de-xuat-dau-tu-do-thi-du-lich-the-he-moi-18-ty-usd-tai-van-don-18826072916000788.chn",
-          "pubDate": "2026-07-29T10:30:00.000Z",
-          "excerpt": "Ngày 28/7, Ủy viên Trung ương Đảng, Bí thư Tỉnh ủy Quảng Ninh Quản Minh Cường và Chủ tịch UBND tỉnh Quảng Ninh Bùi Văn Khắng đã nghe và cho ý kiến về đề xuất…",
+          "title": "Bước tiến mới trong hành trình xây dựng năng lực công nghệ sinh học của Việt Nam",
+          "link": "https://cafef.vn/buoc-tien-moi-trong-hanh-trinh-xay-dung-nang-luc-cong-nghe-sinh-hoc-cua-viet-nam-18826072920423177.chn",
+          "pubDate": "2026-07-29T13:42:00.000Z",
+          "excerpt": "Công ty Cổ phần Sinh dược phẩm Công nghệ cao Genfarma chính thức đón nhận Giấy chứng nhận Thực hành tốt sản xuất thuốc (GMP) do Cục Quản lý Dược – Bộ Y tế cấp.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -265,14 +265,14 @@
           "condensed": null
         },
         {
-          "title": "Giá vàng sáng 29/6: Đồng loạt hạ nhiệt, nhiều thương hiệu mất nửa triệu đồng/lượng",
-          "link": "https://cafebiz.vn/gia-vang-sang-29-6-dong-loat-ha-nhiet-nhieu-thuong-hieu-mat-nua-trieu-dong-luong-17626062909125613.chn",
-          "pubDate": "2026-06-29T02:12:00.000Z",
-          "excerpt": "So với cuối tuần trước, giá vàng miếng và vàng nhẫn ở nhiều thương hiệu đồng loạt giảm từ 500.000 - 800.000 đồng mỗi lượng.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
+          "title": "Chỉ thu hồi đất trong trường hợp thật cần thiết, vì lợi ích quốc gia, công cộng",
+          "link": "https://cafef.vn/chi-thu-hoi-dat-trong-truong-hop-that-can-thiet-vi-loi-ich-quoc-gia-cong-cong-188260729135126764.chn",
+          "pubDate": "2026-07-29T13:40:00.000Z",
+          "excerpt": "Về bồi thường, hỗ trợ, tái định cư và thu hồi đất, Nghị quyết yêu cầu quy định rõ tiêu chí dự án, phạm vi thu hồi đất trong trường hợp thật cần thiết vì mục…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -287,32 +287,32 @@
           "condensed": null
         },
         {
-          "title": "Thanh tra Chính phủ chỉ ra nhiều tồn tại trong triển khai Dự án sân bay Long Thành",
-          "link": "https://vneconomy.vn/thanh-tra-chinh-phu-chi-ra-nhieu-ton-tai-trong-trien-khai-du-an-san-bay-long-thanh.htm",
-          "pubDate": "2026-07-29T07:50:59.000Z",
-          "excerpt": "Thanh tra Chính phủ vừa công bố kết luận thanh tra việc chấp hành chính sách, pháp luật đối với Dự án đầu tư xây dựng Cảng hàng không quốc tế Long Thành giai…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
+          "title": "Đề xuất đầu tư đô thị du lịch thế hệ mới 18 tỷ USD tại Vân Đồn",
+          "link": "https://cafef.vn/de-xuat-dau-tu-do-thi-du-lich-the-he-moi-18-ty-usd-tai-van-don-18826072916000788.chn",
+          "pubDate": "2026-07-29T10:30:00.000Z",
+          "excerpt": "Ngày 28/7, Ủy viên Trung ương Đảng, Bí thư Tỉnh ủy Quảng Ninh Quản Minh Cường và Chủ tịch UBND tỉnh Quảng Ninh Bùi Văn Khắng đã nghe và cho ý kiến về đề xuất…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
-          "title": "Hải Phòng: Nhiều dự án công viên chưa phát huy hiệu quả đầu tư",
-          "link": "https://vneconomy.vn/hai-phong-nhieu-du-an-cong-vien-chua-phat-huy-hieu-qua-dau-tu.htm",
-          "pubDate": "2026-07-29T09:03:06.000Z",
-          "excerpt": "Không chỉ vướng mắc ở tiến độ đầu tư, công tác quản lý, vận hành nhiều công viên vườn hoa sau khi công trình hoàn thành bộc lộ bất cập…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
+          "title": "Tổng Bí thư, Chủ tịch nước: Trung ương không đặt vấn đề sắp xếp, điều chỉnh lại địa giới hành chính cấp xã",
+          "link": "https://cafef.vn/tong-bi-thu-chu-tich-nuoc-trung-uong-khong-dat-van-de-sap-xep-dieu-chinh-lai-dia-gioi-hanh-chinh-cap-xa-188260729135745814.chn",
+          "pubDate": "2026-07-29T10:07:16.000Z",
+          "excerpt": "Về hệ thống chính quyền địa phương 2 cấp, Tổng Bí thư, Chủ tịch nước Tô Lâm cho biết, Trung ương không đặt vấn đề sắp xếp, điều chỉnh lại địa giới hành chính…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
-          "title": "TP. Hồ Chí Minh tăng cường quản lý và sử dụng hiệu quả vốn ODA để phát triển bền vững",
-          "link": "https://vneconomy.vn/tp-ho-chi-minh-tang-cuong-quan-ly-va-su-dung-hieu-qua-von-oda-de-phat-trien-ben-vung.htm",
-          "pubDate": "2026-07-29T08:51:46.000Z",
-          "excerpt": "TP. Hồ Chí Minh đang nỗ lực tăng cường quản lý và nâng cao hiệu quả sử dụng vốn ODA, vốn vay ưu đãi nước ngoài. Đây là một phần trong chiến lược phát triển bền…",
+          "title": "AI và đổi mới sáng tạo mở \"cửa sổ cơ hội\" cho Việt Nam bứt phá",
+          "link": "https://vneconomy.vn/ai-va-doi-moi-sang-tao-mo-cua-so-co-hoi-cho-viet-nam-but-pha.htm",
+          "pubDate": "2026-07-29T09:42:42.000Z",
+          "excerpt": "Trí tuệ nhân tạo (AI), đổi mới sáng tạo và chuyển đổi số đang mở ra \"cửa sổ cơ hội\" để Việt Nam bứt phá. Tuy nhiên, để chuyển hóa cơ hội thành động lực tăng…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -331,10 +331,10 @@
           "condensed": null
         },
         {
-          "title": "AI và đổi mới sáng tạo mở \"cửa sổ cơ hội\" cho Việt Nam bứt phá",
-          "link": "https://vneconomy.vn/ai-va-doi-moi-sang-tao-mo-cua-so-co-hoi-cho-viet-nam-but-pha.htm",
-          "pubDate": "2026-07-29T09:42:42.000Z",
-          "excerpt": "Trí tuệ nhân tạo (AI), đổi mới sáng tạo và chuyển đổi số đang mở ra \"cửa sổ cơ hội\" để Việt Nam bứt phá. Tuy nhiên, để chuyển hóa cơ hội thành động lực tăng…",
+          "title": "Hải Phòng: Nhiều dự án công viên chưa phát huy hiệu quả đầu tư",
+          "link": "https://vneconomy.vn/hai-phong-nhieu-du-an-cong-vien-chua-phat-huy-hieu-qua-dau-tu.htm",
+          "pubDate": "2026-07-29T09:03:06.000Z",
+          "excerpt": "Không chỉ vướng mắc ở tiến độ đầu tư, công tác quản lý, vận hành nhiều công viên vườn hoa sau khi công trình hoàn thành bộc lộ bất cập…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -349,54 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "This country is buying up the most homes in America right now, even as international sales dry up",
-          "link": "https://www.marketwatch.com/story/this-country-is-buying-up-the-most-homes-in-america-right-now-even-as-international-sales-dry-up-c8b2afbb?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T14:20:00.000Z",
-          "excerpt": "International buyers only bought about 67,000 homes in the U.S. over the last 12 months ending in March, a near-record low, according to the National…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "My stepdad is in the military and dying of cancer. Will my mom automatically get his money?",
-          "link": "https://www.marketwatch.com/story/my-stepdad-is-dying-from-cancer-how-can-i-help-my-mom-find-out-if-shell-get-his-assets-8a10bad2?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T14:12:00.000Z",
-          "excerpt": "“My worry is that one of his kids from his other marriage or one of his siblings will pop up and say they deserve his assets.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Economy is poised to show strong second-quarter growth — but only after a look under the hood",
-          "link": "https://www.marketwatch.com/story/economy-is-poised-to-show-strong-second-quarter-growth-but-only-after-a-look-under-the-hood-8fd3615d?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T14:09:00.000Z",
-          "excerpt": "The U.S. economy churned out another robust rate of growth in the second quarter even as the Iran war boosted inflation, but that might not be so readily…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Global oil prices rise above $87 a barrel after Trump vows retaliation for surprise Iranian attack on U.S. troops",
-          "link": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T13:56:00.000Z",
-          "excerpt": "Oil prices rose on Wednesday after President Donald Trump said the U.S. would order heavy strikes after Iran targeted American forces in the Middle East with…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump vows to deliver ‘beating’ to Iran in retaliation for latest attack",
-          "link": "https://www.ft.com/content/b2fe912f-01ef-4daa-874e-a180dfeb728c?syn-25a6b1a6=1",
-          "pubDate": "2026-07-29T13:42:32.000Z",
-          "excerpt": "Washington says Tehran launched ballistic missiles at US military installations in the Middle East",
+          "title": "Saudi Arabia joins US strikes on Iran-backed militias in Iraq",
+          "link": "https://www.ft.com/content/509a6a94-8342-49c1-965f-66abff88b977?syn-25a6b1a6=1",
+          "pubDate": "2026-07-29T16:03:43.000Z",
+          "excerpt": "Iran also fired ballistic missiles at US forces in Jordan, ending a days-long pause in direct air strikes",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -404,10 +360,10 @@
           "condensed": null
         },
         {
-          "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
-          "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T13:41:00.000Z",
-          "excerpt": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
+          "title": "A key cryptocurrency bill could flop because of Trump’s crypto ventures and banks’ objections",
+          "link": "https://www.marketwatch.com/story/a-key-cryptocurrency-bill-could-flop-because-of-trumps-crypto-ventures-and-banks-objections-76b7445b?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T16:03:00.000Z",
+          "excerpt": "The Clarity Act’s progress in May helped lift the price of bitcoin, but now the measure is facing obstacles in the full Senate.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -415,10 +371,32 @@
           "condensed": null
         },
         {
-          "title": "Famed French DJ Kavinsky found dead in Paris",
-          "link": "https://www.scmp.com/news/world/europe/article/3362298/famed-french-dj-kavinsky-found-dead-paris?utm_source=rss_feed",
-          "pubDate": "2026-07-29T13:16:44.000Z",
-          "excerpt": "French DJ and musician Kavinsky, known for his electronic classic “Nightcall”, has been found dead at his home in Paris, prosecutors said on Wednesday. The…",
+          "title": "Dow Jones mất hơn 800 điểm, giá dầu tăng 7% sau lời đe dọa của ông Trump",
+          "link": "http://vietstock.vn/2026/07/dow-jones-mat-hon-800-diem-gia-dau-tang-7-sau-loi-de-doa-cua-ong-trump-773-1473186.htm",
+          "pubDate": "2026-07-29T15:48:51.000Z",
+          "excerpt": "Chứng khoán Mỹ giảm mạnh trong phiên 29/07 khi căng thẳng tại Trung Đông đẩy giá dầu tăng vọt, trong lúc nhà đầu tư chờ quyết định chính sách tiền tệ của Cục…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "Las Vegas home prices post largest drop in the nation",
+          "link": "https://www.marketwatch.com/story/las-vegas-home-prices-post-largest-drop-in-the-nation-d39d6ecd?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T15:45:00.000Z",
+          "excerpt": "Among the largest U.S. cities, Las Vegas saw the biggest drop in home prices, while Chicago saw the biggest increase.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "US sanctions Chinese, Hong Kong shipping firms over Iranian oil deliveries",
+          "link": "https://www.scmp.com/news/us/article/3362307/us-sanctions-chinese-hong-kong-shipping-firms-over-iranian-oil-deliveries?utm_source=rss_feed",
+          "pubDate": "2026-07-29T15:42:52.000Z",
+          "excerpt": "The United States on Wednesday sanctioned a group of mainland Chinese and Hong Kong shipping companies accused of operating vessels that transported Iranian…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -426,14 +404,36 @@
           "condensed": null
         },
         {
-          "title": "15 elephants die from suspected poisoning in Kenyan park",
-          "link": "https://www.scmp.com/news/world/africa/article/3362295/15-elephants-die-suspected-poisoning-kenyan-park?utm_source=rss_feed",
-          "pubDate": "2026-07-29T13:07:51.000Z",
-          "excerpt": "At least 15 elephants have died from exposure to a suspected poison in the Amboseli National Park in southern Kenya over a four-week period, the country’s…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "‘She is on Medicaid’: My sick friend pleaded with me to be her executor. Can I decline after she dies?",
+          "link": "https://www.marketwatch.com/story/she-is-on-medicaid-my-sick-friend-pleaded-with-me-to-be-her-executor-can-i-decline-after-she-dies-135129d3?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T15:31:00.000Z",
+          "excerpt": "“She is in poor health and owns a home with a reverse mortgage that has been used to help pay for her caregivers.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "I got an unexpected $1,000 medical bill. Here’s why I’m not paying it yet.",
+          "link": "https://www.marketwatch.com/story/i-got-an-unexpected-1-000-medical-bill-heres-why-im-not-paying-it-yet-67265caf?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T15:07:00.000Z",
+          "excerpt": "Before you pay any medical bill, take these steps to check it — and possibly lower it.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "‘We already have wills’: We’re in our 60s with $1.5 million. Should we set up a trust to prevent conflict among our heirs?",
+          "link": "https://www.marketwatch.com/story/we-already-have-wills-were-in-our-60s-with-1-5-million-how-do-we-prevent-family-drama-among-our-heirs-bf7b0eb1?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T15:00:00.000Z",
+          "excerpt": "“I realize that probate can be lengthy, public and expensive.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
