@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T12:03:56.605Z",
+  "lastUpdated": "2026-07-29T14:27:57.167Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4093,
+      "value": 4061.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7428.78,
-      "change": -80.42000000000007,
-      "changePercent": -1.0709529643637148
+      "value": 7367.79,
+      "change": -131.17000000000007,
+      "changePercent": -1.7491758857228212
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 24876.912,
-      "change": -960.2979999999989,
-      "changePercent": -3.7167248321316384
+      "value": 24589.365,
+      "change": -1101.5349999999999,
+      "changePercent": -4.28764659860106
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25518.24,
-      "change": 362.83000000000175,
-      "changePercent": 1.4423537521352334
+      "value": 25517.28,
+      "change": 361.869999999999,
+      "changePercent": 1.4385374756364495
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "VN-Index tăng mạnh nhất một tháng",
+          "link": "https://vnexpress.net/vn-index-tang-manh-nhat-mot-thang-5103025.html",
+          "pubDate": "2026-07-29T09:43:14.000Z",
+          "excerpt": "Cổ phiếu \"họ\" Vingroup đồng loạt hút tiền, giúp VN-Index tăng 24 điểm và lấy lại mốc tâm lý 1.700 điểm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Chủ tịch SMC đăng ký mua 5 triệu cổ phiếu, nâng sở hữu lên hơn 8%",
+          "link": "https://cafef.vn/chu-tich-smc-dang-ky-mua-5-trieu-co-phieu-nang-so-huu-len-hon-8-188260729211324648.chn",
+          "pubDate": "2026-07-29T14:13:00.000Z",
+          "excerpt": "Chủ tịch HĐQT CTCP Đầu tư Thương mại SMC (SMC) vừa đăng ký mua 5 triệu cổ phiếu nhằm tăng tỷ lệ sở hữu, với giá trị ước tính khoảng 54,5 tỷ đồng theo thị giá…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "VietABank được chấp thuận tăng vốn điều lệ lên gần 9,021 tỷ đồng",
           "link": "http://vietstock.vn/2026/07/vietabank-duoc-chap-thuan-tang-von-dieu-le-len-gan-9021-ty-dong-757-1472962.htm",
@@ -75,21 +97,10 @@
           "condensed": null
         },
         {
-          "title": "Hết hàng giá thấp, loạt cổ phiếu trụ tăng mạnh giúp VN-Index giành lại mốc 1700 điểm",
-          "link": "https://vneconomy.vn/het-hang-gia-thap-loat-co-phieu-tru-tang-manh-giup-vn-index-gianh-lai-moc-1700-diem.htm",
-          "pubDate": "2026-07-29T08:23:24.000Z",
-          "excerpt": "Bên mua có tín hiệu sốt ruột trong phiên chiều nay, các lệnh nâng giá lên giúp thị trường tăng rõ nét. VN-Index đóng cửa đạt 1704,68 điểm, giành lại ngưỡng hỗ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "GELEX lãi 2.611 tỷ đồng sau 6 tháng, tiếp tục đầu tư cho chu kỳ tăng trưởng mới",
-          "link": "https://cafef.vn/gelex-lai-2611-ty-dong-sau-6-thang-tiep-tuc-dau-tu-cho-chu-ky-tang-truong-moi-188260729180032881.chn",
-          "pubDate": "2026-07-29T11:00:00.000Z",
-          "excerpt": "Động lực từ các lĩnh vực kinh doanh cốt lõi, đặc biệt là thiết bị điện và hạ tầng, tiếp tục giúp GELEX duy trì tăng trưởng, đồng thời tạo nền tảng cho chu kỳ…",
+          "title": "Lợi nhuận Chứng khoán Thiên Việt (TVS) giảm sâu quý II, tự doanh không còn là điểm tựa",
+          "link": "https://cafef.vn/loi-nhuan-chung-khoan-thien-viet-tvs-giam-sau-quy-ii-tu-doanh-khong-con-la-diem-tua-188260729210618592.chn",
+          "pubDate": "2026-07-29T14:06:00.000Z",
+          "excerpt": "Sự suy giảm của hoạt động đầu tư tài chính khiến lợi nhuận quý II/2026 của Chứng khoán Thiên Việt chỉ còn 15,3 tỷ đồng, giảm gần 76% so với cùng kỳ. Dù doanh…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -119,36 +130,25 @@
           "condensed": null
         },
         {
-          "title": "Hệ thống ngân hàng Trung Quốc thừa tiền mặt vì nhu cầu vay giảm",
-          "link": "https://vneconomy.vn/he-thong-ngan-hang-trung-quoc-thua-tien-mat-vi-nhu-cau-vay-giam.htm",
-          "pubDate": "2026-07-29T07:59:02.000Z",
-          "excerpt": "Một trong những nguyên nhân chính dẫn đến sự gia tăng lượng tiền mặt trong hệ thống ngân hàng là tình trạng suy giảm kéo dài của thị trường bất động sản Trung…",
+          "title": "Doanh thu sụt giảm mạnh, công ty bầu Đức vẫn báo lãi nghìn tỷ 2 quý liên tiếp nhờ đâu?",
+          "link": "https://cafef.vn/doanh-thu-sut-giam-manh-cong-ty-bau-duc-van-bao-lai-nghin-ty-2-quy-lien-tiep-nho-dau-188260729211145023.chn",
+          "pubDate": "2026-07-29T14:11:00.000Z",
+          "excerpt": "Dù doanh thu từ hoạt động kinh doanh cốt lõi suy giảm đáng kể trong quý II/2026, Hoàng Anh Gia Lai (HAG) của Chủ tịch Đoàn Nguyên Đức (bầu Đức) vẫn tiếp tục…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Dòng tiền rút ròng mạnh khỏi Đài Loan, rục rịch đổ vào Việt Nam",
+          "link": "https://vneconomy.vn/dong-tien-rut-rong-manh-khoi-dai-loan-ruc-rich-do-vao-viet-nam.htm",
+          "pubDate": "2026-07-29T13:17:04.000Z",
+          "excerpt": "Dòng vốn vào các quỹ ETF có đầu tư tại Việt Nam tiếp tục xu hướng rút ròng nhưng với quy mô thu hẹp còn hơn 2 triệu USD trong tuần qua. Một số ETF tín hiệu…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "192,5 nghìn tỷ đồng gốc và lãi trái phiếu doanh nghiệp phải trả 6 tháng cuối năm 2026",
-          "link": "https://vneconomy.vn/1925-nghin-ty-dong-goc-va-lai-trai-phieu-doanh-nghiep-phai-tra-6-thang-cuoi-nam-2026.htm",
-          "pubDate": "2026-07-29T06:40:40.000Z",
-          "excerpt": "Trong 6 tháng cuối năm 2026, tổng dòng tiền phải thanh toán gốc và lãi ước khoảng 192,5 nghìn tỷ đồng, tăng 14,4% so với cùng kỳ năm trước.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Ông Nguyễn Đức Tài muốn mua 1 triệu cổ phiếu Thế Giới Di Động",
-          "link": "https://vnexpress.net/ong-nguyen-duc-tai-muon-mua-1-trieu-co-phieu-the-gioi-di-dong-5102840.html",
-          "pubDate": "2026-07-29T04:09:33.000Z",
-          "excerpt": "Ông Nguyễn Đức Tài, Chủ tịch HĐQT MWG, vừa đăng ký mua một triệu cổ phiếu trong bối cảnh thị giá doanh nghiệp bán lẻ này đang ở mức thấp nhất trong một năm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -159,48 +159,15 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Đề xuất đầu tư đô thị du lịch biển 18 tỷ USD ở Vân Đồn",
-          "link": "https://vnexpress.net/de-xuat-dau-tu-do-thi-du-lich-bien-18-ty-usd-o-van-don-5102845.html",
-          "pubDate": "2026-07-29T06:15:49.000Z",
-          "excerpt": "HDMon cùng nhà đầu tư Trung Quốc đề xuất thực hiện khu đô thị du lịch ven biển 18 tỷ USD ở khu kinh tế Vân Đồn, Quảng Ninh.",
+          "title": "Vì sao Amanoi muốn chi 800 tỷ đồng chỉ để xây 10 căn phòng resort tại Việt Nam?",
+          "link": "https://vnexpress.net/vi-sao-amanoi-muon-chi-800-ty-dong-chi-de-xay-10-can-phong-resort-tai-viet-nam-5102146.html",
+          "pubDate": "2026-07-29T03:30:26.000Z",
+          "excerpt": "Nhà đầu tư resort Amanoi định xây thêm 10 phòng với số tiền 800 tỷ đồng, suất đầu tư được cho là đắt đỏ nhưng đáng tiền, hợp phân khúc siêu sang.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội sẽ có ba dự án nhà cho thuê hơn 34.000 tỷ đồng",
-          "link": "https://vnexpress.net/ha-noi-se-co-ba-du-an-nha-cho-thue-hon-34-000-ty-dong-5102772.html",
-          "pubDate": "2026-07-29T07:00:00.000Z",
-          "excerpt": "Thành phố sẽ phát triển 3 dự án nhà cho thuê tại các phường Long Biên, Việt Hưng và Yên Sở với tổng quy mô gần 4.400 căn đến 2030.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Hải Phòng tái thiết 177 chung cư cũ, di dời hơn 9.000 hộ dân",
-          "link": "https://vneconomy.vn/hai-phong-tai-thiet-177-chung-cu-cu-di-doi-hon-9000-ho-dan.htm",
-          "pubDate": "2026-07-29T06:59:10.000Z",
-          "excerpt": "177 chung cư cũ được phá dỡ, xây dựng nhà ở xã hội để tái định cư người dân sống tại chung cư cũ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội chuyển đổi hơn 2.600 m2 'đất vàng' làm tổ hợp nhà ở, văn phòng",
-          "link": "https://cafef.vn/ha-noi-chuyen-doi-hon-2600-m2-dat-vang-lam-to-hop-nha-o-van-phong-188260729143235119.chn",
-          "pubDate": "2026-07-29T08:09:00.000Z",
-          "excerpt": "Khu đất rộng hơn 2.600 m2 trên đường Trường Chinh được Hà Nội chấp thuận chuyển mục đích sử dụng để xây dựng tổ hợp nhà ở kết hợp văn phòng và thương mại.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Amanoi đầu tư 800 tỷ đồng xây 10 căn phòng resort tại Việt Nam."
         },
         {
           "title": "CEO Avison Young: Lãi suất không phải yếu tố quyết định dòng vốn ngoại",
@@ -214,15 +181,15 @@
           "condensed": null
         },
         {
-          "title": "Hà Nội tăng cường dữ liệu phục vụ hoạch định chính sách nhà ở",
-          "link": "https://vneconomy.vn/ha-noi-tang-cuong-du-lieu-phuc-vu-hoach-dinh-chinh-sach-nha-o.htm",
-          "pubDate": "2026-07-29T08:57:37.000Z",
-          "excerpt": "Việc xây dựng cơ sở dữ liệu đầy đủ về hiện trạng và nhu cầu nhà ở đang trở thành yêu cầu quan trọng nhằm phục vụ công tác quản lý, hoạch định chính sách phát…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
+          "title": "Hà Nội sẽ có ba dự án nhà cho thuê hơn 34.000 tỷ đồng",
+          "link": "https://vnexpress.net/ha-noi-se-co-ba-du-an-nha-cho-thue-hon-34-000-ty-dong-5102772.html",
+          "pubDate": "2026-07-29T07:00:00.000Z",
+          "excerpt": "Thành phố sẽ phát triển 3 dự án nhà cho thuê tại các phường Long Biên, Việt Hưng và Yên Sở với tổng quy mô gần 4.400 căn đến 2030.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Hà Nội phát triển 3 dự án nhà cho thuê đến 2030."
         },
         {
           "title": "Hải Phòng bãi bỏ nghị quyết “trảm” dự án treo",
@@ -236,6 +203,28 @@
           "condensed": null
         },
         {
+          "title": "Hải Phòng tái thiết 177 chung cư cũ, di dời hơn 9.000 hộ dân",
+          "link": "https://vneconomy.vn/hai-phong-tai-thiet-177-chung-cu-cu-di-doi-hon-9000-ho-dan.htm",
+          "pubDate": "2026-07-29T06:59:10.000Z",
+          "excerpt": "177 chung cư cũ được phá dỡ, xây dựng nhà ở xã hội để tái định cư người dân sống tại chung cư cũ…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Hải Phòng tái thiết 177 chung cư cũ và di dời hơn 9.000 hộ dân."
+        },
+        {
+          "title": "Chi 5% cho công trình xanh, hay trả giá gấp 10 vì chậm chân?",
+          "link": "https://cafebiz.vn/chi-5-cho-cong-trinh-xanh-hay-tra-gia-gap-10-vi-cham-chan-176260709145613996.chn",
+          "pubDate": "2026-07-09T07:55:00.000Z",
+          "excerpt": "Theo các chuyên gia, công trình xanh không còn là câu chuyện xây thêm cây hay lấy chứng nhận ESG, mà đang trở thành điều kiện để giữ chân dòng vốn FDI, tham…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": null
+        },
+        {
           "title": "Đề xuất giao UBND tỉnh quyết việc chuyển nhượng dự án bất động sản",
           "link": "https://vnexpress.net/de-xuat-giao-ubnd-tinh-quyet-viec-chuyen-nhuong-du-an-bat-dong-san-5103059.html",
           "pubDate": "2026-07-29T11:25:42.000Z",
@@ -244,6 +233,17 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Đề xuất cho phép cá nhân nước ngoài được mua, thuê mua căn hộ du lịch",
+          "link": "https://cafef.vn/de-xuat-cho-phep-ca-nhan-nuoc-ngoai-duoc-mua-thue-mua-can-ho-du-lich-188260729165824081.chn",
+          "pubDate": "2026-07-29T10:06:00.000Z",
+          "excerpt": "Dự thảo Luật Kinh doanh bất động sản (sửa đổi) cho phép cá nhân nước ngoài mua, thuê mua căn hộ du lịch, căn hộ kết hợp văn phòng và phần diện tích sàn trong…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         }
       ],
@@ -254,32 +254,32 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "VN-Index tăng mạnh nhất một tháng",
-          "link": "https://vnexpress.net/vn-index-tang-manh-nhat-mot-thang-5103025.html",
-          "pubDate": "2026-07-29T09:43:14.000Z",
-          "excerpt": "Cổ phiếu \"họ\" Vingroup đồng loạt hút tiền, giúp VN-Index tăng 24 điểm và lấy lại mốc tâm lý 1.700 điểm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Đề xuất đầu tư đô thị du lịch thế hệ mới 18 tỷ USD tại Vân Đồn",
+          "link": "https://cafef.vn/de-xuat-dau-tu-do-thi-du-lich-the-he-moi-18-ty-usd-tai-van-don-18826072916000788.chn",
+          "pubDate": "2026-07-29T10:30:00.000Z",
+          "excerpt": "Ngày 28/7, Ủy viên Trung ương Đảng, Bí thư Tỉnh ủy Quảng Ninh Quản Minh Cường và Chủ tịch UBND tỉnh Quảng Ninh Bùi Văn Khắng đã nghe và cho ý kiến về đề xuất…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
-          "title": "Lãi suất liên ngân hàng xuống thấp nhất đầu năm",
-          "link": "https://vnexpress.net/lai-suat-lien-ngan-hang-xuong-thap-nhat-dau-nam-5103024.html",
-          "pubDate": "2026-07-29T10:52:56.000Z",
-          "excerpt": "Lãi suất vay mượn kỳ hạn qua đêm giữa các ngân hàng xuống 2,2% - thấp nhất kể từ đầu năm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Giá vàng sáng 29/6: Đồng loạt hạ nhiệt, nhiều thương hiệu mất nửa triệu đồng/lượng",
+          "link": "https://cafebiz.vn/gia-vang-sang-29-6-dong-loat-ha-nhiet-nhieu-thuong-hieu-mat-nua-trieu-dong-luong-17626062909125613.chn",
+          "pubDate": "2026-06-29T02:12:00.000Z",
+          "excerpt": "So với cuối tuần trước, giá vàng miếng và vàng nhẫn ở nhiều thương hiệu đồng loạt giảm từ 500.000 - 800.000 đồng mỗi lượng.",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
           "condensed": null
         },
         {
-          "title": "Chủ tịch UBND TP Hà Nội yêu cầu tăng tốc các dự án giao thông trọng điểm phía Tây Thủ đô",
-          "link": "https://cafef.vn/chu-tich-ubnd-tp-ha-noi-yeu-cau-tang-toc-cac-du-an-giao-thong-trong-diem-phia-tay-thu-do-188260729154315042.chn",
-          "pubDate": "2026-07-29T09:50:00.000Z",
-          "excerpt": "Chủ tịch UBND TP Hà Nội Vũ Đại Thắng yêu cầu tháo gỡ vướng mắc, tăng tốc thi công các dự án giao thông trọng điểm tại Sơn Tây, bảo đảm tiến độ, chất lượng đầu…",
+          "title": "Diễn biến mới tại dự án cao tốc kết nối 'rừng - biển' đầu tiên của Việt Nam, có chiều dài hơn 117km",
+          "link": "https://cafef.vn/dien-bien-moi-tai-du-an-cao-toc-ket-noi-rung-bien-dau-tien-cua-viet-nam-co-chieu-dai-hon-117km-188260729165940103.chn",
+          "pubDate": "2026-07-29T11:06:00.000Z",
+          "excerpt": "Khi hoàn thành, tuyến cao tốc sẽ rút ngắn quãng đường kết nối Khánh Hòa và Đắk Lắk từ gần 200km xuống còn khoảng 117km, tạo bước đột phá về liên kết vùng giữa…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -298,25 +298,14 @@
           "condensed": null
         },
         {
-          "title": "Diễn biến mới tại dự án cao tốc kết nối 'rừng - biển' đầu tiên của Việt Nam, có chiều dài hơn 117km",
-          "link": "https://cafef.vn/dien-bien-moi-tai-du-an-cao-toc-ket-noi-rung-bien-dau-tien-cua-viet-nam-co-chieu-dai-hon-117km-188260729165940103.chn",
-          "pubDate": "2026-07-29T11:06:00.000Z",
-          "excerpt": "Khi hoàn thành, tuyến cao tốc sẽ rút ngắn quãng đường kết nối Khánh Hòa và Đắk Lắk từ gần 200km xuống còn khoảng 117km, tạo bước đột phá về liên kết vùng giữa…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thông tin mới từ Bộ Xây dựng về tuyến đường sắt tốc độ cao 350km/h, vốn 67 tỷ USD",
-          "link": "https://cafef.vn/thong-tin-moi-tu-bo-xay-dung-ve-tuyen-duong-sat-toc-do-cao-350km-h-von-67-ty-usd-188260729154948738.chn",
-          "pubDate": "2026-07-29T09:30:00.000Z",
-          "excerpt": "Bộ Xây dựng cho biết đang quyết liệt chỉ đạo Ban QLDA Thăng Long đẩy nhanh tiến độ công tác lựa chọn Tư vấn lập Báo cáo nghiên cứu khả thi Dự án, đảm bảo hoàn…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Hải Phòng: Nhiều dự án công viên chưa phát huy hiệu quả đầu tư",
+          "link": "https://vneconomy.vn/hai-phong-nhieu-du-an-cong-vien-chua-phat-huy-hieu-qua-dau-tu.htm",
+          "pubDate": "2026-07-29T09:03:06.000Z",
+          "excerpt": "Không chỉ vướng mắc ở tiến độ đầu tư, công tác quản lý, vận hành nhiều công viên vườn hoa sau khi công trình hoàn thành bộc lộ bất cập…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         },
         {
@@ -331,14 +320,25 @@
           "condensed": null
         },
         {
-          "title": "Đề xuất đầu tư đô thị du lịch thế hệ mới 18 tỷ USD tại Vân Đồn",
-          "link": "https://cafef.vn/de-xuat-dau-tu-do-thi-du-lich-the-he-moi-18-ty-usd-tai-van-don-18826072916000788.chn",
-          "pubDate": "2026-07-29T10:30:00.000Z",
-          "excerpt": "Ngày 28/7, Ủy viên Trung ương Đảng, Bí thư Tỉnh ủy Quảng Ninh Quản Minh Cường và Chủ tịch UBND tỉnh Quảng Ninh Bùi Văn Khắng đã nghe và cho ý kiến về đề xuất…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "TP.Hồ Chí Minh tăng cường vận tải hành khách công cộng và siết kiểm soát xe cơ giới cá nhân",
+          "link": "https://vneconomy.vn/tpho-chi-minh-tang-cuong-van-tai-hanh-khach-cong-cong-va-siet-kiem-soat-xe-co-gioi-ca-nhan.htm",
+          "pubDate": "2026-07-29T09:28:58.000Z",
+          "excerpt": "TP.Hồ Chí Minh sẽ triển khai đồng bộ nhiều giải pháp nhằm nâng cao tỷ lệ người dân sử dụng vận tải hành khách công cộng đồng thời từng bước kiểm soát việc sử…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "AI và đổi mới sáng tạo mở \"cửa sổ cơ hội\" cho Việt Nam bứt phá",
+          "link": "https://vneconomy.vn/ai-va-doi-moi-sang-tao-mo-cua-so-co-hoi-cho-viet-nam-but-pha.htm",
+          "pubDate": "2026-07-29T09:42:42.000Z",
+          "excerpt": "Trí tuệ nhân tạo (AI), đổi mới sáng tạo và chuyển đổi số đang mở ra \"cửa sổ cơ hội\" để Việt Nam bứt phá. Tuy nhiên, để chuyển hóa cơ hội thành động lực tăng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -349,21 +349,54 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "China Shock Just Came for Your Portfolio",
-          "link": "https://www.wsj.com/finance/stocks/china-shock-just-came-for-your-portfolio-367eb097?mod=rss_markets_main",
-          "pubDate": "2026-07-29T10:36:00.000Z",
-          "excerpt": "Plus, the Fed keeps us guessing.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "This country is buying up the most homes in America right now, even as international sales dry up",
+          "link": "https://www.marketwatch.com/story/this-country-is-buying-up-the-most-homes-in-america-right-now-even-as-international-sales-dry-up-c8b2afbb?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T14:20:00.000Z",
+          "excerpt": "International buyers only bought about 67,000 homes in the U.S. over the last 12 months ending in March, a near-record low, according to the National…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "FTSE 100 hits all-time high as ‘anti-tech’ index shines in global chip rout",
-          "link": "https://www.ft.com/content/2e3048dc-e003-44be-957c-3f119bde3f48?syn-25a6b1a6=1",
-          "pubDate": "2026-07-29T10:21:56.000Z",
-          "excerpt": "Banks and oil companies power UK stocks’ rebound from Iran war sell-off",
+          "title": "My stepdad is in the military and dying of cancer. Will my mom automatically get his money?",
+          "link": "https://www.marketwatch.com/story/my-stepdad-is-dying-from-cancer-how-can-i-help-my-mom-find-out-if-shell-get-his-assets-8a10bad2?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T14:12:00.000Z",
+          "excerpt": "“My worry is that one of his kids from his other marriage or one of his siblings will pop up and say they deserve his assets.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Economy is poised to show strong second-quarter growth — but only after a look under the hood",
+          "link": "https://www.marketwatch.com/story/economy-is-poised-to-show-strong-second-quarter-growth-but-only-after-a-look-under-the-hood-8fd3615d?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T14:09:00.000Z",
+          "excerpt": "The U.S. economy churned out another robust rate of growth in the second quarter even as the Iran war boosted inflation, but that might not be so readily…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Global oil prices rise above $87 a barrel after Trump vows retaliation for surprise Iranian attack on U.S. troops",
+          "link": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T13:56:00.000Z",
+          "excerpt": "Oil prices rose on Wednesday after President Donald Trump said the U.S. would order heavy strikes after Iran targeted American forces in the Middle East with…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Trump vows to deliver ‘beating’ to Iran in retaliation for latest attack",
+          "link": "https://www.ft.com/content/b2fe912f-01ef-4daa-874e-a180dfeb728c?syn-25a6b1a6=1",
+          "pubDate": "2026-07-29T13:42:32.000Z",
+          "excerpt": "Washington says Tehran launched ballistic missiles at US military installations in the Middle East",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -371,21 +404,10 @@
           "condensed": null
         },
         {
-          "title": "Stock Market Today: Oil Rises on Mideast Flare-Up as Fed Weighs Interest-Rate Decision",
-          "link": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-07-29-2026?mod=rss_markets_main",
-          "pubDate": "2026-07-29T08:13:59.000Z",
-          "excerpt": "SK Hynix sells off after earnings disappoint",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Oil prices rise after U.S. and Saudi Arabia attack Iran-backed militias in Iraq",
-          "link": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T11:32:00.000Z",
-          "excerpt": "West Texas Intermediate and Brent crude’s front-month contracts climbed on Wednesday on the risk of more fighting.",
+          "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
+          "link": "https://www.marketwatch.com/story/forget-oil-a-surging-el-nino-could-kill-fed-rate-cuts-and-these-stocks-stand-to-win-41f8e67f?mod=mw_rss_topstories",
+          "pubDate": "2026-07-29T13:41:00.000Z",
+          "excerpt": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -393,47 +415,25 @@
           "condensed": null
         },
         {
-          "title": "Saudi Arabia has a new, and pricier, workaround to export its oil",
-          "link": "https://www.marketwatch.com/story/saudi-arabia-has-a-new-and-pricier-workaround-to-export-its-oil-fb5085a5?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T11:16:00.000Z",
-          "excerpt": "Loadings at a Mediterranean port have picked up as Saudi Arabia races to offer its oil to buyers through a lengthier — and more expensive — backdoor.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "Famed French DJ Kavinsky found dead in Paris",
+          "link": "https://www.scmp.com/news/world/europe/article/3362298/famed-french-dj-kavinsky-found-dead-paris?utm_source=rss_feed",
+          "pubDate": "2026-07-29T13:16:44.000Z",
+          "excerpt": "French DJ and musician Kavinsky, known for his electronic classic “Nightcall”, has been found dead at his home in Paris, prosecutors said on Wednesday. The…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         },
         {
-          "title": "How China Went From Dream Customer to a Nightmare for Big Oil",
-          "link": "https://www.wsj.com/business/energy-oil/how-china-went-from-dream-customer-to-a-nightmare-for-big-oil-e2d0260a?mod=rss_markets_main",
-          "pubDate": "2026-07-29T09:30:00.000Z",
-          "excerpt": "The country’s need for crude is much more flexible than the market thought.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Apple lần đầu chạm mốc vốn hóa 5,000 tỷ USD",
-          "link": "http://vietstock.vn/2026/07/apple-lan-dau-cham-moc-von-hoa-5000-ty-usd-773-1472615.htm",
-          "pubDate": "2026-07-29T03:39:58.000Z",
-          "excerpt": "Apple lần đầu tiên chạm mốc 5,000 tỷ USD vốn hóa thị trường trong phiên giao dịch ngày 29/07, chỉ một ngày sau khi vượt Nvidia để trở thành doanh nghiệp niêm…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "‘Nothing seems to shake this market.’ Why it’s time to go all-in on stocks, according to these bullish strategists.",
-          "link": "https://www.marketwatch.com/story/oil-is-up-40-and-tech-is-tumbling-why-its-time-to-go-all-in-on-stocks-according-to-these-bullish-strategists-41d812f7?mod=mw_rss_topstories",
-          "pubDate": "2026-07-29T11:17:00.000Z",
-          "excerpt": "Strategists at the bank, led by Max Kettner, are betting on equities as they have remained resilient despite geopolitical volatility and pullbacks in the…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "15 elephants die from suspected poisoning in Kenyan park",
+          "link": "https://www.scmp.com/news/world/africa/article/3362295/15-elephants-die-suspected-poisoning-kenyan-park?utm_source=rss_feed",
+          "pubDate": "2026-07-29T13:07:51.000Z",
+          "excerpt": "At least 15 elephants have died from exposure to a suspected poison in the Amboseli National Park in southern Kenya over a four-week period, the country’s…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
