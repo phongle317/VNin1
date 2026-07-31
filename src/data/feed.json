@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T14:24:03.270Z",
+  "lastUpdated": "2026-07-31T16:48:25.579Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4086,
+      "value": 4105,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7423.06,
-      "change": 11.080000000000837,
-      "changePercent": 0.1494877212296962
+      "value": 7469.11,
+      "change": 57.13000000000011,
+      "changePercent": 0.7707791980010754
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25117.5,
-      "change": 141.6800000000003,
-      "changePercent": 0.5672686622501295
+      "value": 25254.773,
+      "change": 278.95300000000134,
+      "changePercent": 1.1168922581921288
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25575.34,
-      "change": 476.34000000000015,
-      "changePercent": 1.8978445356388707
+      "value": 25629.24,
+      "change": 530.2400000000016,
+      "changePercent": 2.1125941272560724
     }
   ],
   "themes": [
@@ -63,28 +63,6 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
-        {
-          "title": "Lợi nhuận trước thuế quý 2 của MB tăng 41% nhờ hoạt động kinh doanh chính tăng mạnh",
-          "link": "http://vietstock.vn/2026/07/loi-nhuan-truoc-thue-quy-2-cua-mb-tang-41-nho-hoat-dong-kinh-doanh-chinh-tang-manh-737-1474866.htm",
-          "pubDate": "2026-07-31T10:42:00.000Z",
-          "excerpt": "Theo BCTC hợp nhất quý 2/2026, Ngân hàng TMCP Quân đội (MB, HOSE: MBB) ghi nhận lợi nhuận trước thuế gần 10,560 tỷ đồng, tăng mạnh 41% so với cùng kỳ năm…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "BOJ giữ nguyên lãi suất, cảnh báo lạm phát tăng tốc",
-          "link": "https://vneconomy.vn/boj-giu-nguyen-lai-suat-canh-bao-lam-phat-tang-toc.htm",
-          "pubDate": "2026-07-31T09:27:33.000Z",
-          "excerpt": "Như vậy, cả ba ngân hàng trung ương lớn có cuộc họp trong tuần này đều giữ nguyên lãi suất...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
         {
           "title": "Chủ động củng cố dự phòng rủi ro, SACOMBANK lãi trước thuế quý 2 gần 2,030 tỷ đồng",
           "link": "http://vietstock.vn/2026/07/chu-dong-cung-co-du-phong-rui-ro-sacombank-lai-truoc-thue-quy-2-gan-2030-ty-dong-737-1475231.htm",
@@ -108,21 +86,10 @@
           "condensed": null
         },
         {
-          "title": "Ngân hàng Nhà nước nâng tỷ lệ tính tiền gửi Kho bạc Nhà nước vào LDR lên 50%",
-          "link": "http://vietstock.vn/2026/07/ngan-hang-nha-nuoc-nang-ty-le-tinh-tien-gui-kho-bac-nha-nuoc-vao-ldr-len-50-757-1474791.htm",
-          "pubDate": "2026-07-31T10:00:00.000Z",
-          "excerpt": "Ngày 30/07, Ngân hàng Nhà nước (NHNN) ban hành Quyết định số 1743/QĐ-NHNN về tỷ lệ khấu trừ số dư tiền gửi có kỳ hạn của Kho bạc Nhà nước khi tính tỷ lệ dư nợ…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Chứng khoán giảm hơn 124 điểm trong tháng 7",
-          "link": "https://vnexpress.net/chung-khoan-giam-hon-124-diem-trong-thang-7-5103794.html",
-          "pubDate": "2026-07-31T08:58:56.000Z",
-          "excerpt": "VN-Index đảo chiều trong phiên cuối tháng khiến chứng khoán có tháng điều chỉnh thứ hai liên tiếp, giảm hơn 124 điểm, tương đương 6,68%.",
+          "title": "Quyền tổng giám đốc Eximbank từ nhiệm",
+          "link": "https://vnexpress.net/quyen-tong-giam-doc-eximbank-tu-nhiem-5103888.html",
+          "pubDate": "2026-07-31T13:11:25.000Z",
+          "excerpt": "Ông Trần Tấn Lộc, Quyền tổng giám đốc Eximbank, xin từ nhiệm từ ngày 1/8, sau khi nhà băng này có chủ tịch mới.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -130,14 +97,36 @@
           "condensed": null
         },
         {
-          "title": "Khối ngoại ngược chiều \"tung\" gần 400 tỷ gom hai cổ phiếu bluechips trong phiên 31/7",
-          "link": "https://cafef.vn/khoi-ngoai-nguoc-chieu-tung-gan-400-ty-gom-hai-co-phieu-bluechips-trong-phien-31-7-188260731152217145.chn",
-          "pubDate": "2026-07-31T08:55:00.000Z",
-          "excerpt": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 358 tỷ đồng cổ phiếu trên toàn thị trường.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Lợi nhuận trước thuế quý 2 của MB tăng 41% nhờ hoạt động kinh doanh chính tăng mạnh",
+          "link": "http://vietstock.vn/2026/07/loi-nhuan-truoc-thue-quy-2-cua-mb-tang-41-nho-hoat-dong-kinh-doanh-chinh-tang-manh-737-1474866.htm",
+          "pubDate": "2026-07-31T10:42:00.000Z",
+          "excerpt": "Theo BCTC hợp nhất quý 2/2026, Ngân hàng TMCP Quân đội (MB, HOSE: MBB) ghi nhận lợi nhuận trước thuế gần 10,560 tỷ đồng, tăng mạnh 41% so với cùng kỳ năm…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "BOJ giữ nguyên lãi suất, cảnh báo lạm phát tăng tốc",
+          "link": "https://vneconomy.vn/boj-giu-nguyen-lai-suat-canh-bao-lam-phat-tang-toc.htm",
+          "pubDate": "2026-07-31T09:27:33.000Z",
+          "excerpt": "Như vậy, cả ba ngân hàng trung ương lớn có cuộc họp trong tuần này đều giữ nguyên lãi suất...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Golden Gate không còn là công ty đại chúng",
+          "link": "https://vnexpress.net/golden-gate-khong-con-la-cong-ty-dai-chung-5103922.html",
+          "pubDate": "2026-07-31T14:34:16.000Z",
+          "excerpt": "Ủy ban Chứng khoán vừa hủy tư cách đại chúng của Golden Gate do chưa thực hiện các thủ tục đăng ký chứng khoán, đăng ký giao dịch cổ phiếu.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -149,6 +138,17 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "Khối ngoại ngược chiều \"tung\" gần 400 tỷ gom hai cổ phiếu bluechips trong phiên 31/7",
+          "link": "https://cafef.vn/khoi-ngoai-nguoc-chieu-tung-gan-400-ty-gom-hai-co-phieu-bluechips-trong-phien-31-7-188260731152217145.chn",
+          "pubDate": "2026-07-31T08:55:00.000Z",
+          "excerpt": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 358 tỷ đồng cổ phiếu trên toàn thị trường.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         }
       ],
@@ -167,18 +167,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Văn Phú: Lợi nhuận 6 tháng đầu năm 2026 tăng 37% so với cùng kỳ năm 2025",
-          "link": "https://vneconomy.vn/van-phu-loi-nhuan-6-thang-dau-nam-2026-tang-37-so-voi-cung-ky-nam-2025.htm",
-          "pubDate": "2026-07-31T02:27:48.000Z",
-          "excerpt": "Doanh thu từ các dự án đang triển khai bán hàng như Vlasta - Thủy Nguyên (Hải Phòng), Vlasta Premier - Phú Thuận (TP.HCM), TT39-40 khu đô thị Văn Phú (Hà Nội)…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Giám đốc Công ty Nhà Tiến Phát lãnh án chung thân vì lừa đảo chiếm đoạt hơn 127 tỷ đồng."
         },
         {
           "title": "Novaland báo lãi 6 tháng gần 1.800 tỷ đồng",
@@ -189,7 +178,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
+          "condensed": "Novaland báo lãi sau thuế 1.772 tỷ đồng trong 6 tháng."
         },
         {
           "title": "Gần 800 tỷ đồng 'cởi trói' điểm nghẽn Quốc lộ 10 và cầu Đá Bạc",
@@ -200,7 +189,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Nâng cấp Quốc lộ 10 và cầu Đá Bạc giúp kết nối đồng bộ với tuyến đường ven sông."
         },
         {
           "title": "TP HCM đẩy tiến độ làm nhà ở cho công nhân trên 22 khu đất",
@@ -211,18 +200,29 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
+          "condensed": "TP HCM phát triển nhà ở cho công nhân trên 22 khu đất."
         },
         {
-          "title": "Huế đấu giá hàng loạt các khu đất trong năm 2026",
-          "link": "https://vneconomy.vn/hue-dau-gia-hang-loat-cac-khu-dat-trong-nam-2026.htm",
-          "pubDate": "2026-07-31T09:12:40.000Z",
-          "excerpt": "Thành phố Huế sẽ tổ chức nhiều phiên đấu giá đất ở phục vụ nhu cầu người dân, đồng thời, cũng triển khai kế hoạch đấu giá nhiều khu đất có giá trị khác, nhằm…",
+          "title": "Hà Nội có thêm khu nhà xã hội mới dự kiến 28,4 triệu đồng một m2",
+          "link": "https://vnexpress.net/ha-noi-co-them-khu-nha-xa-hoi-moi-du-kien-28-4-trieu-dong-mot-m2-5103644.html",
+          "pubDate": "2026-07-31T03:47:11.000Z",
+          "excerpt": "Khu nhà ở xã hội CT2 ở Hoàng Mai dự kiến nhận hồ sơ trong quý III, với giá tạm tính 28,4 triệu đồng mỗi m2.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Hà Nội có khu nhà xã hội mới với giá 28,4 triệu đồng một m2."
+        },
+        {
+          "title": "Hơn 3.000 chiến binh kinh doanh tiếp lửa cho buổi ra mắt của Beachtro Tower",
+          "link": "https://vneconomy.vn/hon-3000-chien-binh-kinh-doanh-tiep-lua-cho-buoi-ra-mat-cua-beachtro-tower.htm",
+          "pubDate": "2026-07-31T13:00:36.000Z",
+          "excerpt": "Quỹ căn hộ sở hữu lâu dài cuối cùng bên bờ biển Bãi Sau tại Blanca City - Beachtro Tower, thu hút sự quan tâm lớn ngay trong ngày đầu ra mắt tại sự kiện…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Beachtro Tower thu hút sự quan tâm lớn tại sự kiện ra mắt."
         },
         {
           "title": "Tân Hoàng Minh Group chính thức khởi động D’. Diamant Bleu, mở đầu chuỗi dự án chiến lược",
@@ -233,18 +233,18 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Tân Hoàng Minh Group khởi động dự án D’. Diamant Bleu."
         },
         {
-          "title": "CEO Avison Young: Lãi suất không phải yếu tố quyết định dòng vốn ngoại",
-          "link": "https://cafebiz.vn/ceo-avison-young-lai-suat-tang-nguoi-chiu-ap-luc-ro-nhat-khong-phai-chu-dau-tu-ma-la-nguoi-mua-nha-176260723141922675.chn",
-          "pubDate": "2026-07-23T07:17:00.000Z",
-          "excerpt": "Tổng Giám đốc Avison Young Việt Nam cho rằng, người mua nhà đang là nhóm chịu ảnh hưởng nặng nề nhất khi lãi suất tăng. Thị trường bất động sản có thể mất…",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": null
+          "title": "Huế đấu giá hàng loạt các khu đất trong năm 2026",
+          "link": "https://vneconomy.vn/hue-dau-gia-hang-loat-cac-khu-dat-trong-nam-2026.htm",
+          "pubDate": "2026-07-31T09:12:40.000Z",
+          "excerpt": "Thành phố Huế sẽ tổ chức nhiều phiên đấu giá đất ở phục vụ nhu cầu người dân, đồng thời, cũng triển khai kế hoạch đấu giá nhiều khu đất có giá trị khác, nhằm…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Huế đấu giá hàng loạt khu đất trong năm 2026."
         }
       ],
       "aiSummary": null
@@ -254,54 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Bộ Xây dựng còn hơn 26.000 tỷ đồng vốn đầu tư công phải giải ngân",
-          "link": "https://vneconomy.vn/bo-xay-dung-con-hon-26000-ty-dong-von-dau-tu-cong-phai-giai-ngan.htm",
-          "pubDate": "2026-07-31T08:31:32.000Z",
-          "excerpt": "Sau 7 tháng đầu năm mới giải ngân hơn 33% kế hoạch vốn đầu tư công, Bộ Xây dựng yêu cầu các chủ đầu tư đẩy nhanh tiến độ chuẩn bị đầu tư và thi công các dự án…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
           "title": "Một tỉnh miền Trung vừa đón dòng vốn hơn 110.000 tỷ đồng, đâu là dự án được rót nhiều tiền nhất?",
           "link": "https://cafef.vn/mot-tinh-mien-trung-vua-don-dong-von-hon-110000-ty-dong-dau-la-du-an-duoc-rot-nhieu-tien-nhat-188260731173548865.chn",
           "pubDate": "2026-07-31T10:55:00.000Z",
           "excerpt": "Mới đây, UBND tỉnh Nghệ An đã tổ chức Hội nghị công bố điều chỉnh Quy hoạch tỉnh. Theo đó, tại Hội nghị, lãnh đạo địa phương tổ chức trao Quyết định chấp thuận…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hải Phòng công bố các quyết định về khu kinh tế và khởi động Khu thương mại tự do",
-          "link": "https://vneconomy.vn/hai-phong-cong-bo-cac-quyet-dinh-ve-khu-kinh-te-va-khoi-dong-khu-thuong-mai-tu-do.htm",
-          "pubDate": "2026-07-31T08:36:08.000Z",
-          "excerpt": "Khu kinh tế ven biển phía Nam với trọng tâm Khu thương mại tự do sẽ là động lực tăng trưởng kinh tế chủ đạo của Hải Phòng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Vingroup lãi lớn",
-          "link": "https://vnexpress.net/vingroup-lai-lon-5103671.html",
-          "pubDate": "2026-07-31T07:29:51.000Z",
-          "excerpt": "Quý II, Vingroup lãi sau thuế 14.763 tỷ đồng, gấp 6,5 lần cùng kỳ năm ngoái, nhờ tăng thu từ bất động sản, sản xuất xe điện và hoạt động tài chính.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Đường băng dài 3.300m tại dự án sân bay của Sun Group vừa đạt kỷ lục chưa từng có trong lịch sử, lãnh đạo tỉnh An Giang đưa ra yêu cầu đặc biệt",
-          "link": "https://cafef.vn/duong-bang-dai-3300m-tai-du-an-san-bay-cua-sun-group-vua-dat-ky-luc-chua-tung-co-trong-lich-su-lanh-dao-tinh-an-giang-dua-ra-yeu-cau-dac-biet-188260731163345844.chn",
-          "pubDate": "2026-07-31T10:31:00.000Z",
-          "excerpt": "Dù phải thi công trong điều kiện thời tiết biển đảo khắc nghiệt, đường băng dài 3.300m của dự án mở rộng Cảng hàng không Phú Quốc đã được hoàn thành chỉ sau 8…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -320,10 +276,21 @@
           "condensed": null
         },
         {
-          "title": "AMES 2026: Định hình các chính sách kinh tế vĩ mô trong kỷ nguyên nhiều biến động",
-          "link": "https://vneconomy.vn/ames-2026-dinh-hinh-cac-chinh-sach-kinh-te-vi-mo-trong-ky-nguyen-nhieu-bien-dong.htm",
-          "pubDate": "2026-07-31T09:08:13.000Z",
-          "excerpt": "Sáng 31/7, Hội nghị Châu Á của Hiệp hội Kinh tế lượng khu vực Đông Á và Đông Nam Á năm 2026 (AMES 2026) khai mạc tại Hà Nội. Sự kiện do Hiệp hội Kinh tế lượng…",
+          "title": "Đường băng dài 3.300m tại dự án sân bay của Sun Group vừa đạt kỷ lục chưa từng có trong lịch sử, lãnh đạo tỉnh An Giang đưa ra yêu cầu đặc biệt",
+          "link": "https://cafef.vn/duong-bang-dai-3300m-tai-du-an-san-bay-cua-sun-group-vua-dat-ky-luc-chua-tung-co-trong-lich-su-lanh-dao-tinh-an-giang-dua-ra-yeu-cau-dac-biet-188260731163345844.chn",
+          "pubDate": "2026-07-31T10:31:00.000Z",
+          "excerpt": "Dù phải thi công trong điều kiện thời tiết biển đảo khắc nghiệt, đường băng dài 3.300m của dự án mở rộng Cảng hàng không Phú Quốc đã được hoàn thành chỉ sau 8…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hải Phòng công bố các quyết định về khu kinh tế và khởi động Khu thương mại tự do",
+          "link": "https://vneconomy.vn/hai-phong-cong-bo-cac-quyet-dinh-ve-khu-kinh-te-va-khoi-dong-khu-thuong-mai-tu-do.htm",
+          "pubDate": "2026-07-31T08:36:08.000Z",
+          "excerpt": "Khu kinh tế ven biển phía Nam với trọng tâm Khu thương mại tự do sẽ là động lực tăng trưởng kinh tế chủ đạo của Hải Phòng…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -331,10 +298,43 @@
           "condensed": null
         },
         {
-          "title": "Sân bay Cà Mau mở cửa từ ngày 1/11",
-          "link": "https://cafef.vn/san-bay-ca-mau-mo-cua-tu-ngay-1-11-188260731160804832.chn",
-          "pubDate": "2026-07-31T10:00:00.000Z",
-          "excerpt": "Ngày 31/7, ông Phạm Thanh Lâm - Giám đốc Cảng hàng không Cà Mau - cho biết, Dự án nâng cấp, mở rộng Cảng hàng không Cà Mau dự kiến sẽ hoàn thành vào ngày…",
+          "title": "Bộ Xây dựng còn hơn 26.000 tỷ đồng vốn đầu tư công phải giải ngân",
+          "link": "https://vneconomy.vn/bo-xay-dung-con-hon-26000-ty-dong-von-dau-tu-cong-phai-giai-ngan.htm",
+          "pubDate": "2026-07-31T08:31:32.000Z",
+          "excerpt": "Sau 7 tháng đầu năm mới giải ngân hơn 33% kế hoạch vốn đầu tư công, Bộ Xây dựng yêu cầu các chủ đầu tư đẩy nhanh tiến độ chuẩn bị đầu tư và thi công các dự án…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Siết chuẩn nhiên liệu giúp Trung Quốc giảm ô nhiễm, tiết kiệm gần 24 tỷ USD",
+          "link": "https://vnexpress.net/siet-chuan-nhien-lieu-giup-trung-quoc-giam-o-nhiem-tiet-kiem-gan-24-ty-usd-5103937.html",
+          "pubDate": "2026-07-31T15:35:47.000Z",
+          "excerpt": "Trung Quốc chuyển đổi nhiên liệu từ China V lên VI cách đây 7 năm, giúp tiết kiệm gần 24 tỷ USD chi phí y tế, nhờ cải thiện chất lượng không khí.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Ủy ban Thường vụ Quốc hội ban hành quy chế mới về quy trình quyết định ngân sách và đầu tư công",
+          "link": "https://vneconomy.vn/uy-ban-thuong-vu-quoc-hoi-ban-hanh-quy-che-moi-ve-quy-trinh-quyet-dinh-ngan-sach-va-dau-tu-cong.htm",
+          "pubDate": "2026-07-31T08:38:04.000Z",
+          "excerpt": "Ủy ban Thường vụ Quốc hội vừa ban hành Nghị quyết số 09/2026/UBTVQH16 quy định quy chế lập, thẩm tra, quyết định kế hoạch tài chính 5 năm quốc gia, kế hoạch…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Hơn 4 tháng sau khi đưa vào sử dụng, 10 dự án thoát nước khẩn cấp đang thay đổi diện mạo chống ngập của Hà Nội",
+          "link": "https://cafef.vn/hon-4-thang-sau-khi-dua-vao-su-dung-10-du-an-thoat-nuoc-khan-cap-dang-thay-doi-dien-mao-chong-ngap-cua-ha-noi-188260731201307186.chn",
+          "pubDate": "2026-07-31T13:13:00.000Z",
+          "excerpt": "Sau khi đưa vào vận hành 10 dự án thoát nước khẩn cấp, Hà Nội ghi nhận nhiều điểm úng ngập được cải thiện rõ rệt, giảm thời gian và mức độ ngập trong các trận…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,32 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Apple heads for $460 billion wipeout with its stock seeing worst post-earnings drop in 13 years",
-          "link": "https://www.marketwatch.com/story/apple-heads-for-460-billion-wipeout-with-its-stock-seeing-worst-post-earnings-drop-in-13-years-a438d16c?mod=mw_rss_topstories",
-          "pubDate": "2026-07-31T13:51:00.000Z",
-          "excerpt": "Investors are reacting negatively to weak guidance brought on by supply-chain pressures.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Implosion of Situational Awareness hedge fund has Wall Street betting the bottom is in for the AI trade",
-          "link": "https://www.marketwatch.com/story/implosion-of-situational-awareness-has-wall-street-betting-the-bottom-is-in-for-the-ai-trade-05d9f346?mod=mw_rss_topstories",
-          "pubDate": "2026-07-31T14:00:00.000Z",
-          "excerpt": "One of the wildest months in recent memory for the U.S. stock market is ending on yet another remarkable note: A highflying hedge fund run by an AI wunderkind…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Kevin Warsh’s ‘Bear Steepener’ Is No Goldilocks Moment for Stocks",
-          "link": "https://www.wsj.com/finance/stocks/kevin-warshs-bear-steepener-is-no-goldilocks-moment-for-stocks-fdd33606?mod=rss_markets_main",
-          "pubDate": "2026-07-31T10:36:00.000Z",
-          "excerpt": "Plus, Microsoft pops, Apple drops",
+          "title": "His Wedding Guests Were Arriving—Just as His $45 Billion Fund Was Falling Apart",
+          "link": "https://www.wsj.com/finance/leopold-aschenbrenner-situational-awareness-ai-fund-597633d3?mod=rss_markets_main",
+          "pubDate": "2026-07-31T16:41:00.000Z",
+          "excerpt": "Leopold Aschenbrenner was hailed as the ‘Nostradamus of AI.’ But his Situational Awareness hedge fund took on too much leverage, leading to a crash he never…",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
@@ -382,10 +360,10 @@
           "condensed": null
         },
         {
-          "title": "Novo Nordisk’s stock slumps after failed trial — adding to the company’s woes",
-          "link": "https://www.marketwatch.com/story/novo-nordisks-stock-slumps-after-failed-trial-adding-to-the-companys-woes-202419cd?mod=mw_rss_topstories",
-          "pubDate": "2026-07-31T13:54:00.000Z",
-          "excerpt": "The Danish healthcare company’s stock slumped on Friday after it announced the Phase 3 trial failure.",
+          "title": "S&P 500 heads for the first July decline since 2014. Here are the stocks that led the selloff.",
+          "link": "https://www.marketwatch.com/story/s-p-500-heads-for-the-first-july-decline-since-2014-here-are-the-stocks-that-led-the-selloff-5677f63b?mod=mw_rss_topstories",
+          "pubDate": "2026-07-31T16:38:00.000Z",
+          "excerpt": "After a whipsaw end to the month, the stock market’s decline was highlighted by the worst month for chip stocks in 24 years.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -393,21 +371,21 @@
           "condensed": null
         },
         {
-          "title": "Ford and GM Attempts to Go Beyond Cars Deserve Skepticism",
-          "link": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main",
-          "pubDate": "2026-07-31T09:30:00.000Z",
-          "excerpt": "The automakers have a mixed track record on diversification.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "My friend and her husband own real estate. How can her children from a previous marriage get their fair share?",
+          "link": "https://www.marketwatch.com/story/my-friend-and-her-husband-own-extensive-real-estate-how-can-her-children-from-a-previous-marriage-get-their-fair-share-3eb17c20?mod=mw_rss_topstories",
+          "pubDate": "2026-07-31T16:30:00.000Z",
+          "excerpt": "“Her husband is open to a trust, but he wants to be the administrator.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Markets are getting AI right",
-          "link": "https://www.ft.com/content/c167fb1b-69c3-4df0-9126-1e0af678f924?syn-25a6b1a6=1",
-          "pubDate": "2026-07-31T13:00:07.000Z",
-          "excerpt": "Recent volatility reflects economic reality",
+          "title": "Spanish prime minister condemns influx of 60,000 migrants",
+          "link": "https://www.ft.com/content/34917d6f-c8ec-4e13-890a-4d8475806bb7?syn-25a6b1a6=1",
+          "pubDate": "2026-07-31T16:24:00.000Z",
+          "excerpt": "Mass arrival at enclave of Ceuta is ‘violation of . . . territorial integrity’, says Pedro Sánchez",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -415,10 +393,32 @@
           "condensed": null
         },
         {
-          "title": "New EU team to crack down on AI deepfakes, illicit images and hacking",
-          "link": "https://www.scmp.com/news/world/europe/article/3362566/new-eu-team-crack-down-ai-deepfakes-illicit-images-and-hacking?utm_source=rss_feed",
-          "pubDate": "2026-07-31T10:39:35.000Z",
-          "excerpt": "The European Union rolled out a new team on Friday to rein in AI companies across the world, in one of the most aggressive regulations the hi-tech sector has…",
+          "title": "Rise of Bond E-Trading Underpins NYSE Owner’s $6 Billion MarketAxess Deal",
+          "link": "https://www.wsj.com/finance/investing/rise-of-bond-e-trading-underpins-nyse-owners-6-billion-marketaxess-deal-07f40706?mod=rss_markets_main",
+          "pubDate": "2026-07-31T16:09:00.000Z",
+          "excerpt": "Intercontinental Exchange is betting on a shift toward electronic fixed-income trading.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Micron’s stock falls after Apple’s Tim Cook expresses a desire for more memory suppliers",
+          "link": "https://www.marketwatch.com/story/microns-stock-falls-after-apples-tim-cook-expresses-a-desire-for-more-memory-suppliers-a7bc0502?mod=mw_rss_topstories",
+          "pubDate": "2026-07-31T15:59:00.000Z",
+          "excerpt": "Apple and Amazon are both being hurt by higher memory prices.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Hungary braces for first nuclear plant shutdown as Danube hits record lows",
+          "link": "https://www.scmp.com/news/world/europe/article/3362598/europes-wildfire-threat-expands-latest-heatwave?utm_source=rss_feed",
+          "pubDate": "2026-07-31T14:37:54.000Z",
+          "excerpt": "Hungary’s only nuclear power plant will shut down for the first time in its history due to record-low water levels on the Danube River, Prime Minister Péter…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -426,14 +426,14 @@
           "condensed": null
         },
         {
-          "title": "Bong bóng cổ phiếu AI xì hơi, nhà đầu tư Hàn Quốc than thở: \"Cuộc đời tôi coi như xong\"",
-          "link": "http://vietstock.vn/2026/07/bong-bong-co-phieu-ai-xi-hoi-nha-dau-tu-han-quoc-than-tho-cuoc-doi-toi-coi-nhu-xong-773-1474274.htm",
-          "pubDate": "2026-07-31T04:12:58.000Z",
-          "excerpt": "Chỉ vài tháng trước, bà Song Mi-kyung, một cư dân 60 tuổi ở Seoul, từng lãi khoảng 300 triệu Won (tương đương 200,000 USD) nhờ làn sóng tăng giá của thị trường…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
+          "title": "Hamas says it reaches agreement to disarm after Trump announces deal",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3362595/hamas-says-it-reaches-agreement-disarm-after-trump-announces-deal?utm_source=rss_feed",
+          "pubDate": "2026-07-31T14:00:58.000Z",
+          "excerpt": "Hamas said on Friday that it reached an agreement to disarm, a significant move that could help end the war in Gaza, but one that will face many hurdles and…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
