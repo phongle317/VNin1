@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-07-31T06:47:44.418Z",
+  "lastUpdated": "2026-07-31T09:47:37.673Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26470,
+      "value": 26490,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4136.4,
+      "value": 4107.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25789.91,
-      "change": 826.6800000000003,
-      "changePercent": 3.311590687583299
+      "value": 25884.43,
+      "change": 921.2000000000007,
+      "changePercent": 3.690227586734572
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25612.03,
-      "change": 848.9099999999999,
-      "changePercent": 3.4281221429286775
+      "value": 25823.29,
+      "change": 724.2900000000009,
+      "changePercent": 2.8857324993027644
     }
   ],
   "themes": [
@@ -64,37 +64,81 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "HDBank tăng trưởng 31% lợi nhuận, gia nhập câu lạc bộ ngân hàng triệu tỷ và ghi dấu ấn mới trên thị trường vốn quốc tế",
-          "link": "http://vietstock.vn/2026/07/hdbank-tang-truong-31-loi-nhuan-gia-nhap-cau-lac-bo-ngan-hang-trieu-ty-va-ghi-dau-an-moi-tren-thi-truong-von-quoc-te-737-1474208.htm",
-          "pubDate": "2026-07-31T03:38:56.000Z",
-          "excerpt": "Ngân hàng TMCP Phát triển TPHCM (HDBank, HOSE: HDB) công bố kết quả kinh doanh 6 tháng đầu năm 2026 với 3 dấu mốc nổi bật.",
+          "title": "BIDV tăng 20% lãi trước thuế quý 2",
+          "link": "http://vietstock.vn/2026/07/bidv-tang-20-lai-truoc-thue-quy-2-737-1474667.htm",
+          "pubDate": "2026-07-31T09:02:36.000Z",
+          "excerpt": "BCTC hợp nhất quý 2/2026 cho thấy Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV, HOSE: BID) ghi nhận lợi nhuận trước thuế gần 10,333 tỷ đồng, tăng 20% so…",
           "sourceId": "vietstock",
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "HDBank tăng trưởng 31% lợi nhuận và gia nhập câu lạc bộ ngân hàng triệu tỷ."
+          "condensed": null
         },
         {
-          "title": "Vietcombank tăng 58% lãi trước thuế quý 2, nợ nghi ngờ gấp 5.5 lần",
-          "link": "http://vietstock.vn/2026/07/vietcombank-tang-58-lai-truoc-thue-quy-2-no-nghi-ngo-gap-55-lan-737-1474196.htm",
-          "pubDate": "2026-07-31T03:38:26.000Z",
-          "excerpt": "BCTC hợp nhất quý 2/2026 vừa công bố cho thấy Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank, HOSE: VCB) lãi trước thuế gần 17,420 tỷ đồng, tăng đến 58% so…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "Vietcombank lãi trước thuế gần 17,420 tỷ đồng trong quý 2."
-        },
-        {
-          "title": "Microsoft lập kỷ lục thế giới về mức tăng vốn hóa",
-          "link": "https://vnexpress.net/microsoft-lap-ky-luc-the-gioi-ve-muc-tang-von-hoa-5103553.html",
-          "pubDate": "2026-07-31T01:34:23.000Z",
-          "excerpt": "Chỉ trong một phiên, vốn hóa của gã khổng lồ phần mềm tăng gần 450 tỷ USD - kỷ lục với một công ty trên toàn cầu.",
+          "title": "Vingroup lãi lớn",
+          "link": "https://vnexpress.net/vingroup-lai-lon-5103671.html",
+          "pubDate": "2026-07-31T07:29:51.000Z",
+          "excerpt": "Quý II, Vingroup lãi sau thuế 14.763 tỷ đồng, gấp 6,5 lần cùng kỳ năm ngoái, nhờ tăng thu từ bất động sản, sản xuất xe điện và hoạt động tài chính.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Microsoft lập kỷ lục về mức tăng vốn hóa gần 450 tỷ USD."
+          "condensed": null
+        },
+        {
+          "title": "Tăng mạnh dự phòng, VietinBank vẫn tăng 22% lãi trước thuế quý 2",
+          "link": "http://vietstock.vn/2026/07/tang-manh-du-phong-vietinbank-van-tang-22-lai-truoc-thue-quy-2-737-1474528.htm",
+          "pubDate": "2026-07-31T07:15:00.000Z",
+          "excerpt": "BCTC hợp nhất quý 2/2026 cho thấy Ngân hàng TMCP Công Thương Việt Nam (VietinBank, HOSE: CTG) lãi trước thuế gần 14,729 tỷ đồng, tăng 22% so với cùng kỳ năm…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "SHB lãi trước thuế 9,092 tỷ đồng trong 6 tháng, hoàn thành 51% kế hoạch năm",
+          "link": "http://vietstock.vn/2026/07/shb-lai-truoc-thue-9092-ty-dong-trong-6-thang-hoan-thanh-51-ke-hoach-nam-737-1474530.htm",
+          "pubDate": "2026-07-31T06:24:54.000Z",
+          "excerpt": "Kết thúc 6 tháng đầu năm 2026, Ngân hàng TMCP Sài Gòn - Hà Nội (HOSE: SHB) ghi nhận lợi nhuận trước thuế đạt 9,092 tỷ đồng, hoàn thành 51% kế hoạch năm. Cùng…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "BOJ giữ nguyên lãi suất, cảnh báo lạm phát tăng tốc",
+          "link": "https://vneconomy.vn/boj-giu-nguyen-lai-suat-canh-bao-lam-phat-tang-toc.htm",
+          "pubDate": "2026-07-31T09:27:33.000Z",
+          "excerpt": "Như vậy, cả ba ngân hàng trung ương lớn có cuộc họp trong tuần này đều giữ nguyên lãi suất...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "CNCTech Group (CLI) doanh thu 6 tháng đạt 1.438,7 tỷ đồng, tăng 2,13 lần (+113%) so với cùng kỳ",
+          "link": "https://cafef.vn/cnctech-group-cli-doanh-thu-6-thang-dat-14387-ty-dong-tang-213-lan-113-so-voi-cung-ky-188260731143225068.chn",
+          "pubDate": "2026-07-31T08:30:00.000Z",
+          "excerpt": "Quý II/2026, Công ty cổ phần Tập đoàn CNCTech (mã CLI – UPCoM) đạt doanh thu thuần 878,5 tỷ đồng, luỹ kế nửa đầu năm 2026 đạt 1.438,7 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Một công ty chứng khoán thua lỗ 16 quý liên tiếp, nâng lỗ lũy kế lên 180 tỷ đồng",
+          "link": "https://cafef.vn/cong-ty-chung-khoan-lien-quan-toi-vi-dien-tu-momo-thua-lo-16-quy-lien-tiep-nang-lo-luy-ke-len-180-ty-dong-188260731150348946.chn",
+          "pubDate": "2026-07-31T08:03:00.000Z",
+          "excerpt": "Công ty bất ngờ ghi nhận khoản lỗ khác 27 tỷ đồng trong quý 2.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
         },
         {
           "title": "Chứng khoán Trung Quốc sắp hoàn tất tháng giảm mạnh nhất trong 1 thập kỷ",
@@ -105,51 +149,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Chứng khoán Trung Quốc sắp hoàn tất tháng giảm mạnh nhất trong 1 thập kỷ."
-        },
-        {
-          "title": "Đồng yên tăng giá dữ dội, Nhật Bản có thể đã can thiệp",
-          "link": "https://vneconomy.vn/dong-yen-tang-gia-du-doi-nhat-ban-co-the-da-can-thiep.htm",
-          "pubDate": "2026-07-31T02:31:50.000Z",
-          "excerpt": "Đồng yên Nhật Bản đã có một cú tăng giá mạnh mẽ vào thứ Năm (30/7), đạt mức tăng lớn nhất so với đồng USD trong một phiên giao dịch trong vòng gần 4 năm...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Đồng yên tăng giá mạnh mẽ vào thứ Năm."
-        },
-        {
-          "title": "Vietjet tăng trưởng tích cực, mở rộng mạng bay quốc tế và xây dựng hệ sinh thái hàng không quy mô khu vực",
-          "link": "https://vneconomy.vn/vietjet-tang-truong-tich-cuc-mo-rong-mang-bay-quoc-te-va-xay-dung-he-sinh-thai-hang-khong-quy-mo-khu-vuc.htm",
-          "pubDate": "2026-07-31T02:18:22.000Z",
-          "excerpt": "Công ty Cổ phần Hàng không Vietjet (HOSE: VJC) công bố kết quả kinh doanh quý 2 và sáu tháng đầu năm 2026 với tăng trưởng tích cực trên nhiều chỉ tiêu.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Vietjet tăng trưởng tích cực và mở rộng mạng bay quốc tế."
-        },
-        {
-          "title": "VNG lãi kỷ lục",
-          "link": "https://vnexpress.net/vng-lai-ky-luc-5103512.html",
-          "pubDate": "2026-07-31T02:00:00.000Z",
-          "excerpt": "VNG lãi gần 530 tỷ đồng trong quý gần nhất nhờ đóng góp của một khoản thu nhập tài chính bất thường, qua đó lập đỉnh mới từ khi lên sàn chứng khoán.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "VNG lãi kỷ lục gần 530 tỷ đồng trong quý gần nhất."
-        },
-        {
-          "title": "Chứng khoán Mỹ xanh rực sau phiên bán tháo, giá dầu trượt dưới 90 USD/thùng",
-          "link": "https://vneconomy.vn/chung-khoan-my-xanh-ruc-sau-phien-ban-thao-gia-dau-truot-duoi-90-usdthung.htm",
-          "pubDate": "2026-07-31T01:33:40.000Z",
-          "excerpt": "Thị trường chứng khoán Mỹ tăng điểm trong phiên giao dịch ngày thứ Năm (30/7), hồi phục mạnh sau phiên bán tháo vào ngày hôm trước, nhờ cú tăng ấn tượng của cổ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Chứng khoán Mỹ tăng điểm sau phiên bán tháo."
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,6 +159,72 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Tập đoàn của tỷ phú Nguyễn Thị Phương Thảo dự kiến khởi công tuyến metro dài 43 km tại thành phố giàu nhất Việt Nam ngay năm sau",
+          "link": "https://cafef.vn/tap-doan-cua-ty-phu-nguyen-thi-phuong-thao-du-kien-khoi-cong-tuyen-metro-dai-43-km-tai-thanh-pho-giau-nhat-viet-nam-ngay-nam-sau-188260731140516777.chn",
+          "pubDate": "2026-07-31T07:40:00.000Z",
+          "excerpt": "Theo phương án nghiên cứu của Sovico, tuyến metro số 4 TP.HCM sẽ dài khoảng 43 km với 30 nhà ga, đi qua 22 phường, xã và dự kiến khởi công trong quý I hoặc quý…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Novaland báo lãi 6 tháng gần 1.800 tỷ đồng",
+          "link": "https://vnexpress.net/novaland-bao-lai-6-thang-gan-1-800-ty-dong-5103507.html",
+          "pubDate": "2026-07-30T23:30:00.000Z",
+          "excerpt": "Nhờ doanh thu tài chính tăng đột biến, Novaland báo lãi sau thuế 1.772 tỷ đồng trong 6 tháng, hoàn thành 96% kế hoạch lợi nhuận cả năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Khu đô thị đa mục tiêu 1,6 tỷ USD do doanh nghiệp của đại gia Khoa “Khàn” đạt cột mốc quan trọng",
+          "link": "https://cafef.vn/khu-do-thi-da-muc-tieu-16-ty-usd-do-doanh-nghiep-cua-dai-gia-khoa-khan-dat-cot-moc-quan-trong-188260731135433157.chn",
+          "pubDate": "2026-07-31T08:08:00.000Z",
+          "excerpt": "Tập đoàn Tương Lai Sông Hồng vừa được Hà Nội giao hơn 156 ha đất (đợt 1) để làm Khu đô thị đa mục tiêu tại xã Thư Lâm, tổng mức đầu tư khoảng 41.800 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Dự án 3.500 tỷ đồng của Sun Group tại khu \"đất vàng\" Thủ đô đạt bước tiến quan trọng",
+          "link": "https://cafef.vn/du-an-3500-ty-dong-cua-sun-group-tai-khu-dat-vang-thu-do-dat-buoc-tien-quan-trong-188260731140633897.chn",
+          "pubDate": "2026-07-31T07:52:00.000Z",
+          "excerpt": "Sun Grand City Láng Hạ vừa được UBND TP Hà Nội đưa vào danh mục các dự án đầu tư xây dựng nhà ở, khu đô thị trong Kế hoạch phát triển nhà ở giai đoạn 2026-2030…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Siêu dự án sân bay 16 tỷ USD lớn nhất Việt Nam dự kiến vận hành thử nghiệm trong 3 tháng trước khi khai thác thương mại",
+          "link": "https://cafef.vn/sieu-du-an-san-bay-16-ty-usd-lon-nhat-viet-nam-du-kien-van-hanh-thu-nghiem-trong-3-thang-truoc-khi-khai-thac-thuong-mai-188260731140744094.chn",
+          "pubDate": "2026-07-31T07:26:00.000Z",
+          "excerpt": "ACV dự kiến triển khai vận hành thử nghiệm sân bay Long Thành từ tháng 9-11, trước khi chuyển sang khai thác thương mại.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "TP. Hồ Chí Minh chỉnh trang đô thị ven sông, di dời hơn 41.500 căn nhà đến 2030",
+          "link": "https://vneconomy.vn/tp-ho-chi-minh-chinh-trang-do-thi-ven-song-di-doi-hon-41500-can-nha-den-2030.htm",
+          "pubDate": "2026-07-31T07:44:16.000Z",
+          "excerpt": "Đề án chỉnh trang đô thị khu vực nhà ở trên và ven sông, kênh, rạch giai đoạn 2025-2030 của TP. Hồ Chí Minh đã được khởi động, với mục tiêu di dời hơn 41.500…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
           "title": "Văn Phú: Lợi nhuận 6 tháng đầu năm 2026 tăng 37% so với cùng kỳ năm 2025",
           "link": "https://vneconomy.vn/van-phu-loi-nhuan-6-thang-dau-nam-2026-tang-37-so-voi-cung-ky-nam-2025.htm",
           "pubDate": "2026-07-31T02:27:48.000Z",
@@ -167,84 +233,18 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Lợi nhuận 6 tháng đầu năm 2026 của Văn Phú tăng 37% so với cùng kỳ năm 2025."
+          "condensed": null
         },
         {
-          "title": "Kiến nghị gỡ khó cho cao tốc Hữu Nghị - Chi Lăng",
-          "link": "https://cafef.vn/kien-nghi-go-kho-cho-cao-toc-huu-nghi-chi-lang-18826073109182038.chn",
-          "pubDate": "2026-07-31T05:14:00.000Z",
-          "excerpt": "Doanh nghiệp dự án cao tốc Hữu Nghị - Chi Lăng có báo cáo kiến nghị với UBND tỉnh Lạng Sơn tháo gỡ cấp bách một số khó khăn đang làm ảnh hưởng đến tiến độ và…",
+          "title": "Việt Phương được chuyển mục đích sử dụng đất để thực hiện Dự án nhà ở",
+          "link": "https://cafef.vn/viet-phuong-duoc-chuyen-muc-dich-su-dung-dat-de-thuc-hien-du-an-nha-o-188260731153310321.chn",
+          "pubDate": "2026-07-31T09:14:00.000Z",
+          "excerpt": "Công ty Việt Phương được phép chuyển mục đích sử dụng 3.226,50 m2 đất trồng cây hằng năm sang sang đất ở tại đô thị, đất xây dựng công trình giáo dục và đào…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Doanh nghiệp dự án cao tốc Hữu Nghị - Chi Lăng kiến nghị tháo gỡ khó khăn."
-        },
-        {
-          "title": "Dòng vốn vẫn là một thách thức lớn đối với quá trình phục hồi thị trường bất động sản",
-          "link": "https://vneconomy.vn/dong-von-van-la-mot-thach-thuc-lon-doi-voi-qua-trinh-phuc-hoi-thi-truong-bat-dong-san.htm",
-          "pubDate": "2026-07-30T08:17:35.000Z",
-          "excerpt": "Bên cạnh những tín hiệu tích cực về nguồn cung, bài toán dòng vốn vẫn là một trong những thách thức lớn đối với quá trình phục hồi của thị trường bất động sản….",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Dòng vốn vẫn là thách thức lớn đối với phục hồi thị trường bất động sản."
-        },
-        {
-          "title": "Cải tạo chung cư cũ: Khơi thông động lực chỉnh trang đô thị",
-          "link": "https://cafef.vn/cai-tao-chung-cu-cu-khoi-thong-dong-luc-chinh-trang-do-thi-188260731121207705.chn",
-          "pubDate": "2026-07-31T05:11:00.000Z",
-          "excerpt": "Việc Hà Nội triển khai cải tạo, xây dựng lại 8 khu chung cư cũ không chỉ giải quyết tình trạng xuống cấp của nhiều công trình sau hàng chục năm sử dụng mà còn…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Hà Nội cải tạo chung cư cũ để chỉnh trang đô thị."
-        },
-        {
-          "title": "Loạt chung cư giá trăm triệu đồng mỗi m2 mở bán tại TP HCM",
-          "link": "https://vnexpress.net/loat-chung-cu-gia-tram-trieu-dong-moi-m2-mo-ban-tai-tp-hcm-5103286.html",
-          "pubDate": "2026-07-31T03:01:11.000Z",
-          "excerpt": "Sau nhiều năm khan hiếm nguồn cung, thị trường chung cư TP HCM có loạt dự án cao cấp, hạng sang mở bán, kéo mặt bằng giá phổ biến vượt 100 triệu đồng mỗi m2.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Nhiều chung cư cao cấp mở bán tại TP HCM với giá trăm triệu đồng mỗi m2."
-        },
-        {
-          "title": "Flamingo Holdings bắt tay Central Retail Việt Nam nghiên cứu phát triển trung tâm thương mại tại Flamingo Cổ Loa",
-          "link": "https://vneconomy.vn/flamingo-holdings-bat-tay-central-retail-viet-nam-nghien-cuu-phat-trien-trung-tam-thuong-mai-tai-flamingo-co-loa.htm",
-          "pubDate": "2026-07-30T08:57:11.000Z",
-          "excerpt": "Ngày 30/7, Flamingo Holdings và Central Retail Việt Nam đã ký kết Biên bản ghi nhớ hợp tác nghiên cứu phát triển trung tâm thương mại tại dự án Flamingo Cổ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Flamingo Holdings và Central Retail Việt Nam hợp tác phát triển trung tâm thương mại."
-        },
-        {
-          "title": "Coteccons đã giải ngân hơn một nửa số tiền thu từ đợt chào bán 14 trái phiếu",
-          "link": "https://cafef.vn/coteccons-da-giai-ngan-hon-mot-nua-so-tien-thu-tu-dot-chao-ban-14-trai-phieu-188260731125800007.chn",
-          "pubDate": "2026-07-31T05:57:00.000Z",
-          "excerpt": "Tính đến ngày 30/6/2026, Coteccons chi hơn 783,6 tỷ đồng trong số 1.400 tỷ đồng thu được từ đợt chào bán 14 triệu trái phiếu hồi đầu năm 2026.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Coteccons giải ngân hơn một nửa số tiền từ đợt chào bán trái phiếu."
-        },
-        {
-          "title": "Ecopark ra mắt biệt thự đảo The Palm Island",
-          "link": "https://vnexpress.net/ecopark-ra-mat-biet-thu-dao-the-palm-island-5103508.html",
-          "pubDate": "2026-07-31T03:00:00.000Z",
-          "excerpt": "The Palm Island nằm trong đô thị Eco Central Park gần 200 ha, gồm các căn biệt thự đảo compound, kết hợp cảnh quan mặt nước, tiện ích nghỉ dưỡng và hệ thống an…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Ecopark ra mắt biệt thự đảo The Palm Island."
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "LG Innotek đầu tư dự án chip bán dẫn 1 tỷ USD trong Khu thương mại tự do Hải Phòng",
-          "link": "https://vneconomy.vn/lg-innotek-dau-tu-du-an-chip-ban-dan-1-ty-usd-trong-khu-thuong-mai-tu-do-hai-phong.htm",
-          "pubDate": "2026-07-31T06:06:18.000Z",
-          "excerpt": "Trong 13 dự án được Hải Phòng trao giấy chứng nhận đăng ký đầu tư, dự án nhà máy chip bán dẫn 1 tỷ USD của LG Innotek trong Khu thương mại tự do có vai trò đặc…",
+          "title": "Hải Phòng công bố các quyết định về khu kinh tế và khởi động Khu thương mại tự do",
+          "link": "https://vneconomy.vn/hai-phong-cong-bo-cac-quyet-dinh-ve-khu-kinh-te-va-khoi-dong-khu-thuong-mai-tu-do.htm",
+          "pubDate": "2026-07-31T08:36:08.000Z",
+          "excerpt": "Khu kinh tế ven biển phía Nam với trọng tâm Khu thương mại tự do sẽ là động lực tăng trưởng kinh tế chủ đạo của Hải Phòng…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -265,36 +265,14 @@
           "condensed": null
         },
         {
-          "title": "Đà Nẵng chấp thuận chủ trương đầu tư mở rộng công suất Nhà ga hành khách T1",
-          "link": "https://vneconomy.vn/da-nang-chap-thuan-chu-truong-dau-tu-mo-rong-cong-suat-nha-ga-hanh-khach-t1.htm",
-          "pubDate": "2026-07-31T06:13:41.000Z",
-          "excerpt": "Thành phố Đà Nẵng, một trong những trung tâm kinh tế và du lịch hàng đầu của cả nước, đang chuẩn bị cho một bước tiến lớn trong việc nâng cấp hạ tầng hàng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "TP phía Bắc chính thức khởi động đại công trình 6.200ha chưa từng có, nối với cầu vượt biển top Đông Nam Á",
-          "link": "https://cafef.vn/tp-phia-bac-chinh-thuc-khoi-dong-dai-cong-trinh-6200ha-chua-tung-co-noi-voi-cau-vuot-bien-top-dong-nam-a-188260731111057943.chn",
-          "pubDate": "2026-07-31T05:45:00.000Z",
-          "excerpt": "Với đại công trình này, Hải Phòng sẽ trở thành hình mẫu về đổi mới mô hình tăng trưởng, đóng góp thiết thực vào sự phát triển của đất nước.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tỉnh tiếp giáp Hà Nội sở hữu một sân vận động hơn 500 tỷ đồng, 22.000 chỗ ngồi lớn nhất miền núi phía Bắc",
-          "link": "https://cafef.vn/tinh-tiep-giap-ha-noi-so-huu-mot-san-van-dong-hon-500-ty-dong-22000-cho-ngoi-lon-nhat-mien-nui-phia-bac-188260731112400517.chn",
-          "pubDate": "2026-07-31T05:10:00.000Z",
-          "excerpt": "Đây là sân vận động lớn nhất các tỉnh Trung du, Miền núi phía Bắc.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Sacombank giảm hơn 3.700 nhân viên nửa đầu năm",
+          "link": "https://vnexpress.net/sacombank-giam-hon-3-700-nhan-vien-nua-dau-nam-5103712.html",
+          "pubDate": "2026-07-31T08:20:07.000Z",
+          "excerpt": "Quy mô nhân sự của Ngân hàng Sài Gòn Tài Lộc (Sacombank) đến giữa năm nay còn 12.100 nhân viên, giảm gần 3.740 người so với đầu năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -309,21 +287,21 @@
           "condensed": null
         },
         {
-          "title": "Cục Thuế thông báo đến những ai bán hàng online cần chú ý điều này",
-          "link": "https://cafef.vn/cuc-thue-thong-bao-den-nhung-ai-ban-hang-online-can-chu-y-dieu-nay-188260731103906141.chn",
-          "pubDate": "2026-07-31T04:17:00.000Z",
-          "excerpt": "Những ai bán hàng online cần chú ý thông tin này từ Cục Thuế.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Chứng khoán giảm hơn 124 điểm trong tháng 7",
+          "link": "https://vnexpress.net/chung-khoan-giam-hon-124-diem-trong-thang-7-5103794.html",
+          "pubDate": "2026-07-31T08:58:56.000Z",
+          "excerpt": "VN-Index đảo chiều trong phiên cuối tháng khiến chứng khoán có tháng điều chỉnh thứ hai liên tiếp, giảm hơn 124 điểm, tương đương 6,68%.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
-          "title": "Quyết sách đúng phải được chuyển hóa thành tăng trưởng chất lượng cao",
-          "link": "https://vneconomy.vn/quyet-sach-dung-phai-duoc-chuyen-hoa-thanh-tang-truong-chat-luong-cao.htm",
-          "pubDate": "2026-07-31T02:13:39.000Z",
-          "excerpt": "Sau chặng đường kinh tế nửa đầu năm, câu hỏi đặt ra lúc này là liệu Việt Nam có thể đạt mục tiêu tăng GDP hai con số, đồng thời vẫn kiểm soát được lạm phát và…",
+          "title": "Bộ Xây dựng còn hơn 26.000 tỷ đồng vốn đầu tư công phải giải ngân",
+          "link": "https://vneconomy.vn/bo-xay-dung-con-hon-26000-ty-dong-von-dau-tu-cong-phai-giai-ngan.htm",
+          "pubDate": "2026-07-31T08:31:32.000Z",
+          "excerpt": "Sau 7 tháng đầu năm mới giải ngân hơn 33% kế hoạch vốn đầu tư công, Bộ Xây dựng yêu cầu các chủ đầu tư đẩy nhanh tiến độ chuẩn bị đầu tư và thi công các dự án…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -331,14 +309,36 @@
           "condensed": null
         },
         {
-          "title": "Giá vàng sáng 29/6: Đồng loạt hạ nhiệt, nhiều thương hiệu mất nửa triệu đồng/lượng",
-          "link": "https://cafebiz.vn/gia-vang-sang-29-6-dong-loat-ha-nhiet-nhieu-thuong-hieu-mat-nua-trieu-dong-luong-17626062909125613.chn",
-          "pubDate": "2026-06-29T02:12:00.000Z",
-          "excerpt": "So với cuối tuần trước, giá vàng miếng và vàng nhẫn ở nhiều thương hiệu đồng loạt giảm từ 500.000 - 800.000 đồng mỗi lượng.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
+          "title": "Chấm dứt hợp đồng nhà đầu tư trạm dừng nghỉ chậm tiến độ",
+          "link": "https://cafef.vn/cham-dut-hop-dong-nha-dau-tu-tram-dung-nghi-cham-tien-do-18826073114232477.chn",
+          "pubDate": "2026-07-31T08:30:00.000Z",
+          "excerpt": "Bộ Xây dựng đề nghị xử lý, kể cả chấm dứt hợp đồng với nhà đầu tư trạm dừng nghỉ cao tốc chậm tiến độ.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ủy ban Thường vụ Quốc hội ban hành quy chế mới về quy trình quyết định ngân sách và đầu tư công",
+          "link": "https://vneconomy.vn/uy-ban-thuong-vu-quoc-hoi-ban-hanh-quy-che-moi-ve-quy-trinh-quyet-dinh-ngan-sach-va-dau-tu-cong.htm",
+          "pubDate": "2026-07-31T08:38:04.000Z",
+          "excerpt": "Ủy ban Thường vụ Quốc hội vừa ban hành Nghị quyết số 09/2026/UBTVQH16 quy định quy chế lập, thẩm tra, quyết định kế hoạch tài chính 5 năm quốc gia, kế hoạch…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "AMES 2026: Định hình các chính sách kinh tế vĩ mô trong kỷ nguyên nhiều biến động",
+          "link": "https://vneconomy.vn/ames-2026-dinh-hinh-cac-chinh-sach-kinh-te-vi-mo-trong-ky-nguyen-nhieu-bien-dong.htm",
+          "pubDate": "2026-07-31T09:08:13.000Z",
+          "excerpt": "Sáng 31/7, Hội nghị Châu Á của Hiệp hội Kinh tế lượng khu vực Đông Á và Đông Nam Á năm 2026 (AMES 2026) khai mạc tại Hà Nội. Sự kiện do Hiệp hội Kinh tế lượng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -349,15 +349,15 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Chứng khoán Hàn Quốc quay đầu tăng 13%, Samsung và SK hynix vọt hơn 20%",
-          "link": "http://vietstock.vn/2026/07/chung-khoan-han-quoc-quay-dau-tang-13-samsung-va-sk-hynix-vot-hon-20-773-1474199.htm",
-          "pubDate": "2026-07-31T03:30:41.000Z",
-          "excerpt": "Thị trường chứng khoán Hàn Quốc mở cửa bứt phá trong phiên 31/07 khi nhóm cổ phiếu bán dẫn đồng loạt tăng mạnh, nối tiếp đà hưng phấn của Phố Wall sau báo cáo…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "Korean stocks rose 13% on July 31, led by Samsung and SK hynix"
+          "title": "Stock Market Today: Nasdaq Futures Gain Despite Apple Selloff",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026?mod=rss_markets_main",
+          "pubDate": "2026-07-31T08:31:18.000Z",
+          "excerpt": "Amazon gains 10% premarket as stock rebound continues",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
         },
         {
           "title": "Dow Jones tăng hơn 600 điểm sau báo cáo bùng nổ của Microsoft, nhóm AI lấy lại vị thế",
@@ -368,29 +368,40 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Dow Jones gained over 600 points on July 30 after Microsoft's strong earnings report"
+          "condensed": null
         },
         {
-          "title": "China's factory activity unexpectedly contracts in July on demand slump, typhoons",
-          "link": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
-          "pubDate": "2026-07-31T03:49:55.000Z",
-          "excerpt": "China's factory activity unexpectedly contracted in July, as the export rush that powered a second-quarter rebound began to unwind.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": "China's factory activity contracted in July due to demand slump and typhoons"
-        },
-        {
-          "title": "Microsoft Posts Biggest One-Day Market-Cap Gain for Any U.S. Company",
-          "link": "https://www.wsj.com/finance/stocks/microsoft-posts-biggest-one-day-market-cap-gain-for-any-u-s-company-b8713761?mod=rss_markets_main",
-          "pubDate": "2026-07-30T21:49:00.000Z",
-          "excerpt": "While the software company gained $450 billion in market value, Meta shares plunged.",
+          "title": "Ford and GM Attempts to Go Beyond Cars Deserve Skepticism",
+          "link": "https://www.wsj.com/business/autos/ford-and-gm-attempts-to-go-beyond-cars-deserve-skepticism-797a9d87?mod=rss_markets_main",
+          "pubDate": "2026-07-31T09:30:00.000Z",
+          "excerpt": "The automakers have a mixed track record on diversification.",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": "Microsoft's market value surged $450 billion in one day"
+          "condensed": null
+        },
+        {
+          "title": "Chứng khoán Hàn Quốc quay đầu tăng 13%, Samsung và SK hynix vọt hơn 20%",
+          "link": "http://vietstock.vn/2026/07/chung-khoan-han-quoc-quay-dau-tang-13-samsung-va-sk-hynix-vot-hon-20-773-1474199.htm",
+          "pubDate": "2026-07-31T03:30:41.000Z",
+          "excerpt": "Thị trường chứng khoán Hàn Quốc mở cửa bứt phá trong phiên 31/07 khi nhóm cổ phiếu bán dẫn đồng loạt tăng mạnh, nối tiếp đà hưng phấn của Phố Wall sau báo cáo…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "Corporate insiders are sending warning signals about the stock market",
+          "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
+          "pubDate": "2026-07-31T00:31:00.000Z",
+          "excerpt": "Corporate insiders haven’t been this bearish in more than 20 years.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
         },
         {
           "title": "Situational Awareness Down 67% in July in AI Stock Rout",
@@ -404,26 +415,15 @@
           "condensed": null
         },
         {
-          "title": "Corporate insiders are sending warning signals about the stock market",
-          "link": "https://www.marketwatch.com/story/the-warning-signal-insiders-are-sending-f0538ddf?mod=mw_rss_topstories",
-          "pubDate": "2026-07-31T00:31:00.000Z",
-          "excerpt": "Corporate insiders haven’t been this bearish in more than 20 years.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": "Corporate insiders are extremely bearish on the stock market, a 20-year low"
-        },
-        {
-          "title": "We’ve moved from income world to wealth world",
-          "link": "https://www.ft.com/content/6a35508c-c0bd-4000-81b3-7c7383fb24fd?syn-25a6b1a6=1",
-          "pubDate": "2026-07-31T04:00:18.000Z",
-          "excerpt": "Passive wealth gains increasingly matter more than earnings for one’s standing in society",
+          "title": "China is smarter about subsidies than everybody else",
+          "link": "https://www.ft.com/content/871976c7-8c4f-405e-803e-d86cf22bcf0f?syn-25a6b1a6=1",
+          "pubDate": "2026-07-31T04:00:07.000Z",
+          "excerpt": "Beijing is stealing a march on its competitors by targeting strategic sectors",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": "Passive wealth gains now matter more than earnings for social standing"
+          "condensed": null
         },
         {
           "title": "How Leopold Aschenbrenner, the ‘golden child’ of the AI trade, was laid low",
