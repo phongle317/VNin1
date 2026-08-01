@@ -212,11 +212,18 @@ const footerSources = Array.from(
                       )}
                     </div>
                   </a>
-                  <!-- Admin voting (Phase 5, testing Block only for now) —
-                       hidden by default, shown only when ?key=mothaiba is
-                       in the URL. Sits outside the <a> above since a
-                       <button> can't legally nest inside a link. -->
+                  <!-- Admin voting (Phase 5) — hidden by default, shown
+                       only when ?key=mothaiba is in the URL. Sits outside
+                       the <a> above since a <button> can't legally nest
+                       inside a link. Three buttons, mutually exclusive:
+                       clicking any one locks all three for this card. -->
                   <div class="vote-row" data-title={article.title}>
+                    <button type="button" class="vote-btn vote-like" data-action="like">
+                      Like
+                    </button>
+                    <button type="button" class="vote-btn vote-dislike" data-action="dislike">
+                      Dislike
+                    </button>
                     <button type="button" class="vote-btn vote-block" data-action="block">
                       Block
                     </button>
@@ -455,9 +462,13 @@ const footerSources = Array.from(
       const title = row?.getAttribute('data-title');
       const action = btn.getAttribute('data-action');
       const status = row?.querySelector('.vote-status');
+      const allBtns = row ? Array.from(row.querySelectorAll('.vote-btn')) : [btn];
       if (!title || !action) return;
 
-      btn.disabled = true;
+      // Mutually exclusive — lock all 3 buttons for this card immediately,
+      // not just the one clicked, so a second click (any button) can't
+      // fire while the first request is still in flight.
+      allBtns.forEach((b) => { b.disabled = true; });
       if (status) status.textContent = 'Đang gửi...';
 
       try {
@@ -474,11 +485,11 @@ const footerSources = Array.from(
           if (status) status.textContent = 'Đã có rồi';
         } else {
           if (status) status.textContent = 'Lỗi: ' + (data.message || data.reason);
-          btn.disabled = false; // allow retry on real errors, not on duplicate
+          allBtns.forEach((b) => { b.disabled = false; }); // real error — allow retry
         }
       } catch (err) {
         if (status) status.textContent = 'Lỗi kết nối';
-        btn.disabled = false;
+        allBtns.forEach((b) => { b.disabled = false; });
       }
     });
   });
