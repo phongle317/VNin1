@@ -12,6 +12,17 @@ session.
 
 ## STATUS (as of this session)
 
+**Update 2026-08-01:** user chose to start Phase 5 (admin buttons) ahead
+of the planned order, since it has zero dependency on the still-unverified
+Groq/Layer-1 work. Phase 5 step 1 (Astro static → hybrid, Vercel adapter
+installed) is done and verified live — see Phase 5 in the PLAN section
+below for full detail. Separately, researched 3 candidate data sources at
+user's request (VIRA, VBMA, ADB AsianBondsOnline) for interest-rate
+charts — none usable for automation (VIRA: charts are images only, no
+RSS; VBMA: relevant pages require login; ADB: public but JS-rendered,
+no clean API found, quarterly not daily data). Logged so nobody re-checks
+these without new information — see "Open items" section.
+
 **Site is live and stable for everything EXCEPT AI features right now** —
 this has spanned two sessions of debugging, both ending on an unconfirmed
 push. **Check the very top of STEP 0 first** — there is a fresh code fix
@@ -211,11 +222,15 @@ còn tham chiếu `aiSummary`/`.ai-summary` nào sót lại.
 Đây là nơi duy nhất trong kế hoạch cần tra cứu/xác minh trước khi code —
 không rải các câu hỏi mở qua nhiều phase như lần trước.
 
-**2a. Đọc `astro.config.mjs` thật** — xác nhận site đang chạy chế độ
-`static` thuần hay đã có `server`/`hybrid`. Đây là điều kiện tiên quyết
-cho Mục 3 (nút bấm cần Serverless Function, chỉ chạy được ở chế độ
-server/hybrid). Nếu đang `static`, cả Mục 3 sẽ cần đổi chế độ triển khai
-trước — biết sớm để không bị bất ngờ giữa chừng lúc code Phase 5.
+**2a. ✅ ĐÃ XONG (2026-08-01)** — Đọc `astro.config.mjs` thật, xác nhận
+đang chạy `output: 'static'` thuần. Đã sửa: cài `@astrojs/vercel@7.8.2`
+(phiên bản duy nhất khớp `astro@4.16.19` đang dùng — xác nhận qua
+`npm view @astrojs/vercel@7 peerDependencies`, không đoán), đổi
+`astro.config.mjs` sang `output: 'hybrid'` + `adapter: vercel()`
+(import từ `@astrojs/vercel/serverless`, bắt buộc với bản 7.x). Đã
+`deploy.bat`, đã xác nhận site live vẫn hiện tin tức bình thường —
+không ảnh hưởng gì tới nội dung hiện có. Mục 3 (nút bấm) giờ hết rào
+cản kiến trúc, sẵn sàng viết Serverless Function thật.
 
 **2b. Xác nhận nguồn dữ liệu VNIndex/HNXIndex thay VNDirect** — VNDirect
 đã chết từ lâu. TCBS (`apipubaws.tcbs.com.vn`) và FireAnt
@@ -278,16 +293,20 @@ lượng + 5 mã tăng/giảm mạnh nhất, số liệu thật không trống.
 
 ### PHASE 5 — Nút Like/Dislike/Block, khóa `?key=mothaiba` (Mục 3, khó nhất)
 
-Hạ tầng mới hoàn toàn — Serverless Function đầu tiên của dự án. Làm sau
-cùng vì rủi ro kỹ thuật cao nhất, cần cả 1 buổi tập trung riêng.
+Hạ tầng mới hoàn toàn — Serverless Function đầu tiên của dự án. Bắt đầu
+trước lịch gốc (2026-08-01) theo yêu cầu người dùng, không đợi Phase 3/4.
 
-1. Nếu Phase 2a phát hiện Astro đang static thuần → đổi sang
-   server/hybrid trước, test-deploy riêng xác nhận site vẫn build/chạy
-   bình thường, TRƯỚC KHI viết code nút bấm
-2. Tạo Vercel Serverless Function — đọc `EXAMPLES.md` từ GitHub, kiểm tra
-   trùng lặp, ghi dòng `- <tiêu đề>` vào đúng mục (Block/Liked/Disliked),
-   commit thẳng lên GitHub. Dùng GitHub Contents API kiểu SHA-conditional
-   (tránh xung đột nếu trùng lúc bot hourly đang commit)
+1. ✅ **ĐÃ XONG (2026-08-01):** Astro đã đổi từ `static` sang `hybrid`,
+   cài `@astrojs/vercel@7.8.2`, đã test-deploy riêng, xác nhận site vẫn
+   build/chạy bình thường — không viết code nút bấm gì ở bước này, đúng
+   kỷ luật cũ. Việc còn lại bên dưới có thể bắt đầu ngay.
+2. **[TIẾP THEO]** Tạo Vercel Serverless Function — đọc `EXAMPLES.md` từ
+   GitHub, kiểm tra trùng lặp, ghi dòng `- <tiêu đề>` vào đúng mục
+   (Block/Liked/Disliked), commit thẳng lên GitHub. Dùng GitHub Contents
+   API kiểu SHA-conditional (tránh xung đột nếu trùng lúc bot hourly đang
+   commit). Đề xuất: xây + test 1 nút trước (ví dụ Block), xác nhận chạy
+   đúng đầu-cuối, rồi mới nhân ra đủ 3 nút — cùng tinh thần "test từng
+   bước nhỏ trước khi làm tiếp" đã dùng suốt dự án.
 3. Token GitHub: tạo fine-grained PAT, chỉ scope đúng 1 repo này,
    quyền `contents:write` — không dùng token rộng
 4. Frontend: 3 nút mỗi card trong `index.astro`, loại trừ lẫn nhau, khóa
@@ -471,7 +490,22 @@ documented here so nobody "simplifies" the import back to the broken form.
 
 ## Open items — backlog, not blocking
 
-1. **Top bar upgrade (VNIndex, VN30, %, khối lượng)** — user requested
+1. **Interest-rate/bond data sources — checked 2026-08-01, none usable:**
+   - **VIRA** (vira.org.vn) — "Market Watch" charts are pure images (PNG
+     screenshots from MSB Research), no extractable data. Homepage
+     interbank-rate figure is from a monthly survey report, not daily. No
+     RSS feed found.
+   - **VBMA** (vbma.org.vn) — has exactly the right-sounding pages
+     ("Short-term Benchmark Rate", "Government Bond Yield Fixing") but the
+     detail pages redirect straight to `/vi/login` — requires a member
+     account, not publicly accessible.
+   - **ADB AsianBondsOnline** (asianbondsonline.adb.org) — public, no
+     login, but content is JavaScript-rendered (not visible via plain
+     fetch); "Data Portal" appears to be manual Excel/CSV download, not a
+     clean JSON API; underlying reports (Asia Bond Monitor) are quarterly,
+     not daily. Don't re-check without a new, different lead.
+
+2. **Top bar upgrade (VNIndex, VN30, %, khối lượng)** — user requested
    2026-07-21: add VNIndex points, VN30 points, % change, and trading
    volume to the sticky top bar, remove the "Thị trường đóng cửa — hiển thị
    giá đóng cửa gần nhất" explanatory text (always show latest available,
@@ -480,7 +514,7 @@ documented here so nobody "simplifies" the import back to the broken form.
    empty VNIndex/VN30 fields is worse than not having them.
 
    **Data blocker — VNDirect finfo API still down**, same root cause as
-   item 2 below. `fetchMarketIndices()` in `fetch-feeds.mjs` already has
+   item 3 below. `fetchMarketIndices()` in `fetch-feeds.mjs` already has
    the code to parse `change`/`changePercent`/`totalMatchVolume` — the
    fields needed for % and volume already exist in VNDirect's response
    shape, they're just never reached because the fetch itself fails.
@@ -510,8 +544,9 @@ documented here so nobody "simplifies" the import back to the broken form.
      endpoints with certainty.
 
 2. **VN-Index / HNX-Index (existing code path)** — VNDirect finfo API
-   still failing (`fetch failed`). Superseded by item 1 above once a
-   replacement source is wired in — this line can be deleted then.
+   still failing (`fetch failed`). Superseded by item 2 above (top bar
+   upgrade) once a replacement source is wired in — this line can be
+   deleted then.
 3. **Gold VND** — both candidate sources still failing (giavang.org 404,
    api.btmc.vn fetch failed)
 4. **README.md rewrite** — still describes an older/different state than

@@ -212,9 +212,20 @@ const footerSources = Array.from(
                       )}
                     </div>
                   </a>
+                  <!-- Admin voting (Phase 5, testing Block only for now) —
+                       hidden by default, shown only when ?key=mothaiba is
+                       in the URL. Sits outside the <a> above since a
+                       <button> can't legally nest inside a link. -->
+                  <div class="vote-row" data-title={article.title}>
+                    <button type="button" class="vote-btn vote-block" data-action="block">
+                      Block
+                    </button>
+                    <span class="vote-status"></span>
+                  </div>
                 </li>
               ))}
             </ul>
+
           )}
         </section>
       ))}
@@ -384,6 +395,26 @@ const footerSources = Array.from(
   .card__source:hover { background: rgba(212,165,58,0.2); }
   .card__time { color: var(--muted); font-size: 10px; }
 
+  /* ── Admin voting (Phase 5) ──────────────────────────────────────────────── */
+  .vote-row {
+    display: none; /* shown only via JS when ?key=mothaiba matches */
+    align-items: center; gap: 8px;
+    padding: 0 10px 10px 12px;
+    font-family: var(--font-mono); font-size: 11px;
+  }
+  body.admin-mode .vote-row { display: flex; }
+  .vote-btn {
+    background: transparent;
+    border: 1px solid var(--hairline);
+    color: var(--muted);
+    padding: 3px 10px; border-radius: 4px;
+    font-family: var(--font-mono); font-size: 10px;
+    cursor: pointer; transition: border-color 0.12s, color 0.12s;
+  }
+  .vote-btn:hover:not(:disabled) { border-color: var(--gold); color: var(--gold-soft); }
+  .vote-btn:disabled { opacity: 0.4; cursor: default; }
+  .vote-status { color: var(--muted); font-size: 10px; }
+
   /* ── Footer ──────────────────────────────────────────────────────────────── */
   .footer {
     margin-top: 48px; padding-top: 24px;
@@ -406,3 +437,49 @@ const footerSources = Array.from(
     .global-bar { gap: 6px 12px; font-size: 11px; }
   }
 </style>
+
+<script>
+  // Admin voting (Phase 5) — buttons only visible when the page is loaded
+  // with ?key=mothaiba. Not real authentication, just hides the buttons
+  // from normal visitors. Testing Block only for now, per the layered
+  // build plan — Like/Dislike buttons will be added the same way once
+  // this one is confirmed working end-to-end.
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('key') === 'mothaiba') {
+    document.body.classList.add('admin-mode');
+  }
+
+  document.querySelectorAll('.vote-btn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const row = btn.closest('.vote-row');
+      const title = row?.getAttribute('data-title');
+      const action = btn.getAttribute('data-action');
+      const status = row?.querySelector('.vote-status');
+      if (!title || !action) return;
+
+      btn.disabled = true;
+      if (status) status.textContent = 'Đang gửi...';
+
+      try {
+        const res = await fetch('/api/vote', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ title, action }),
+        });
+        const data = await res.json();
+
+        if (data.success) {
+          if (status) status.textContent = '✓ Đã ghi nhận';
+        } else if (data.reason === 'duplicate') {
+          if (status) status.textContent = 'Đã có rồi';
+        } else {
+          if (status) status.textContent = 'Lỗi: ' + (data.message || data.reason);
+          btn.disabled = false; // allow retry on real errors, not on duplicate
+        }
+      } catch (err) {
+        if (status) status.textContent = 'Lỗi kết nối';
+        btn.disabled = false;
+      }
+    });
+  });
+</script>
