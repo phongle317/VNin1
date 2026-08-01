@@ -63,6 +63,7 @@ pure diplomatic/international-relations content with no business angle.*
 
 - Marina Living: Dấu ấn trách nhiệm xã hội của BIM Land trong phân khúc nhà ở xã hội
 
+- Đà Nẵng hỗ trợ chi phí cho cư dân tại 3 khu chung cư cũ phải di dời
 ---
 
 ## Liked (Rule 5 — want more like this)
