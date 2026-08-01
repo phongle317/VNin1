@@ -1,11 +1,13 @@
 // src/pages/api/vote.js
 //
-// Admin voting endpoint (Phase 5). Receives a click from the Like/Dislike/
-// Block buttons and appends the article's exact headline to the matching
-// section of EXAMPLES.md on GitHub — same effect as hand-typing a line into
-// that file, just automated. Does NOT touch training.json or
-// CONTENT_BLOCKLIST directly; those are still only updated the existing way
-// (bring EXAMPLES.md to a session, get the entries coded in deliberately).
+// Admin voting endpoint (Phase 5, redesigned 2026-08-01 for immediate
+// impact). Receives a click from the Like/Dislike/Block buttons and
+// records it into src/data/votes.json on GitHub. Unlike the original
+// EXAMPLES.md design, this file is read directly by fetch-feeds.mjs on
+// EVERY hourly run — liked/disliked titles merge straight into the
+// training scorer's examples, and blocked titles are hard-excluded by
+// exact title match. No manual review step, no coding session needed —
+// effect shows up on the next bot run (within ~1-2.5 hours).
 //
 // Requires a GitHub secret: GITHUB_PAT (fine-grained PAT, scoped to this
 // repo only, contents:write permission) — set in Vercel's environment
@@ -16,13 +18,10 @@ export const prerender = false;
 const OWNER = 'phongle317';
 const REPO = 'VNin1';
 const BRANCH = 'main';
-const FILE_PATH = 'EXAMPLES.md';
+const FILE_PATH = 'src/data/votes.json';
 
-const SECTION_HEADINGS = {
-  like: '## Liked (Rule 5 — want more like this)',
-  dislike: '## Disliked (Rule 5 — want less like this)',
-  block: '## Block candidates (Rule 4 — hard exclusions)',
-};
+const VALID_ACTIONS = ['like', 'dislike', 'block'];
+const ACTION_TO_KEY = { like: 'liked', dislike: 'disliked', block: 'blocked' };
 
 function b64encode(str) {
   return Buffer.from(str, 'utf-8').toString('base64');
@@ -31,44 +30,30 @@ function b64decode(str) {
   return Buffer.from(str, 'base64').toString('utf-8');
 }
 
-// Pure string-manipulation core, exported separately so it can be unit
-// tested without needing a real GitHub token or network access.
-export function insertVoteLine(currentContent, title, action) {
-  const heading = SECTION_HEADINGS[action];
-  if (!heading) throw { reason: 'bad_request', message: 'Invalid action' };
+// Pure logic, exported separately so it can be unit tested without a real
+// GitHub token or network access.
+export function insertVote(currentJsonText, title, action) {
+  let data;
+  try {
+    data = JSON.parse(currentJsonText);
+  } catch {
+    data = {};
+  }
+  data.liked = Array.isArray(data.liked) ? data.liked : [];
+  data.disliked = Array.isArray(data.disliked) ? data.disliked : [];
+  data.blocked = Array.isArray(data.blocked) ? data.blocked : [];
 
-  if (currentContent.includes(title)) {
-    return { duplicate: true, newContent: currentContent };
+  // Dedup across all three arrays — a title already voted on (any
+  // category) can't be voted on again.
+  const allExisting = new Set([...data.liked, ...data.disliked, ...data.blocked]);
+  if (allExisting.has(title)) {
+    return { duplicate: true, newContent: currentJsonText };
   }
 
-  const lines = currentContent.split('\n');
-  const headingIdx = lines.findIndex(l => l.trim() === heading);
-  if (headingIdx === -1) {
-    throw { reason: 'server_error', message: 'Section heading not found in EXAMPLES.md' };
-  }
+  const key = ACTION_TO_KEY[action];
+  data[key].push(title);
 
-  // Find the '---' separator that closes this section — insert before it.
-  let sepIdx = lines.length;
-  for (let i = headingIdx + 1; i < lines.length; i++) {
-    if (lines[i].trim() === '---') { sepIdx = i; break; }
-  }
-
-  const newLine = '- ' + title;
-
-  // If this section still has the starter placeholder line, replace it
-  // (first real entry takes its place); otherwise insert as a new line
-  // right before the section's closing '---'.
-  let placeholderIdx = -1;
-  for (let i = headingIdx + 1; i < sepIdx; i++) {
-    if (lines[i].trim() === '- (add examples here)') { placeholderIdx = i; break; }
-  }
-  if (placeholderIdx !== -1) {
-    lines[placeholderIdx] = newLine;
-  } else {
-    lines.splice(sepIdx, 0, newLine);
-  }
-
-  return { duplicate: false, newContent: lines.join('\n') };
+  return { duplicate: false, newContent: JSON.stringify(data, null, 2) + '\n' };
 }
 
 async function attemptWrite(title, action, headers, apiUrl) {
@@ -83,14 +68,14 @@ async function attemptWrite(title, action, headers, apiUrl) {
   const currentSha = getData.sha;
   const currentContent = b64decode(getData.content);
 
-  const result = insertVoteLine(currentContent, title, action);
+  const result = insertVote(currentContent, title, action);
   if (result.duplicate) return { duplicate: true };
 
   const putRes = await fetch(apiUrl, {
     method: 'PUT',
     headers: { ...headers, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      message: 'chore: record "' + title.slice(0, 60) + '" as ' + action,
+      message: 'chore: vote "' + title.slice(0, 60) + '" as ' + action,
       content: b64encode(result.newContent),
       sha: currentSha,
       branch: BRANCH,
@@ -99,8 +84,8 @@ async function attemptWrite(title, action, headers, apiUrl) {
 
   if (putRes.status === 409) {
     // Someone else wrote to the file between our read and write (e.g. a
-    // near-simultaneous button click from another tab/device). Signal the
-    // caller to retry once with a fresh SHA.
+    // near-simultaneous button click). Signal the caller to retry once
+    // with a fresh SHA.
     throw { reason: 'conflict', retryable: true };
   }
   if (!putRes.ok) {
@@ -130,7 +115,7 @@ export async function POST({ request }) {
   if (!title) {
     return new Response(JSON.stringify({ success: false, reason: 'bad_request', message: 'Missing title' }), { status: 400 });
   }
-  if (!SECTION_HEADINGS[action]) {
+  if (!VALID_ACTIONS.includes(action)) {
     return new Response(JSON.stringify({ success: false, reason: 'bad_request', message: 'Invalid action' }), { status: 400 });
   }
 
