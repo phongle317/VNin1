@@ -13,40 +13,42 @@ session.
 ## STATUS (as of this session)
 
 **Site is live and stable for everything EXCEPT AI features right now** —
-see "NEXT SESSION" below, and **check the very top of STEP 0 first** —
-there is one code fix given verbally tonight whose push to GitHub is
-**unconfirmed**. Today's session covered a lot: refreshed source list (10
-sources, added 4 + removed 1), built cross-source content-similarity
-dedup (Rule 1b), built the per-article AI summarizer (Rule 3 per-article),
-revised both summary prompts to a 5-component structure (what/when/where/
-why/impact, strict no-fabrication), and found+fixed 4 real bugs via live
-testing (vague summaries from missing excerpt data, a numbered-list
-formatting bug, a rate-limit/429 issue, and an unbounded-retry hang bug).
+this has spanned two sessions of debugging, both ending on an unconfirmed
+push. **Check the very top of STEP 0 first** — there is a fresh code fix
+(Bug #6 below) whose push to GitHub is unconfirmed as of right now.
 
-**Not everything is confirmed working yet.** Sequence of events tonight,
-in order: (1) hit 429 repeatedly, assumed daily *request* quota exhausted;
-(2) added rate-limit diagnostics + wider gaps + backoff-on-429 retry logic;
-(3) next test run **hung for 10+ minutes** with no output — a new bug in
-the retry logic itself (no cap on the backoff wait, and Groq's suggested
-wait was apparently very long); (4) fixed with a 15-second hard cap on
-retry backoff; (5) checked Groq's actual usage dashboard and found the
-real constraint is more likely **daily token usage** (100.5K tokens
-today) rather than request count (only ~150-160 requests today) — this
-refines Step 1's diagnosis but doesn't change the practical fix (wait for
-reset). **The hang-bug fix (step 4) was given to the user but not
-confirmed pushed** — this must be checked before any further testing, or
-the same hang risks recurring.
+**Full diagnosis history — read this before touching anything, so the
+next 429 doesn't restart the guessing loop:**
+1. Session 1: hit 429 repeatedly, assumed daily *request* quota exhausted
+   → added rate-limit diagnostics + wider gaps + backoff-on-429 retry
+2. Next test run **hung for 10+ minutes** — the retry-backoff had no
+   upper cap, and Groq's `retry-after` was apparently huge → fixed with a
+   15-second hard cap (`MAX_RETRY_BACKOFF_MS`). **This fix IS confirmed
+   pushed**, commit `6b9d082`, verified working (no more hangs).
+3. Session 2 (this one): re-ran with the hang-fix in place. Got clean
+   429s (no hang), but they kept recurring. Checked Groq's usage
+   dashboard: token usage the prior day was 100.5K (high), theorized
+   daily *token* quota, not request quota.
+4. **Found the diagnostic tooling itself had a real bug:** the header
+   labels in `rateLimitInfo()` were wrong — `x-ratelimit-remaining-tokens`
+   is **always TPM (per-minute)** per Groq's own docs, never a daily
+   figure, and neither header exposes a TPD (tokens-per-day) limit if one
+   applies. Fixed the labels and added `-reset-` headers.
+5. **Tested a "fixed cooldown" theory** (retry-after counting down to one
+   unlock time, ~28-30 min) — a second run's retry-after values jumped
+   non-monotonically, disproving it.
+6. **Found the real gap:** the code never read Groq's actual JSON error
+   body — only synthesized `"HTTP 429"` itself. Groq's real body names
+   the exact limit type by name (confirmed via their own docs/examples,
+   e.g. `"...on tokens per day (TPD): Limit 200,000..."`). Fixed
+   `fetchWithTimeout()` to surface this directly. **This is the fix that
+   needs pushing and verifying next** — after this, a 429 (if any) will
+   state its cause in plain language from Groq itself, no more inference
+   from headers or guessing from usage charts.
 
-**End-of-session addition (earlier, before the hang bug was found):** did
-a deliberate risk-review pass across all 3 remaining layers — added
-rate-limit header diagnostics to the code, wrote explicit pass/fail
-verification criteria for Layer 1, and pre-identified concrete risks for
-Layers 2 and 3 with mitigations already decided — see "NEXT SESSION"
-below for all of it. That review remains valid; the hang bug was found
-*after* it, during actual verification, which is exactly the kind of
-thing a risk-review pass can't catch in advance — only real testing does,
-which is why the layering discipline (verify before advancing) keeps
-earning its keep.
+**Takeaway for next session:** don't re-diagnose from scratch. Push the
+Bug #6 fix, run once, and read the error message verbatim — it now tells
+you directly which limit was hit.
 
 ---
 
@@ -100,58 +102,62 @@ below), proving the discipline is worth keeping.
 
 ### STEP 0 — do this first, before anything else
 
-**IMPORTANT — verify this first, before anything else:** a fix for a real
-hang bug (see "Bug found #4" below) was written and given to the user
-near the end of this session, but **it is not confirmed pushed to
-GitHub.** Check `scripts/fetch-feeds.mjs` on GitHub for a constant named
-`MAX_RETRY_BACKOFF_MS` near the top of the file. If it's **not there**,
-the hang-fix never got deployed — copy it in and push before doing
-anything else below, or the next test run risks hanging again exactly
-like it did tonight.
+**Verify this first:** a new diagnostic fix (see "Bug found #5" below) was
+written near the end of this session — check `scripts/fetch-feeds.mjs` on
+GitHub for the text `parsed?.error?.message` inside `fetchWithTimeout()`.
+If it's **not there**, this fix never got pushed — copy it in and push
+before doing anything else, since without it we're back to guessing at
+429s instead of reading Groq's actual explanation.
 
-**Refined diagnosis (updated from earlier in this session):** originally
-assumed the 429s were from exhausting the **daily request count** (~1,000
-RPD). Checked Groq's actual usage dashboard (console.groq.com →
-Organization Usage → Activity) tonight: **request count for today was
-only ~150-160 — nowhere near a 1,000 RPD cap.** But the **token usage**
-chart told a different story: **100.5K tokens used today (86.7K input +
-13.8K output)**, unusually high. This session significantly grew prompt
-sizes (excerpts added to both summary prompts, 5-component structure is
-more verbose, `max_tokens` raised to 1500 for the scorer and 1200 for the
-condenser) — combined with many repeated manual test runs while debugging,
-this most likely exhausted a **daily TOKEN quota**, not a request-count
-quota. Bottom line is the same (wait for reset), but the mechanism is now
-understood precisely instead of guessed.
+(The *previous* hang-fix, `MAX_RETRY_BACKOFF_MS`, **was confirmed pushed**
+this session, commit `6b9d082` — that one's done, no need to re-check it.)
 
-**Diagnostic tooling from earlier in this session still applies:**
-`fetchWithTimeout()` attaches HTTP status + response headers to thrown
-errors, and `rateLimitInfo()` reads Groq's rate-limit headers into every
-Groq-related warning line, e.g. `HTTP 429 [requests left today: X, tokens
-left this window: Y, retry-after: Zs]`. Read this line first if 429
-appears again — it states directly which budget is exhausted.
+**Diagnosis history, in order — read this so the next 429 doesn't restart
+the guessing from scratch:**
+1. First guess: daily **request-count** quota (~1,000 RPD) exhausted.
+   Checked Groq's usage dashboard — only ~150-160 requests that day,
+   nowhere near 1,000. Wrong.
+2. Second guess: daily **token** quota exhausted — dashboard showed 100.5K
+   tokens used that day, which is genuinely high. Plausible, but the
+   `rateLimitInfo()` header labels used to test this were **themselves
+   wrong** (see #3).
+3. **Found and fixed a real labeling bug:** `rateLimitInfo()` called
+   `x-ratelimit-remaining-tokens` "tokens left this window" — vague enough
+   to misread as daily. Checked Groq's actual docs
+   (console.groq.com/docs/rate-limits): this header is **always TPM**
+   (tokens per minute), and `x-ratelimit-remaining-requests` is **always
+   RPD** (requests per day). Neither exposes a TPD (tokens-per-day) limit
+   if one applies — Groq doesn't put that in headers at all. Fixed the
+   labels to say RPD/TPM explicitly, and added the `-reset-` headers too
+   (precise time-until-reset, more reliable than `retry-after` alone).
+4. **Third theory, tested and disproven:** watched `retry-after` across a
+   full run, expecting it to count down steadily toward a fixed unlock
+   time (a temporary anti-abuse cooldown). It did once, but a **second
+   run's `retry-after` values jumped around non-monotonically**
+   (1849s → 560s → 1724s → 465s...) — ruling out a single fixed-cooldown
+   clock. Whatever's actually happening, it's not that.
+5. **Bug found #5 (the actual fix, not yet confirmed pushed — see top of
+   this section):** the whole time, the code only ever synthesized its own
+   `"HTTP 429"` message — it never read the **actual JSON error body**
+   Groq sends back, which (confirmed via Groq's own error examples) names
+   the exact limit type by name, e.g. `"...on tokens per day (TPD): Limit
+   200,000, Used 199,336, Requested 1,524. Please try again in 6m11.52s."`
+   Fixed `fetchWithTimeout()` to read and parse this body, surfacing
+   `parsed.error.message` directly as the thrown error's message. **This
+   ends the guessing entirely** — the next 429 will state which limit
+   (RPD/TPM/TPD/other) by name, taken straight from Groq, not inferred.
 
-**Bug found #4 (found very late tonight, fix given, push unconfirmed —
-see top of this section):** the retry-backoff logic added earlier this
-session read Groq's `retry-after` header and waited that long before
-retrying — but had **no upper cap**. When quota is genuinely exhausted for
-the day, `retry-after` can be a very large number (observed: the run hung
-for 10+ minutes with no output, consistent with a `retry-after` in the
-thousands of seconds). Fixed by adding `MAX_RETRY_BACKOFF_MS = 15000` — if
-Groq's suggested wait exceeds 15s, the code now skips the retry entirely
-and leaves that theme's condensed summaries blank, instead of blocking the
-whole job for potentially an hour. **This fix needs verification first**
-(see the check at the very top of this section).
-
-Steps once the hang-fix is confirmed pushed:
+**Steps once the Bug #5 fix is confirmed pushed:**
 1. Run the workflow once (manual trigger)
-2. Read the log. If any 429 appears, the message now says exactly why —
-   follow what it says (wait for daily reset if quota's the issue; a
-   this-minute burst should self-resolve via the capped backoff)
-3. If genuinely daily-quota-exhausted (either requests or tokens): wait
-   for reset (likely 0:00 UTC ≈ 7am Vietnam time), no code changes needed,
-   just re-run once quota's back. Don't run more than one or two test
-   fetches back-to-back tonight even after reset — that's exactly what
-   consumed 100K+ tokens this session already.
+2. Read the log. Any 429 now shows Groq's real explanation directly in
+   the message — act on exactly what it says (e.g. if it says "tokens per
+   day", wait for that specific reset; if "tokens per minute", the
+   existing backoff/retry should self-resolve it)
+3. If still ambiguous somehow, paste the exact new-format log line here —
+   don't re-guess, the message itself is now the source of truth. If it
+   genuinely does say a daily limit (RPD or TPD), wait for reset (likely
+   0:00 UTC ≈ 7am Vietnam time) and don't run more than one or two test
+   fetches back-to-back even after reset — that's what got us here.
 4. **Explicit pass/fail criteria for Layer 1** (no ambiguity next time):
    - PASS: no `HTTP 429` anywhere in the log; `Condensed "X": N/8` present
      for all 4 themes where N > 0 (some articles legitimately blank is
@@ -166,246 +172,141 @@ Steps once the hang-fix is confirmed pushed:
      for, but LLMs aren't 100% reliable, so a visual spot-check is cheap
      insurance the log alone can't provide
 
-### Layer 1 — per-article AI summarizer (Rule 3, per-article)
-**Status: code complete, NOT yet verified live** — blocked by Step 0 above.
+### PLAN — 3 mục tiêu chính, xếp theo độ khó tăng dần
 
-What was built tonight, in order (4 real bugs found and fixed along the
-way — this is exactly why layer-by-layer testing matters):
-1. `condenseArticles()` function — one Groq call per theme (not one per
-   article) covering all final selected articles (≤8/theme, post
-   dedup/blocklist/scoring). Language matches the source article (VI
-   articles → VI summary, EN → EN). One retry on failure.
-2. `index.astro`'s raw-excerpt fallback **removed entirely** — if
-   `condensed` is missing, the card shows nothing, never falls back to
-   verbatim source text. This was a deliberate decision, not an oversight
-   — reduces legal exposure under Nghị định 174/2026/NĐ-CP (see "Legal
-   note" above) in addition to the editorial reason (Rule 3(1)).
-3. **Bug found #1:** `generateSummary()` (theme-level box) only ever
-   received article *titles*, never excerpts — this is why a summary once
-   read "một địa phương" instead of naming "Nghệ An" specifically; the AI
-   had no access to the specific detail. Fixed by including excerpt in
-   the prompt for both `generateSummary()` and `condenseArticles()`.
-4. **Rule 3 rewritten** (user's request) to a stricter 5-component
-   structure: what → when → where → why → impact, in that priority order,
-   *skipping* any component the source doesn't support. Fabrication
-   explicitly, repeatedly forbidden in both prompts — "under all
-   circumstances, even to make the summary feel more complete."
-5. **Bug found #2:** the 5-component instruction, written as a numbered
-   list ("1. What happened\n2. When\n3. Where...") in the prompt, caused
-   the AI to literally output its summary AS a numbered list instead of
-   flowing prose. Fixed by rewriting the instruction as prose guidance and
-   adding an explicit "never output a numbered/bulleted list" rule.
-6. **Bug found #3:** adding the per-article condensing step roughly
-   doubled total Groq calls per run (was ~8, now ~12-16 including
-   retries), which combined with heavy manual test-run volume tonight hit
-   `HTTP 429`. Hardened: `groqCall()` retry now backs off on 429
-   specifically (reads Groq's own `retry-after` header when present,
-   falls back to 10s if not — was retrying instantly before, which just
-   wastes budget during an active rate-limit window); gaps between
-   per-theme calls increased from 2s/1s to 4s/4s/3s across the three
-   Groq-calling stages.
-7. **Diagnostic tooling added** — rate-limit headers now surface directly
-   in the log, removing the guesswork that made bug #3 take multiple
-   round-trips to diagnose tonight.
-8. **Bug found #4 (found late, fix given, PUSH UNCONFIRMED — check this
-   first next session, see STEP 0):** the bug #3 fix above had no upper
-   cap on the retry-after-based backoff. A test run hung for 10+ minutes
-   with no log output — almost certainly because Groq's `retry-after`
-   header returned a very large value (consistent with the daily quota
-   genuinely being exhausted, meaning "wait" translates to "wait until
-   tomorrow"), and the code was synchronously waiting that entire
-   duration before doing anything else. Fixed by adding
-   `MAX_RETRY_BACKOFF_MS = 15000` — if Groq's suggested wait exceeds 15s,
-   skip the retry entirely (leave that theme's condensed summaries blank)
-   instead of blocking the whole job.
-9. **Diagnosis refined using Groq's own usage dashboard** (console.groq.com
-   → Organization Usage → Activity): today's request count was only
-   ~150-160 (nowhere near a 1,000 RPD-style cap), but token usage was
-   100.5K (86.7K input + 13.8K output) — unusually high. This points to a
-   **daily TOKEN quota** being the actual constraint hit tonight, not a
-   request-count quota as first assumed. Makes sense given this session
-   grew prompt sizes substantially (excerpts added, 5-component structure,
-   `max_tokens` raised to 1500/1200) on top of many repeated manual test
-   runs. The practical fix is the same either way (wait for reset, don't
-   test back-to-back), but now understood precisely rather than guessed.
+Thay thế hoàn toàn cấu trúc Layer 1/2/3 cũ (lịch sử debug vẫn giữ nguyên ở
+STEP 0 phía trên vì còn giá trị tham khảo, nhưng kế hoạch làm việc từ đây
+tổ chức lại theo đúng 3 mục tiêu người dùng xác nhận lại ngày 23/7/2026,
+xếp dễ → khó, gom mọi việc "chưa rõ, cần nghiên cứu" vào PHASE 2 để xử lý
+1 lần, không rải rác qua nhiều phase như trước.
 
-**Known design asymmetry, intentional — don't "fix" this later without
-reason:** `scoreAndFilter()` has no retry on failure (falls back to
-unfiltered articles, which still display fine, just unranked).
-`condenseArticles()` retries once with backoff (capped, see bug #4 above).
-`generateSummary()` has no retry (falls back to no AI Summary box for that
-theme). This graduated approach matches how visible/costly each failure
-is — a missing rank order is invisible to a reader, a missing summary box
-is visible but not broken-looking, so retry effort is spent where it
-matters most (condensing, since a blank card looks more obviously
-incomplete).
+### PHASE 1 — Sửa code, không cần nghiên cứu gì thêm (dễ nhất, làm trước)
 
-**If Layer 1 still fails after quota resets (i.e. genuinely a burst/TPM
-problem, not daily quota):** the rate-limit headers will show `requests
-left today` still high but `tokens left this window` at or near 0 — if
-so, the next fix is widening gaps further (e.g. 4s→6s) or reducing
-`SCORE_BATCH_LIMIT`/condensing batch size further, not re-diagnosing from
-scratch.
+**1a. Xóa hẳn tóm tắt AI theo theme (Mục 1 — phần đầu)**
+- Xóa toàn bộ hàm `generateSummary()` trong `fetch-feeds.mjs`
+- Xóa bước gọi nó trong `main()` (bước "4. AI summaries")
+- Xóa field `aiSummary` khỏi object `output` cuối `main()`
+- Xóa khung hiển thị `.ai-summary` trong `index.astro`
+- **Lợi ích phụ quan trọng:** giảm ~4 lệnh gọi Groq/lần chạy — trực tiếp
+  giảm rủi ro 429 đã cản trở việc verify Layer tóm tắt theo bài suốt
+  2 đêm liền.
 
-### Layer 2 — Top bar upgrade + market data sourcing
-**Status: research done, no code started.** Blocked behind Layer 1
-confirmation per the user's layering rule — though worth noting explicitly:
-**this layer makes zero Groq calls** (pure HTTP fetch of market data APIs,
-no AI involved), so it has no dependency on Groq quota/rate-limit state at
-all. If Layer 1 is still blocked on quota reset timing, this layer could
-technically be worked on in parallel without any conflict — mentioning
-this in case waiting is inconvenient, but defaulting to strict sequential
-order since that's the explicit preference.
+**1b. Vá lỗ hổng đã xác nhận trong `condenseArticles()` (Mục 1 — phần sau)**
+- Đã kiểm tra trực tiếp code: hàm này **chưa có** dặn dò "tiêu đề mập mờ
+  (kiểu '1 tỉnh/địa phương') → phải dùng excerpt nêu tên cụ thể" — chỉ
+  `generateSummary()` (sắp xóa) có dặn này. Thêm dòng dặn dò tương tự vào
+  cả nhánh tiếng Việt lẫn tiếng Anh của `condenseArticles()`'s prompt.
+- Giữ nguyên mọi quy tắc đã có: 5 thành phần (what/when/where/why/impact),
+  bỏ qua phần thiếu dữ liệu, cấm bịa tuyệt đối, không copy nguyên văn
+  headline/excerpt.
 
-**Risks anticipated ahead of time, so next session doesn't rediscover
-them one at a time:**
-1. **Neither TCBS nor FireAnt has a confirmed exact JSON endpoint yet** —
-   both were confirmed "live and legitimate" via search, not via a direct
-   test fetch (search tooling couldn't reach that deep). Expect this to
-   take several attempts, same as RSS source-hunting did earlier this
-   project. **Mitigation already applied in planning:** structure the
-   candidate URLs as an array (`candidateUrls: [...]`) per source, same
-   pattern as every existing `MARKET_CONFIG` entry — try multiple
-   plausible endpoint shapes in one code change rather than one-URL-at-
-   a-time round trips.
-2. **VN30 has zero existing code** — `fetchMarketIndices()` today only
-   handles VNIndex/HNXIndex. This is new parsing logic, not a URL swap.
-   Design the return shape to match the existing pattern before coding:
-   `{ value, change, changePercent }`, consistent with `vnIndex`/`hnxIndex`.
-3. **Trading volume field name is unknown for TCBS/FireAnt** — VNDirect's
-   shape used `totalMatchVolume` (comment in code confirms the parsing
-   logic already exists for that specific field name, just never reached
-   because the fetch itself fails). TCBS/FireAnt will very likely use a
-   different field name — don't assume it matches, log the raw response
-   shape on first real test to find the actual key name.
-4. **Partial-success handling needs a decision before coding, not after:**
-   if VNIndex fetch succeeds but VN30 fails (or vice versa), what should
-   the top bar show? Recommended default (matches existing `note` field
-   pattern): show whichever pieces have data, silently omit the rest —
-   no error text in the UI, consistent with how gold/market-indices
-   already degrade gracefully today.
-5. **This layer removes the "Thị trường đóng cửa..." explanatory text**
-   per the user's original request (always show latest available, no
-   status caveat) — small UI change, bundle it into the same PR as the
-   data work rather than shipping the data half without the UI half (the
-   user was explicit: don't ship one without the other).
+**Điều kiện qua Phase 1:** `node --check fetch-feeds.mjs` sạch; đọc lại
+2 đoạn prompt xác nhận có dòng dặn "nêu tên cụ thể"; `index.astro` không
+còn tham chiếu `aiSummary`/`.ai-summary` nào sót lại.
 
-### Layer 3 — Admin voting buttons (Like/Dislike/Block)
-**Status: fully speced, no code started.** Blocked behind Layer 2. This is
-a real architecture change (adds a serverless API to an otherwise fully
-static site) — budget a full focused session, not a quick add.
+---
 
-**What it does:** replaces manually typing lines into `EXAMPLES.md` with
-3 buttons under each article card, visible only to the user (admin).
-Clicking a button appends one line to the matching section of
-`EXAMPLES.md` on GitHub automatically — same effect as hand-editing, just
-automated. Does **not** touch `training.json` or `CONTENT_BLOCKLIST`
-directly; those still only get updated the existing way, in a session
-where the user brings `EXAMPLES.md` and Claude codes the entries in.
+### PHASE 2 — Gom mọi thứ "chưa rõ" vào đây, nghiên cứu 1 lần cho xong
 
-**Confirmed spec (all decided, no open questions):**
-- Three buttons: Like, Dislike, Block — mutually exclusive, one per
-  article, one click only (button locks/disables after use)
-- No multi-click weighting, no scoring — this was considered and
-  explicitly rejected by the user in favor of simplicity
-- Buttons only visible when the site is loaded via a bookmarked URL
-  containing a secret key the user will choose themselves (e.g.
-  `https://vnin1.vercel.app/?key=<user's own secret string>`) — not real
-  auth, just hides the buttons from normal visitors. User will supply
-  the secret string when work begins; do not invent one.
-- On click: a small API endpoint (Vercel Serverless Function) reads the
-  current `EXAMPLES.md` from GitHub, checks whether that article's title
-  already appears anywhere in the file (dedup check), and if not, appends
-  exactly `- <original headline text>` to the correct section (Block
-  candidates / Liked / Disliked) and commits directly to GitHub.
-- Line format matches the user's existing manual convention exactly —
-  just `- <headline>`, nothing else (no timestamp, no link, no source
-  tag). Confirmed deliberately: keeps the file visually uniform whether
-  a line was typed by hand or added by a button, and keeps it fast to
-  scan.
-- `EXAMPLES.md` remains the single starting point/scratchpad exactly as
-  today — this feature is only a faster way to add lines to it, not a
-  new parallel system.
+Đây là nơi duy nhất trong kế hoạch cần tra cứu/xác minh trước khi code —
+không rải các câu hỏi mở qua nhiều phase như lần trước.
 
-**Known trade-off, already discussed and accepted:** since this commits
-to GitHub independently of the user's laptop (same pattern as the
-hourly feed bot), the user's **local** `EXAMPLES.md` can silently fall
-behind GitHub's copy after clicking buttons on the live site (e.g. from
-phone). User has been warned: always `git pull` before hand-editing
-`EXAMPLES.md` locally, same discipline as `feed.json`, to avoid
-overwriting button-added lines.
+**2a. Đọc `astro.config.mjs` thật** — xác nhận site đang chạy chế độ
+`static` thuần hay đã có `server`/`hybrid`. Đây là điều kiện tiên quyết
+cho Mục 3 (nút bấm cần Serverless Function, chỉ chạy được ở chế độ
+server/hybrid). Nếu đang `static`, cả Mục 3 sẽ cần đổi chế độ triển khai
+trước — biết sớm để không bị bất ngờ giữa chừng lúc code Phase 5.
 
-**Decided 2026-07-20: no background auto-pull.** Considered using
-Windows Task Scheduler to run `git pull` automatically in the
-background, rejected — it would fail silently on the same
-uncommitted-`feed.json` conflict that's hit repeatedly this project,
-creating false confidence that local is synced when it might not be.
-`deploy.bat` already pulls before every push — that remains sufficient.
+**2b. Xác nhận nguồn dữ liệu VNIndex/HNXIndex thay VNDirect** — VNDirect
+đã chết từ lâu. TCBS (`apipubaws.tcbs.com.vn`) và FireAnt
+(`restv2.fireant.vn`) đã tra là "tồn tại thật, hợp pháp" nhưng **chưa xác
+nhận URL JSON chính xác** — cần thử trực tiếp bằng `npm run fetch` thật,
+giống cách đã làm với RSS nguồn tin trước đây (thử nhiều URL ứng viên
+cùng lúc trong 1 lần code, không thử từng cái một).
 
-**Risks anticipated ahead of time, so next session doesn't rediscover
-them one at a time:**
-1. **Astro's Vercel deployment mode needs checking BEFORE starting.** This
-   site currently ships as pure static output (no server, per README).
-   Serverless Functions on Vercel with Astro require the `@astrojs/vercel`
-   adapter configured for `server` or `hybrid` output mode — if the
-   project is still on pure `static` mode (likely, since no API routes
-   exist yet), this is a **prerequisite architecture change**, not just
-   "add a function." First step of this layer should be confirming
-   `astro.config.mjs`'s current output mode and adapter before writing
-   any button/API code — if it needs changing, that's worth its own small
-   test-deploy first (confirm the site still builds/deploys correctly in
-   hybrid mode) before adding the actual voting feature on top.
-2. **GitHub token scope** — when generating the token for this, use a
-   **fine-grained PAT scoped to only this one repo, contents:write
-   permission only** (not a broad classic token with full repo access).
-   Minimizes damage if the Vercel env var ever leaked.
-3. **Race condition risk on `EXAMPLES.md` commits** — if the user clicks a
-   button at the same moment the hourly feed bot is mid-commit (same
-   category of race hit earlier tonight with `feed.json`, see Established
-   working rule #6), the serverless function's commit could fail or
-   conflict. Mitigation to build in from the start: use GitHub's Contents
-   API with SHA-based conditional updates (fetch the file's current SHA
-   immediately before writing, include it in the update request) rather
-   than a naive read-then-write — GitHub will reject the write with a 409
-   if the SHA is stale, which the function should catch and retry once
-   (fetch fresh SHA, try again) rather than silently failing or
-   overwriting.
-4. **This is the only layer with genuinely new infrastructure risk** —
-   Layers 1 and 2 both extend existing, proven patterns (more Groq calls,
-   more HTTP data sources). Layer 3 is the first serverless function this
-   project has ever had. Treat the first version as a spike/prototype
-   mentally, not a polished feature — get the core loop working (click →
-   commit → visible in GitHub) before worrying about UI polish.
+**2c. Nghiên cứu nguồn "5 mã tăng/giảm mạnh nhất"** — **hoàn toàn mới**,
+chưa từng tra trước đây (khác với việc tra chỉ số VNIndex/VN30). Cần tìm
+xem TCBS/FireAnt hoặc nguồn khác có endpoint liệt kê top gainers/losers
+hay không — đây là loại dữ liệu khác (danh sách nhiều mã, không phải 1
+chỉ số), có thể cần nguồn khác hẳn 2 nguồn trên.
 
-**Build components needed (none started):**
-- Vercel Serverless Function (new — first one in this project) that can
-  write to GitHub (needs a GitHub token secret, separate from
-  `GROQ_API_KEY`, added to Vercel's environment variables)
-- Duplicate-check logic (read `EXAMPLES.md`, search for the headline
-  across all sections before appending)
-- Frontend: 3 buttons per card in `index.astro`, client-side JS to call
-  the API, visual feedback on click (e.g. brief "✓ Recorded" state),
-  button becomes disabled/hidden after a successful click for that card
-- `?key=` check gating whether buttons render at all — read the secret
-  from a hardcoded value the user provides (do not overthink this into
-  a real auth system, that was explicitly decided against)
+**2d. Xác nhận VN30 lấy được dữ liệu gì, hình dạng ra sao** — chưa có
+code, cần thiết kế cấu trúc trả về khớp mẫu đã có (`{ value, change,
+changePercent }` giống `vnIndex`/`hnxIndex`) trước khi viết code thật ở
+Phase 4.
 
-### Separately decided, not part of the layer sequence
-**Recency vs. sharpness trade-off** — user asked about reducing article
-staleness (some articles showing 9h old while fresher ones exist). Root
-cause: `scoreAndFilter()`'s relevance score outweighs its small recency
-bonus, by design (Rule 5). User explicitly chose **Option C: leave
-as-is** — sharp analysis over freshness is intentional, not a bug.
-Revisit only if it starts feeling wrong in practice.
+**Điều kiện qua Phase 2:** cả 4 câu hỏi trên có câu trả lời cụ thể, dựa
+trên thử nghiệm/tra cứu thật — không phải "chắc là...". Nếu 1 mục vẫn mơ
+hồ sau khi tra, ghi rõ vào đây lý do và phương án dự phòng, không để
+trống chờ "tính sau" như trước.
 
-### Ongoing, no fixed schedule
-**`EXAMPLES.md`** — user adds liked/disliked/block-candidate headlines
-whenever spotted on the live site. Bring the file (or new lines) to a
-session whenever ready to "cash it in" — gets sorted into `training.json`
-or `CONTENT_BLOCKLIST` as appropriate. Not urgent, no deadline. One new
-example added tonight: "Marina Living: Dấu ấn trách nhiệm xã hội của BIM
-Land..." — filed as a **Block** candidate (corporate brand-launch PR
-framing), not Disliked.
+---
+
+### PHASE 3 — Xác nhận tóm tắt theo bài chạy được thật (Mục 1, phần verify)
+
+Chạy workflow 1 lần, dựa trên code đã nhẹ hơn từ Phase 1 (bớt 4 lệnh
+Groq/lần). Nếu vẫn 429, log giờ đã có công cụ chẩn đoán chính xác (đọc
+thẳng thông báo lỗi thật từ Groq, xây dựng đêm 23/7) — không cần đoán lại
+từ đầu.
+
+**Điều kiện qua Phase 3(tiêu chí PASS/FAIL, không đổi so với trước):**
+- PASS: không `HTTP 429` nào; `Condensed "X": N/8` với N > 0 ở cả 4 theme
+  (một số bài để trống là bình thường — AI từ chối đoán bừa là đúng thiết
+  kế); site live hiện tóm tắt AI, không còn thấy khung "AI Summary" theme
+  nữa (đã xóa ở Phase 1)
+- Spot-check bằng mắt: mở 2-3 card, xác nhận không phải danh sách đánh
+  số, không có chi tiết bịa, và **nếu tiêu đề gốc mập mờ kiểu "1 tỉnh",
+  tóm tắt phải nêu tên tỉnh cụ thể** (đúng yêu cầu mới nhất)
+
+---
+
+### PHASE 4 — Top bar: VNIndex, VN30, %, khối lượng, top gainers/losers (Mục 2)
+
+Thuần HTTP, không đụng Groq — dùng kết quả nghiên cứu từ Phase 2b/2c/2d.
+1. Viết code fetch theo URL đã xác nhận ở Phase 2
+2. Thiết kế `VN30` theo đúng hình dạng đã chốt ở Phase 2d
+3. Thêm top gainers/losers (5 mã mỗi loại) theo nguồn đã tìm ở Phase 2c
+4. Cập nhật `index.astro` — bỏ dòng "Thị trường đóng cửa..." (luôn hiện
+   dữ liệu mới nhất, không kèm ghi chú trạng thái), thêm khối top bar mới
+5. Quyết định hiển thị khi chỉ có 1 phần dữ liệu (VNIndex có, VN30 không):
+   hiện phần có, ẩn phần thiếu, không báo lỗi trên UI
+
+**Điều kiện qua Phase 4:** site live hiện đủ VNIndex + VN30 + % + khối
+lượng + 5 mã tăng/giảm mạnh nhất, số liệu thật không trống.
+
+---
+
+### PHASE 5 — Nút Like/Dislike/Block, khóa `?key=mothaiba` (Mục 3, khó nhất)
+
+Hạ tầng mới hoàn toàn — Serverless Function đầu tiên của dự án. Làm sau
+cùng vì rủi ro kỹ thuật cao nhất, cần cả 1 buổi tập trung riêng.
+
+1. Nếu Phase 2a phát hiện Astro đang static thuần → đổi sang
+   server/hybrid trước, test-deploy riêng xác nhận site vẫn build/chạy
+   bình thường, TRƯỚC KHI viết code nút bấm
+2. Tạo Vercel Serverless Function — đọc `EXAMPLES.md` từ GitHub, kiểm tra
+   trùng lặp, ghi dòng `- <tiêu đề>` vào đúng mục (Block/Liked/Disliked),
+   commit thẳng lên GitHub. Dùng GitHub Contents API kiểu SHA-conditional
+   (tránh xung đột nếu trùng lúc bot hourly đang commit)
+3. Token GitHub: tạo fine-grained PAT, chỉ scope đúng 1 repo này,
+   quyền `contents:write` — không dùng token rộng
+4. Frontend: 3 nút mỗi card trong `index.astro`, loại trừ lẫn nhau, khóa
+   sau khi bấm, phản hồi ngắn "✓ Đã ghi nhận"
+5. Cổng hiển thị: chỉ hiện nút khi URL có `?key=mothaiba` — giá trị đã
+   chốt, không cần hỏi lại
+
+**Điều kiện qua Phase 5:** bấm thử cả 3 nút trên site thật (qua link có
+`?key=mothaiba`), xác nhận dòng mới tự động xuất hiện đúng mục trong
+`EXAMPLES.md` trên GitHub, không trùng lặp khi bấm lại bài đã chấm.
+
+---
+
+### Việc cũ, không còn nằm trong plan chính — vẫn giữ để tham khảo
+**Recency vs. sharpness trade-off** — Option C (giữ nguyên, ưu tiên phân
+tích sắc bén hơn độ mới) đã chốt trước đây, không đổi.
+
+**`EXAMPLES.md`** — vẫn là nơi gom ví dụ liked/disliked/block thủ công,
+độc lập với 5 Phase trên, không có lịch cố định.
 
 ---
 
