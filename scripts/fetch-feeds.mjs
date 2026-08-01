@@ -260,6 +260,26 @@ async function loadTraining() {
   }
 }
 
+// Admin votes (Like/Dislike/Block buttons on the live site) — unlike
+// EXAMPLES.md, which is a scratchpad reviewed and coded in deliberately,
+// this file has IMMEDIATE effect on the very next fetch run: liked/disliked
+// titles merge straight into the training scorer's examples, and blocked
+// titles are hard-excluded by exact title match. Written by
+// src/pages/api/vote.js directly on GitHub.
+async function loadVotes() {
+  try {
+    const raw = await readFile(path.resolve('src/data/votes.json'), 'utf-8');
+    const data = JSON.parse(raw);
+    return {
+      liked: Array.isArray(data.liked) ? data.liked : [],
+      disliked: Array.isArray(data.disliked) ? data.disliked : [],
+      blocked: Array.isArray(data.blocked) ? data.blocked : [],
+    };
+  } catch {
+    return { liked: [], disliked: [], blocked: [] };
+  }
+}
+
 const xmlParser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: '@_',
@@ -305,12 +325,29 @@ async function fetchWithTimeout(url, options = {}) {
       ...options
     });
     if (!res.ok) {
-      // Attach status + headers to the error (not just the message) so
-      // callers that care — currently only the Groq call sites — can read
-      // rate-limit diagnostics (remaining requests/tokens, retry-after) on
-      // a 429 without changing behavior for every other caller of this
-      // shared helper (RSS/market fetches just see err.message as before).
-      const err = new Error('HTTP ' + res.status);
+      // Read the actual error body Groq (or any API) sends back — for Groq
+      // specifically, this names the EXACT limit type hit (e.g. "tokens
+      // per day (TPD): Limit 200,000, Used 199,336...") rather than us
+      // guessing from headers alone. Try to pull just the human-readable
+      // message out of Groq's {"error":{"message":"..."}} shape; fall back
+      // to raw text (capped) if the body isn't that shape.
+      let detail = '';
+      try {
+        const raw = await res.text();
+        try {
+          const parsed = JSON.parse(raw);
+          detail = parsed?.error?.message || raw.slice(0, 300);
+        } catch {
+          detail = raw.slice(0, 300);
+        }
+      } catch { /* body unreadable — fall back to bare status */ }
+      const err = new Error('HTTP ' + res.status + (detail ? ': ' + detail : ''));
+      // Attach status + headers too (not just the message) so callers that
+      // care — currently only the Groq call sites — can read rate-limit
+      // diagnostics (remaining requests/tokens, retry-after) on a 429
+      // without changing behavior for every other caller of this shared
+      // helper (RSS/market fetches just see err.message as before, now
+      // slightly richer with the real body detail).
       err.status = res.status;
       err.headers = res.headers;
       throw err;
@@ -324,15 +361,27 @@ async function fetchWithTimeout(url, options = {}) {
 // Extracts whatever rate-limit diagnostics Groq's response headers expose,
 // so a 429 log line says WHY (out of requests-today vs tokens-this-minute)
 // instead of just "HTTP 429" — turns guesswork into a direct read next time.
+// Groq's actual header semantics (confirmed via console.groq.com/docs/rate-limits):
+// x-ratelimit-remaining-requests / -limit-requests / -reset-requests → ALWAYS Requests Per Day (RPD)
+// x-ratelimit-remaining-tokens   / -limit-tokens   / -reset-tokens   → ALWAYS Tokens Per Minute (TPM)
+// Neither of these two exposes a Tokens-Per-Day (TPD) constraint if the
+// account/model has one — Groq's error message BODY (see fetchWithTimeout)
+// is the only place a TPD hit shows up, spelled out by name. So: read the
+// headers for RPD/TPM state, but always trust err.message first if it
+// names a specific limit type — it's ground truth, headers are supporting detail.
 function rateLimitInfo(err) {
   const h = err?.headers;
   if (!h || typeof h.get !== 'function') return '';
   const parts = [];
   const remReq = h.get('x-ratelimit-remaining-requests');
   const remTok = h.get('x-ratelimit-remaining-tokens');
+  const resetReq = h.get('x-ratelimit-reset-requests');
+  const resetTok = h.get('x-ratelimit-reset-tokens');
   const retryAfter = h.get('retry-after');
-  if (remReq != null) parts.push('requests left today: ' + remReq);
-  if (remTok != null) parts.push('tokens left this window: ' + remTok);
+  if (remReq != null) parts.push('RPD remaining: ' + remReq);
+  if (resetReq != null) parts.push('RPD resets in: ' + resetReq);
+  if (remTok != null) parts.push('TPM remaining: ' + remTok);
+  if (resetTok != null) parts.push('TPM resets in: ' + resetTok);
   if (retryAfter != null) parts.push('retry-after: ' + retryAfter + 's');
   return parts.length ? ' [' + parts.join(', ') + ']' : '';
 }
@@ -509,7 +558,7 @@ async function scoreAndFilter(articles, training, maxArticles) {
   }
 }
 
-async function fetchTheme(theme, training, seenLinks) {
+async function fetchTheme(theme, training, seenLinks, blockedTitles = []) {
   console.log('\nFetching theme: ' + theme.displayName);
   const allArticles = (await Promise.all(theme.feeds.map(fetchOneFeed))).flat();
 
@@ -533,10 +582,20 @@ async function fetchTheme(theme, training, seenLinks) {
   const dupCount = allArticles.length - deduped.length;
   if (dupCount > 0) console.log('  ' + dupCount + ' duplicate(s) dropped (already in another section)');
 
+  // Admin Block votes — exact title match, hard exclusion. Only stops this
+  // specific article; since it's a fresh RSS pool each run, an exact title
+  // match rarely recurs after the source rotates it out naturally.
+  const blockedSet = new Set(blockedTitles);
+  const notBlocked = blockedSet.size > 0
+    ? deduped.filter(a => !blockedSet.has(a.title))
+    : deduped;
+  const blockedCount = deduped.length - notBlocked.length;
+  if (blockedCount > 0) console.log('  ' + blockedCount + ' article(s) blocked by admin vote');
+
   // Content-type filter (blocklist)
   const isIntl = theme.key === 'international';
-  const filtered = filterArticles(deduped, isIntl);
-  const dropped = deduped.length - filtered.length;
+  const filtered = filterArticles(notBlocked, isIntl);
+  const dropped = notBlocked.length - filtered.length;
   if (dropped > 0) console.log('  ' + dropped + ' articles dropped by content filter');
 
   // Training scorer (activates only when training.json has examples)
@@ -850,21 +909,33 @@ async function generateSummary(themeName, themeKey, articles) {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 async function main() {
   await loadEnv();
-  const training = await loadTraining();
+  const trainingBase = await loadTraining();
+  const votes = await loadVotes();
+  // Admin votes merge straight into the scorer's examples — immediate
+  // effect on this very run, unlike EXAMPLES.md which needs a deliberate
+  // coding session to take effect.
+  const training = {
+    liked: [...trainingBase.liked, ...votes.liked],
+    disliked: [...trainingBase.disliked, ...votes.disliked],
+  };
   const hasTraining = training.liked.length > 0 || training.disliked.length > 0;
   console.log('=== VNin1 feed fetch starting ===');
   if (hasTraining) {
-    console.log('Training: ' + training.liked.length + ' liked, ' + training.disliked.length + ' disliked examples loaded');
+    console.log('Training: ' + training.liked.length + ' liked (' + trainingBase.liked.length + ' base + ' + votes.liked.length + ' voted), '
+      + training.disliked.length + ' disliked (' + trainingBase.disliked.length + ' base + ' + votes.disliked.length + ' voted)');
   } else {
-    console.log('Training: no examples yet (add to src/data/training.json to enable)');
+    console.log('Training: no examples yet (add to src/data/training.json or vote on the live site to enable)');
+  }
+  if (votes.blocked.length > 0) {
+    console.log('Admin blocks: ' + votes.blocked.length + ' title(s) loaded from votes.json');
   }
   console.log('');
 
-  // 1. Fetch all themes (includes cross-theme dedup + content filter + training scorer)
+  // 1. Fetch all themes (includes cross-theme dedup + admin blocks + content filter + training scorer)
   const themeResults = [];
   const seenLinks = new Set(); // shared across all themes — enforces Rule 1 (no duplicate stories)
   for (const theme of THEMES) {
-    const articles = await fetchTheme(theme, training, seenLinks);
+    const articles = await fetchTheme(theme, training, seenLinks, votes.blocked);
     themeResults.push({ key: theme.key, displayName: theme.displayName, articles });
     // Cách B — gap between themes so the Groq calls don't all land in the
     // same rate-limit window. Increased 2s → 4s after a real 429 (rate
