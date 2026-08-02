@@ -586,11 +586,14 @@ async function fetchTheme(theme, training, seenLinks, blockedTitles = []) {
   // specific article; since it's a fresh RSS pool each run, an exact title
   // match rarely recurs after the source rotates it out naturally.
   const blockedSet = new Set(blockedTitles);
+  const actuallyBlocked = deduped.filter(a => blockedSet.has(a.title));
   const notBlocked = blockedSet.size > 0
     ? deduped.filter(a => !blockedSet.has(a.title))
     : deduped;
-  const blockedCount = deduped.length - notBlocked.length;
-  if (blockedCount > 0) console.log('  ' + blockedCount + ' article(s) blocked by admin vote');
+  if (actuallyBlocked.length > 0) {
+    console.log('  ' + actuallyBlocked.length + ' article(s) blocked by admin vote:');
+    actuallyBlocked.forEach(a => console.log('    - ' + a.title));
+  }
 
   // Content-type filter (blocklist)
   const isIntl = theme.key === 'international';
@@ -926,8 +929,20 @@ async function main() {
   } else {
     console.log('Training: no examples yet (add to src/data/training.json or vote on the live site to enable)');
   }
+  // Print the ACTUAL voted titles by name — not just a count — so an admin
+  // reading this log can directly confirm their exact click is being used,
+  // rather than trusting a number.
+  if (votes.liked.length > 0) {
+    console.log('  Voted LIKED titles in use this run:');
+    votes.liked.forEach(t => console.log('    + ' + t));
+  }
+  if (votes.disliked.length > 0) {
+    console.log('  Voted DISLIKED titles in use this run:');
+    votes.disliked.forEach(t => console.log('    + ' + t));
+  }
   if (votes.blocked.length > 0) {
-    console.log('Admin blocks: ' + votes.blocked.length + ' title(s) loaded from votes.json');
+    console.log('  Voted BLOCKED titles in use this run:');
+    votes.blocked.forEach(t => console.log('    + ' + t));
   }
   console.log('');
 
