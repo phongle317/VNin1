@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T13:09:53.866Z",
+  "lastUpdated": "2026-08-07T14:56:06.709Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4418.8,
+      "value": 4404.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7709.96,
-      "change": 272.3299999999999,
-      "changePercent": 3.6615158323283077
+      "value": 7746.59,
+      "change": 256.8699999999999,
+      "changePercent": 3.429634218635675
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26348.352,
-      "change": 1226.1719999999987,
-      "changePercent": 4.880834386187818
+      "value": 26599.37,
+      "change": 1225.5200000000004,
+      "changePercent": 4.829854357931494
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26419.51,
-      "change": 790.2699999999968,
-      "changePercent": 3.083470286282374
+      "value": 26394.85,
+      "change": 765.609999999997,
+      "changePercent": 2.987252060537093
     }
   ],
   "themes": [
@@ -63,6 +63,50 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Doanh nghiệp bảo hiểm đầu tư cổ phiếu lãi, lỗ ra sao?",
+          "link": "https://cafef.vn/doanh-nghiep-bao-hiem-dau-tu-co-phieu-lai-lo-ra-sao-18826080720372459.chn",
+          "pubDate": "2026-08-07T13:37:00.000Z",
+          "excerpt": "TPO - Bên cạnh danh mục tiền gửi hàng trăm nghìn tỷ đồng, các doanh nghiệp bảo hiểm còn đầu tư tài chính, trong đó có cổ phiếu, trái phiếu để gia tăng lợi…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Doanh nghiệp bảo hiểm đầu tư cổ phiếu để gia tăng lợi nhuận."
+        },
+        {
+          "title": "Bán ròng 600 tỷ đồng trong phiên cuối tuần, tự doanh CTCK \"xả\" mã nào mạnh nhất?",
+          "link": "https://cafef.vn/ban-rong-600-ty-dong-trong-phien-cuoi-tuan-tu-doanh-ctck-xa-ma-nao-manh-nhat-188260807203307979.chn",
+          "pubDate": "2026-08-07T13:32:00.000Z",
+          "excerpt": "Tự doanh CTCK bán ròng 604 tỷ đồng trên HOSE.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Tự doanh CTCK bán ròng 604 tỷ đồng trên HOSE."
+        },
+        {
+          "title": "Tuần 03-07/08: USD thế giới đảo chiều, tỷ giá tự do trong nước \"hạ nhiệt\"",
+          "link": "http://vietstock.vn/2026/08/tuan-03-0708-usd-the-gioi-dao-chieu-ty-gia-tu-do-trong-nuoc-ha-nhiet-757-1478170.htm",
+          "pubDate": "2026-08-07T13:02:00.000Z",
+          "excerpt": "Trong tuần đầu tiên của tháng 8 (03-07/08), USD trên thị trường quốc tế đảo chiều hồi phục sau cú sụt giảm, dưới tác động của hàng loạt biến số vĩ mô và rủi ro…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "USD thế giới hồi phục trong tuần đầu tháng 8."
+        },
+        {
+          "title": "Quỹ ngoại 35 năm tuổi rót vốn vào Tập đoàn đầu tư BIG",
+          "link": "https://cafef.vn/quy-ngoai-35-nam-tuoi-rot-von-vao-tap-doan-dau-tu-big-188260807202613742.chn",
+          "pubDate": "2026-08-07T13:00:00.000Z",
+          "excerpt": "Quỹ đầu tư quốc tế Brookland Group (BVI) với hơn 35 năm kinh nghiệm chính thức đầu tư vào Tập đoàn BIG (UPCoM: BIG) ngày 07/08, mở rộng chiến lược M&A bất động…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Quỹ Brookland Group đầu tư vào Tập đoàn BIG."
+        },
         {
           "title": "VIFC cần đóng vai trò cầu nối để dòng vốn xanh quốc tế chảy vào nền kinh tế",
           "link": "http://vietstock.vn/2026/08/vifc-can-dong-vai-tro-cau-noi-de-dong-von-xanh-quoc-te-chay-vao-nen-kinh-te-757-1478052.htm",
@@ -72,7 +116,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "VIFC cần đóng vai trò cầu nối để dòng vốn xanh quốc tế chảy vào nền kinh tế Việt Nam."
+          "condensed": "VIFC cần đóng vai trò cầu nối cho dòng vốn xanh."
         },
         {
           "title": "Dòng vốn xanh không thiếu, bài toán nằm ở dự án và khả năng hấp thụ vốn",
@@ -83,7 +127,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Dòng vốn xanh không thiếu, bài toán nằm ở dự án và khả năng hấp thụ vốn tại Việt Nam."
+          "condensed": "Dòng vốn xanh cần dự án hấp thụ hiệu quả."
         },
         {
           "title": "Tịch thu 39 thỏi vàng trị giá 29 tỷ đồng buôn lậu qua biên giới bằng xe máy",
@@ -94,7 +138,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cảnh sát tịch thu 39 thỏi vàng trị giá 29 tỷ đồng buôn lậu qua biên giới."
+          "condensed": "Cảnh sát tịch thu 39 thỏi vàng buôn lậu."
         },
         {
           "title": "Giao dịch hợp đồng tương lai VN30, VN100 tăng mạnh tháng 7/2026",
@@ -105,51 +149,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Giao dịch hợp đồng tương lai VN30, VN100 tăng mạnh trong tháng 7/2026."
-        },
-        {
-          "title": "Blog chứng khoán: Chỉ số yếu, cổ phiếu mạnh",
-          "link": "https://vneconomy.vn/blog-chung-khoan-chi-so-yeu-co-phieu-manh.htm",
-          "pubDate": "2026-08-07T09:26:44.000Z",
-          "excerpt": "Phiên hôm nay là cơ hội tốt để kiểm chứng sức mạnh khi ngay từ đầu VHM, VIC đã lao dốc nặng. Sau một chút “loạng choạng” đầu phiên sáng, dòng tiền phản ứng khá…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Dòng tiền phản ứng khá tốt trong phiên chứng khoán."
-        },
-        {
-          "title": "Một chủ tịch giữ lời, mua hết lượng cổ phiếu đã đăng ký",
-          "link": "https://cafef.vn/mot-chu-tich-giu-loi-mua-het-luong-co-phieu-da-dang-ky-18826080716153166.chn",
-          "pubDate": "2026-08-07T09:15:00.000Z",
-          "excerpt": "Tạm tính theo thị giá trên thị trường, ước tính vị Chủ tịch đã chi khoảng 42 tỷ đồng để hoàn tất giao dịch.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Chủ tịch mua hết lượng cổ phiếu đã đăng ký với ước tính 42 tỷ đồng."
-        },
-        {
-          "title": "Cổ phiếu doanh nghiệp nhà nước nổi sóng",
-          "link": "https://vnexpress.net/co-phieu-doanh-nghiep-nha-nuoc-noi-song-5106459.html",
-          "pubDate": "2026-08-07T09:07:37.000Z",
-          "excerpt": "Nhóm cổ phiếu doanh nghiệp nhà nước thu hút dòng tiền, trở thành động lực chính của VN-Index trong phiên chứng khoán tăng điểm nhưng phân hoá.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Cổ phiếu doanh nghiệp nhà nước thu hút dòng tiền và trở thành động lực chính."
-        },
-        {
-          "title": "Một cổ phiếu được khối ngoại mua ròng mạnh tay 700 tỷ đồng trong phiên cuối tuần",
-          "link": "https://cafef.vn/mot-co-phieu-duoc-khoi-ngoai-mua-rong-manh-tay-700-ty-dong-trong-phien-cuoi-tuan-188260807152647927.chn",
-          "pubDate": "2026-08-07T08:45:00.000Z",
-          "excerpt": "Ở chiều ngược lại, VHM bị bán ròng mạnh nhất với khoảng 285 tỷ đồng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Khối ngoại mua ròng một cổ phiếu mạnh tay 700 tỷ đồng trong phiên cuối tuần."
+          "condensed": "Giao dịch hợp đồng tương lai VN30 tăng mạnh tháng 7."
         }
       ],
       "aiSummary": null
@@ -159,6 +159,72 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Đặc khu lớn nhất Việt Nam sắp xuất hiện một công trình cạnh sân bay quy mô hàng đầu, phục vụ tới 50 triệu hành khách",
+          "link": "https://cafebiz.vn/dac-khu-lon-nhat-viet-nam-sap-xuat-hien-mot-cong-trinh-canh-san-bay-quy-mo-hang-dau-phuc-vu-toi-50-trieu-hanh-khach-176260807212427935.chn",
+          "pubDate": "2026-08-07T14:23:00.000Z",
+          "excerpt": "Với khả năng cung ứng tối đa 50.000 suất ăn mỗi ngày, Nhà máy Suất ăn Hàng không Phú Quốc (SCA) được xây dựng như một mắt xích hậu cần quan trọng, đáp ứng quy…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": "Đặc khu lớn nhất Việt Nam sắp có công trình phục vụ 50 triệu hành khách gần sân bay."
+        },
+        {
+          "title": "Vì sao giới đầu tư săn tìm “BĐS hữu hạn” tại Nam trung tâm Đà Nẵng?",
+          "link": "https://cafef.vn/vi-sao-gioi-dau-tu-san-tim-bds-huu-han-tai-nam-trung-tam-da-nang-188260807203033058.chn",
+          "pubDate": "2026-08-07T14:00:00.000Z",
+          "excerpt": "Sự gia tăng của tầng lớp tinh hoa kéo theo nhu cầu sở hữu BĐS cao cấp, thỏa mãn các tiêu chí an cư - kinh doanh sinh lời và tích lũy tài sản. Tại Đà Nẵng, khu…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nhà nước quyết định giá đất, bất động sản có hạ nhiệt?",
+          "link": "https://cafef.vn/nha-nuoc-quyet-dinh-gia-dat-bat-dong-san-co-ha-nhiet-188260807174321075.chn",
+          "pubDate": "2026-08-07T13:46:00.000Z",
+          "excerpt": "Chuyên gia kỳ vọng, giá đất do Nhà nước quyết định trên cơ sở dữ liệu, phương pháp khoa học và mục tiêu phát triển kinh tế - xã hội, thay vì chạy theo biến…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tập đoàn Mường Thanh vừa công bố thay đổi lớn",
+          "link": "https://cafef.vn/tap-doan-muong-thanh-cua-ong-le-thanh-than-vua-cong-bo-thay-doi-lon-188260807203853764.chn",
+          "pubDate": "2026-08-07T13:38:00.000Z",
+          "excerpt": "Tập đoàn Mường Thanh vừa tăng vốn điều lệ lên 6.000 tỷ đồng trong bối cảnh doanh nghiệp liên tiếp tái xuất tại các dự án đô thị, thương mại và dịch vụ quy mô…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ông Phạm Nhật Vượng xây công viên câu cá rừng ngập mặn 800 ha rộng gấp 4 lần ở Singapore",
+          "link": "https://cafebiz.vn/ong-pham-nhat-vuong-xay-cong-vien-cau-ca-rung-ngap-man-800-ha-rong-gap-4-lan-o-singapore-176260807201643466.chn",
+          "pubDate": "2026-08-07T13:35:00.000Z",
+          "excerpt": "Rừng ngập mặn hiện nay đang được nhiều quốc gia coi là tài sản sinh thái quan trọng. Tại Việt Nam, một công viên rừng ngập mặn quy mô khoảng 800 ha đang được…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": null
+        },
+        {
+          "title": "SOHO tại The Global City: Nơi bản sắc giao thương song hành nhịp sống toàn cầu",
+          "link": "https://cafef.vn/soho-tai-the-global-city-noi-ban-sac-giao-thuong-song-hanh-nhip-song-toan-cau-188260807202712169.chn",
+          "pubDate": "2026-08-07T13:30:00.000Z",
+          "excerpt": "Kế thừa tinh thần giao thương của phố thị Việt và được thiết kế dưới tư duy quy hoạch chuẩn quốc tế, SOHO tại The Global City mở ra một sắc thái mới cho nhà…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Phân định rõ ranh giới thu hồi đất và cơ chế điều chỉnh đất đai",
           "link": "https://vneconomy.vn/phan-dinh-ro-ranh-gioi-thu-hoi-dat-va-co-che-dieu-chinh-dat-dai.htm",
           "pubDate": "2026-08-07T11:56:31.000Z",
@@ -167,7 +233,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Phó Chủ tịch Quốc hội Nguyễn Thị Thanh cho rằng đất đai là phép thử lớn nhất bảo đảm tính công bằng của Luật Phát triển đô thị."
+          "condensed": null
         },
         {
           "title": "Khu phố thương mại SOHO tại The Global City: Nơi bản sắc giao thương song hành nhịp sống toàn cầu",
@@ -179,75 +245,9 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Hà Nội đề xuất phát huy cơ chế đặc thù trong quản lý kiến trúc, quy hoạch",
-          "link": "https://vneconomy.vn/ha-noi-de-xuat-phat-huy-co-che-dac-thu-trong-quan-ly-kien-truc-quy-hoach.htm",
-          "pubDate": "2026-08-07T11:19:10.000Z",
-          "excerpt": "Dự án Luật sửa đổi, bổ sung một số điều của Luật Kiến trúc được kỳ vọng tiếp tục hoàn thiện khung pháp lý, đáp ứng yêu cầu trong giai đoạn mới. Quá trình thảo…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "9 trụ cầu Hồng Hà dần lộ diện giữa sông Hồng",
-          "link": "https://cafef.vn/9-tru-cau-hong-ha-dan-lo-dien-giua-song-hong-18826080715334212.chn",
-          "pubDate": "2026-08-07T09:38:00.000Z",
-          "excerpt": "Sau gần 8 tháng thi công, 9 trụ chính của cầu Hồng Hà đã đồng loạt vươn lên giữa sông Hồng, hoàn thành mục tiêu vượt lũ tiểu mãn năm 2026. Dự án hiện đạt…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "9 trụ cầu Hồng Hà dần lộ diện giữa sông Hồng sau gần 8 tháng thi công."
-        },
-        {
-          "title": "Tăng tốc thi công nút giao cửa ngõ phía Nam Hà Nội, cán đích cuối năm 2026",
-          "link": "https://cafef.vn/tang-toc-thi-cong-nut-giao-cua-ngo-phia-nam-ha-noi-can-dich-cuoi-nam-2026-188260807134301888.chn",
-          "pubDate": "2026-08-07T09:06:00.000Z",
-          "excerpt": "Sau nhiều năm dừng thi công, dự án nút giao Phạm Tu - đường 70 xuất hiện những trụ cầu đầu tiên, công trường đang tăng tốc để kịp hoàn thành vào cuối năm 2026.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Dự án nút giao Phạm Tu - đường 70 tăng tốc thi công để hoàn thành vào cuối năm 2026."
-        },
-        {
-          "title": "Hà Nội phân công triển khai 50 thỏa thuận sau Hội nghị công bố Quy hoạch và xúc tiến đầu tư",
-          "link": "https://vneconomy.vn/ha-noi-phan-cong-trien-khai-50-thoa-thuan-sau-hoi-nghi-cong-bo-quy-hoach-va-xuc-tien-dau-tu.htm",
-          "pubDate": "2026-08-07T09:04:11.000Z",
-          "excerpt": "UBND TP. Hà Nội vừa ban hành Kế hoạch triển khai các Bản ghi nhớ, thỏa thuận hợp tác được ký kết trong khuôn khổ Hội nghị công bố Quy hoạch tổng thể Thủ đô tầm…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Chủ đầu tư nói gì về tình trạng hằn lún mặt đường cao tốc Cam Lộ - La Sơn?",
-          "link": "https://cafef.vn/chu-dau-tu-noi-gi-ve-tinh-trang-han-lun-mat-duong-cao-toc-cam-lo-la-son-188260807134408957.chn",
-          "pubDate": "2026-08-07T08:59:00.000Z",
-          "excerpt": "Chủ đẩu tư nói về nguyên nhân dẫn đến mặt đường cao tốc Cam Lộ - La Sơn xuất hiện nhiều điểm hằn lún cũng như hướng khắc phục.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Trả hồ sơ điều tra bổ sung đại án dự án bất động sản 'ma'",
-          "link": "https://cafef.vn/tra-ho-so-dieu-tra-bo-sung-dai-an-du-an-bat-dong-san-ma-188260807134601626.chn",
-          "pubDate": "2026-08-07T08:29:00.000Z",
-          "excerpt": "Dựng hàng loạt dự án bất động sản 'ma', bán cả căn hộ chưa đủ điều kiện chuyển nhượng để chiếm đoạt hàng trăm tỷ đồng, nhóm bị cáo bị Viện Kiểm sát đề nghị mức…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
-      "aiSummary": "Dự án cầu Hồng Hà đã hoàn thành 9 trụ chính giữa sông Hồng sau gần 8 tháng thi công."
+      "aiSummary": null
     },
     {
       "key": "macro",
@@ -262,7 +262,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Phó Thủ tướng ký công điện về cơ cấu lại vốn nhà nước tại doanh nghiệp trước 31/8/2026."
         },
         {
           "title": "[Bài 1] Luật Phục hồi, phá sản 2025: Ưu tiên “tái sinh” doanh nghiệp",
@@ -284,7 +284,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Thu phí cao tốc Bắc - Nam đạt hơn 1.300 tỷ đồng sau 4 tháng."
         },
         {
           "title": "TPHCM chuẩn bị khởi công nhiều dự án dịp Quốc khánh 2/9",
@@ -306,7 +306,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Bộ Tài chính đề xuất giảm 30% thuế cho hộ kinh doanh, doanh nghiệp thu dưới 10 tỷ đồng."
         },
         {
           "title": "Yêu cầu hoàn thiện hạ tầng sạc điện tại các trạm dừng nghỉ",
@@ -349,6 +349,83 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Michigan says it’s OK to start eating salads again as cyclospora outbreak wanes",
+          "link": "https://www.marketwatch.com/story/michigan-says-its-ok-to-start-eating-salads-again-as-cyclospora-outbreak-wanes-b6e9a2c2?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T14:31:00.000Z",
+          "excerpt": "The state, which has been at the center of the biggest cyclospora outbreak in the U.S., said this week that the number new cases of cyclosporiasis has fallen.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "Michigan lifts salad consumption warning as cyclospora cases decline."
+        },
+        {
+          "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
+          "link": "https://www.marketwatch.com/story/im-easing-into-retirement-im-getting-an-80-000-pension-payout-where-can-i-invest-it-safely-6653d810?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T14:30:00.000Z",
+          "excerpt": "“I expect to have several years before I take distributions from my 401(k) account.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "I’m an unemployed software developer who is skeptical of AI. Can I still find a job in tech?",
+          "link": "https://www.marketwatch.com/story/im-an-unemployed-software-developer-who-is-skeptical-of-ai-can-i-still-find-a-job-in-tech-4413875e?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T14:15:00.000Z",
+          "excerpt": "“I was approached by one company who wants to use AI to dispatch ambulances.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
+          "link": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T14:00:00.000Z",
+          "excerpt": "“She has been living with me for four years.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "US unexpectedly loses jobs in July, in blow to Trump’s economy claims",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363356/us-unexpectedly-loses-jobs-july-blow-trumps-economy-claims?utm_source=rss_feed",
+          "pubDate": "2026-08-07T13:55:04.000Z",
+          "excerpt": "The US economy unexpectedly lost 23,000 jobs in July, government data showed, a blow to US President Donald Trump’s claims of leading an economic revival as…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": "The US economy lost 23,000 jobs in July."
+        },
+        {
+          "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+          "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+          "pubDate": "2026-08-07T13:40:19.000Z",
+          "excerpt": "Nonfarm payrolls were projected to increase by 83,000 in July while the unemployment rate would hold steady at 4.2%, according to the Dow Jones consensus.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": "The US economy lost 23,000 jobs in July."
+        },
+        {
+          "title": "US economy unexpectedly sheds 23,000 jobs in July",
+          "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
+          "pubDate": "2026-08-07T13:38:45.000Z",
+          "excerpt": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": "The US economy lost 23,000 jobs in July."
+        },
+        {
           "title": "How a Few Hot Stocks Can Make ‘Twin’ Funds Act Like Strangers",
           "link": "https://www.wsj.com/finance/investing/how-a-few-hot-stocks-can-make-twin-funds-act-like-strangers-0ef7c52b?mod=rss_markets_main",
           "pubDate": "2026-08-07T13:00:00.000Z",
@@ -357,83 +434,6 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
-          "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
-          "pubDate": "2026-08-07T12:53:12.000Z",
-          "excerpt": "Nonfarm payrolls were projected to increase by 83,000 in July while the unemployment rate held steady at 4.2%, according to the Dow Jones consensus.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "US economy unexpectedly shed 23,000 jobs in July",
-          "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
-          "pubDate": "2026-08-07T12:51:46.000Z",
-          "excerpt": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "How S&P 500 options action may help explain the rising volatility in memory stocks",
-          "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T12:38:00.000Z",
-          "excerpt": "Bullish derivative bets mesh with the buy-the-dip mentality, says IBKR’s Sosnick.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "The world that made Confucius – and the China he made",
-          "link": "https://www.scmp.com/opinion/china-opinion/article/3363031/world-made-confucius-and-china-he-made?utm_source=rss_feed",
-          "pubDate": "2026-08-07T12:30:07.000Z",
-          "excerpt": "“Philosophers have only interpreted the world, in various ways; the point, however, is to change it.” This famous 11th thesis from Karl Marx’s Theses on…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Bus driver kicked explosive drone out of the air at German airport",
-          "link": "https://www.scmp.com/news/world/europe/article/3363344/bus-driver-kicked-explosive-drone-out-air-german-airport?utm_source=rss_feed",
-          "pubDate": "2026-08-07T11:57:07.000Z",
-          "excerpt": "A bus driver knocked an explosive-laden drone out of the air, potentially preventing an attack this week at a German airport that serves as a major Nato and…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Saudi Arabia, Turkey and Pakistan sign defence pact in Mecca",
-          "link": "https://www.ft.com/content/a988ae61-a218-4872-a4d7-a3061c6ca7ab?syn-25a6b1a6=1",
-          "pubDate": "2026-08-07T11:37:33.000Z",
-          "excerpt": "Three allies seek to deepen regional security co-operation to deal with wars and instability",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Saudi Arabia, Turkey and Pakistan sign joint defence deal amid regional turmoil",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3363340/saudi-arabia-turkey-and-pakistan-sign-joint-defence-deal-amid-regional-turmoil?utm_source=rss_feed",
-          "pubDate": "2026-08-07T11:27:39.000Z",
-          "excerpt": "Saudi Arabia, Pakistan and Turkey signed a joint defence agreement in Mecca on Friday, wedding Sunni Muslim US allies alarmed at a regional conflagration that…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
