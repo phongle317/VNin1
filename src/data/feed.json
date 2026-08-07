@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T11:52:22.086Z",
+  "lastUpdated": "2026-08-07T13:09:53.866Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4383.2,
+      "value": 4418.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26365.22,
-      "change": 735.9799999999996,
-      "changePercent": 2.871641921492793
+      "value": 26419.51,
+      "change": 790.2699999999968,
+      "changePercent": 3.083470286282374
     }
   ],
   "themes": [
@@ -83,7 +83,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Dòng vốn xanh không thiếu, nhưng dự án phải đáp ứng điều kiện để thu hút hiệu quả."
+          "condensed": "Dòng vốn xanh không thiếu, bài toán nằm ở dự án và khả năng hấp thụ vốn tại Việt Nam."
         },
         {
           "title": "Tịch thu 39 thỏi vàng trị giá 29 tỷ đồng buôn lậu qua biên giới bằng xe máy",
@@ -127,7 +127,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chủ tịch mua hết lượng cổ phiếu đã đăng ký với khoảng 42 tỷ đồng."
+          "condensed": "Chủ tịch mua hết lượng cổ phiếu đã đăng ký với ước tính 42 tỷ đồng."
         },
         {
           "title": "Cổ phiếu doanh nghiệp nhà nước nổi sóng",
@@ -152,12 +152,34 @@
           "condensed": "Khối ngoại mua ròng một cổ phiếu mạnh tay 700 tỷ đồng trong phiên cuối tuần."
         }
       ],
-      "aiSummary": "Cổ phiếu doanh nghiệp nhà nước thu hút dòng tiền, trở thành động lực chính của VN-Index trong phiên chứng khoán tăng điểm nhưng phân hoá."
+      "aiSummary": null
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Phân định rõ ranh giới thu hồi đất và cơ chế điều chỉnh đất đai",
+          "link": "https://vneconomy.vn/phan-dinh-ro-ranh-gioi-thu-hoi-dat-va-co-che-dieu-chinh-dat-dai.htm",
+          "pubDate": "2026-08-07T11:56:31.000Z",
+          "excerpt": "Phó Chủ tịch Quốc hội Nguyễn Thị Thanh cho rằng đất đai là “phép thử” lớn nhất bảo đảm tính công bằng của Luật Phát triển đô thị. Do vậy, Ban soạn thảo cần rà…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Phó Chủ tịch Quốc hội Nguyễn Thị Thanh cho rằng đất đai là phép thử lớn nhất bảo đảm tính công bằng của Luật Phát triển đô thị."
+        },
+        {
+          "title": "Khu phố thương mại SOHO tại The Global City: Nơi bản sắc giao thương song hành nhịp sống toàn cầu",
+          "link": "https://vneconomy.vn/khu-pho-thuong-mai-soho-tai-the-global-city-noi-ban-sac-giao-thuong-song-hanh-nhip-song-toan-cau.htm",
+          "pubDate": "2026-08-07T11:53:42.000Z",
+          "excerpt": "Kế thừa tinh thần giao thương của phố thị Việt và được thiết kế dưới tư duy quy hoạch chuẩn quốc tế, SOHO tại The Global City mở ra một sắc thái mới cho nhà…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Hà Nội đề xuất phát huy cơ chế đặc thù trong quản lý kiến trúc, quy hoạch",
           "link": "https://vneconomy.vn/ha-noi-de-xuat-phat-huy-co-che-dac-thu-trong-quan-ly-kien-truc-quy-hoach.htm",
@@ -178,7 +200,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "9 trụ cầu Hồng Hà dần lộ diện giữa sông Hồng sau gần 8 tháng thi công."
         },
         {
           "title": "Tăng tốc thi công nút giao cửa ngõ phía Nam Hà Nội, cán đích cuối năm 2026",
@@ -189,7 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Dự án nút giao Phạm Tu - đường 70 tăng tốc thi công để hoàn thành vào cuối năm 2026."
         },
         {
           "title": "Hà Nội phân công triển khai 50 thỏa thuận sau Hội nghị công bố Quy hoạch và xúc tiến đầu tư",
@@ -223,36 +245,25 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
+        }
+      ],
+      "aiSummary": "Dự án cầu Hồng Hà đã hoàn thành 9 trụ chính giữa sông Hồng sau gần 8 tháng thi công."
+    },
+    {
+      "key": "macro",
+      "displayName": "Vĩ mô / Đầu tư",
+      "articles": [
         {
-          "title": "Nơi 'lạnh nhất Việt Nam' sắp có tuyến cáp treo lên thẳng đỉnh núi cao hơn 1500m, tổng vốn trên 7.300 tỷ đồng",
-          "link": "https://cafef.vn/noi-lanh-nhat-viet-nam-sap-co-tuyen-cap-treo-len-thang-dinh-nui-cao-hon-1500m-tong-von-tren-7300-ty-dong-188260807134723644.chn",
-          "pubDate": "2026-08-07T08:13:00.000Z",
-          "excerpt": "Thông tin mới nhất từ công trình dự án cáp treo lên đỉnh núi cao hơn 1500m ở nơi \"lạnh nhất Việt Nam\".",
+          "title": "Trước 31/8/2026, hoàn thành kế hoạch cơ cấu lại vốn nhà nước tại doanh nghiệp giai đoạn 2026-2030",
+          "link": "https://cafef.vn/truoc-31-8-2026-hoan-thanh-ke-hoach-co-cau-lai-von-nha-nuoc-tai-doanh-nghiep-giai-doan-2026-2030-188260807195233256.chn",
+          "pubDate": "2026-08-07T12:59:00.000Z",
+          "excerpt": "Phó Thủ tướng Chính phủ Nguyễn Văn Thắng vừa ký Công điện số 52/CĐ-TTg ngày 07/8/2026 về triển khai công tác cơ cấu lại vốn nhà nước tại doanh nghiệp.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
         },
-        {
-          "title": "Hải Phòng đã thu hồi 149 nhà đất công sản cho thuê kinh doanh",
-          "link": "https://vneconomy.vn/hai-phong-da-thu-hoi-149-nha-dat-cong-san-cho-thue-kinh-doanh.htm",
-          "pubDate": "2026-08-07T08:03:11.000Z",
-          "excerpt": "Trong số 159 cơ sở nhà đất công sản thu hồi theo Nghị định 108/2024/NĐ-CP, Hải Phòng đã thực hiện thu hồi được 149 cơ sở…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        }
-      ],
-      "aiSummary": null
-    },
-    {
-      "key": "macro",
-      "displayName": "Vĩ mô / Đầu tư",
-      "articles": [
         {
           "title": "[Bài 1] Luật Phục hồi, phá sản 2025: Ưu tiên “tái sinh” doanh nghiệp",
           "link": "https://vneconomy.vn/bai-1-luat-phuc-hoi-pha-san-2025-uu-tien-tai-sinh-doanh-nghiep.htm",
@@ -309,17 +320,6 @@
           "condensed": null
         },
         {
-          "title": "Lương bác sĩ, giáo viên trẻ: Tăng từ bậc 1 lên bậc 2 không tạo nhiều khác biệt về thu nhập",
-          "link": "https://cafef.vn/luong-bac-si-giao-vien-tre-tang-tu-bac-1-len-bac-2-khong-tao-nhieu-khac-biet-ve-thu-nhap-188260807143426968.chn",
-          "pubDate": "2026-08-07T08:30:00.000Z",
-          "excerpt": "Theo đại biểu Quốc hội, mức lương của đội ngũ bác sĩ, dược sĩ, nhân viên y tế và giáo viên trẻ mới ra trường hiện còn rất thấp, việc tăng từ bậc lương 1 lên…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Ba giải pháp chiến lược nhằm cán mốc xuất khẩu 74 tỷ USD",
           "link": "https://vneconomy.vn/ba-giai-phap-chien-luoc-nham-can-moc-xuat-khau-74-ty-usd.htm",
           "pubDate": "2026-08-07T03:59:37.000Z",
@@ -349,21 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Saudi Arabia, Turkey and Pakistan sign joint defence deal amid regional turmoil",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3363340/saudi-arabia-turkey-and-pakistan-sign-joint-defence-deal-amid-regional-turmoil?utm_source=rss_feed",
-          "pubDate": "2026-08-07T11:27:39.000Z",
-          "excerpt": "Saudi Arabia, Pakistan and Turkey signed a joint defence agreement in Mecca on Friday, wedding Sunni Muslim US allies alarmed at a regional conflagration that…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "How a Few Hot Stocks Can Make ‘Twin’ Funds Act Like Strangers",
+          "link": "https://www.wsj.com/finance/investing/how-a-few-hot-stocks-can-make-twin-funds-act-like-strangers-0ef7c52b?mod=rss_markets_main",
+          "pubDate": "2026-08-07T13:00:00.000Z",
+          "excerpt": "Index funds that seem to invest the same way are performing very differently this year.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
           "condensed": null
         },
         {
-          "title": "The July jobs numbers are due out Friday. Here's what to expect",
-          "link": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
-          "pubDate": "2026-08-07T11:23:07.000Z",
-          "excerpt": "Nonfarm payrolls are expected to post a gain of just 83,000 with an unchanged unemployment rate at 4.2%.",
+          "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+          "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+          "pubDate": "2026-08-07T12:53:12.000Z",
+          "excerpt": "Nonfarm payrolls were projected to increase by 83,000 in July while the unemployment rate held steady at 4.2%, according to the Dow Jones consensus.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
@@ -371,10 +371,10 @@
           "condensed": null
         },
         {
-          "title": "UK shares: hotter than below decks in a heatwave",
-          "link": "https://www.ft.com/content/dabdeae3-9855-484b-9369-e74176352107?syn-25a6b1a6=1",
-          "pubDate": "2026-08-07T11:00:08.000Z",
-          "excerpt": "While away on holiday sweating, my FTSE 100 fund rose 4 per cent",
+          "title": "US economy unexpectedly shed 23,000 jobs in July",
+          "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
+          "pubDate": "2026-08-07T12:51:46.000Z",
+          "excerpt": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -382,31 +382,9 @@
           "condensed": null
         },
         {
-          "title": "Kevin O’Leary, aka ‘Mr. Wonderful,’ on crypto, winning in AI and 3 things all business owners must know",
-          "link": "https://www.marketwatch.com/story/kevin-oleary-aka-mr-wonderful-on-crypto-winning-in-ai-and-3-things-all-business-owners-must-know-5339ff6c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T11:00:00.000Z",
-          "excerpt": "What Kevin O’Leary learned from Steve Jobs: You only need to get three things done every day. Just three.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Optical stocks have a China problem that most investors are missing",
-          "link": "https://www.marketwatch.com/story/optical-stocks-have-a-china-problem-that-most-investors-are-missing-45523981?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T11:00:00.000Z",
-          "excerpt": "Beijing controls a chokepoint that Washington’s own crackdown can’t address.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "How S&P 500 options action may help explain the rising volatility in memory stocks",
           "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T10:56:00.000Z",
+          "pubDate": "2026-08-07T12:38:00.000Z",
           "excerpt": "Bullish derivative bets mesh with the buy-the-dip mentality, says IBKR’s Sosnick.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -415,25 +393,47 @@
           "condensed": null
         },
         {
-          "title": "Oil Analysts Stumped by the Case of the Missing Barrels",
-          "link": "https://www.wsj.com/finance/stocks/oil-analysts-stumped-by-the-case-of-the-missing-barrels-e4c364e6?mod=rss_markets_main",
-          "pubDate": "2026-08-07T10:22:00.000Z",
-          "excerpt": "Plus, it’s Jobs Day",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "The world that made Confucius – and the China he made",
+          "link": "https://www.scmp.com/opinion/china-opinion/article/3363031/world-made-confucius-and-china-he-made?utm_source=rss_feed",
+          "pubDate": "2026-08-07T12:30:07.000Z",
+          "excerpt": "“Philosophers have only interpreted the world, in various ways; the point, however, is to change it.” This famous 11th thesis from Karl Marx’s Theses on…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         },
         {
-          "title": "New Intelligence Warns Russia May Provoke NATO Amid Dwindling U.S. Munitions",
-          "link": "https://www.wsj.com/finance/investing/new-intelligence-warns-russia-may-provoke-nato-amid-dwindling-u-s-munitions-68f497c7?mod=rss_markets_main",
-          "pubDate": "2026-08-07T10:03:00.000Z",
-          "excerpt": "Plus, once-hot software companies race to reinvent themselves as AI closes in, and NYC’s pied-à-terre owners hunt for creative ways to dodge the new tax.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "Bus driver kicked explosive drone out of the air at German airport",
+          "link": "https://www.scmp.com/news/world/europe/article/3363344/bus-driver-kicked-explosive-drone-out-air-german-airport?utm_source=rss_feed",
+          "pubDate": "2026-08-07T11:57:07.000Z",
+          "excerpt": "A bus driver knocked an explosive-laden drone out of the air, potentially preventing an attack this week at a German airport that serves as a major Nato and…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Saudi Arabia, Turkey and Pakistan sign defence pact in Mecca",
+          "link": "https://www.ft.com/content/a988ae61-a218-4872-a4d7-a3061c6ca7ab?syn-25a6b1a6=1",
+          "pubDate": "2026-08-07T11:37:33.000Z",
+          "excerpt": "Three allies seek to deepen regional security co-operation to deal with wars and instability",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Saudi Arabia, Turkey and Pakistan sign joint defence deal amid regional turmoil",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3363340/saudi-arabia-turkey-and-pakistan-sign-joint-defence-deal-amid-regional-turmoil?utm_source=rss_feed",
+          "pubDate": "2026-08-07T11:27:39.000Z",
+          "excerpt": "Saudi Arabia, Pakistan and Turkey signed a joint defence agreement in Mecca on Friday, wedding Sunni Muslim US allies alarmed at a regional conflagration that…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
