@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T15:59:22.716Z",
+  "lastUpdated": "2026-08-07T16:57:27.780Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4409,
+      "value": 4400.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7753.67,
-      "change": 263.9499999999998,
-      "changePercent": 3.524163787164271
+      "value": 7747.41,
+      "change": 257.6899999999996,
+      "changePercent": 3.440582558493503
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26669.432,
-      "change": 1295.5820000000022,
-      "changePercent": 5.1059732756361464
+      "value": 26617.074,
+      "change": 1243.224000000002,
+      "changePercent": 4.8996269781684765
     },
     {
       "symbol": "^N225",
@@ -116,7 +116,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "VIFC cần đóng vai trò cầu nối cho dòng vốn xanh."
+          "condensed": "VIFC cần đóng vai trò cầu nối cho dòng vốn xanh quốc tế."
         },
         {
           "title": "Dòng vốn xanh không thiếu, bài toán nằm ở dự án và khả năng hấp thụ vốn",
@@ -149,7 +149,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Giao dịch hợp đồng tương lai VN30 tăng mạnh tháng 7."
+          "condensed": "Giao dịch hợp đồng tương lai VN30 tăng mạnh tháng 7/2026."
         }
       ],
       "aiSummary": null
@@ -349,6 +349,61 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "SpaceX’s stock is having one of its best days ever — with the first lockup expiration now behind it",
+          "link": "https://www.marketwatch.com/story/spacexs-stock-is-having-one-of-its-best-days-ever-with-the-first-lockup-expiration-now-behind-it-cd55946c?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T16:54:00.000Z",
+          "excerpt": "Sometimes stocks come under pressure once insiders are able to unload shares, but in the case of SpaceX. that risk may have been already priced in.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Here are three key takeaways from the disappointing July jobs report",
+          "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+          "pubDate": "2026-08-07T16:34:09.000Z",
+          "excerpt": "Nonfarm payrolls in the U.S. unexpectedly declined in July, but so did the unemployment rate, leaving investors with mixed signals.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": null
+        },
+        {
+          "title": "Financial Services Roundup: Market Talk",
+          "link": "https://www.wsj.com/business/financial-services-roundup-market-talk-78c77f4f?mod=rss_markets_main",
+          "pubDate": "2026-08-07T16:24:00.000Z",
+          "excerpt": "Find insight on Munich Re, Oversea-Chinese Banking Corp., Assicurazioni Generali and more in the latest Market Talks covering financial services.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
+          "link": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T16:16:00.000Z",
+          "excerpt": "“He has never been particularly generous or nurturing.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "‘This has been an emotionally difficult time’: My brother has cancer and my father is 94. How do I shoulder this responsibility?",
+          "link": "https://www.marketwatch.com/story/this-has-been-an-emotionally-difficult-time-my-brother-has-cancer-and-my-father-is-94-how-do-i-shoulder-this-responsibility-9da09dc4?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T16:00:00.000Z",
+          "excerpt": "“My father placed his $600,000 Wisconsin home into a revocable trust, naming my brother as beneficiary.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
           "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
           "pubDate": "2026-08-07T15:52:25.000Z",
@@ -379,61 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "This mom spent $2,000 on her kindergartner as viral ‘back-to-school hauls’ on TikTok and YouTube spin out of control",
-          "link": "https://www.marketwatch.com/story/this-mom-spent-2-000-on-her-kindergartner-as-viral-back-to-school-hauls-on-tiktok-and-youtube-spin-out-of-control-0be2949d?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T15:36:00.000Z",
-          "excerpt": "Students and parents are breaking their back-to-school budgets thanks to inflation and social-media trends.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Doximity’s stock skyrockets 50% on medical AI excitement. Can the rally last?",
-          "link": "https://www.marketwatch.com/story/doximitys-stock-skyrockets-50-on-medical-ai-excitement-can-the-rally-last-1a5cedce?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T15:36:00.000Z",
-          "excerpt": "While one analyst thinks Doximity has a compelling AI opportunity, another worries that the company could cannibalize its core business of medical networking.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Are target-date funds hurting Americans as they live longer?",
-          "link": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T15:18:00.000Z",
-          "excerpt": "The popular default investments may need to be more aggressive in order to fund decades of retirement.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Tax-free weekends start in Texas, Florida and several other states today. Here’s what to know.",
-          "link": "https://www.marketwatch.com/story/these-16-states-are-offering-tax-holidays-as-back-to-school-costs-soar-to-over-800-per-student-0ec92464?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T15:09:00.000Z",
-          "excerpt": "16 states are offering tax-free shopping holidays throughout the month as back-to-school costs soar to over $800 per student",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Michigan says it’s OK to start eating salads again as cyclospora outbreak wanes",
-          "link": "https://www.marketwatch.com/story/michigan-says-its-ok-to-start-eating-salads-again-as-cyclospora-outbreak-wanes-b6e9a2c2?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T14:31:00.000Z",
-          "excerpt": "The state, which has been at the center of the biggest cyclospora outbreak in the U.S., said this week that the number new cases of cyclosporiasis has fallen.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
