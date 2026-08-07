@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T19:01:28.296Z",
+  "lastUpdated": "2026-08-07T19:54:29.057Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4397.5,
+      "value": 4407,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7741.67,
-      "change": 251.94999999999982,
-      "changePercent": 3.3639441794886835
+      "value": 7753.17,
+      "change": 263.4499999999998,
+      "changePercent": 3.517487970177788
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26598.88,
-      "change": 1225.0300000000025,
-      "changePercent": 4.827923235929914
+      "value": 26680.617,
+      "change": 1306.7669999999998,
+      "changePercent": 5.150054091121371
     },
     {
       "symbol": "^N225",
@@ -83,7 +83,18 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Khối ngoại mua ròng 2.200 tỷ đồng cổ phiếu Việt Nam."
+          "condensed": "Khối ngoại mua ròng cổ phiếu Việt Nam 2.200 tỷ đồng."
+        },
+        {
+          "title": "Nhà sản xuất 'Anh trai say hi' nửa năm lãi hơn 135 tỷ đồng",
+          "link": "https://vnexpress.net/nha-san-xuat-anh-trai-say-hi-nua-nam-lai-hon-135-ty-dong-5106631.html",
+          "pubDate": "2026-08-07T17:10:00.000Z",
+          "excerpt": "DatVietVAC - nhà sản xuất chương trình \"Anh trai say hi\" - ghi nhận lãi tăng lên 135 tỷ đồng trong 6 tháng đầu năm, dù doanh thu giảm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "DatVietVAC lãi 135 tỷ đồng trong 6 tháng đầu năm."
         },
         {
           "title": "Một yếu tố quan trọng đang trở lại trên thị trường chứng khoán",
@@ -94,7 +105,40 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Hoạt động đấu giá cổ phần trở lại tích cực."
+          "condensed": null
+        },
+        {
+          "title": "Ba Lan muốn mua thêm tôm, tiêu từ Việt Nam",
+          "link": "https://vnexpress.net/ba-lan-muon-mua-them-tom-tieu-tu-viet-nam-5106505.html",
+          "pubDate": "2026-08-07T17:01:00.000Z",
+          "excerpt": "Doanh nghiệp Ba Lan tăng tìm nguồn nông sản, thực phẩm từ Việt Nam, gồm các mặt hàng như tôm và hồ tiêu.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Ba Lan muốn mua thêm tôm và tiêu từ Việt Nam."
+        },
+        {
+          "title": "Kỹ sư Nhật Bản thu điện từ đất, bánh mì",
+          "link": "https://vnexpress.net/ky-su-nhat-ban-thu-dien-tu-dat-banh-mi-5106245.html",
+          "pubDate": "2026-08-07T17:00:00.000Z",
+          "excerpt": "Ông Satoshi Nakagawa tạo dòng điện nhỏ từ đất, bánh mì, cà chua, phù hợp cho các thiết bị công suất thấp, hoặc vùng chưa có lưới điện, khu vực chịu thiên tai.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Kỹ sư Nhật Bản tạo dòng điện từ đất và thực phẩm."
+        },
+        {
+          "title": "Các quỹ nắm nhiều cổ phiếu nhóm Vingroup vẫn lỗ",
+          "link": "https://vnexpress.net/cac-quy-nam-nhieu-co-phieu-nhom-vingroup-van-lo-5106164.html",
+          "pubDate": "2026-08-07T17:00:00.000Z",
+          "excerpt": "Dù nâng tỷ trọng VIC, VHM lên nhóm dẫn dắt danh mục trong giai đoạn tăng nóng, nhiều quỹ mở cổ phiếu vẫn ghi nhận hiệu suất âm trong tháng 7.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
         },
         {
           "title": "Doanh nghiệp bảo hiểm đầu tư cổ phiếu lãi, lỗ ra sao?",
@@ -105,51 +149,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Doanh nghiệp bảo hiểm đầu tư cổ phiếu và trái phiếu."
-        },
-        {
-          "title": "Bán ròng 600 tỷ đồng trong phiên cuối tuần, tự doanh CTCK \"xả\" mã nào mạnh nhất?",
-          "link": "https://cafef.vn/ban-rong-600-ty-dong-trong-phien-cuoi-tuan-tu-doanh-ctck-xa-ma-nao-manh-nhat-188260807203307979.chn",
-          "pubDate": "2026-08-07T13:32:00.000Z",
-          "excerpt": "Tự doanh CTCK bán ròng 604 tỷ đồng trên HOSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Tự doanh CTCK bán ròng 604 tỷ đồng."
-        },
-        {
-          "title": "Tuần 03-07/08: USD thế giới đảo chiều, tỷ giá tự do trong nước \"hạ nhiệt\"",
-          "link": "http://vietstock.vn/2026/08/tuan-03-0708-usd-the-gioi-dao-chieu-ty-gia-tu-do-trong-nuoc-ha-nhiet-757-1478170.htm",
-          "pubDate": "2026-08-07T13:02:00.000Z",
-          "excerpt": "Trong tuần đầu tiên của tháng 8 (03-07/08), USD trên thị trường quốc tế đảo chiều hồi phục sau cú sụt giảm, dưới tác động của hàng loạt biến số vĩ mô và rủi ro…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "USD thế giới đảo chiều và tỷ giá tự do hạ nhiệt."
-        },
-        {
-          "title": "VIFC cần đóng vai trò cầu nối để dòng vốn xanh quốc tế chảy vào nền kinh tế",
-          "link": "http://vietstock.vn/2026/08/vifc-can-dong-vai-tro-cau-noi-de-dong-von-xanh-quoc-te-chay-vao-nen-kinh-te-757-1478052.htm",
-          "pubDate": "2026-08-07T10:00:00.000Z",
-          "excerpt": "Trong bối cảnh nhu cầu vốn cho quá trình chuyển đổi xanh của Việt Nam ngày càng lớn, việc xây dựng Trung tâm Tài chính Quốc tế Việt Nam tại TP.HCM (VIFC) không…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "VIFC cần đóng vai trò cầu nối cho dòng vốn xanh."
-        },
-        {
-          "title": "Dòng vốn xanh không thiếu, bài toán nằm ở dự án và khả năng hấp thụ vốn",
-          "link": "http://vietstock.vn/2026/08/dong-von-xanh-khong-thieu-bai-toan-nam-o-du-an-va-kha-nang-hap-thu-von-757-1478066.htm",
-          "pubDate": "2026-08-07T09:43:48.000Z",
-          "excerpt": "Nhu cầu huy động vốn cho chuyển đổi xanh tại Việt Nam vẫn rất lớn. Tuy nhiên, để thu hút hiệu quả dòng vốn quốc tế, điều kiện tiên quyết là dự án phải đáp ứng…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "Dòng vốn xanh cần dự án và khả năng hấp thụ vốn."
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,6 +349,72 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Trump is trying to fire Lisa Cook again. He still wants to stack the Fed with allies.",
+          "link": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T19:47:00.000Z",
+          "excerpt": "Two months after he was blocked by the Supreme Court, President Donald Trump has resumed his effort to oust Federal Reserve governor Lisa Cook as part of an…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "My brother asked me to sign as his executor, but wouldn’t let me read the document. Should I have refused?",
+          "link": "https://www.marketwatch.com/story/my-brother-asked-me-to-sign-as-his-executor-but-wouldnt-let-me-read-the-document-should-i-have-refused-1b53d9bc?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T19:45:00.000Z",
+          "excerpt": "“I imagine scenarios like this happen more often than people realize.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Palantir’s stock stages best week since 2024, showing it’s no longer an AI loser",
+          "link": "https://www.marketwatch.com/story/palantirs-stock-stages-best-week-since-2024-showing-its-no-longer-an-ai-loser-2fc6c32b?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T19:41:00.000Z",
+          "excerpt": "Booming demand for Palantir’s AI solutions is restoring confidence in the company.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Some of the urgency is gone for a Fed rate hike in September after a soft jobs report",
+          "link": "https://www.marketwatch.com/story/some-of-the-urgency-is-gone-for-a-fed-rate-hike-in-september-after-the-soft-jobs-report-19bc5565?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T19:36:00.000Z",
+          "excerpt": "The chances of a hike remain, with upcoming inflation reports a key focus for Fed officials.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
+          "link": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
+          "pubDate": "2026-08-07T19:30:00.000Z",
+          "excerpt": "“She has been living with me for four years.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+          "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+          "pubDate": "2026-08-07T19:14:22.000Z",
+          "excerpt": "Nonfarm payrolls were projected to increase by 83,000 in July while the unemployment rate would hold steady at 4.2%, according to the Dow Jones consensus.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": null
+        },
+        {
           "title": "Trump revives threat to sack Fed governor Lisa Cook",
           "link": "https://www.ft.com/content/0012c7c9-fb31-4c90-a2e7-e65bd4629b22?syn-25a6b1a6=1",
           "pubDate": "2026-08-07T18:27:01.000Z",
@@ -360,17 +426,6 @@
           "condensed": null
         },
         {
-          "title": "Here’s when Elon Musk’s Starlink internet is worth the steep monthly price — and $350 startup cost",
-          "link": "https://www.marketwatch.com/story/heres-when-elon-musks-starlink-internet-is-worth-the-steep-monthly-price-and-350-startup-cost-53735d59?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T18:13:00.000Z",
-          "excerpt": "Starlink versus fiber, cable and 5G: The smart spender’s guide to 2026 internet options.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Here are three key takeaways from the disappointing July jobs report",
           "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
           "pubDate": "2026-08-07T18:09:18.000Z",
@@ -379,61 +434,6 @@
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
           "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "I’m an unemployed software developer who is skeptical of AI. Can I still find a job in tech?",
-          "link": "https://www.marketwatch.com/story/im-an-unemployed-software-developer-who-is-skeptical-of-ai-can-i-still-find-a-job-in-tech-4413875e?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T18:00:00.000Z",
-          "excerpt": "“I was approached by one company who wants to use AI to dispatch ambulances.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "If target date funds aren’t risky enough, Americans could miss out on retirement savings — especially as they live longer",
-          "link": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T17:49:00.000Z",
-          "excerpt": "The popular default investments may need to be more aggressive in order to fund decades of retirement.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Private-Equity Firms Eager for Exits Pounce on Hot IPO Market",
-          "link": "https://www.wsj.com/finance/investing/private-equity-firms-eager-for-exits-pounce-on-hot-ipo-market-e07a70ef?mod=rss_markets_main",
-          "pubDate": "2026-08-07T17:19:00.000Z",
-          "excerpt": "More firms are taking companies public, as sluggish dealmaking has made it hard to find buyers.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Jeanine Pirro, Trump’s legal crusader goes off script",
-          "link": "https://www.ft.com/content/f9804df6-2380-495a-9981-007d95c7dad6?syn-25a6b1a6=1",
-          "pubDate": "2026-08-07T17:00:06.000Z",
-          "excerpt": "The US attorney’s relationship with the president is on thin ice after her office rejected claims of vandalism at the Reflecting Pool",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "SpaceX’s stock is having one of its best days ever — with the first lockup expiration now behind it",
-          "link": "https://www.marketwatch.com/story/spacexs-stock-is-having-one-of-its-best-days-ever-with-the-first-lockup-expiration-now-behind-it-cd55946c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-07T16:54:00.000Z",
-          "excerpt": "Sometimes stocks come under pressure once insiders are able to unload shares, but in the case of SpaceX. that risk may have been already priced in.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
