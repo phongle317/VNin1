@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T19:56:52.157Z",
+  "lastUpdated": "2026-08-10T20:46:00.383Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4446.5,
+      "value": 4450.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7748.92,
-      "change": 148.42000000000007,
-      "changePercent": 1.9527662653772788
+      "value": 7753.11,
+      "change": 152.60999999999967,
+      "changePercent": 2.0078942174856875
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26605.713,
-      "change": 691.8129999999983,
-      "changePercent": 2.66965991224786
+      "value": 26605.357,
+      "change": 691.4569999999985,
+      "changePercent": 2.6682861321530087
     },
     {
       "symbol": "^N225",
@@ -72,7 +72,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Giá vàng tăng hơn 7% trong một tuần."
+          "condensed": "Giá vàng tăng mạnh trong một tuần và chờ dữ liệu quan trọng."
         },
         {
           "title": "Cơ cấu vốn tại doanh nghiệp Nhà nước tác động ra sao tới thị trường?",
@@ -94,7 +94,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chuỗi siêu thị Bách Hóa Xanh mở thêm 875 cửa hàng."
+          "condensed": "Chuỗi siêu thị Bách Hóa Xanh mở thêm cửa hàng."
         },
         {
           "title": "Một cổ phiếu \"bốc đầu\" kịch trần lên đỉnh lịch sử sau thông tin trả cổ tức",
@@ -105,7 +105,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Một cổ phiếu tăng giá sau thông tin trả cổ tức."
+          "condensed": "Cổ phiếu tăng giá sau thông tin trả cổ tức."
         },
         {
           "title": "Xuất hiện loạt tín hiệu tích cực cho thị trường chứng khoán",
@@ -138,7 +138,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "VN-Index chưa thể đột phá vùng 1750-1800 điểm."
+          "condensed": "VN-Index chưa đột phá vùng 1750-1800 điểm."
         },
         {
           "title": "Phó thủ tướng: Không để doanh nghiệp tốt mất cơ hội kinh doanh vì thiếu vốn",
@@ -149,7 +149,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Phó thủ tướng yêu cầu giảm chi phí vay cho doanh nghiệp."
+          "condensed": "Phó thủ tướng yêu cầu hỗ trợ doanh nghiệp không thiếu vốn."
         }
       ],
       "aiSummary": "Giá vàng tăng hơn 7% trong một tuần, nhà đầu tư chờ dữ liệu quan trọng."
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "This Nvidia change could spell good news for Micron",
-          "link": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T19:42:00.000Z",
-          "excerpt": "An analyst says that Nvidia’s move to downgrade some chip capabilities could end up boosting consumption of high-bandwidth memory.",
+          "title": "How the AI Trade Is Stealing Crypto’s Thunder",
+          "link": "https://www.wsj.com/finance/currencies/retail-traders-crypto-cash-0d303c92?mod=rss_markets_main",
+          "pubDate": "2026-08-10T20:40:00.000Z",
+          "excerpt": "These are the investors dropping bitcoin and other digital tokens and getting swept up in the mania over AI stocks.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Workers are worried, but there’s no sign AI is muscling people out of their jobs on a massive scale",
+          "link": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T20:35:00.000Z",
+          "excerpt": "Mark Zuckerberg says we’re lucky to live in an “incredible moment,” but many workers are having a hard time stomaching the uncertainty.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,10 +371,43 @@
           "condensed": null
         },
         {
-          "title": "Fed Chair Kevin Warsh promises 2% inflation, but skyrocketing U.S. debt makes that a pipe dream",
-          "link": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T19:31:00.000Z",
-          "excerpt": "Uncle Sam needs inflation, not just economic growth, to escape today’s debt crisis.",
+          "title": "EBay may dodge a GameStop takeover — but there’s a new twist in the Ryan Cohen saga",
+          "link": "https://www.marketwatch.com/story/ebay-may-dodge-a-gamestop-takeover-but-theres-a-new-twist-in-the-ryan-cohen-saga-d779b753?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T20:17:00.000Z",
+          "excerpt": "Bloomberg says GameStop could propose collaborating with eBay in some way other than a merger. Some analysts doubt whether eBay would benefit much from that…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Oil Surges With No Hormuz Deal in Sight",
+          "link": "https://www.wsj.com/finance/investing/oil-surges-with-no-hormuz-deal-in-sight-10ab080d?mod=rss_markets_main",
+          "pubDate": "2026-08-10T20:16:00.000Z",
+          "excerpt": "Plus, Nvidia’s big deal and Intel’s share sale.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Good news for stock-market bulls: Corporate earnings growth is no longer being driven just by tech",
+          "link": "https://www.marketwatch.com/story/good-news-for-stock-market-bulls-corporate-earnings-growth-is-no-longer-being-driven-just-by-tech-ddac973b?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T20:00:00.000Z",
+          "excerpt": "For years, the S&P 500’s earnings engine had only one driver: the Magnificent Seven. This quarter, the rest of the market has started pulling its weight.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "This Nvidia change could spell good news for Micron",
+          "link": "https://www.marketwatch.com/story/this-nvidia-change-could-spell-good-news-for-micron-80449e59?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T19:42:00.000Z",
+          "excerpt": "An analyst says that Nvidia’s move to downgrade some chip capabilities could end up boosting consumption of high-bandwidth memory.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -382,28 +426,6 @@
           "condensed": null
         },
         {
-          "title": "Microsoft’s stock is charging back. Here’s the case for it to rally another 30%.",
-          "link": "https://www.marketwatch.com/story/microsofts-stock-is-charging-back-heres-the-case-for-it-to-rally-another-30-1fe261cd?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T19:18:00.000Z",
-          "excerpt": "Think Microsoft is overspending on AI? A Bernstein analyst says the company is actually taking a “measured” approach.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
-          "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T18:31:00.000Z",
-          "excerpt": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Nvidia to team with Wall Street on US$500 billion package for AI infrastructure projects",
           "link": "https://www.scmp.com/news/article/3363577/nvidia-team-wall-street-us500-billion-package-ai-infrastructure-projects?utm_source=rss_feed",
           "pubDate": "2026-08-10T18:18:48.000Z",
@@ -412,28 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Russia bars anti-war party from parliamentary election",
-          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3363576/russia-bars-anti-war-party-parliamentary-election?utm_source=rss_feed",
-          "pubDate": "2026-08-10T17:36:07.000Z",
-          "excerpt": "Russia’s Supreme Court barred the liberal Yabloko party on Monday from contesting September’s parliamentary elections, sidelining the only officially…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
-          "link": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
-          "pubDate": "2026-08-10T17:22:31.000Z",
-          "excerpt": "Apollo, Blackstone and Goldman Sachs are among groups working with chipmaker to raise capital for data centre boom",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         }
       ],
