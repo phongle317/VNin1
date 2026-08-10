@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T15:01:54.863Z",
+  "lastUpdated": "2026-08-10T16:02:41.090Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4404.4,
+      "value": 4414.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7757.04,
-      "change": 156.53999999999996,
-      "changePercent": 2.0596013420169723
+      "value": 7766.38,
+      "change": 165.8800000000001,
+      "changePercent": 2.1824879942109088
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26631.896,
-      "change": 717.9959999999992,
-      "changePercent": 2.7706983510779897
+      "value": 26672.37,
+      "change": 758.4699999999975,
+      "changePercent": 2.926884799277598
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26340.45,
-      "change": 339.1399999999994,
-      "changePercent": 1.3043188977786095
+      "value": 26323.88,
+      "change": 322.5699999999997,
+      "changePercent": 1.240591339436358
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "VN-Index sẽ chưa thể đột phá vùng 1750 - 1800 điểm",
+          "link": "https://vneconomy.vn/vn-index-se-chua-the-dot-pha-vung-1750-1800-diem.htm",
+          "pubDate": "2026-08-10T15:44:44.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 11/8/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "VnEconomy giới thiệu nhận định về thị trường ngày 11/8/2026."
+        },
         {
           "title": "Phó thủ tướng: Không để doanh nghiệp tốt mất cơ hội kinh doanh vì thiếu vốn",
           "link": "https://vnexpress.net/pho-thu-tuong-khong-de-doanh-nghiep-tot-mat-co-hoi-kinh-doanh-vi-thieu-von-5107590.html",
@@ -72,7 +83,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Phó thủ tướng yêu cầu giảm chi phí vay để không để doanh nghiệp tốt mất cơ hội kinh doanh vì thiếu vốn."
+          "condensed": "Phó thủ tướng yêu cầu giảm chi phí vay."
         },
         {
           "title": "Một quyết định mới đang kích hoạt \"sóng\" tăng mạnh ở loạt cổ phiếu",
@@ -83,7 +94,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Một quyết định mới kích hoạt sóng tăng mạnh ở loạt cổ phiếu."
+          "condensed": "Một quyết định mới kích hoạt sóng tăng mạnh."
         },
         {
           "title": "CEO JPMorgan Chase cảnh báo về mức độ sử dụng đòn bẩy lớn trên thị trường",
@@ -94,7 +105,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "CEO JPMorgan Chase cảnh báo về mức độ sử dụng đòn bẩy lớn trên thị trường."
+          "condensed": "CEO JPMorgan Chase cảnh báo về nợ ký quỹ."
         },
         {
           "title": "Thị trường chưa sẵn sàng bước vào một nhịp tăng mạnh khi thanh khoản chưa cải thiện rõ rệt?",
@@ -105,7 +116,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Thị trường chưa sẵn sàng bước vào nhịp tăng mạnh khi thanh khoản chưa cải thiện."
+          "condensed": "Thị trường chưa sẵn sàng bước vào nhịp tăng mạnh."
         },
         {
           "title": "Cổ phiếu của Chứng khoán Hòa Bình duy trì diện hạn chế giao dịch",
@@ -116,7 +127,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cổ phiếu Chứng khoán Hòa Bình duy trì diện hạn chế giao dịch."
+          "condensed": "Cổ phiếu HBS hạn chế giao dịch từ ngày 12/8."
         },
         {
           "title": "Khối ngoại lại \"quay xe\" bán ròng 446 tỷ đồng",
@@ -138,18 +149,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Sở Giao dịch Chứng khoán đạt lợi nhuận sau thuế hơn 1.419 tỷ đồng."
-        },
-        {
-          "title": "'Doanh nghiệp đang rất thiếu vốn'",
-          "link": "https://cafef.vn/doanh-nghiep-dang-rat-thieu-von-188260810183911532.chn",
-          "pubDate": "2026-08-10T11:39:00.000Z",
-          "excerpt": "Nhiều doanh nghiệp bất động sản đang muốn phát hành hàng chục triệu cổ phiếu để tăng vốn điều lệ. Nguyên nhân chính của hiện tượng này là áp lực đáo hạn trái…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Doanh nghiệp bất động sản thiếu vốn vì áp lực đáo hạn trái phiếu."
+          "condensed": "Sở Giao dịch Chứng khoán đạt lợi nhuận gần 7,8 tỷ đồng/ngày."
         }
       ],
       "aiSummary": null
@@ -159,6 +159,17 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Tỉnh Quảng Ngãi đẩy nhanh giải phóng mặt bằng dự án 6.700 tỷ của Sun Group tại Măng Đen",
+          "link": "https://cafebiz.vn/tinh-quang-ngai-day-nhanh-giai-phong-mat-bang-du-an-6700-ty-cua-sun-group-tai-mang-den-176260810214701197.chn",
+          "pubDate": "2026-08-10T15:01:00.000Z",
+          "excerpt": "Sáng 10/8, Phó Chủ tịch UBND tỉnh Quảng Ngãi Nguyễn Ngọc Sâm đã có buổi làm việc với UBND xã Măng Đen và các đơn vị liên quan về công tác giải phóng mặt bằng…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": "Tỉnh Quảng Ngãi đẩy nhanh giải phóng mặt bằng dự án của Sun Group tại Măng Đen."
+        },
+        {
           "title": "Thông tin mới về đấu giá 3.790 căn hộ tái định cư ở Thủ Thiêm",
           "link": "https://cafef.vn/thong-tin-moi-ve-dau-gia-3790-can-ho-tai-dinh-cu-o-thu-thiem-188260810202523204.chn",
           "pubDate": "2026-08-10T13:50:00.000Z",
@@ -167,10 +178,10 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "UBND TPHCM giao Trung tâm Phát triển quỹ đất hoàn thiện hồ sơ bán đấu giá 3.790 căn hộ tái định cư ở Thủ Thiêm."
+          "condensed": "UBND TPHCM hoàn thiện hồ sơ bán đấu giá 3.790 căn hộ tái định cư ở Thủ Thiêm."
         },
         {
-          "title": "Đúng 20 ngày nữa, người sử dụng đất không làm thủ tục này có thể bị xử phạt đến 3 triệu đồng",
+          "title": "Đúng 21 ngày nữa, người sử dụng đất không làm thủ tục này có thể bị xử phạt đến 3 triệu đồng",
           "link": "https://cafef.vn/dung-20-ngay-nua-nguoi-su-dung-dat-khong-lam-thu-tuc-nay-co-the-bi-xu-phat-den-3-trieu-dong-188260810203000829.chn",
           "pubDate": "2026-08-10T13:29:00.000Z",
           "excerpt": "Người dân cần lưu ý thực hiện đăng ký đất đai theo quy định để không bị xử phạt hành chính.",
@@ -178,7 +189,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người sử dụng đất không đăng ký đất đai có thể bị xử phạt đến 3 triệu đồng."
+          "condensed": "Người sử dụng đất cần đăng ký đất đai để tránh xử phạt hành chính."
         },
         {
           "title": "Loạt siêu dự án của Vinhomes, FPT, liên danh Đại Quang Minh - THACO - Hòa Phát…ở Hà Nội được gia hạn 3 tháng hoàn thiện điều kiện về khởi công",
@@ -189,7 +200,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "6 dự án ở Hà Nội được gia hạn 3 tháng hoàn thiện điều kiện về khởi công."
+          "condensed": "Hà Nội gia hạn 3 tháng hoàn thiện điều kiện khởi công cho loạt siêu dự án."
         },
         {
           "title": "Không gian sống xanh và thông minh: Lời giải từ Khu đô thị Yên Mỹ",
@@ -200,7 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Dự án Khu nhà ở thông minh Yên Mỹ khởi công."
+          "condensed": "Khu đô thị Yên Mỹ mang đến không gian sống xanh và thông minh."
         },
         {
           "title": "Sự kiện ra mắt The Fest 2 tại Buôn Ma Thuột quy tụ gần 800 khách mời",
@@ -222,18 +233,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Hà Nội sắp xếp lại Sở Xây dựng và kiện toàn lãnh đạo."
-        },
-        {
-          "title": "Măng Đen duyệt quy hoạch khu đô thị 264 ha của Sun World",
-          "link": "https://vnexpress.net/mang-den-duyet-quy-hoach-khu-do-thi-264-ha-cua-sun-world-5107531.html",
-          "pubDate": "2026-08-10T11:15:16.000Z",
-          "excerpt": "Khu đô thị số 1 tại Măng Đen rộng 264 ha, quy mô dân số gần 7.800 người, được định hướng phát triển thành khu đô thị thể thao kết hợp nhà ở với các công trình…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Măng Đen duyệt quy hoạch khu đô thị 264 ha của Sun World."
+          "condensed": "Hà Nội sắp xếp lại Sở Xây dựng và kiện toàn lãnh đạo chủ chốt."
         },
         {
           "title": "Sun Group lần đầu giới thiệu căn hộ tới nhà đầu tư Tây Nguyên",
@@ -244,7 +244,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Sun Group giới thiệu căn hộ The Fest 2 tới nhà đầu tư Tây Nguyên."
+          "condensed": "Sun Group giới thiệu căn hộ tới nhà đầu tư Tây Nguyên."
         }
       ],
       "aiSummary": null
@@ -254,6 +254,17 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Sầu riêng 'tắc' mã vùng trồng, chủ tịch tỉnh thành phải chịu trách nhiệm",
+          "link": "https://cafef.vn/sau-rieng-tac-ma-vung-trong-chu-tich-tinh-thanh-phai-chiu-trach-nhiem-188260810213528599.chn",
+          "pubDate": "2026-08-10T15:09:00.000Z",
+          "excerpt": "Phó Thủ tướng Hồ Quốc Dũng yêu cầu chủ tịch UBND tỉnh, thành phố chịu trách nhiệm nếu để xảy ra ách tắc trong việc cấp mã số vùng trồng, mã số cơ sở đóng gói,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Quy định mới về thông báo lưu trú tất cả người dân cần cập nhật ngay",
           "link": "https://cafef.vn/quy-dinh-moi-ve-thong-bao-luu-tru-tat-ca-nguoi-dan-can-cap-nhat-ngay-188260810214908553.chn",
           "pubDate": "2026-08-10T14:49:00.000Z",
@@ -262,7 +273,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Bộ Công an ban hành thông tư mới về thông báo lưu trú"
+          "condensed": null
         },
         {
           "title": "Bộ Xây dựng làm rõ phương án điều chỉnh tuyến đường sắt Lào Cai - Hà Nội - Hải Phòng",
@@ -273,7 +284,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Bộ Xây dựng trình Quốc hội điều chỉnh dự án đường sắt"
+          "condensed": null
         },
         {
           "title": "Sau gần 8 tháng khởi công, dự án cao tốc xuyên rừng đẹp nhất Việt Nam do Tập đoàn Sơn Hải đầu tư có tiến độ ra sao?",
@@ -284,7 +295,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Dự án cao tốc Tân Phú - Bảo Lộc đang được kiểm tra tiến độ"
+          "condensed": null
         },
         {
           "title": "Đất nhận chuyển nhượng lâu năm, mất giấy tờ gốc: Làm sao để cấp sổ?",
@@ -295,18 +306,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người mất giấy tờ gốc cần làm thủ tục để cấp sổ đỏ"
-        },
-        {
-          "title": "Cùng 'chinh phục' loạt dự án hầm, cao tốc có quy mô lớn trên cả nước, Hội đồng Cố vấn của Đèo Cả có vai trò quan trọng như thế nào?",
-          "link": "https://cafef.vn/cung-chinh-phuc-loat-du-an-ham-cao-toc-co-quy-mo-lon-tren-ca-nuoc-hoi-dong-co-van-cua-deo-ca-co-vai-tro-quan-trong-nhu-the-nao-188260810155706611.chn",
-          "pubDate": "2026-08-10T09:55:00.000Z",
-          "excerpt": "Trong các dự án lớn của Tập đoàn Đèo Cả luôn có sự hỗ trợ của một đội ngũ đặc biệt, những người không chỉ tư vấn về chuyên môn mà còn truyền lửa, truyền kiến…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Hội đồng Cố vấn của Đèo Cả hỗ trợ dự án hầm và cao tốc"
+          "condensed": null
         },
         {
           "title": "Tài sản thực được mã hóa: Động lực mới cho thị trường vốn và kinh tế số",
@@ -317,7 +317,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Tài sản thực được mã hóa tạo động lực mới cho thị trường vốn"
+          "condensed": null
         },
         {
           "title": "Khởi động chuỗi đối thoại hạ tầng dữ liệu chiến lược",
@@ -328,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Hội thảo về dữ liệu địa điểm và kinh tế số được tổ chức"
+          "condensed": null
         },
         {
           "title": "[Bài 2] Chuyển từ “phá sản” sang “phục hồi”: Giải quyết vấn đề chuyển nhượng tài sản và dung hòa lợi ích",
@@ -339,7 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Luật Phục hồi, phá sản 2025 ưu tiên phục hồi doanh nghiệp"
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -348,6 +348,50 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Congo’s Ebola outbreak started months before it was declared, says WHO",
+          "link": "https://www.scmp.com/news/world/africa/article/3363572/congos-ebola-outbreak-started-months-it-was-declared-says-who?utm_source=rss_feed",
+          "pubDate": "2026-08-10T15:47:15.000Z",
+          "excerpt": "The fastest-growing Ebola outbreak on record started in February, months before it was officially declared in mid-May, the World Health Organization said on…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap",
+          "link": "https://www.marketwatch.com/story/17-s-p-500-companies-with-growing-revenue-and-profit-margins-and-some-of-their-stocks-are-cheap-e7c7fa14?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T15:35:00.000Z",
+          "excerpt": "These companies increased their quarterly sales per share by at least 40% while expanding their gross profit margins and their operating margins.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "SpaceX’s stock moves above its IPO price for the first time in almost a month",
+          "link": "https://www.marketwatch.com/story/spacexs-stock-moves-above-its-ipo-price-for-the-first-time-in-almost-a-month-fc3f91b7?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T15:20:00.000Z",
+          "excerpt": "SpaceX shares have been clawing their way back in recent days but remain well off their highs.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "The size of the American workforce has fallen by over 1 million people in the past year. Here’s what’s going on.",
+          "link": "https://www.marketwatch.com/story/the-size-of-the-american-workforce-has-fallen-by-over-1-million-people-in-the-past-year-heres-whats-going-on-b8141aa3?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T15:00:00.000Z",
+          "excerpt": "The share of Americans who are working or looking for a job hasn’t been this low since the pandemic, according to a July jobs report full of gut punches.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
         {
           "title": "Here’s when Elon Musk’s Starlink internet is worth the steep monthly price — and $350 startup cost",
           "link": "https://www.marketwatch.com/story/heres-when-elon-musks-starlink-internet-is-worth-the-steep-monthly-price-and-350-startup-cost-53735d59?mod=mw_rss_topstories",
@@ -360,54 +404,10 @@
           "condensed": null
         },
         {
-          "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
-          "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T14:45:00.000Z",
-          "excerpt": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Taylor Farms recalls jalapeño-based foods in 26 states amid ongoing salmonella outbreak",
-          "link": "https://www.marketwatch.com/story/taylor-farms-recalls-jalapeno-based-foods-in-26-states-amid-ongoing-salmonella-outbreak-f873657b?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T14:41:00.000Z",
-          "excerpt": "The farming giant said this includes salsas, guacamole and pimento cheese dips.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
-          "link": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T14:30:00.000Z",
-          "excerpt": "The Moneyist: “Some readers — and couples — would be grateful to retire on half that amount.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "The stocks of these ‘toll takers’ could be the AI boom’s next big winners",
-          "link": "https://www.marketwatch.com/story/the-stocks-of-these-toll-takers-could-be-the-ai-booms-next-big-winners-ae1081f1?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T14:28:00.000Z",
-          "excerpt": "The next boom could be in stocks of companies collecting recurring revenue from AI workloads.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Colombia hit by 7.4-magnitude earthquake",
+          "title": "At least 20 dead in Colombia after 7.4-magnitude earthquake",
           "link": "https://www.scmp.com/news/world/americas/article/3363568/colombia-ecuador-hit-74-magnitude-earthquake?utm_source=rss_feed",
           "pubDate": "2026-08-10T14:09:43.000Z",
-          "excerpt": "A major earthquake hit western Colombia on Monday morning, burying people in the South American nation under rubble and causing severe destruction to buildings…",
+          "excerpt": "A fatal earthquake hit western Colombia on Monday morning, burying people in the South American nation under rubble and causing severe destruction to buildings…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
