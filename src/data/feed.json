@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-10T01:59:32.207Z",
+  "lastUpdated": "2026-08-10T04:00:22.122Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26400,
+      "value": 26320,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4378.7,
+      "value": 4387.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 66808.58,
-      "change": 2851.050000000003,
-      "changePercent": 4.457723742614831
+      "value": 66921.14,
+      "change": 2963.6100000000006,
+      "changePercent": 4.633715529664764
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25865.4,
-      "change": -144,
-      "changePercent": -0.5536459895268633
+      "value": 25816.88,
+      "change": -192.52000000000044,
+      "changePercent": -0.7401939298868887
     },
     {
       "symbol": "^GDAXI",
@@ -64,100 +64,111 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Đơn vị chủ quản của HoSE và HNX lãi đậm",
-          "link": "https://vnexpress.net/don-vi-chu-quan-cua-hose-va-hnx-lai-dam-5107134.html",
-          "pubDate": "2026-08-09T21:00:00.000Z",
-          "excerpt": "Sở Giao dịch Chứng khoán Việt Nam lãi sau thuế gần 1.420 tỷ đồng trong nửa đầu năm, tăng mạnh nhờ thanh khoản thị trường cải thiện.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "TCBS huy động thành công khoản vay quốc tế kèm quyền chọn vay tăng thêm lên tới 120 triệu USD",
-          "link": "https://cafef.vn/tcbs-huy-dong-thanh-cong-khoan-vay-quoc-te-kem-quyen-chon-vay-tang-them-len-toi-120-trieu-usd-188260809231607402.chn",
-          "pubDate": "2026-08-10T01:00:00.000Z",
-          "excerpt": "Khoản vay tín chấp kỳ hạn 3 năm có giá trị 60 triệu USD, kèm quyền chọn vay tăng thêm quy mô lên tới 120 triệu USD, đánh dấu lần đầu một công ty chứng khoán…",
+          "title": "Chứng khoán Asean chốt thời gian chào bán 150 triệu cổ phần cho cổ đông",
+          "link": "https://cafef.vn/chung-khoan-asean-chot-thoi-gian-chao-ban-150-trieu-co-phan-cho-co-dong-188260810100454402.chn",
+          "pubDate": "2026-08-10T03:44:00.000Z",
+          "excerpt": "Ngày 17/8 tới, Chứng khoán Asean sẽ chốt danh sách cổ đông để thực hiện chào bán 150 triệu cổ phần cho 3 cổ đông.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Chứng khoán Asean chốt danh sách cổ đông ngày 17/8 để chào bán 150 triệu cổ phần."
         },
         {
-          "title": "Tiền lớn rục rịch trở lại trước thềm nâng hạng, chuyên gia chỉ tên nhóm cổ phiếu hưởng lợi",
-          "link": "https://cafef.vn/tien-lon-ruc-rich-tro-lai-truoc-them-nang-hang-chuyen-gia-chi-ten-nhom-co-phieu-huong-loi-188260809220720248.chn",
-          "pubDate": "2026-08-09T17:03:00.000Z",
-          "excerpt": "Theo chuyên gia, dòng tiền ngoại còn đang có xu hướng đi trước sự kiện FTSE Russell chính thức đưa Việt Nam vào rổ Thị trường Mới nổi Thứ cấp từ ngày 21/9/2026.",
+          "title": "PC1 chốt ngày mua lại trước hạn lô trái phiếu 900 tỷ đồng",
+          "link": "https://cafef.vn/pc1-chot-ngay-mua-lai-truoc-han-lo-trai-phieu-900-ty-dong-188260810100402187.chn",
+          "pubDate": "2026-08-10T03:43:00.000Z",
+          "excerpt": "Ngày 19/8/2026 tới đây, PC1 sẽ chốt danh sách người sở hữu trái phiếu để thực mua lại trước hạn toàn bộ lô trái phiếu mã PC1H2227002.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "PC1 chốt danh sách người sở hữu trái phiếu ngày 19/8 để mua lại trước hạn lô trái phiếu 900 tỷ đồng."
         },
         {
-          "title": "Khối ngoại đẩy mạnh mua ròng 2.300 tỷ trong tuần qua, \"cân\" hết lệnh bán của vốn nội",
-          "link": "https://vneconomy.vn/khoi-ngoai-day-manh-mua-rong-2300-ty-trong-tuan-qua-can-het-lenh-ban-cua-von-noi.htm",
-          "pubDate": "2026-08-09T10:59:58.000Z",
-          "excerpt": "Nhà đầu tư nước ngoài mua ròng 2.249,5 tỷ đồng, tính riêng giao dịch khớp lệnh thì họ mua ròng 1.592,6 tỷ đồng.",
+          "title": "Xác suất thị trường chứng khoán tăng trong tháng 8 ở mức cao, VN-Index hướng đến 1.800 điểm",
+          "link": "https://cafef.vn/xac-suat-thi-truong-chung-khoan-tang-trong-thang-8-o-muc-cao-vn-index-huong-den-1800-diem-188260810102724409.chn",
+          "pubDate": "2026-08-10T03:39:00.000Z",
+          "excerpt": "Theo chuyên gia MBS, yếu tố mùa vụ cho thấy xác suất thị trường tăng trong tháng 8 đạt khoảng 80%. Trong 6 năm gần nhất, thị trường đều tăng điểm trong tháng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Xác suất thị trường chứng khoán tăng trong tháng 8 khoảng 80%."
+        },
+        {
+          "title": "VN-Index sẽ tăng mạnh trong tháng 8, cổ phiếu có vốn nhà nước dẫn dắt?",
+          "link": "https://vneconomy.vn/vn-index-se-tang-manh-trong-thang-8-co-phieu-co-von-nha-nuoc-dan-dat.htm",
+          "pubDate": "2026-08-10T03:21:51.000Z",
+          "excerpt": "Trong ngắn hạn, kỳ vọng thị trường khởi đầu thuận lợi trong tháng 8 sau mức giảm khá mạnh trong tháng 7, gần 7%, của chỉ số VN-Index. Thị trường đang có cơ hội…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "VN-Index dự kiến tăng mạnh trong tháng 8."
         },
         {
-          "title": "Điện Máy Xanh chính thức giao dịch trên HoSE và vai trò của Vietcap",
-          "link": "https://cafef.vn/dien-may-xanh-chinh-thuc-giao-dich-tren-hose-va-vai-tro-cua-vietcap-188260808102027329.chn",
-          "pubDate": "2026-08-10T01:00:00.000Z",
-          "excerpt": "Sáng ngày 6/8/2026, cổ phiếu DMX của CTCP Đầu tư Điện Máy Xanh đã chính thức được đưa vào giao dịch trên HoSE, đánh dấu cột mốc quan trọng trong hành trình 22…",
+          "title": "Chứng khoán châu Á, giá dầu vọt tăng giữa bất ổn tại eo biển Hormuz",
+          "link": "https://cafef.vn/chung-khoan-chau-a-gia-dau-vot-tang-giua-bat-on-tai-eo-bien-hormuz-188260810100545653.chn",
+          "pubDate": "2026-08-10T03:21:00.000Z",
+          "excerpt": "Thị trường chứng khoán châu Á nối tiếp đà tăng của Phố Wall trong phiên đầu tuần, khi báo cáo việc làm yếu của Mỹ làm giảm kỳ vọng Fed sớm tăng lãi suất. Trong…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Thị trường chứng khoán châu Á tăng sau báo cáo việc làm yếu của Mỹ."
         },
         {
-          "title": "Chuyên gia hé lộ 7 doanh nghiệp có thể đón “sóng” thoái vốn thời gian tới",
-          "link": "https://cafef.vn/chuyen-gia-he-lo-7-doanh-nghiep-co-the-don-song-thoai-von-thoi-gian-toi-188260809220828077.chn",
-          "pubDate": "2026-08-09T17:03:00.000Z",
-          "excerpt": "Chuyên gia cho rằng một chủ đề cần quan tâm trong thời gian tới là cơ hội từ nhóm doanh nghiệp Nhà nước.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Lợi nhuận tăng mạnh gần 48%, định giá VN-Index về mức thấp chỉ còn 10 lần",
-          "link": "https://vneconomy.vn/loi-nhuan-tang-manh-gan-48-dinh-gia-vn-index-ve-muc-thap-chi-con-10-lan.htm",
-          "pubDate": "2026-08-09T11:00:17.000Z",
-          "excerpt": "Mặt bằng định giá của thị trường chứng khoán Việt Nam đã quay trở lại vùng hấp dẫn, đặc biệt khi đặt trong tương quan với triển vọng tăng trưởng lợi nhuận tích…",
+          "title": "Có nên trông chờ vào dòng vốn P-Notes “ăn xổi”?",
+          "link": "https://vneconomy.vn/co-nen-trong-cho-vao-dong-von-p-notes-an-xoi.htm",
+          "pubDate": "2026-08-10T03:20:12.000Z",
+          "excerpt": "Lịch sử cho thấy sau các đợt mua mạnh của P-Notes, thị trường thường trải qua nhịp rung lắc hoặc điều chỉnh 7-10% khi dòng vốn này suy yếu.",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Dòng vốn P-Notes có thể gây rung lắc cho thị trường."
         },
         {
-          "title": "Agribank tăng 42% lãi trước thuế bán niên 2026, cho vay vượt 2 triệu tỷ đồng",
-          "link": "http://vietstock.vn/2026/08/agribank-tang-42-lai-truoc-thue-ban-nien-2026-cho-vay-vuot-2-trieu-ty-dong-737-1478410.htm",
-          "pubDate": "2026-08-09T05:53:25.000Z",
-          "excerpt": "Theo BCTC bán niên 2026, Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank) lãi trước thuế gần 18,495 tỷ đồng, tăng 42% so với cùng kỳ năm…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
+          "title": "Chứng khoán lao dốc, nhà đầu tư chán nản, tài khoản mở mới sụt về mức thấp nhất 5 tháng",
+          "link": "https://vneconomy.vn/chung-khoan-lao-doc-nha-dau-tu-chan-nan-tai-khoan-mo-moi-sut-ve-muc-thap-nhat-5-thang.htm",
+          "pubDate": "2026-08-10T03:19:32.000Z",
+          "excerpt": "Tốc độ mở mới tài khoản chứng khoán của nhà đầu tư trong nước đã giảm đáng kể so với tháng trước, đưa tháng 7 trở thành tháng có lượng tài khoản mở mới thấp…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Tài khoản mở mới giảm đáng kể trong tháng 7."
+        },
+        {
+          "title": "Loạt doanh nghiệp tên tuổi bị hủy tư cách đại chúng",
+          "link": "https://cafef.vn/loat-doanh-nghiep-ten-tuoi-bi-huy-tu-cach-dai-chung-188260810100244886.chn",
+          "pubDate": "2026-08-10T03:13:00.000Z",
+          "excerpt": "Công ty CP Cảng Sài Gòn không có đủ tối thiểu 10% cổ phiếu có quyền biểu quyết, Công ty CP Tập đoàn Golden Gate chưa thực hiện thủ tục đăng ký chứng khoán tại…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Loạt doanh nghiệp bị hủy tư cách đại chúng."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Chứng khoán Asean sẽ chốt danh sách cổ đông vào ngày 17/8 để thực hiện chào bán 150 triệu cổ phần."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Hà Nội sắp mở bán 400 căn nhà ở xã hội, giá chỉ từ 1,2 tỷ đồng",
+          "link": "https://cafef.vn/ha-noi-sap-mo-ban-400-can-nha-o-xa-hoi-gia-chi-tu-12-ty-dong-188260810095318693.chn",
+          "pubDate": "2026-08-10T03:52:00.000Z",
+          "excerpt": "Từ ngày 9/9 đến 9/10/2026, Hà Nội sẽ tiếp nhận hồ sơ đăng ký mua, thuê mua nhà ở xã hội tại dự án Khu nhà ở đô thị Kim Hoa, xã Tiến Thắng, với 398 căn hộ còn…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Hà Nội mở bán 400 căn nhà ở xã hội giá từ 1,2 tỷ đồng từ 9/9 đến 9/10/2026."
+        },
         {
           "title": "Ciputra Central Park - Mảnh ghép tái định nghĩa Ciputra Hà Nội",
           "link": "https://cafef.vn/ciputra-central-park-manh-ghep-tai-dinh-nghia-ciputra-ha-noi-188260807210213275.chn",
@@ -167,17 +178,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ciputra Central Park - Mảnh ghép tái định nghĩa Ciputra Hà Nội",
-          "link": "https://vneconomy.vn/ciputra-central-park-manh-ghep-tai-dinh-nghia-ciputra-ha-noi.htm",
-          "pubDate": "2026-08-10T01:00:00.000Z",
-          "excerpt": "Sau ba thập kỷ định hình chuẩn mực sống quốc tế tại Thủ đô, Ciputra Hà Nội đang bước vào giai đoạn hoàn thiện với sự hiện diện của Ciputra Central Park. Không…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
           "condensed": null
         },
         {
@@ -192,8 +192,19 @@
           "condensed": null
         },
         {
-          "title": "Hệ sinh thái đô thị hiện hữu kiến tọ giá trị khác biệt cho Khải Hoàn Imperial",
-          "link": "https://vneconomy.vn/he-sinh-thai-do-thi-hien-huu-kien-to-gia-tri-khac-biet-cho-khai-hoan-imperial.htm",
+          "title": "Ciputra Central Park - Mảnh ghép tái định nghĩa Ciputra Hà Nội",
+          "link": "https://vneconomy.vn/ciputra-central-park-manh-ghep-tai-dinh-nghia-ciputra-ha-noi.htm",
+          "pubDate": "2026-08-10T01:00:00.000Z",
+          "excerpt": "Sau ba thập kỷ định hình chuẩn mực sống quốc tế tại Thủ đô, Ciputra Hà Nội đang bước vào giai đoạn hoàn thiện với sự hiện diện của Ciputra Central Park. Không…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Hệ sinh thái đô thị hiện hữu kiến tạo giá trị khác biệt cho Khải Hoàn Imperial",
+          "link": "https://vneconomy.vn/he-sinh-thai-do-thi-hien-huu-kien-tao-gia-tri-khac-biet-cho-khai-hoan-imperial.htm",
           "pubDate": "2026-08-10T01:00:00.000Z",
           "excerpt": "Trước đây, giá trị của một dự án bất động sản thường được nhìn nhận qua quy mô tiện ích nội khu, thiết kế kiến trúc hay tiêu chuẩn bàn giao. Khi chất lượng…",
           "sourceId": "vneconomy",
@@ -234,25 +245,69 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Nhà nước mua lại dự án thương mại: Đất không bị lãng phí, quỹ nhà được mở rộng",
-          "link": "https://cafef.vn/nha-nuoc-mua-lai-du-an-thuong-mai-dat-khong-bi-lang-phi-quy-nha-duoc-mo-rong-18826081007090931.chn",
-          "pubDate": "2026-08-10T00:14:00.000Z",
-          "excerpt": "Theo chuyên gia, nếu Nhà nước mua lại các dự án nhà ở thương mại không còn khả năng triển khai sẽ giúp hạn chế sự lãng phí tài nguyên đất và tăng nguồn cung…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Hà Nội sẽ mở bán 400 căn nhà ở xã hội tại dự án Khu nhà ở đô thị Kim Hoa, với giá từ 1,2 tỷ đồng, từ ngày 9/9 đến 9/10/2026."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Cục Thuế yêu cầu hủy tạm hoãn xuất cảnh ngay khi đủ điều kiện",
+          "link": "https://cafef.vn/cuc-thue-yeu-cau-huy-tam-hoan-xuat-canh-ngay-khi-du-dieu-kien-188260810103903839.chn",
+          "pubDate": "2026-08-10T03:53:00.000Z",
+          "excerpt": "Khi người nộp thuế đáp ứng điều kiện, việc hủy bỏ tạm hoãn xuất cảnh phải được thực hiện ngay.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Cục Thuế yêu cầu hủy tạm hoãn xuất cảnh khi đủ điều kiện."
+        },
+        {
+          "title": "Tin vui của Sun PhuQuoc Airways: Chốt lộ trình nhận 8 tàu bay thân rộng Airbus A330, tăng tốc vươn ra thế giới",
+          "link": "https://cafef.vn/tin-vui-cua-sun-phuquoc-airways-chot-lo-trinh-nhan-8-tau-bay-than-rong-airbus-a330-tang-toc-vuon-ra-the-gioi-188260810102729414.chn",
+          "pubDate": "2026-08-10T03:27:00.000Z",
+          "excerpt": "Sun PhuQuoc Airways (SPA) đã hoàn tất kế hoạch tiếp nhận 8 tàu bay thân rộng Airbus A330, trong đó 4 tàu dự kiến gia nhập đội bay trong năm 2026 và 4 tàu tiếp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Sun PhuQuoc Airways nhận 8 tàu bay Airbus A330."
+        },
+        {
+          "title": "Nghị quyết 10: Mở cơ hội để doanh nghiệp Việt vào chuỗi FDI",
+          "link": "https://cafef.vn/nghi-quyet-10-mo-co-hoi-de-doanh-nghiep-viet-vao-chuoi-fdi-188260810094642522.chn",
+          "pubDate": "2026-08-10T03:07:00.000Z",
+          "excerpt": "Cần cơ chế đủ mạnh để các nhà đầu tư sẵn sàng đưa doanh nghiệp Việt vào chuỗi hệ thống toàn cầu",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ngành đường sắt hướng tới mục tiêu 1.500 container vận tải liên vận Trung Quốc",
+          "link": "https://cafef.vn/nganh-duong-sat-huong-toi-muc-tieu-1500-container-van-tai-lien-van-trung-quoc-188260810092800132.chn",
+          "pubDate": "2026-08-10T02:27:00.000Z",
+          "excerpt": "Vận tải đường sắt liên vận Việt Nam - Trung Quốc được kỳ vọng tiếp tục phát triển, hướng tới mục tiêu khai thác khoảng 1.500 container mỗi năm.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Ngành đường sắt hướng tới vận tải 1.500 container liên vận Trung Quốc."
+        },
+        {
+          "title": "Hầm chui 6 làn Cổ Linh tăng tốc, phấn đấu thông xe trước Tết",
+          "link": "https://cafef.vn/ham-chui-6-lan-co-linh-tang-toc-phan-dau-thong-xe-truoc-tet-188260810084740987.chn",
+          "pubDate": "2026-08-10T02:03:00.000Z",
+          "excerpt": "Sau 9 tháng thi công, hầm chui 6 làn tại nút giao Cổ Linh đang được các nhà thầu tăng nhân lực, máy móc, tổ chức thi công liên tục, hướng tới mục tiêu thông xe…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Hầm chui 6 làn Cổ Linh tăng tốc thi công trước Tết."
+        },
         {
           "title": "Bãi bỏ một số điều kiện kinh doanh bất động sản",
           "link": "https://vneconomy.vn/bai-bo-mot-so-dieu-kien-kinh-doanh-bat-dong-san.htm",
@@ -262,39 +317,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Ngày 10/8, Quốc hội thảo luận 4 dự án luật quan trọng",
-          "link": "https://cafef.vn/ngay-10-8-quoc-hoi-thao-luan-4-du-an-luat-quan-trong-188260810073125222.chn",
-          "pubDate": "2026-08-10T00:52:00.000Z",
-          "excerpt": "Theo chương trình Kỳ họp không thường lệ thứ Nhất, Quốc hội khóa XVI, ngày 10/8 Quốc hội tiếp tục thảo luận tại hội trường về 4 dự án luật.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội đề xuất gia hạn thực hiện 6 dự án lớn",
-          "link": "https://cafef.vn/ha-noi-de-xuat-gia-han-thuc-hien-6-du-an-lon-188260810071244723.chn",
-          "pubDate": "2026-08-10T00:20:00.000Z",
-          "excerpt": "Hà Nội đề xuất HĐND thành phố gia hạn 6 tháng để hoàn thiện điều kiện khởi công đối với 6 dự án đầu tư quy mô lớn, triển khai theo cơ chế đặc thù.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Quảng Ninh trước bước chuyển mình lớn: Tin vui cho những ai đang và sẽ đến đây",
-          "link": "https://cafef.vn/quang-ninh-truoc-buoc-chuyen-minh-lon-tin-vui-cho-nhung-ai-dang-va-se-den-day-188260808073105482.chn",
-          "pubDate": "2026-08-09T16:30:00.000Z",
-          "excerpt": "Tin vui được nhắc tới ở đây là gì?",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -309,32 +331,10 @@
           "condensed": null
         },
         {
-          "title": "Những trường hợp được đóng bù BHXH để đủ điều kiện hưởng lương hưu",
-          "link": "https://cafef.vn/nhung-truong-hop-duoc-dong-bu-bhxh-de-du-dieu-kien-huong-luong-huu-188260809170357983.chn",
-          "pubDate": "2026-08-09T10:30:00.000Z",
-          "excerpt": "Luật BHXH 2024 (có hiệu lực từ ngày 01/7/2025) đã mở rộng cơ hội hưởng lương hưu khi giảm thời gian đóng tối thiểu từ 20 năm xuống còn 15 năm, đồng thời quy…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Khởi nghiệp tuổi 50, người phụ nữ nông thôn thu tỷ đồng mỗi năm từ \"hoa bất tử\"",
           "link": "https://vneconomy.vn/khoi-nghiep-tuoi-50-nguoi-phu-nu-nong-thon-thu-ty-dong-moi-nam-tu-hoa-bat-tu.htm",
           "pubDate": "2026-08-09T07:38:39.000Z",
           "excerpt": "Năm 2008 ở tuổi 50, bà Lê Thị Việt (SN 1958), ở xã Thắng Lợi, tỉnh Thanh Hóa đã lựa chọn khởi nghiệp với nghề ướp hoa tươi học được tại Thái Lan. Gần 20 năm…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Hà Tĩnh chấp thuận đầu tư cụm 4 dự án điện gió hơn 7.800 tỷ đồng",
-          "link": "https://vneconomy.vn/ha-tinh-chap-thuan-dau-tu-cum-4-du-an-dien-gio-hon-7800-ty-dong.htm",
-          "pubDate": "2026-08-08T08:42:10.000Z",
-          "excerpt": "Phó Chủ tịch UBND tỉnh Hà Tĩnh Nguyễn Trọng Hiếu vừa ký ban hành quyết định chấp thuận chủ trương đầu tư 4 dự án Nhà máy điện gió Kỳ Anh 1, Kỳ Anh 2, Kỳ Anh 3…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -349,6 +349,17 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "U.S. stock futures flat as investors await inflation data, grapple with more Iran uncertainty",
+          "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
+          "pubDate": "2026-08-10T03:02:00.000Z",
+          "excerpt": "U.S. stock-index futures were little changed on Sunday, after new demands from Iran raised fresh doubts about the Strait of Hormuz reopening anytime soon and…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "US stock futures were little changed Sunday amid Iran uncertainty"
+        },
+        {
           "title": "Pakistan says ‘purely defensive’ Mecca accord is open to others",
           "link": "https://www.scmp.com/news/asia/south-asia/article/3363472/pakistan-says-purely-defensive-mecca-accord-open-others?utm_source=rss_feed",
           "pubDate": "2026-08-10T01:56:32.000Z",
@@ -360,17 +371,6 @@
           "condensed": null
         },
         {
-          "title": "U.S. stock futures dip as investors await inflation data, grapple with more Iran uncertainty",
-          "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-investors-await-inflation-data-grapple-with-more-iran-uncertainty-133212d2?mod=mw_rss_topstories",
-          "pubDate": "2026-08-10T01:30:00.000Z",
-          "excerpt": "U.S. stock-index futures were little changed on Sunday, after new demands from Iran raised fresh doubts about the Strait of Hormuz reopening anytime soon and…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Private Credit Is Under Growing Strain, Despite Industry’s Upbeat Tone",
           "link": "https://www.wsj.com/finance/investing/private-credit-is-under-growing-strain-despite-industrys-upbeat-tone-e5abf388?mod=rss_markets_main",
           "pubDate": "2026-08-10T01:00:00.000Z",
@@ -379,7 +379,7 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": null
+          "condensed": "Default rates are hitting recent highs despite the industry's upbeat tone"
         },
         {
           "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
@@ -412,7 +412,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
+          "condensed": "Will Scharf is appointed White House counsel by President Trump"
         },
         {
           "title": "Iran replaces top security official at crucial moment in talks over Strait of Hormuz",
@@ -423,10 +423,10 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
+          "condensed": "Iran appoints Mohsen Rezaei as head of Supreme National Security Council"
         },
         {
-          "title": "Canadian province to get federal help as wildfire forces evacuations",
+          "title": "Canada’s British Columbia gets federal help as wildfire forces evacuations",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3363470/canadian-province-get-federal-help-wildfire-forces-evacuations?utm_source=rss_feed",
           "pubDate": "2026-08-09T22:22:44.000Z",
           "excerpt": "The Canadian federal government said on ⁠Sunday it would ⁠help British Columbia ⁠as raging wildfires forced thousands of people to evacuate by providing…",
@@ -434,7 +434,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
+          "condensed": "Canada's federal government aids British Columbia amid wildfire evacuations"
         }
       ],
       "aiSummary": null
