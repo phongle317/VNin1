@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T18:02:28.288Z",
+  "lastUpdated": "2026-08-11T19:09:35.288Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4435.4,
+      "value": 4430.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7734.72,
-      "change": -1.800000000000182,
-      "changePercent": -0.023266274759196407
+      "value": 7722.03,
+      "change": -14.490000000000691,
+      "changePercent": -0.18729351181152107
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26459.246,
-      "change": -125.74400000000242,
-      "changePercent": -0.47298870528069564
+      "value": 26406.068,
+      "change": -178.9220000000023,
+      "changePercent": -0.6730188726796673
     },
     {
       "symbol": "^N225",
@@ -72,7 +72,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Bánh Trung thu tăng giá 5-15% so với năm ngoái ở TP HCM."
+          "condensed": "Giá bánh Trung thu tăng 5-15% so với năm ngoái tại TP HCM."
         },
         {
           "title": "DatVietVAC muốn thành 'kỳ lân' đầu tiên của ngành giải trí Việt Nam",
@@ -222,7 +222,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Đối tượng lừa đảo bị bắt tại Ninh Bình."
+          "condensed": "Đối tượng lừa đảo về đất đai bị bắt."
         },
         {
           "title": "Vingroup của tỷ phú Phạm Nhật Vượng chính thức đổi logo",
@@ -233,7 +233,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Vingroup đổi logo sau 33 năm."
+          "condensed": "Vingroup đổi logo mới."
         },
         {
           "title": "TP. Hồ Chí Minh đề xuất cơ chế rút ngắn thời gian giải phóng mặt bằng dự án",
@@ -349,6 +349,72 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Israel and Venezuela renew consular ties after 17 years of no diplomacy",
+          "link": "https://www.scmp.com/news/world/americas/article/3363703/israel-and-venezuela-renew-consular-ties-after-17-years-no-diplomacy?utm_source=rss_feed",
+          "pubDate": "2026-08-11T18:43:46.000Z",
+          "excerpt": "Israel and Venezuela announced on Tuesday that they had renewed consular relations 17 years after diplomatic ties were severed between the two countries. The…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Bezos Is Among Investors Nearing Deal for Stake in Liverpool Soccer Team",
+          "link": "https://www.wsj.com/business/deals/bezos-is-among-investors-nearing-deal-for-liverpool-soccer-team-365f54b5?mod=rss_markets_main",
+          "pubDate": "2026-08-11T18:43:00.000Z",
+          "excerpt": "Investors aim for an agreement with Fenway Sports Group at an $8 billion valuation, with an option to acquire the rest of the team.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Nvidia just soothed a major market fear about AI, analysts say",
+          "link": "https://www.marketwatch.com/story/nvidia-just-soothed-a-major-market-fear-about-ai-analysts-say-9ec6fa85?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T18:36:00.000Z",
+          "excerpt": "Nvidia’s new partnerships with financial players help mitigate concerns that the company is too tightly linked to its customers, according to BofA and Morgan…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+          "link": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
+          "pubDate": "2026-08-11T18:34:41.000Z",
+          "excerpt": "The consumer price index is expected to show only a modest increase for July.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": null
+        },
+        {
+          "title": "Man charged with bomb threat against US consulate in Canada",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363702/man-charged-bomb-threat-against-us-consulate-canada?utm_source=rss_feed",
+          "pubDate": "2026-08-11T18:20:19.000Z",
+          "excerpt": "Canadian police on Tuesday charged a man with making a bomb threat against the US consulate in Halifax, the latest security incident involving an American…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Health insurers are dumping Medicare Advantage plans. Here’s how many seniors could be affected.",
+          "link": "https://www.marketwatch.com/story/health-insurers-are-dumping-medicare-advantage-plans-heres-how-many-seniors-could-be-affected-646b4e99?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T18:02:00.000Z",
+          "excerpt": "Older adults could be scrambling for new health coverage next year, especially in rural markets that have fewer insurance choices.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "How This 100-Year-Old Company Is Recreating a Lost Neon Color",
           "link": "https://www.wsj.com/finance/investing/how-this-100-year-old-company-is-recreating-a-lost-neon-color-bd7357a0?mod=rss_markets_main",
           "pubDate": "2026-08-11T18:00:00.000Z",
@@ -368,72 +434,6 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Unitree’s IPO may be just the beginning of an investor frenzy over humanoid-robot stocks",
-          "link": "https://www.marketwatch.com/story/unitrees-ipo-may-be-just-the-beginning-of-an-investor-frenzy-over-humanoid-robot-stocks-8c2d39b6?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T17:17:00.000Z",
-          "excerpt": "The Chinese company will be the first to market in a wave of new humanoid-robotics IPOs.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-          "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T17:16:00.000Z",
-          "excerpt": "“I’m curious whether there’s a downside.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Rights groups sue the Trump administration over ICC sanctions",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363699/rights-groups-sue-trump-administration-over-icc-sanctions?utm_source=rss_feed",
-          "pubDate": "2026-08-11T16:48:40.000Z",
-          "excerpt": "Human Rights Watch and three other advocacy groups sued the Trump administration on Tuesday to challenge its campaign against the International Criminal Court,…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Musk’s Starlink boasts of doubled subscriber base, but mainstream remains a far-off destination for the satellite internet service",
-          "link": "https://www.marketwatch.com/story/heres-when-elon-musks-starlink-internet-is-worth-the-steep-monthly-price-and-350-startup-cost-53735d59?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T16:11:00.000Z",
-          "excerpt": "These are the circumstances in which choosing a SpaceX-operated Starlink setup over fiber, cable and 5G may make financial sense.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Rooftop panels in cities are no replacement for solar farms",
-          "link": "https://www.ft.com/content/a061e46e-705c-44f6-a036-20e6cb56d19a?syn-25a6b1a6=1",
-          "pubDate": "2026-08-11T15:37:49.000Z",
-          "excerpt": "Cleve Hill, the UK’s largest solar park, is unpopular with locals but the country needs more like it",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Russia frees ailing ex-US marine after Putin’s ‘goodwill’ pardon",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363694/russia-frees-ailing-ex-us-marine-after-putins-goodwill-pardon?utm_source=rss_feed",
-          "pubDate": "2026-08-11T15:09:43.000Z",
-          "excerpt": "Moscow on ⁠Tuesday freed a former US marine jailed in Russia ⁠since 2022 after Russian President Vladimir Putin approved a pardon for the ailing American based…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
