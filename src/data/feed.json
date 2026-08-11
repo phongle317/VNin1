@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T13:11:53.627Z",
+  "lastUpdated": "2026-08-11T15:01:17.238Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4455.2,
+      "value": 4451.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7753.11,
-      "change": 152.60999999999967,
-      "changePercent": 2.0078942174856875
+      "value": 7760.4,
+      "change": 23.8799999999992,
+      "changePercent": 0.30866591180529745
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26605.357,
-      "change": 691.4569999999985,
-      "changePercent": 2.6682861321530087
+      "value": 26613.846,
+      "change": 28.855999999999767,
+      "changePercent": 0.10854245196255392
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26407.05,
-      "change": 204.70000000000073,
-      "changePercent": 0.781227637979039
+      "value": 26484.66,
+      "change": 282.3100000000013,
+      "changePercent": 1.0774224449333794
     }
   ],
   "themes": [
@@ -63,6 +63,50 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Vừa nhận cổ tức tiền mặt hơn 90%, cổ đông doanh nghiệp này lại sắp nhận thêm 1.200 đồng/cổ phiếu",
+          "link": "https://cafef.vn/vua-nhan-co-tuc-tien-mat-hon-90-co-dong-doanh-nghiep-nay-lai-sap-nhan-them-1200-dong-co-phieu-188260811213320229.chn",
+          "pubDate": "2026-08-11T14:33:00.000Z",
+          "excerpt": "Câu chuyện cổ tức cũng từng là vấn đề được nhiều cổ đông nhỏ lẻ SGS quan tâm tại các kỳ đại hội.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Cổ đông doanh nghiệp nhận cổ tức tiền mặt hơn 90% và sắp nhận thêm 1.200 đồng/cổ phiếu."
+        },
+        {
+          "title": "DatVietVAC lên kế hoạch IPO hơn 11 triệu cổ phiếu",
+          "link": "https://vneconomy.vn/datvietvac-len-ke-hoach-ipo-hon-11-trieu-co-phieu.htm",
+          "pubDate": "2026-08-11T14:24:03.000Z",
+          "excerpt": "DatVietVAC dự kiến chào bán hơn 11 triệu cổ phiếu với giá 54.800 đồng/cổ phiếu, đưa vốn hóa sau IPO lên hơn 6.000 tỷ đồng. Đồng thời, hướng tới mục tiêu trở…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "DatVietVAC lên kế hoạch IPO hơn 11 triệu cổ phiếu."
+        },
+        {
+          "title": "Tỷ phú Jeff Bezos sắp mua Liverpool",
+          "link": "https://cafef.vn/ty-phu-jeff-bezos-sap-mua-liverpool-188260811211948981.chn",
+          "pubDate": "2026-08-11T14:19:00.000Z",
+          "excerpt": "Liên danh do Amit Bhatia dẫn đầu, với sự tham gia của nhà sáng lập Amazon Jeff Bezos và đồng sáng lập Facebook Eduardo Saverin, đang tiến gần thỏa thuận mua…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Tỷ phú Jeff Bezos sắp mua Liverpool."
+        },
+        {
+          "title": "Vì sao giá USD lao dốc?",
+          "link": "http://vietstock.vn/2026/08/vi-sao-gia-usd-lao-doc-757-1479452.htm",
+          "pubDate": "2026-08-11T13:41:41.000Z",
+          "excerpt": "Giá USD tại các ngân hàng thương mại tiếp tục giảm mạnh, trên thị trường tự do còn giảm sâu hơn. Chuyên gia cho rằng, diễn biến này cho thấy, nguồn cung ngoại…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "Giá USD giảm mạnh tại các ngân hàng thương mại và thị trường tự do."
+        },
         {
           "title": "Khối ngoại mạnh tay xả hàng, tổ chức trong nước \"cân\" lệnh",
           "link": "https://vneconomy.vn/khoi-ngoai-manh-tay-xa-hang-to-chuc-trong-nuoc-can-lenh.htm",
@@ -72,7 +116,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Khối ngoại xả hàng, thanh khoản giảm mạnh."
+          "condensed": "Khối ngoại mạnh tay xả hàng, tổ chức trong nước cân lệnh."
         },
         {
           "title": "Người bảo vệ kiếm 50 đồng đầu tư chứng khoán 40 đồng, tới cuối đời sở hữu tài sản 200 tỷ, người thân ai cũng ngỡ ngàng",
@@ -83,7 +127,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người đàn ông đầu tư 40 đồng trong 50 đồng kiếm được."
+          "condensed": "Người đàn ông đầu tư 40 đồng kiếm 50 đồng, cuối đời sở hữu 200 tỷ."
         },
         {
           "title": "Hai mã ngân hàng cùng một cổ phiếu Bluechips được tự doanh CTCK gom mạnh phiên giảm điểm",
@@ -94,62 +138,18 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Tự doanh CTCK gom mạnh cổ phiếu Bluechips."
+          "condensed": "Tự doanh CTCK mua ròng 254 tỷ đồng trên HoSE."
         },
         {
-          "title": "Tổng công ty Đường sắt Việt Nam chuyển thành mô hình tập đoàn",
-          "link": "https://vnexpress.net/tong-cong-ty-duong-sat-viet-nam-chuyen-thanh-mo-hinh-tap-doan-5107946.html",
-          "pubDate": "2026-08-11T11:13:44.000Z",
-          "excerpt": "Từ hôm nay, Tổng công ty Đường sắt Việt Nam chuyển đổi thành Tập đoàn Đường sắt quốc gia.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Tổng công ty Đường sắt Việt Nam chuyển thành tập đoàn."
-        },
-        {
-          "title": "Vừa báo lãi nghìn tỷ, \"vua\" sữa đậu nành Fami dốc hầu bao chi gần 400 tỷ đồng cổ tức tiền mặt",
-          "link": "https://cafef.vn/vua-bao-lai-nghin-ty-vua-sua-dau-nanh-fami-doc-hau-bao-chi-gan-400-ty-dong-co-tuc-tien-mat-188260811174549106.chn",
-          "pubDate": "2026-08-11T10:45:00.000Z",
-          "excerpt": "Theo kế hoạch năm 2026, doanh nghiệp dự kiến chi trả cổ tức với tỷ lệ tối thiểu 15%.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Fami chi gần 400 tỷ đồng cổ tức tiền mặt."
-        },
-        {
-          "title": "Một cổ phiếu chứng khoán phá đỉnh lịch sử, vốn hóa kỷ lục 35.000 tỷ đồng",
-          "link": "https://cafef.vn/mot-co-phieu-chung-khoan-pha-dinh-lich-su-von-hoa-ky-luc-35000-ty-dong-188260811165357845.chn",
-          "pubDate": "2026-08-11T09:54:00.000Z",
-          "excerpt": "Tính từ vùng giá hồi tháng 3, thị giá cổ phiếu đã tăng khoảng 65%.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cổ phiếu chứng khoán phá đỉnh lịch sử."
-        },
-        {
-          "title": "Một doanh nghiệp sắp \"lăn chốt\" cổ tức tiền mặt cao kỷ lục ngay tháng 8, lãnh đạo ồ ạt đăng ký mua cổ phiếu",
-          "link": "https://cafef.vn/mot-doanh-nghiep-sap-lan-chot-co-tuc-tien-mat-cao-ky-luc-ngay-thang-8-lanh-dao-o-at-dang-ky-mua-co-phieu-188260811165001879.chn",
-          "pubDate": "2026-08-11T09:53:00.000Z",
-          "excerpt": "Từ năm 2020 đến nay, công ty duy trì đều đặn chính sách trả cổ tức bằng tiền mặt cho cổ đông, với tỷ lệ phổ biến từ 6-10% mỗi năm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Doanh nghiệp sắp trả cổ tức tiền mặt cao kỷ lục."
-        },
-        {
-          "title": "Doanh nghiệp nhỏ, hộ kinh doanh sắp được dùng miễn phí phần mềm kế toán",
-          "link": "https://vnexpress.net/doanh-nghiep-nho-ho-kinh-doanh-sap-duoc-dung-mien-phi-phan-mem-ke-toan-5107956.html",
-          "pubDate": "2026-08-11T09:49:40.000Z",
-          "excerpt": "Doanh nghiệp nhỏ, siêu nhỏ và hộ, cá nhân kinh doanh sẽ được cung cấp miễn phí nền tảng số, phần mềm kế toán dùng chung, theo phương án đang được Cục Thuế xây…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Doanh nghiệp nhỏ được dùng miễn phí phần mềm kế toán."
+          "title": "Giám đốc Cainver: Việt Nam cần tận dụng lợi thế riêng ở cảng biển, logistics và xuất khẩu",
+          "link": "https://cafebiz.vn/giam-doc-cainver-viet-nam-can-tan-dung-loi-the-rieng-o-cang-bien-logistics-va-xuat-khau-176260811205445836.chn",
+          "pubDate": "2026-08-11T11:20:00.000Z",
+          "excerpt": "Theo ông Bill Nguyễn, Giám đốc Phát triển kinh doanh Cainver, Trung tâm Tài chính Quốc tế tại TP.HCM cần tận dụng lợi thế riêng của Việt Nam về cảng biển,…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": "Việt Nam cần tận dụng lợi thế cảng biển, logistics và xuất khẩu."
         }
       ],
       "aiSummary": null
@@ -233,7 +233,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Lâm Đồng quy định hạn mức giao đất và tách thửa."
+          "condensed": "Lâm Đồng quy định hạn mức giao đất."
         },
         {
           "title": "Lãnh đạo CBRE: Một nửa nguồn cung văn phòng TP.HCM vào năm 2030 có thể tập trung tại Trung tâm Tài chính Quốc tế",
@@ -244,7 +244,7 @@
           "sourceName": "CafeBiz",
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
-          "condensed": "Nguồn cung văn phòng tại TP.HCM có thể tập trung tại Trung tâm Tài chính Quốc tế."
+          "condensed": "Nguồn cung văn phòng TP.HCM dự kiến tập trung tại Trung tâm Tài chính Quốc tế."
         }
       ],
       "aiSummary": null
@@ -254,6 +254,17 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Việt Nam - Australia hợp tác nâng sức chống chịu, phục hồi kinh tế",
+          "link": "https://vnexpress.net/viet-nam-australia-hop-tac-nang-suc-chong-chiu-phuc-hoi-kinh-te-5108023.html",
+          "pubDate": "2026-08-11T12:40:02.000Z",
+          "excerpt": "Việt Nam và Australia sẽ tăng hợp tác về nâng cao sức chống chịu, thích ứng và phục hồi kinh tế, phù hợp với khuôn khổ Đối tác Chiến lược Toàn diện.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Việt Nam và Australia tăng hợp tác về nâng cao sức chống chịu kinh tế."
+        },
+        {
           "title": "Đồng Nai tăng tốc 3 tuyến đường gần 12.000 tỷ đồng kết nối sân bay Long Thành",
           "link": "https://vneconomy.vn/dong-nai-tang-toc-3-tuyen-duong-gan-12000-ty-dong-ket-noi-san-bay-long-thanh.htm",
           "pubDate": "2026-08-11T10:58:08.000Z",
@@ -262,7 +273,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Đồng Nai đẩy nhanh thi công 3 tuyến đường gần 12.000 tỷ đồng kết nối sân bay Long Thành"
+          "condensed": null
         },
         {
           "title": "Sau gần 3 tháng khởi công, cao tốc 23.940 tỷ đồng dài 60km, có sự tham gia của Đèo Cả đang được triển khai ra sao?",
@@ -273,7 +284,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cao tốc 23.940 tỷ đồng dài 60km được triển khai nhằm tăng cường kết nối giao thương quốc tế"
+          "condensed": null
         },
         {
           "title": "Tổng công ty Đường sắt Việt Nam chính thức chuyển thành Tập đoàn Đường sắt Quốc gia Việt Nam",
@@ -284,7 +295,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Tổng công ty Đường sắt Việt Nam chuyển đổi thành Tập đoàn Đường sắt Quốc gia Việt Nam"
+          "condensed": null
         },
         {
           "title": "'Siêu cẩu tháp' nâng giàn thép hơn 1.400 tấn lắp mái Nhà hát APEC",
@@ -295,7 +306,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Nâng giàn thép hơn 1.400 tấn lắp mái Nhà hát APEC bằng cần cẩu siêu trường"
+          "condensed": null
         },
         {
           "title": "Không phải dầu mỏ, Việt Nam có kho báu khác cả thế giới thèm khát, một tỉnh miền Trung nắm 80% trữ lượng, công nghệ khai thác có gì?",
@@ -306,7 +317,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Việt Nam có kho báu mà cả thế giới thèm khát"
+          "condensed": null
         },
         {
           "title": "Đề nghị bổ sung “hai khóa kiểm soát” trong tháo gỡ các dự án chậm triển khai",
@@ -317,7 +328,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Đề nghị bổ sung hai khóa kiểm soát trong tháo gỡ dự án chậm triển khai"
+          "condensed": null
         },
         {
           "title": "Dãy 12 chữ số trên CCCD gắn chip có ý nghĩa gì?",
@@ -328,18 +339,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Dãy 12 chữ số trên CCCD gắn chip có ý nghĩa theo Nghị định 137/2015/NĐ-CP"
-        },
-        {
-          "title": "Thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng không",
-          "link": "https://vneconomy.vn/thanh-lap-uy-ban-quoc-gia-ve-an-ninh-hang-khong-va-tao-thuan-loi-hang-khong.htm",
-          "pubDate": "2026-08-11T09:07:18.000Z",
-          "excerpt": "Thủ tướng Chính phủ Lê Minh Hưng vừa ký Quyết định số 1519/QĐ-TTg ngày 10/8/2026 về việc thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng không"
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "We live on a farm and have $2.2 million saved for retirement. We’re ready to retire abroad. Can we afford it?",
-          "link": "https://www.marketwatch.com/story/we-live-on-a-farm-and-have-2-2-million-saved-for-retirement-were-ready-to-retire-abroad-can-we-afford-it-85e56105?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T13:00:00.000Z",
-          "excerpt": "”We don’t live lavishly, and sometimes we both think maybe we could upgrade a few things.”",
+          "title": "AI is killing worker confidence, but there’s no sign it’s muscling people out of their jobs on a massive scale",
+          "link": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T14:53:00.000Z",
+          "excerpt": "Mark Zuckerberg says we’re lucky to live in an “incredible moment,” but many workers are having a hard time stomaching the uncertainty.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "AI is affecting worker confidence without widespread job loss"
+        },
+        {
+          "title": "Is inflation really slowing? Fed rate hike hinges on July price report.",
+          "link": "https://www.marketwatch.com/story/is-inflation-really-slowing-fed-rate-hike-hinges-on-july-price-report-9d3c3a73?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T14:49:00.000Z",
+          "excerpt": "A surprising decline in U.S. jobs last month isn’t enough to discourage the Federal Reserve from raising interest rates soon, but a tame inflation report for…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,32 +371,43 @@
           "condensed": null
         },
         {
-          "title": "Jellyfish force shutdown of 3 reactors at French nuclear power plant",
-          "link": "https://www.scmp.com/news/world/europe/article/3363686/jellyfish-force-shutdown-3-reactors-french-nuclear-power-plant?utm_source=rss_feed",
-          "pubDate": "2026-08-11T12:51:25.000Z",
-          "excerpt": "A nuclear plant in northern France shut down three reactors after a swarm of jellyfish clogged pumps used to cool the units, energy group EDF said on Tuesday.…",
+          "title": "Wall Street thinks inflation is under control. Here’s why investors shouldn’t buy it.",
+          "link": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T14:21:00.000Z",
+          "excerpt": "Uncle Sam needs inflation, not just economic growth, to escape today’s debt crisis.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "South Africa mine dump collapse kills at least 14 suspected illegal miners",
+          "link": "https://www.scmp.com/news/world/africa/article/3363691/south-africa-mine-dump-collapse-kills-least-14-suspected-illegal-miners?utm_source=rss_feed",
+          "pubDate": "2026-08-11T14:19:01.000Z",
+          "excerpt": "At least 14 suspected illegal miners were killed and eight injured when a mine dump collapsed in South ‌Africa’s North West province on Monday night, police…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
+          "condensed": "A mine dump collapse in South Africa killed at least 14 miners"
         },
         {
-          "title": "China tightens grip on Europe’s car supply chain",
-          "link": "https://www.ft.com/content/9f700b37-ac05-434c-9b70-3a7fe065c87e?syn-25a6b1a6=1",
-          "pubDate": "2026-08-11T12:44:14.000Z",
-          "excerpt": "Acquisitions of local parts makers amid resistance to Chinese exports have worried EU officials",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
+          "title": "Hungary parliament approves Orban-critic judge as president",
+          "link": "https://www.scmp.com/news/world/europe/article/3363690/hungary-parliament-approves-orban-critic-judge-president?utm_source=rss_feed",
+          "pubDate": "2026-08-11T14:00:20.000Z",
+          "excerpt": "Hungarian lawmakers on Tuesday approved former supreme court chief Andras Baka, a critic of Viktor Orban who was fired during the ex-premier’s time in power,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": "Hungarian lawmakers approved a critic of Viktor Orban as president"
         },
         {
-          "title": "This fund manager tunes out AI hype to flag the infrastructure stocks to buy now. Think roads, water and telecom towers.",
-          "link": "https://www.marketwatch.com/story/roads-water-and-telecom-towers-can-beat-the-ai-hype-this-fund-manager-flags-the-infrastructure-stocks-to-buy-now-54c62a77?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T12:31:00.000Z",
-          "excerpt": "Lazard portfolio manager Bertrand Cliquet says infrastructure companies are worth more than the AI hype sometimes linked to them.",
+          "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
+          "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T14:00:00.000Z",
+          "excerpt": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -393,48 +415,26 @@
           "condensed": null
         },
         {
-          "title": "Airbnb has added thousands of new hotel listings. Will that ruin its charm?",
-          "link": "https://www.marketwatch.com/story/airbnb-has-added-thousands-of-new-hotel-listings-will-that-ruin-its-charm-0af2d3b0?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T12:29:00.000Z",
-          "excerpt": "The home-rental company is leaning into hotels and third-party amenities to transform into a “one-stop shop” for travel.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "Private-Credit Firms Clamp Down on Loan Sweeteners in Fear of ‘Shadow Defaults’",
+          "link": "https://www.wsj.com/finance/private-credit-firms-clamp-down-on-loan-sweeteners-in-fear-of-shadow-defaults-58ac13ec?mod=rss_markets_main",
+          "pubDate": "2026-08-11T13:30:00.000Z",
+          "excerpt": "Borrowers have delayed interest payments on billions of dollars of loans, raising concerns that defaults are higher than reported.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
           "condensed": null
         },
         {
-          "title": "Volatility tumbles as markets shrug off Middle East risks",
-          "link": "https://www.ft.com/content/39fde44e-9a63-401e-8f8e-ddf5d7f512e4?syn-25a6b1a6=1",
-          "pubDate": "2026-08-11T12:20:41.000Z",
-          "excerpt": "Investors warn of complacency as Vix ‘fear gauge’ falls to prewar levels even as oil rises back to about $90 a barrel",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened",
-          "link": "https://www.marketwatch.com/story/warshs-changes-to-forward-guidance-were-tried-by-one-central-bank-and-heres-what-happened-c7a5c743?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T12:16:00.000Z",
-          "excerpt": "Canada’s post-2008 playbook shows the volatility risks of Warsh’s no-guidance Fed.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-          "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T12:15:00.000Z",
-          "excerpt": "“I’m curious whether there’s a downside.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
+          "title": "Lebanon becomes first Arab nation to abolish death penalty",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3363687/lebanon-becomes-first-arab-nation-abolish-death-penalty?utm_source=rss_feed",
+          "pubDate": "2026-08-11T13:23:29.000Z",
+          "excerpt": "In a landmark change to Lebanon’s penal system, the country’s parliament on Tuesday approved legislation abolishing the death penalty, replacing it with life…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": "Lebanon abolished the death penalty, replacing it with life imprisonment"
         }
       ],
       "aiSummary": null
