@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T15:01:17.238Z",
+  "lastUpdated": "2026-08-11T16:03:11.442Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4451.7,
+      "value": 4436.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7760.4,
-      "change": 23.8799999999992,
-      "changePercent": 0.30866591180529745
+      "value": 7744.31,
+      "change": 7.789999999999964,
+      "changePercent": 0.10069126687451158
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26613.846,
-      "change": 28.855999999999767,
-      "changePercent": 0.10854245196255392
+      "value": 26510.053,
+      "change": -74.93700000000172,
+      "changePercent": -0.28187710433594937
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26484.66,
-      "change": 282.3100000000013,
-      "changePercent": 1.0774224449333794
+      "value": 26391.42,
+      "change": 189.0699999999997,
+      "changePercent": 0.7215764998177634
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Xu hướng VN-Index chỉ có thể cải thiện khi vượt lên kháng cự quanh 1800 điểm",
+          "link": "https://vneconomy.vn/xu-huong-vn-index-chi-co-the-cai-thien-khi-vuot-len-khang-cu-quanh-1800-diem.htm",
+          "pubDate": "2026-08-11T15:52:56.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 12/8/2026",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Xu hướng VN-Index cải thiện khi vượt 1800 điểm."
+        },
         {
           "title": "Vừa nhận cổ tức tiền mặt hơn 90%, cổ đông doanh nghiệp này lại sắp nhận thêm 1.200 đồng/cổ phiếu",
           "link": "https://cafef.vn/vua-nhan-co-tuc-tien-mat-hon-90-co-dong-doanh-nghiep-nay-lai-sap-nhan-them-1200-dong-co-phieu-188260811213320229.chn",
@@ -72,7 +83,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cổ đông doanh nghiệp nhận cổ tức tiền mặt hơn 90% và sắp nhận thêm 1.200 đồng/cổ phiếu."
+          "condensed": "Cổ đông nhận cổ tức tiền mặt và thêm 1.200 đồng/cổ phiếu."
         },
         {
           "title": "DatVietVAC lên kế hoạch IPO hơn 11 triệu cổ phiếu",
@@ -105,7 +116,18 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Giá USD giảm mạnh tại các ngân hàng thương mại và thị trường tự do."
+          "condensed": "Giá USD giảm mạnh tại ngân hàng và thị trường tự do."
+        },
+        {
+          "title": "Việt Nam - Australia hợp tác nâng sức chống chịu, phục hồi kinh tế",
+          "link": "https://vnexpress.net/viet-nam-australia-hop-tac-nang-suc-chong-chiu-phuc-hoi-kinh-te-5108023.html",
+          "pubDate": "2026-08-11T12:40:02.000Z",
+          "excerpt": "Việt Nam và Australia sẽ tăng hợp tác về nâng cao sức chống chịu, thích ứng và phục hồi kinh tế, phù hợp với khuôn khổ Đối tác Chiến lược Toàn diện.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Việt Nam và Australia hợp tác nâng sức chống chịu kinh tế."
         },
         {
           "title": "Khối ngoại mạnh tay xả hàng, tổ chức trong nước \"cân\" lệnh",
@@ -116,7 +138,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Khối ngoại mạnh tay xả hàng, tổ chức trong nước cân lệnh."
+          "condensed": "Khối ngoại xả hàng, tổ chức trong nước cân lệnh."
         },
         {
           "title": "Người bảo vệ kiếm 50 đồng đầu tư chứng khoán 40 đồng, tới cuối đời sở hữu tài sản 200 tỷ, người thân ai cũng ngỡ ngàng",
@@ -127,29 +149,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người đàn ông đầu tư 40 đồng kiếm 50 đồng, cuối đời sở hữu 200 tỷ."
-        },
-        {
-          "title": "Hai mã ngân hàng cùng một cổ phiếu Bluechips được tự doanh CTCK gom mạnh phiên giảm điểm",
-          "link": "https://cafef.vn/hai-ma-ngan-hang-cung-mot-co-phieu-bluechips-duoc-tu-doanh-ctck-gom-manh-phien-giam-diem-188260811182009581.chn",
-          "pubDate": "2026-08-11T11:20:00.000Z",
-          "excerpt": "Tự doanh CTCK mua ròng 254 tỷ đồng trên HoSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Tự doanh CTCK mua ròng 254 tỷ đồng trên HoSE."
-        },
-        {
-          "title": "Giám đốc Cainver: Việt Nam cần tận dụng lợi thế riêng ở cảng biển, logistics và xuất khẩu",
-          "link": "https://cafebiz.vn/giam-doc-cainver-viet-nam-can-tan-dung-loi-the-rieng-o-cang-bien-logistics-va-xuat-khau-176260811205445836.chn",
-          "pubDate": "2026-08-11T11:20:00.000Z",
-          "excerpt": "Theo ông Bill Nguyễn, Giám đốc Phát triển kinh doanh Cainver, Trung tâm Tài chính Quốc tế tại TP.HCM cần tận dụng lợi thế riêng của Việt Nam về cảng biển,…",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": "Việt Nam cần tận dụng lợi thế cảng biển, logistics và xuất khẩu."
+          "condensed": "Người đàn ông đầu tư 40 đồng kiếm 200 tỷ."
         }
       ],
       "aiSummary": null
@@ -167,7 +167,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người dân trúng đấu giá đất nhưng không có trên thực địa sau 18 năm."
+          "condensed": "Người dân trúng đấu giá đất nhưng không có trên thực địa"
         },
         {
           "title": "\"Niên hạn căn hộ không đồng nghĩa với việc hết thời hạn thì người dân mất quyền sở hữu\"",
@@ -178,7 +178,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Niên hạn căn hộ không ảnh hưởng quyền sở hữu."
+          "condensed": "Niên hạn căn hộ không ảnh hưởng quyền sở hữu"
         },
         {
           "title": "Đà Nẵng tăng cường công tác quản lý, sử dụng nhà chung cư trên địa bàn thành phố",
@@ -189,7 +189,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Đà Nẵng tăng cường quản lý nhà chung cư."
+          "condensed": "Đà Nẵng tăng cường quản lý nhà chung cư"
         },
         {
           "title": "Lừa \"chạy\" thủ tục đất đai, một đối tượng bị khởi tố, bắt tạm giam",
@@ -200,7 +200,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Đối tượng lừa đảo về thủ tục đất đai bị bắt."
+          "condensed": "Đối tượng lừa đảo về thủ tục đất đai bị bắt"
         },
         {
           "title": "Vingroup của tỷ phú Phạm Nhật Vượng chính thức đổi logo",
@@ -211,7 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Vingroup đổi logo sau 33 năm."
+          "condensed": "Vingroup đổi logo sau 33 năm"
         },
         {
           "title": "TP. Hồ Chí Minh đề xuất cơ chế rút ngắn thời gian giải phóng mặt bằng dự án",
@@ -222,7 +222,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP. Hồ Chí Minh đề xuất rút ngắn thời gian giải phóng mặt bằng."
+          "condensed": "TP. Hồ Chí Minh đề xuất rút ngắn thời gian giải phóng mặt bằng"
         },
         {
           "title": "Lâm Đồng quy định hạn mức giao đất, điều kiện tách thửa",
@@ -233,7 +233,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Lâm Đồng quy định hạn mức giao đất."
+          "condensed": "Lâm Đồng quy định hạn mức giao đất"
         },
         {
           "title": "Lãnh đạo CBRE: Một nửa nguồn cung văn phòng TP.HCM vào năm 2030 có thể tập trung tại Trung tâm Tài chính Quốc tế",
@@ -244,7 +244,7 @@
           "sourceName": "CafeBiz",
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
-          "condensed": "Nguồn cung văn phòng TP.HCM dự kiến tập trung tại Trung tâm Tài chính Quốc tế."
+          "condensed": "Nguồn cung văn phòng tại TP.HCM có thể tập trung tại Trung tâm Tài chính Quốc tế"
         }
       ],
       "aiSummary": null
@@ -253,17 +253,6 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
-        {
-          "title": "Việt Nam - Australia hợp tác nâng sức chống chịu, phục hồi kinh tế",
-          "link": "https://vnexpress.net/viet-nam-australia-hop-tac-nang-suc-chong-chiu-phuc-hoi-kinh-te-5108023.html",
-          "pubDate": "2026-08-11T12:40:02.000Z",
-          "excerpt": "Việt Nam và Australia sẽ tăng hợp tác về nâng cao sức chống chịu, thích ứng và phục hồi kinh tế, phù hợp với khuôn khổ Đối tác Chiến lược Toàn diện.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Việt Nam và Australia tăng hợp tác về nâng cao sức chống chịu kinh tế."
-        },
         {
           "title": "Đồng Nai tăng tốc 3 tuyến đường gần 12.000 tỷ đồng kết nối sân bay Long Thành",
           "link": "https://vneconomy.vn/dong-nai-tang-toc-3-tuyen-duong-gan-12000-ty-dong-ket-noi-san-bay-long-thanh.htm",
@@ -340,6 +329,17 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
+        },
+        {
+          "title": "Thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng không",
+          "link": "https://vneconomy.vn/thanh-lap-uy-ban-quoc-gia-ve-an-ninh-hang-khong-va-tao-thuan-loi-hang-khong.htm",
+          "pubDate": "2026-08-11T09:07:18.000Z",
+          "excerpt": "Thủ tướng Chính phủ Lê Minh Hưng vừa ký Quyết định số 1519/QĐ-TTg ngày 10/8/2026 về việc thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,21 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "AI is killing worker confidence, but there’s no sign it’s muscling people out of their jobs on a massive scale",
-          "link": "https://www.marketwatch.com/story/workers-are-worried-but-theres-no-sign-ai-is-muscling-people-out-of-their-jobs-on-a-massive-scale-8eb92638?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T14:53:00.000Z",
-          "excerpt": "Mark Zuckerberg says we’re lucky to live in an “incredible moment,” but many workers are having a hard time stomaching the uncertainty.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": "AI is affecting worker confidence without widespread job loss"
-        },
-        {
-          "title": "Is inflation really slowing? Fed rate hike hinges on July price report.",
-          "link": "https://www.marketwatch.com/story/is-inflation-really-slowing-fed-rate-hike-hinges-on-july-price-report-9d3c3a73?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T14:49:00.000Z",
-          "excerpt": "A surprising decline in U.S. jobs last month isn’t enough to discourage the Federal Reserve from raising interest rates soon, but a tame inflation report for…",
+          "title": "If you can answer this one question, you’ll never worry about money again",
+          "link": "https://www.marketwatch.com/story/if-you-can-answer-this-one-question-youll-never-worry-about-money-again-6cf8d0a8?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T15:44:00.000Z",
+          "excerpt": "YNAB founder Jesse Mecham’s new book has a simple system to end the paycheck-to-paycheck struggle.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -371,14 +360,69 @@
           "condensed": null
         },
         {
-          "title": "Wall Street thinks inflation is under control. Here’s why investors shouldn’t buy it.",
-          "link": "https://www.marketwatch.com/story/fed-chair-kevin-warsh-promises-2-inflation-but-skyrocketing-u-s-debt-makes-that-a-pipe-dream-ba448651?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T14:21:00.000Z",
-          "excerpt": "Uncle Sam needs inflation, not just economic growth, to escape today’s debt crisis.",
+          "title": "A historically strong stretch for the U.S. stock market is about to begin",
+          "link": "https://www.marketwatch.com/story/a-historically-strong-stretch-for-the-u-s-stock-market-is-about-to-begin-07281312?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T15:40:00.000Z",
+          "excerpt": "Some investors are worried that this AI-powered bull market might be getting a little long in the tooth as it approaches its fourth birthday.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Rooftop panels in cities cannot replace solar farms",
+          "link": "https://www.ft.com/content/a061e46e-705c-44f6-a036-20e6cb56d19a?syn-25a6b1a6=1",
+          "pubDate": "2026-08-11T15:37:49.000Z",
+          "excerpt": "Cleve Hill, the UK’s largest solar park, is unpopular with locals but the country needs more like it",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
+          "link": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T15:32:00.000Z",
+          "excerpt": "I looked across the world to see how far our savings would go and whether diversifying our investment portfolio by purchasing a rental property might make more…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Russia frees ailing ex-US marine after Putin’s ‘goodwill’ pardon",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363694/russia-frees-ailing-ex-us-marine-after-putins-goodwill-pardon?utm_source=rss_feed",
+          "pubDate": "2026-08-11T15:09:43.000Z",
+          "excerpt": "Moscow on ⁠Tuesday freed a former US marine jailed in Russia ⁠since 2022 after Russian President Vladimir Putin approved a pardon for the ailing American based…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "‘I don’t wish to be cold-hearted’: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
+          "link": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T15:00:00.000Z",
+          "excerpt": "“He has never been particularly generous or nurturing.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Why Investors Fall for Shooting Stars",
+          "link": "https://www.wsj.com/finance/investing/why-investors-fall-for-shooting-stars-b116f862?mod=rss_markets_main",
+          "pubDate": "2026-08-11T15:00:00.000Z",
+          "excerpt": "Plus, some good reading and a couple of updates.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
           "condensed": null
         },
         {
@@ -390,51 +434,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "A mine dump collapse in South Africa killed at least 14 miners"
-        },
-        {
-          "title": "Hungary parliament approves Orban-critic judge as president",
-          "link": "https://www.scmp.com/news/world/europe/article/3363690/hungary-parliament-approves-orban-critic-judge-president?utm_source=rss_feed",
-          "pubDate": "2026-08-11T14:00:20.000Z",
-          "excerpt": "Hungarian lawmakers on Tuesday approved former supreme court chief Andras Baka, a critic of Viktor Orban who was fired during the ex-premier’s time in power,…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": "Hungarian lawmakers approved a critic of Viktor Orban as president"
-        },
-        {
-          "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
-          "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T14:00:00.000Z",
-          "excerpt": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
-        },
-        {
-          "title": "Private-Credit Firms Clamp Down on Loan Sweeteners in Fear of ‘Shadow Defaults’",
-          "link": "https://www.wsj.com/finance/private-credit-firms-clamp-down-on-loan-sweeteners-in-fear-of-shadow-defaults-58ac13ec?mod=rss_markets_main",
-          "pubDate": "2026-08-11T13:30:00.000Z",
-          "excerpt": "Borrowers have delayed interest payments on billions of dollars of loans, raising concerns that defaults are higher than reported.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Lebanon becomes first Arab nation to abolish death penalty",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3363687/lebanon-becomes-first-arab-nation-abolish-death-penalty?utm_source=rss_feed",
-          "pubDate": "2026-08-11T13:23:29.000Z",
-          "excerpt": "In a landmark change to Lebanon’s penal system, the country’s parliament on Tuesday approved legislation abolishing the death penalty, replacing it with life…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": "Lebanon abolished the death penalty, replacing it with life imprisonment"
         }
       ],
       "aiSummary": null
