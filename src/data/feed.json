@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T17:05:26.518Z",
+  "lastUpdated": "2026-08-11T18:02:28.288Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4441.2,
+      "value": 4435.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7732.53,
-      "change": -3.990000000000691,
-      "changePercent": -0.051573575716222425
+      "value": 7734.72,
+      "change": -1.800000000000182,
+      "changePercent": -0.023266274759196407
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26454.566,
-      "change": -130.4240000000027,
-      "changePercent": -0.4905926238828854
+      "value": 26459.246,
+      "change": -125.74400000000242,
+      "changePercent": -0.47298870528069564
     },
     {
       "symbol": "^N225",
@@ -64,6 +64,83 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "Bánh Trung thu năm nay tăng giá",
+          "link": "https://vnexpress.net/banh-trung-thu-nam-nay-tang-gia-5107494.html",
+          "pubDate": "2026-08-11T17:21:34.000Z",
+          "excerpt": "Đặt mua bánh Trung thu sớm, chị Hòa ở phường Gia Định, TP HCM, bất ngờ khi nhiều cửa hàng báo giá tăng 5-15%, có loại cao hơn 20% so với năm ngoái.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Bánh Trung thu tăng giá 5-15% so với năm ngoái ở TP HCM."
+        },
+        {
+          "title": "DatVietVAC muốn thành 'kỳ lân' đầu tiên của ngành giải trí Việt Nam",
+          "link": "https://vnexpress.net/datvietvac-muon-thanh-ky-lan-dau-tien-cua-nganh-giai-tri-viet-nam-5108060.html",
+          "pubDate": "2026-08-11T17:21:00.000Z",
+          "excerpt": "DatVietVAC kỳ vọng định giá vào năm 2030 tăng khoảng 5 lần so với hiện tại (234 triệu USD), để thành kỳ lân đầu tiên của ngành công nghiệp giải trí nội địa.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "DatVietVAC kỳ vọng tăng giá trị vào năm 2030."
+        },
+        {
+          "title": "Loạt NHTW, các quỹ ETF, \"trùm\" Stablecoin đồng loạt mua vàng ngay trước sóng tăng",
+          "link": "https://cafef.vn/loat-nhtw-cac-quy-etf-trum-stablecoin-dong-loat-mua-vang-ngay-truoc-song-tang-188260811224425534.chn",
+          "pubDate": "2026-08-11T17:10:00.000Z",
+          "excerpt": "Các thế lực hàng đầu liên tục đổ tiền mua vàng ngay trước khi giá tăng mạnh từ đầu tháng 8.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Các tổ chức mua vàng trước sóng tăng."
+        },
+        {
+          "title": "VN-Index có thể hướng tới vùng 1.850-1.950 điểm, CTCK chỉ ra loạt cổ phiếu có câu chuyện riêng",
+          "link": "https://cafef.vn/vn-index-co-the-huong-toi-vung-1850-1950-diem-ctck-chi-ra-loat-co-phieu-co-cau-chuyen-rieng-188260811223823058.chn",
+          "pubDate": "2026-08-11T17:07:00.000Z",
+          "excerpt": "Trong quá trình đi lên, ABS khuyến nghị nhà đầu tư tận dụng các phiên giảm mạnh để gia tăng tỷ trọng cổ phiếu ngắn hạn.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "VN-Index có thể tăng tới 1.950 điểm."
+        },
+        {
+          "title": "Một biến số có thể khiến chứng khoán rung lắc mạnh",
+          "link": "https://cafef.vn/mot-bien-so-co-the-khien-chung-khoan-rung-lac-manh-188260811220326195.chn",
+          "pubDate": "2026-08-11T17:04:00.000Z",
+          "excerpt": "Mirae Asset đánh giá đây là vùng định giá hấp dẫn, có khả năng thu hút dòng tiền đầu tư dài hạn vào các cổ phiếu có nền tảng cơ bản tốt.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Chứng khoán có vùng định giá hấp dẫn."
+        },
+        {
+          "title": "\"Đãi cát tìm vàng\" từ KQKD quý 2: Gọi tên các \"siêu cổ phiếu\" tiềm năng với biên lãi gộp tăng trưởng liên tục",
+          "link": "https://cafef.vn/dai-cat-tim-vang-tu-kqkd-quy-2-goi-ten-cac-sieu-co-phieu-tiem-nang-voi-bien-lai-gop-tang-truong-lien-tuc-188260811222629646.chn",
+          "pubDate": "2026-08-11T17:02:00.000Z",
+          "excerpt": "Xét theo ngành, dầu khí, truyền thông, bất động sản và bán lẻ dẫn đầu về tốc độ tăng trưởng lợi nhuận ấn tượng trong quý 2.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Dầu khí dẫn đầu tăng trưởng lợi nhuận."
+        },
+        {
+          "title": "SGI Capital: Chứng khoán đối diện “bài test” lớn, giai đoạn biến động mạnh có thể vẫn ở phía trước",
+          "link": "https://cafef.vn/sgi-capital-chung-khoan-doi-dien-bai-test-lon-giai-doan-bien-dong-manh-co-the-van-o-phia-truoc-188260811220520287.chn",
+          "pubDate": "2026-08-11T17:02:00.000Z",
+          "excerpt": "Nhóm phân tích cho rằng trong một chu kỳ điều chỉnh lớn, lãi suất chỉ thực sự tạo đỉnh sau khi tăng cao khiến nhu cầu tín dụng suy giảm mạnh.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Chứng khoán đối diện biến động mạnh."
+        },
+        {
           "title": "Xu hướng VN-Index chỉ có thể cải thiện khi vượt lên kháng cự quanh 1800 điểm",
           "link": "https://vneconomy.vn/xu-huong-vn-index-chi-co-the-cai-thien-khi-vuot-len-khang-cu-quanh-1800-diem.htm",
           "pubDate": "2026-08-11T15:52:56.000Z",
@@ -72,84 +149,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Xu hướng VN-Index cải thiện khi vượt 1800 điểm"
-        },
-        {
-          "title": "Vừa nhận cổ tức tiền mặt hơn 90%, cổ đông doanh nghiệp này lại sắp nhận thêm 1.200 đồng/cổ phiếu",
-          "link": "https://cafef.vn/vua-nhan-co-tuc-tien-mat-hon-90-co-dong-doanh-nghiep-nay-lai-sap-nhan-them-1200-dong-co-phieu-188260811213320229.chn",
-          "pubDate": "2026-08-11T14:33:00.000Z",
-          "excerpt": "Câu chuyện cổ tức cũng từng là vấn đề được nhiều cổ đông nhỏ lẻ SGS quan tâm tại các kỳ đại hội.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cổ đông SGS nhận cổ tức tiền mặt hơn 90% và 1.200 đồng/cổ phiếu"
-        },
-        {
-          "title": "DatVietVAC lên kế hoạch IPO hơn 11 triệu cổ phiếu",
-          "link": "https://vneconomy.vn/datvietvac-len-ke-hoach-ipo-hon-11-trieu-co-phieu.htm",
-          "pubDate": "2026-08-11T14:24:03.000Z",
-          "excerpt": "DatVietVAC dự kiến chào bán hơn 11 triệu cổ phiếu với giá 54.800 đồng/cổ phiếu, đưa vốn hóa sau IPO lên hơn 6.000 tỷ đồng. Đồng thời, hướng tới mục tiêu trở…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "DatVietVAC lên kế hoạch IPO hơn 11 triệu cổ phiếu"
-        },
-        {
-          "title": "Tỷ phú Jeff Bezos sắp mua Liverpool",
-          "link": "https://cafef.vn/ty-phu-jeff-bezos-sap-mua-liverpool-188260811211948981.chn",
-          "pubDate": "2026-08-11T14:19:00.000Z",
-          "excerpt": "Liên danh do Amit Bhatia dẫn đầu, với sự tham gia của nhà sáng lập Amazon Jeff Bezos và đồng sáng lập Facebook Eduardo Saverin, đang tiến gần thỏa thuận mua…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Tỷ phú Jeff Bezos sắp mua Liverpool"
-        },
-        {
-          "title": "Vì sao giá USD lao dốc?",
-          "link": "http://vietstock.vn/2026/08/vi-sao-gia-usd-lao-doc-757-1479452.htm",
-          "pubDate": "2026-08-11T13:41:41.000Z",
-          "excerpt": "Giá USD tại các ngân hàng thương mại tiếp tục giảm mạnh, trên thị trường tự do còn giảm sâu hơn. Chuyên gia cho rằng, diễn biến này cho thấy, nguồn cung ngoại…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "Giá USD giảm mạnh tại ngân hàng và thị trường tự do"
-        },
-        {
-          "title": "Việt Nam - Australia hợp tác nâng sức chống chịu, phục hồi kinh tế",
-          "link": "https://vnexpress.net/viet-nam-australia-hop-tac-nang-suc-chong-chiu-phuc-hoi-kinh-te-5108023.html",
-          "pubDate": "2026-08-11T12:40:02.000Z",
-          "excerpt": "Việt Nam và Australia sẽ tăng hợp tác về nâng cao sức chống chịu, thích ứng và phục hồi kinh tế, phù hợp với khuôn khổ Đối tác Chiến lược Toàn diện.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Việt Nam và Australia hợp tác nâng sức chống chịu kinh tế"
-        },
-        {
-          "title": "Khối ngoại mạnh tay xả hàng, tổ chức trong nước \"cân\" lệnh",
-          "link": "https://vneconomy.vn/khoi-ngoai-manh-tay-xa-hang-to-chuc-trong-nuoc-can-lenh.htm",
-          "pubDate": "2026-08-11T11:45:22.000Z",
-          "excerpt": "Điểm yếu hôm nay vẫn là thanh khoản, ba sàn khớp lệnh vỏn vẹn gần 17.000 tỷ đồng giảm mạnh so với phiên giao dịch hôm qua trong đó nhà đầu tư nước ngoài bán…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Khối ngoại xả hàng, tổ chức trong nước cân lệnh"
-        },
-        {
-          "title": "Người bảo vệ kiếm 50 đồng đầu tư chứng khoán 40 đồng, tới cuối đời sở hữu tài sản 200 tỷ, người thân ai cũng ngỡ ngàng",
-          "link": "https://cafef.vn/nguoi-bao-ve-kiem-50-dong-dau-tu-chung-khoan-40-dong-toi-cuoi-doi-so-huu-tai-san-200-ty-nguoi-than-ai-cung-ngo-ngang-188260811180235582.chn",
-          "pubDate": "2026-08-11T11:29:00.000Z",
-          "excerpt": "Theo chia sẻ, người đàn ông kiếm được 50 đồng thì có thể dành ra 40 đồng để đầu tư.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Người đàn ông đầu tư 40 đồng kiếm 200 tỷ"
+          "condensed": "VN-Index cần vượt 1800 điểm để cải thiện."
         }
       ],
       "aiSummary": null
@@ -159,6 +159,28 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Trung tâm tài chính 'thổi' động lực cho văn phòng hạng A",
+          "link": "https://vnexpress.net/trung-tam-tai-chinh-thoi-dong-luc-cho-van-phong-hang-a-5107954.html",
+          "pubDate": "2026-08-11T17:03:00.000Z",
+          "excerpt": "Phần lớn nguồn cung văn phòng hạng A sắp tới thuộc phạm vi trung tâm tài chính, triển vọng hút khách đến mở ngân hàng, trung tâm công nghệ.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Trung tâm tài chính thúc đẩy thị trường văn phòng hạng A."
+        },
+        {
+          "title": "Nhà phố hướng tây nên trồng cây hay làm lam che nắng?",
+          "link": "https://vnexpress.net/nha-pho-huong-tay-nen-trong-cay-hay-lam-lam-che-nang-5107525.html",
+          "pubDate": "2026-08-11T17:00:00.000Z",
+          "excerpt": "Nhà phố hướng Tây bị nắng gắt chiều, gia chủ phân vân giữa lắp thanh lam cố định hay trồng cây xanh để chống nóng hiệu quả.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Đất có sổ đỏ 18 năm nhưng 'không có trên thực địa': Yêu cầu xử lý dứt điểm trước ngày 15/8",
           "link": "https://cafef.vn/dat-co-so-do-18-nam-nhung-khong-co-tren-thuc-dia-yeu-cau-xu-ly-dut-diem-truoc-ngay-15-8-188260811175614557.chn",
           "pubDate": "2026-08-11T13:00:00.000Z",
@@ -167,7 +189,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Người dân trúng đấu giá đất nhưng không có trên thực địa"
+          "condensed": "Chủ đất gặp vấn đề khi lô đất không có trên thực địa."
         },
         {
           "title": "\"Niên hạn căn hộ không đồng nghĩa với việc hết thời hạn thì người dân mất quyền sở hữu\"",
@@ -178,7 +200,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Niên hạn căn hộ không đồng nghĩa với việc hết thời hạn sở hữu"
+          "condensed": null
         },
         {
           "title": "Đà Nẵng tăng cường công tác quản lý, sử dụng nhà chung cư trên địa bàn thành phố",
@@ -189,7 +211,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Đà Nẵng tăng cường quản lý nhà chung cư"
+          "condensed": "Đà Nẵng tăng cường quản lý nhà chung cư."
         },
         {
           "title": "Lừa \"chạy\" thủ tục đất đai, một đối tượng bị khởi tố, bắt tạm giam",
@@ -200,7 +222,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Đối tượng lừa chạy thủ tục đất đai bị bắt"
+          "condensed": "Đối tượng lừa đảo bị bắt tại Ninh Bình."
         },
         {
           "title": "Vingroup của tỷ phú Phạm Nhật Vượng chính thức đổi logo",
@@ -211,7 +233,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Vingroup đổi logo sau 33 năm"
+          "condensed": "Vingroup đổi logo sau 33 năm."
         },
         {
           "title": "TP. Hồ Chí Minh đề xuất cơ chế rút ngắn thời gian giải phóng mặt bằng dự án",
@@ -222,29 +244,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP. Hồ Chí Minh đề xuất rút ngắn thời gian giải phóng mặt bằng"
-        },
-        {
-          "title": "Lâm Đồng quy định hạn mức giao đất, điều kiện tách thửa",
-          "link": "https://vneconomy.vn/lam-dong-quy-dinh-han-muc-giao-dat-dieu-kien-tach-thua.htm",
-          "pubDate": "2026-08-11T09:16:42.000Z",
-          "excerpt": "UBND tỉnh Lâm Đồng vừa ban hành Quyết định số 54/2026/QĐ-UBND quy định hạn mức giao đất, công nhận quyền sử dụng đất, nhận chuyển quyền sử dụng đất; giấy tờ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Lâm Đồng quy định hạn mức giao đất"
-        },
-        {
-          "title": "Lãnh đạo CBRE: Một nửa nguồn cung văn phòng TP.HCM vào năm 2030 có thể tập trung tại Trung tâm Tài chính Quốc tế",
-          "link": "https://cafebiz.vn/lanh-dao-cbre-mot-nua-nguon-cung-van-phong-tphcm-vao-nam-2030-co-the-tap-trung-tai-trung-tam-tai-chinh-quoc-te-176260811151158008.chn",
-          "pubDate": "2026-08-11T09:04:00.000Z",
-          "excerpt": "Theo ông Lê Trọng Hiếu, Giám đốc Cấp cao, Trưởng bộ phận cho thuê dịch vụ tư vấn & quản lý kinh doanh, khu công nghiệp & văn phòng cho thuê tại CBRE Việt Nam,…",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": "Nguồn cung văn phòng TP.HCM có thể tập trung tại Trung tâm Tài chính Quốc tế"
+          "condensed": "TP. Hồ Chí Minh đề xuất rút ngắn thời gian giải phóng mặt bằng."
         }
       ],
       "aiSummary": null
@@ -349,6 +349,50 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "How This 100-Year-Old Company Is Recreating a Lost Neon Color",
+          "link": "https://www.wsj.com/finance/investing/how-this-100-year-old-company-is-recreating-a-lost-neon-color-bd7357a0?mod=rss_markets_main",
+          "pubDate": "2026-08-11T18:00:00.000Z",
+          "excerpt": "Watch how neon signs that once lighted up cities are slowly going away as remaining artisans fight to keep the tradition alive.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "‘I’m dreaming of cocktails at Château Marmont’: I found $100 in my Airbnb’s communal washer. What should I do?",
+          "link": "https://www.marketwatch.com/story/im-dreaming-of-cocktails-at-chateau-marmont-i-found-100-in-my-airbnbs-communal-washer-what-should-i-do-9694ecca?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T17:45:00.000Z",
+          "excerpt": "“The landlord has not been here in months, so I assume it was a previous tenant.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Unitree’s IPO may be just the beginning of an investor frenzy over humanoid-robot stocks",
+          "link": "https://www.marketwatch.com/story/unitrees-ipo-may-be-just-the-beginning-of-an-investor-frenzy-over-humanoid-robot-stocks-8c2d39b6?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T17:17:00.000Z",
+          "excerpt": "The Chinese company will be the first to market in a wave of new humanoid-robotics IPOs.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
+          "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+          "pubDate": "2026-08-11T17:16:00.000Z",
+          "excerpt": "“I’m curious whether there’s a downside.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "Rights groups sue the Trump administration over ICC sanctions",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3363699/rights-groups-sue-trump-administration-over-icc-sanctions?utm_source=rss_feed",
           "pubDate": "2026-08-11T16:48:40.000Z",
@@ -371,29 +415,7 @@
           "condensed": null
         },
         {
-          "title": "If you can answer this one question, you’ll never worry about money again",
-          "link": "https://www.marketwatch.com/story/if-you-can-answer-this-one-question-youll-never-worry-about-money-again-6cf8d0a8?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T15:44:00.000Z",
-          "excerpt": "YNAB founder Jesse Mecham’s new book has a simple system to end the paycheck-to-paycheck struggle.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "A historically strong stretch for the U.S. stock market is about to begin",
-          "link": "https://www.marketwatch.com/story/a-historically-strong-stretch-for-the-u-s-stock-market-is-about-to-begin-07281312?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T15:40:00.000Z",
-          "excerpt": "Some investors are worried that this AI-powered bull market might be getting a little long in the tooth as it approaches its fourth birthday.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Rooftop panels in cities cannot replace solar farms",
+          "title": "Rooftop panels in cities are no replacement for solar farms",
           "link": "https://www.ft.com/content/a061e46e-705c-44f6-a036-20e6cb56d19a?syn-25a6b1a6=1",
           "pubDate": "2026-08-11T15:37:49.000Z",
           "excerpt": "Cleve Hill, the UK’s largest solar park, is unpopular with locals but the country needs more like it",
@@ -401,17 +423,6 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "I looked into buying a house in Singapore as an investment. Here’s why I didn’t — despite the 2% mortgage rate.",
-          "link": "https://www.marketwatch.com/story/i-looked-into-buying-a-house-in-singapore-as-an-investment-heres-why-i-didnt-despite-the-2-mortgage-rate-50c79bcf?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T15:32:00.000Z",
-          "excerpt": "I looked across the world to see how far our savings would go and whether diversifying our investment portfolio by purchasing a rental property might make more…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         },
         {
@@ -423,17 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Why Investors Fall for Shooting Stars",
-          "link": "https://www.wsj.com/finance/investing/why-investors-fall-for-shooting-stars-b116f862?mod=rss_markets_main",
-          "pubDate": "2026-08-11T15:00:00.000Z",
-          "excerpt": "Plus, some good reading and a couple of updates.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
           "condensed": null
         }
       ],
