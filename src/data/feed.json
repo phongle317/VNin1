@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T20:03:53.362Z",
+  "lastUpdated": "2026-08-12T20:57:14.814Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4472,
+      "value": 4467.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,9 +21,9 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7748.51,
-      "change": 24.960000000000036,
-      "changePercent": 0.3231674553799747
+      "value": 7748.5,
+      "change": 24.949999999999818,
+      "changePercent": 0.32303798123919464
     },
     {
       "symbol": "^IXIC",
@@ -64,6 +64,17 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "'Nhà đầu tư sẽ sợ hải nếu lãi suất tiết kiệm vượt 10%'",
+          "link": "https://vnexpress.net/nha-dau-tu-se-so-hai-neu-lai-suat-tiet-kiem-vuot-10-5108173.html",
+          "pubDate": "2026-08-12T20:00:00.000Z",
+          "excerpt": "Lãi suất tiền gửi tăng khiến chứng khoán kém hấp dẫn hơn, nếu vượt 10% một năm, có thể làm cho nhà đầu tư chuyển sang sợ hãi, theo SGI Capital.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Lãi suất tiền gửi tăng làm chứng khoán kém hấp dẫn hơn."
+        },
+        {
           "title": "Doanh nghiệp Việt tăng tốc mở rộng ra quốc tế",
           "link": "https://vnexpress.net/doanh-nghiep-viet-tang-toc-mo-rong-ra-quoc-te-5106777.html",
           "pubDate": "2026-08-12T17:10:00.000Z",
@@ -83,7 +94,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "16 ngành ghi nhận lợi nhuận quý 2 tăng."
+          "condensed": "16 ngành ghi nhận lợi nhuận quý 2 tăng so với cùng kỳ."
         },
         {
           "title": "Một doanh nghiệp sắp \"phát\" 3.000 đồng/cp, hơn thập kỷ bền bỉ trả cổ tức tiền mặt cao",
@@ -139,25 +150,47 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": "Prime Group cắt giảm 23.000 tấn CO2 mỗi năm."
-        },
-        {
-          "title": "Mẹ đẻ 'đại gia Kim Cương' bị cáo buộc tham ô hơn 79 tỷ đồng",
-          "link": "https://cafef.vn/me-de-dai-gia-kim-cuong-bi-cao-buoc-tham-o-hon-79-ty-dong-188260812223757172.chn",
-          "pubDate": "2026-08-12T16:05:00.000Z",
-          "excerpt": "Theo cáo buộc, bị can Chu Thị Thành (Chủ tịch Công ty CP Tập đoàn Thiên Minh Đức, mẹ đẻ của Chu Đăng Khoa, hay còn gọi là Khoa kim cương) bị kết luận đã tham ô…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Chu Thị Thành bị cáo buộc tham ô hơn 79 tỷ đồng."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Lãi suất tiền gửi tăng khiến chứng khoán kém hấp dẫn hơn, nếu vượt 10% một năm, có thể làm cho nhà đầu tư chuyển sang sợ hãi."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Lãi vay tăng cao 'bào mòn' lợi nhuận nhà đầu tư bất động sản",
+          "link": "https://vnexpress.net/lai-vay-tang-cao-bao-mon-loi-nhuan-nha-dau-tu-bat-dong-san-5107561.html",
+          "pubDate": "2026-08-12T19:00:00.000Z",
+          "excerpt": "Dù bán căn hộ cao hơn giá mua 700 triệu đồng, anh Phan Tình gần như không có lời sau ba năm nắm giữ vì phần chênh lệch bị bào mòn bởi lãi vay và chi phí giao…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Đà Nẵng tái khởi động dự án lấn biển Đa Phước gần 55.000 tỷ đồng",
+          "link": "https://vnexpress.net/da-nang-tai-khoi-dong-du-an-lan-bien-da-phuoc-gan-55-000-ty-dong-5108479.html",
+          "pubDate": "2026-08-12T17:05:00.000Z",
+          "excerpt": "Dự án khu đô thị quốc tế Đa Phước với tổng vốn đầu tư gần 54.800 tỷ đồng dự kiến tái khởi động từ quý III năm nay và hoàn thành vào giữa năm 2033.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Căn nhà như 'bảo tàng đương đại' của nam ca sĩ từng giành 8 giải Grammy",
+          "link": "https://vnexpress.net/can-nha-nhu-bao-tang-duong-dai-cua-nam-ca-si-tung-gianh-8-giai-grammy-5108196.html",
+          "pubDate": "2026-08-12T17:00:00.000Z",
+          "excerpt": "Các không gian trong nhà của Usher được phát triển từ những câu chuyện riêng của gia đình, kết hợp nghệ thuật đương đại với vật dụng và kỷ vật có giá trị tinh…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Hải Phòng đấu giá 5 mỏ cát cát biển hơn 488 ha",
           "link": "https://vneconomy.vn/hai-phong-dau-gia-5-mo-cat-cat-bien-hon-488-ha.htm",
@@ -207,39 +240,6 @@
           "link": "https://cafef.vn/de-xuat-uu-dai-cho-ca-nhan-xay-nha-tro-cho-thue-188260812153216113.chn",
           "pubDate": "2026-08-12T09:59:00.000Z",
           "excerpt": "Hơn 60.470 khu nhà trọ với trên 560.000 phòng đang đáp ứng chỗ ở cho hơn 1,4 triệu người tại TP.HCM cũ. HoREA đề xuất bổ sung chính sách ưu đãi đối với cá nhân…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Vành đai 5 cần được định vị là vành đai phát triển mới của Hà Nội và Vùng Thủ đô",
-          "link": "https://cafef.vn/vanh-dai-5-can-duoc-dinh-vi-la-vanh-dai-phat-trien-moi-cua-ha-noi-va-vung-thu-do-188260812140840238.chn",
-          "pubDate": "2026-08-12T09:49:00.000Z",
-          "excerpt": "Sáng 12-8, tiếp tục chương trình kỳ họp không thường lệ thứ nhất, Quốc hội thảo luận ở hội trường về chủ trương đầu tư dự án đầu tư xây dựng đường Vành đai 5 -…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Giá phòng khách sạn TP HCM tăng 20%",
-          "link": "https://vnexpress.net/gia-phong-khach-san-tp-hcm-tang-20-5108356.html",
-          "pubDate": "2026-08-12T09:24:17.000Z",
-          "excerpt": "Giá phòng khách sạn bình quân tại TP HCM trong quý II tăng 20% so với cùng kỳ nhờ nguồn khách quốc tế, doanh nghiệp, đoàn hội nghị duy trì ổn định, theo…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Cầu 2.500 tỷ ở Hải Phòng tăng tốc thi công, sắp nối đôi bờ Lạch Tray",
-          "link": "https://cafef.vn/cau-2500-ty-o-hai-phong-tang-toc-thi-cong-sap-noi-doi-bo-lach-tray-18826081214512664.chn",
-          "pubDate": "2026-08-12T08:51:00.000Z",
-          "excerpt": "Cầu Hải Thành và đường dẫn trong dự án tuyến đường vành đai 2 Hải Phòng đang được gấp rút thi công chuẩn bị hợp long. Khi hoàn thành, tuyến vành đai 2 sẽ là…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,6 +349,50 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Solar eclipse turns day to night in Spain, wows crowds across Europe",
+          "link": "https://www.scmp.com/news/world/europe/article/3363830/solar-eclipse-turns-day-night-spain-wows-crowds-across-europe?utm_source=rss_feed",
+          "pubDate": "2026-08-12T20:48:49.000Z",
+          "excerpt": "Day briefly turned to night in Spain on Wednesday, as the country witnessed its first total solar eclipse in more than a century, plunging it into eerie…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Markets Get Inflation Relief",
+          "link": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main",
+          "pubDate": "2026-08-12T20:35:00.000Z",
+          "excerpt": "Plus, AI names and Wendy’s rally.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "World witnesses one of nature’s greatest spectacles: a total solar eclipse",
+          "link": "https://www.ft.com/content/007b5ff6-e8fe-47f6-ba34-40cd6520e9fd?syn-25a6b1a6=1",
+          "pubDate": "2026-08-12T20:26:40.000Z",
+          "excerpt": "Spectators and scientists gather to witness full or partial blocking of the Sun across the northern hemisphere",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Goldman Sachs Is Doubling Down on Investor Hunger for ‘Boomer Candy’",
+          "link": "https://www.wsj.com/finance/investing/goldman-sachs-is-doubling-down-on-investor-hunger-for-boomer-candy-923783e8?mod=rss_markets_main",
+          "pubDate": "2026-08-12T20:16:00.000Z",
+          "excerpt": "Investors can’t get enough of ETFs, which use derivatives to give stocklike returns or regular income while limiting the downside.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
           "title": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
           "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
           "pubDate": "2026-08-12T19:50:29.000Z",
@@ -357,18 +401,7 @@
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
           "attribution": "CNBC",
-          "condensed": "Lettuce prices plummeted due to the cyclospora outbreak"
-        },
-        {
-          "title": "World witnesses one of nature’s greatest spectacles: a total solar eclipse",
-          "link": "https://www.ft.com/content/007b5ff6-e8fe-47f6-ba34-40cd6520e9fd?syn-25a6b1a6=1",
-          "pubDate": "2026-08-12T19:35:12.000Z",
-          "excerpt": "Spectators and scientists gather to witness full or partial blocking of the Sun across the northern hemisphere",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": "A total solar eclipse occurred across the northern hemisphere"
+          "condensed": null
         },
         {
           "title": "Eurovision to bar countries at war from hosting",
@@ -379,7 +412,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "Eurovision organisers announced rule changes on Wednesday"
+          "condensed": null
         },
         {
           "title": "U.S. budget deficit surged in July to highest level since March 2021",
@@ -390,7 +423,7 @@
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
           "attribution": "CNBC",
-          "condensed": "The U.S. budget deficit surged in July to its highest level since March 2021"
+          "condensed": null
         },
         {
           "title": "Mark Walter’s insurers rush to unwind affiliated investments",
@@ -401,40 +434,7 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": "Mark Walter’s insurers are unwinding affiliated investments"
-        },
-        {
-          "title": "Now China wants to become the shop floor for the Muslim world",
-          "link": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T18:28:00.000Z",
-          "excerpt": "Chinese exporters are moving into halal food, cosmetics and fashion, but success in this vast market depends on something harder to manufacture than cheap…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": "Chinese exporters are moving into halal markets"
-        },
-        {
-          "title": "Will Trump accounts and grandparent 529s bring down the price of college in the future?",
-          "link": "https://www.marketwatch.com/story/will-trump-accounts-and-grandparent-529s-bring-down-the-price-of-college-in-the-future-88459da7?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T18:20:00.000Z",
-          "excerpt": "Caps on student borrowing could also play into how America pays for college.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": "Caps on student borrowing may impact college prices"
-        },
-        {
-          "title": "Alphabet’s stock slips as Nvidia’s $500 billion financing deal threatens custom chips",
-          "link": "https://www.marketwatch.com/story/alphabets-stock-slips-as-nvidias-500-billion-financing-deal-threatens-custom-chips-c4166a59?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T18:19:00.000Z",
-          "excerpt": "Investors are concerned that Alphabet faces a fresh threat from Nvidia’s plans to help fund the AI buildout alongside major Wall Street players.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": "Nvidia’s financing deal threatens Alphabet’s custom chips"
+          "condensed": null
         }
       ],
       "aiSummary": null
