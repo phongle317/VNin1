@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T13:15:38.240Z",
+  "lastUpdated": "2026-08-12T15:00:45.409Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4493.1,
+      "value": 4482.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7728.2,
-      "change": -8.320000000000618,
-      "changePercent": -0.10754189222028274
+      "value": 7745.19,
+      "change": 21.639999999999418,
+      "changePercent": 0.28018204064192526
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26445.445,
-      "change": -139.5450000000019,
-      "changePercent": -0.5249014575518061
+      "value": 26582.184,
+      "change": 218.74400000000242,
+      "changePercent": 0.8297248007088696
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26472.94,
-      "change": 346.6399999999994,
-      "changePercent": 1.326785652771343
+      "value": 26393.56,
+      "change": 267.26000000000204,
+      "changePercent": 1.022953881720726
     }
   ],
   "themes": [
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "VN-Index tiến gần vùng đỉnh cũ 1800-1810 điểm",
+          "link": "https://vneconomy.vn/vn-index-tien-gan-vung-dinh-cu-1800-1810-diem.htm",
+          "pubDate": "2026-08-12T14:56:20.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 13/8/2026",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "VN-Index tiến gần vùng đỉnh cũ"
+        },
+        {
+          "title": "Nhà đầu tư cá nhân chốt lời bán ròng gần 800 tỷ đồng",
+          "link": "https://vneconomy.vn/nha-dau-tu-ca-nhan-chot-loi-ban-rong-gan-800-ty-dong.htm",
+          "pubDate": "2026-08-12T14:55:08.000Z",
+          "excerpt": "Nhà đầu tư cá nhân hôm nay bán ròng 790,4 tỷ đồng, trong đó họ bán ròng khớp lệnh 577,9 tỷ đồng.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Nhà đầu tư cá nhân bán ròng gần 800 tỷ đồng"
+        },
+        {
+          "title": "Phó thủ tướng: Xử lý đến cùng vướng mắc đất đai của doanh nghiệp",
+          "link": "https://vnexpress.net/pho-thu-tuong-xu-ly-den-cung-vuong-mac-dat-dai-cua-doanh-nghiep-5108459.html",
+          "pubDate": "2026-08-12T13:42:44.000Z",
+          "excerpt": "Phó thủ tướng Hồ Quốc Dũng yêu cầu rà soát, xử lý vướng mắc của doanh nghiệp về giá, tiền thuê đất, quy hoạch và cập nhật vào quá trình sửa Luật Đất đai.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Phó thủ tướng yêu cầu xử lý vướng mắc đất đai"
+        },
         {
           "title": "Sở hữu chung cư có thời hạn, cơ hội cho nhóm cổ phiếu bất động sản nào lên ngôi?",
           "link": "https://vneconomy.vn/so-huu-chung-cu-co-thoi-han-co-hoi-cho-nhom-co-phieu-bat-dong-san-nao-len-ngoi.htm",
@@ -72,7 +105,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Sở hữu chung cư có thời hạn ảnh hưởng đến dòng tiền đầu tư."
+          "condensed": "Quy định về niên hạn sử dụng chung cư"
         },
         {
           "title": "Một thế lực bất ngờ \"tung\" hơn 1.000 tỷ đồng gom cổ phiếu Việt Nam phiên 12/8",
@@ -83,7 +116,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Nhóm tự doanh CTCK mua ròng mạnh."
+          "condensed": "Nhóm tự doanh CTCK mua ròng mạnh"
         },
         {
           "title": "Điện khí hơn 3.400 đồng/kWh: Cú hích đầu tư, sức ép giá điện?",
@@ -94,7 +127,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Mức trần giá phát điện khí tăng."
+          "condensed": "Mức trần giá phát điện khí tăng"
         },
         {
           "title": "Giá cổ phiếu PCB tăng 15% phiên đầu lên sàn UPCoM",
@@ -105,7 +138,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Cổ phiếu PCB tăng 15% phiên đầu."
+          "condensed": "Giá cổ phiếu PCB tăng 15%"
         },
         {
           "title": "ROX Key Holdings chốt ngày trả cổ tức bằng tiền và cổ phiếu tổng tỷ lệ 15%",
@@ -116,40 +149,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "ROX Key Holdings chốt ngày trả cổ tức."
-        },
-        {
-          "title": "Tài sản tài chính cá nhân ở Việt Nam dự báo vượt 600 tỷ USD",
-          "link": "https://cafef.vn/tai-san-tai-chinh-ca-nhan-o-viet-nam-du-bao-vuot-600-ty-usd-188260812173136537.chn",
-          "pubDate": "2026-08-12T10:31:00.000Z",
-          "excerpt": "Theo HSBC, tài sản tài chính cá nhân ở Việt Nam dự báo vượt 600 tỷ USD, một phần đáng kể gửi ở ngân hàng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Tài sản tài chính cá nhân dự báo vượt 600 tỷ USD."
-        },
-        {
-          "title": "VN-Index tăng gần 20 điểm nhờ cổ phiếu 'họ' Vingroup",
-          "link": "https://vnexpress.net/vn-index-tang-gan-20-diem-nho-co-phieu-ho-vingroup-5108394.html",
-          "pubDate": "2026-08-12T09:35:15.000Z",
-          "excerpt": "Trong lúc các nhóm cổ phiếu trụ ảm đạm, VIC và VHM đồng loạt bật mạnh, đóng góp hơn 13 điểm vào phiên tăng vọt của VN-Index.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "VN-Index tăng nhờ cổ phiếu 'họ' Vingroup."
-        },
-        {
-          "title": "VN-Index tiến sát 1.800 điểm, thêm cổ phiếu ngân hàng lên sàn",
-          "link": "https://cafef.vn/vn-index-tien-sat-1800-diem-them-co-phieu-ngan-hang-len-san-188260812160424064.chn",
-          "pubDate": "2026-08-12T09:35:00.000Z",
-          "excerpt": "Với sự trở lại mạnh mẽ của VIC, VN-Index tiến sát 1.800 điểm dù thị trường phân hóa. Hôm nay (12/8), cổ phiếu ngân hàng thứ 28 chính thức chào sàn, có thời…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "VN-Index tiến sát 1.800 điểm."
+          "condensed": "ROX Key Holdings chốt ngày trả cổ tức"
         }
       ],
       "aiSummary": null
@@ -159,6 +159,17 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Hải Phòng đấu giá 5 mỏ cát cát biển hơn 488 ha",
+          "link": "https://vneconomy.vn/hai-phong-dau-gia-5-mo-cat-cat-bien-hon-488-ha.htm",
+          "pubDate": "2026-08-12T13:22:29.000Z",
+          "excerpt": "Có 5 khu vực mỏ cát cửa sông ven biển và 1 khu vực mỏ đất đá được Hải Phòng đưa vào đấu giá quyền khai thác khoáng sản đợt 3 năm 2026…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Hải Phòng đấu giá 5 mỏ cát biển hơn 488 ha vào năm 2026."
+        },
+        {
           "title": "Không nên dàn trải vốn, thu hồi đất khi chưa rõ nguồn đối với dự án Vành đai 5 – Vùng Thủ đô",
           "link": "https://vneconomy.vn/khong-nen-dan-trai-von-thu-hoi-dat-khi-chua-ro-nguon-doi-voi-du-an-vanh-dai-5-vung-thu-do.htm",
           "pubDate": "2026-08-12T13:02:28.000Z",
@@ -167,7 +178,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Quốc hội đề nghị làm rõ hiệu quả đầu tư dự án Vành đai 5 - Vùng Thủ đô Hà Nội."
+          "condensed": "Quốc hội đề nghị làm rõ hiệu quả đầu tư dự án Vành đai 5."
         },
         {
           "title": "VCRE hoàn thiện hệ sinh thái đối tác từ tài chính đến vận hành",
@@ -178,7 +189,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "VCRE công bố hợp tác với các đối tác tại sự kiện Kick-off The Westique Residences."
+          "condensed": "VCRE hợp tác với nhiều đối tác vào năm 2026."
         },
         {
           "title": "MIK Group chính thức khởi công Imperia Sensa Park, khai mở chương mới tại thị trường phía Nam",
@@ -189,7 +200,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "MIK Group khởi công dự án Imperia Sensa Park tại khu đất trên trục Võ Chí Công."
+          "condensed": "MIK Group khởi công Imperia Sensa Park tại khu đất dự án."
         },
         {
           "title": "Đề xuất ưu đãi cho cá nhân xây nhà trọ cho thuê",
@@ -200,7 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "HoREA đề xuất ưu đãi cho cá nhân xây nhà trọ cho thuê tại TP.HCM."
+          "condensed": "HoREA đề xuất ưu đãi cho cá nhân xây nhà trọ cho thuê."
         },
         {
           "title": "Vành đai 5 cần được định vị là vành đai phát triển mới của Hà Nội và Vùng Thủ đô",
@@ -211,7 +222,18 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Quốc hội thảo luận về chủ trương đầu tư dự án đường Vành đai 5 - Vùng Thủ đô."
+          "condensed": "Vành đai 5 cần được định vị là vành đai phát triển mới."
+        },
+        {
+          "title": "Giá phòng khách sạn TP HCM tăng 20%",
+          "link": "https://vnexpress.net/gia-phong-khach-san-tp-hcm-tang-20-5108356.html",
+          "pubDate": "2026-08-12T09:24:17.000Z",
+          "excerpt": "Giá phòng khách sạn bình quân tại TP HCM trong quý II tăng 20% so với cùng kỳ nhờ nguồn khách quốc tế, doanh nghiệp, đoàn hội nghị duy trì ổn định, theo…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Giá phòng khách sạn TP HCM tăng 20% trong quý II."
         },
         {
           "title": "Cầu 2.500 tỷ ở Hải Phòng tăng tốc thi công, sắp nối đôi bờ Lạch Tray",
@@ -222,29 +244,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Dự án cầu Hải Thành và đường dẫn tại Hải Phòng được thi công gấp rút."
-        },
-        {
-          "title": "Công an cảnh báo chiêu thức lừa đảo mới liên quan thủ tục đất đai",
-          "link": "https://cafef.vn/cong-an-canh-bao-chieu-thuc-lua-dao-moi-lien-quan-thu-tuc-dat-dai-188260812143000624.chn",
-          "pubDate": "2026-08-12T08:49:00.000Z",
-          "excerpt": "Hiện nay, xuất hiện một thủ đoạn lừa đảo mới, đối tượng tự chế tạo và gửi \"Giấy mời\" giả mạo của UBND hoặc Sở Nông nghiệp và Môi trường trực tiếp đến nhà người…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Công an cảnh báo thủ đoạn lừa đảo mới liên quan thủ tục đất đai."
-        },
-        {
-          "title": "Đề xuất dán nhãn năng lượng đối với hàng loạt vật liệu xây dựng",
-          "link": "https://vneconomy.vn/de-xuat-dan-nhan-nang-luong-doi-voi-hang-loat-vat-lieu-xay-dung.htm",
-          "pubDate": "2026-08-12T06:00:48.000Z",
-          "excerpt": "Theo đề xuất, nhiều sản phẩm như kính xây dựng, vật liệu lợp, sơn tường ngoài, cửa, gạch gốm ốp lát vỏ bao che công trình, vật liệu xây không nung, tấm bê tông…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Đề xuất dán nhãn năng lượng đối với nhiều sản phẩm vật liệu xây dựng."
+          "condensed": "Cầu Hải Thành ở Hải Phòng tăng tốc thi công."
         }
       ],
       "aiSummary": null
@@ -254,6 +254,39 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Hà Nội hoàn thành xử lý 71 trụ sở xã, phường sau sắp xếp",
+          "link": "https://cafef.vn/ha-noi-hoan-thanh-xu-ly-71-tru-so-xa-phuong-sau-sap-xep-188260812215308979.chn",
+          "pubDate": "2026-08-12T14:52:00.000Z",
+          "excerpt": "Các sở, ban, ngành, đơn vị trực thuộc UBND Thành phố đã rà soát, hoàn thành ban hành hoặc báo cáo cấp có thẩm quyền ban hành quyết định xử lý đối với 71 trụ sở…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Hà Nội hoàn thành xử lý trụ sở xã, phường sau sắp xếp."
+        },
+        {
+          "title": "Tuyến đường sắt 9.000 tỷ trên đảo của VN sắp lập kỷ lục chưa từng có: Thi công thần tốc chỉ 17 tháng",
+          "link": "https://cafef.vn/tuyen-duong-sat-9000-ty-tren-dao-cua-vn-sap-lap-ky-luc-chua-tung-co-thi-cong-than-toc-chi-17-thang-188260812205726198.chn",
+          "pubDate": "2026-08-12T14:20:00.000Z",
+          "excerpt": "Theo ông Trần Anh Tuấn - Phó Tổng Giám đốc Tập đoàn Đường sắt Việt Nam (VNR), chưa từng có dự án nào làm nhanh như tuyến đường sắt này.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Dự án đường sắt trên đảo sẽ lập kỷ lục về tốc độ thi công."
+        },
+        {
+          "title": "Đề nghị làm rõ hiệu quả đầu tư tuyến đường sắt Lào Cai - Hà Nội - Hải Phòng 290.000 tỷ đồng",
+          "link": "https://vneconomy.vn/de-nghi-lam-ro-hieu-qua-dau-tu-tuyen-duong-sat-lao-cai-ha-noi-hai-phong-290000-ty-dong.htm",
+          "pubDate": "2026-08-12T13:26:38.000Z",
+          "excerpt": "Quốc hội cơ bản thống nhất việc điều chỉnh chủ trương đầu tư tuyến đường sắt Lào Cai - Hà Nội - Hải Phòng, song đề nghị làm rõ hiệu quả đầu tư, khả năng kết…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Quốc hội đề nghị làm rõ hiệu quả đầu tư tuyến đường sắt."
+        },
+        {
           "title": "Công an đề nghị 261 chủ xe máy, ô tô vi phạm có biển số sau nhanh chóng nộp phạt nguội theo Nghị định 168",
           "link": "https://cafef.vn/cong-an-de-nghi-261-chu-xe-may-o-to-vi-pham-co-bien-so-sau-nhanh-chong-nop-phat-nguoi-theo-nghi-dinh-168-188260812182928201.chn",
           "pubDate": "2026-08-12T12:50:00.000Z",
@@ -262,7 +295,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Công an đề nghị chủ xe máy, ô tô vi phạm nộp phạt nguội."
+          "condensed": "Công an đề nghị chủ xe nộp phạt nguội."
         },
         {
           "title": "Hà Nội xử lý hố sâu sát nhà dân, lý giải tình trạng thi công “xôi đỗ” trên Quốc lộ 6",
@@ -273,7 +306,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Hố sâu sát nhà dân trên Quốc lộ 6 đã được khắc phục."
+          "condensed": "Hố sâu trên Quốc lộ 6 đã được khắc phục."
         },
         {
           "title": "[Infographic] Mức đóng Bảo hiểm y tế học sinh, sinh viên năm học 2026-2027",
@@ -285,28 +318,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": "Mức đóng Bảo hiểm y tế học sinh, sinh viên năm học 2026-2027 được công bố."
-        },
-        {
-          "title": "Đại biểu Quốc hội: Khi được trao cơ hội, Bắc Ninh luôn biến cơ hội thành kết quả, khát vọng thành hành động",
-          "link": "https://cafef.vn/dai-bieu-quoc-hoi-khi-duoc-trao-co-hoi-bac-ninh-luon-bien-co-hoi-thanh-ket-qua-khat-vong-thanh-hanh-dong-188260812142252517.chn",
-          "pubDate": "2026-08-12T09:40:00.000Z",
-          "excerpt": "Phó trưởng Đoàn ĐBQH chuyên trách tỉnh Bắc Ninh Trần Thị Vân cho rằng, khi được trao cho cơ hội phát triển, Bắc Ninh luôn biết biến cơ hội thành kết quả, biến…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Bắc Ninh biến cơ hội thành kết quả, khát vọng thành hành động."
-        },
-        {
-          "title": "Vụ UAV xâm nhập Tân Sơn Nhất: Ai phải chịu trách nhiệm, khách có được bồi thường?",
-          "link": "https://cafef.vn/vu-uav-xam-nhap-tan-son-nhat-ai-phai-chiu-trach-nhiem-khach-co-duoc-boi-thuong-188260812153244026.chn",
-          "pubDate": "2026-08-12T09:12:00.000Z",
-          "excerpt": "Sự cố UAV xâm nhập trái phép khu vực cấm bay Tân Sơn Nhất - TPHCM tối 11/8 đặt ra câu hỏi: Ai phải chịu trách nhiệm khi hành vi này gây xáo trộn hoạt động hàng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Sự cố UAV xâm nhập Tân Sơn Nhất đặt ra câu hỏi về trách nhiệm."
         },
         {
           "title": "20 tỷ USD rót về VIFC-HCMC, cửa ngõ tài chính Việt Nam đang dần hiện thực hóa tham vọng toàn cầu",
@@ -329,17 +340,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": "TP.Hồ Chí Minh đặt mục tiêu giải ngân đầu tư công đạt 70% vào cuối quý 3."
-        },
-        {
-          "title": "Đồng Nai lập hồ sơ đầu tư Dự án mở rộng Quốc lộ 56 kết nối cao tốc Phan Thiết - Dầu Giây",
-          "link": "https://vneconomy.vn/dong-nai-lap-ho-so-dau-tu-du-an-mo-rong-quoc-lo-56-ket-noi-cao-toc-phan-thiet-dau-giay.htm",
-          "pubDate": "2026-08-12T04:49:41.000Z",
-          "excerpt": "Quốc lộ 56 đoạn qua thành phố Đồng Nai được nghiên cứu mở rộng để tăng năng lực kết nối với cao tốc Phan Thiết - Dầu Giây, trong bối cảnh tuyến đường hiện hữu…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Đồng Nai lập hồ sơ đầu tư Dự án mở rộng Quốc lộ 56."
         }
       ],
       "aiSummary": null
@@ -349,54 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Eli Lilly is suing pharmacies and peptide vendors over sale of its next big weight-loss drug: retatrutide",
-          "link": "https://www.marketwatch.com/story/eli-lilly-is-suing-pharmacies-and-peptide-vendors-over-sales-of-the-next-big-weight-loss-drug-retatrutide-22434cce?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T13:07:00.000Z",
-          "excerpt": "Some Americans have turned to medical spas and pharmacies that sell peptides for health and wellness benefits for access to compounded versions of retatrutide.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
+          "title": "AI’s costly build-out complicates the Fed’s inflation fight",
+          "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
+          "pubDate": "2026-08-12T14:56:23.000Z",
+          "excerpt": "Tech leaders say AI will drive down costs. But slow corporate adoption and the data center build-out create inflation pressures that complicate the Fed’s job.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": "AI build-out complicates the Fed's inflation fight due to slow corporate adoption and data center construction"
         },
         {
-          "title": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own",
-          "link": "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T13:06:00.000Z",
-          "excerpt": "Investors are reacting positively to earnings results and demand signals from neocloud companies CoreWeave and Nebius.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "US inflation falls to 3.4% in July",
-          "link": "https://www.ft.com/content/52727749-4360-4463-8822-dc3bfd8ef279?syn-25a6b1a6=1",
-          "pubDate": "2026-08-12T13:02:18.000Z",
-          "excerpt": "Fallout from Iran war continues to reverberate across economy",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Citadel Securities called the stock-market reset. Now it sees a leverage buildup on the horizon.",
-          "link": "https://www.marketwatch.com/story/citadel-securities-called-the-stock-market-reset-now-it-says-leverage-may-build-up-again-988eec86?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T13:00:00.000Z",
-          "excerpt": "Strategist Scott Rubner says a growing list of stock-market buyers are pushing it in a positive direction, notably big hedge funds and institutional managers.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "The $30 trillion Treasury market is facing a painful reckoning. How rising yields could squeeze your portfolio.",
-          "link": "https://www.marketwatch.com/story/the-30-trillion-treasury-market-is-facing-a-painful-reckoning-how-rising-yields-could-squeeze-your-portfolio-8fa9edd8?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T12:58:00.000Z",
-          "excerpt": "The roughly $30 trillion Treasury market — widely seen as the bedrock of the global financial system — is facing a dangerous reckoning driven by a perfect…",
+          "title": "I just moved. These 7 tips saved me nearly $1,000.",
+          "link": "https://www.marketwatch.com/story/i-just-moved-these-7-tips-saved-me-around-1-000-ea3b0ae5?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T14:35:00.000Z",
+          "excerpt": "Moving always seems to be more expensive than you expect, but these proactive money moves can help cut costs significantly.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -406,19 +373,41 @@
         {
           "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
           "link": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-          "pubDate": "2026-08-12T12:54:09.000Z",
+          "pubDate": "2026-08-12T14:27:35.000Z",
           "excerpt": "The consumer price index was expected to increase 0.1% in July, with an annual rate of 3.4%.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
           "attribution": "CNBC",
+          "condensed": "Consumer prices rose 0.1% in July with an annual rate of 3.4%"
+        },
+        {
+          "title": "Lumentum’s stock surges, giving a further boost to the optical-networking trade",
+          "link": "https://www.marketwatch.com/story/lumentums-stock-surges-giving-a-further-boost-to-the-optical-networking-trade-0ee46339?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T14:20:00.000Z",
+          "excerpt": "Excitement is building for Coherent’s earnings report after upbeat results from Lumentum.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "AI’s costly buildout complicates the Fed’s inflation fight",
-          "link": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
-          "pubDate": "2026-08-12T12:44:40.000Z",
-          "excerpt": "Tech leaders say AI will drive down costs. But slow corporate adoption and the data center buildout create inflation pressures that complicate the Fed’s job.",
+          "title": "Smile, you’re on camera: when the boss wants to read your mood",
+          "link": "https://www.ft.com/content/a44e8854-3f42-46bb-81e3-613dea89b802?syn-25a6b1a6=1",
+          "pubDate": "2026-08-12T14:07:32.000Z",
+          "excerpt": "Patent records show how many companies are interested in trying to record how people feel",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": "Companies are exploring mood-reading technology through patent records"
+        },
+        {
+          "title": "An inflation report Wednesday should be a big deal for the Fed. Here's what to expect",
+          "link": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
+          "pubDate": "2026-08-12T14:04:06.000Z",
+          "excerpt": "The consumer price index is expected to show only a modest increase for July.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
           "sourceUrl": "https://www.cnbc.com",
@@ -426,15 +415,26 @@
           "condensed": null
         },
         {
-          "title": "CoreWeave’s stock is rocketing after earnings lead to praise from bulls and bears alike",
-          "link": "https://www.marketwatch.com/story/coreweaves-stock-is-rocketing-after-earnings-lead-to-praise-from-bulls-and-bears-alike-46c831e7?mod=mw_rss_topstories",
-          "pubDate": "2026-08-12T12:24:00.000Z",
-          "excerpt": "CoreWeave is broadening its customer base and benefiting from upbeat pricing dynamics, analysts say.",
+          "title": "Citadel Securities called the stock-market reset. Now it sees a leverage buildup on the horizon.",
+          "link": "https://www.marketwatch.com/story/citadel-securities-called-the-stock-market-reset-now-it-says-leverage-may-build-up-again-988eec86?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T13:55:00.000Z",
+          "excerpt": "Strategist Scott Rubner says a growing list of stock-market buyers are pushing it in a positive direction, notably big hedge funds and institutional managers.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
           "condensed": null
+        },
+        {
+          "title": "US inflation falls to 3.4% in July",
+          "link": "https://www.ft.com/content/52727749-4360-4463-8822-dc3bfd8ef279?syn-25a6b1a6=1",
+          "pubDate": "2026-08-12T13:32:09.000Z",
+          "excerpt": "Fallout from Iran war continues to reverberate across economy even as petrol prices decline",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": "US inflation fell to 3.4% in July"
         }
       ],
       "aiSummary": null
