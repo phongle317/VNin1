@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T23:43:43.031Z",
+  "lastUpdated": "2026-08-12T02:08:14.454Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4427.7,
+      "value": 4454.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 66970.22,
-      "change": 3012.6900000000023,
-      "changePercent": 4.710453952802746
+      "value": 67094.34,
+      "change": 793.8999999999942,
+      "changePercent": 1.1974279507043908
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25652.82,
-      "change": -200.09999999999854,
-      "changePercent": -0.7739938080495301
+      "value": 25395.44,
+      "change": -520.380000000001,
+      "changePercent": -2.007962703861969
     },
     {
       "symbol": "^GDAXI",
@@ -64,6 +64,72 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "ACV thay đổi nhân sự cấp cao",
+          "link": "https://cafef.vn/acv-thay-doi-nhan-su-cap-cao-188260812084443837.chn",
+          "pubDate": "2026-08-12T01:59:00.000Z",
+          "excerpt": "Tổng Công ty Cảng Hàng không Việt Nam (ACV) bổ nhiệm ông Vũ Phạm Nguyên An và ông Tô Tử Hà giữ chức phó tổng giám đốc. Đại Quang Minh cũng vừa bổ nhiệm ông…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Tổng Công ty Cảng Hàng không Việt Nam bổ nhiệm mới hai phó tổng giám đốc."
+        },
+        {
+          "title": "Chứng khoán Mỹ giảm phiên thứ hai liên tiếp, giá dầu tiếp tục tăng",
+          "link": "https://vneconomy.vn/chung-khoan-my-giam-phien-thu-hai-lien-tiep-gia-dau-tiep-tuc-tang.htm",
+          "pubDate": "2026-08-12T01:03:46.000Z",
+          "excerpt": "Nhà đầu tư ở Phố Wall không thể lạc quan khi giá dầu tiếp tục tăng do bất định xung quanh cuộc xung đột quân sự ở Trung Đông...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Chứng khoán Mỹ giảm do giá dầu tăng."
+        },
+        {
+          "title": "KIS Việt Nam nộp ngân sách 395 tỷ đồng năm 2025, tăng gần 23%",
+          "link": "https://cafef.vn/kis-viet-nam-nop-ngan-sach-395-ty-dong-nam-2025-tang-gan-23-188260811220925929.chn",
+          "pubDate": "2026-08-12T01:00:00.000Z",
+          "excerpt": "Việc góp mặt trong Top 15 công ty chứng khoán nộp ngân sách lớn nhất năm 2025 không chỉ là một dấu mốc về quy mô hoạt động của KIS Việt Nam, mà còn phản ánh…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "KIS Việt Nam nộp ngân sách 395 tỷ đồng năm 2025."
+        },
+        {
+          "title": "Giá vàng quay đầu giảm trước thềm báo cáo CPI Mỹ, SPDR Gold Trust tiếp tục mua",
+          "link": "https://vneconomy.vn/gia-vang-quay-dau-giam-truoc-them-bao-cao-cpi-my-spdr-gold-trust-tiep-tuc-mua.htm",
+          "pubDate": "2026-08-12T00:23:43.000Z",
+          "excerpt": "Giá vàng thế giới quay đầu đi xuống sau khi một lần nữa chinh phục bất thành mốc 4.400 USD/oz trong phiên giao dịch ngày thứ Ba (11/8)...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Giá vàng giảm trước báo cáo CPI Mỹ."
+        },
+        {
+          "title": "Bài học từ vụ việc 1,2 triệu tài khoản “call margin”, 400 nghìn tài khoản mất trắng trên thị trường chứng khoán Hàn Quốc",
+          "link": "https://vneconomy.vn/bai-hoc-tu-vu-viec-12-trieu-tai-khoan-call-margin-400-nghin-tai-khoan-mat-trang-tren-thi-truong-chung-khoan-han-quoc.htm",
+          "pubDate": "2026-08-12T00:21:12.000Z",
+          "excerpt": "Tại Hàn Quốc, thị trường chứng khoán tăng gấp đôi trong 1 năm qua đã kích thích nhu cầu vay đẩy tỷ lệ margin/vốn hóa free float tăng lên mức 3,2% và thu hút…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Thị trường chứng khoán Hàn Quốc tăng mạnh."
+        },
+        {
+          "title": "Ngành ngân hàng có thực sự cắt giảm nhân viên?",
+          "link": "https://vnexpress.net/nganh-ngan-hang-co-thuc-su-cat-giam-nhan-vien-5106358.html",
+          "pubDate": "2026-08-11T23:00:00.000Z",
+          "excerpt": "26 ngân hàng giảm hơn 4.000 người trong nửa năm qua nhưng con số này lại không đồng nghĩa với việc ngành này đang bước vào làn sóng cắt giảm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": "Ngành ngân hàng giảm nhân viên."
+        },
+        {
           "title": "Bánh Trung thu năm nay tăng giá",
           "link": "https://vnexpress.net/banh-trung-thu-nam-nay-tang-gia-5107494.html",
           "pubDate": "2026-08-11T17:21:34.000Z",
@@ -72,7 +138,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Bánh Trung thu tăng giá 5-15% so với năm ngoái tại TP HCM."
+          "condensed": "Bánh Trung thu tăng giá."
         },
         {
           "title": "DatVietVAC muốn thành 'kỳ lân' đầu tiên của ngành giải trí Việt Nam",
@@ -83,102 +149,91 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "DatVietVAC kỳ vọng tăng giá trị vào năm 2030."
-        },
-        {
-          "title": "Loạt NHTW, các quỹ ETF, \"trùm\" Stablecoin đồng loạt mua vàng ngay trước sóng tăng",
-          "link": "https://cafef.vn/loat-nhtw-cac-quy-etf-trum-stablecoin-dong-loat-mua-vang-ngay-truoc-song-tang-188260811224425534.chn",
-          "pubDate": "2026-08-11T17:10:00.000Z",
-          "excerpt": "Các thế lực hàng đầu liên tục đổ tiền mua vàng ngay trước khi giá tăng mạnh từ đầu tháng 8.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "NHTW và quỹ mua vàng trước sóng tăng."
-        },
-        {
-          "title": "VN-Index có thể hướng tới vùng 1.850-1.950 điểm, CTCK chỉ ra loạt cổ phiếu có câu chuyện riêng",
-          "link": "https://cafef.vn/vn-index-co-the-huong-toi-vung-1850-1950-diem-ctck-chi-ra-loat-co-phieu-co-cau-chuyen-rieng-188260811223823058.chn",
-          "pubDate": "2026-08-11T17:07:00.000Z",
-          "excerpt": "Trong quá trình đi lên, ABS khuyến nghị nhà đầu tư tận dụng các phiên giảm mạnh để gia tăng tỷ trọng cổ phiếu ngắn hạn.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "VN-Index có thể đạt 1.850-1.950 điểm."
-        },
-        {
-          "title": "Một biến số có thể khiến chứng khoán rung lắc mạnh",
-          "link": "https://cafef.vn/mot-bien-so-co-the-khien-chung-khoan-rung-lac-manh-188260811220326195.chn",
-          "pubDate": "2026-08-11T17:04:00.000Z",
-          "excerpt": "Mirae Asset đánh giá đây là vùng định giá hấp dẫn, có khả năng thu hút dòng tiền đầu tư dài hạn vào các cổ phiếu có nền tảng cơ bản tốt.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Mirae Asset thấy vùng định giá hấp dẫn."
-        },
-        {
-          "title": "\"Đãi cát tìm vàng\" từ KQKD quý 2: Gọi tên các \"siêu cổ phiếu\" tiềm năng với biên lãi gộp tăng trưởng liên tục",
-          "link": "https://cafef.vn/dai-cat-tim-vang-tu-kqkd-quy-2-goi-ten-cac-sieu-co-phieu-tiem-nang-voi-bien-lai-gop-tang-truong-lien-tuc-188260811222629646.chn",
-          "pubDate": "2026-08-11T17:02:00.000Z",
-          "excerpt": "Xét theo ngành, dầu khí, truyền thông, bất động sản và bán lẻ dẫn đầu về tốc độ tăng trưởng lợi nhuận ấn tượng trong quý 2.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Dầu khí dẫn đầu tăng trưởng lợi nhuận."
-        },
-        {
-          "title": "SGI Capital: Chứng khoán đối diện “bài test” lớn, giai đoạn biến động mạnh có thể vẫn ở phía trước",
-          "link": "https://cafef.vn/sgi-capital-chung-khoan-doi-dien-bai-test-lon-giai-doan-bien-dong-manh-co-the-van-o-phia-truoc-188260811220520287.chn",
-          "pubDate": "2026-08-11T17:02:00.000Z",
-          "excerpt": "Nhóm phân tích cho rằng trong một chu kỳ điều chỉnh lớn, lãi suất chỉ thực sự tạo đỉnh sau khi tăng cao khiến nhu cầu tín dụng suy giảm mạnh.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "SGI Capital thấy chứng khoán đối diện thách thức."
-        },
-        {
-          "title": "Xu hướng VN-Index chỉ có thể cải thiện khi vượt lên kháng cự quanh 1800 điểm",
-          "link": "https://vneconomy.vn/xu-huong-vn-index-chi-co-the-cai-thien-khi-vuot-len-khang-cu-quanh-1800-diem.htm",
-          "pubDate": "2026-08-11T15:52:56.000Z",
-          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 12/8/2026",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "VN-Index cần vượt 1800 điểm để cải thiện."
+          "condensed": "DatVietVAC muốn trở thành kỳ lân."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Chứng khoán Mỹ giảm phiên thứ hai liên tiếp do bất định xung quanh cuộc xung đột quân sự ở Trung Đông khiến giá dầu tiếp tục tăng."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Diễn biến mới nhất tại cao tốc hơn 17.700 tỷ rút ngắn từ TPHCM đi Đà Lạt còn 3 giờ do liên danh T&T đầu tư",
-          "link": "https://cafef.vn/dien-bien-moi-nhat-tai-cao-toc-hon-17700-ty-rut-ngan-tu-tphcm-di-da-lat-con-3-gio-do-lien-danh-tt-dau-tu-188260812062221206.chn",
-          "pubDate": "2026-08-11T23:22:00.000Z",
-          "excerpt": "Phó Bí thư Tỉnh ủy Lâm Đồng nhấn mạnh, mục tiêu của tỉnh là hoàn thành công tác giải phóng mặt bằng dự án cao tốc Bảo Lộc – Liên Khương trong tháng 9/2026.",
+          "title": "TP.HCM có thêm 4 dự án tổ chức, cá nhân nước ngoài được phép sở hữu nhà ở",
+          "link": "https://cafef.vn/tphcm-co-them-4-du-an-to-chuc-ca-nhan-nuoc-ngoai-duoc-phep-so-huu-nha-o-188260812090157843.chn",
+          "pubDate": "2026-08-12T02:01:00.000Z",
+          "excerpt": "TP.HCM vừa công bố danh mục gồm 4 dự án đầu tư xây dựng nhà ở trên địa bàn mà tổ chức, cá nhân nước ngoài được phép sở hữu nhà ở.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cao tốc hơn 17.700 tỷ rút ngắn thời gian từ TPHCM đi Đà Lạt còn 3 giờ."
+          "condensed": "TP.HCM công bố 4 dự án cho phép tổ chức nước ngoài sở hữu nhà ở."
         },
         {
-          "title": "Vì sao Vingroup bất ngờ thay đổi vị trí 5 ngôi sao trong logo mới đúng dịp sinh nhật tuổi 33 năm",
-          "link": "https://cafef.vn/vi-sao-vingroup-bat-ngo-thay-doi-vi-tri-5-ngoi-sao-trong-logo-moi-dung-dip-sinh-nhat-tuoi-33-nam-188260812061809552.chn",
-          "pubDate": "2026-08-11T23:17:00.000Z",
-          "excerpt": "Vingroup vẫn giữ biểu tượng cánh chim vàng và nền đỏ đặc trưng, nhưng thay đổi vị trí 5 ngôi sao trong logo mới.",
+          "title": "Danh sách loạt dự án nhà ở xã hội quy mô lớn sắp triển khai tại Hà Nội",
+          "link": "https://cafef.vn/danh-sach-loat-du-an-nha-o-xa-hoi-quy-mo-lon-sap-trien-khai-tai-ha-noi-188260812085926389.chn",
+          "pubDate": "2026-08-12T01:59:00.000Z",
+          "excerpt": "Theo thông tin từ HĐND thành phố Hà Nội, loạt dự án nhà ở xã hội tập trung quy mô lớn đang được đưa vào quy hoạch, trải rộng từ Hà Đông, Đông Anh, Gia Lâm,…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Vingroup thay đổi vị trí 5 ngôi sao trong logo mới."
+          "condensed": "Hà Nội quy hoạch dự án nhà ở xã hội tại nhiều quận."
+        },
+        {
+          "title": "Phường Đại Mỗ cưỡng chế thu hồi đất thực hiện dự án nhà ở xã hội Tố Hữu",
+          "link": "https://cafef.vn/phuong-dai-mo-cuong-che-thu-hoi-dat-thuc-hien-du-an-nha-o-xa-hoi-to-huu-188260812070452658.chn",
+          "pubDate": "2026-08-12T01:53:00.000Z",
+          "excerpt": "Ngày 11-8, UBND phường Đại Mỗ đã tổ chức thi hành quyết định cưỡng chế thu hồi đất đối với các trường hợp chưa chấp hành bàn giao mặt bằng để thực hiện dự án…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Phường Đại Mỗ cưỡng chế thu hồi đất dự án nhà ở xã hội."
+        },
+        {
+          "title": "Vì sao giường khách sạn luôn có nhiều gối và một tấm vải trải ngang?",
+          "link": "https://cafef.vn/vi-sao-giuong-khach-san-luon-co-nhieu-goi-va-mot-tam-vai-trai-ngang-188260812082307395.chn",
+          "pubDate": "2026-08-12T01:22:00.000Z",
+          "excerpt": "Tấm vải ngang cuối giường (bed runner) và nhiều chiếc gối trên giường khách sạn được trang bị cho các mục đích thiết thực chứ không đơn thuần chỉ để làm đẹp.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Trang bị gối và vải trải giường khách sạn có mục đích thiết thực."
+        },
+        {
+          "title": "Ba “tọa độ vàng” bên sông của Sunshine Group lên sóng livestream tối 12-14/8, cùng quà tặng lên tới 500 triệu đồng",
+          "link": "https://cafef.vn/ba-toa-do-vang-ben-song-cua-sunshine-group-len-song-livestream-toi-12-14-8-cung-qua-tang-len-toi-500-trieu-dong-188260812081912124.chn",
+          "pubDate": "2026-08-12T01:18:00.000Z",
+          "excerpt": "Chuỗi livestream NobleX Live diễn ra từ 20h tối ngày 12 - 14/8 tới đây sẽ “lên sóng” 3 dự án ven sông nổi bật của Sunshine Group bao gồm Avenue, Sunshine River…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Sunshine Group giới thiệu dự án ven sông qua livestream."
+        },
+        {
+          "title": "Đại Phước trên lộ trình thành đại đô thị ven sông, cực tăng trưởng mới của Đồng Nai",
+          "link": "https://vneconomy.vn/dai-phuoc-tren-lo-trinh-thanh-dai-do-thi-ven-song-cuc-tang-truong-moi-cua-dong-nai.htm",
+          "pubDate": "2026-08-12T01:00:00.000Z",
+          "excerpt": "3.100 ha đất được quy hoạch thành không gian đô thị ven sông, cùng các dự án quy mô lớn đang định hình Đại Phước thành cực đô thị mới của Đồng Nai.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Đại Phước trở thành đại đô thị ven sông của Đồng Nai."
+        },
+        {
+          "title": "D'. Diamant Bleu: Mô hình đô thị tích hợp mới cho Long Biên",
+          "link": "https://vneconomy.vn/d-diamant-bleu-mo-hinh-do-thi-tich-hop-moi-cho-long-bien.htm",
+          "pubDate": "2026-08-12T01:00:00.000Z",
+          "excerpt": "Một trung tâm đô thị được hình thành không chỉ bởi những tòa nhà đơn lẻ hay những tuyến giao thông kết nối, mà bởi khả năng tự vận hành, nơi con người thuận…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "D'. Diamant Bleu là mô hình đô thị tích hợp mới."
         },
         {
           "title": "Trung tâm tài chính 'thổi' động lực cho văn phòng hạng A",
@@ -189,70 +244,81 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Trung tâm tài chính thúc đẩy động lực cho văn phòng hạng A."
-        },
-        {
-          "title": "Nhà phố hướng tây nên trồng cây hay làm lam che nắng?",
-          "link": "https://vnexpress.net/nha-pho-huong-tay-nen-trong-cay-hay-lam-lam-che-nang-5107525.html",
-          "pubDate": "2026-08-11T17:00:00.000Z",
-          "excerpt": "Nhà phố hướng Tây bị nắng gắt chiều, gia chủ phân vân giữa lắp thanh lam cố định hay trồng cây xanh để chống nóng hiệu quả.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Nhà phố hướng tây phân vân giữa trồng cây hay làm lam che nắng."
-        },
-        {
-          "title": "Đất có sổ đỏ 18 năm nhưng 'không có trên thực địa': Yêu cầu xử lý dứt điểm trước ngày 15/8",
-          "link": "https://cafef.vn/dat-co-so-do-18-nam-nhung-khong-co-tren-thuc-dia-yeu-cau-xu-ly-dut-diem-truoc-ngay-15-8-188260811175614557.chn",
-          "pubDate": "2026-08-11T13:00:00.000Z",
-          "excerpt": "Trúng đấu giá, nộp đủ tiền và được cấp sổ đỏ, nhưng sau 18 năm, khi có nhu cầu xây nhà, người dân mới phát hiện lô đất của mình không có trên thực địa. Chủ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Đất có sổ đỏ 18 năm nhưng không có trên thực địa."
-        },
-        {
-          "title": "\"Niên hạn căn hộ không đồng nghĩa với việc hết thời hạn thì người dân mất quyền sở hữu\"",
-          "link": "https://cafef.vn/nien-han-can-ho-khong-dong-nghia-voi-viec-het-thoi-han-thi-nguoi-dan-mat-quyen-so-huu-188260811163933891.chn",
-          "pubDate": "2026-08-11T12:58:00.000Z",
-          "excerpt": "Đây là nhận định của ông Trần Quang Trung, Giám đốc Phát triển Kinh doanh OneHousing về “niên hạn căn hộ” - một trong những nội dung được thị trường đặc biệt…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Niên hạn căn hộ không đồng nghĩa với việc mất quyền sở hữu."
-        },
-        {
-          "title": "Đà Nẵng tăng cường công tác quản lý, sử dụng nhà chung cư trên địa bàn thành phố",
-          "link": "https://vneconomy.vn/da-nang-tang-cuong-cong-tac-quan-ly-su-dung-nha-chung-cu-tren-dia-ban-thanh-pho.htm",
-          "pubDate": "2026-08-11T10:55:13.000Z",
-          "excerpt": "UBND thành phố Đà Nẵng vừa ban hành Quyết định số 121/2026/QĐ-UBND Quy định chi tiết một số nội dung nhằm tăng cường công tác quản lý, sử dụng nhà chung cư…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Đà Nẵng tăng cường quản lý nhà chung cư."
-        },
-        {
-          "title": "Lừa \"chạy\" thủ tục đất đai, một đối tượng bị khởi tố, bắt tạm giam",
-          "link": "https://cafef.vn/lua-chay-thu-tuc-dat-dai-mot-doi-tuong-bi-khoi-to-bat-tam-giam-188260811164949223.chn",
-          "pubDate": "2026-08-11T09:50:00.000Z",
-          "excerpt": "Lợi dụng sự tin tưởng của người dân, Đoàn Hải Đảo đã nhận của một công dân tại xã Ý Yên, tỉnh Ninh Bình số tiền 340 triệu đồng để thực hiện thủ tục chuyển đổi…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Đối tượng bị khởi tố vì lừa chạy thủ tục đất đai."
+          "condensed": "Trung tâm tài chính thúc đẩy văn phòng hạng A."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "TP.HCM công bố danh mục 4 dự án đầu tư xây dựng nhà ở mà tổ chức, cá nhân nước ngoài được phép sở hữu nhà ở."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Hàng loạt cầu và đường dẫn thi công ‘rùa bò’, dân đợi hoài chẳng thấy thông xe",
+          "link": "https://cafef.vn/hang-loat-cau-va-duong-dan-thi-cong-rua-bo-dan-doi-hoai-chang-thay-thong-xe-188260812072516664.chn",
+          "pubDate": "2026-08-12T02:00:00.000Z",
+          "excerpt": "Sau nhiều năm triển khai, hàng loạt cầu và đường dẫn ở Đà Nẵng vẫn chìm trong dang dở khiến người dân \"dài cổ\" đợi chờ.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Dân Đà Nẵng chờ đợi thông xe các cầu và đường dẫn đang thi công chậm."
+        },
+        {
+          "title": "5 tuyến cao tốc Bắc - Nam từ Quảng Ngãi đến Nha Trang chính thức thu phí từ 14/8",
+          "link": "https://cafef.vn/5-tuyen-cao-toc-bac-nam-tu-quang-ngai-den-nha-trang-chinh-thuc-thu-phi-tu-14-8-188260812072227867.chn",
+          "pubDate": "2026-08-12T01:28:00.000Z",
+          "excerpt": "Tin từ Cục Đường bộ Việt Nam (Bộ Xây dựng), từ 14h ngày 14/8, 5 dự án thành phần cao tốc Bắc-Nam từ Quảng Ngãi đến Nha Trang sẽ chính thức thu phí sử dụng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "5 tuyến cao tốc Bắc - Nam thu phí từ 14/8."
+        },
+        {
+          "title": "Hôm nay, Quốc hội thảo luận việc thành lập hai thành phố Quảng Ninh, Bắc Ninh",
+          "link": "https://cafef.vn/hom-nay-quoc-hoi-thao-luan-viec-thanh-lap-hai-thanh-pho-quang-ninh-bac-ninh-188260812072957137.chn",
+          "pubDate": "2026-08-12T01:00:00.000Z",
+          "excerpt": "Ngày 12/8, Quốc hội thảo luận về Dự án Vành đai 5 - Vùng Thủ đô Hà Nội; việc thành lập thành phố Quảng Ninh và thành phố Bắc Ninh.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Quốc hội thảo luận việc thành lập hai thành phố Quảng Ninh, Bắc Ninh."
+        },
+        {
+          "title": "Hoàn thiện thể chế, tạo lợi thế cạnh tranh cho ngành năng lượng",
+          "link": "https://vneconomy.vn/hoan-thien-the-che-tao-loi-the-canh-tranh-cho-nganh-nang-luong.htm",
+          "pubDate": "2026-08-12T00:55:55.000Z",
+          "excerpt": "Nhu cầu năng lượng tăng nhanh và những biến động mới của thị trường toàn cầu đang đặt ra yêu cầu cấp thiết phải hoàn thiện thể chế, phát triển thị trường và…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Cần hoàn thiện thể chế cho ngành năng lượng."
+        },
+        {
+          "title": "Năng lượng an toàn, ổn định là nền tảng cho tăng trưởng nhanh và bền vững",
+          "link": "https://vneconomy.vn/nang-luong-an-toan-on-dinh-la-nen-tang-cho-tang-truong-nhanh-va-ben-vung.htm",
+          "pubDate": "2026-08-12T00:41:34.000Z",
+          "excerpt": "Chiều 11/8, Tạp chí Kinh tế Việt Nam/VnEconomy đã tổ chức Diễn đàn: “Hoàn thiện chính sách tạo lợi thế cạnh tranh thúc đẩy phát triển năng lượng” diễn ra chiều…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Năng lượng an toàn, ổn định giúp tăng trưởng nhanh và bền vững."
+        },
+        {
+          "title": "Việt Nam - Australia thúc đẩy hợp tác tài chính, hướng tới kim ngạch thương mại 20 tỷ USD",
+          "link": "https://cafef.vn/viet-nam-australia-thuc-day-hop-tac-tai-chinh-huong-toi-kim-ngach-thuong-mai-20-ty-usd-188260811202837673.chn",
+          "pubDate": "2026-08-12T00:20:00.000Z",
+          "excerpt": "Từ tài chính, thương mại đến năng lượng, khoáng sản và chuyển đổi xanh, Việt Nam mong muốn Australia tiếp tục đồng hành, hỗ trợ nguồn lực, kinh nghiệm và công…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Việt Nam và Australia thúc đẩy hợp tác tài chính."
+        },
         {
           "title": "Đồng Nai tăng tốc 3 tuyến đường gần 12.000 tỷ đồng kết nối sân bay Long Thành",
           "link": "https://vneconomy.vn/dong-nai-tang-toc-3-tuyen-duong-gan-12000-ty-dong-ket-noi-san-bay-long-thanh.htm",
@@ -262,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Đồng Nai tăng tốc thi công 3 tuyến đường kết nối sân bay Long Thành."
         },
         {
           "title": "Sau gần 3 tháng khởi công, cao tốc 23.940 tỷ đồng dài 60km, có sự tham gia của Đèo Cả đang được triển khai ra sao?",
@@ -273,76 +339,10 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tổng công ty Đường sắt Việt Nam chính thức chuyển thành Tập đoàn Đường sắt Quốc gia Việt Nam",
-          "link": "https://vneconomy.vn/tong-cong-ty-duong-sat-viet-nam-chinh-thuc-chuyen-thanh-tap-doan-duong-sat-quoc-gia-viet-nam.htm",
-          "pubDate": "2026-08-11T10:52:30.000Z",
-          "excerpt": "Từ ngày 11/8, Tổng công ty Đường sắt Việt Nam chính thức chuyển đổi thành Tập đoàn Đường sắt Quốc gia Việt Nam, với định hướng trở thành doanh nghiệp nòng cốt…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "'Siêu cẩu tháp' nâng giàn thép hơn 1.400 tấn lắp mái Nhà hát APEC",
-          "link": "https://cafef.vn/sieu-cau-thap-nang-gian-thep-hon-1400-tan-lap-mai-nha-hat-apec-188260811170655956.chn",
-          "pubDate": "2026-08-11T10:46:00.000Z",
-          "excerpt": "Để lắp đặt giàn khung thép (truss) cuối cùng nặng 125 tấn tại Nhà biểu diễn đa năng phục vụ APEC 2027 ở Phú Quốc, nhà thầu phải huy động 2 cần cẩu siêu trường,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Không phải dầu mỏ, Việt Nam có kho báu khác cả thế giới thèm khát, một tỉnh miền Trung nắm 80% trữ lượng, công nghệ khai thác có gì?",
-          "link": "https://cafef.vn/khong-phai-dau-mo-viet-nam-co-kho-bau-khac-ca-the-gioi-them-khat-mot-tinh-mien-trung-nam-80-tru-luong-cong-nghe-khai-thac-co-gi-188260811163922311.chn",
-          "pubDate": "2026-08-11T10:41:00.000Z",
-          "excerpt": "Việt Nam có một kho báu mà cả thế giới đều thèm khát.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề nghị bổ sung “hai khóa kiểm soát” trong tháo gỡ các dự án chậm triển khai",
-          "link": "https://cafef.vn/de-nghi-bo-sung-hai-khoa-kiem-soat-trong-thao-go-cac-du-an-cham-trien-khai-188260811154607072.chn",
-          "pubDate": "2026-08-11T10:39:35.000Z",
-          "excerpt": "Đại biểu Quốc hội cho rằng, dự án Luật Phát triển đô thị cần bổ sung hai khóa kiểm soát. Đó là: khi cho phép tiếp tục dự án phải rà soát, xác định đầy đủ nghĩa…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Dãy 12 chữ số trên CCCD gắn chip có ý nghĩa gì?",
-          "link": "https://cafef.vn/day-12-chu-so-tren-cccd-gan-chip-co-y-nghia-gi-188260811161623625.chn",
-          "pubDate": "2026-08-11T10:13:00.000Z",
-          "excerpt": "12 chữ số trên thẻ căn cước công dân (CCCD) gắn chip được quy định theo Điều 13 của Nghị định 137/2015/NĐ-CP. Bài viết dưới đây sẽ giải thích ý nghĩ của dãy số…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng không",
-          "link": "https://vneconomy.vn/thanh-lap-uy-ban-quoc-gia-ve-an-ninh-hang-khong-va-tao-thuan-loi-hang-khong.htm",
-          "pubDate": "2026-08-11T09:07:18.000Z",
-          "excerpt": "Thủ tướng Chính phủ Lê Minh Hưng vừa ký Quyết định số 1519/QĐ-TTg ngày 10/8/2026 về việc thành lập Ủy ban quốc gia về an ninh hàng không và tạo thuận lợi hàng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Cao tốc 23.940 tỷ đồng giúp tăng cường kết nối giao thương quốc tế."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Tại Đà Nẵng, hàng loạt cầu và đường dẫn thi công chậm, khiến người dân chờ đợi lâu."
     },
     {
       "key": "international",
@@ -351,30 +351,41 @@
         {
           "title": "CoreWeave’s stock soars as earnings show major AI momentum",
           "link": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T23:29:00.000Z",
+          "pubDate": "2026-08-12T00:17:00.000Z",
           "excerpt": "The AI cloud provider topped revenue and earnings expectations, with its CEO cheering “an important inflection point.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
+          "condensed": "CoreWeave's stock soared after topping revenue and earnings expectations."
+        },
+        {
+          "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
+          "link": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T00:16:00.000Z",
+          "excerpt": "The company impressed Wall Street several weeks ago by teasing an improved profitability trajectory. Super Micro’s latest forecast has exceeded expectations as…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "Super Micro's stock climbed following an earnings report that exceeded expectations."
+        },
+        {
+          "title": "Lumentum sees sales more than double as AI demand swells",
+          "link": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T00:15:00.000Z",
+          "excerpt": "Though Lumentum posted blowout earnings and an upbeat forecast, its stock was largely flat after hours.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "Lumentum's sales more than doubled due to strong AI demand."
         },
         {
           "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
           "link": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
           "pubDate": "2026-08-11T22:30:00.000Z",
           "excerpt": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Lumentum sees sales more than double as AI demand swells",
-          "link": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T22:22:00.000Z",
-          "excerpt": "Though Lumentum posted blowout earnings and an upbeat forecast, its stock was largely flat after hours.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,17 +415,6 @@
           "condensed": null
         },
         {
-          "title": "Super Micro’s earnings report brings more good news, and the stock is climbing",
-          "link": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89?mod=mw_rss_topstories",
-          "pubDate": "2026-08-11T21:49:00.000Z",
-          "excerpt": "The company impressed Wall Street several weeks ago by teasing an improved profitability trajectory. Super Micro’s latest forecast has exceeded expectations as…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Iran Preps for Worsening Economic Malaise to Withstand Trump’s Pressure",
           "link": "https://www.wsj.com/finance/investing/iran-preps-for-worsening-economic-malaise-to-withstand-trumps-pressure-a60276c6?mod=rss_markets_main",
           "pubDate": "2026-08-11T21:19:00.000Z",
@@ -423,7 +423,7 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": null
+          "condensed": "Iran prepares for worsening economic conditions amidst pressure."
         },
         {
           "title": "U.S. Stocks Fade for a Second Straight Session, Oil Rises",
@@ -434,7 +434,7 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": null
+          "condensed": "U.S. stocks fell for a second straight session ahead of inflation data."
         }
       ],
       "aiSummary": null
