@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-12T06:17:15.508Z",
+  "lastUpdated": "2026-08-12T08:20:30.300Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26330,
+      "value": 26310,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4446.9,
+      "value": 4467.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -37,25 +37,25 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 67505.58,
-      "change": 1205.1399999999994,
-      "changePercent": 1.8176953275121543
+      "value": 67524.06,
+      "change": 1223.6199999999953,
+      "changePercent": 1.8455684456995989
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25401.38,
-      "change": -514.4399999999987,
-      "changePercent": -1.985042340933062
+      "value": 25401.92,
+      "change": -513.9000000000015,
+      "changePercent": -1.9829586715759
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26391.42,
-      "change": 189.0699999999997,
-      "changePercent": 0.7215764998177634
+      "value": 26417.47,
+      "change": 291.1700000000019,
+      "changePercent": 1.1144708588663603
     }
   ],
   "themes": [
@@ -63,6 +63,50 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Vốn hóa Vingroup tăng thêm 54.000 tỷ đồng sau khi đổi logo",
+          "link": "https://cafef.vn/von-hoa-vingroup-tang-them-54000-ty-dong-sau-khi-doi-logo-188260812145907182.chn",
+          "pubDate": "2026-08-12T07:58:00.000Z",
+          "excerpt": "Vingroup tiếp tục đứng đầu trên sàn chứng khoán Việt Nam về vốn hóa.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Vingroup đứng đầu sàn chứng khoán Việt Nam về vốn hóa sau khi đổi logo."
+        },
+        {
+          "title": "Danh mục 20 cổ phiếu lợi nhuận tăng trưởng tốt và có câu chuyện riêng trong bối cảnh định giá rẻ",
+          "link": "https://vneconomy.vn/danh-muc-20-co-phieu-loi-nhuan-tang-truong-tot-va-co-cau-chuyen-rieng-trong-boi-canh-dinh-gia-re.htm",
+          "pubDate": "2026-08-12T06:49:27.000Z",
+          "excerpt": "Dựa trên kết quả kinh doanh quý 2/2026, Mirae Asset vừa tiến hành lọc cổ phiếu có kết quả kinh doanh ổn định, duy trì sức tăng trưởng tốt và có câu chuyện…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Phó Thủ tướng Hồ Quốc Dũng: Không né tránh, không đùn đẩy, tháo gỡ thực chất vướng mắc của doanh nghiệp",
+          "link": "https://cafef.vn/pho-thu-tuong-ho-quoc-dung-khong-ne-tranh-khong-dun-day-thao-go-thuc-chat-vuong-mac-cua-doanh-nghiep-188260812125336308.chn",
+          "pubDate": "2026-08-12T06:38:00.000Z",
+          "excerpt": "Phó Thủ tướng Hồ Quốc Dũng yêu cầu các bộ, ngành xử lý đến cùng những khó khăn, vướng mắc của doanh nghiệp; vấn đề đã rõ phải trả lời rõ, nội dung cần hướng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Masan Consumer lọt vào VN30 chỉ sau hơn 7 tháng chuyển sang HoSE",
+          "link": "https://cafef.vn/masan-consumer-lot-vao-vn30-chi-sau-hon-7-thang-chuyen-sang-hose-188260812124011134.chn",
+          "pubDate": "2026-08-12T06:30:00.000Z",
+          "excerpt": "Ngày 10/8/2026, Công ty Cổ phần Hàng tiêu dùng Masan (Masan Consumer - HoSE: MCH) công bố cổ phiếu MCH đã chính thức được đưa vào danh mục VN30 – chỉ số tham…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Bầu Đức lần đầu làm hạ tầng cụm công nghiệp",
           "link": "https://vnexpress.net/bau-duc-lan-dau-lam-ha-tang-cum-cong-nghiep-5108269.html",
@@ -72,7 +116,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Bầu Đức đầu tư 400 tỷ đồng vào cụm công nghiệp tại Gia Lai."
+          "condensed": null
         },
         {
           "title": "Sự chuyển mình của thị trường quản lý tài sản tại Việt Nam",
@@ -83,7 +127,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Quản lý tài sản tại Việt Nam sẽ phát triển dựa trên niềm tin và chuẩn mực toàn cầu."
+          "condensed": null
         },
         {
           "title": "“Sóng” cổ phiếu vốn nhà nước: Cơ hội hay áp lực nguồn cung?",
@@ -94,7 +138,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Quyết định 40/2026/QĐ-TTg mở ra cơ hội cho cổ phiếu vốn nhà nước."
+          "condensed": null
         },
         {
           "title": "Cổ phiếu trụ “tái xuất”, VN-Index có cơ hội đột phá mốc 1800 điểm",
@@ -105,59 +149,59 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Cổ phiếu blue-chips phục hồi giúp VN-Index tăng."
-        },
-        {
-          "title": "Giá vàng bạc hôm nay 12/8: Vàng nhẫn áp đảo, Phú Quý, Bảo Tín Mạnh Hải, Doji, SJC đồng loạt điều chỉnh",
-          "link": "https://cafef.vn/gia-vang-bac-hom-nay-12-8-vang-nhan-ap-dao-phu-quy-bao-tin-manh-hai-doji-sjc-dong-loat-dieu-chinh-188260812120521045.chn",
-          "pubDate": "2026-08-12T05:05:00.000Z",
-          "excerpt": "Giá vàng nhẫn cao hơn vàng miếng 2 triệu đồng/lượng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Giá vàng nhẫn cao hơn vàng miếng 2 triệu đồng/lượng."
-        },
-        {
-          "title": "Cổ đông Nhà nước tại Vinamilk, Sabeco, FPT… vừa tăng vốn điều lệ lên 50.000 tỷ",
-          "link": "https://cafef.vn/co-dong-nha-nuoc-tai-vinamilk-sabeco-fpt-vua-tang-von-dieu-le-len-50000-ty-188260812114306763.chn",
-          "pubDate": "2026-08-12T04:42:00.000Z",
-          "excerpt": "Danh sách đầu tư của SCIC bao gồm nhiều tên tuổi lớn như Vinamilk, Sabeco, FPT, FPT Telecom, Dược Hậu Giang...",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "SCIC tăng vốn điều lệ lên 50.000 tỷ cho các công ty lớn."
-        },
-        {
-          "title": "Việt Nam muốn doanh nghiệp Australia phát triển chuỗi cung ứng khoáng sản chiến lược",
-          "link": "https://vnexpress.net/viet-nam-muon-doanh-nghiep-australia-phat-trien-chuoi-cung-ung-khoang-san-chien-luoc-5108247.html",
-          "pubDate": "2026-08-12T04:40:10.000Z",
-          "excerpt": "Việt Nam muốn cùng doanh nghiệp Australia phát triển chuỗi cung ứng khoáng sản chiến lược, chế biến sâu và vật liệu công nghệ cao, theo Tổng Bí thư, Chủ tịch…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Việt Nam muốn hợp tác với Australia phát triển chuỗi cung ứng khoáng sản."
-        },
-        {
-          "title": "Ngày càng nhiều người Mỹ khó trả nợ mua nhà, xe",
-          "link": "https://vnexpress.net/ngay-cang-nhieu-nguoi-my-kho-tra-no-mua-nha-xe-5108238.html",
-          "pubDate": "2026-08-12T04:30:55.000Z",
-          "excerpt": "Báo cáo của Fed New York cho thấy trong quý II, tỷ lệ chậm thanh toán vay mua nhà, ôtô tại Mỹ lên cao nhất hơn 10 năm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Nhiều người Mỹ khó trả nợ mua nhà và xe."
+          "condensed": null
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Vingroup tăng thêm 54.000 tỷ đồng vốn hóa sau khi đổi logo, tiếp tục đứng đầu trên sàn chứng khoán Việt Nam về vốn hóa."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "76% nguồn cung hạng A tương lai dồn về Trung tâm tài chính quốc tế Việt Nam, thị trường văn phòng TP.HCM sắp đổi cuộc chơi",
+          "link": "https://cafef.vn/76-nguon-cung-hang-a-tuong-lai-don-ve-trung-tam-tai-chinh-quoc-te-viet-nam-thi-truong-van-phong-tphcm-sap-doi-cuoc-choi-188260812124920325.chn",
+          "pubDate": "2026-08-12T06:49:00.000Z",
+          "excerpt": "Theo CBRE, sự hình thành Trung tâm tài chính quốc tế tại TP.HCM đang tạo thêm động lực cho thị trường văn phòng, với phần lớn nguồn cung hạng A tương lai tập…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Trung tâm tài chính quốc tế tại TP.HCM tạo động lực cho thị trường văn phòng."
+        },
+        {
+          "title": "Bộ trưởng nêu lý do đường sắt Lào Cai - Hà Nội - Hải Phòng tăng hơn 86.000 tỷ",
+          "link": "https://cafef.vn/bo-truong-neu-ly-do-duong-sat-lao-cai-ha-noi-hai-phong-tang-hon-86000-ty-188260812121125101.chn",
+          "pubDate": "2026-08-12T06:43:00.000Z",
+          "excerpt": "Sáng nay 12/8, Quốc hội thảo luận tại hội trường về chủ trương đầu tư các dự án hạ tầng giao thông chiến lược, trong đó có đường sắt Lào Cai - Hà Nội - Hải…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Đường sắt Lào Cai - Hà Nội - Hải Phòng tăng hơn 86.000 tỷ."
+        },
+        {
+          "title": "Savills Việt Nam sẽ quản lý - vận hành dự án Khải Hoàn Imperial",
+          "link": "https://cafef.vn/savills-viet-nam-se-quan-ly-van-hanh-du-an-khai-hoan-imperial-188260812133036773.chn",
+          "pubDate": "2026-08-12T06:30:00.000Z",
+          "excerpt": "Chính thức ký kết hợp tác cùng Savills Việt Nam vào ngày 11/8/2026, Chủ đầu tư Khải Hoàn Land đưa chuẩn quản lý vận hành quốc tế trở thành một phần trong hệ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Savills Việt Nam quản lý dự án Khải Hoàn Imperial."
+        },
+        {
+          "title": "Dòng dân cư dịch chuyển tới Đà Nẵng: Lời giải cho bài toán an cư chất lượng cao",
+          "link": "https://cafef.vn/dong-dan-cu-dich-chuyen-toi-da-nang-loi-giai-cho-bai-toan-an-cu-chat-luong-cao-188260812113226464.chn",
+          "pubDate": "2026-08-12T06:30:00.000Z",
+          "excerpt": "Khi những động lực kinh tế mới đưa Đà Nẵng vào một chu kỳ tăng trưởng khác, thành phố biển cũng trở thành điểm đến của dòng cư dân tìm kiếm cơ hội lập nghiệp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Dòng dân cư dịch chuyển tới Đà Nẵng tìm kiếm cơ hội lập nghiệp."
+        },
         {
           "title": "Đề xuất dán nhãn năng lượng đối với hàng loạt vật liệu xây dựng",
           "link": "https://vneconomy.vn/de-xuat-dan-nhan-nang-luong-doi-voi-hang-loat-vat-lieu-xay-dung.htm",
@@ -167,7 +211,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Nhiều sản phẩm xây dựng sẽ dán nhãn năng lượng."
+          "condensed": "Đề xuất dán nhãn năng lượng cho vật liệu xây dựng."
         },
         {
           "title": "TP. Hồ Chí Minh công bố 4 dự án nhà ở cho phép người nước ngoài được sở hữu",
@@ -178,18 +222,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP. Hồ Chí Minh công bố 4 dự án nhà ở cho người nước ngoài."
-        },
-        {
-          "title": "Những điều đặc biệt về dinh thự 35 triệu euro, nơi Ronaldo làm đám cưới",
-          "link": "https://cafef.vn/nhung-dieu-dac-biet-ve-dinh-thu-35-trieu-euro-noi-ronaldo-lam-dam-cuoi-188260812112458759.chn",
-          "pubDate": "2026-08-12T05:38:00.000Z",
-          "excerpt": "Khác xa với những đồn đoán về một \"siêu đám cưới\" rầm rộ quy tụ dàn sao thế giới, Cristiano Ronaldo và Georgina Rodríguez đã chọn làm đám cưới tại siêu dinh…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cristiano Ronaldo làm đám cưới tại dinh thự 35 triệu euro."
+          "condensed": "TP. Hồ Chí Minh công bố 4 dự án nhà ở cho phép người nước ngoài sở hữu."
         },
         {
           "title": "Trung Quốc chạy đua xử lý “quả bom” bất động sản 148 tỷ USD",
@@ -200,59 +233,92 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Trung Quốc tìm cách xử lý vấn đề bất động sản."
+          "condensed": "Trung Quốc tìm cách tháo gỡ vấn đề thời hạn sử dụng đất."
         },
         {
-          "title": "Độc lạ chiếc đồng hồ trăm tuổi gắn với ngôi trường hơn 120 năm ở TPHCM",
-          "link": "https://cafef.vn/doc-la-chiec-dong-ho-tram-tuoi-gan-voi-ngoi-truong-hon-120-nam-o-tphcm-188260812112808993.chn",
-          "pubDate": "2026-08-12T04:35:00.000Z",
-          "excerpt": "Giữa những tuyến đường sầm uất ở trung tâm TPHCM, một chiếc đồng hồ cơ hơn 100 năm tuổi vẫn đều đặn vận hành trong khuôn viên Trường Cao đẳng Kỹ thuật Cao…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Đồng hồ trăm tuổi vận hành tại Trường Cao đẳng Kỹ thuật Cao."
-        },
-        {
-          "title": "Chuyển động mới tại dự án Starview của N.H.O Vĩnh Phú",
-          "link": "https://cafef.vn/chuyen-dong-moi-tai-du-an-starview-cua-nho-vinh-phu-18826081207562285.chn",
-          "pubDate": "2026-08-12T04:03:00.000Z",
-          "excerpt": "Công ty N.H.O Vĩnh Phú được chuyển mục đích sử dụng đất đối với diện tích 12.170,2 m² với diện tích 650 m2 đất ở tại đô thị, thực hiện Dự án Starview tại…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Dự án Starview của N.H.O Vĩnh Phú có chuyển động mới."
-        },
-        {
-          "title": "Dự án sửa chữa Quốc lộ 51 'lỡ hẹn' về đích",
-          "link": "https://cafef.vn/du-an-sua-chua-quoc-lo-51-lo-hen-ve-dich-188260812101614646.chn",
-          "pubDate": "2026-08-12T03:52:00.000Z",
-          "excerpt": "Dự án sửa chữa quốc lộ 51 được triển khai từ tháng 3/2026, dự kiến hoàn thành vào tháng 7/2026 nhưng đến nay nhiều đoạn vẫn còn ngổn ngang.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Dự án sửa chữa Quốc lộ 51 chậm hoàn thành."
-        },
-        {
-          "title": "Chi tiết cách tra cứu sổ đỏ trên VNeID người dân cần biết",
-          "link": "https://cafef.vn/chi-tiet-cach-tra-cuu-so-do-tren-vneid-nguoi-dan-can-biet-188260812094242023.chn",
-          "pubDate": "2026-08-12T03:36:00.000Z",
-          "excerpt": "Người dân hiện đã có thể kiểm tra Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất (sổ đỏ) ngay trên VNeID.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Người dân có thể tra cứu sổ đỏ trên VNeID."
+          "title": "VDB cho vay tối đa 4.978 tỷ đồng, mở thêm nguồn lực triển khai cao tốc Bảo Lộc - Liên Khương",
+          "link": "https://vneconomy.vn/vdb-cho-vay-toi-da-4978-ty-dong-mo-them-nguon-luc-trien-khai-cao-toc-bao-loc-lien-khuong.htm",
+          "pubDate": "2026-08-12T02:18:47.000Z",
+          "excerpt": "Khoản tín dụng cho vay tối đa 4.978 tỷ đồng từ Ngân hàng Phát triển Việt Nam (VDB) chi nhánh Lâm Đồng bổ sung nguồn vốn dài hạn cho dự án cao tốc Bảo Lộc -…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "VDB cho vay tối đa 4.978 tỷ đồng cho dự án cao tốc Bảo Lộc - Liên Khương."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Tại TP.HCM, sự hình thành Trung tâm tài chính quốc tế đang tạo động lực cho thị trường văn phòng với 76% nguồn cung hạng A tương lai."
     },
     {
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Vị trí UAV uy hiếp an toàn bay khiến Tân Sơn Nhất 2 lần phải đóng cửa",
+          "link": "https://cafef.vn/vi-tri-uav-uy-hiep-an-toan-bay-khien-tan-son-nhat-2-lan-phai-dong-cua-18826081215134598.chn",
+          "pubDate": "2026-08-12T08:13:00.000Z",
+          "excerpt": "Đại diện Tổng Công ty Cảng Hàng không Việt Nam (ACV) cho biết, tối 11/8 vị trí UAV xuất hiện cách Tân Sơn Nhất 10 dặm, tức là vị trí UAV bay ở khu vực Hóc Môn,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Vị trí UAV uy hiếp an toàn bay khiến Tân Sơn Nhất đóng cửa."
+        },
+        {
+          "title": "Đúng 12h, một siêu đại bàng của thế giới xuất hiện, Việt Nam ghi nhận điều chưa từng có trong lịch sử, một bước ngoặt lớn đã diễn ra từ 12 năm trước",
+          "link": "https://cafef.vn/dung-12h-mot-sieu-dai-bang-cua-the-gioi-xuat-hien-viet-nam-ghi-nhan-dieu-chua-tung-co-trong-lich-su-mot-buoc-ngoat-lon-da-dien-ra-tu-12-nam-truoc-188260812151140157.chn",
+          "pubDate": "2026-08-12T08:11:00.000Z",
+          "excerpt": "Việt Nam ghi nhận điều chưa từng có trong lịch sử từ 12 năm trước.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chủ tịch UBND TP Hà Nội Vũ Đại Thắng yêu cầu đẩy nhanh tiến độ 7 cây cầu bắc qua sông Hồng",
+          "link": "https://cafef.vn/chu-tich-ubnd-tp-ha-noi-vu-dai-thang-yeu-cau-day-nhanh-tien-do-7-cay-cau-bac-qua-song-hong-188260812133528167.chn",
+          "pubDate": "2026-08-12T08:00:00.000Z",
+          "excerpt": "Sáng 12-8, Ủy viên Trung ương Đảng, Phó Bí thư Thành ủy, Chủ tịch UBND thành phố Vũ Đại Thắng chủ trì cuộc họp Ban Chỉ đạo các công trình trọng điểm thành phố;…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hoàn thành khảo sát, đánh giá an toàn, ổn định để phát triển giao thông trên trục chính sông Hồng",
+          "link": "https://cafef.vn/hoan-thanh-khao-sat-danh-gia-an-toan-on-dinh-de-phat-trien-giao-thong-tren-truc-chinh-song-hong-188260812134900561.chn",
+          "pubDate": "2026-08-12T07:30:00.000Z",
+          "excerpt": "Ban Duy tu các công trình hạ tầng giao thông vừa kiến nghị Sở Xây dựng thẩm định, phê duyệt kết quả thực hiện dự án nghiên cứu khảo sát, đánh giá an toàn, ổn…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "20 tỷ USD rót về VIFC-HCMC, cửa ngõ tài chính Việt Nam đang dần hiện thực hóa tham vọng toàn cầu",
+          "link": "https://vneconomy.vn/20-ty-usd-rot-ve-vifc-hcmc-cua-ngo-tai-chinh-viet-nam-dang-dan-hien-thuc-hoa-tham-vong-toan-cau.htm",
+          "pubDate": "2026-08-12T07:10:13.000Z",
+          "excerpt": "Chỉ sau 6 tháng đi vào hoạt động, Trung tâm Tài chính Quốc tế Việt Nam tại TP. Hồ Chí Minh (VIFC-HCMC) đã thu hút 20 tỷ USD từ các nhà đầu tư và đối tác trong,…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "VIFC-HCMC thu hút 20 tỷ USD từ các nhà đầu tư."
+        },
+        {
+          "title": "Thay đổi mới về sử dụng biển số xe khi tham gia giao thông có hiệu lực từ 15/8, người dân cần chú ý",
+          "link": "https://cafef.vn/thay-doi-moi-ve-su-dung-bien-so-xe-khi-tham-gia-giao-thong-co-hieu-luc-tu-15-8-nguoi-dan-can-chu-y-188260812122654464.chn",
+          "pubDate": "2026-08-12T06:45:00.000Z",
+          "excerpt": "Từ 15/8/2026, lái xe cố ý làm thay đổi khả năng nhận diện biển số xe của phương tiện, thiết bị kỹ thuật nghiệp vụ có thể bị xử phạt đến 26 triệu đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Quy định mới về sử dụng biển số xe có hiệu lực từ 15/8."
+        },
         {
           "title": "TP.Hồ Chí Minh đặt mục tiêu giải ngân đầu tư công đạt tỷ lệ 70% vào cuối quý 3",
           "link": "https://vneconomy.vn/tpho-chi-minh-dat-muc-tieu-giai-ngan-dau-tu-cong-dat-ty-le-70-vao-cuoi-quy-3.htm",
@@ -262,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP.Hồ Chí Minh đặt mục tiêu giải ngân đầu tư công đạt tỷ lệ 70% vào cuối quý 3."
+          "condensed": null
         },
         {
           "title": "Đồng Nai lập hồ sơ đầu tư Dự án mở rộng Quốc lộ 56 kết nối cao tốc Phan Thiết - Dầu Giây",
@@ -273,73 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Đồng Nai lập hồ sơ đầu tư Dự án mở rộng Quốc lộ 56."
-        },
-        {
-          "title": "Cách hợp nhất dữ liệu khi cá nhân có 2 mã số thuế",
-          "link": "https://cafef.vn/cach-hop-nhat-du-lieu-khi-ca-nhan-co-2-ma-so-thue-18826081210563599.chn",
-          "pubDate": "2026-08-12T04:30:00.000Z",
-          "excerpt": "Công ty của bà Đào Thị Mai có một người lao động đang sở hữu 2 mã số thuế cá nhân khác nhau (chính người lao động cũng không biết vì sao mình có 2 mã số thuế).",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cách hợp nhất dữ liệu khi cá nhân có 2 mã số thuế."
-        },
-        {
-          "title": "Một dự án năng lượng chịu sự điều chỉnh của hàng loạt luật: Chuyên gia chỉ rõ 4 'điểm nghẽn' lớn",
-          "link": "https://cafef.vn/mot-du-an-nang-luong-chiu-su-dieu-chinh-cua-hang-loat-luat-chuyen-gia-chi-ro-4-diem-nghen-lon-188260812105326232.chn",
-          "pubDate": "2026-08-12T03:53:00.000Z",
-          "excerpt": "Sự phát triển mạnh mẽ của AI và trung tâm dữ liệu đang đặt ra bài toán lớn về nhu cầu năng lượng đến năm 2030. Trước thực tế đó, việc rà soát và hoàn thiện…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Dự án năng lượng gặp 4 điểm nghẽn lớn."
-        },
-        {
-          "title": "Vành đai 5 vùng Thủ đô Hà Nội: Đóng vai trò quan trọng trong tổ chức lại không gian phát triển của cả vùng",
-          "link": "https://cafef.vn/vanh-dai-5-vung-thu-do-ha-noi-dong-vai-tro-quan-trong-trong-to-chuc-lai-khong-gian-phat-trien-cua-ca-vung-188260812095859184.chn",
-          "pubDate": "2026-08-12T03:42:00.000Z",
-          "excerpt": "Tiếp tục chương trình nghị sự, sáng nay (12/8), Quốc hội thảo luận ở hội trường về chủ trương đầu tư Dự án đầu tư xây dựng đường Vành đai 5 - Vùng Thủ đô Hà…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Vành đai 5 vùng Thủ đô Hà Nội đóng vai trò quan trọng."
-        },
-        {
-          "title": "Cà Mau: Không thể tăng trưởng bằng lao động giá rẻ",
-          "link": "https://cafef.vn/ca-mau-khong-the-tang-truong-bang-lao-dong-gia-re-188260812100221915.chn",
-          "pubDate": "2026-08-12T03:20:00.000Z",
-          "excerpt": "Trong khi lực lượng lao động đông về số lượng, Cà Mau vẫn thiếu lao động có tay nghề, kỹ năng và chuyên môn kỹ thuật. Chủ tịch UBND tỉnh Cà Mau Lữ Quang Ngời…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cà Mau không thể tăng trưởng bằng lao động giá rẻ."
-        },
-        {
-          "title": "Các hãng hàng không đồng loạt tăng chuyến dịp nghỉ lễ Quốc khánh 2/9",
-          "link": "https://vneconomy.vn/cac-hang-hang-khong-dong-loat-tang-chuyen-dip-nghi-le-quoc-khanh-29.htm",
-          "pubDate": "2026-08-12T02:50:38.000Z",
-          "excerpt": "Các hãng hàng không đồng loạt tăng chuyến, bổ sung chỗ trên mạng bay nội địa và quốc tế nhằm đáp ứng nhu cầu đi lại dự kiến tăng cao trong kỳ nghỉ Quốc khánh…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Các hãng hàng không tăng chuyến dịp nghỉ lễ Quốc khánh 2/9."
-        },
-        {
-          "title": "Chính phủ yêu cầu các bộ, ngành hoàn thành sắp xếp, tinh gọn bộ máy trong tháng 10",
-          "link": "https://cafef.vn/chinh-phu-yeu-cau-cac-bo-nganh-hoan-thanh-sap-xep-tinh-gon-bo-may-trong-thang-10-188260812083430657.chn",
-          "pubDate": "2026-08-12T02:30:00.000Z",
-          "excerpt": "Chính phủ nhấn mạnh yêu cầu sắp xếp, tinh gọn bộ máy bên trong các bộ, cơ quan ngang bộ và sắp xếp, tổ chức lại mạng lưới đơn vị sự nghiệp công lập. Đồng thời,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Chính phủ yêu cầu hoàn thành sắp xếp bộ máy trong tháng 10."
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -348,6 +348,28 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Tata chair resigns as succession row escalates",
+          "link": "https://www.ft.com/content/89c3c50c-1fc5-4673-b67d-ddc0b824c6c5?syn-25a6b1a6=1",
+          "pubDate": "2026-08-12T07:13:59.000Z",
+          "excerpt": "N Chandrasekaran to depart India’s largest conglomerate amid dispute with Noel Tata",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": "Tata chair N Chandrasekaran is departing amid a succession dispute"
+        },
+        {
+          "title": "Factions in Iran openly fight over war’s direction amid Khamenei’s absence",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3363756/factions-iran-openly-fight-over-wars-direction-amid-khameneis-absence?utm_source=rss_feed",
+          "pubDate": "2026-08-12T07:11:36.000Z",
+          "excerpt": "When Iran’s President Masoud Pezeshkian told state television last week that he found it “very difficult” to reach the country’s supreme leader, it sparked…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
         {
           "title": "Đợt IPO “cháy hàng” của công ty robot hình người Trung Quốc, nhà đầu tư tranh mua gấp 5,500 lần",
           "link": "http://vietstock.vn/2026/08/dot-ipo-chay-hang-cua-cong-ty-robot-hinh-nguoi-trung-quoc-nha-dau-tu-tranh-mua-gap-5500-lan-773-1479568.htm",
@@ -368,7 +390,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
+          "condensed": "Colombian rescuers pulled a woman alive from rubble after an earthquake"
         },
         {
           "title": "How to stop global warming",
@@ -390,7 +412,7 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
+          "condensed": "JD Vance asked Ukraine to stop targeting tankers at a Russian port"
         },
         {
           "title": "China’s great jobs squeeze",
@@ -401,18 +423,7 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Revolut cuts back WeWork access for premium customers after price rises",
-          "link": "https://www.ft.com/content/13ca1246-faa7-4a0e-8117-439aee14d3d7?syn-25a6b1a6=1",
-          "pubDate": "2026-08-12T04:00:19.000Z",
-          "excerpt": "Subscribers lose access to in-demand European office spaces in cities including Paris, Brussels, Milan and London",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
+          "condensed": "China's job market is shifting to low-wage work in food delivery and ride-hailing"
         },
         {
           "title": "Europe’s carbon mechanism is a tariff by another name",
@@ -424,20 +435,9 @@
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
           "condensed": null
-        },
-        {
-          "title": "Trump says Secret Service, military insisted on Air Force One decoy in Turkey",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363715/trump-says-secret-service-military-insisted-air-force-one-decoy-turkey?utm_source=rss_feed",
-          "pubDate": "2026-08-12T02:59:11.000Z",
-          "excerpt": "US President Donald Trump deflected criticisms about a decision to secretly fly him out of Turkey on a different aircraft while the White House indicated he…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Công ty robot hình người Trung Quốc vừa có đợt IPO \"cháy hàng\" vì nhà đầu tư cá nhân tranh mua gấp 5,500 lần, cho thấy sức hút lớn đối với nhóm này."
     }
   ]
 }
