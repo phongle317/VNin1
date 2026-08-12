@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T20:57:14.814Z",
+  "lastUpdated": "2026-08-12T21:50:53.917Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4467.8,
+      "value": 4469,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -64,7 +64,7 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "'Nhà đầu tư sẽ sợ hải nếu lãi suất tiết kiệm vượt 10%'",
+          "title": "'Nhà đầu tư sẽ sợ hãi nếu lãi suất tiết kiệm vượt 10%'",
           "link": "https://vnexpress.net/nha-dau-tu-se-so-hai-neu-lai-suat-tiet-kiem-vuot-10-5108173.html",
           "pubDate": "2026-08-12T20:00:00.000Z",
           "excerpt": "Lãi suất tiền gửi tăng khiến chứng khoán kém hấp dẫn hơn, nếu vượt 10% một năm, có thể làm cho nhà đầu tư chuyển sang sợ hãi, theo SGI Capital.",
@@ -72,7 +72,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Lãi suất tiền gửi tăng làm chứng khoán kém hấp dẫn hơn."
+          "condensed": "Lãi suất tiền gửi tăng cao làm chứng khoán kém hấp dẫn."
         },
         {
           "title": "Doanh nghiệp Việt tăng tốc mở rộng ra quốc tế",
@@ -116,7 +116,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Nhiều doanh nghiệp ghi nhận sự cải thiện về lợi nhuận."
+          "condensed": "Nhiều doanh nghiệp cải thiện lợi nhuận hoặc có động lực tăng trưởng mới."
         },
         {
           "title": "Vì sao yen Nhật vẫn mất giá sau đợt can thiệp lịch sử",
@@ -152,23 +152,12 @@
           "condensed": "Prime Group cắt giảm 23.000 tấn CO2 mỗi năm."
         }
       ],
-      "aiSummary": "Lãi suất tiền gửi tăng khiến chứng khoán kém hấp dẫn hơn, nếu vượt 10% một năm, có thể làm cho nhà đầu tư chuyển sang sợ hãi."
+      "aiSummary": null
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
-        {
-          "title": "Lãi vay tăng cao 'bào mòn' lợi nhuận nhà đầu tư bất động sản",
-          "link": "https://vnexpress.net/lai-vay-tang-cao-bao-mon-loi-nhuan-nha-dau-tu-bat-dong-san-5107561.html",
-          "pubDate": "2026-08-12T19:00:00.000Z",
-          "excerpt": "Dù bán căn hộ cao hơn giá mua 700 triệu đồng, anh Phan Tình gần như không có lời sau ba năm nắm giữ vì phần chênh lệch bị bào mòn bởi lãi vay và chi phí giao…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
         {
           "title": "Đà Nẵng tái khởi động dự án lấn biển Đa Phước gần 55.000 tỷ đồng",
           "link": "https://vnexpress.net/da-nang-tai-khoi-dong-du-an-lan-bien-da-phuoc-gan-55-000-ty-dong-5108479.html",
@@ -245,6 +234,17 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
+        },
+        {
+          "title": "Vành đai 5 cần được định vị là vành đai phát triển mới của Hà Nội và Vùng Thủ đô",
+          "link": "https://cafef.vn/vanh-dai-5-can-duoc-dinh-vi-la-vanh-dai-phat-trien-moi-cua-ha-noi-va-vung-thu-do-188260812140840238.chn",
+          "pubDate": "2026-08-12T09:49:00.000Z",
+          "excerpt": "Sáng 12-8, tiếp tục chương trình kỳ họp không thường lệ thứ nhất, Quốc hội thảo luận ở hội trường về chủ trương đầu tư dự án đầu tư xây dựng đường Vành đai 5 -…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -262,7 +262,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Hà Nội hoàn thành xử lý trụ sở xã, phường sau sắp xếp."
         },
         {
           "title": "Tuyến đường sắt 9.000 tỷ trên đảo của VN sắp lập kỷ lục chưa từng có: Thi công thần tốc chỉ 17 tháng",
@@ -273,7 +273,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Dự án đường sắt trên đảo sắp lập kỷ lục về tốc độ thi công."
         },
         {
           "title": "Đề nghị làm rõ hiệu quả đầu tư tuyến đường sắt Lào Cai - Hà Nội - Hải Phòng 290.000 tỷ đồng",
@@ -284,7 +284,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Quốc hội đề nghị làm rõ hiệu quả đầu tư tuyến đường sắt."
         },
         {
           "title": "Công an đề nghị 261 chủ xe máy, ô tô vi phạm có biển số sau nhanh chóng nộp phạt nguội theo Nghị định 168",
@@ -295,7 +295,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Công an đề nghị chủ xe nộp phạt nguội."
         },
         {
           "title": "Hà Nội xử lý hố sâu sát nhà dân, lý giải tình trạng thi công “xôi đỗ” trên Quốc lộ 6",
@@ -306,7 +306,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Hố sâu trên Quốc lộ 6 đã được khắc phục."
         },
         {
           "title": "[Infographic] Mức đóng Bảo hiểm y tế học sinh, sinh viên năm học 2026-2027",
@@ -317,7 +317,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
+          "condensed": "Mức đóng Bảo hiểm y tế học sinh, sinh viên năm học 2026-2027 được công bố."
         },
         {
           "title": "20 tỷ USD rót về VIFC-HCMC, cửa ngõ tài chính Việt Nam đang dần hiện thực hóa tham vọng toàn cầu",
@@ -328,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "Trung tâm Tài chính Quốc tế Việt Nam thu hút 20 tỷ USD."
         },
         {
           "title": "TP.Hồ Chí Minh đặt mục tiêu giải ngân đầu tư công đạt tỷ lệ 70% vào cuối quý 3",
@@ -339,7 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
+          "condensed": "TP.Hồ Chí Minh đặt mục tiêu giải ngân đầu tư công đạt 70% vào cuối quý 3."
         }
       ],
       "aiSummary": null
@@ -349,21 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Solar eclipse turns day to night in Spain, wows crowds across Europe",
-          "link": "https://www.scmp.com/news/world/europe/article/3363830/solar-eclipse-turns-day-night-spain-wows-crowds-across-europe?utm_source=rss_feed",
-          "pubDate": "2026-08-12T20:48:49.000Z",
-          "excerpt": "Day briefly turned to night in Spain on Wednesday, as the country witnessed its first total solar eclipse in more than a century, plunging it into eerie…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Cisco sees record results from an AI ‘supercycle,’ but its stock pulls back",
+          "link": "https://www.marketwatch.com/story/cisco-sees-record-results-from-an-ai-supercycle-but-its-stock-pulls-back-2635b81a?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T21:19:00.000Z",
+          "excerpt": "An 18% revenue surge and blowout 2027 forecast weren’t enough to sustain Cisco’s stock momentum.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Markets Get Inflation Relief",
-          "link": "https://www.wsj.com/finance/stocks/markets-get-inflation-relief-f713a9c7?mod=rss_markets_main",
-          "pubDate": "2026-08-12T20:35:00.000Z",
-          "excerpt": "Plus, AI names and Wendy’s rally.",
+          "title": "CoreWeave Stock Surge Gives the AI Trade a Boost",
+          "link": "https://www.wsj.com/finance/stocks/coreweave-stock-surge-gives-the-ai-trade-a-boost-1b546f50?mod=rss_markets_main",
+          "pubDate": "2026-08-12T21:18:00.000Z",
+          "excerpt": "The cloud-computing company’s stock jumped 19% and lifted other shares tied to the artificial-intelligence build-out.",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
@@ -371,10 +371,21 @@
           "condensed": null
         },
         {
-          "title": "World witnesses one of nature’s greatest spectacles: a total solar eclipse",
-          "link": "https://www.ft.com/content/007b5ff6-e8fe-47f6-ba34-40cd6520e9fd?syn-25a6b1a6=1",
-          "pubDate": "2026-08-12T20:26:40.000Z",
-          "excerpt": "Spectators and scientists gather to witness full or partial blocking of the Sun across the northern hemisphere",
+          "title": "Goldman’s latest deal underscores how ‘boomer candy’ ETFs are now big business on Wall Street",
+          "link": "https://www.marketwatch.com/story/goldmans-latest-deal-underscores-how-boomer-candy-etfs-are-now-big-business-on-wall-street-5520109d?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T21:12:00.000Z",
+          "excerpt": "Goldman Sachs announced Wednesday that it has agreed to buy Neos Investments, adding yet another ETF shop to its fast-growing asset-management business.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Wall Street giants bet Nvidia’s AI chips will defy the laws of finance",
+          "link": "https://www.ft.com/content/3b522281-0119-47c9-a95a-f2c8d04e6212?syn-25a6b1a6=1",
+          "pubDate": "2026-08-12T21:11:50.000Z",
+          "excerpt": "Private capital firms are wagering that the crucial hardware will hold its value for years to come",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -382,32 +393,32 @@
           "condensed": null
         },
         {
-          "title": "Goldman Sachs Is Doubling Down on Investor Hunger for ‘Boomer Candy’",
-          "link": "https://www.wsj.com/finance/investing/goldman-sachs-is-doubling-down-on-investor-hunger-for-boomer-candy-923783e8?mod=rss_markets_main",
-          "pubDate": "2026-08-12T20:16:00.000Z",
-          "excerpt": "Investors can’t get enough of ETFs, which use derivatives to give stocklike returns or regular income while limiting the downside.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "Chip stocks are closing in on a bull market. Here’s why some analysts are nervous.",
+          "link": "https://www.marketwatch.com/story/chip-stocks-are-closing-in-on-a-bull-market-heres-why-some-analysts-are-nervous-2a180b75?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T21:08:00.000Z",
+          "excerpt": "Wall Street is excited about growing backlogs at some AI infrastructure companies, but some experts caution that there’s no guarantee all those orders will be…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
-          "link": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
-          "pubDate": "2026-08-12T19:50:29.000Z",
-          "excerpt": "Lettuce prices posted their sharpest month-over-month decline on record as diners reconsider the vegetable amid the cyclospora outbreak.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
+          "title": "The 10 housing markets where the most sellers have listed their homes for less than what they paid",
+          "link": "https://www.marketwatch.com/story/the-10-housing-markets-where-the-most-sellers-have-listed-their-homes-for-less-than-what-they-paid-acd4c8da?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T21:08:00.000Z",
+          "excerpt": "In some Sun Belt areas, nearly 1 in 5 sellers is asking for less than what they paid.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Eurovision to bar countries at war from hosting",
-          "link": "https://www.scmp.com/news/world/europe/article/3363828/eurovision-bar-countries-war-hosting?utm_source=rss_feed",
-          "pubDate": "2026-08-12T19:26:42.000Z",
-          "excerpt": "Eurovision Song Contest organisers announced rule changes on Wednesday excluding any country in an armed conflict from hosting the competition and increasing…",
+          "title": "Trump spokeswoman Karoline Leavitt to step down",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3363831/trump-spokeswoman-karoline-leavitt-step-down?utm_source=rss_feed",
+          "pubDate": "2026-08-12T21:03:22.000Z",
+          "excerpt": "White House Press Secretary Karoline Leavitt, the youngest person to hold the role, will leave at month’s end, President Donald Trump announced Wednesday.…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -415,25 +426,14 @@
           "condensed": null
         },
         {
-          "title": "U.S. budget deficit surged in July to highest level since March 2021",
-          "link": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
-          "pubDate": "2026-08-12T18:56:15.000Z",
-          "excerpt": "Beyond the big single-month jump, the collective red ink over the 10 months of the fiscal year rose to nearly $1.8 trillion, surpassing the same period in 2025.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "Mark Walter’s insurers rush to unwind affiliated investments",
-          "link": "https://www.ft.com/content/ab5f7160-68f5-4396-a5a2-f97f770e8634?syn-25a6b1a6=1",
-          "pubDate": "2026-08-12T18:44:46.000Z",
-          "excerpt": "TWG Global is seeking to refinance loans, restructure firms and bring in outside investors as prosecutors scrutinise books",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Nvidia, Intel, Google: Wall Street is partying like it’s 1999",
+          "link": "https://www.marketwatch.com/story/nvidia-intel-google-wall-street-is-partying-like-its-1999-8520c1e3?mod=mw_rss_topstories",
+          "pubDate": "2026-08-12T21:03:00.000Z",
+          "excerpt": "The signs are all around that Wall Street is back in that dangerous atmosphere of giddy euphoria that those with long memories will remember from the infamous…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
