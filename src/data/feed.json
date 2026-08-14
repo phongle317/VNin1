@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T13:12:05.834Z",
+  "lastUpdated": "2026-08-14T14:54:59.494Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4432,
+      "value": 4440.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7798.99,
-      "change": 89.02999999999975,
-      "changePercent": 1.1547401024129793
+      "value": 7793.01,
+      "change": 35.36999999999989,
+      "changePercent": 0.4559376305164959
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26803.025,
-      "change": 454.6750000000029,
-      "changePercent": 1.7256298781517738
+      "value": 26746.938,
+      "change": 56.3179999999993,
+      "changePercent": 0.21100296658526219
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26526.78,
-      "change": 207.3299999999981,
-      "changePercent": 0.7877444247505101
+      "value": 26423.68,
+      "change": 104.22999999999956,
+      "changePercent": 0.396018913769093
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Tuần 10-14/08: USD quốc tế suy giảm, tỷ giá tự do lao dốc",
+          "link": "http://vietstock.vn/2026/08/tuan-10-1408-usd-quoc-te-suy-giam-ty-gia-tu-do-lao-doc-757-1480932.htm",
+          "pubDate": "2026-08-14T13:02:00.000Z",
+          "excerpt": "Trong tuần thứ 2 của tháng 8 (10-14/08), đồng USD trên thị trường quốc tế suy giảm khi các dữ liệu lạm phát mới nhất của Mỹ cho thấy dấu hiệu hạ nhiệt rõ, làm…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "Đồng USD suy giảm khi dữ liệu lạm phát Mỹ hạ nhiệt."
+        },
         {
           "title": "Sửa Luật Chứng khoán: Chính phủ sẽ quy định chi tiết về cơ chế thử nghiệm có kiểm soát",
           "link": "https://vneconomy.vn/sua-luat-chung-khoan-chinh-phu-se-quy-dinh-chi-tiet-ve-co-che-thu-nghiem-co-kiem-soat.htm",
@@ -72,7 +83,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Chính phủ sẽ quy định chi tiết về cơ chế thử nghiệm có kiểm soát trong Dự thảo Luật sửa đổi, bổ sung một số điều của Luật chứng khoán."
+          "condensed": "Chính phủ quy định cơ chế thử nghiệm có kiểm soát."
         },
         {
           "title": "Du thuyền của bà Trương Mỹ Lan ế chỏng chơ",
@@ -83,7 +94,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Du thuyền của bà Trương Mỹ Lan bị ế do không có người đăng ký tham gia đấu giá."
+          "condensed": "Du thuyền của bà Trương Mỹ Lan đấu giá bất thành."
         },
         {
           "title": "220 tỷ USD tài sản mã hóa vào Việt Nam, hơn 21 triệu người có tài sản số",
@@ -94,7 +105,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Năm 2025, dòng tài sản mã hóa vào Việt Nam đạt 220 tỷ USD và có 21,2 triệu người sở hữu tài sản số."
+          "condensed": "Dòng tài sản mã hóa vào Việt Nam đạt 220 tỷ USD."
         },
         {
           "title": "Cổ phiếu trụ bị bán mạnh, VN-Index 'rơi' 64 điểm sau 2 phiên",
@@ -105,7 +116,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chứng khoán chịu áp lực bán mạnh, VN-Index giảm 64 điểm sau 2 phiên."
+          "condensed": "Chứng khoán chịu áp lực bán mạnh, VN-Index giảm."
         },
         {
           "title": "Hợp tác trong đào tạo, nghiên cứu khoa học, phổ biến kiến thức về chứng khoán và thị trường chứng khoán",
@@ -116,7 +127,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Uỷ ban Chứng khoán Nhà nước và Đại học Kinh tế Quốc dân hợp tác đào tạo và nghiên cứu khoa học về chứng khoán."
+          "condensed": "Uỷ ban Chứng khoán hợp tác với Đại học Kinh tế Quốc dân."
         },
         {
           "title": "Vietbank chuẩn bị chào bán hơn 296 triệu cp, nâng vốn điều lệ lên 14,807 tỷ",
@@ -127,7 +138,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Vietbank chào bán hơn 296 triệu cổ phiếu để tăng vốn điều lệ lên 14,807 tỷ."
+          "condensed": "Vietbank chào bán cổ phiếu để tăng vốn điều lệ."
         },
         {
           "title": "Dragon Capital: Sau mỗi đợt giảm sâu, chứng khoán thường phục hồi mạnh",
@@ -138,18 +149,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Dragon Capital cho rằng chứng khoán thường phục hồi mạnh sau mỗi đợt giảm sâu."
-        },
-        {
-          "title": "Blog chứng khoán: “Tiệc” tan",
-          "link": "https://vneconomy.vn/blog-chung-khoan-tiec-tan-1299966.htm",
-          "pubDate": "2026-08-14T09:11:18.000Z",
-          "excerpt": "Áp lực bán tháo mạnh mẽ và kéo dài trọn phiên khiến thị trường hoàn toàn tiêu cực. Những phiên dập dình mấy ngày trước còn không kéo được tiền vào thì lúc này…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Thị trường chứng khoán tiêu cực do áp lực bán tháo mạnh mẽ và kéo dài."
+          "condensed": "Chứng khoán thường phục hồi mạnh sau đợt giảm sâu."
         }
       ],
       "aiSummary": null
@@ -159,6 +159,39 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Tỉnh rộng thứ 2 Việt Nam sẽ có thêm khu đô thị hơn 19.000 tỷ đồng gồm 6 tòa cao ốc và hàng nghìn căn liền kề, biệt thự",
+          "link": "https://cafef.vn/tinh-rong-thu-2-viet-nam-se-co-them-khu-do-thi-hon-19000-ty-dong-gom-6-toa-cao-oc-va-hang-nghin-can-lien-ke-biet-thu-188260814183818867.chn",
+          "pubDate": "2026-08-14T14:01:00.000Z",
+          "excerpt": "Khu đô thị Nam đường Hùng Vương tại phường Quy Nhơn Bắc (Gia Lai) có tổng vốn dự kiến hơn 19.310 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Tỉnh Gia Lai sẽ có khu đô thị mới với 6 tòa cao ốc và hàng nghìn căn nhà."
+        },
+        {
+          "title": "Du thuyền của bà Trương Mỹ Lan ế chỏng chơ",
+          "link": "https://cafebiz.vn/du-thuyen-cua-ba-truong-my-lan-e-chong-cho-176260814210133007.chn",
+          "pubDate": "2026-08-14T14:00:00.000Z",
+          "excerpt": "TPO - Một du thuyền The Reverie Saigon và hai tàu Thalia, Electra của bà Trương Mỹ Lan - Chủ tịch Tập đoàn Vạn Thịnh Phát - vừa được thông báo đấu giá bất…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": "Du thuyền của bà Trương Mỹ Lan sẽ được đấu giá."
+        },
+        {
+          "title": "Nghịch lý trên thị trường bất động sản Hà Nội",
+          "link": "https://cafef.vn/nghich-ly-tren-thi-truong-bat-dong-san-ha-noi-188260814183640801.chn",
+          "pubDate": "2026-08-14T13:16:00.000Z",
+          "excerpt": "Dù thanh khoản chững lại do nhà đầu tư thận trọng chờ đợi các bản quy hoạch phân khu chi tiết, thị trường biệt thự, nhà liền kề Hà Nội vẫn ghi nhận mức giá neo…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Thị trường biệt thự Hà Nội vẫn giữ giá cao."
+        },
+        {
           "title": "Đất đấu giá Hà Nội: Qua thời “sóng” giá",
           "link": "https://cafef.vn/dat-dau-gia-ha-noi-qua-thoi-song-gia-188260814144944701.chn",
           "pubDate": "2026-08-14T12:45:00.000Z",
@@ -167,7 +200,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Thị trường đất đấu giá Hà Nội đã thay đổi sau thời kỳ sốt giá."
+          "condensed": "Thị trường đất đấu giá Hà Nội đã thay đổi."
         },
         {
           "title": "Thay đổi hình thức sử dụng đất đối với 'đất vàng' 11A Cát Linh",
@@ -178,7 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Bình Minh Group được chuyển hình thức sử dụng đất tại khu đất 11A Cát Linh."
+          "condensed": "Hình thức sử dụng đất 'đất vàng' 11A Cát Linh được thay đổi."
         },
         {
           "title": "Chung cư Hà Nội ‘vắng bóng’ căn hộ dưới 70 triệu đồng/m2",
@@ -211,40 +244,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Đất công xen kẽ trong dự án nhà thương mại có thể được tách riêng để đấu giá."
-        },
-        {
-          "title": "Biến động nhân sự tại Saigon Glory",
-          "link": "https://cafef.vn/bien-dong-nhan-su-tai-saigon-glory-188260814161740496.chn",
-          "pubDate": "2026-08-14T10:37:00.000Z",
-          "excerpt": "Mới chỉ được bổ nhiệm giữ chức vụ Chủ tịch HĐQT Saigon Glory được vài tháng, ông Hồ Thanh Bảo đã rời vị trí này, người thay thế là bà Lê Nguyễn Ngọc Trân.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Ông Hồ Thanh Bảo rời vị trí Chủ tịch HĐQT Saigon Glory."
-        },
-        {
-          "title": "Đô thị tích hợp Izumi City có thêm trường liên cấp Uppingham",
-          "link": "https://vnexpress.net/do-thi-tich-hop-izumi-city-co-them-truong-lien-cap-uppingham-5107914.html",
-          "pubDate": "2026-08-14T09:00:00.000Z",
-          "excerpt": "Nam Long ký hợp tác với Công ty Quản lý Quỹ đầu tư chứng khoán Bản Việt, ngày 12/8, đưa trường liên cấp Uppingham vào trong nội khu Izumi City.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Izumi City có thêm trường liên cấp Uppingham."
-        },
-        {
-          "title": "Quá nhanh: Sân vận động lớn nhất thế giới VinFast - Trống Đồng sẽ hoàn thành vào tháng 7/2027, khán đài 135.000 chỗ dần lộ diện, có mái che đóng mở tự động quy mô nhất hành tinh",
-          "link": "https://cafef.vn/qua-nhanh-san-van-dong-lon-nhat-the-gioi-vinfast-trong-dong-se-hoan-thanh-vao-thang-7-2027-khan-dai-135000-cho-dan-lo-dien-co-mai-che-dong-mo-tu-dong-quy-mo-nhat-hanh-tinh-188260814150651083.chn",
-          "pubDate": "2026-08-14T08:06:00.000Z",
-          "excerpt": "Dự kiến sau khi hoàn thành vào tháng 7/2027, sân vận động VinFast - Trống Đồng sẽ trở thành công trình biểu tượng mới của thể thao nước nhà.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Sân vận động VinFast - Trống Đồng sẽ hoàn thành vào tháng 7/2027."
+          "condensed": "Đất công xen kẽ trong dự án nhà thương mại có thể được đấu giá riêng."
         }
       ],
       "aiSummary": null
@@ -254,6 +254,17 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Cách Hà Nội 30 km, Việt Nam và Mỹ cùng xây một phòng thí nghiệm để khai thác “kho báu” hàng trăm tỷ USD",
+          "link": "https://cafef.vn/cach-ha-noi-30-km-viet-nam-va-my-cung-xay-mot-phong-thi-nghiem-de-khai-thac-kho-bau-hang-tram-ty-usd-188260814213155571.chn",
+          "pubDate": "2026-08-14T14:31:00.000Z",
+          "excerpt": "Phòng thí nghiệm này được đặt tại Hòa Lạc (Hà Nội).",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Việt Nam và Mỹ xây phòng thí nghiệm tại Hòa Lạc, cách Hà Nội 30 km."
+        },
+        {
           "title": "Tất cả hộ kinh doanh chú ý: Những khoản thanh toán sau phải có chứng từ giao dịch không dùng tiền mặt để chứng minh chi phí được trừ khi tính thuế",
           "link": "https://cafef.vn/tat-ca-ho-kinh-doanh-chu-y-nhung-khoan-thanh-toan-sau-phai-co-chung-tu-giao-dich-khong-dung-tien-mat-de-chung-minh-chi-phi-duoc-tru-khi-tinh-thue-188260814164335028.chn",
           "pubDate": "2026-08-14T10:46:00.000Z",
@@ -262,7 +273,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Hộ kinh doanh cần lưu ý thông tin về chi phí được trừ khi tính thuế."
+          "condensed": "Hộ kinh doanh cần lưu ý về chứng từ giao dịch không dùng tiền mặt."
         },
         {
           "title": "Lý do gần 39.000 doanh nghiệp tại TPHCM rút khỏi thị trường",
@@ -295,7 +306,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Khởi công 5 dự án gần 7.600 tỷ đồng tại Phú Thọ."
+          "condensed": "Khởi công 5 dự án tại xã Thịnh Minh, tỉnh Phú Thọ."
         },
         {
           "title": "Nhập siêu hơn 20 tỷ USD trong 7 tháng, Phó Thủ tướng yêu cầu làm việc với doanh nghiệp chênh lệch lớn giữa nhập khẩu và xuất khẩu",
@@ -306,18 +317,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Phó Thủ tướng yêu cầu làm việc với doanh nghiệp nhập siêu lớn."
-        },
-        {
-          "title": "Sau hơn 1 tháng tăng gấp đôi mức phạt lấn chiếm vỉa hè, Công an Hà Nội công bố các khu vực sẽ tăng cường giám sát 'phạt nguội' thời gian tới",
-          "link": "https://cafef.vn/sau-hon-1-thang-tang-gap-doi-muc-phat-lan-chiem-via-he-cong-an-ha-noi-cong-bo-cac-khu-vuc-se-tang-cuong-giam-sat-phat-nguoi-thoi-gian-toi-188260814142401295.chn",
-          "pubDate": "2026-08-14T08:25:00.000Z",
-          "excerpt": "Không chỉ dừng lại ở phạt nguội qua camera AI hay phản ánh từ cộng đồng, Công an TP Hà Nội đang tích cực thử nghiệm thiết bị bay không người lái (UAV) để…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Công an Hà Nội tăng cường giám sát lấn chiếm vỉa hè."
+          "condensed": "Phó Thủ tướng yêu cầu làm việc với doanh nghiệp nhập siêu."
         },
         {
           "title": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng bằng xe buýt",
@@ -328,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý vận tải hành khách công cộng."
+          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng."
         },
         {
           "title": "Hòa Lạc được định hướng thành không gian hợp tác đầu tư công nghệ Việt - Nhật",
@@ -339,7 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Hòa Lạc được định hướng thành không gian hợp tác đầu tư công nghệ."
+          "condensed": "Hòa Lạc được định hướng thành không gian hợp tác đầu tư công nghệ Việt - Nhật."
         }
       ],
       "aiSummary": null
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-          "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T13:00:00.000Z",
-          "excerpt": "“I’m curious whether there’s a downside.”",
+          "title": "Pilot dies after helicopter crash in German forest",
+          "link": "https://www.scmp.com/news/world/europe/article/3364107/pilot-dies-after-helicopter-crash-german-forest?utm_source=rss_feed",
+          "pubDate": "2026-08-14T14:52:45.000Z",
+          "excerpt": "A helicopter pilot has died after crashing in a forest in eastern Germany while carrying out liming work, the police directorate in the city of Chemnitz said…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Should I tap my home equity or sell stocks to build a $100,000 emergency fund?",
+          "link": "https://www.marketwatch.com/story/my-husband-and-i-are-at-odds-should-we-tap-our-home-equity-or-sell-stocks-to-build-a-100-000-emergency-fund-097d36a4?mod=mw_rss_topstories",
+          "pubDate": "2026-08-14T14:30:00.000Z",
+          "excerpt": "“We have about $1.7 million invested but only around $20,000 in cash.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,43 +371,10 @@
           "condensed": null
         },
         {
-          "title": "The U.S. national debt is about to reach $40 trillion for the first time — and it’s likely to hit $50 trillion soon",
-          "link": "https://www.marketwatch.com/story/u-s-national-debt-about-to-reach-bleak-40-trillion-milestone-and-its-likely-hit-50-trillion-soon-0f10df2d?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T13:00:00.000Z",
-          "excerpt": "Investors are shying away from bonds for a reason, says Bank of America",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Daniel Kinahan, Ireland’s most wanted man faces his day in court",
-          "link": "https://www.ft.com/content/0095afa5-5945-49cf-b21e-cd502abd1d87?syn-25a6b1a6=1",
-          "pubDate": "2026-08-14T12:45:52.000Z",
-          "excerpt": "Crime boss suspect tried to mix legitimate business with allegedly running a murderous empire",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Retail sales slump in July. Cheaper gas and Amazon Prime hangover are the chief culprits.",
-          "link": "https://www.marketwatch.com/story/retail-sales-slump-in-july-cheaper-gas-and-amazon-prime-hangover-are-the-chief-culprits-b9db8535?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T12:43:00.000Z",
-          "excerpt": "Sales at U.S. retailers posted the largest decline in July in 14 months, but not because the economy sputtered. Americans spent less at gas stations due to…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Rates are at multiyear highs, yet stocks have hit fresh records. Here’s how long the defiance can last.",
-          "link": "https://www.marketwatch.com/story/rates-are-at-multiyear-highs-yet-stocks-hit-fresh-records-heres-how-long-the-defiance-may-last-b29a5d14?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T12:35:00.000Z",
-          "excerpt": "The relationship between bond yields and equities has turned negative again, says LPL Financial.",
+          "title": "Congress changed the rules around charitable giving. You’ll now save more money if you donate earlier in the year.",
+          "link": "https://www.marketwatch.com/story/congress-changed-the-rules-around-charitable-giving-do-it-earlier-in-the-year-to-save-money-392e5de3?mod=mw_rss_topstories",
+          "pubDate": "2026-08-14T14:14:00.000Z",
+          "excerpt": "Congress changed three charitable-deduction rules this year. The most common way people give money to charities these days is now also probably the most…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -406,7 +384,7 @@
         {
           "title": "‘I didn’t know what else to do’: Patients take their health-insurance battles to Facebook and LinkedIn",
           "link": "https://www.marketwatch.com/story/i-didnt-know-what-else-to-do-patients-take-their-health-insurance-battles-to-facebook-and-linkedin-500bda58?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T12:28:00.000Z",
+          "pubDate": "2026-08-14T14:13:00.000Z",
           "excerpt": "Pushed to their limits, patients are turning to social media to plead for help getting their medical care covered.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -415,10 +393,32 @@
           "condensed": null
         },
         {
-          "title": "Everyone but me is getting excited about European equities",
-          "link": "https://www.ft.com/content/63ac111b-c841-4134-9751-f7cc419ae5c5",
-          "pubDate": "2026-08-14T10:59:55.000Z",
-          "excerpt": "It doesn’t matter which index you buy, and that tells you everything you need to know",
+          "title": "My friend’s mother died. Can she stop Medicaid from taking the family home?",
+          "link": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
+          "pubDate": "2026-08-14T14:01:00.000Z",
+          "excerpt": "“She has contacted the mortgage company, but they will not discuss the mortgage.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "I have a 9-to-5 job and started dating a bartender. Can I have a future with someone who works nights?",
+          "link": "https://www.marketwatch.com/story/i-have-a-9-to-5-job-and-started-dating-a-bartender-can-i-have-a-future-with-someone-who-works-nights-500d4320?mod=mw_rss_topstories",
+          "pubDate": "2026-08-14T13:48:00.000Z",
+          "excerpt": "“He usually doesn’t get off work until 4 a.m.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Farage’s gamble pays off — but at what cost?",
+          "link": "https://www.ft.com/content/a61433b2-902e-4299-b546-bc0efd9aa53a?syn-25a6b1a6=1",
+          "pubDate": "2026-08-14T13:23:23.000Z",
+          "excerpt": "Probe into party leader’s finances resumes with Labour government now leading in the polls",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -426,14 +426,14 @@
           "condensed": null
         },
         {
-          "title": "Nato jets shoot down foreign drone after it enters Latvian airspace",
-          "link": "https://www.scmp.com/news/world/europe/article/3364075/nato-jets-shoot-down-foreign-drone-after-it-enters-latvian-airspace?utm_source=rss_feed",
-          "pubDate": "2026-08-14T10:30:03.000Z",
-          "excerpt": "A drone entered Latvian airspace and was shot down by Italian Eurofighter jets, the military said on Friday. The decision to shoot it down was taken to avert a…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Daniel Kinahan, Ireland’s most wanted man, faces his day in court",
+          "link": "https://www.ft.com/content/0095afa5-5945-49cf-b21e-cd502abd1d87?syn-25a6b1a6=1",
+          "pubDate": "2026-08-14T12:45:52.000Z",
+          "excerpt": "Crime boss suspect tried to mix legitimate business with allegedly running a murderous empire",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         }
       ],
