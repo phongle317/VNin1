@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-14T06:17:11.405Z",
+  "lastUpdated": "2026-08-14T08:18:44.947Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26270,
+      "value": 26310,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4390.4,
+      "value": 4399.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -37,25 +37,25 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 68793.28,
-      "change": 3186.5699999999924,
-      "changePercent": 4.857079405444949
+      "value": 68713.8,
+      "change": 3107.0899999999965,
+      "changePercent": 4.735933260485088
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25191.05,
-      "change": -476.97999999999956,
-      "changePercent": -1.8582649311224881
+      "value": 25118.6,
+      "change": -549.4300000000003,
+      "changePercent": -2.1405226657441196
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26299.74,
-      "change": 159.61000000000058,
-      "changePercent": 0.6105937499163187
+      "value": 26474.78,
+      "change": 155.3299999999981,
+      "changePercent": 0.5901719070877169
     }
   ],
   "themes": [
@@ -63,6 +63,72 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Tuấn Anh Group chào sàn HNX: Hành trình 35 năm và mục tiêu bứt phá hậu niêm yết",
+          "link": "https://vneconomy.vn/tuan-anh-group-chao-san-hnx-hanh-trinh-35-nam-va-muc-tieu-but-pha-hau-niem-yet.htm",
+          "pubDate": "2026-08-14T08:00:00.000Z",
+          "excerpt": "Thông tin Sở Giao dịch Chứng khoán Hà Nội (HNX) chính thức chấp thuận đăng ký giao dịch trên thị trường UPCoM và 33 triệu cổ phiếu V68 sẽ chào sàn ngày 18/8…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Tuấn Anh Group sẽ chào sàn HNX vào ngày 18/8 với 33 triệu cổ phiếu V68."
+        },
+        {
+          "title": "FPT lãi ròng gần 6.000 tỷ đồng sau 7 tháng, bắt tay \"gã khổng lồ\" OpenAI khai phá thị trường 240 tỷ USD",
+          "link": "https://cafef.vn/fpt-lai-rong-gan-6000-ty-dong-sau-7-thang-bat-tay-ga-khong-lo-openai-khai-pha-thi-truong-240-ty-usd-188260814145624604.chn",
+          "pubDate": "2026-08-14T07:56:00.000Z",
+          "excerpt": "Trong 7 tháng đầu năm, FPT thắng thầu 14 dự án lớn với quy mô trên 10 triệu USD.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "FPT lãi ròng gần 6.000 tỷ đồng sau 7 tháng."
+        },
+        {
+          "title": "Nam A Bank củng cố vị thế top 15 trên thị trường với định giá hấp dẫn",
+          "link": "http://vietstock.vn/2026/08/nam-a-bank-cung-co-vi-the-top-15-tren-thi-truong-voi-dinh-gia-hap-dan-757-1480660.htm",
+          "pubDate": "2026-08-14T07:43:22.000Z",
+          "excerpt": "CTCK KIS kỳ vọng cổ phiếu NAB còn dư địa tăng gần 20% nhờ ROE thuộc nhóm cao nhất ngành và định giá vẫn thấp hơn thời gian trước.",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "Nam A Bank củng cố vị thế top 15 trên thị trường."
+        },
+        {
+          "title": "Tổng giám đốc Dragon Capital: \"2026 là một năm rất cực khổ với chúng tôi, thị trường quá nhiều ổ trâu ổ gà\"",
+          "link": "https://vneconomy.vn/tong-giam-doc-dragon-capital-2026-la-mot-nam-rat-cuc-kho-voi-chung-toi-thi-truong-qua-nhieu-o-trau-o-ga.htm",
+          "pubDate": "2026-08-14T07:10:20.000Z",
+          "excerpt": "\"Năm 2026 được đánh giá là một năm có nhiều \"ổ gà\", “ổ trâu”, thậm chí cả \"ổ voi\". Chúng tôi cũng rất cực khổ\", ông Lê Anh Tuấn, Tổng giám đốc Dragon Capital…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Tổng giám đốc Dragon Capital cho rằng năm 2026 rất cực khổ."
+        },
+        {
+          "title": "Cổ phiếu SSB của SeABank được lựa chọn vào rổ MSCI Frontier Markets Index",
+          "link": "https://vneconomy.vn/co-phieu-ssb-cua-seabank-duoc-lua-chon-vao-ro-msci-frontier-markets-index.htm",
+          "pubDate": "2026-08-14T06:54:59.000Z",
+          "excerpt": "Ngày 13/8/2026, MSCI (Morgan Stanley Capital International) công bố kết quả kỳ rà soát tháng 8/2026, trong đó chính thức bổ sung cổ phiếu SSB của Ngân hàng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Cổ phiếu SSB của SeABank được lựa chọn vào rổ MSCI Frontier Markets Index."
+        },
+        {
+          "title": "Nhiều nhà đầu tư “kiệt sức” vì bán khống cổ phiếu SpaceX",
+          "link": "https://vneconomy.vn/nhieu-nha-dau-tu-kiet-suc-vi-ban-khong-co-phieu-spacex.htm",
+          "pubDate": "2026-08-14T06:38:37.000Z",
+          "excerpt": "Sự rút lui ồ ạt của các nhà bán khống khỏi cổ phiếu SpaceX diễn ra trong bối cảnh cổ phiếu này phục hồi mạnh mẽ...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Nhiều nhà đầu tư kiệt sức vì bán khống cổ phiếu SpaceX."
+        },
         {
           "title": "Cổ phiếu DN trục vớt cứu hộ trên sàn chứng khoán bất ngờ \"đắt hàng\" trong ngày thị trường giảm sâu",
           "link": "https://cafef.vn/co-phieu-dn-truc-vot-cuu-ho-tren-san-chung-khoan-bat-ngo-dat-hang-trong-ngay-thi-truong-giam-sau-188260814125553743.chn",
@@ -72,7 +138,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cổ phiếu DN trục vớt cứu hộ tăng trong thị trường giảm sâu"
+          "condensed": "Cổ phiếu DN trục vớt cứu hộ bất ngờ đắt hàng."
         },
         {
           "title": "Chủ tịch Nguyễn Văn Hùng bán gần 5% công ty, thu về 110 tỷ đồng",
@@ -83,135 +149,80 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chủ tịch Nguyễn Văn Hùng bán cổ phiếu thu về 110 tỷ đồng"
-        },
-        {
-          "title": "Áp lực bán tiếp tục đè nặng",
-          "link": "https://vneconomy.vn/ap-luc-ban-tiep-tuc-de-nang.htm",
-          "pubDate": "2026-08-14T05:06:24.000Z",
-          "excerpt": "Sắc đỏ vẫn lan rộng trong phiên sáng nay ngay cả khi nhóm cổ phiếu blue-chips có chút nỗ lực phục hồi đầu ngày. Sau phiên xả khá mạnh hôm qua, nhu cầu bán ngắn…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Áp lực bán tiếp tục trong phiên sáng"
-        },
-        {
-          "title": "Thu nhập từ lãi và dịch vụ tăng tốc, dự phòng rủi ro tạo áp lực lên lợi nhuận ngân hàng nửa đầu năm 2026",
-          "link": "http://vietstock.vn/2026/08/thu-nhap-tu-lai-va-dich-vu-tang-toc-du-phong-rui-ro-tao-ap-luc-len-loi-nhuan-ngan-hang-nua-dau-nam-2026-757-1480516.htm",
-          "pubDate": "2026-08-14T04:32:00.000Z",
-          "excerpt": "Bức tranh kinh doanh của các ngân hàng tiếp tục duy trì đà tăng trưởng trong 6 tháng đầu năm 2026, dù tốc độ đã có sự phân hóa rõ nét. Dù động lực chính đến từ…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "Lợi nhuận ngân hàng tăng trưởng trong 6 tháng đầu năm 2026"
-        },
-        {
-          "title": "Ông Jonathan Hạnh Nguyễn viết tâm thư gửi cổ đông",
-          "link": "https://cafef.vn/ong-jonathan-hanh-nguyen-viet-tam-thu-gui-co-dong-188260814111006153.chn",
-          "pubDate": "2026-08-14T04:11:00.000Z",
-          "excerpt": "Cùng với thông tin về nhân sự cấp cao, Chủ tịch SASCO cũng cập nhật một số định hướng kinh doanh đáng chú ý trong thời gian tới.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Ông Jonathan Hạnh Nguyễn gửi tâm thư cho cổ đông"
-        },
-        {
-          "title": "“Ông chủ” của 7.000 cửa hàng Thế Giới Di Động, Điện Máy Xanh, Bách Hóa Xanh, An Khang… kiếm bao nhiêu tiền mỗi ngày?",
-          "link": "https://cafef.vn/ong-chu-cua-7000-cua-hang-the-gioi-di-dong-dien-may-xanh-bach-hoa-xanh-an-khang-kiem-bao-nhieu-tien-moi-ngay-18826081411085934.chn",
-          "pubDate": "2026-08-14T04:08:00.000Z",
-          "excerpt": "7 tháng đầu năm, chủ các chuỗi Thế Giới Di Động, Điện Máy Xanh, Bách Hóa Xanh, An Khang thu về hơn 111.000 tỷ đồng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Chủ chuỗi Thế Giới Di Động kiếm hơn 111.000 tỷ đồng trong 7 tháng"
-        },
-        {
-          "title": "Một doanh nghiệp điện có Chủ tịch bị bắt thông báo nóng về nhân sự",
-          "link": "https://cafef.vn/mot-doanh-nghiep-dien-co-chu-tich-bi-bat-thong-bao-nong-ve-nhan-su-1882608141102412.chn",
-          "pubDate": "2026-08-14T04:02:00.000Z",
-          "excerpt": "Doanh nghiệp dự kiến họp ĐHCĐ bất thường năm 2026 trong quý 3 năm nay.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Doanh nghiệp điện thông báo họp ĐHCĐ bất thường"
-        },
-        {
-          "title": "Nam A Bank: Lợi nhuận 6 tháng tăng 25%, củng cố bộ đệm vốn và hướng tới các mục tiêu tăng trưởng mới",
-          "link": "http://vietstock.vn/2026/08/nam-a-bank-loi-nhuan-6-thang-tang-25-cung-co-bo-dem-von-va-huong-toi-cac-muc-tieu-tang-truong-moi-757-1480504.htm",
-          "pubDate": "2026-08-14T02:51:27.000Z",
-          "excerpt": "Theo Báo cáo tài chính soát xét 6 tháng đầu năm 2026, Ngân hàng TMCP Nam Á (Nam A Bank, HOSE: NAB) ghi nhận lợi nhuận trước thuế 3,159 tỷ đồng, tăng 25% so với…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": "Lợi nhuận Nam A Bank tăng 25% trong 6 tháng đầu năm 2026"
+          "condensed": "Chủ tịch Nguyễn Văn Hùng bán gần 5% công ty, thu về 110 tỷ đồng."
         }
       ],
-      "aiSummary": null
+      "aiSummary": "Tuấn Anh Group chào sàn HNX với 33 triệu cổ phiếu V68 vào ngày 18/8."
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Thu hồi khu đất hơn 4.000 m2 ở An Lạc sau 15 năm bỏ trống",
-          "link": "https://vnexpress.net/thu-hoi-khu-dat-hon-4-000-m2-o-an-lac-sau-15-nam-bo-trong-5108552.html",
-          "pubDate": "2026-08-14T05:42:20.000Z",
-          "excerpt": "Khu đất 4.086 m2 ở phường An Lạc được giao cho địa ốc Gia Long phát triển dự án cao tầng nhưng chậm triển khai, nay bị TP HCM thu hồi.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "TP HCM thu hồi khu đất hơn 4.000 m2 ở An Lạc sau 15 năm bỏ trống."
-        },
-        {
-          "title": "Cần có quy định rõ hướng xử lý chung cư hết niên hạn sử dụng",
-          "link": "https://cafef.vn/can-co-quy-dinh-ro-huong-xu-ly-chung-cu-het-nien-han-su-dung-188260814111407611.chn",
-          "pubDate": "2026-08-14T05:18:00.000Z",
-          "excerpt": "Liên quan đến việc quy định niên hạn sử dụng đối với chung cư xây mới, nhiều ý kiến cho rằng cần có quy định rõ hướng xử lý chung cư hết niên hạn.",
+          "title": "Quá nhanh: Sân vận động lớn nhất thế giới VinFast - Trống Đồng sẽ hoàn thành vào tháng 7/2027, khán đài 135.000 chỗ dần lộ diện, có mái che đóng mở tự động quy mô nhất hành tinh",
+          "link": "https://cafef.vn/qua-nhanh-san-van-dong-lon-nhat-the-gioi-vinfast-trong-dong-se-hoan-thanh-vao-thang-7-2027-khan-dai-135000-cho-dan-lo-dien-co-mai-che-dong-mo-tu-dong-quy-mo-nhat-hanh-tinh-188260814150651083.chn",
+          "pubDate": "2026-08-14T08:06:00.000Z",
+          "excerpt": "Dự kiến sau khi hoàn thành vào tháng 7/2027, sân vận động VinFast - Trống Đồng sẽ trở thành công trình biểu tượng mới của thể thao nước nhà.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Cần quy định hướng xử lý chung cư hết niên hạn sử dụng."
+          "condensed": "Sân vận động VinFast - Trống Đồng sẽ hoàn thành vào tháng 7/2027 tại Việt Nam."
         },
         {
-          "title": "Dự án Bcons Bình An Đông Tây làm nứt nhà dân, 2 doanh nghiệp bị xử phạt",
-          "link": "https://cafef.vn/du-an-bcons-binh-an-dong-tay-lam-nut-nha-dan-2-doanh-nghiep-bi-xu-phat-188260814111503508.chn",
-          "pubDate": "2026-08-14T04:25:00.000Z",
-          "excerpt": "Chủ đầu tư dự án Bcons Bình An Đông Tây xác nhận quá trình thi công gây lún, nứt một số căn nhà lân cận. Sở Xây dựng đã ban hành quyết định xử phạt 2 doanh…",
+          "title": "Hà Nội tăng tốc hoàn thành cơ sở dữ liệu đất đai",
+          "link": "https://cafef.vn/ha-noi-tang-toc-hoan-thanh-co-so-du-lieu-dat-dai-188260814144828224.chn",
+          "pubDate": "2026-08-14T07:55:00.000Z",
+          "excerpt": "Chiều 13-8, Phó Chủ tịch UBND thành phố Hà Nội Bùi Duy Cường chủ trì cuộc họp kiểm điểm tiến độ xây dựng cơ sở dữ liệu đất đai trên địa bàn thành phố Hà Nội.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Dự án Bcons Bình An Đông Tây gây nứt nhà dân và bị xử phạt."
+          "condensed": "Hà Nội tăng tốc hoàn thành cơ sở dữ liệu đất đai vào chiều 13-8."
         },
         {
-          "title": "Đường 'đắt nhất hành tinh' dự kiến thông xe dịp 2/9",
-          "link": "https://cafef.vn/duong-dat-nhat-hanh-tinh-du-kien-thong-xe-dip-2-9-188260814104048296.chn",
-          "pubDate": "2026-08-14T04:11:00.000Z",
-          "excerpt": "Sau hơn 8 tháng thi công, một phần tuyến Vành đai 1 đã cơ bản định hình, song song với tiến độ triển khai khẩn trương của hai hạng mục cầu vượt tại nút giao…",
+          "title": "Biến nhà cũ thành không gian xanh mát với khu vườn và hồ cá Koi",
+          "link": "https://cafef.vn/bien-nha-cu-thanh-khong-gian-xanh-mat-voi-khu-vuon-va-ho-ca-koi-188260814142621455.chn",
+          "pubDate": "2026-08-14T07:26:00.000Z",
+          "excerpt": "Một ngôi nhà cũ được cải tạo thành không gian sống ngập tràn cây xanh và ánh sáng tự nhiên. Thay vì mở rộng diện tích xây dựng, công trình lựa chọn tăng cường…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Đường vành đai 1 dự kiến thông xe vào dịp 2/9."
+          "condensed": "Một ngôi nhà cũ được cải tạo thành không gian sống xanh mát."
         },
         {
-          "title": "Chủ đầu tư Anh Nguyễn: Hành trình gần 3 thập kỷ \"lặng lẽ\" đặt dấu ấn trên bản đồ BĐS nghỉ dưỡng",
-          "link": "https://cafef.vn/chu-dau-tu-anh-nguyen-hanh-trinh-gan-3-thap-ky-lang-le-dat-dau-an-tren-ban-do-bds-nghi-duong-188260814104054541.chn",
-          "pubDate": "2026-08-14T04:00:00.000Z",
-          "excerpt": "Giữa những biến động thăng trầm của thị trường bất động sản nghỉ dưỡng, Chủ đầu tư Anh Nguyễn (Công ty TNHH Anh Nguyễn) vẫn kiên định với một lối đi riêng…",
+          "title": "Người dân được gì khi tích hợp sổ đỏ trên VNeID?",
+          "link": "https://cafef.vn/nguoi-dan-duoc-gi-khi-tich-hop-so-do-tren-vneid-188260814142418146.chn",
+          "pubDate": "2026-08-14T07:24:00.000Z",
+          "excerpt": "Người dân có thể thao tác và theo dõi hồ sơ trên hệ thống điện tử và sẽ được giải quyết thủ tục chỉ sau ít phút hoặc trong ngày, tùy vào từng thủ tục thay vì…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chủ đầu tư Anh Nguyễn đặt dấu ấn trên bản đồ bất động sản nghỉ dưỡng."
+          "condensed": "Người dân được giải quyết thủ tục nhanh khi tích hợp sổ đỏ trên VNeID."
+        },
+        {
+          "title": "Đề xuất bồi thường cao nhất hơn 600 triệu đồng/m2 khi chỉnh trang khu chợ Gà-Gạo",
+          "link": "https://cafef.vn/de-xuat-boi-thuong-cao-nhat-hon-600-trieu-dong-m2-khi-chinh-trang-khu-cho-ga-gao-188260814141814635.chn",
+          "pubDate": "2026-08-14T07:17:00.000Z",
+          "excerpt": "Mức giá bồi thường cao nhất ở khu Chợ Gà - Gạo (phường Bến Thành, TPHCM) là 609.705.000 đồng/m2, áp dụng đối với đất ở đô thị vị trí 1, tiếp giáp đường Yersin.…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Đề xuất bồi thường cao nhất hơn 600 triệu đồng/m2 khi chỉnh trang khu chợ Gà-Gạo."
+        },
+        {
+          "title": "Thay đổi hình thức sử dụng đất đối với 'đất vàng' 11A Cát Linh",
+          "link": "https://cafebiz.vn/thay-doi-hinh-thuc-su-dung-dat-doi-voi-dat-vang-11a-cat-linh-17626081413251828.chn",
+          "pubDate": "2026-08-14T03:20:00.000Z",
+          "excerpt": "Bình Minh Group được chuyển hình thức sử dụng đất từ hình thức Nhà nước cho thuê đất trả tiền thuê đất hằng năm sang hình thức Nhà nước cho thuê đất trả tiền…",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
+          "condensed": "Bình Minh Group được chuyển hình thức sử dụng đất đối với 'đất vàng' 11A Cát Linh."
         },
         {
           "title": "Kiểm tra 22 dự án nhà ở xã hội, ngăn chặn trục lợi chính sách",
@@ -222,7 +233,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Thanh Hóa kiểm tra 22 dự án nhà ở xã hội để ngăn chặn trục lợi."
+          "condensed": "Thanh Hóa sẽ kiểm tra 22 dự án nhà ở xã hội trong tháng 8/2026."
         },
         {
           "title": "Chuỗi khách sạn Wink xác lập \"Ngày thương hiệu 24/7\" từ bài toán thấu hiểu hành vi khách hàng",
@@ -233,18 +244,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Khách sạn Wink xác lập ngày thương hiệu 24/7."
-        },
-        {
-          "title": "Chủ đầu tư Anh Nguyễn: Hành trình gần 3 thập kỷ đặt dấu ấn trên bản đồ bất động sản nghỉ dưỡng",
-          "link": "https://vneconomy.vn/chu-dau-tu-anh-nguyen-hanh-trinh-gan-3-thap-ky-dat-dau-an-tren-ban-do-bat-dong-san-nghi-duong.htm",
-          "pubDate": "2026-08-14T01:00:00.000Z",
-          "excerpt": "Thay vì chạy theo cuộc đua mở rộng quỹ đất và gia tăng số lượng dự án, Công ty TNHH Anh Nguyễn lựa chọn hướng đi thận trọng hơn, tập trung vào những vị trí có…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Chủ đầu tư Anh Nguyễn lựa chọn hướng đi thận trọng trong bất động sản nghỉ dưỡng."
+          "condensed": "Chuỗi khách sạn Wink xác lập Ngày thương hiệu 24/7 từ bài toán thấu hiểu hành vi khách hàng."
         }
       ],
       "aiSummary": null
@@ -254,6 +254,61 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Đề xuất về thuế gỡ khó cho các dự án trọng điểm, đặc thù",
+          "link": "https://cafef.vn/de-xuat-ve-thue-go-kho-cho-cac-du-an-trong-diem-dac-thu-188260814145953608.chn",
+          "pubDate": "2026-08-14T08:12:00.000Z",
+          "excerpt": "Bộ Tài chính đang dự thảo Nghị quyết của Quốc hội sửa đổi, bổ sung một số điều của Nghị quyết 107 về áp dụng thuế thu nhập doanh nghiệp.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Bộ Tài chính dự thảo Nghị quyết về thuế thu nhập doanh nghiệp."
+        },
+        {
+          "title": "Bao nhiêu chuyến bay ở Tân Sơn Nhất bị ảnh hưởng vì 3 con diều?",
+          "link": "https://cafef.vn/bao-nhieu-chuyen-bay-o-tan-son-nhat-bi-anh-huong-vi-3-con-dieu-188260814150807294.chn",
+          "pubDate": "2026-08-14T08:07:00.000Z",
+          "excerpt": "Liên quan việc người dân thả diều có gắn đèn chớp gần sân bay Tân Sơn Nhất - TPHCM tối 13/8, có 4 chuyến bay chờ khởi hành và 7 chuyến bay đến bị ảnh hưởng,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "4 chuyến bay chờ khởi hành và 7 chuyến bay đến bị ảnh hưởng."
+        },
+        {
+          "title": "Đồng Nai dừng dự án điện rác gần 2.300 tỷ đồng sau 4 năm... đầu tư trên giấy",
+          "link": "https://cafef.vn/dong-nai-dung-du-an-dien-rac-gan-2300-ty-dong-sau-4-nam-dau-tu-tren-giay-188260814140440201.chn",
+          "pubDate": "2026-08-14T08:07:00.000Z",
+          "excerpt": "Dự án điện rác Vĩnh Tân với tổng vốn hơn 2.286 tỷ đồng đã kéo dài nhiều năm, nhiều lần gia hạn nhưng hồ sơ vẫn chưa đáp ứng yêu cầu. HĐND TP.Đồng Nai đã thông…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Dự án điện rác Vĩnh Tân dừng sau 4 năm."
+        },
+        {
+          "title": "Cùng Nhật Bản, Việt Nam lập nhóm công tác khai thác “mỏ vàng nghìn tỷ USD”, 4 ĐH trọng điểm là thành viên",
+          "link": "https://cafef.vn/cung-nhat-ban-viet-nam-lap-nhom-cong-tac-khai-thac-mo-vang-nghin-ty-usd-4-dh-trong-diem-la-thanh-vien-188260814143903162.chn",
+          "pubDate": "2026-08-14T07:55:00.000Z",
+          "excerpt": "Đây là một trong những hợp tác tiêu biểu của Việt Nam và Nhật Bản nhằm thúc đẩy nước ta phát triển các lĩnh vực công nghệ chiến lược.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Việt Nam và Nhật Bản lập nhóm công tác khai thác."
+        },
+        {
+          "title": "Đề xuất hợp nhất 4 chương trình mục tiêu quốc gia, cần huy động hơn 808.000 tỷ đồng",
+          "link": "https://cafef.vn/de-xuat-hop-nhat-4-chuong-trinh-muc-tieu-quoc-gia-can-huy-dong-hon-808000-ty-dong-188260814134215758.chn",
+          "pubDate": "2026-08-14T07:32:00.000Z",
+          "excerpt": "Ủy ban Thường vụ Quốc hội xem xét đề xuất hợp nhất 4 chương trình mục tiêu quốc gia thành một chương trình chung, với tổng nguồn lực dự kiến 808.558 tỷ đồng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Đề xuất hợp nhất 4 chương trình mục tiêu quốc gia."
+        },
+        {
           "title": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng bằng xe buýt",
           "link": "https://vneconomy.vn/tpho-chi-minh-ban-hanh-khung-quan-ly-moi-ve-van-tai-hanh-khach-cong-cong-bang-xe-buyt.htm",
           "pubDate": "2026-08-14T04:59:32.000Z",
@@ -262,62 +317,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý vận tải hành khách công cộng bằng xe buýt mới."
-        },
-        {
-          "title": "Thu nhập bình quân từng bằng 1/2 Campuchia, 1/5 Philippines, Việt Nam mất 27 năm vượt Philippines, mấy năm vượt Campuchia?",
-          "link": "https://cafef.vn/thu-nhap-binh-quan-tung-bang-1-2-campuchia-1-5-philippines-viet-nam-mat-27-nam-vuot-philippines-may-nam-vuot-campuchia-188260814113746657.chn",
-          "pubDate": "2026-08-14T04:37:00.000Z",
-          "excerpt": "Năm 1993, thu nhập bình quân đầu người của Việt Nam đạt khoảng 170 USD, xếp thứ 10/11 trong khối ASEAN.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thúc đẩy xuất khẩu, kiểm soát nhập siêu",
-          "link": "https://cafef.vn/thuc-day-xuat-khau-kiem-soat-nhap-sieu-18826081411131225.chn",
-          "pubDate": "2026-08-14T04:13:00.000Z",
-          "excerpt": "Thúc đẩy xuất khẩu song song với kiểm soát hiệu quả nhập siêu chính là chìa khóa để bảo đảm tính tự chủ và nâng cao sức cạnh tranh của nền kinh tế.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Thúc đẩy xuất khẩu và kiểm soát nhập siêu để bảo đảm tính tự chủ."
-        },
-        {
-          "title": "Bắt đầu thu phí tại 5 đoạn tuyến cao tốc Bắc - Nam",
-          "link": "https://cafef.vn/bat-dau-thu-phi-tai-5-doan-tuyen-cao-toc-bac-nam-188260814101334798.chn",
-          "pubDate": "2026-08-14T03:34:00.000Z",
-          "excerpt": "Cục Đường bộ Việt Nam sẽ tổ chức thu phí sử dụng đường bộ đối với 5 đoạn tuyến cao tốc Bắc - Nam phía Đông từ Quảng Ngãi đến Nha Trang, với mức 900 đồng mỗi…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Cục Đường bộ Việt Nam thu phí tại 5 đoạn tuyến cao tốc Bắc - Nam."
-        },
-        {
-          "title": "Cận cảnh tuyến đường sẽ tách dòng xe container khỏi đô thị tại TP.HCM",
-          "link": "https://cafef.vn/can-canh-tuyen-duong-se-tach-dong-xe-container-khoi-do-thi-tai-tphcm-188260814085225428.chn",
-          "pubDate": "2026-08-14T03:11:00.000Z",
-          "excerpt": "Dự án đường liên cảng Cát Lái - Phú Hữu dài gần 6 km, 12 làn xe, vốn 8.782 tỷ đồng, dự kiến khởi công quý IV/2026, hoàn thành năm 2029 giúp tách xe khỏi khu đô…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Dự án đường liên cảng Cát Lái - Phú Hữu giúp tách xe container khỏi đô thị."
-        },
-        {
-          "title": "Cách Mỹ và châu Âu tạo nên những doanh nghiệp mang sức mạnh quốc gia",
-          "link": "https://cafef.vn/cach-my-va-chau-au-tao-nen-nhung-doanh-nghiep-mang-suc-manh-quoc-gia-188260814095249114.chn",
-          "pubDate": "2026-08-14T03:00:00.000Z",
-          "excerpt": "Thành công của những doanh nghiệp hàng đầu thế giới trong các ngành chiến lược như Apple, Microsoft, NVIDIA, ASML hay Airbus… ở các nước phương Tây, không chỉ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
+          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý vận tải hành khách công cộng."
         },
         {
           "title": "Hòa Lạc được định hướng thành không gian hợp tác đầu tư công nghệ Việt - Nhật",
@@ -328,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "NIC Hòa Lạc trở thành không gian hợp tác công nghệ Việt - Nhật."
+          "condensed": "Hòa Lạc định hướng thành không gian hợp tác đầu tư công nghệ."
         },
         {
           "title": "Khánh thành Trung tâm đào tạo nhân tài công nghệ tại Thái Nguyên",
@@ -339,7 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Trung tâm đào tạo nhân tài công nghệ tại Thái Nguyên được khánh thành."
+          "condensed": "Khánh thành Trung tâm đào tạo nhân tài công nghệ tại Thái Nguyên."
         }
       ],
       "aiSummary": null
@@ -351,13 +351,13 @@
         {
           "title": "Investigation into Farage to resume after he wins Clacton by-election",
           "link": "https://www.ft.com/content/1bc8c77b-f3e2-4ad4-aefc-94b3f48426c6?syn-25a6b1a6=1",
-          "pubDate": "2026-08-14T06:01:04.000Z",
+          "pubDate": "2026-08-14T06:51:49.000Z",
           "excerpt": "Reform UK leader increases number of votes after mainstream parties shunned poll as stunt",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
+          "condensed": "Farage wins Clacton by-election with increased votes"
         },
         {
           "title": "US shifts Iran war goal, says cheaper oil for Americans is top priority",
@@ -368,7 +368,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
+          "condensed": "US prioritizes cheaper oil for Americans in Iran war"
         },
         {
           "title": "China tests canal link to Southeast Asia; rocket failure concerns: SCMP’s 7 highlights",
@@ -396,12 +396,12 @@
           "title": "Farage aide Cottrell had secret Polymarket account that placed bets on Trump victory",
           "link": "https://www.ft.com/content/4fccf8b5-5e32-4322-9435-d996a0273dff?syn-25a6b1a6=1",
           "pubDate": "2026-08-14T04:00:14.000Z",
-          "excerpt": "Large sums involved shine light on the financial activities of one of Farage’s closest confidants",
+          "excerpt": "Large sums involved shine light on financial activities of one of Reform leader’s closest confidants",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
+          "condensed": "Farage aide had secret account betting on Trump victory"
         },
         {
           "title": "Mike Ashley promises ‘Dunkirk spirit’ as he barrels into the luxury industry",
@@ -412,7 +412,7 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
+          "condensed": "Mike Ashley enters luxury industry with Frasers"
         },
         {
           "title": "Pakistan and the new great game of Risk",
