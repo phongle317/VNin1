@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T14:54:59.494Z",
+  "lastUpdated": "2026-08-14T15:55:20.765Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4440.4,
+      "value": 4446.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7793.01,
-      "change": 35.36999999999989,
-      "changePercent": 0.4559376305164959
+      "value": 7783.46,
+      "change": 25.81999999999971,
+      "changePercent": 0.3328331812252142
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26746.938,
-      "change": 56.3179999999993,
-      "changePercent": 0.21100296658526219
+      "value": 26687.658,
+      "change": -2.9619999999995343,
+      "changePercent": -0.011097531642200648
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26423.68,
-      "change": 104.22999999999956,
-      "changePercent": 0.396018913769093
+      "value": 26440.31,
+      "change": 120.86000000000058,
+      "changePercent": 0.4592041247062556
     }
   ],
   "themes": [
@@ -72,7 +72,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Đồng USD suy giảm khi dữ liệu lạm phát Mỹ hạ nhiệt."
+          "condensed": "Đồng USD suy giảm trên thị trường quốc tế trong tuần 10-14/08."
         },
         {
           "title": "Sửa Luật Chứng khoán: Chính phủ sẽ quy định chi tiết về cơ chế thử nghiệm có kiểm soát",
@@ -83,7 +83,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Chính phủ quy định cơ chế thử nghiệm có kiểm soát."
+          "condensed": "Chính phủ sẽ quy định cơ chế thử nghiệm có kiểm soát."
         },
         {
           "title": "Du thuyền của bà Trương Mỹ Lan ế chỏng chơ",
@@ -94,7 +94,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Du thuyền của bà Trương Mỹ Lan đấu giá bất thành."
+          "condensed": "Du thuyền của bà Trương Mỹ Lan ế."
         },
         {
           "title": "220 tỷ USD tài sản mã hóa vào Việt Nam, hơn 21 triệu người có tài sản số",
@@ -105,7 +105,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Dòng tài sản mã hóa vào Việt Nam đạt 220 tỷ USD."
+          "condensed": "Dòng tài sản mã hóa vào Việt Nam đạt 220 tỷ USD năm 2025."
         },
         {
           "title": "Cổ phiếu trụ bị bán mạnh, VN-Index 'rơi' 64 điểm sau 2 phiên",
@@ -116,18 +116,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Chứng khoán chịu áp lực bán mạnh, VN-Index giảm."
-        },
-        {
-          "title": "Hợp tác trong đào tạo, nghiên cứu khoa học, phổ biến kiến thức về chứng khoán và thị trường chứng khoán",
-          "link": "https://vneconomy.vn/hop-tac-trong-dao-tao-nghien-cuu-khoa-hoc-pho-bien-kien-thuc-ve-chung-khoan-va-thi-truong-chung-khoan.htm",
-          "pubDate": "2026-08-14T10:27:38.000Z",
-          "excerpt": "Thỏa thuận hợp tác giữa Uỷ ban Chứng khoán Nhà nước và Đại học Kinh tế Quốc dân là bước đi cụ thể nhằm tăng cường kết nối giữa cơ quan quản lý, cơ sở đào tạo,…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": "Uỷ ban Chứng khoán hợp tác với Đại học Kinh tế Quốc dân."
+          "condensed": "VN-Index giảm 64 điểm sau 2 phiên."
         },
         {
           "title": "Vietbank chuẩn bị chào bán hơn 296 triệu cp, nâng vốn điều lệ lên 14,807 tỷ",
@@ -138,7 +127,7 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": "Vietbank chào bán cổ phiếu để tăng vốn điều lệ."
+          "condensed": "Vietbank chào bán hơn 296 triệu cổ phiếu."
         },
         {
           "title": "Dragon Capital: Sau mỗi đợt giảm sâu, chứng khoán thường phục hồi mạnh",
@@ -149,7 +138,18 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Chứng khoán thường phục hồi mạnh sau đợt giảm sâu."
+          "condensed": "Chứng khoán thường phục hồi mạnh sau mỗi đợt giảm sâu."
+        },
+        {
+          "title": "Blog chứng khoán: “Tiệc” tan",
+          "link": "https://vneconomy.vn/blog-chung-khoan-tiec-tan-1299966.htm",
+          "pubDate": "2026-08-14T09:11:18.000Z",
+          "excerpt": "Áp lực bán tháo mạnh mẽ và kéo dài trọn phiên khiến thị trường hoàn toàn tiêu cực. Những phiên dập dình mấy ngày trước còn không kéo được tiền vào thì lúc này…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Áp lực bán tháo mạnh trên thị trường chứng khoán."
         }
       ],
       "aiSummary": null
@@ -167,7 +167,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Tỉnh Gia Lai sẽ có khu đô thị mới với 6 tòa cao ốc và hàng nghìn căn nhà."
+          "condensed": "Tỉnh Gia Lai sẽ có khu đô thị mới hơn 19.000 tỷ đồng."
         },
         {
           "title": "Du thuyền của bà Trương Mỹ Lan ế chỏng chơ",
@@ -178,7 +178,7 @@
           "sourceName": "CafeBiz",
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
-          "condensed": "Du thuyền của bà Trương Mỹ Lan sẽ được đấu giá."
+          "condensed": "Du thuyền của bà Trương Mỹ Lan sẽ đấu giá."
         },
         {
           "title": "Nghịch lý trên thị trường bất động sản Hà Nội",
@@ -189,7 +189,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Thị trường biệt thự Hà Nội vẫn giữ giá cao."
+          "condensed": "Thị trường biệt thự Hà Nội vẫn ghi nhận mức giá cao."
         },
         {
           "title": "Đất đấu giá Hà Nội: Qua thời “sóng” giá",
@@ -211,7 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Hình thức sử dụng đất 'đất vàng' 11A Cát Linh được thay đổi."
+          "condensed": "Đất vàng 11A Cát Linh thay đổi hình thức sử dụng."
         },
         {
           "title": "Chung cư Hà Nội ‘vắng bóng’ căn hộ dưới 70 triệu đồng/m2",
@@ -222,7 +222,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Giá căn hộ sơ cấp tại Hà Nội đạt trung bình 116 triệu đồng/m²."
+          "condensed": "Chung cư Hà Nội không có căn hộ dưới 70 triệu đồng/m2."
         },
         {
           "title": "Giá nhà không phải tất cả: Bí quyết an cư từ NOXH đến bài toán chọn nhà theo hạ tầng",
@@ -244,7 +244,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Đất công xen kẽ trong dự án nhà thương mại có thể được đấu giá riêng."
+          "condensed": "Đất công xen kẽ có thể được tách riêng để đấu giá."
         }
       ],
       "aiSummary": null
@@ -262,7 +262,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Việt Nam và Mỹ xây phòng thí nghiệm tại Hòa Lạc, cách Hà Nội 30 km."
+          "condensed": "Việt Nam và Mỹ xây phòng thí nghiệm tại Hòa Lạc, Hà Nội, để khai thác kho báu hàng trăm tỷ USD."
         },
         {
           "title": "Tất cả hộ kinh doanh chú ý: Những khoản thanh toán sau phải có chứng từ giao dịch không dùng tiền mặt để chứng minh chi phí được trừ khi tính thuế",
@@ -273,7 +273,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Hộ kinh doanh cần lưu ý về chứng từ giao dịch không dùng tiền mặt."
+          "condensed": "Hộ kinh doanh cần lưu ý các khoản thanh toán phải có chứng từ giao dịch không dùng tiền mặt."
         },
         {
           "title": "Lý do gần 39.000 doanh nghiệp tại TPHCM rút khỏi thị trường",
@@ -284,7 +284,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Gần 39.000 doanh nghiệp tại TPHCM rút khỏi thị trường."
+          "condensed": "Gần 39.000 doanh nghiệp tại TPHCM rút khỏi thị trường sau 7 tháng."
         },
         {
           "title": "Việt Nam dự kiến có tuyến đường sắt dài 50km kết nối vùng đất “đệ nhất danh trà” với Thủ đô Hà Nội",
@@ -306,7 +306,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Khởi công 5 dự án tại xã Thịnh Minh, tỉnh Phú Thọ."
+          "condensed": "Khởi công 5 dự án gần 7.600 tỷ đồng tại xã Thịnh Minh, tỉnh Phú Thọ."
         },
         {
           "title": "Nhập siêu hơn 20 tỷ USD trong 7 tháng, Phó Thủ tướng yêu cầu làm việc với doanh nghiệp chênh lệch lớn giữa nhập khẩu và xuất khẩu",
@@ -317,7 +317,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Phó Thủ tướng yêu cầu làm việc với doanh nghiệp nhập siêu."
+          "condensed": "Phó Thủ tướng yêu cầu làm việc với doanh nghiệp nhập siêu hơn 20 tỷ USD."
         },
         {
           "title": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng bằng xe buýt",
@@ -328,7 +328,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng."
+          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng bằng xe buýt."
         },
         {
           "title": "Hòa Lạc được định hướng thành không gian hợp tác đầu tư công nghệ Việt - Nhật",
@@ -349,6 +349,39 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Second UK train derails in under 24 hours",
+          "link": "https://www.ft.com/content/45f65d72-b90a-4dd9-a7b7-43bdf511c194?syn-25a6b1a6=1",
+          "pubDate": "2026-08-14T15:16:37.000Z",
+          "excerpt": "Incident at Wickford in Essex follows derailment of train in East Sussex on Thursday",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Your prescription drugs shouldn’t cost more than your mortgage. Inside the broken math that got us here.",
+          "link": "https://www.marketwatch.com/story/your-prescription-drugs-shouldnt-cost-more-than-your-mortgage-inside-the-broken-math-that-got-us-here-b5a2c4aa?mod=mw_rss_topstories",
+          "pubDate": "2026-08-14T15:07:00.000Z",
+          "excerpt": "We will never make medicine affordable if how to tie a drug’s price to its value is solely determined by the companies creating the drugs.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "How a US crackdown is upending plans for Chinese ‘birth tourists’",
+          "link": "https://www.scmp.com/economy/policy/article/3364055/how-us-crackdown-upending-plans-chinese-birth-tourists?utm_source=rss_feed",
+          "pubDate": "2026-08-14T15:00:07.000Z",
+          "excerpt": "Li, a woman in her late twenties from southwestern China, is anxious about her coming interview for a 10-year US visa. She has big plans for her travels – a…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
           "title": "Pilot dies after helicopter crash in German forest",
           "link": "https://www.scmp.com/news/world/europe/article/3364107/pilot-dies-after-helicopter-crash-german-forest?utm_source=rss_feed",
           "pubDate": "2026-08-14T14:52:45.000Z",
@@ -357,6 +390,17 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Investors pile back into US stocks as bullishness returns to Wall Street",
+          "link": "https://www.ft.com/content/d4897d94-0d69-445a-9466-5150840c801e?syn-25a6b1a6=1",
+          "pubDate": "2026-08-14T14:35:44.000Z",
+          "excerpt": "Stellar earnings season and falling inflation fuel rebound from July’s chip rout",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         },
         {
@@ -382,54 +426,10 @@
           "condensed": null
         },
         {
-          "title": "‘I didn’t know what else to do’: Patients take their health-insurance battles to Facebook and LinkedIn",
-          "link": "https://www.marketwatch.com/story/i-didnt-know-what-else-to-do-patients-take-their-health-insurance-battles-to-facebook-and-linkedin-500bda58?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T14:13:00.000Z",
-          "excerpt": "Pushed to their limits, patients are turning to social media to plead for help getting their medical care covered.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "My friend’s mother died. Can she stop Medicaid from taking the family home?",
-          "link": "https://www.marketwatch.com/story/shes-desperate-my-friends-mother-died-can-she-stop-medicaid-from-taking-the-family-home-394fb6e9?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T14:01:00.000Z",
-          "excerpt": "“She has contacted the mortgage company, but they will not discuss the mortgage.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "I have a 9-to-5 job and started dating a bartender. Can I have a future with someone who works nights?",
-          "link": "https://www.marketwatch.com/story/i-have-a-9-to-5-job-and-started-dating-a-bartender-can-i-have-a-future-with-someone-who-works-nights-500d4320?mod=mw_rss_topstories",
-          "pubDate": "2026-08-14T13:48:00.000Z",
-          "excerpt": "“He usually doesn’t get off work until 4 a.m.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Farage’s gamble pays off — but at what cost?",
           "link": "https://www.ft.com/content/a61433b2-902e-4299-b546-bc0efd9aa53a?syn-25a6b1a6=1",
           "pubDate": "2026-08-14T13:23:23.000Z",
           "excerpt": "Probe into party leader’s finances resumes with Labour government now leading in the polls",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Daniel Kinahan, Ireland’s most wanted man, faces his day in court",
-          "link": "https://www.ft.com/content/0095afa5-5945-49cf-b21e-cd502abd1d87?syn-25a6b1a6=1",
-          "pubDate": "2026-08-14T12:45:52.000Z",
-          "excerpt": "Crime boss suspect tried to mix legitimate business with allegedly running a murderous empire",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
