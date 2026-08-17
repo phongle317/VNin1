@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T12:49:10.778Z",
+  "lastUpdated": "2026-08-17T13:42:12.434Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4440.4,
+      "value": 4444.9,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7785.76,
-      "change": 28.11999999999989,
-      "changePercent": 0.3624813732011268
+      "value": 7775.93,
+      "change": 22.82000000000062,
+      "changePercent": 0.29433349971818557
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26729.164,
-      "change": 38.54400000000169,
-      "changePercent": 0.1444102834628858
+      "value": 26729.059,
+      "change": 123.69900000000052,
+      "changePercent": 0.46494014739887196
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26401.17,
-      "change": 77.28999999999724,
-      "changePercent": 0.2936117320091006
+      "value": 26375.6,
+      "change": 51.719999999997526,
+      "changePercent": 0.1964755955428969
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Khối ngoại tiếp tục xả hàng mạnh, cổ phiếu nào bị bán nhiều nhất?",
+          "link": "https://vneconomy.vn/khoi-ngoai-tiep-tuc-xa-hang-manh-co-phieu-nao-bi-ban-nhieu-nhat.htm",
+          "pubDate": "2026-08-17T13:25:18.000Z",
+          "excerpt": "Nhà đầu tư nước ngoài bán ròng 587,6 tỷ đồng, tính riêng giao dịch khớp lệnh thì họ bán ròng 607,1 tỷ đồng.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Hoàn thiện thước đo rủi ro thị trường trái phiếu",
+          "link": "https://cafef.vn/hoan-thien-thuoc-do-rui-ro-thi-truong-trai-phieu-188260817190901375.chn",
+          "pubDate": "2026-08-17T12:59:00.000Z",
+          "excerpt": "Xếp hạng tín nhiệm đã có khung pháp lý và doanh nghiệp cung cấp dịch vụ, nhưng mức độ sử dụng còn thấp. Dự thảo Nghị định mới đang hướng tới nâng chất lượng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Công ty nông nghiệp của bầu Đức chính thức triển khai IPO, điểm sáng trong ngành nông nghiệp Việt Nam",
           "link": "https://cafef.vn/cong-ty-nong-nghiep-cua-bau-duc-chinh-thuc-trien-khai-ipo-diem-sang-trong-nganh-nong-nghiep-viet-nam-18826081718222152.chn",
@@ -108,17 +130,6 @@
           "condensed": null
         },
         {
-          "title": "Cổ phiếu bất động sản 'nổi sóng' sau thông tin đấu giá đất Thủ Thiêm",
-          "link": "https://cafef.vn/co-phieu-bat-dong-san-noi-song-sau-thong-tin-dau-gia-dat-thu-thiem-188260817175841297.chn",
-          "pubDate": "2026-08-17T11:13:00.000Z",
-          "excerpt": "VN-Index trải qua phiên giao dịch ngày 17/8 đầy rung lắc, trước khi lực cầu cuối phiên giúp thu hẹp đà giảm, về sát tham chiếu. Dòng tiền phân hóa, khối ngoại…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Thanh khoản chứng khoán giảm 5.000 tỷ đồng",
           "link": "https://vnexpress.net/thanh-khoan-chung-khoan-giam-5-000-ty-dong-5110082.html",
           "pubDate": "2026-08-17T09:14:25.000Z",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Kinh tế Nhật Bản tăng trưởng chậm hơn dự báo",
-          "link": "https://vnexpress.net/kinh-te-nhat-ban-tang-truong-cham-hon-du-bao-5110017.html",
-          "pubDate": "2026-08-17T08:12:10.000Z",
-          "excerpt": "GDP Nhật Bản quý II tăng chậm hơn dự báo do chi tiêu hộ gia đình và đầu tư doanh nghiệp kém sôi động.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Hà Nội còn khoảng 2,2 triệu thửa đất chưa được “làm sạch” dữ liệu",
+          "link": "https://cafef.vn/ha-noi-con-khoang-22-trieu-thua-dat-chua-duoc-lam-sach-du-lieu-188260817154619409.chn",
+          "pubDate": "2026-08-17T12:52:00.000Z",
+          "excerpt": "Sau gần 45 ngày triển khai chiến dịch làm sạch dữ liệu, thành phố Hà Nội đã xây dựng cơ sở dữ liệu cho hơn 2,7 triệu thửa trên tổng số hơn 4,9 triệu thửa đất.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Khánh thành trường Phổ thông liên cấp FPT Vinh tại đại đô thị Eco Central Park",
           "link": "https://cafef.vn/khanh-thanh-truong-pho-thong-lien-cap-fpt-vinh-tai-dai-do-thi-eco-central-park-188260817192205605.chn",
@@ -178,6 +189,17 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Bcons sắp ra mắt dự án gần 4.400 tỷ tại Đồng Nai",
+          "link": "https://vnexpress.net/bcons-sap-ra-mat-du-an-gan-4-400-ty-tai-dong-nai-5110157.html",
+          "pubDate": "2026-08-17T12:00:00.000Z",
+          "excerpt": "Bcons sẽ đưa Bcons Central Park ra thị trường từ tháng 9 theo ba đợt, bổ sung 2.820 căn hộ và 113 shophouse tại Tam Hiệp, Đồng Nai.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -214,36 +236,14 @@
           "condensed": null
         },
         {
-          "title": "Đồng Nai sắp có thêm 2.820 căn hộ tại lõi đô thị, tổng vốn gần 4.400 tỷ đồng",
-          "link": "https://cafebiz.vn/dong-nai-sap-co-them-2820-can-ho-tai-loi-do-thi-tong-von-gan-4400-ty-dong-17626081718270855.chn",
+          "title": "Đồng Nai sắp có thêm 2.820 căn hộ tại lõi đô thị",
+          "link": "https://cafebiz.vn/dong-nai-sap-co-them-2820-can-ho-tai-loi-do-thi-17626081718270855.chn",
           "pubDate": "2026-08-17T09:08:00.000Z",
-          "excerpt": "Tháng 8/2026, Tập đoàn Bcons công bố lộ trình đưa dự án Bcons Central Park – khu nhà ở phức hợp cao tầng tại phường Tam Hiệp, thành phố Đồng Nai với tổng vốn…",
+          "excerpt": "Tháng 8/2026, Tập đoàn Bcons công bố lộ trình đưa dự án Bcons Central Park – khu nhà ở phức hợp cao tầng tại phường Tam Hiệp, thành phố Đồng Nai ra mắt thị…",
           "sourceId": "cafebiz",
           "sourceName": "CafeBiz",
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
-          "condensed": null
-        },
-        {
-          "title": "Loạt động thái đáng chú ý của Tập đoàn Mường Thanh gần đây",
-          "link": "https://cafef.vn/loat-dong-thai-dang-chu-y-cua-tap-doan-muong-thanh-gan-day-188260817153246857.chn",
-          "pubDate": "2026-08-17T08:51:00.000Z",
-          "excerpt": "Gần đây nhất, Mường Thanh đã tăng vốn điều lệ lên 6.000 tỷ đồng. Trước đó, doanh nghiệp này cũng xuất hiện tại loạt dự án ở nhiều tỉnh thành.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Định hướng xử lý các vấn đề về định giá, thu hồi và chuyển mục đích sử dụng đất theo Nghị quyết 21-NQ/TW",
-          "link": "https://vneconomy.vn/dinh-huong-xu-ly-cac-van-de-ve-dinh-gia-thu-hoi-va-chuyen-muc-dich-su-dung-dat-theo-nghi-quyet-21-nqtw.htm",
-          "pubDate": "2026-08-17T08:44:08.000Z",
-          "excerpt": "Nghị quyết 21-NQ/TW chỉ rõ nhiều cơ chế về giá đất, thu hồi đất, bồi thường và chuyển mục đích sử dụng đất vẫn còn bất cập. Việc làm rõ từng nhóm điểm nghẽn…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Chỉ đạo mới tại tuyến cao tốc hơn 43.700 tỷ đồng đi qua 2 con đèo hiểm trở: Không để tình trạng có mặt bằng nhưng chậm triển khai",
+          "link": "https://cafef.vn/chi-dao-moi-tai-tuyen-cao-toc-hon-43700-ty-dong-di-qua-2-con-deo-hiem-tro-khong-de-tinh-trang-co-mat-bang-nhung-cham-trien-khai-1882608171847379.chn",
+          "pubDate": "2026-08-17T12:50:00.000Z",
+          "excerpt": "Đây là một trong những công trình giao thông trọng điểm quốc gia, có quy mô lớn, có tầm quan trọng trong việc tăng cường kết nối liên vùng, thúc đẩy phát triển…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Đích thân kiểm tra dự án thành phần 4 sân bay Long Thành, Cục trưởng Cục Hàng không chỉ đạo gắt gao về tiến độ",
           "link": "https://cafef.vn/dich-than-kiem-tra-du-an-thanh-phan-4-san-bay-long-thanh-cuc-truong-cuc-hang-khong-chi-dao-gat-gao-ve-tien-do-188260817183736112.chn",
@@ -291,17 +302,6 @@
           "link": "https://cafef.vn/tu-ngay-1-7-mot-luat-o-viet-nam-co-hieu-luc-vi-sao-nhieu-nguoi-tieu-dung-van-kho-khi-mua-hang-online-188260817160541086.chn",
           "pubDate": "2026-08-17T09:32:00.000Z",
           "excerpt": "Nhiều người tiêu dùng ở Việt Nam vẫn gặp khó trong việc chọn đơn vị vận chuyển khi mua hàng trên các sàn thương mại điện tử, dù vừa có một quyền mới.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "[Infographic] Hai trường hợp được đóng bù BHXH để đủ điều kiện hưởng lương hưu",
-          "link": "https://cafef.vn/infographic-hai-truong-hop-duoc-dong-bu-bhxh-de-du-dieu-kien-huong-luong-huu-188260817150038637.chn",
-          "pubDate": "2026-08-17T09:00:00.000Z",
-          "excerpt": "Luật BHXH 2024 đã mở rộng cơ hội hưởng lương hưu khi giảm thời gian đóng tối thiểu từ 20 năm xuống còn 15 năm, đồng thời quy định rõ các trường hợp được đóng…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,14 +349,69 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "The stock market is driving the economy in one major way",
+          "link": "https://www.marketwatch.com/story/the-stock-market-is-driving-the-economy-in-one-major-way-9ea09725?mod=mw_rss_topstories",
+          "pubDate": "2026-08-17T13:35:00.000Z",
+          "excerpt": "The wealth effect of higher equity prices has enabled U.S. consumers to continue spending even when changes in disposable income suggested recessions might be…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "The AI productivity payoff is coming. Here are 20 stocks primed to capture the gains as adoption spreads.",
           "link": "https://www.marketwatch.com/story/the-ai-productivity-payoff-is-coming-here-are-20-stocks-primed-to-capture-the-gains-as-adoption-spreads-443842ac?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T12:37:00.000Z",
+          "pubDate": "2026-08-17T13:30:00.000Z",
           "excerpt": "So far investors have been focused on artificial-intelligence infrastructure plays rather than productivity beneficiaries, says Goldman Sachs.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Getting diagnosed with dementia isn’t the end. It’s a time to take financial action.",
+          "link": "https://www.marketwatch.com/story/getting-diagnosed-with-dementia-isnt-the-end-its-a-time-to-take-financial-action-f52769b6?mod=mw_rss_topstories",
+          "pubDate": "2026-08-17T13:30:00.000Z",
+          "excerpt": "Careful planning in the early stages of memory loss can prevent financial and estate-planning headaches later.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Investment Firm General Atlantic Is Eyeing an IPO Again",
+          "link": "https://www.wsj.com/finance/investment-firm-general-atlantic-is-eyeing-an-ipo-again-53d8ee7f?mod=rss_markets_main",
+          "pubDate": "2026-08-17T13:30:00.000Z",
+          "excerpt": "The company manages around $130 billion and had filed to go public in 2023.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "The Mediterranean diet is the best one out there. Here’s why Americans struggle with it.",
+          "link": "https://www.marketwatch.com/story/the-mediterranean-diet-is-the-best-out-there-heres-why-americans-struggle-with-it-081f3fe7?mod=mw_rss_topstories",
+          "pubDate": "2026-08-17T12:54:00.000Z",
+          "excerpt": "It’s not just about eating well. It’s about cooking at home and sharing those meals with friends and family.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "UK government to pay KPMG and EY up to £456mn to train civil servants",
+          "link": "https://www.ft.com/content/b9b1c9d7-a7a1-4b6f-bcb0-910ceb025f2b?syn-25a6b1a6=1",
+          "pubDate": "2026-08-17T12:42:27.000Z",
+          "excerpt": "Deal marks largest contract awarded to Big Four firms in at least a decade",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         },
         {
@@ -371,65 +426,10 @@
           "condensed": null
         },
         {
-          "title": "Investor dubbed ‘AI stock god’ had 56% of his funds in these two stocks before the July blow-up",
-          "link": "https://www.marketwatch.com/story/investor-dubbed-ai-stock-god-had-56-of-his-funds-in-these-two-stocks-before-it-blew-up-07472f46?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T12:08:00.000Z",
-          "excerpt": "At the end of the first half of 2026, on the cusp of a major correction in the sector, more than three quarters of the Situational Awareness fund was betting…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "EU plans most far-reaching sanctions on Russia in coming months",
           "link": "https://www.scmp.com/news/world/europe/article/3364321/eu-plans-most-far-reaching-sanctions-russia-coming-months?utm_source=rss_feed",
           "pubDate": "2026-08-17T11:48:12.000Z",
           "excerpt": "The European Union intends to significantly expand sanctions against Russia in the coming months over its war in Ukraine, the bloc’s foreign policy chief, Kaja…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Why Goldman Sachs thinks the Fed won’t be hiking interest rates in September",
-          "link": "https://www.marketwatch.com/story/why-goldman-sachs-thinks-the-fed-wont-be-hiking-interest-rates-in-september-718275e7?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T11:33:00.000Z",
-          "excerpt": "Goldman expects that the Fed will stand pat — barring any dramatic data.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump threatens to bomb Oman if it ‘gets in the way’ of US-Iran negotiations",
-          "link": "https://www.ft.com/content/d4d07198-498d-48d1-9e54-85f1febcd070",
-          "pubDate": "2026-08-17T11:25:49.000Z",
-          "excerpt": "Remarks come as Gulf state has been in talks with Tehran over provisional arrangement to manage Strait of Hormuz",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-          "link": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T11:15:00.000Z",
-          "excerpt": "“I don’t expect my marginal tax rate to be materially different in the future.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "US envoy Kushner meets Netanyahu after visiting Hamas leader",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3364309/us-envoy-kushner-meets-netanyahu-after-visiting-hamas-leader?utm_source=rss_feed",
-          "pubDate": "2026-08-17T10:25:25.000Z",
-          "excerpt": "Donald Trump’s envoy and son-in-law Jared Kushner met with Israeli Prime Minister Benjamin Netanyahu in Jerusalem on Monday, a day after holding a rare meeting…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
