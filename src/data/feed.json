@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T09:45:18.499Z",
+  "lastUpdated": "2026-08-17T10:35:12.679Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4452.8,
+      "value": 4452.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26436.57,
-      "change": 112.68999999999869,
-      "changePercent": 0.42809038789114173
+      "value": 26447.13,
+      "change": 123.25,
+      "changePercent": 0.46820605473053367
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "DPM lập công ty con vốn 220 tỷ đồng",
+          "link": "https://cafef.vn/dpm-lap-cong-ty-con-von-220-ty-dong-188260817165626531.chn",
+          "pubDate": "2026-08-17T10:09:00.000Z",
+          "excerpt": "DPM thành lập công ty con có tên Công ty TNHH Hóa chất Phú Mỹ với vốn điều lệ 220 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Một doanh nghiệp sắp trả gần 2.000 đồng/cp trong tháng 9, quá khứ từng bạo chi cổ tức tiền cao ngất ngưởng",
           "link": "https://cafef.vn/mot-doanh-nghiep-sap-tra-gan-2000-dong-cp-trong-thang-9-qua-khu-tung-bao-chi-co-tuc-tien-cao-ngat-nguong-188260817161418215.chn",
@@ -72,6 +83,17 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thanh khoản chứng khoán giảm 5.000 tỷ đồng",
+          "link": "https://vnexpress.net/thanh-khoan-chung-khoan-giam-5-000-ty-dong-5110082.html",
+          "pubDate": "2026-08-17T09:14:25.000Z",
+          "excerpt": "Tâm lý nhà đầu tư thận trọng trước kỳ rà soát bán niên của FTSE Russell khiến thanh khoản thị trường giảm mạnh xuống mức thấp nhất một tháng, đạt chưa đến…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -119,32 +141,10 @@
           "condensed": null
         },
         {
-          "title": "TGĐ Phan Quốc Công mua xong 1 triệu cổ phiếu PNJ",
-          "link": "https://cafef.vn/tgd-phan-quoc-cong-mua-xong-1-trieu-co-phieu-pnj-188260817145801411.chn",
-          "pubDate": "2026-08-17T07:57:00.000Z",
-          "excerpt": "Tạm tính theo thị giá trên sàn, Tổng Giám đốc PNJ đã chi khoảng 36 tỷ đồng để hoàn tất giao dịch trên.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nam A Bank nâng quy mô hợp tác với BlueOrchard lên 100 triệu USD, tiếp tục mở rộng tín dụng với các đối tác Thụy Sĩ",
-          "link": "http://vietstock.vn/2026/08/nam-a-bank-nang-quy-mo-hop-tac-voi-blueorchard-len-100-trieu-usd-tiep-tuc-mo-rong-tin-dung-voi-cac-doi-tac-thuy-si-757-1481494.htm",
-          "pubDate": "2026-08-17T07:33:39.000Z",
-          "excerpt": "Ngân hàng TMCP Nam Á (Nam A Bank, HOSE: NAB) nâng tổng quy mô hợp tác tín dụng với BlueOrchard lên 100 triệu USD, đồng thời tiếp tục mở rộng nguồn vốn với các…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "'Sức kiếm tiền' của Highlands Coffee đạt kỷ lục",
-          "link": "https://vnexpress.net/suc-kiem-tien-cua-highlands-coffee-dat-ky-luc-5109926.html",
-          "pubDate": "2026-08-17T06:52:02.000Z",
-          "excerpt": "EBITDA - chỉ số phản ánh khả năng tạo lợi nhuận từ hoạt động kinh doanh - của Highlands Coffee đạt kỷ lục gần 440 tỷ đồng trong quý II.",
+          "title": "Kinh tế Nhật Bản tăng trưởng chậm hơn dự báo",
+          "link": "https://vnexpress.net/kinh-te-nhat-ban-tang-truong-cham-hon-du-bao-5110017.html",
+          "pubDate": "2026-08-17T08:12:10.000Z",
+          "excerpt": "GDP Nhật Bản quý II tăng chậm hơn dự báo do chi tiêu hộ gia đình và đầu tư doanh nghiệp kém sôi động.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Cây cầu 12 triệu USD do Trung Quốc xây dựng sập trước khi hoàn thành: Điều bất ngờ sau 14 tháng",
+          "link": "https://cafef.vn/cay-cau-12-trieu-usd-do-trung-quoc-xay-dung-sap-truoc-khi-hoan-thanh-dieu-bat-ngo-sau-14-thang-188260817163511449.chn",
+          "pubDate": "2026-08-17T09:39:00.000Z",
+          "excerpt": "Cây cầu này có ý nghĩa rất lớn với người dân vốn xem xuồng là phương tiện mưu sinh chính.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Loạt động thái đáng chú ý của Tập đoàn Mường Thanh gần đây",
           "link": "https://cafef.vn/loat-dong-thai-dang-chu-y-cua-tap-doan-muong-thanh-gan-day-188260817153246857.chn",
@@ -203,32 +214,10 @@
           "condensed": null
         },
         {
-          "title": "Thủ Thiêm sắp đấu giá lô 'đất vàng' với khởi điểm gần 1.902 tỷ đồng",
-          "link": "https://vnexpress.net/thu-thiem-sap-dau-gia-lo-dat-vang-voi-khoi-diem-gan-1-902-ty-dong-5110005.html",
-          "pubDate": "2026-08-17T07:34:07.000Z",
-          "excerpt": "Lô đất 6.446 m2 tại Khu đô thị mới Thủ Thiêm, phường An Khánh, được TP HCM phê duyệt phương án đấu giá với mức khởi điểm dự kiến hơn 1.901 tỷ đồng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "VARS: “Kiểm soát tín dụng theo cách cào bằng sẽ làm mất đi động lực tăng trưởng bền vững cho thị trường bất động sản”",
           "link": "https://cafef.vn/vars-kiem-soat-tin-dung-theo-cach-cao-bang-se-lam-mat-di-dong-luc-tang-truong-ben-vung-cho-thi-truong-bat-dong-san-18826081714083853.chn",
           "pubDate": "2026-08-17T07:28:00.000Z",
           "excerpt": "VARS IRE cho rằng, vấn đề của tín dụng bất động sản không đơn thuần nằm ở việc “siết” hay “mở”, mà quan trọng hơn là dòng vốn được phân bổ vào đâu, phục vụ mục…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Giá chung cư Hà Nội đứng ở ngưỡng cao, người mua nhà cần chuẩn bị kịch bản nào?",
-          "link": "https://cafef.vn/gia-chung-cu-ha-noi-dung-o-nguong-cao-nguoi-mua-nha-can-chuan-bi-kich-ban-nao-188260817120950734.chn",
-          "pubDate": "2026-08-17T07:22:00.000Z",
-          "excerpt": "Nhận định về diễn biến thị trường thời gian tới, chuyên gia Savills cho rằng mức giá trên thị trường sơ cấp vẫn duy trì ở ngưỡng cao khi phân khúc trên 90…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -245,6 +234,17 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Ngại xuống tiền mua nhà đất vì lo vướng quy hoạch",
+          "link": "https://vnexpress.net/ngai-xuong-tien-mua-nha-dat-vi-lo-vuong-quy-hoach-5109974.html",
+          "pubDate": "2026-08-17T05:29:35.000Z",
+          "excerpt": "Việc không biết căn nhà có bị ảnh hưởng bởi quy hoạch hay không khiến nhiều người tại TP HCM chưa dám xuống tiền.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,28 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "6.500 người 'vượt nắng, thắng mưa' tại nhà ga Phượng hoàng lửa sân bay Phú Quốc",
+          "link": "https://cafef.vn/6500-nguoi-vuot-nang-thang-mua-tai-nha-ga-phuong-hoang-lua-san-bay-phu-quoc-188260817160855827.chn",
+          "pubDate": "2026-08-17T10:30:00.000Z",
+          "excerpt": "Nhà ga T2 Cảng hàng không quốc tế Phú Quốc đang vào giai đoạn hoàn thiện mặt ngoài, 6.500 người đang “vượt nắng, thắng mưa” trên công trường sân bay.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nghiên cứu hạ tuổi hưởng trợ cấp hưu trí xã hội từ 75 xuống 70",
+          "link": "https://cafef.vn/nghien-cuu-ha-tuoi-huong-tro-cap-huu-tri-xa-hoi-tu-75-xuong-70-188260817153345951.chn",
+          "pubDate": "2026-08-17T10:00:00.000Z",
+          "excerpt": "Theo đánh giá tác động chính sách, nếu hạ độ tuổi hưởng trợ cấp từ 75 xuống 70 tuổi, kinh phí thực hiện dự kiến tăng thêm khoảng 11.680 tỷ đồng mỗi năm.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Từ ngày 1/7, một luật ở Việt Nam có hiệu lực, vì sao nhiều người tiêu dùng vẫn khó khi mua hàng online?",
           "link": "https://cafef.vn/tu-ngay-1-7-mot-luat-o-viet-nam-co-hieu-luc-vi-sao-nhieu-nguoi-tieu-dung-van-kho-khi-mua-hang-online-188260817160541086.chn",
@@ -280,28 +302,6 @@
           "link": "https://cafef.vn/hieu-the-nao-ve-quyet-dinh-thu-hoi-dat-188260817135349121.chn",
           "pubDate": "2026-08-17T08:30:00.000Z",
           "excerpt": "Trong điểm đ khoản 1 Điều 151 Luật Đất đai năm 2024 có nêu, đất đã có quyết định thu hồi đất của cơ quan nhà nước có thẩm quyền, trừ trường hợp đã quá 03 năm…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ngành gỗ bước vào cuộc đua mới: Cạnh tranh bằng năng lực vận hành và tri thức",
-          "link": "https://cafef.vn/nganh-go-buoc-vao-cuoc-dua-moi-canh-tranh-bang-nang-luc-van-hanh-va-tri-thuc-188260817151334293.chn",
-          "pubDate": "2026-08-17T08:13:00.000Z",
-          "excerpt": "Sau nhiều năm tập trung tăng trưởng quy mô, ngành gỗ Việt Nam đang bước vào giai đoạn cạnh tranh mới, nơi tri thức vận hành và khả năng thích ứng ngày càng trở…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đa dạng hóa các sản phẩm tài chính, dịch vụ tại VIFC-DN",
-          "link": "https://cafef.vn/da-dang-hoa-cac-san-pham-tai-chinh-dich-vu-tai-vifc-dn-188260817135452089.chn",
-          "pubDate": "2026-08-17T07:56:00.000Z",
-          "excerpt": "Thực hiện ý kiến chỉ đạo của lãnh đạo Chính phủ, Trung tâm Tài chính Quốc tế tại TP. Đà Nẵng (VIFC-DN) đang xây dựng và trình cấp có thẩm quyền xem xét, quyết…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,6 +349,50 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "US envoy Kushner meets Netanyahu after visiting Hamas leader",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3364309/us-envoy-kushner-meets-netanyahu-after-visiting-hamas-leader?utm_source=rss_feed",
+          "pubDate": "2026-08-17T10:25:25.000Z",
+          "excerpt": "Donald Trump’s envoy and son-in-law Jared Kushner met with Israeli Prime Minister Benjamin Netanyahu in Jerusalem on Monday, a day after holding a rare meeting…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Home Improvement’s Hangover Could Last",
+          "link": "https://www.wsj.com/finance/stocks/home-improvements-hangover-could-last-90cb961d?mod=rss_markets_main",
+          "pubDate": "2026-08-17T10:17:00.000Z",
+          "excerpt": "Plus, China’s economy slowed again.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "‘I’m running out of time’: I sold my $300,000 rental property at a $75,000 loss. Should I buy another one to avoid taxes?",
+          "link": "https://www.marketwatch.com/story/im-running-out-of-time-i-sold-my-300-000-rental-property-at-a-75-000-loss-should-i-buy-another-one-to-avoid-taxes-f214c172?mod=mw_rss_topstories",
+          "pubDate": "2026-08-17T10:16:00.000Z",
+          "excerpt": "“My CPA hasn’t gotten back to me.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "BlackBerry hồi sinh sau một thập kỷ biến mất khỏi thị trường điện thoại",
+          "link": "http://vietstock.vn/2026/08/blackberry-hoi-sinh-sau-mot-thap-ky-bien-mat-khoi-thi-truong-dien-thoai-4264-1481605.htm",
+          "pubDate": "2026-08-17T09:33:16.000Z",
+          "excerpt": "Một thập kỷ sau khi điện thoại BlackBerry biến mất, tương lai của công ty giờ đây được đặt vào phần mềm cho ô tô và an ninh mạng.",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
           "title": "The Secret Word Game Bank of America’s CEO Plays With Wall Street",
           "link": "https://www.wsj.com/finance/banking/the-secret-word-game-bank-of-americas-ceo-plays-with-wall-street-987dcbee?mod=rss_markets_main",
           "pubDate": "2026-08-17T09:30:00.000Z",
@@ -390,50 +434,6 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Neighbors in rural Texas county are not happy about Elon Musk’s plan to erect world’s largest building",
-          "link": "https://www.marketwatch.com/story/neighbors-in-rural-texas-county-are-not-happy-about-elon-musks-plan-to-erect-worlds-largest-building-2183edcb?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T09:04:00.000Z",
-          "excerpt": "The latest project of trillionaire Elon Musk is a semiconductor factory the size of 1,000 Costco stores, and local residents are concerned about the impact.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Former Starbucks CEO Howard Schultz sells home in Hawaii for $36 million after moving to Florida",
-          "link": "https://www.marketwatch.com/story/former-starbucks-ceohoward-schultz-sells-home-in-hawaii-for-36-million-after-moving-to-florida-fc1de897?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T09:01:00.000Z",
-          "excerpt": "Former Starbucks CEO Howard Schultz has sold his longtime Hawaii sanctuary for the staggering price of $36 million—just months after he bought a $44 million…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Kushner to hold talks with Netanyahu after meeting Hamas leader",
-          "link": "https://www.ft.com/content/eea1da3e-1c1c-4957-ad9d-f0372b2694f0?syn-25a6b1a6=1",
-          "pubDate": "2026-08-17T08:26:57.000Z",
-          "excerpt": "Donald Trump’s son-in-law and envoy is pushing Washington’s peace plan for Gaza",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Stock Market Today: Tech Stocks Set to Gain, Oil Holds Steady",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-17-2026?mod=rss_markets_main",
-          "pubDate": "2026-08-17T08:03:37.000Z",
-          "excerpt": "This week brings earnings from Target, Walmart and others",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
           "condensed": null
         }
       ],
