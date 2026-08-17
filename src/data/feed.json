@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T01:24:17.234Z",
+  "lastUpdated": "2026-08-17T03:02:55.993Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4462.2,
+      "value": 4448.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 68600.38,
-      "change": 1630.1600000000035,
-      "changePercent": 2.4341565549583133
+      "value": 68721.44,
+      "change": 1751.2200000000012,
+      "changePercent": 2.614923468968746
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25116.85,
-      "change": -551.1800000000003,
-      "changePercent": -2.1473404854209703
+      "value": 25517.27,
+      "change": -420.22000000000116,
+      "changePercent": -1.6201259258316867
     },
     {
       "symbol": "^GDAXI",
@@ -64,100 +64,144 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Liên tiếp trong nhóm dẫn đầu nộp ngân sách, TCBS khẳng định dấu ấn của một “ông lớn” thị trường vốn",
-          "link": "https://cafef.vn/lien-tiep-trong-nhom-dan-dau-nop-ngan-sach-tcbs-khang-dinh-dau-an-cua-mot-ong-lon-thi-truong-von-188260817071948946.chn",
-          "pubDate": "2026-08-17T01:00:00.000Z",
-          "excerpt": "Từ một CTCK có thế mạnh riêng biệt trong lĩnh vực trái phiếu và ngân hàng đầu tư, TCBS đang trở thành một định chế tài chính có ảnh hưởng ngày càng lớn tới…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "TCBS khẳng định dấu ấn của một ông lớn thị trường vốn."
-        },
-        {
-          "title": "Thị trường chứng khoán Việt Nam 2026: Nghịch lý định giá & Cơ hội đầu tư",
-          "link": "https://cafef.vn/thi-truong-chung-khoan-viet-nam-2026-nghich-ly-dinh-gia-co-hoi-dau-tu-188260814154554643.chn",
-          "pubDate": "2026-08-17T01:00:00.000Z",
-          "excerpt": "Thị trường chứng khoán Việt Nam đang chứng kiến sự phân hóa rõ rệt giữa định giá cổ phiếu và tăng trưởng doanh nghiệp.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Thị trường chứng khoán Việt Nam chứng kiến sự phân hóa giữa định giá cổ phiếu và tăng trưởng doanh nghiệp."
-        },
-        {
-          "title": "Các số liệu kinh tế Mỹ có thể tiếp tục chi phối giá vàng trong tuần này",
-          "link": "https://vneconomy.vn/cac-so-lieu-kinh-te-my-co-the-tiep-tuc-chi-phoi-gia-vang-trong-tuan-nay.htm",
-          "pubDate": "2026-08-17T00:39:16.000Z",
-          "excerpt": "Giá vàng thế giới khởi động tuần giao dịch mới vào đầu giờ sáng nay (17/8) tại thị trường châu Á trong trạng thái giằng co, sau khi tăng trong 2 tuần đầu tiên…",
+          "title": "UBS: Giá vàng có thể tiếp cận mốc 5.000 USD/oz trong nửa đầu năm 2027",
+          "link": "https://vneconomy.vn/ubs-gia-vang-co-the-tiep-can-moc-5000-usdoz-trong-nua-dau-nam-2027.htm",
+          "pubDate": "2026-08-17T02:49:36.000Z",
+          "excerpt": "Các chiến lược gia tại ngân hàng Thụy Sỹ UBS dự báo giá vàng sẽ tăng trở lại mức 5.000 USD/oz trong nửa đầu năm 2027 do lãi suất thực giảm xuống...",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Số liệu kinh tế Mỹ chi phối giá vàng."
+          "condensed": "Giá vàng có thể đạt 5.000 USD/oz vào nửa đầu 2027"
         },
         {
-          "title": "Doanh nghiệp bán Sâm nhung bổ thận vượt kế hoạch lợi nhuận cả năm chỉ sau 6 tháng, sẵn gần 500 tỷ tiền ròng",
-          "link": "https://cafef.vn/doanh-nghiep-ban-sam-nhung-bo-than-vuot-ke-hoach-loi-nhuan-ca-nam-chi-sau-6-thang-san-gan-500-ty-tien-rong-188260817021542945.chn",
-          "pubDate": "2026-08-16T22:01:00.000Z",
-          "excerpt": "Một yếu tố hỗ trợ nằm ở kênh phân phối khi danh mục sản phẩm chủ yếu được tiêu thụ qua nhà thuốc thay vì phụ thuộc lớn vào đấu thầu bệnh viện.",
+          "title": "Rủi ro lớn khi dự trữ dầu lửa chiến lược của Mỹ bị rút cạn",
+          "link": "https://vneconomy.vn/rui-ro-lon-khi-du-tru-dau-lua-chien-luoc-cua-my-bi-rut-can.htm",
+          "pubDate": "2026-08-17T02:49:25.000Z",
+          "excerpt": "Các hang ngầm chứa Dự trữ Dầu mỏ Chiến lược (SPR) của Mỹ đang đối mặt với nguy cơ hư hại do hoạt động rút dầu dự trữ diễn ra quá nhanh và mạnh để ứng phó với…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Dự trữ dầu mỏ chiến lược của Mỹ đối mặt nguy cơ hư hại"
+        },
+        {
+          "title": "Nợ công Mỹ sắp chạm ngưỡng 40 nghìn tỷ USD",
+          "link": "https://vneconomy.vn/no-cong-my-sap-cham-nguong-40-nghin-ty-usd.htm",
+          "pubDate": "2026-08-17T02:49:06.000Z",
+          "excerpt": "Nợ công Mỹ có thể lần đầu vượt 40 nghìn tỷ USD trong vài ngày tới và tiếp tục chạm 50 nghìn tỷ USD vào tháng 7/2029...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Nợ công Mỹ sắp chạm 40 nghìn tỷ USD"
+        },
+        {
+          "title": "Tín hiệu kỹ thuật suy yếu diện rộng, điểm chú ý là tuần này sẽ lộ diện danh mục FTSE GEIS",
+          "link": "https://vneconomy.vn/tin-hieu-ky-thuat-suy-yeu-dien-rong-diem-chu-y-la-tuan-nay-se-lo-dien-danh-muc-ftse-geis.htm",
+          "pubDate": "2026-08-17T02:48:36.000Z",
+          "excerpt": "Tín hiệu kỹ thuật đang suy yếu trên diện rộng. Nhà đầu tư cần thận trọng theo dõi vùng hỗ trợ tại 1.700 điểm...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Tín hiệu kỹ thuật suy yếu trên diện rộng"
+        },
+        {
+          "title": "Đếm ngược 4 ngày đón \"tin lớn\" từ FTSE, CTCK hé lộ nhóm cổ phiếu có thể hưởng lợi nhất",
+          "link": "https://cafef.vn/dem-nguoc-4-ngay-don-tin-lon-tu-ftse-ctck-he-lo-nhom-co-phieu-co-the-huong-loi-nhat-188260817093612813.chn",
+          "pubDate": "2026-08-17T02:40:00.000Z",
+          "excerpt": "Sự kiện được kỳ vọng nhất trong tuần tới là việc FTSE Russell công bố danh mục cổ phiếu chính thức cho chỉ số FTSE Global Equity Index Series (GEIS) vào rạng…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Doanh nghiệp bán Sâm nhung bổ thận vượt kế hoạch lợi nhuận."
+          "condensed": "FTSE Russell công bố danh mục cổ phiếu vào rạng sáng"
         },
         {
-          "title": "Chứng khoán tuần tới sẽ giằng co quanh 1.720 điểm, nhà đầu tư cần làm gì?",
-          "link": "https://cafef.vn/chung-khoan-tuan-toi-se-giang-co-quanh-1720-diem-nha-dau-tu-can-lam-gi-188260817021719391.chn",
-          "pubDate": "2026-08-16T19:17:00.000Z",
-          "excerpt": "Theo các chuyên gia, thị trường chứng khoán tuần tới sẽ vẫn trong trạng thái giằng co quanh ngưỡng 1.700 - 1.720 điểm, nhà đầu tư không nên mua đuổi.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Chứng khoán tuần tới giằng co quanh 1.720 điểm."
+          "title": "Nam A Bank kết nối dòng vốn xanh Thụy Sĩ, thúc đẩy nguồn lực chuyển đổi xanh tại Việt Nam",
+          "link": "http://vietstock.vn/2026/08/nam-a-bank-ket-noi-dong-von-xanh-thuy-si-thuc-day-nguon-luc-chuyen-doi-xanh-tai-viet-nam-757-1481304.htm",
+          "pubDate": "2026-08-17T02:22:58.000Z",
+          "excerpt": "Ngân hàng TMCP Nam Á (Nam A Bank, HOSE: NAB) tiếp tục mở rộng hợp tác với hệ sinh thái tài chính Thụy Sĩ, đưa dòng vốn quốc tế phục vụ chuyển đổi xanh, năng…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "Nam A Bank kết nối dòng vốn xanh Thụy Sĩ"
         },
         {
-          "title": "Nghịch lý định giá trên thị trường chứng khoán: 1+1 không bằng 2!",
-          "link": "https://cafef.vn/nghich-ly-dinh-gia-tren-thi-truong-chung-khoan-11-khong-bang-2-188260817010518139.chn",
-          "pubDate": "2026-08-16T18:05:00.000Z",
-          "excerpt": "Trên thị trường chứng khoán, không ít trường hợp vốn hóa tập đoàn mẹ thấp hơn đáng kể tổng giá trị phần sở hữu tại các đơn vị thành viên.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Nghịch lý định giá trên thị trường chứng khoán."
+          "title": "Tuần 10-14/08: NHNN đảo chiều rút ròng gần 9,600 tỷ",
+          "link": "http://vietstock.vn/2026/08/tuan-10-1408-nhnn-dao-chieu-rut-rong-gan-9600-ty-757-1481275.htm",
+          "pubDate": "2026-08-17T02:10:33.000Z",
+          "excerpt": "Trong tuần thứ 2 của tháng 8 (10-14/08), Ngân hàng Nhà nước (NHNN) đảo chiều rút ròng 9,593 tỷ đồng.",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": "NHNN rút ròng gần 9.600 tỷ đồng"
         },
         {
-          "title": "VN-Index có thể lùi về 1.700 điểm trước cú hích nâng hạng FTSE",
-          "link": "https://vnexpress.net/vn-index-co-the-lui-ve-1-700-diem-truoc-cu-hich-nang-hang-ftse-5109688.html",
-          "pubDate": "2026-08-16T17:10:00.000Z",
-          "excerpt": "Các công ty chứng khoán cho rằng VN-Index có thể điều chỉnh về vùng 1.700 điểm trước khi thị trường đón dòng tiền từ đợt nâng hạng của FTSE Russell.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "VN-Index có thể lùi về 1.700 điểm."
-        },
-        {
-          "title": "Mỹ thiếu nhân lực để phá thế thống trị khoáng sản của Trung Quốc",
-          "link": "https://vnexpress.net/my-thieu-nhan-luc-de-pha-the-thong-tri-khoang-san-cua-trung-quoc-5109777.html",
-          "pubDate": "2026-08-16T17:08:00.000Z",
-          "excerpt": "Mỹ tăng tốc đầu tư sản xuất khoáng sản thiết yếu để giảm phụ thuộc Trung Quốc, nhưng gặp nút thắt ở khâu thiếu hụt nhân sự.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": "Mỹ thiếu nhân lực để phá thế thống trị khoáng sản của Trung Quốc."
+          "title": "Dòng tiền rời nhóm vốn hóa lớn, lực cầu trong nước \"cân\" lệnh xả của khối ngoại",
+          "link": "https://vneconomy.vn/dong-tien-roi-nhom-von-hoa-lon-luc-cau-trong-nuoc-can-lenh-xa-cua-khoi-ngoai.htm",
+          "pubDate": "2026-08-17T01:53:38.000Z",
+          "excerpt": "VN-Index kết thúc tuần 33/2026 tại 1.729,08 điểm, giảm 38,98 điểm, tương đương 2,20%, so với tuần trước, qua đó ngắt chuỗi hai tuần hồi phục liên tiếp. Thanh…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": "Dòng tiền rời nhóm vốn hóa lớn"
         }
       ],
-      "aiSummary": "TCBS đang trở thành một định chế tài chính có ảnh hưởng lớn tới thị trường vốn."
+      "aiSummary": null
     },
     {
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Sổ đỏ tích hợp trên VNeID, giao dịch bất động sản sẽ ra sao?",
+          "link": "https://cafef.vn/so-do-tich-hop-tren-vneid-giao-dich-bat-dong-san-se-ra-sao-188260817080603421.chn",
+          "pubDate": "2026-08-17T01:59:00.000Z",
+          "excerpt": "Lợi ích lớn nhất khi sổ đỏ, sổ hồng tích hợp trên VNeID là người dân có thể tiếp cận thông tin về tài sản của mình thuận tiện hơn, giảm phụ thuộc vào giấy tờ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Sổ đỏ tích hợp trên VNeID giúp người dân dễ dàng tiếp cận thông tin tài sản."
+        },
+        {
+          "title": "Nở rộ kinh doanh căn hộ dịch vụ ở Hà Nội",
+          "link": "https://cafef.vn/no-ro-kinh-doanh-can-ho-dich-vu-o-ha-noi-188260817080430511.chn",
+          "pubDate": "2026-08-17T01:53:00.000Z",
+          "excerpt": "Trong bối cảnh du lịch và nhu cầu lưu trú ngắn ngày gia tăng, mô hình homestay và căn hộ dịch vụ đang phát triển mạnh tại nhiều khu đô thị, chung cư ở Hà Nội.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Kinh doanh căn hộ dịch vụ phát triển mạnh tại Hà Nội."
+        },
+        {
+          "title": "Gần 100% giỏ hàng “chốt deal” trên sóng livestream, quỹ căn đẹp tại Noble Crystal Riverside đang thu hẹp từng ngày",
+          "link": "https://cafef.vn/gan-100-gio-hang-chot-deal-tren-song-livestream-quy-can-dep-tai-noble-crystal-riverside-dang-thu-hep-tung-ngay-18826081708364341.chn",
+          "pubDate": "2026-08-17T01:43:00.000Z",
+          "excerpt": "Gần 100% giỏ hàng đã tìm được chủ nhân, cùng quà tặng 500 triệu đồng/căn, phiên livestream NobleX Live tối 14/8 tiếp tục ghi nhận sức hút đáng chú ý của Noble…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Quỹ căn đẹp tại Noble Crystal Riverside thu hẹp nhanh."
+        },
+        {
+          "title": "Điểm chung của những công trình \" Trăm năm giá trị\" định hình thời đại",
+          "link": "https://cafef.vn/diem-chung-cua-nhung-cong-trinh-tram-nam-gia-tri-dinh-hinh-thoi-dai-188260816143958006.chn",
+          "pubDate": "2026-08-17T01:21:00.000Z",
+          "excerpt": "Lịch sử các đô thị lớn cho thấy một thực tế: không phải mọi công trình tồn tại lâu đời đều trở thành biểu tượng. Tuổi đời chỉ là thước đo của thời gian. Giá…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Một thành phố trực thuộc Trung ương tìm chủ cho khu đô thị gần 20.000 tỷ đồng có 3 tòa nhà cao 25 tầng",
           "link": "https://cafef.vn/mot-thanh-pho-truc-thuoc-trung-uong-tim-chu-cho-khu-do-thi-gan-20000-ty-dong-co-3-toa-nha-cao-25-tang-188260817080217427.chn",
@@ -167,29 +211,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Thành phố tìm chủ cho khu đô thị gần 20.000 tỷ đồng"
-        },
-        {
-          "title": "Xu hướng tài chính thế giới 2026 và thị trường bất động sản Úc",
-          "link": "https://cafef.vn/xu-huong-tai-chinh-the-gioi-2026-va-thi-truong-bat-dong-san-uc-188260815094408125.chn",
-          "pubDate": "2026-08-17T01:00:00.000Z",
-          "excerpt": "Giới chuyên gia tài chính, bất động sản nhận định thị trường Úc bước vào giai đoạn điều chỉnh chính sách nửa cuối năm 2026, mở ra cơ hội cho gia đình Việt có…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Thị trường Úc điều chỉnh chính sách năm 2026"
-        },
-        {
-          "title": "Khải Hoàn Imperial định nghĩa chuẩn sống sang bằng hệ tiện ích ấn tượng Signature Edition",
-          "link": "https://cafef.vn/khai-hoan-imperial-dinh-nghia-chuan-song-sang-bang-he-tien-ich-an-tuong-signature-edition-188260814113924775.chn",
-          "pubDate": "2026-08-17T01:00:00.000Z",
-          "excerpt": "Trong cuộc đua bất động sản cao cấp, khái niệm “xa xỉ” hay “hạng sang” đang dần thoát khỏi những khối bê tông vô hồn để trở về với giá trị cốt lõi: trải nghiệm…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Khải Hoàn Imperial định nghĩa sống sang bằng tiện ích"
+          "condensed": "Thành phố tìm chủ cho khu đô thị gần 20.000 tỷ đồng."
         },
         {
           "title": "Khánh thành trường Phổ thông liên cấp FPT Vinh tại đại đô thị Eco Central Park",
@@ -200,29 +222,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Trường Phổ thông liên cấp FPT Vinh khánh thành"
-        },
-        {
-          "title": "Phường Hoàng Liệt đốc thúc 4 dự án vốn ngoài ngân sách",
-          "link": "https://cafef.vn/phuong-hoang-liet-doc-thuc-4-du-an-von-ngoai-ngan-sach-18826081706045378.chn",
-          "pubDate": "2026-08-16T23:04:00.000Z",
-          "excerpt": "UBND phường Hoàng Liệt (Hà Nội) vừa tổ chức kiểm tra liên ngành đối với 4 dự án có vốn đầu tư ngoài ngân sách trên địa bàn, tập trung rà soát tiến độ triển…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Phường Hoàng Liệt đốc thúc dự án ngoài ngân sách"
-        },
-        {
-          "title": "Việt Nam có ngọn núi cao 986 m được mệnh danh là “nóc nhà Nam Bộ”, đón 4 triệu khách chỉ trong 7 tháng",
-          "link": "https://cafef.vn/viet-nam-co-ngon-nui-cao-986-m-duoc-menh-danh-la-noc-nha-nam-bo-don-4-trieu-khach-chi-trong-7-thang-188260817055329155.chn",
-          "pubDate": "2026-08-16T22:53:00.000Z",
-          "excerpt": "Nằm ở độ cao 986 m, núi Bà Đen được mệnh danh là “nóc nhà Nam Bộ” và là điểm đến du lịch nổi bật của Tây Ninh. Chỉ trong 7 tháng đầu năm 2026, khu du lịch Sun…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Núi Bà Đen đón 4 triệu khách trong 7 tháng"
+          "condensed": "Trường Phổ thông liên cấp FPT Vinh được khánh thành."
         },
         {
           "title": "Khu nhà xã hội của Sun Group ở Đà Nẵng đủ điều kiện mở bán",
@@ -233,7 +233,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Khu nhà xã hội của Sun Group đủ điều kiện mở bán"
+          "condensed": "Khu nhà xã hội của Sun Group ở Đà Nẵng đủ điều kiện mở bán."
         },
         {
           "title": "Cải tạo nhà 75 m2 thiếu sáng thành không gian mở cho người độc thân",
@@ -244,7 +244,7 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": "Cải tạo nhà 75 m2 thành không gian mở"
+          "condensed": "Cải tạo nhà 75 m2 thành không gian mở cho người độc thân."
         }
       ],
       "aiSummary": null
@@ -254,6 +254,39 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Vành đai 3 qua Đồng Nai tăng tốc, phấn đấu về đích trong tháng 9",
+          "link": "https://cafef.vn/vanh-dai-3-qua-dong-nai-tang-toc-phan-dau-ve-dich-trong-thang-9-188260817090508547.chn",
+          "pubDate": "2026-08-17T02:47:00.000Z",
+          "excerpt": "Vành đai 3 qua Đồng Nai tăng tốc thi công để hoàn thành cuối tháng 9/2026, đồng bộ kết nối sân bay Long Thành cùng cao tốc.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": "Vành đai 3 qua Đồng Nai tăng tốc thi công để hoàn thành cuối tháng 9/2026."
+        },
+        {
+          "title": "Đóng điện 2 mạch đường dây 220 kV Chơn Thành – Bến Cát",
+          "link": "https://cafef.vn/dong-dien-2-mach-duong-day-220-kv-chon-thanh-ben-cat-188260817084638363.chn",
+          "pubDate": "2026-08-17T01:58:00.000Z",
+          "excerpt": "Ban Quản lý dự án các công trình điện miền Trung (CPMB) và Ban Quản lý dự án các công trình điện miền Nam (SPMB) thuộc Tổng công tyTruyền tải điện quốc gia…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Doanh nghiệp FDI đánh giá cao khả năng R&D, kiến tạo sản phẩm của Việt Nam",
+          "link": "https://cafef.vn/doanh-nghiep-fdi-danh-gia-cao-kha-nang-rd-kien-tao-san-pham-cua-viet-nam-188260817072716023.chn",
+          "pubDate": "2026-08-17T01:28:00.000Z",
+          "excerpt": "Doanh nghiệp FDI đánh giá cao khả năng R&D, kiến tạo sản phẩm của Việt Nam",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Quảng Trị: Đón chuyến bay đầu tiên Nha Trang - Đồng Hới",
           "link": "https://cafef.vn/quang-tri-don-chuyen-bay-dau-tien-nha-trang-dong-hoi-188260817073621277.chn",
           "pubDate": "2026-08-17T00:56:00.000Z",
@@ -262,7 +295,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Quảng Trị đón chuyến bay đầu tiên từ Khánh Hòa đến Cảng hàng không Đồng Hới vào ngày 16/8."
+          "condensed": "Quảng Trị đón chuyến bay đầu tiên từ Nha Trang đến Đồng Hới."
         },
         {
           "title": "Du lịch nội đô lên ngôi",
@@ -273,40 +306,7 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": "Du lịch nội đô TPHCM được khai thác trong kỳ nghỉ Quốc khánh 2/9."
-        },
-        {
-          "title": "Hải Phòng: Dồn lực giải phóng mặt bằng ‘siêu’ dự án đường sắt",
-          "link": "https://cafef.vn/hai-phong-don-luc-giai-phong-mat-bang-sieu-du-an-duong-sat-18826081707185909.chn",
-          "pubDate": "2026-08-17T00:24:00.000Z",
-          "excerpt": "Lãnh đạo TP Hải Phòng yêu cầu hoàn thành giải phóng mặt bằng (GPMB) “siêu” dự án đường sắt Lào Cai - Hà Nội - Hải Phòng, đoạn qua thành phố, trong tháng 9/2026.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Hải Phòng yêu cầu hoàn thành giải phóng mặt bằng dự án đường sắt trong tháng 9/2026."
-        },
-        {
-          "title": "Toàn văn: Nghị định 154/2025/NĐ-CP quy định về tinh giản biên chế",
-          "link": "https://cafef.vn/toan-van-nghi-dinh-154-2025-nd-cp-quy-dinh-ve-tinh-gian-bien-che-188260816163616992.chn",
-          "pubDate": "2026-08-16T10:30:00.000Z",
-          "excerpt": "Toàn văn Nghị định số 154/2025/NĐ-CP ngày 15/6/2025 của Chính phủ quy định về tinh giản biên chế. Nghị định này có hiệu lực thi hành từ ngày 16/6/2025; thay…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Sắp xếp, sáp nhập trường học: Quy trình nhân sự; chấm điểm lựa chọn bổ nhiệm hiệu trưởng",
-          "link": "https://cafef.vn/sap-xep-sap-nhap-truong-hoc-quy-trinh-nhan-su-cham-diem-lua-chon-bo-nhiem-hieu-truong-188260816163045189.chn",
-          "pubDate": "2026-08-16T10:02:00.000Z",
-          "excerpt": "UBND tỉnh Ninh Bình ban hành Quy trình thực hiện đề xuất nhân sự và tiêu chí rà soát, đánh giá, sàng lọc, lựa chọn bổ nhiệm hiệu trưởng trường học sau sắp xếp…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": "Ninh Bình ban hành quy trình thực hiện đề xuất nhân sự và tiêu chí rà soát hiệu trưởng trường học."
         },
         {
           "title": "“Thủ tục đầu tư theo chuỗi” lần đầu tiên được đưa vào hệ thống luật pháp",
@@ -317,7 +317,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "Thủ tục đầu tư theo chuỗi được đưa vào hệ thống luật pháp Việt Nam."
+          "condensed": null
         },
         {
           "title": "Khởi công 5 dự án gần 7.600 tỷ đồng tại xã Thịnh Minh, tỉnh Phú Thọ",
@@ -339,7 +339,7 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": "TP.Hồ Chí Minh ban hành khung quản lý mới về vận tải hành khách công cộng bằng xe buýt."
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,6 +349,17 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
+          "link": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+          "pubDate": "2026-08-17T02:24:00.000Z",
+          "excerpt": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": "US stock futures remained steady on Sunday"
+        },
+        {
           "title": "USS Lincoln leaders making mental health ‘a priority’ during long deployment: US commander",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3364224/uss-lincoln-leaders-making-mental-health-priority-during-long-deployment-us-commander?utm_source=rss_feed",
           "pubDate": "2026-08-17T01:00:29.000Z",
@@ -357,18 +368,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "US commander prioritizes mental health for USS Abraham Lincoln crew"
-        },
-        {
-          "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
-          "link": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
-          "pubDate": "2026-08-17T00:55:00.000Z",
-          "excerpt": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": "US stock futures remain steady ahead of Fed hints"
+          "condensed": null
         },
         {
           "title": "Trump says US will scale back military drills with South Korea",
@@ -379,7 +379,7 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": "Trump claims joint US-South Korea exercises send hostile message"
+          "condensed": "Trump announced the US will reduce military drills with South Korea"
         },
         {
           "title": "Trump orders Pentagon to scale back joint military exercises with South Korea",
@@ -390,7 +390,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "Trump orders Pentagon to scale back US-South Korea military exercises"
+          "condensed": "Trump ordered the Pentagon to scale back joint exercises with South Korea"
         },
         {
           "title": "Chokepoints and the cost of cutting off access",
@@ -401,7 +401,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "Elon Musk refused Ukraine's request for Starlink coverage"
+          "condensed": "Elon Musk refused Ukraine's request to activate Starlink"
         },
         {
           "title": "Prosecutors Focus on Four Businesses Tied to Dodgers Owner Mark Walter",
@@ -412,7 +412,7 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": "Prosecutors investigate businesses tied to Dodgers owner Mark Walter"
+          "condensed": null
         },
         {
           "title": "US Attorney General Blanche defends colleague after Trump’s reflecting pool slam",
@@ -423,7 +423,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "US Attorney General defends colleague after Trump criticism"
+          "condensed": null
         },
         {
           "title": "5 dead, 4 seriously injured in head-on motorway collision in Ireland",
@@ -434,7 +434,7 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": "Five teenagers die in Ireland motorway collision"
+          "condensed": "A head-on collision in Ireland killed five teenagers"
         }
       ],
       "aiSummary": null
