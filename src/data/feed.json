@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T14:36:50.449Z",
+  "lastUpdated": "2026-08-18T15:35:08.299Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4453.7,
+      "value": 4408.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7710.47,
-      "change": -17.729999999999563,
-      "changePercent": -0.22941952848010613
+      "value": 7698.77,
+      "change": -29.42999999999938,
+      "changePercent": -0.38081312595428923
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26372.172,
-      "change": -73.27800000000207,
-      "changePercent": -0.27709114422330516
+      "value": 26315.043,
+      "change": -130.40699999999924,
+      "changePercent": -0.4931169634095818
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26183.51,
-      "change": -207.90999999999985,
-      "changePercent": -0.7877939118092163
+      "value": 26134.02,
+      "change": -257.3999999999978,
+      "changePercent": -0.9753169780178477
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Ông Phạm Chí Trực từ nhiệm",
+          "link": "https://cafef.vn/ong-pham-chi-truc-tu-nhiem-188260818214653392.chn",
+          "pubDate": "2026-08-18T14:47:00.000Z",
+          "excerpt": "Ông Phạm Chí Trực sinh năm 1975, có trình độ cử nhân tài chính - kế toán. Thời điểm ông Trực xin nghỉ vị trí Kế toán trưởng Codupha đúng tròn một năm kể từ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Shipper trộm két sắt chủ nhà, lấy 31 nhẫn vàng",
           "link": "https://cafef.vn/shipper-trom-ket-sat-chu-nha-lay-31-nhan-vang-188260818212056046.chn",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Giới chuyên gia dự báo Fed giữ nguyên lãi suất trong năm nay",
-          "link": "https://vneconomy.vn/gioi-chuyen-gia-du-bao-fed-giu-nguyen-lai-suat-trong-nam-nay.htm",
-          "pubDate": "2026-08-18T13:07:43.000Z",
-          "excerpt": "Trong một cuộc khảo sát của hãng tin Reuters, các nhà kinh tế dự báo Cục Dự trữ Liên bang Mỹ (Fed) sẽ giữ nguyên lãi suất trong cuộc họp tháng 9 và cho tới hết…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Tin vui: Hà Nội triển khai dự án có hơn 8.000 căn nhà ở giá rẻ",
+          "link": "https://cafef.vn/tin-vui-ha-noi-trien-khai-du-an-co-hon-8000-can-nha-o-gia-re-188260818223100287.chn",
+          "pubDate": "2026-08-18T15:30:00.000Z",
+          "excerpt": "Hà Nội vừa khởi công Khu nhà ở xã hội Tiên Dương 2 tại xã Phúc Thịnh, quy mô gần 40 ha, gồm 21 tòa nhà, dự kiến cung cấp hơn 8.000 căn hộ.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Hà Nội 'chốt' hạn bàn giao hệ thống thoát nước của 26 khu đô thị",
           "link": "https://cafef.vn/ha-noi-chot-han-ban-giao-he-thong-thoat-nuoc-cua-26-khu-do-thi-188260818205052027.chn",
@@ -196,17 +207,6 @@
           "link": "https://cafef.vn/tphcm-nghien-cuu-huy-dong-nguon-luc-tu-quy-dat-gan-voi-phat-trien-ha-tang-giao-thong-188260818155711608.chn",
           "pubDate": "2026-08-18T12:51:00.000Z",
           "excerpt": "Đồng chí Võ Văn Minh lưu ý, với những vấn đề lớn như phát triển không gian ngầm, khu đô thị mới hoặc chuyển đổi công năng các khu công nghiệp, cần chuẩn bị kỹ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nam Hà Nội có thêm trung tâm thương mại, sân bay quốc tế, tăng lợi thế cho Sun Urban City",
-          "link": "https://cafef.vn/nam-ha-noi-co-them-trung-tam-thuong-mai-san-bay-quoc-te-tang-loi-the-cho-sun-urban-city-188260818192124814.chn",
-          "pubDate": "2026-08-18T12:30:00.000Z",
-          "excerpt": "Hạ tầng đô thị liên tục được hoàn thiện bởi những mảnh ghép chiến lược như quy hoạch cảng hàng không quốc tế, khởi công trung tâm thương mại, bệnh viện, trường…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -254,6 +254,28 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Từ 1-9, TPHCM sẽ áp dụng giá thu gom rác theo mức mới",
+          "link": "https://cafef.vn/tu-1-9-tphcm-se-ap-dung-gia-thu-gom-rac-theo-muc-moi-188260818220544605.chn",
+          "pubDate": "2026-08-18T15:24:00.000Z",
+          "excerpt": "Ngày 18-8, Phó Chủ tịch UBND TPHCM Bùi Minh Thạnh ký Quyết định 65/2026 ban hành Quy định về giá cụ thể đối với dịch vụ thu gom, vận chuyển, xử lý chất thải…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "20 doanh nghiệp Việt bị điều tra chống bán phá giá thép không gỉ cán nguội",
+          "link": "https://cafef.vn/20-doanh-nghiep-viet-bi-dieu-tra-chong-ban-pha-gia-thep-khong-gi-can-nguoi-188260818220950174.chn",
+          "pubDate": "2026-08-18T15:10:00.000Z",
+          "excerpt": "Ngày 18-8 Bộ Công Thương cho biết, Cơ quan quản lý Tài chính Đài Loan (Trung Quốc) vừa ban hành thông báo khởi xướng điều tra chống bán phá giá đối với một số…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Xuất hiện tình trạng công chức thuế vòi vĩnh, gây khó dễ cho người nộp thuế, Cục Thuế ra công văn hoả tốc",
           "link": "https://cafef.vn/xuat-hien-tinh-trang-cong-chuc-thue-voi-vinh-gay-kho-de-cho-nguoi-nop-thue-cuc-thue-ra-cong-van-hoa-toc-188260818170409027.chn",
           "pubDate": "2026-08-18T11:03:00.000Z",
@@ -298,28 +320,6 @@
           "condensed": null
         },
         {
-          "title": "Triển khai hoàn thuế giá trị gia tăng tự động từ tháng 12/2026",
-          "link": "https://cafef.vn/trien-khai-hoan-thue-gia-tri-gia-tang-tu-dong-tu-thang-12-2026-188260818154020749.chn",
-          "pubDate": "2026-08-18T09:50:00.000Z",
-          "excerpt": "Ngành thuế đặt mục tiêu triển khai hoàn thuế giá trị gia tăng tự động từ tháng 12/2026, rút ngắn thời gian xử lý và hỗ trợ doanh nghiệp khơi thông dòng tiền.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Bố trí lực lượng trực 24/7, công bố đường dây nóng phục vụ vận tải dịp Quốc khánh 2-9",
-          "link": "https://cafef.vn/bo-tri-luc-luong-truc-24-7-cong-bo-duong-day-nong-phuc-vu-van-tai-dip-quoc-khanh-2-9-188260818152143324.chn",
-          "pubDate": "2026-08-18T09:15:00.000Z",
-          "excerpt": "Ngày 18-8, Bộ Xây dựng có văn bản yêu cầu các đơn vị vận tải chủ động tăng phương tiện, bảo đảm không để hành khách không có phương tiện đi lại; đồng thời tăng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Bộ Xây dựng yêu cầu làm rõ sự cố chuyến bay VN34 tại Munich",
           "link": "https://vneconomy.vn/bo-xay-dung-yeu-cau-lam-ro-su-co-chuyen-bay-vn34-tai-munich.htm",
           "pubDate": "2026-08-18T07:05:13.000Z",
@@ -331,14 +331,14 @@
           "condensed": null
         },
         {
-          "title": "Kinh tế 7 tháng năm 2026: Giữ vững đà tăng trưởng, những ràng buộc mới đang hình thành",
-          "link": "https://vneconomy.vn/kinh-te-7-thang-nam-2026-giu-vung-da-tang-truong-nhung-rang-buoc-moi-dang-hinh-thanh.htm",
-          "pubDate": "2026-08-18T04:04:07.000Z",
-          "excerpt": "Bảy tháng đầu năm 2026, kinh tế nước ta tiếp tục duy trì đà phục hồi trong bối cảnh kinh tế thế giới còn nhiều bất định. Sản xuất công nghiệp khởi sắc, đầu tư…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
+          "title": "VinaCapital: Cổ phiếu vẫn hấp dẫn dù lãi suất lên 9%",
+          "link": "https://vnexpress.net/vinacapital-co-phieu-van-hap-dan-du-lai-suat-len-9-5110329.html",
+          "pubDate": "2026-08-18T05:31:38.000Z",
+          "excerpt": "Trong bối cảnh lãi suất neo cao, VinaCapital cho rằng cổ phiếu vẫn hấp dẫn nhờ định giá giảm mạnh, nhiều cơ hội tăng gấp đôi trong 1-3 năm tới.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -348,6 +348,50 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "6% Treasury yields are the biggest risk facing stocks right now. Here’s why.",
+          "link": "https://www.marketwatch.com/story/6-treasury-yields-are-the-biggest-risk-facing-stocks-right-now-heres-why-04fb9bbe?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T15:16:00.000Z",
+          "excerpt": "A global bond-market rout was starting to put some pressure on stocks on Tuesday, as major U.S. indexes headed for a third-straight session in the red.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
+          "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T15:15:00.000Z",
+          "excerpt": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "In Spain’s Ceuta, migrant women tell of sexual harassment: ‘it’s really bad’",
+          "link": "https://www.scmp.com/news/world/europe/article/3364474/spains-ceuta-migrant-women-tell-sexual-harassment-its-really-bad?utm_source=rss_feed",
+          "pubDate": "2026-08-18T15:05:13.000Z",
+          "excerpt": "Some women who entered Spain’s ⁠North African enclave of Ceuta on July 30 as part of a mass migrant crossing say the ⁠hardships of sleeping rough as they wait…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
+          "link": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T15:00:00.000Z",
+          "excerpt": "“I don’t expect my marginal tax rate to be materially different in the future.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
         {
           "title": "‘This is very stressful’: My son’s roof was damaged in a storm, but his insurance won’t pay. How can he fight this?",
           "link": "https://www.marketwatch.com/story/this-is-very-stressful-my-sons-insurance-company-wont-pay-for-his-damaged-roof-how-can-he-fight-this-22f3a821?mod=mw_rss_topstories",
@@ -364,28 +408,6 @@
           "link": "https://www.marketwatch.com/story/u-s-investors-have-been-buying-stocks-all-month-and-are-sitting-on-profits-heres-what-might-make-them-sell-0371e78a?mod=mw_rss_topstories",
           "pubDate": "2026-08-18T14:18:00.000Z",
           "excerpt": "Given that investors are sitting on unrealized gains and there few short positions remain open, the markets are more vulnerable to a downturn in economic news…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
-          "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T14:16:00.000Z",
-          "excerpt": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘Too many people go bankrupt’: Should Medicare provide catastrophic coverage?",
-          "link": "https://www.marketwatch.com/story/too-many-people-go-bankrupt-should-medicare-provide-catastrophic-coverage-f7c653da?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T14:07:00.000Z",
-          "excerpt": "“Such a system would help ensure that no one is financially devastated by a serious illness or injury.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -412,28 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "I used a human travel agent instead of AI — and cut $2,000 off the price of my European vacation",
-          "link": "https://www.marketwatch.com/story/i-used-a-human-travel-agent-instead-of-ai-and-cut-2-000-off-the-price-of-my-european-vacation-e8b344cb?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T13:55:00.000Z",
-          "excerpt": "Plus: Take our investing survey",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Government borrowing costs hit multi-decade highs",
-          "link": "https://www.ft.com/content/61354e68-c4ba-4716-b849-b332608c8c65?syn-25a6b1a6=1",
-          "pubDate": "2026-08-18T13:32:33.000Z",
-          "excerpt": "Fears over inflation and AI issuance spur bond sell-off",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         }
       ],
