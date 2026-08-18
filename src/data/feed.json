@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T12:52:04.107Z",
+  "lastUpdated": "2026-08-18T13:45:06.308Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4448.6,
+      "value": 4449.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7745.06,
-      "change": -8.049999999999272,
-      "changePercent": -0.103829302047814
+      "value": 7711.23,
+      "change": -16.970000000000255,
+      "changePercent": -0.21958541445615093
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26644.91,
-      "change": 39.54999999999927,
-      "changePercent": 0.1486542561348513
+      "value": 26377.598,
+      "change": -67.85199999999895,
+      "changePercent": -0.25657343701846236
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26247.49,
-      "change": -143.92999999999665,
-      "changePercent": -0.5453666380967628
+      "value": 26225.78,
+      "change": -165.63999999999942,
+      "changePercent": -0.627628221596259
     }
   ],
   "themes": [
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Giới chuyên gia dự báo Fed giữ nguyên lãi suất trong năm nay",
+          "link": "https://vneconomy.vn/gioi-chuyen-gia-du-bao-fed-giu-nguyen-lai-suat-trong-nam-nay.htm",
+          "pubDate": "2026-08-18T13:07:43.000Z",
+          "excerpt": "Trong một cuộc khảo sát của hãng tin Reuters, các nhà kinh tế dự báo Cục Dự trữ Liên bang Mỹ (Fed) sẽ giữ nguyên lãi suất trong cuộc họp tháng 9 và cho tới hết…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Fubon FTSE rút ròng hơn 3.000 tỷ từ đầu năm",
+          "link": "https://vneconomy.vn/fubon-ftse-rut-rong-hon-3000-ty-tu-dau-nam.htm",
+          "pubDate": "2026-08-18T13:06:58.000Z",
+          "excerpt": "Xét lũy kế từ đầu năm, quy mô rút ròng các ETF 5.403,5 tỷ đồng vẫn là điểm đáng lưu ý, đặc biệt khi VanEck Vietnam ETF ghi nhận mức rút ròng 1.369,0 tỷ đồng.…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Vì sao người dân thích gửi tiền ngân hàng?",
+          "link": "http://vietstock.vn/2026/08/vi-sao-nguoi-dan-thich-gui-tien-ngan-hang-757-1482225.htm",
+          "pubDate": "2026-08-18T12:40:00.000Z",
+          "excerpt": "Dù lãi suất đã qua giai đoạn đỉnh điểm, nhưng tiền gửi của người dân vẫn liên tục đổ vào ngân hàng. Điều gì khiến ngân hàng trở thành “bến đỗ” của dòng tiền…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
         {
           "title": "Lãi suất trái phiếu bất động sản cao hơn gửi tiết kiệm ngân hàng",
           "link": "https://cafef.vn/lai-suat-trai-phieu-bat-dong-san-cao-hon-gui-tiet-kiem-ngan-hang-188260818190153569.chn",
@@ -117,39 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Chuyển đổi số ngành Ngân hàng bước sang giai đoạn khai thác dữ liệu, ứng dụng AI",
-          "link": "http://vietstock.vn/2026/08/chuyen-doi-so-nganh-ngan-hang-buoc-sang-giai-doan-khai-thac-du-lieu-ung-dung-ai-757-1482189.htm",
-          "pubDate": "2026-08-18T10:00:18.000Z",
-          "excerpt": "Sau 5 năm đẩy mạnh chuyển đổi số, ngành ngân hàng đang chuyển trọng tâm từ số hóa, kết nối dữ liệu sang khai thác dữ liệu, ứng dụng trí tuệ nhân tạo (AI) và…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "SACOMBANK đưa tài chính số đến gần hơn với đời sống người dân",
-          "link": "http://vietstock.vn/2026/08/sacombank-dua-tai-chinh-so-den-gan-hon-voi-doi-song-nguoi-dan-757-1482209.htm",
-          "pubDate": "2026-08-18T09:37:04.000Z",
-          "excerpt": "Tại sự kiện Chuyển đổi số ngành Ngân hàng 2026, SACOMBANK mang đến những sản phẩm tài chính nổi bật với cách tiếp cận khác biệt, gần gũi, cởi mở và tiện lợi.…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "HOSE cắt margin 3 cổ phiếu do lỗ quý 2/2026",
-          "link": "https://vneconomy.vn/hose-cat-margin-3-co-phieu-do-lo-quy-22026.htm",
-          "pubDate": "2026-08-18T09:29:24.000Z",
-          "excerpt": "HOSE đã đưa 3 mã chứng khoán MCP của CTCP In và Bao Bì Mỹ Châu, NHA của Tổng Công ty đầu tư Phát triển Nhà và Đô thị Nam Hà Nội; SMA của CTCP Thiết bị Phụ tùng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "TPHCM nghiên cứu huy động nguồn lực từ quỹ đất gắn với phát triển hạ tầng giao thông",
+          "link": "https://cafef.vn/tphcm-nghien-cuu-huy-dong-nguon-luc-tu-quy-dat-gan-voi-phat-trien-ha-tang-giao-thong-188260818155711608.chn",
+          "pubDate": "2026-08-18T12:51:00.000Z",
+          "excerpt": "Đồng chí Võ Văn Minh lưu ý, với những vấn đề lớn như phát triển không gian ngầm, khu đô thị mới hoặc chuyển đổi công năng các khu công nghiệp, cần chuẩn bị kỹ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Nam Hà Nội có thêm trung tâm thương mại, sân bay quốc tế, tăng lợi thế cho Sun Urban City",
           "link": "https://cafef.vn/nam-ha-noi-co-them-trung-tam-thuong-mai-san-bay-quoc-te-tang-loi-the-cho-sun-urban-city-188260818192124814.chn",
@@ -196,17 +207,6 @@
           "link": "https://cafef.vn/du-an-mo-rong-cao-toc-tphcm-trung-luong-my-thuan-thi-cong-cam-chung-188260818180536524.chn",
           "pubDate": "2026-08-18T11:36:00.000Z",
           "excerpt": "Dự án mở rộng cao tốc TPHCM - Trung Lương - Mỹ Thuận qua địa bàn TPHCM đang gặp khó do chưa được bàn giao mặt bằng. Nhà thầu cho biết chỉ còn khoảng 27-30m mặt…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "TPHCM: Gần 50.000 hồ sơ bất động sản được cấp giấy chứng nhận",
-          "link": "https://cafef.vn/tphcm-gan-50000-ho-so-bat-dong-san-duoc-cap-giay-chung-nhan-188260818155837638.chn",
-          "pubDate": "2026-08-18T11:19:00.000Z",
-          "excerpt": "So với mục tiêu cấp 68.000 giấy chứng nhận cho các hồ sơ bất động sản (gồm nhà, căn hộ, chỗ đậu xe…) trong năm 2026, đến tại thời điểm này, TPHCM đã xử lý cho…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,6 +349,50 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Global bond sell-off deepens",
+          "link": "https://www.ft.com/content/61354e68-c4ba-4716-b849-b332608c8c65?syn-25a6b1a6=1",
+          "pubDate": "2026-08-18T13:32:33.000Z",
+          "excerpt": "Fears over inflation and AI issuance drive long-term government borrowing costs to multi-decade highs",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Stocks keep shrugging off rising Treasury yields. Here’s the level that could finally trigger a selloff.",
+          "link": "https://www.marketwatch.com/story/stocks-keep-shrugging-off-rising-treasury-yields-heres-the-level-that-could-finally-trigger-a-selloff-80c1634c?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T13:06:00.000Z",
+          "excerpt": "The yield on the 10-year Treasury yield continues to climb, but our call of the day from Strategas says that ascent will be much higher before stocks start to…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Disney sues FCC over Trump’s broadcast-license threat",
+          "link": "https://www.marketwatch.com/story/disney-sues-fcc-over-broadcast-license-threat-9fb4745d?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T12:58:00.000Z",
+          "excerpt": "Disney says the Trump administration “has attacked ABC’s speech — the stories its journalists report and the viewpoints its network programs air.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "How do I deal with co-workers who constantly complain about the dumbest problems?",
+          "link": "https://www.marketwatch.com/story/how-do-i-deal-with-co-workers-who-constantly-complain-about-the-dumbest-problems-44060bc7?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T12:56:00.000Z",
+          "excerpt": "“They work from home, make six figures, have a good work-life balance and can take breaks pretty much whenever they want.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "German court convicts Ukrainian man over Russian sabotage plot",
           "link": "https://www.scmp.com/news/world/europe/article/3364460/german-court-convicts-ukrainian-man-over-russian-sabotage-plot?utm_source=rss_feed",
           "pubDate": "2026-08-18T12:41:00.000Z",
@@ -371,17 +415,6 @@
           "condensed": null
         },
         {
-          "title": "Stocks keep shrugging off rising Treasury yields. Here’s the level that could finally trigger a selloff.",
-          "link": "https://www.marketwatch.com/story/stocks-keep-shrugging-off-rising-treasury-yields-heres-the-level-that-could-finally-trigger-a-selloff-80c1634c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T12:17:00.000Z",
-          "excerpt": "The yield on the 10-year Treasury yield continues to climb, but our call of the day from Strategas says that ascent will be much higher before stocks start to…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
           "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
           "pubDate": "2026-08-18T12:16:00.000Z",
@@ -393,47 +426,14 @@
           "condensed": null
         },
         {
-          "title": "Fund managers have rarely been this bullish about stocks, says a Bank of America survey",
-          "link": "https://www.marketwatch.com/story/fund-manager-have-rarely-been-this-bullish-about-stocks-says-bank-of-america-survey-dccd304a?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T12:07:00.000Z",
-          "excerpt": "Higher interest rates, a global slowdown, political instability and AI capex are just four things about which investors aren’t especially troubled in late…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Russia says its economy is strong. It just fired a top economist who warned otherwise",
-          "link": "https://www.cnbc.com/2026/08/18/ukraine-war-russia-economy-klepach.html",
-          "pubDate": "2026-08-18T11:51:15.000Z",
-          "excerpt": "Andrei Klepach was reportedly fired from his role after presenting a report warning that Russia could not win a prolonged war of attrition with Ukraine.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "The TI-84 has ruled math classes for decades. Can cheaper calculators gain ground?",
-          "link": "https://www.marketwatch.com/story/the-ti-84-has-ruled-math-classes-for-decades-can-cheaper-calculators-gain-ground-4c4554af?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T11:51:00.000Z",
-          "excerpt": "SAT and AP tests now offer free digital graphing options for students, but it’s harder than it seems for school districts to look beyond Texas Instruments.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Syrian court sentences detained Assad cousin to death for crimes against humanity",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3364452/syrian-court-sentences-detained-assad-cousin-death-crimes-against-humanity?utm_source=rss_feed",
-          "pubDate": "2026-08-18T11:45:12.000Z",
-          "excerpt": "A Syrian court on Tuesday handed a death sentence to Wassim al-Assad who appeared in the dock, a cousin of long-time ruler Bashar al-Assad who was himself…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Forget the bond rout, fund managers are in party mode",
+          "link": "https://www.ft.com/content/e57f1e66-578e-42c9-8e59-37fe05067032",
+          "pubDate": "2026-08-18T12:04:11.000Z",
+          "excerpt": "Ain’t no party like a capex party, because apparently a capex party don’t stop",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         }
       ],
