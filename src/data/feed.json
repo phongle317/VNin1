@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T07:41:06.461Z",
+  "lastUpdated": "2026-08-18T08:40:48.333Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4459.3,
+      "value": 4444.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25473.51,
-      "change": -179.3100000000013,
-      "changePercent": -0.6989874797390747
+      "value": 25471.15,
+      "change": -181.66999999999825,
+      "changePercent": -0.7081872480296445
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26248.73,
-      "change": -142.6899999999987,
-      "changePercent": -0.5406681413883705
+      "value": 26194.86,
+      "change": -196.55999999999767,
+      "changePercent": -0.7447875104863538
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Thanh khoản “khô kiệt”, phục hồi thất bại",
+          "link": "https://vneconomy.vn/thanh-khoan-kho-kiet-phuc-hoi-that-bai.htm",
+          "pubDate": "2026-08-18T08:29:14.000Z",
+          "excerpt": "Mặc dù VN-Index vẫn còn xanh ở những phút cuối, nhưng diễn biến chủ đạo trong phiên chiều là trượt giảm. Thêm nữa ngay cả khi một số trụ lớn vẫn neo giá thành…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "HSBC: Tăng trưởng cao, tỷ giá và lãi suất tìm “điểm cân bằng” giai đoạn cuối 2026",
           "link": "https://vneconomy.vn/hsbc-tang-truong-cao-ty-gia-va-lai-suat-tim-diem-can-bang-giai-doan-cuoi-2026.htm",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "HSBC: Áp lực tỷ giá và điều hành lãi suất trong nửa cuối 2026",
-          "link": "http://vietstock.vn/2026/08/hsbc-ap-luc-ty-gia-va-dieu-hanh-lai-suat-trong-nua-cuoi-2026-757-1482017.htm",
-          "pubDate": "2026-08-18T04:46:01.000Z",
-          "excerpt": "Trong bối cảnh nền kinh tế tăng trưởng nhanh đi kèm nhu cầu vốn và áp lực ngoại tệ gia tăng, bài toán điều hành vĩ mô nửa cuối năm 2026 đặt trọng tâm vào việc…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,10 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Cần quy định cụ thể vấn đề phạt cọc trong hợp đồng mua bán bất động sản",
-          "link": "https://cafef.vn/can-quy-dinh-cu-the-van-de-phat-coc-trong-hop-dong-mua-ban-bat-dong-san-188260818142831967.chn",
-          "pubDate": "2026-08-18T07:28:00.000Z",
-          "excerpt": "Quy định giới hạn tiền đặt cọc không quá 5% giá bán, cho thuê mua bất động sản tại Dự thảo Luật Kinh doanh bất động sản (sửa đổi) được kỳ vọng góp phần bảo vệ…",
+          "title": "Tỷ phú Phạm Nhật Vượng đang cho xây tòa tháp 45 tầng hiện đại hàng đầu châu Á giữa đại đô thị 6.200ha, tổng vốn gần 18 tỷ USD",
+          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-dang-cho-xay-toa-thap-45-tang-hien-dai-hang-dau-chau-a-giua-dai-do-thi-6200ha-tong-von-gan-18-ty-usd-188260818150118976.chn",
+          "pubDate": "2026-08-18T08:21:00.000Z",
+          "excerpt": "Tòa tháp Wonder Tower 45 tầng là một trong những điểm nhấn của đại đô thị Vinhomes Global Gate Hạ Long, được định hướng trở thành tòa tháp văn phòng thông…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +170,10 @@
           "condensed": null
         },
         {
-          "title": "Thủ đoạn lừa đảo của nữ môi giới bất động sản",
-          "link": "https://cafef.vn/thu-doan-lua-dao-cua-nu-moi-gioi-bat-dong-san-188260818140056525.chn",
-          "pubDate": "2026-08-18T07:25:00.000Z",
-          "excerpt": "Với thủ đoạn dựng kịch bản mua bán đất để chiếm đoạt tiền đặt cọc; giả chuyện người thân gặp nạn để vay tiền và quỵt cước của nhiều tài xế taxi, Đậu Thị Huyền…",
+          "title": "Những cây cầu mở không gian phát triển mới của Thủ đô",
+          "link": "https://cafef.vn/nhung-cay-cau-mo-khong-gian-phat-trien-moi-cua-thu-do-188260818142150494.chn",
+          "pubDate": "2026-08-18T08:11:00.000Z",
+          "excerpt": "Từ những công trường đang tăng tốc trên sông Hồng, một mạng lưới kết nối mới đang dần hình thành. 7 cây cầu không chỉ bổ sung năng lực giao thông, chia sẻ áp…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,10 +181,43 @@
           "condensed": null
         },
         {
-          "title": "Sau hơn 1 năm thi công, đại công trình 22.000 tỷ đồng có thể đón 50 triệu khách mỗi năm do Sun Group đầu tư đang triển khai ra sao?",
-          "link": "https://cafef.vn/sau-hon-1-nam-thi-cong-dai-cong-trinh-22000-ty-dong-co-the-don-50-trieu-khach-moi-nam-do-sun-group-dau-tu-dang-trien-khai-ra-sao-188260818135542928.chn",
-          "pubDate": "2026-08-18T07:17:00.000Z",
-          "excerpt": "Hơn 9.500 tấm kính nặng tới 400 - 500 kg/tấm cùng hơn 27.000 tấn kết cấu thép đang được khẩn trương lắp dựng, từng bước hoàn thiện diện mạo Nhà ga T2 - Cảng…",
+          "title": "Dự báo bất ngờ về diễn biến thị trường thứ cấp chung cư và thổ cư Hà Nội trong giai đoạn 2026-2027",
+          "link": "https://cafef.vn/du-bao-bat-ngo-ve-dien-bien-thi-truong-thu-cap-chung-cu-va-tho-cu-ha-noi-trong-giai-doan-2026-2027-188260818150708801.chn",
+          "pubDate": "2026-08-18T08:02:00.000Z",
+          "excerpt": "Theo One Mount Group, sang năm 2027, giao dịch thứ cấp cao tầng dự kiến tập trung tại các đại đô thị và dự án nằm dọc Vành đai 3,5, trong khi thổ cư được kỳ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đề xuất phương án lưu thông trên đường Vành đai 1, đoạn Hoàng Cầu - Voi Phục",
+          "link": "https://cafef.vn/de-xuat-phuong-an-luu-thong-tren-duong-vanh-dai-1-doan-hoang-cau-voi-phuc-188260818142224405.chn",
+          "pubDate": "2026-08-18T07:54:00.000Z",
+          "excerpt": "Ban Quản lý dự án đầu tư xây dựng công trình dân dụng thành phố Hà Nội vừa báo cáo Sở Xây dựng phương án thông xe kỹ thuật, lưu thông trên toàn tuyến đường…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Cửa ngõ Nam Thủ đô: Có trung tâm thương mại 900 tỷ đồng và sân bay quốc tế",
+          "link": "https://vneconomy.vn/cua-ngo-nam-thu-do-co-trung-tam-thuong-mai-900-ty-dong-va-san-bay-quoc-te.htm",
+          "pubDate": "2026-08-18T07:52:58.000Z",
+          "excerpt": "Hạ tầng đô thị liên tục được hoàn thiện bởi những mảnh ghép chiến lược như quy hoạch cảng hàng không quốc tế, khởi công trung tâm thương mại, bệnh viện, trường…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Căn hộ đến hạn nhận nhà: Áp lực bán trước kỳ thanh toán cuối",
+          "link": "https://cafef.vn/can-ho-den-han-nhan-nha-ap-luc-ban-truoc-ky-thanh-toan-cuoi-188260818142314344.chn",
+          "pubDate": "2026-08-18T07:37:00.000Z",
+          "excerpt": "Sau giai đoạn thị trường căn hộ tăng nóng, một bộ phận người mua nhà hình thành trong tương lai đang bước vào thời điểm phải thực hiện những khoản thanh toán…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -203,43 +236,10 @@
           "condensed": null
         },
         {
-          "title": "Chỉ dài 2,2 km nhưng cần tới 7.800 tỷ đồng để triển khai, tuyến đường \"đắt nhất hành tinh\" tại Việt Nam chuẩn bị đón cột mốc quan trọng vào đầu tháng 9",
-          "link": "https://cafef.vn/chi-dai-22-km-nhung-can-toi-7800-ty-dong-de-trien-khai-tuyen-duong-dat-nhat-hanh-tinh-tai-viet-nam-chuan-bi-don-cot-moc-quan-trong-vao-dau-thang-9-188260818135649936.chn",
-          "pubDate": "2026-08-18T06:58:00.000Z",
-          "excerpt": "Dự án Vành đai 1 đoạn Hoàng Cầu - Voi Phục đang bước vào giai đoạn nước rút để chuẩn bị thông xe trước dịp lễ Quốc khánh 2/9.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tăng tốc thi công siêu nút giao 2 cao tốc kết nối với sân bay Long Thành",
-          "link": "https://cafef.vn/tang-toc-thi-cong-sieu-nut-giao-2-cao-toc-ket-noi-voi-san-bay-long-thanh-188260818131741895.chn",
-          "pubDate": "2026-08-18T06:51:00.000Z",
-          "excerpt": "Hàng trăm máy móc, thiết bị được huy động để hoàn thiện nút giao Quốc lộ 51, Tân Hiệp, kết nối cao tốc Bến Lức - Long Thành với Biên Hòa - Vũng Tàu để kịp…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "TP HCM duyệt quy hoạch khu đô thị nhà ở xã hội gần 192 ha",
           "link": "https://vnexpress.net/tp-hcm-duyet-quy-hoach-khu-do-thi-nha-o-xa-hoi-gan-192-ha-5110275.html",
           "pubDate": "2026-08-18T04:42:20.000Z",
           "excerpt": "Đồ án quy hoạch phân khu tỷ lệ 1/2.000 Khu nhà ở xã hội Bà Điểm được duyệt với diện tích thực hiện gần 192 ha, quy mô dân số dự kiến 67.465 người.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Bồi thường đất mặt tiền Lương Định Của dự kiến cao nhất hơn 170 triệu đồng mỗi m2",
-          "link": "https://vnexpress.net/boi-thuong-dat-mat-tien-luong-dinh-cua-du-kien-cao-nhat-hon-170-trieu-dong-moi-m2-5110262.html",
-          "pubDate": "2026-08-18T04:01:00.000Z",
-          "excerpt": "Dự án nâng cấp, mở rộng đường Lương Định Của dự kiến thu hồi hơn 22.000 m2 đất tại phường Bình Trưng, với tổng chi phí bồi thường, hỗ trợ tạm tính khoảng 1.641…",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -253,6 +253,28 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Diện mạo đường Tam Trinh hơn 3.350 tỷ đồng dần thành hình sau giải phóng mặt bằng",
+          "link": "https://cafef.vn/dien-mao-duong-tam-trinh-hon-3350-ty-dong-dan-thanh-hinh-sau-giai-phong-mat-bang-188260818144513659.chn",
+          "pubDate": "2026-08-18T08:10:00.000Z",
+          "excerpt": "Sau khi công tác giải phóng mặt bằng cơ bản hoàn tất, dự án mở rộng đường Tam Trinh hơn 3.350 tỷ đồng đang được đẩy nhanh thi công, nhiều hạng mục dần lộ diện.…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Từ nay đến tháng 9, BHXH của hàng triệu người lao động sẽ có thay đổi quan trọng",
+          "link": "https://cafef.vn/tu-nay-den-thang-9-bhxh-cua-hang-trieu-nguoi-lao-dong-se-co-thay-doi-quan-trong-188260818144843931.chn",
+          "pubDate": "2026-08-18T07:48:00.000Z",
+          "excerpt": "Bảo hiểm Xã hội (BHXH) Thành phố Hà Nội vừa có Công văn số 5259/BHXH-QLT về việc chuyển đổi sử dụng số ĐDCN/CCCD thay thế mã số bảo hiểm xã hội, bộ mã quản lý…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Cà Mau: Lên phương án khắc phục cầu treo Rạch Ráng",
           "link": "https://cafef.vn/ca-mau-len-phuong-an-khac-phuc-cau-treo-rach-rang-188260818134024536.chn",
@@ -298,28 +320,6 @@
           "condensed": null
         },
         {
-          "title": "Bộ Nội vụ sẽ tham mưu điều chỉnh lương khu vực công nhằm động viên cán bộ",
-          "link": "https://cafef.vn/bo-noi-vu-se-tham-muu-dieu-chinh-luong-khu-vuc-cong-nham-dong-vien-can-bo-188260818113311367.chn",
-          "pubDate": "2026-08-18T06:15:00.000Z",
-          "excerpt": "Bộ Nội vụ sẽ báo cáo cấp có thẩm quyền xem xét, điều chỉnh chế độ tiền lương khu vực công nhằm động viên cán bộ, công chức, viên chức hoàn thành nhiệm vụ được…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "“Làm sạch” 617.000 mã số thuế để minh bạch môi trường kinh doanh",
-          "link": "https://cafef.vn/lam-sach-617000-ma-so-thue-de-minh-bach-moi-truong-kinh-doanh-188260818112620346.chn",
-          "pubDate": "2026-08-18T04:55:00.000Z",
-          "excerpt": "Ngành Thuế đang rà soát hơn 617.000 mã số thuế tồn đọng, đồng thời xem xét cách xử lý phù hợp với doanh nghiệp đã ngừng hoạt động nhưng chưa hoàn tất thủ tục.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Kinh tế 7 tháng năm 2026: Giữ vững đà tăng trưởng, những ràng buộc mới đang hình thành",
           "link": "https://vneconomy.vn/kinh-te-7-thang-nam-2026-giu-vung-da-tang-truong-nhung-rang-buoc-moi-dang-hinh-thanh.htm",
           "pubDate": "2026-08-18T04:04:07.000Z",
@@ -349,6 +349,50 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Global Bond Rout Deepens as Oil Holds Above $90",
+          "link": "https://www.wsj.com/finance/investing/global-bond-rout-deepens-as-oil-holds-above-90-f0124f3d?mod=rss_markets_main",
+          "pubDate": "2026-08-18T08:33:00.000Z",
+          "excerpt": "U.S. futures slipped and chip stocks were on track to open lower, with Micron Technology and Applied Materials both down more than 3% premarket.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Stock Market Today: Bond Rout Deepens",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026?mod=rss_markets_main",
+          "pubDate": "2026-08-18T08:10:32.000Z",
+          "excerpt": "Long-dated Treasurys sell off again",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "US strikes kept Iran’s fishermen off Hormuz. They can no longer afford to stay idle",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3364408/us-strikes-kept-irans-fishermen-hormuz-they-can-no-longer-afford-stay-idle?utm_source=rss_feed",
+          "pubDate": "2026-08-18T07:55:06.000Z",
+          "excerpt": "Aboard his boat moored along the Strait of Hormuz, Iranian fisherman Mohammad Amin mended a torn fishing net after a long day in waters that have long…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "UK employers shed jobs as labour market weakens further",
+          "link": "https://www.ft.com/content/1e9a7365-ee1f-489c-9dea-39a6fc33837b?syn-25a6b1a6=1",
+          "pubDate": "2026-08-18T07:01:30.000Z",
+          "excerpt": "Official figures also show unemployment edged higher in second quarter",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "Trump leans on India’s election playbook in push to change how Americans vote",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3364400/trump-leans-indias-election-playbook-push-change-how-americans-vote?utm_source=rss_feed",
           "pubDate": "2026-08-18T06:49:55.000Z",
@@ -357,28 +401,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Seoul rattled by Trump’s threat to drills at heart of US alliance",
-          "link": "https://www.ft.com/content/377d4c1c-1cbc-46b2-8c34-f2d578c6d595?syn-25a6b1a6=1",
-          "pubDate": "2026-08-18T04:18:51.000Z",
-          "excerpt": "US president’s eleventh-hour demand to ‘reduce’ annual exercises and praise of Kim Jong Un unsettles ally",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Trump’s cuts to South Korean drills stir doubts about US resolve in Asia",
-          "link": "https://www.ft.com/content/1d713822-e68f-4476-be94-ffab3418bfe4?syn-25a6b1a6=1",
-          "pubDate": "2026-08-18T04:00:23.000Z",
-          "excerpt": "Decision comes as Pentagon pulls ships from Indo-Pacific to Middle East and Iran war depletes weapons stockpiles",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         },
         {
@@ -393,10 +415,10 @@
           "condensed": null
         },
         {
-          "title": "Can canned cocktails revive the booze business?",
-          "link": "https://www.ft.com/content/cf29e18e-c4d8-4a27-b7c7-3cf56d6eccf2?syn-25a6b1a6=1",
+          "title": "Why eyewear stores are taking over London’s high streets",
+          "link": "https://www.ft.com/content/4fcd8647-e3ba-4cd8-8dc0-4b0ff473cf39?syn-25a6b1a6=1",
           "pubDate": "2026-08-18T04:00:23.000Z",
-          "excerpt": "Young customers are flocking to ‘ready-to-drink’ beverages as other alcohol sales slump",
+          "excerpt": "Private equity-backed brands such as Cubitts, Ace & Tate and Jimmy Fairly compete for scale in financially alluring sector",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -404,36 +426,14 @@
           "condensed": null
         },
         {
-          "title": "AI hasn’t gone rogue. It’s worse than that",
-          "link": "https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0?syn-25a6b1a6=1",
-          "pubDate": "2026-08-18T04:00:14.000Z",
-          "excerpt": "Recent cyber attacks reflect what the technology was trained to do but safeguards are falling short",
+          "title": "Top UK civil servant received record £500,000 payout after Starmer sacking",
+          "link": "https://www.ft.com/content/6913fe7f-3ad8-47e6-8310-7caba5f5d58c?syn-25a6b1a6=1",
+          "pubDate": "2026-08-18T04:00:23.000Z",
+          "excerpt": "Sudden circumstances of Chris Wormald’s exit led to a much more generous settlement than initially thought",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "The ugly side of pressure on White House women to maintain Trump’s ‘Maga perfect’ image",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3364371/ugly-side-pressure-white-house-women-maintain-trumps-maga-perfect-image?utm_source=rss_feed",
-          "pubDate": "2026-08-18T03:56:20.000Z",
-          "excerpt": "Women working in US President Donald Trump’s White House were not surprised that press secretary Karoline Leavitt announced last week she was leaving her job –…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Nhà đầu tư Hàn Quốc làm gì trên Phố Wall mà chuyên gia phải thốt lên: “Quá điên rồ”?",
-          "link": "http://vietstock.vn/2026/08/nha-dau-tu-han-quoc-lam-gi-tren-pho-wall-ma-chuyen-gia-phai-thot-len-qua-dien-ro-773-1481967.htm",
-          "pubDate": "2026-08-18T02:57:28.000Z",
-          "excerpt": "Nhà đầu tư cá nhân Hàn Quốc đang đổ tiền vào thị trường chứng khoán Mỹ để tránh nguy cơ điều chỉnh tại thị trường trong nước, ngay cả khi dòng vốn quốc tế vẫn…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
           "condensed": null
         }
       ],
