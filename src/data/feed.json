@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T15:35:08.299Z",
+  "lastUpdated": "2026-08-18T16:35:19.050Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4408.4,
+      "value": 4423,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7698.77,
-      "change": -29.42999999999938,
-      "changePercent": -0.38081312595428923
+      "value": 7702.89,
+      "change": -25.30999999999949,
+      "changePercent": -0.3275018762454322
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26315.043,
-      "change": -130.40699999999924,
-      "changePercent": -0.4931169634095818
+      "value": 26340.758,
+      "change": -104.6919999999991,
+      "changePercent": -0.395879064262469
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26134.02,
-      "change": -257.3999999999978,
-      "changePercent": -0.9753169780178477
+      "value": 26128.36,
+      "change": -263.0599999999977,
+      "changePercent": -0.9967633420255435
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Xác suất cao VN-Index có thể dần tìm lại điểm cân bằng quanh khu vực 1730",
+          "link": "https://vneconomy.vn/xac-suat-cao-vn-index-co-the-dan-tim-lai-diem-can-bang-quanh-khu-vuc-1730.htm",
+          "pubDate": "2026-08-18T16:01:23.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 19/8/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Ông Phạm Chí Trực từ nhiệm",
           "link": "https://cafef.vn/ong-pham-chi-truc-tu-nhiem-188260818214653392.chn",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Bầu Đức lý giải giá chào bán 60.600 đồng của HGI",
-          "link": "https://vnexpress.net/bau-duc-ly-giai-gia-chao-ban-60-600-dong-cua-hgi-5110501.html",
-          "pubDate": "2026-08-18T13:54:00.000Z",
-          "excerpt": "Mức giá dự kiến chào bán 60.600 đồng một cổ phiếu HGI được cổ đông cho là cao, song Bầu Đức cho rằng cần nhìn vào triển vọng trong những năm tới.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Liên danh Vingroup muốn xây toà tháp 108 tầng bên bờ sông Hồng",
+          "link": "https://cafef.vn/lien-danh-vingroup-muon-xay-toa-thap-108-tang-ben-bo-song-hong-188260818223656083.chn",
+          "pubDate": "2026-08-18T15:36:00.000Z",
+          "excerpt": "Theo báo cáo ĐTM vừa công bố, Khu đô thị thông minh – sinh thái tại các xã Tàm Xá, Vĩnh Ngọc, Xuân Canh do liên danh Vingroup đầu tư sẽ lấy tòa tháp dịch vụ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Tin vui: Hà Nội triển khai dự án có hơn 8.000 căn nhà ở giá rẻ",
           "link": "https://cafef.vn/tin-vui-ha-noi-trien-khai-du-an-co-hon-8000-can-nha-o-gia-re-188260818223100287.chn",
@@ -196,17 +207,6 @@
           "link": "https://cafef.vn/tai-sao-thai-nguyen-huy-ket-qua-vu-dau-gia-khach-san-14-tang-188260818204843358.chn",
           "pubDate": "2026-08-18T13:44:00.000Z",
           "excerpt": "\"Thi hành án dân sự tỉnh Thái Nguyên đã hủy hợp đồng mua bán tài sản đấu giá là khách sạn 14 tầng. Việc hủy kết quả do các bên thỏa thuận theo quy định pháp…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "TPHCM nghiên cứu huy động nguồn lực từ quỹ đất gắn với phát triển hạ tầng giao thông",
-          "link": "https://cafef.vn/tphcm-nghien-cuu-huy-dong-nguon-luc-tu-quy-dat-gan-voi-phat-trien-ha-tang-giao-thong-188260818155711608.chn",
-          "pubDate": "2026-08-18T12:51:00.000Z",
-          "excerpt": "Đồng chí Võ Văn Minh lưu ý, với những vấn đề lớn như phát triển không gian ngầm, khu đô thị mới hoặc chuyển đổi công năng các khu công nghiệp, cần chuẩn bị kỹ…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Thủ tướng: Cắt chi phí trung gian để thuốc đến tay người bệnh giá thấp nhất",
+          "link": "https://cafef.vn/thu-tuong-cat-chi-phi-trung-gian-de-thuoc-den-tay-nguoi-benh-gia-thap-nhat-188260818220105104.chn",
+          "pubDate": "2026-08-18T16:01:00.000Z",
+          "excerpt": "Định hướng sửa đổi một số luật lĩnh vực y tế, Thủ tướng yêu cầu cắt giảm các chi phí trung gian để thuốc, thiết bị y tế đến tay người bệnh với giá thành thấp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Từ 1-9, TPHCM sẽ áp dụng giá thu gom rác theo mức mới",
           "link": "https://cafef.vn/tu-1-9-tphcm-se-ap-dung-gia-thu-gom-rac-theo-muc-moi-188260818220544605.chn",
@@ -309,17 +320,6 @@
           "condensed": null
         },
         {
-          "title": "Lâm Đồng: Khơi thông hơn 74.000 tỷ đồng, quyết tâm đạt tăng trưởng \"2 con số\"",
-          "link": "https://cafef.vn/lam-dong-khoi-thong-hon-74000-ty-dong-quyet-tam-dat-tang-truong-2-con-so-18826081816573827.chn",
-          "pubDate": "2026-08-18T10:10:00.000Z",
-          "excerpt": "Tính đến trung tuần tháng 8/2026, tỉnh Lâm Đồng đã tháo gỡ khó khăn thành công cho 162/365 dự án đầu tư ngoài ngân sách, góp phần quan trọng khơi thông nguồn…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Bộ Xây dựng yêu cầu làm rõ sự cố chuyến bay VN34 tại Munich",
           "link": "https://vneconomy.vn/bo-xay-dung-yeu-cau-lam-ro-su-co-chuyen-bay-vn34-tai-munich.htm",
           "pubDate": "2026-08-18T07:05:13.000Z",
@@ -331,14 +331,14 @@
           "condensed": null
         },
         {
-          "title": "VinaCapital: Cổ phiếu vẫn hấp dẫn dù lãi suất lên 9%",
-          "link": "https://vnexpress.net/vinacapital-co-phieu-van-hap-dan-du-lai-suat-len-9-5110329.html",
-          "pubDate": "2026-08-18T05:31:38.000Z",
-          "excerpt": "Trong bối cảnh lãi suất neo cao, VinaCapital cho rằng cổ phiếu vẫn hấp dẫn nhờ định giá giảm mạnh, nhiều cơ hội tăng gấp đôi trong 1-3 năm tới.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Kinh tế 7 tháng năm 2026: Giữ vững đà tăng trưởng, những ràng buộc mới đang hình thành",
+          "link": "https://vneconomy.vn/kinh-te-7-thang-nam-2026-giu-vung-da-tang-truong-nhung-rang-buoc-moi-dang-hinh-thanh.htm",
+          "pubDate": "2026-08-18T04:04:07.000Z",
+          "excerpt": "Bảy tháng đầu năm 2026, kinh tế nước ta tiếp tục duy trì đà phục hồi trong bối cảnh kinh tế thế giới còn nhiều bất định. Sản xuất công nghiệp khởi sắc, đầu tư…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "6% Treasury yields are the biggest risk facing stocks right now. Here’s why.",
-          "link": "https://www.marketwatch.com/story/6-treasury-yields-are-the-biggest-risk-facing-stocks-right-now-heres-why-04fb9bbe?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T15:16:00.000Z",
-          "excerpt": "A global bond-market rout was starting to put some pressure on stocks on Tuesday, as major U.S. indexes headed for a third-straight session in the red.",
+          "title": "Investors Slam SEC Plan to Remove Best-Price Rule",
+          "link": "https://www.wsj.com/finance/regulation/investors-slam-sec-plan-to-remove-best-price-rule-8f2c1cc3?mod=rss_markets_main",
+          "pubDate": "2026-08-18T16:30:00.000Z",
+          "excerpt": "A proposal to eliminate the decades-old protection draws criticism from Wall Street and individuals.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Can you get a piece of State Farm’s $5 billion cash-back dividend? Here’s how to check.",
+          "link": "https://www.marketwatch.com/story/can-you-get-a-piece-of-state-farms-5-billion-cash-back-dividend-heres-how-to-check-027d1c21?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T16:21:00.000Z",
+          "excerpt": "If your car was insured by State Farm in 2025, you’re in luck: You likely qualify for a dividend payment from the insurance giant.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,10 +371,43 @@
           "condensed": null
         },
         {
-          "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
-          "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T15:15:00.000Z",
-          "excerpt": "“I see people who have a lot of money but little or no taxable income who still qualify for ACA Marketplace subsidies.”",
+          "title": "Gambling is everywhere. How do financial advisers keep clients from going overboard?",
+          "link": "https://www.marketwatch.com/story/financial-advisers-tell-us-how-they-handle-clients-who-love-to-gamble-9438f239?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T16:11:00.000Z",
+          "excerpt": "Financial advisers tell us how they handle clients who love to gamble",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Jimmy Kimmel infuriated Trump. Now Disney is suing the FCC over what it calls a ‘retaliatory campaign.’",
+          "link": "https://www.marketwatch.com/story/disney-sues-fcc-over-broadcast-license-threat-9fb4745d?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T15:59:00.000Z",
+          "excerpt": "Disney says the Trump administration “has attacked ABC’s speech — the stories its journalists report and the viewpoints its network programs air.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "WHO chief warns DR Congo Ebola outbreak ‘far from being under control’",
+          "link": "https://www.scmp.com/news/world/africa/article/3364476/who-chief-warns-dr-congo-ebola-outbreak-far-being-under-control?utm_source=rss_feed",
+          "pubDate": "2026-08-18T15:45:43.000Z",
+          "excerpt": "The Ebola outbreak in the Democratic Republic of Congo is moving faster than any previous epidemic of the disease and risks spreading to more countries, the…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Is SpaceX an AI play or a space stock? Two months after the IPO, investors still can’t decide.",
+          "link": "https://www.marketwatch.com/story/is-spacex-an-ai-play-or-a-space-stock-two-months-after-the-ipo-investors-still-cant-decide-eaf5fa92?mod=mw_rss_topstories",
+          "pubDate": "2026-08-18T15:44:00.000Z",
+          "excerpt": "Shares don’t trade like the “Big Tech” stocks, and their correlation to the space sector is “mixed,” according to a new analysis.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -382,54 +426,10 @@
           "condensed": null
         },
         {
-          "title": "I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?",
-          "link": "https://www.marketwatch.com/story/im-63-and-a-retired-cpa-i-have-a-1-2-million-401-k-do-i-need-a-roth-conversion-0a227302?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T15:00:00.000Z",
-          "excerpt": "“I don’t expect my marginal tax rate to be materially different in the future.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘This is very stressful’: My son’s roof was damaged in a storm, but his insurance won’t pay. How can he fight this?",
-          "link": "https://www.marketwatch.com/story/this-is-very-stressful-my-sons-insurance-company-wont-pay-for-his-damaged-roof-how-can-he-fight-this-22f3a821?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T14:30:00.000Z",
-          "excerpt": "“They’re saying the roof now needs to be completely replaced.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "U.S. investors have been buying stocks all month and are now sitting on profits. Here’s what might make them sell.",
-          "link": "https://www.marketwatch.com/story/u-s-investors-have-been-buying-stocks-all-month-and-are-sitting-on-profits-heres-what-might-make-them-sell-0371e78a?mod=mw_rss_topstories",
-          "pubDate": "2026-08-18T14:18:00.000Z",
-          "excerpt": "Given that investors are sitting on unrealized gains and there few short positions remain open, the markets are more vulnerable to a downturn in economic news…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Israeli military ‘paralysis’ on settler violence exposed in West Bank siege",
           "link": "https://www.scmp.com/news/world/middle-east/article/3364472/israeli-military-paralysis-settler-violence-exposed-west-bank-siege?utm_source=rss_feed",
           "pubDate": "2026-08-18T14:05:38.000Z",
           "excerpt": "The Israeli military is touted as the most powerful in the Middle East, striking targets deep into enemy territory. But for more than a week, Israeli troops…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "China debuts regular Arctic shipping service amid Iran war. Is this the Polar pivot?",
-          "link": "https://www.scmp.com/economy/global-economy/article/3364426/polar-pivot-china-debuts-regular-arctic-shipping-service-iran-war-drags?utm_source=rss_feed",
-          "pubDate": "2026-08-18T14:00:09.000Z",
-          "excerpt": "As the Iran war spills over into the Red Sea – a crucial chokepoint for Asia-Europe trade – China has marked a milestone by launching its first regular service…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
