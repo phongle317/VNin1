@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T13:47:23.117Z",
+  "lastUpdated": "2026-08-19T14:37:29.893Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4502.4,
+      "value": 4542,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7723.97,
-      "change": -24.529999999999745,
-      "changePercent": -0.3165774020778182
+      "value": 7723.73,
+      "change": -24.770000000000437,
+      "changePercent": -0.31967477576305653
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26330.445,
-      "change": -258.0450000000019,
-      "changePercent": -0.9705139329085701
+      "value": 26303.924,
+      "change": -284.56600000000253,
+      "changePercent": -1.0702601012693933
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26113.5,
-      "change": -217.5699999999997,
-      "changePercent": -0.8262862086500842
+      "value": 26088.58,
+      "change": -242.48999999999796,
+      "changePercent": -0.9209272543804637
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Đề xuất ưu tiên tài sản mã hóa, tín chỉ carbon tại Trung tâm tài chính quốc tế",
+          "link": "https://vnexpress.net/de-xuat-uu-tien-tai-san-ma-hoa-tin-chi-carbon-tai-trung-tam-tai-chinh-quoc-te-5111000.html",
+          "pubDate": "2026-08-19T13:54:25.000Z",
+          "excerpt": "Tài sản mã hóa, tín chỉ carbon và 4 nhóm dịch vụ khác được đề xuất triển khai sớm tại Trung tâm tài chính quốc tế TP HCM, Đà Nẵng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Sau khi bắt tay với Elon Musk, tỷ phú Phạm Nhật Vượng tìm nhân tài đưa vệ tinh VN lên quỹ đạo bằng tên lửa",
           "link": "https://cafef.vn/sau-khi-bat-tay-voi-elon-musk-ty-phu-pham-nhat-vuong-tim-nhan-tai-dua-ve-tinh-vn-len-quy-dao-bang-ten-lua-188260819202302988.chn",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "VN-Index hụt hơi, cổ phiếu bất động sản 'đỏ lửa'",
-          "link": "https://cafef.vn/vn-index-hut-hoi-co-phieu-bat-dong-san-do-lua-18826081917113529.chn",
-          "pubDate": "2026-08-19T10:31:00.000Z",
-          "excerpt": "VN-Index tiếp tục điều chỉnh trong phiên giao dịch hôm nay (19/8) khi áp lực bán gia tăng tại nhiều nhóm cổ phiếu lớn. Thanh khoản thấp và khối ngoại bán ròng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Hơn 73 triệu thửa đất đã lên dữ liệu quốc gia",
+          "link": "https://cafef.vn/hon-73-trieu-thua-dat-da-len-du-lieu-quoc-gia-188260819191642045.chn",
+          "pubDate": "2026-08-19T13:52:00.000Z",
+          "excerpt": "Hơn 73 triệu thửa đất trên cả nước đã được đồng bộ lên hệ thống dữ liệu đất đai quốc gia, đạt gần 73% tổng số thửa đất. Trong đó, có khoảng 38,6 triệu thửa đáp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Tháo dỡ sân vận động Đông Kinh",
           "link": "https://cafef.vn/thao-do-san-van-dong-dong-kinh-188260819191528734.chn",
@@ -211,17 +222,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Novaland cùng đối tác ngân hàng, nhà thầu đẩy mạnh hoàn thiện Aqua City",
-          "link": "https://cafef.vn/novaland-cung-doi-tac-ngan-hang-nha-thau-day-manh-hoan-thien-aqua-city-188260819145431647.chn",
-          "pubDate": "2026-08-19T09:00:00.000Z",
-          "excerpt": "Sau giai đoạn đối mặt với nhiều khó khăn do vướng mắc pháp lý, đến nay Aqua City đang từng bước phục hồi, trở lại nhịp phát triển, tạo nên diện mạo ngày càng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -349,10 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Pressure on bonds abates as Treasury announces buybacks. What may come next.",
-          "link": "https://www.marketwatch.com/story/pressure-on-bonds-abates-as-treasury-announces-buybacks-what-may-come-next-af7d7c76?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T13:39:00.000Z",
-          "excerpt": "The Treasury Department said Wednesday that it will more than double the size of government-debt buybacks, sending yields sharply lower and stocks higher at…",
+          "title": "Soon you can buy Medicare Advantage plans at Costco. What you need to know.",
+          "link": "https://www.marketwatch.com/story/soon-you-can-buy-medicare-advantage-plans-at-costco-what-you-need-to-know-34e03242?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T14:31:00.000Z",
+          "excerpt": "The warehouse club becomes the latest consumer brand to offer health insurance.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,10 +360,10 @@
           "condensed": null
         },
         {
-          "title": "The bond selloff is rattling investors, but here’s why they shouldn’t expect a deeper stock downturn",
-          "link": "https://www.marketwatch.com/story/the-bond-selloff-is-rattling-investors-but-heres-why-they-shouldnt-expect-a-deeper-stock-downturn-43139350?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T13:35:00.000Z",
-          "excerpt": "Fundstrat’s Mark Newton says it’s not time to panic about surging bond yields driving a deeper stock rout. He offers technical evidence to back his case.",
+          "title": "Can you get a piece of State Farm’s $5 billion cash-back dividend? Here’s how to check.",
+          "link": "https://www.marketwatch.com/story/can-you-get-a-piece-of-state-farms-5-billion-cash-back-dividend-heres-how-to-check-027d1c21?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T14:29:00.000Z",
+          "excerpt": "If your car was insured by State Farm in 2025, you’re in luck: You likely qualify for a dividend payment from the insurance giant.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -371,21 +371,10 @@
           "condensed": null
         },
         {
-          "title": "Moderna shares soar 90% on melanoma vaccine trial success",
-          "link": "https://www.ft.com/content/a98a77e2-5156-4189-b971-974a7e60130f?syn-25a6b1a6=1",
-          "pubDate": "2026-08-19T13:34:54.000Z",
-          "excerpt": "Drugmaker’s cancer shot being developed with Merck delivered a positive outcome in a late-stage trial",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Target’s grocery overhaul is helping it win back customers",
-          "link": "https://www.marketwatch.com/story/targets-grocery-overhaul-is-helping-it-win-back-customers-eb40d5c9?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T13:34:00.000Z",
-          "excerpt": "The retailer has added more snacks and changed its presentation as it tries to become a destination for food purchases.",
+          "title": "Mortgage rates could move even higher — dealing a fresh blow to home buyers",
+          "link": "https://www.marketwatch.com/story/mortgage-rates-could-move-even-higher-dealing-a-fresh-blow-to-home-buyers-ad8d0f3d?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T14:23:00.000Z",
+          "excerpt": "Mortgage rates rose slightly due to a deepening bond-market selloff.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -393,10 +382,10 @@
           "condensed": null
         },
         {
-          "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have ultimate authority?",
-          "link": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T13:30:00.000Z",
-          "excerpt": "“There is a lot of legal and financial power in my hands.”",
+          "title": "Moderna’s experimental vaccine prevents cancer recurrence, in ‘historic’ win for personalized medicine. Its stock is soaring.",
+          "link": "https://www.marketwatch.com/story/modernas-stock-doubles-on-promising-cancer-vaccine-results-896b1f2c?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T14:16:00.000Z",
+          "excerpt": "The candidate is a combination of an mRNA therapeutic vaccine and Merck’s cancer drug Keytruda.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,21 +393,10 @@
           "condensed": null
         },
         {
-          "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
-          "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T13:15:00.000Z",
-          "excerpt": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Israel opens criminal probes over killings of Palestinian girl Hind Rajab, aid workers",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3364595/israel-opens-criminal-probes-over-killings-palestinian-girl-hind-rajab-aid-workers?utm_source=rss_feed",
-          "pubDate": "2026-08-19T13:00:35.000Z",
-          "excerpt": "Israel’s military will open internal investigations over its troops’ killings in Gaza of five-year-old Palestinian girl Hind Rajab in January 2024 and 15…",
+          "title": "7 killed in Kenya tourist helicopter crash",
+          "link": "https://www.scmp.com/news/world/africa/article/3364602/7-killed-kenya-tourist-helicopter-crash?utm_source=rss_feed",
+          "pubDate": "2026-08-19T14:15:38.000Z",
+          "excerpt": "A helicopter carrying six tourists and a pilot crashed on Wednesday in Kenya’s Samburu county, north of the capital, Nairobi, killing all those on board,…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -426,10 +404,32 @@
           "condensed": null
         },
         {
-          "title": "US Treasury to double buybacks of long-term government debt",
-          "link": "https://www.ft.com/content/777c9014-2f12-45cf-8224-6bbe808c62cb?syn-25a6b1a6=1",
-          "pubDate": "2026-08-19T12:59:45.000Z",
-          "excerpt": "Sharp sell-off in recent weeks has sent borrowing costs soaring",
+          "title": "America’s growing debt pile will be the big focus Wednesday as global bond rout deepens",
+          "link": "https://www.marketwatch.com/story/americas-growing-debt-pile-will-be-the-big-focus-wednesday-as-global-bond-rout-deepens-a6955c80?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T14:15:00.000Z",
+          "excerpt": "How much will the U.S. need to pay to convince the world to keep lending it money?",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Moderna shares double on melanoma vaccine trial success",
+          "link": "https://www.ft.com/content/a98a77e2-5156-4189-b971-974a7e60130f?syn-25a6b1a6=1",
+          "pubDate": "2026-08-19T13:34:54.000Z",
+          "excerpt": "Drugmaker’s cancer shot developed with Merck delivers positive outcome in late-stage trial",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Mike Ashley’s luxury retail empire is going cheap",
+          "link": "https://www.ft.com/content/14787634-6345-4446-aab6-1a3f1f519ba5?syn-25a6b1a6=1",
+          "pubDate": "2026-08-19T13:34:54.000Z",
+          "excerpt": "The sharp-elbowed billionaire is remaking Frasers with acquisitions including Harvey Nichols, but the stock market remains wary",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
