@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T15:34:39.045Z",
+  "lastUpdated": "2026-08-19T16:35:11.628Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4543,
+      "value": 4553.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7729.09,
-      "change": -19.409999999999854,
-      "changePercent": -0.2505000967929258
+      "value": 7726.34,
+      "change": -22.159999999999854,
+      "changePercent": -0.2859908369361793
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26393.861,
-      "change": -194.62900000000081,
-      "changePercent": -0.7320047133176829
+      "value": 26403.846,
+      "change": -184.64400000000023,
+      "changePercent": -0.6944508695303878
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26129.87,
-      "change": -201.20000000000073,
-      "changePercent": -0.7641163082244692
+      "value": 26091.33,
+      "change": -239.73999999999796,
+      "changePercent": -0.9104833187561233
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "VN-Index tiếp tục giao dịch trong biên độ hẹp, với xu hướng trong ngắn hạn chưa rõ ràng",
+          "link": "https://vneconomy.vn/vn-index-tiep-tuc-giao-dich-trong-bien-do-hep-voi-xu-huong-trong-ngan-han-chua-ro-rang.htm",
+          "pubDate": "2026-08-19T15:54:40.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 20/8/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "HoSE thông báo ngày chốt quyền mua gần 67,2 triệu trái phiếu chuyển đổi của CII",
           "link": "https://cafef.vn/hose-thong-bao-ngay-chot-quyen-mua-gan-672-trieu-trai-phieu-chuyen-doi-cua-cii-188260819215048741.chn",
@@ -83,6 +94,17 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đề xuất ưu tiên tài sản mã hóa, tín chỉ carbon tại Trung tâm tài chính quốc tế",
+          "link": "https://vnexpress.net/de-xuat-uu-tien-tai-san-ma-hoa-tin-chi-carbon-tai-trung-tam-tai-chinh-quoc-te-5111000.html",
+          "pubDate": "2026-08-19T13:54:25.000Z",
+          "excerpt": "Tài sản mã hóa, tín chỉ carbon và 4 nhóm dịch vụ khác được đề xuất triển khai sớm tại Trung tâm tài chính quốc tế TP HCM, Đà Nẵng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -127,28 +149,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Novaland sẽ dùng hơn 8.000 tỷ đồng từ chào bán cổ phiếu vào mục đích gì?",
-          "link": "https://cafef.vn/novaland-se-dung-hon-8000-ty-dong-tu-chao-ban-co-phieu-vao-muc-dich-gi-188260819193619907.chn",
-          "pubDate": "2026-08-19T12:36:00.000Z",
-          "excerpt": "Nếu hoàn tất chào bán gần 800,7 triệu cổ phiếu cho cổ đông, Novaland sẽ thu về gần 8.007 tỷ đồng. Số này sẽ được dùng để thanh toán các khoản nợ trái phiếu.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thủ tướng: Nhà nước định giá để giảm chi phí nhà, đất",
-          "link": "https://vnexpress.net/thu-tuong-nha-nuoc-dinh-gia-de-giam-chi-phi-nha-dat-5110957.html",
-          "pubDate": "2026-08-19T11:30:07.000Z",
-          "excerpt": "Theo Thủ tướng Lê Minh Hưng, Nhà nước sẽ định giá đất dựa trên cơ sở dữ liệu, đơn giản hóa thủ tục nhằm giảm chi phí đầu vào, giúp kiểm soát giá nhà, đất.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -254,6 +254,17 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Thông báo quan trọng tới tất cả người dân có lương hưu, trợ cấp",
+          "link": "https://cafef.vn/thong-bao-quan-trong-toi-tat-ca-nguoi-dan-co-luong-huu-tro-cap-188260818151839594.chn",
+          "pubDate": "2026-08-19T16:18:00.000Z",
+          "excerpt": "Sắp tới, lương hưu, bảo hiểm... sẽ được chi trả qua Ứng dụng Định danh quốc gia. Dưới đây là hướng dẫn các bước thực hiện tích hợp tài khoản hưởng an sinh xã…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Được hoàn tiền khám chữa bệnh BHYT ngay tại cơ sở khám",
           "link": "https://cafef.vn/duoc-hoan-tien-kham-chua-benh-bhyt-ngay-tai-co-so-kham-188260819151150267.chn",
           "pubDate": "2026-08-19T11:39:00.000Z",
@@ -309,17 +320,6 @@
           "condensed": null
         },
         {
-          "title": "Mở lối Vành đai 1, giảm áp lực giao thông nội đô",
-          "link": "https://cafef.vn/mo-loi-vanh-dai-1-giam-ap-luc-giao-thong-noi-do-188260819152716248.chn",
-          "pubDate": "2026-08-19T10:00:00.000Z",
-          "excerpt": "Sau nhiều năm chờ đợi, dự án đường Vành đai 1, đoạn Hoàng Cầu - Voi Phục đang bước vào những ngày thi công nước rút. Trên công trường, hàng loạt hạng mục từ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Vietjet mở đường bay thẳng Colombo - TP.HCM, kết nối Sri Lanka",
           "link": "https://vneconomy.vn/vietjet-mo-duong-bay-thang-colombo-tphcm-ket-noi-sri-lanka.htm",
           "pubDate": "2026-08-19T09:19:46.000Z",
@@ -349,6 +349,61 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "We’re in our 50s and have $1.5 million in traditional 401(k)s. Is it too early to start Roth conversions?",
+          "link": "https://www.marketwatch.com/story/were-in-our-50s-and-have-1-5-million-in-traditional-401-k-s-is-it-too-early-to-start-roth-conversions-2d0f9287?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T16:16:00.000Z",
+          "excerpt": "“The last adviser we worked with lost a significant portion of our portfolio.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Why Scott Bessent Is Playing With the Treasury Market",
+          "link": "https://www.wsj.com/finance/investing/why-scott-bessent-is-playing-with-the-treasury-market-828256d4?mod=rss_markets_main",
+          "pubDate": "2026-08-19T15:59:00.000Z",
+          "excerpt": "The simple explanation for all this is that the world is going into a new era of capital need, for data centers, the military and reshoring.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Stocks, bonds and gold rally after Treasury indicates it will buy more government bonds to stop yields from surging",
+          "link": "https://www.marketwatch.com/story/pressure-on-bonds-abates-as-treasury-announces-buybacks-what-may-come-next-af7d7c76?mod=mw_rss_topstories",
+          "pubDate": "2026-08-19T15:55:00.000Z",
+          "excerpt": "“The market took this as a significant intervention,” said Jill Cetina, former vice president for bank supervision at the Dallas Fed.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "7,300 excess deaths and counting as France battles historically hot summer",
+          "link": "https://www.scmp.com/news/world/europe/article/3364605/7300-excess-deaths-and-counting-france-battles-historically-hot-summer?utm_source=rss_feed",
+          "pubDate": "2026-08-19T15:46:52.000Z",
+          "excerpt": "France saw more than 7,300 excess deaths during heatwaves so far this year, health authorities said on Wednesday, as the country also endured a record number…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Moderna shares double on melanoma vaccine trial success",
+          "link": "https://www.ft.com/content/a98a77e2-5156-4189-b971-974a7e60130f?syn-25a6b1a6=1",
+          "pubDate": "2026-08-19T15:44:38.000Z",
+          "excerpt": "Drugmaker’s cancer shot developed with Merck delivers positive outcome in late-stage trial",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
           "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
           "pubDate": "2026-08-19T15:30:00.000Z",
@@ -360,6 +415,17 @@
           "condensed": null
         },
         {
+          "title": "Bộ Tài chính Mỹ tăng gấp đôi quy mô mua lại trái phiếu, lợi suất giảm mạnh",
+          "link": "http://vietstock.vn/2026/08/bo-tai-chinh-my-tang-gap-doi-quy-mo-mua-lai-trai-phieu-loi-suat-giam-manh-773-1482904.htm",
+          "pubDate": "2026-08-19T15:17:04.000Z",
+          "excerpt": "Ngày 19/08, Bộ Tài chính Mỹ cho biết sẽ hơn gấp đôi quy mô các đợt mua lại trái phiếu chính phủ, động thái khiến lợi suất giảm mạnh trong bối cảnh thị trường…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
           "title": "I want to be a snowbird, but I’m not sure my $2 million nest egg can sustain two homes",
           "link": "https://www.marketwatch.com/story/i-want-to-be-a-snowbird-but-im-not-sure-my-2-million-nest-egg-can-sustain-two-homes-ce903e6b?mod=mw_rss_topstories",
           "pubDate": "2026-08-19T15:17:00.000Z",
@@ -368,72 +434,6 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘Too many people go bankrupt’: Should Medicare provide catastrophic coverage?",
-          "link": "https://www.marketwatch.com/story/too-many-people-go-bankrupt-should-medicare-provide-catastrophic-coverage-f7c653da?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T15:15:00.000Z",
-          "excerpt": "“Such a system would help ensure that no one is financially devastated by a serious illness or injury.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Marvell’s stock pops on news of Google chip deal — and Broadcom’s falls",
-          "link": "https://www.marketwatch.com/story/marvells-stock-soars-on-news-of-google-chip-deal-and-broadcoms-falls-c2a7f559?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T15:05:00.000Z",
-          "excerpt": "Google will also get the option to purchase about $12 billion worth of Marvell’s stock.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Should you Venmo your kid’s college tuition? Here’s what to know as schools add new payment options.",
-          "link": "https://www.marketwatch.com/story/should-you-venmo-your-tuition-heres-what-to-know-as-colleges-add-new-payment-options-1a70ae96?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T15:02:00.000Z",
-          "excerpt": "Some universities will begin accepting the nontraditional payment method as consumers seek flexible spending options.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Merck, Moderna claim encouraging melanoma vaccine trial results",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3364603/merck-moderna-claim-encouraging-melanoma-vaccine-trial-results?utm_source=rss_feed",
-          "pubDate": "2026-08-19T14:56:06.000Z",
-          "excerpt": "US pharmaceutical firms Merck and Moderna announced on Wednesday encouraging results from a trial of their experimental vaccine against melanoma, potentially…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Moderna’s cancer shot: exciting for investors, inconclusive for patients",
-          "link": "https://www.ft.com/content/d8ff1233-01ff-496d-aa18-91233c1db051",
-          "pubDate": "2026-08-19T14:33:20.000Z",
-          "excerpt": "A glimmer of hope for sufferers, a potential revenue platform for a cash-burner, and a whole heap of unknowns",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "7 killed in Kenya tourist helicopter crash",
-          "link": "https://www.scmp.com/news/world/africa/article/3364602/7-killed-kenya-tourist-helicopter-crash?utm_source=rss_feed",
-          "pubDate": "2026-08-19T14:15:38.000Z",
-          "excerpt": "A helicopter carrying six tourists and a pilot crashed on Wednesday in Kenya’s Samburu county, north of the capital, Nairobi, killing all those on board,…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
