@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T13:50:32.997Z",
+  "lastUpdated": "2026-08-20T14:39:34.620Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4537.7,
+      "value": 4545,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7688.62,
-      "change": -110.36999999999989,
-      "changePercent": -1.415183248087251
+      "value": 7684.33,
+      "change": -114.65999999999985,
+      "changePercent": -1.4701903708044228
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26193.248,
-      "change": -609.7819999999992,
-      "changePercent": -2.2750487538162636
+      "value": 26154.818,
+      "change": -648.2119999999995,
+      "changePercent": -2.4184280657821136
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25962.31,
-      "change": -337.4300000000003,
-      "changePercent": -1.2830164860945403
+      "value": 25966.01,
+      "change": -333.7300000000032,
+      "changePercent": -1.2689479059488922
     }
   ],
   "themes": [
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "VN-Index có khả năng thử thách ngưỡng 1750 điểm?",
+          "link": "https://vneconomy.vn/vn-index-co-kha-nang-thu-thach-nguong-1750-diem.htm",
+          "pubDate": "2026-08-20T14:28:56.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 21/8/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Đúng 1 ngày nữa FTSE công bố thông tin quan trọng, CTCK gọi tên 28 cổ phiếu có thể hút hàng tỷ USD",
+          "link": "https://cafef.vn/dung-1-ngay-nua-ftse-cong-bo-thong-tin-quan-trong-ctck-goi-ten-28-co-phieu-co-the-hut-hang-ty-usd-188260820210158725.chn",
+          "pubDate": "2026-08-20T14:05:00.000Z",
+          "excerpt": "Bên cạnh các cổ phiếu đã nằm trong danh mục, BSC dự kiến 7 cổ phiếu có thể được bổ sung vào các bộ chỉ số thuộc FTSE GEIS.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Sếp SSI đăng ký mua 5 triệu cổ phiếu ngay trước thềm nâng hạng",
+          "link": "https://cafef.vn/sep-ssi-dang-ky-mua-5-trieu-co-phieu-ngay-truoc-them-nang-hang-188260820204931304.chn",
+          "pubDate": "2026-08-20T13:49:00.000Z",
+          "excerpt": "Tạm tính theo thị giá hiện tại, thành viên HĐQT SSI dự chi gần 100 tỷ đồng để hoàn tất giao dịch.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Một cổ phiếu tăng “phi mã\" trước thềm họp ĐHCĐ bất thường",
           "link": "https://cafef.vn/mot-co-phieu-tang-phi-ma-truoc-them-hop-dhcd-bat-thuong-188260820204315683.chn",
@@ -117,39 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Cổ phiếu PNJ 'nóng' trước buổi họp bất thường",
-          "link": "https://cafef.vn/co-phieu-pnj-nong-truoc-buoi-hop-bat-thuong-188260820165934089.chn",
-          "pubDate": "2026-08-20T10:38:00.000Z",
-          "excerpt": "VN-Index tăng hơn 7 điểm trong phiên giao dịch hôm nay (20/8) nhưng thanh khoản vẫn thấp, cho thấy dòng tiền chưa thực sự trở lại. Đáng chú ý, cổ phiếu PNJ bật…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nhóm CTCK tung 600 tỷ đồng gom cổ phiếu phiên đáo hạn phái sinh, mã nào là tâm điểm?",
-          "link": "https://cafef.vn/nhom-ctck-tung-600-ty-dong-gom-co-phieu-phien-dao-han-phai-sinh-ma-nao-la-tam-diem-188260820172838187.chn",
-          "pubDate": "2026-08-20T10:28:00.000Z",
-          "excerpt": "Tự doanh CTCK mua ròng 587 tỷ đồng trên HoSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất giảm 30% thuế cho cá nhân, doanh nghiệp doanh thu không quá 10 tỷ",
-          "link": "https://vnexpress.net/de-xuat-giam-30-thue-cho-ca-nhan-doanh-nghiep-doanh-thu-khong-qua-10-ty-5111385.html",
-          "pubDate": "2026-08-20T10:25:43.000Z",
-          "excerpt": "Chính phủ đề xuất giảm 30% thuế cho cá nhân kinh doanh, doanh nghiệp có doanh thu không quá 10 tỷ đồng mỗi năm trong kỳ tính thuế 2026, 2027.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,39 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Hà Nội sắp mở bán nhà ở xã hội giá dự kiến chưa đến 900 triệu đồng/căn",
+          "link": "https://cafef.vn/ha-noi-sap-mo-ban-nha-o-xa-hoi-gia-du-kien-chua-den-900-trieu-dong-can-188260820205652351.chn",
+          "pubDate": "2026-08-20T14:14:00.000Z",
+          "excerpt": "Sở Xây dựng Hà Nội vừa công bố công khai thông tin dự án đầu tư xây dựng nhà ở xã hội Đồng Trúc - Thạch Thất tại xã Hạ Bằng, Hà Nội.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Cận cảnh công trình khủng sai phép bên sông Hương chờ cưỡng chế",
+          "link": "https://cafef.vn/can-canh-cong-trinh-khung-sai-phep-ben-song-huong-cho-cuong-che-188260820205402.chn",
+          "pubDate": "2026-08-20T13:59:00.000Z",
+          "excerpt": "TP. Huế khẳng định không có cơ sở xem xét đề nghị điều chỉnh hồ sơ để giữ lại các hạng mục xây dựng sai phép tại dự án Huế Times Square (Quảng trường Thời…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội chuẩn bị kịch bản 'chống tê liệt' giao thông khi mưa cực đoan",
+          "link": "https://cafef.vn/ha-noi-chuan-bi-kich-ban-chong-te-liet-giao-thong-khi-mua-cuc-doan-188260820204848002.chn",
+          "pubDate": "2026-08-20T13:44:00.000Z",
+          "excerpt": "Trước nguy cơ mưa lớn gây úng ngập diện rộng, Sở Xây dựng Hà Nội xây dựng các kịch bản phân luồng, điều tiết giao thông linh hoạt, dự kiến toàn thành phố có…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Dồn nguồn lực cho mục tiêu 1,14 triệu căn nhà ở xã hội",
           "link": "https://vneconomy.vn/don-nguon-luc-cho-muc-tieu-114-trieu-can-nha-o-xa-hoi.htm",
@@ -203,28 +236,6 @@
           "condensed": null
         },
         {
-          "title": "Quy hoạch đô thị dài hạn thay đổi cách lựa chọn bất động sản như thế nào?",
-          "link": "https://cafef.vn/quy-hoach-do-thi-dai-han-thay-doi-cach-lua-chon-bat-dong-san-nhu-the-nao-188260820162158507.chn",
-          "pubDate": "2026-08-20T10:30:00.000Z",
-          "excerpt": "Bài viết của PGS.TS Trần Minh Tùng, Khoa Kiến trúc và Quy hoạch, Trường Đại học Xây dựng Hà Nội",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất ưu tiên bồi thường bằng đất ở hoặc nhà ở tại chỗ cho người bị thu hồi đất",
-          "link": "https://cafef.vn/de-xuat-uu-tien-boi-thuong-bang-dat-o-hoac-nha-o-tai-cho-cho-nguoi-bi-thu-hoi-dat-188260820161834214.chn",
-          "pubDate": "2026-08-20T09:37:00.000Z",
-          "excerpt": "Định hướng chính sách sửa đổi Luật Đất đai, Chính phủ đề xuất, ưu tiên cho người có đất ở bị thu hồi thì được bồi thường bằng đất ở hoặc nhà ở tại chỗ.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Nhà ở cho thuê là phân khúc chiến lược, phục vụ đông đảo người dân",
           "link": "https://vneconomy.vn/nha-o-cho-thue-la-phan-khuc-chien-luoc-phuc-vu-dong-dao-nguoi-dan.htm",
           "pubDate": "2026-08-20T08:43:41.000Z",
@@ -233,17 +244,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Sắp đấu giá thêm ba lô đất Thủ Thiêm, khởi điểm thấp nhất 147 triệu đồng mỗi m2",
-          "link": "https://vnexpress.net/sap-dau-gia-them-ba-lo-dat-thu-thiem-khoi-diem-thap-nhat-147-trieu-dong-moi-m2-5111330.html",
-          "pubDate": "2026-08-20T08:28:24.000Z",
-          "excerpt": "TP HCM vừa phê duyệt phương án đấu giá thêm ba lô đất tại Khu đô thị mới Thủ Thiêm, tổng mức khởi điểm hơn 7.600 tỷ đồng, dự kiến tổ chức trong tháng 9.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -349,6 +349,72 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
+          "link": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T14:30:00.000Z",
+          "excerpt": "“I’d love for our son to be able to attend college without needing to take out student loans.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
+          "link": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T14:15:00.000Z",
+          "excerpt": "“Grandma feels that she was pressured by my mother into taking out a $50,000 HELOC.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Conditions are ripe for a market ‘accident,’ but surging bond yields alone won’t cause it, concedes pessimistic strategist",
+          "link": "https://www.marketwatch.com/story/conditions-are-ripe-for-a-market-accident-but-surging-bond-yields-alone-wont-cause-it-concedes-pessimistic-strategist-222cfc57?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T14:14:00.000Z",
+          "excerpt": "The rise in bond yields renders markets more vulnerable to bad news, observes the “permabear” Albert Edwards of Société Générale.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Crypto comeback? Bitcoin, ethereum are headed for their best day in months as investors flock to hard assets",
+          "link": "https://www.marketwatch.com/story/crypto-comeback-bitcoin-ethereum-are-headed-for-their-best-day-in-months-as-investors-flock-to-hard-assets-1573b803?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T14:09:00.000Z",
+          "excerpt": "After months of slumber, digital currencies are waking up, with bitcoin and ethereum shooting higher on Thursday, as traders credited President Donald Trump’s…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "US long-term bonds slide as Bessent intervention fails to soothe investors",
+          "link": "https://www.ft.com/content/0c01cdd9-93e8-469c-8f09-a6d68c91fbc3?syn-25a6b1a6=1",
+          "pubDate": "2026-08-20T14:03:26.000Z",
+          "excerpt": "Yield on 30-year Treasuries rises despite move to ‘at least double’ purchases of securities",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "From balloons to pans: in praise of useful tech",
+          "link": "https://www.ft.com/content/49c3c96c-cda1-466a-a0a6-8275e889ecc4?syn-25a6b1a6=1",
+          "pubDate": "2026-08-20T13:41:53.000Z",
+          "excerpt": "Companies developing new materials with previously unknown properties could change the material world",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "Treasury’s buyback blitz may end up driving bond yields higher, warns JPMorgan. Here’s its advice for investors.",
           "link": "https://www.marketwatch.com/story/treasurys-bond-buyback-blitz-may-end-up-driving-yields-higher-warns-jpmorgan-heres-their-investment-advice-b8f507be?mod=mw_rss_topstories",
           "pubDate": "2026-08-20T13:33:00.000Z",
@@ -368,72 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Walmart’s stock slides as U.S. sales are hit by falling drug prices",
-          "link": "https://www.marketwatch.com/story/walmart-shares-slide-as-u-s-sales-hit-by-falling-drug-prices-1e308c61?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T13:17:00.000Z",
-          "excerpt": "The supermarket chain reported comparable U.S. sales growth of 2.6% in its second-quarter earnings, its lowest in over six years.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
-          "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T13:15:00.000Z",
-          "excerpt": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Lãi suất trái phiếu dài hạn của Mỹ đang nói điều gì?",
-          "link": "http://vietstock.vn/2026/08/lai-suat-trai-phieu-dai-han-cua-my-dang-noi-dieu-gi-775-1483198.htm",
-          "pubDate": "2026-08-20T13:02:00.000Z",
-          "excerpt": "Ngày 29/7/2026, Fed giữ nguyên lãi suất ở mức 3.50% đến 3.75%. Ba thành viên FOMC bỏ phiếu chống, và điều họ muốn là tăng lãi suất. Cùng phiên đó, lợi suất…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "You’ve all heard AI is remaking the economy. Here’s how it’s changing lives — for better or worse.",
-          "link": "https://www.marketwatch.com/story/youve-all-heard-ai-is-remaking-the-economy-heres-how-its-changing-lives-for-better-or-worse-447bd086?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T13:00:00.000Z",
-          "excerpt": "AI, not Trump, is the big mover of the economy, this analyst says — and it’s just going to get bigger.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Investors cut bets on US and UK rate rises",
-          "link": "https://www.ft.com/content/93992d7a-e20d-4f35-a958-c7a9f3b84c02?syn-25a6b1a6=1",
-          "pubDate": "2026-08-20T12:55:52.000Z",
-          "excerpt": "Weaker economic data has changed expectations despite a rally in oil prices",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "US long-term bonds slide as Bessent intervention fails to soothe investors",
-          "link": "https://www.ft.com/content/0c01cdd9-93e8-469c-8f09-a6d68c91fbc3?syn-25a6b1a6=1",
-          "pubDate": "2026-08-20T12:52:41.000Z",
-          "excerpt": "Yield on 30-year Treasuries rises despite move to ‘at least double’ purchases of securities",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         }
       ],
