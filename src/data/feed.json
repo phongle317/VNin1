@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T19:34:24.440Z",
+  "lastUpdated": "2026-08-20T20:32:26.403Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4582.7,
+      "value": 4578,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7651.31,
-      "change": -147.67999999999938,
-      "changePercent": -1.8935785274759858
+      "value": 7641.16,
+      "change": -157.82999999999993,
+      "changePercent": -2.023723584720585
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26085.166,
-      "change": -717.8639999999978,
-      "changePercent": -2.678294207781724
+      "value": 26067.166,
+      "change": -735.8639999999978,
+      "changePercent": -2.74545079418259
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Em trai ông Nguyễn Duy Hưng dự chi gần 100 tỷ đồng mua cổ phiếu SSI",
+          "link": "https://vnexpress.net/em-trai-ong-nguyen-duy-hung-du-chi-gan-100-ty-dong-mua-co-phieu-ssi-5111496.html",
+          "pubDate": "2026-08-20T19:55:38.000Z",
+          "excerpt": "Ông Nguyễn Hồng Nam, em trai ông Nguyễn Duy Hưng, đăng ký mua 5 triệu cổ phiếu SSI, với tổng giá trị khoảng 97 tỷ đồng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "ĐH của tỷ phú Phạm Nhật Vượng vừa nhận nhiệm vụ đặc biệt từ Chính phủ",
           "link": "https://cafef.vn/dh-cua-ty-phu-pham-nhat-vuong-vua-nhan-nhiem-vu-dac-biet-tu-chinh-phu-18826082102295653.chn",
@@ -138,17 +149,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thanh khoản cạn kiệt, cá nhân mua ròng 100 tỷ",
-          "link": "https://vneconomy.vn/thanh-khoan-can-kiet-ca-nhan-mua-rong-100-ty.htm",
-          "pubDate": "2026-08-20T12:24:49.000Z",
-          "excerpt": "Nhà đầu tư cá nhân hôm nay mua ròng tổng hợp 102 tỷ đồng, trong đó họ mua ròng khớp lệnh 345,2 tỷ đồng.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -349,6 +349,61 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Paul Biya, Cameroon’s undefeated ruler for 44 years, returns after long absence",
+          "link": "https://www.scmp.com/news/world/africa/article/3364736/paul-biya-cameroons-undefeated-ruler-44-years-returns-after-long-absence?utm_source=rss_feed",
+          "pubDate": "2026-08-20T20:11:08.000Z",
+          "excerpt": "Cameroon’s President Paul Biya has returned to the country after a more than two-month absence that has fuelled fierce debate about his ability to rule after…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+          "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
+          "pubDate": "2026-08-20T20:09:30.000Z",
+          "excerpt": "Market experts showed skepticism at whether the push would succeed against a bevy of factors working against Treasurys.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": null
+        },
+        {
+          "title": "Stocks Slump as Bond Yields Rise With Crude Prices",
+          "link": "https://www.wsj.com/finance/investing/stocks-slump-as-bond-yields-rise-with-crude-prices-c61f10d2?mod=rss_markets_main",
+          "pubDate": "2026-08-20T20:09:00.000Z",
+          "excerpt": "Plus, Walmart sinks after reporting weak earnings.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Beijing calls US tariff report ‘false narrative’ as named hub Mexico plans new China curbs",
+          "link": "https://www.scmp.com/news/us/article/3364735/beijing-calls-us-tariff-report-false-narrative-named-hub-mexico-plans-new-china-curbs?utm_source=rss_feed",
+          "pubDate": "2026-08-20T20:01:48.000Z",
+          "excerpt": "China rejected a White House report on Thursday that accused its exporters of routing goods through Mexico and other countries to avoid US tariffs, hours after…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Anxious bond market sends troubling message to investors: There’s no easy fix for U.S. debt",
+          "link": "https://www.marketwatch.com/story/treasury-rout-restarts-one-day-after-bessents-beefed-up-buyback-plan-972766a1?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T19:40:00.000Z",
+          "excerpt": "Treasury Secretary Scott Bessent’s plan to calm markets is being short-circuited.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "Sports betting to build wealth is becoming the new American dream",
           "link": "https://www.marketwatch.com/story/sports-betting-to-build-wealth-is-becoming-the-new-american-dream-1e29b728?mod=mw_rss_topstories",
           "pubDate": "2026-08-20T19:14:00.000Z",
@@ -379,61 +434,6 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Christian metal band Demon Hunter sues Netflix over KPop Demon Hunters",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3364733/christian-metal-band-demon-hunter-sues-netflix-over-kpop-demon-hunters?utm_source=rss_feed",
-          "pubDate": "2026-08-20T18:20:57.000Z",
-          "excerpt": "Christian metal band Demon Hunter is suing Netflix, alleging trademark infringement associated with the streamer’s hit film KPop Demon Hunters. The lawsuit was…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Neocloud stocks like CoreWeave are having a moment — and time’s running out to cash in",
-          "link": "https://www.marketwatch.com/story/neocloud-stocks-like-coreweave-are-having-a-moment-and-times-running-out-to-cash-in-8aca34c8?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T18:20:00.000Z",
-          "excerpt": "The neoclouds are destined to be “cyclical leasing companies,” according to BCA analyst Noah Weisberger, which implies low valuations for the stocks.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
-          "link": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T18:15:00.000Z",
-          "excerpt": "“Grandma feels that she was pressured by my mother into taking out a $50,000 HELOC.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "The US Treasury is buying long bonds, but not very many",
-          "link": "https://www.ft.com/content/150aa8bf-54d1-448f-bdc9-14152ce3d76c",
-          "pubDate": "2026-08-20T17:37:49.000Z",
-          "excerpt": "Speaking loudly but wielding a teeny-tiny stick",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Nathan Cofnas, academic behind Jason Arday plagiarism accusations, suspended from post",
-          "link": "https://www.scmp.com/news/world/europe/article/3364732/university-suspends-academic-behind-jason-arday-plagiarism-accusations?utm_source=rss_feed",
-          "pubDate": "2026-08-20T17:16:31.000Z",
-          "excerpt": "A Belgian university on Thursday suspended a US academic who spearheaded accusations of plagiarism against Jason Arday, the black ex-Cambridge professor found…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
