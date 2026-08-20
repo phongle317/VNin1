@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T06:51:07.027Z",
+  "lastUpdated": "2026-08-20T07:43:38.205Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4550.4,
+      "value": 4541.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25828.52,
-      "change": 432.01000000000204,
-      "changePercent": 1.701060500045093
+      "value": 25752.32,
+      "change": 355.8100000000013,
+      "changePercent": 1.401019273908113
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26091.33,
-      "change": -239.73999999999796,
-      "changePercent": -0.9104833187561233
+      "value": 25997.41,
+      "change": -302.33000000000175,
+      "changePercent": -1.1495550906586973
     }
   ],
   "themes": [
@@ -159,6 +159,72 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Từ ngày 1/9, mỗi thửa đất, công trình xây dựng...sẽ có mã định danh riêng 12 chữ số",
+          "link": "https://cafef.vn/tu-ngay-1-9-moi-thua-dat-cong-trinh-xay-dungse-co-ma-dinh-danh-rieng-12-chu-so-188260820143420032.chn",
+          "pubDate": "2026-08-20T07:36:00.000Z",
+          "excerpt": "Từ ngày 1/9, mỗi địa điểm tại Việt Nam sẽ được cấp một mã định danh riêng gồm 12 chữ số, tạo lập cơ sở dữ liệu thống nhất trên toàn quốc.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Liên Khương trở lại sau gần 6 tháng: Sân bay hơn 1.000 tỷ đồng sẵn sàng đón những chuyến bay mới",
+          "link": "https://cafef.vn/lien-khuong-tro-lai-sau-gan-6-thang-san-bay-hon-1000-ty-dong-san-sang-don-nhung-chuyen-bay-moi-188260820140941933.chn",
+          "pubDate": "2026-08-20T07:25:00.000Z",
+          "excerpt": "Sau gần 6 tháng tạm dừng để sửa chữa đường cất hạ cánh, đường lăn, Cảng hàng không quốc tế Liên Khương (Lâm Đồng) chính thức khai thác trở lại từ ngày 19/8.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Phường Lĩnh Nam công khai phương án quy hoạch chi tiết hai khu đô thị quy mô gần 270ha",
+          "link": "https://cafef.vn/phuong-linh-nam-cong-khai-phuong-an-quy-hoach-chi-tiet-hai-khu-do-thi-quy-mo-gan-270ha-188260820140030823.chn",
+          "pubDate": "2026-08-20T07:10:00.000Z",
+          "excerpt": "UBND phường Lĩnh Nam vừa thông báo niêm yết công khai phương án Quy hoạch chi tiết Khu đô thị Đa mục tiêu, Khu đô thị Định cư và một phần cụm công viên tại bãi…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Vlasta Premier - Phú Thuận tri ân, quà tặng lên tới 200 triệu đồng",
+          "link": "https://vneconomy.vn/vlasta-premier-phu-thuan-tri-an-qua-tang-len-toi-200-trieu-dong.htm",
+          "pubDate": "2026-08-20T07:00:01.000Z",
+          "excerpt": "Chính sách bán hàng mới ra mắt của Vlasta Premier - Phú Thuận mở ra giải pháp sở hữu nhà linh hoạt, cùng loạt đặc quyền tài lộc thiết thực.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Hơn 7.000 doanh nghiệp liên quan các đường dây mua bán hóa đơn ở Đồng Nai",
+          "link": "https://cafef.vn/hon-7000-doanh-nghiep-lien-quan-cac-duong-day-mua-ban-hoa-don-o-dong-nai-188260820135415043.chn",
+          "pubDate": "2026-08-20T06:58:00.000Z",
+          "excerpt": "Các đối tượng đã thành lập hơn 165 doanh nghiệp \"ma”, xuất bán trái phép hơn 54.000 tờ hóa đơn với tổng số tiền lên đến hàng chục nghìn tỷ đồng. Có hơn 7.000…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội: Xử lý hàng loạt vi phạm lấn chiếm đất nông nghiệp, đất công",
+          "link": "https://cafef.vn/ha-noi-xu-ly-hang-loat-vi-pham-lan-chiem-dat-nong-nghiep-dat-cong-188260820135020135.chn",
+          "pubDate": "2026-08-20T06:58:00.000Z",
+          "excerpt": "Trong năm 2026 (tính đến tháng 8/2026), xã Trung Giã (Hà Nội) đã kiểm tra, xử lý 66 trường hợp vi phạm đất đai, trong đó đã ban hành 63 biên bản vi phạm hành…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Hà Nội quy định về quản lý, khai thác không gian ngầm, không gian tầm thấp",
           "link": "https://vneconomy.vn/ha-noi-quy-dinh-ve-quan-ly-khai-thac-khong-gian-ngam-khong-gian-tam-thap.htm",
           "pubDate": "2026-08-20T06:36:54.000Z",
@@ -179,72 +245,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Xây nhà mái Nhật 9x20m khoảng bao nhiêu tiền?",
-          "link": "https://cafef.vn/xay-nha-mai-nhat-9x20m-khoang-bao-nhieu-tien-188260820082505205.chn",
-          "pubDate": "2026-08-20T05:24:00.000Z",
-          "excerpt": "Chi phí xây nhà mái Nhật 9x20m phụ thuộc vào số tầng, loại móng, diện tích mái, vật liệu hoàn thiện và điều kiện thi công.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Diễn biến mới nhất thị trường chung cư, biệt thự, nhà phố ở TP.HCM",
-          "link": "https://cafef.vn/dien-bien-moi-nhat-thi-truong-chung-cu-biet-thu-nha-pho-o-tphcm-188260820121257346.chn",
-          "pubDate": "2026-08-20T05:13:00.000Z",
-          "excerpt": "Theo Savills, nguồn cung bất động sản TP.HCM tiếp tục cải thiện nhưng sức cầu vẫn chịu áp lực khi lãi suất vay mua nhà neo cao. Trong đó, căn hộ mới chủ yếu…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tỷ phú Phạm Nhật Vượng đang cho xây đại đô thị biển ESG hàng đầu thế giới: Vận hành bằng năng lượng tái tạo, toàn bộ phương tiện chạy trong dự án đều được điện hóa",
-          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-dang-cho-xay-dai-do-thi-bien-esg-hang-dau-the-gioi-van-hanh-bang-nang-luong-tai-tao-toan-bo-phuong-tien-chay-trong-du-an-deu-duoc-dien-hoa-18826082012115653.chn",
-          "pubDate": "2026-08-20T05:13:00.000Z",
-          "excerpt": "Vingroup đang phát triển khu đô thị lấn biển Cần Giờ rộng 2.870 ha theo các tiêu chuẩn ESG hàng đầu thế giới, sử dụng điện gió ngoài khơi làm nguồn năng lượng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Việt Nam sẽ có “kỳ quan giải trí” với 200 trò chơi tại thành phố giàu nhất cả nước, \"vượt mặt\" Disneyland Hong Kong và Universal Singapore",
-          "link": "https://cafef.vn/viet-nam-se-co-ky-quan-giai-tri-voi-200-tro-choi-tai-thanh-pho-giau-nhat-ca-nuoc-vuot-mat-disneyland-hong-kong-va-universal-singapore-188260820110744593.chn",
-          "pubDate": "2026-08-20T05:13:00.000Z",
-          "excerpt": "Nếu Disneyland Hong Kong có khoảng 28 trò, Universal Singapore dưới 18 trò, thì VinWonders Green Paradise gom trọn các trải nghiệm hấp dẫn vào một quần thể duy…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội hoàn thiện dữ liệu đất đai",
-          "link": "https://cafef.vn/ha-noi-hoan-thien-du-lieu-dat-dai-188260820111718055.chn",
-          "pubDate": "2026-08-20T04:59:00.000Z",
-          "excerpt": "Sau thời gian cao điểm triển khai đồng bộ, Hà Nội đã xây dựng cơ sở dữ liệu cho hơn 2,7 triệu thửa đất, làm sạch, xác minh và định danh gần 2,85 triệu thửa…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nhà ở xã hội gần đại lộ Thăng Long giá 23,5 triệu đồng một m2",
-          "link": "https://vnexpress.net/nha-o-xa-hoi-gan-dai-lo-thang-long-gia-23-5-trieu-dong-mot-m2-5111072.html",
-          "pubDate": "2026-08-20T02:13:31.000Z",
-          "excerpt": "Dự án nhà ở xã hội Đồng Trúc - Thạch Thất có 231 căn hộ, giá bán từ 870 triệu đồng một căn.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -254,54 +254,54 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "TPHCM thúc đẩy dự án điện gió ngoài khơi 6.000 MW",
+          "link": "https://cafef.vn/tphcm-thuc-day-du-an-dien-gio-ngoai-khoi-6000-mw-188260820141323917.chn",
+          "pubDate": "2026-08-20T07:32:00.000Z",
+          "excerpt": "Sáng 20-8, Phó Chủ tịch UBND TPHCM Nguyễn Công Vinh làm việc với các sở ngành, đơn vị để nghe báo cáo nghiên cứu khả thi đầu tư dự án Nhà máy điện gió ngoài…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tất cả người dân cả nước đang thuê người giúp việc chú ý mức phạt liên quan BHXH, BHYT",
+          "link": "https://cafef.vn/tat-ca-nguoi-dan-ca-nuoc-dang-thue-nguoi-giup-viec-chu-y-muc-phat-lien-quan-bhxh-bhyt-188260820102234455.chn",
+          "pubDate": "2026-08-20T07:14:00.000Z",
+          "excerpt": "Chủ nhà nếu không trả tiền BHXH, BHYT cho người giúp việc sẽ bị phạt tiền từ ngày 10/09/2026.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Quy trình, thủ tục miễn, giảm thuế thu nhập doanh nghiệp",
+          "link": "https://cafef.vn/quy-trinh-thu-tuc-mien-giam-thue-thu-nhap-doanh-nghiep-188260820132757826.chn",
+          "pubDate": "2026-08-20T07:10:00.000Z",
+          "excerpt": "Doanh nghiệp nhỏ và vừa được miễn thuế thu nhập doanh nghiệp 3 năm và có thể lựa chọn thời điểm bắt đầu hưởng ưu đãi.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Vượt TP.HCM và Hà Nội, địa phương này trở thành nơi có GRDP bình quân cao nhất Việt Nam",
+          "link": "https://cafef.vn/vuot-tphcm-va-ha-noi-dia-phuong-nay-tro-thanh-noi-co-grdp-binh-quan-cao-nhat-viet-nam-188260820140439287.chn",
+          "pubDate": "2026-08-20T07:04:00.000Z",
+          "excerpt": "Địa phương có GRDP bình quân cao nhất Việt Nam đạt khoảng 10.400 USD.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Vận hành toàn bộ các trạm dừng nghỉ trên cao tốc Bắc-Nam dịp nghỉ lễ 2/9",
           "link": "https://cafef.vn/van-hanh-toan-bo-cac-tram-dung-nghi-tren-cao-toc-bac-nam-dip-nghi-le-2-9-188260820132942684.chn",
           "pubDate": "2026-08-20T06:32:00.000Z",
           "excerpt": "Để hoàn thành các trạm dừng nghỉ, sớm cung cấp đầy đủ dịch vụ phục vụ người dân và phương tiện lưu thông trên cao tốc, đặc biệt trong dịp lễ Quốc khánh 2/9,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Khi số hóa và xanh hóa buộc phải song hành, đâu là lời giải để doanh nghiệp Việt thích ứng với những tiêu chuẩn mới của thị trường quốc tế?",
-          "link": "https://cafef.vn/khi-so-hoa-va-xanh-hoa-buoc-phai-song-hanh-dau-la-loi-giai-de-doanh-nghiep-viet-thich-ung-voi-nhung-tieu-chuan-moi-cua-thi-truong-quoc-te-188260820111958312.chn",
-          "pubDate": "2026-08-20T05:19:00.000Z",
-          "excerpt": "Các tiêu chuẩn về phát thải, truy xuất nguồn gốc và minh bạch dữ liệu đang tác động ngày càng rõ đến doanh nghiệp sản xuất. Tuy nhiên, trở ngại lớn nhất không…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thuế TP. Hà Nội cảnh báo khẩn",
-          "link": "https://cafef.vn/thue-tp-ha-noi-canh-bao-khan-188260820100035629.chn",
-          "pubDate": "2026-08-20T04:11:00.000Z",
-          "excerpt": "Thuế Hà Nội vừa gửi cảnh báo về trường hợp giả danh cơ quan Thuế để gọi điện, gửi thư mời hoặc giấy mời làm việc đến các tổ chức, doanh nghiệp, cá nhân, hộ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Không chỉ nợ thuế, người dân cũng có thể bị tạm hoãn xuất cảnh trong trường hợp này",
-          "link": "https://cafef.vn/khong-chi-no-thue-nguoi-dan-cung-co-the-bi-tam-hoan-xuat-canh-trong-truong-hop-nay-188260820102113548.chn",
-          "pubDate": "2026-08-20T04:00:00.000Z",
-          "excerpt": "Ngày 10/8, Thuế cơ sở 4 tỉnh Nghệ An lưu ý trường hợp người nộp thuế có thể bị tạm hoãn xuất cảnh mà nhiều người chưa biết, kể cả khi không phát sinh tiền thuế…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Sớm vận hành các trạm dừng nghỉ trên cao tốc Bắc-Nam dịp nghỉ lễ 2-9",
-          "link": "https://cafef.vn/som-van-hanh-cac-tram-dung-nghi-tren-cao-toc-bac-nam-dip-nghi-le-2-9-188260820095639409.chn",
-          "pubDate": "2026-08-20T03:40:00.000Z",
-          "excerpt": "Cục Đường bộ Việt Nam vừa có công điện yêu cầu các nhà đầu tư; ban quản lý dự án và đơn vị liên quan đẩy nhanh tiến độ hoàn thành và bảo đảm an toàn vận hành…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,6 +349,17 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Travelodge chief steps down after female guest assaulted",
+          "link": "https://www.ft.com/content/30b131e4-758b-4fe5-8d8b-09c32834622a",
+          "pubDate": "2026-08-20T07:09:11.000Z",
+          "excerpt": "Joanna Boydell replaced by chief financial officer Ray Reidy on an interim basis",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "Iran goes on the offensive as diplomacy with US stalls",
           "link": "https://www.scmp.com/news/world/middle-east/article/3364647/iran-goes-offensive-diplomacy-us-stalls?utm_source=rss_feed",
           "pubDate": "2026-08-20T04:58:20.000Z",
@@ -357,17 +368,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "UK finally showing signs of productivity boost, say economists",
-          "link": "https://www.ft.com/content/6c358cee-d7ec-4542-9c1b-f922b13d48ae?syn-25a6b1a6=1",
-          "pubDate": "2026-08-20T04:00:28.000Z",
-          "excerpt": "Better output figures are a fillip to chancellor John Healey and come after years of underperformance",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         },
         {
@@ -396,7 +396,7 @@
           "title": "Moderna pins hopes on ‘game-changer’ for cancer vaccines",
           "link": "https://www.ft.com/content/cd52173f-5863-4996-93b2-c4adb81ad210?syn-25a6b1a6=1",
           "pubDate": "2026-08-20T04:00:11.000Z",
-          "excerpt": "Technology behind blockbuster Covid-19 jabs is now yielding promising results in oncology treatment",
+          "excerpt": "Technology behind blockbuster Covid jabs is yielding promising results in oncology treatment",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -404,7 +404,7 @@
           "condensed": null
         },
         {
-          "title": "The box that built globalisation",
+          "title": "The container revolution is running out of room",
           "link": "https://www.ft.com/content/b88c3466-4525-4e16-b3fe-e10e713a2025?syn-25a6b1a6=1",
           "pubDate": "2026-08-20T03:00:07.000Z",
           "excerpt": "Containers have transformed ports, cities and trade. Now the revolution is reaching a limit",
