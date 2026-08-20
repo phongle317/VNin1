@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T12:55:09.012Z",
+  "lastUpdated": "2026-08-20T13:50:32.997Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4521,
+      "value": 4537.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7707.98,
-      "change": -40.52000000000044,
-      "changePercent": -0.5229399238562359
+      "value": 7688.62,
+      "change": -110.36999999999989,
+      "changePercent": -1.415183248087251
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26331.09,
-      "change": -257.40000000000146,
-      "changePercent": -0.9680880711917129
+      "value": 26193.248,
+      "change": -609.7819999999992,
+      "changePercent": -2.2750487538162636
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25920.61,
-      "change": -379.130000000001,
-      "changePercent": -1.441573186655081
+      "value": 25962.31,
+      "change": -337.4300000000003,
+      "changePercent": -1.2830164860945403
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Một cổ phiếu tăng “phi mã\" trước thềm họp ĐHCĐ bất thường",
+          "link": "https://cafef.vn/mot-co-phieu-tang-phi-ma-truoc-them-hop-dhcd-bat-thuong-188260820204315683.chn",
+          "pubDate": "2026-08-20T13:43:00.000Z",
+          "excerpt": "DN dự kiến tổ chức ĐHĐCĐ bất thường vào ngày 4/9/2026. Trong tài liệu đã công bố, một trong những nội dung đáng chú ý nhất là phương án chào bán cổ phiếu riêng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Thanh khoản cạn kiệt, cá nhân mua ròng 100 tỷ",
           "link": "https://vneconomy.vn/thanh-khoan-can-kiet-ca-nhan-mua-rong-100-ty.htm",
@@ -123,17 +134,6 @@
           "link": "https://cafef.vn/nhom-ctck-tung-600-ty-dong-gom-co-phieu-phien-dao-han-phai-sinh-ma-nao-la-tam-diem-188260820172838187.chn",
           "pubDate": "2026-08-20T10:28:00.000Z",
           "excerpt": "Tự doanh CTCK mua ròng 587 tỷ đồng trên HoSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Loạt câu hỏi sau 'thương vụ' thu phí tài khoản giao thông bất thành",
-          "link": "https://cafef.vn/loat-cau-hoi-sau-thuong-vu-thu-phi-tai-khoan-giao-thong-bat-thanh-18826082017063851.chn",
-          "pubDate": "2026-08-20T10:27:00.000Z",
-          "excerpt": "Sau khi nhận nhiều ý kiến bức xúc từ người dùng, VETC và ePass đã tạm dừng triển khai thu phí sử dụng ví điện tử. Tuy nhiên, động thái này chưa giải quyết được…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -254,17 +254,6 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Tránh tạo thêm một “siêu chương trình” mục tiêu quốc gia cồng kềnh, thiếu thực chất",
-          "link": "https://vneconomy.vn/tranh-tao-them-mot-sieu-chuong-trinh-muc-tieu-quoc-gia-cong-kenh-thieu-thuc-chat.htm",
-          "pubDate": "2026-08-20T11:54:40.000Z",
-          "excerpt": "Việc tích hợp 4 chương trình mục tiêu quốc gia được kỳ vọng khắc phục tình trạng phân tán nguồn lực, chồng chéo chính sách. Tuy nhiên, các đại biểu Quốc hội…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
           "title": "Việt Nam lên tiếng việc Mỹ nêu danh sách 40 đối tác có nguy cơ ‘bị lợi dụng để tránh thuế’",
           "link": "https://cafef.vn/viet-nam-len-tieng-viec-my-neu-danh-sach-40-doi-tac-co-nguy-co-bi-loi-dung-de-tranh-thue-188260820183027422.chn",
           "pubDate": "2026-08-20T11:30:00.000Z",
@@ -284,6 +273,28 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Áp lực “giải” bài toán huy động 450 tỷ USD cho phát triển hạ tầng",
+          "link": "https://vneconomy.vn/ap-luc-giai-bai-toan-huy-dong-450-ty-usd-cho-phat-trien-ha-tang.htm",
+          "pubDate": "2026-08-20T10:31:38.000Z",
+          "excerpt": "Trong giai đoạn 2026 - 2030, nền kinh tế cần khoảng 38,5 triệu tỷ đồng để đáp ứng mục tiêu tăng trưởng 10%/năm. Tuy nhiên, ngân sách nhà nước và đầu tư công…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "TP. Hồ Chí Minh đẩy mạnh hội nhập, tham gia sâu vào chuỗi cung ứng ASEAN",
+          "link": "https://vneconomy.vn/tp-ho-chi-minh-day-manh-hoi-nhap-tham-gia-sau-vao-chuoi-cung-ung-asean.htm",
+          "pubDate": "2026-08-20T10:29:12.000Z",
+          "excerpt": "TP. Hồ Chí Minh đang mở rộng không gian hội nhập ASEAN, hướng tới tăng cường thương mại, đầu tư và tạo điều kiện để doanh nghiệp tham gia sâu hơn vào chuỗi…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         },
         {
@@ -320,21 +331,10 @@
           "condensed": null
         },
         {
-          "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm: Phân cấp mạnh nhưng kiểm soát chặt quyền lực",
-          "link": "https://vneconomy.vn/tong-bi-thu-chu-tich-nuoc-to-lam-phan-cap-manh-nhung-kiem-soat-chat-quyen-luc.htm",
-          "pubDate": "2026-08-20T08:57:34.000Z",
-          "excerpt": "Sáng 20/8, tại Trụ sở Trung ương Đảng, Tổng Bí thư, Chủ tịch nước Tô Lâm chủ trì buổi làm việc với Ban Tổ chức Trung ương về Đề án sơ kết 5 năm thực hiện Nghị…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Tích hợp 4 chương trình mục tiêu quốc gia: Phân cấp phải đi cùng năng lực thực thi",
-          "link": "https://vneconomy.vn/tich-hop-4-chuong-trinh-muc-tieu-quoc-gia-phan-cap-phai-di-cung-nang-luc-thuc-thi.htm",
-          "pubDate": "2026-08-20T08:55:08.000Z",
-          "excerpt": "Các đại biểu Quốc hội cho rằng việc tích hợp 4 chương trình mục tiêu quốc gia cần bảo đảm nguồn lực đến đúng đối tượng, đánh giá bằng kết quả thực chất và phân…",
+          "title": "Giá nhiên liệu tăng, lợi nhuận các hãng hàng không quốc tế đồng loạt giảm",
+          "link": "https://vneconomy.vn/gia-nhien-lieu-tang-loi-nhuan-cac-hang-hang-khong-quoc-te-dong-loat-giam.htm",
+          "pubDate": "2026-08-20T08:53:12.000Z",
+          "excerpt": "Giá nhiên liệu máy bay tăng mạnh đang tạo sức ép lên lợi nhuận của các hãng hàng không toàn cầu, ngay cả khi doanh thu và nhu cầu đi lại vẫn tăng…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -349,31 +349,9 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Want to bet on the bond rally? Check out these overlooked funds.",
-          "link": "https://www.marketwatch.com/story/want-to-bet-on-the-bond-rally-check-out-these-overlooked-funds-15e957a2?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T12:38:00.000Z",
-          "excerpt": "The Treasury just sparked a bond-market rally. Here is why it may not last.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Most of Gen Z is now afraid AI will steal their jobs.",
-          "link": "https://www.marketwatch.com/story/gen-z-used-to-embrace-ai-now-most-young-adults-fear-it-will-steal-their-jobs-b02bdcfb?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T12:37:00.000Z",
-          "excerpt": "As new college grads face elevated rates of unemployment, concern about AI’s impact on jobs is spiking among young Americans.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Treasury’s buyback blitz may end up driving bond yields higher, warns JPMorgan. Here’s its advice for investors.",
           "link": "https://www.marketwatch.com/story/treasurys-bond-buyback-blitz-may-end-up-driving-yields-higher-warns-jpmorgan-heres-their-investment-advice-b8f507be?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T12:27:00.000Z",
+          "pubDate": "2026-08-20T13:33:00.000Z",
           "excerpt": "Strategists Jay Barry and Jason Hunter are predicting fallout from the Treasury’s move that they see as not even needed.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -382,10 +360,21 @@
           "condensed": null
         },
         {
-          "title": "I hold my mother-in-law’s power of attorney. I’m also her executor and trustee. Do I have ultimate authority?",
-          "link": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T12:15:00.000Z",
-          "excerpt": "“There is a lot of legal and financial power in my hands.”",
+          "title": "Plane pilot killed in US collision with police helicopter",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3364728/plane-pilot-killed-us-collision-police-helicopter?utm_source=rss_feed",
+          "pubDate": "2026-08-20T13:27:24.000Z",
+          "excerpt": "An aeroplane pilot died on Wednesday after a violent collision with a Pennsylvania State Police helicopter near a runway at a small airport, but both state…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Walmart’s stock slides as U.S. sales are hit by falling drug prices",
+          "link": "https://www.marketwatch.com/story/walmart-shares-slide-as-u-s-sales-hit-by-falling-drug-prices-1e308c61?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T13:17:00.000Z",
+          "excerpt": "The supermarket chain reported comparable U.S. sales growth of 2.6% in its second-quarter earnings, its lowest in over six years.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -393,10 +382,10 @@
           "condensed": null
         },
         {
-          "title": "A $420 camera for $10: China’s young consumers would rather rent than buy. It’s a problem for the government and the economy.",
-          "link": "https://www.marketwatch.com/story/test-driving-that-drone-or-just-renting-why-the-chinese-government-needs-to-know-07ca4d1b?mod=mw_rss_topstories",
-          "pubDate": "2026-08-20T11:44:00.000Z",
-          "excerpt": "Young Chinese are renting cameras, drones and camping gear instead of buying them. It’s a clever way to save money — but also the latest challenge to Beijing’s…",
+          "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
+          "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T13:15:00.000Z",
+          "excerpt": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,21 +393,32 @@
           "condensed": null
         },
         {
-          "title": "Here’s the Real Problem With Stock Buybacks",
-          "link": "https://www.wsj.com/finance/stocks/heres-the-real-problem-with-stock-buybacks-0383bedb?mod=rss_markets_main",
-          "pubDate": "2026-08-20T10:29:00.000Z",
-          "excerpt": "Plus, 40 trillion reasons to worry.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "Lãi suất trái phiếu dài hạn của Mỹ đang nói điều gì?",
+          "link": "http://vietstock.vn/2026/08/lai-suat-trai-phieu-dai-han-cua-my-dang-noi-dieu-gi-775-1483198.htm",
+          "pubDate": "2026-08-20T13:02:00.000Z",
+          "excerpt": "Ngày 29/7/2026, Fed giữ nguyên lãi suất ở mức 3.50% đến 3.75%. Ba thành viên FOMC bỏ phiếu chống, và điều họ muốn là tăng lãi suất. Cùng phiên đó, lợi suất…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
           "condensed": null
         },
         {
-          "title": "Trump is losing his war of independence on rare earths",
-          "link": "https://www.ft.com/content/201a86a6-3597-4efb-b575-39172c729fe1?syn-25a6b1a6=1",
-          "pubDate": "2026-08-20T10:00:13.000Z",
-          "excerpt": "Inefficiency, untrustworthiness and cronyism are weakening the administration’s plans to stand up to China",
+          "title": "You’ve all heard AI is remaking the economy. Here’s how it’s changing lives — for better or worse.",
+          "link": "https://www.marketwatch.com/story/youve-all-heard-ai-is-remaking-the-economy-heres-how-its-changing-lives-for-better-or-worse-447bd086?mod=mw_rss_topstories",
+          "pubDate": "2026-08-20T13:00:00.000Z",
+          "excerpt": "AI, not Trump, is the big mover of the economy, this analyst says — and it’s just going to get bigger.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Investors cut bets on US and UK rate rises",
+          "link": "https://www.ft.com/content/93992d7a-e20d-4f35-a958-c7a9f3b84c02?syn-25a6b1a6=1",
+          "pubDate": "2026-08-20T12:55:52.000Z",
+          "excerpt": "Weaker economic data has changed expectations despite a rally in oil prices",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -426,14 +426,14 @@
           "condensed": null
         },
         {
-          "title": "Hyperscalers’ Off-Grid Power Push Comes With Risks",
-          "link": "https://www.wsj.com/business/energy-oil/hyperscalers-off-grid-power-push-comes-with-risks-b1dca338?mod=rss_markets_main",
-          "pubDate": "2026-08-20T09:30:00.000Z",
-          "excerpt": "Data centers’ huge, fluctuating power demand is testing off-grid power systems.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "US long-term bonds slide as Bessent intervention fails to soothe investors",
+          "link": "https://www.ft.com/content/0c01cdd9-93e8-469c-8f09-a6d68c91fbc3?syn-25a6b1a6=1",
+          "pubDate": "2026-08-20T12:52:41.000Z",
+          "excerpt": "Yield on 30-year Treasuries rises despite move to ‘at least double’ purchases of securities",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         }
       ],
