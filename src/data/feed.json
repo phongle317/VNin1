@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T01:22:02.610Z",
+  "lastUpdated": "2026-08-20T03:00:20.719Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4551.4,
+      "value": 4548.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 66273.46,
-      "change": -2440.3399999999965,
-      "changePercent": -3.5514554572734975
+      "value": 65982.49,
+      "change": -2731.3099999999977,
+      "changePercent": -3.974907514938771
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25495.07,
-      "change": 54.900000000001455,
-      "changePercent": 0.2158004447297383
+      "value": 25650.51,
+      "change": 254,
+      "changePercent": 1.0001374204565903
     },
     {
       "symbol": "^GDAXI",
@@ -64,6 +64,39 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "Bộ Tài chính Mỹ bất ngờ tăng gấp đôi mức hỗ trợ thanh khoản cho thị trường trái phiếu kho bạc",
+          "link": "https://vneconomy.vn/bo-tai-chinh-my-bat-ngo-tang-gap-doi-muc-ho-tro-thanh-khoan-cho-thi-truong-trai-phieu-kho-bac.htm",
+          "pubDate": "2026-08-20T02:55:37.000Z",
+          "excerpt": "Vào ngày 19/8, Bộ Tài chính Mỹ bất ngờ có động thái tăng hỗ trợ cho thị trường trái phiếu kho bạc Mỹ kỳ hạn dài, nhằm ngăn chặn đà tăng mạnh của lợi suất trong…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Quỹ lớn nhất thế giới mua gần 10 tấn vàng ngay trong một đêm",
+          "link": "https://cafef.vn/quy-lon-nhat-the-gioi-mua-gan-10-tan-vang-ngay-trong-mot-dem-18826082008482972.chn",
+          "pubDate": "2026-08-20T01:49:00.000Z",
+          "excerpt": "Động thái này diễn ra trong bối cảnh giá vàng tăng vọt hơn 4% lên mức cao nhất trong hơn 2 tháng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nợ công Mỹ lần đầu vượt 40.000 tỷ USD",
+          "link": "https://vnexpress.net/no-cong-my-lan-dau-vuot-40-000-ty-usd-5111071.html",
+          "pubDate": "2026-08-20T01:11:33.000Z",
+          "excerpt": "Nợ chính phủ Mỹ tăng mạnh sau nhiều năm thâm hụt ngân sách, hiện cao gấp đôi so với 10 năm trước.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Chứng khoán Mỹ hồi phục theo thị trường trái phiếu kho bạc, giá dầu tiếp tục leo thang",
           "link": "https://vneconomy.vn/chung-khoan-my-hoi-phuc-theo-thi-truong-trai-phieu-kho-bac-gia-dau-tiep-tuc-leo-thang.htm",
           "pubDate": "2026-08-20T01:04:39.000Z",
@@ -72,6 +105,17 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Giá vàng thế giới vượt 4.500 USD",
+          "link": "https://vnexpress.net/gia-vang-the-gioi-vuot-4-500-usd-5111067.html",
+          "pubDate": "2026-08-20T01:00:35.000Z",
+          "excerpt": "Mỗi ounce vàng lên cao nhất 2,5 tháng, nhờ lợi suất trái phiếu Mỹ và giá USD đi xuống.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -97,58 +141,14 @@
           "condensed": null
         },
         {
-          "title": "Loạt CEO công ty chứng khoán thu nhập tiền tỷ nửa đầu năm",
-          "link": "https://vnexpress.net/loat-ceo-cong-ty-chung-khoan-thu-nhap-tien-ty-nua-dau-nam-5110970.html",
-          "pubDate": "2026-08-19T23:05:00.000Z",
-          "excerpt": "Nhiều CEO công ty chứng khoán nhận lương thưởng hàng tỷ đồng nửa đầu năm, cao nhất lên tới 800 triệu đồng một tháng.",
+          "title": "VETC dừng thu phí dịch vụ ví điện tử",
+          "link": "https://vnexpress.net/vetc-dung-thu-phi-dich-vu-vi-dien-tu-5111053.html",
+          "pubDate": "2026-08-20T00:01:44.000Z",
+          "excerpt": "Sáng 20/8, VETC cho biết dừng triển khai thu phí dịch vụ ví điện tử để xây dựng giải pháp phù hợp hơn.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Tổng Giám đốc một doanh nghiệp bị cấm giao dịch 18 tháng vì \"mua chui\" hàng triệu cổ phiếu",
-          "link": "https://cafef.vn/tong-giam-doc-mot-doanh-nghiep-bi-cam-giao-dich-18-thang-vi-mua-chui-hang-trieu-co-phieu-18826081922240628.chn",
-          "pubDate": "2026-08-19T17:05:00.000Z",
-          "excerpt": "Cụ thể, sau khi mua gần 3,5 cổ phiếu trong ngày 28/4, tới ngày 5/5, ông Tuấn mới có báo cáo về giao dịch này.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Các nước thu phí giao thông như thế nào?",
-          "link": "https://vnexpress.net/cac-nuoc-thu-phi-giao-thong-nhu-the-nao-5111005.html",
-          "pubDate": "2026-08-19T17:05:00.000Z",
-          "excerpt": "Đài Loan có các điểm thu phí điện tử không dừng, Trung Quốc vẫn duy trì trạm thủ công, trong khi Đức tính phí theo định vị từ vệ tinh.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Tập đoàn Bảo việt và các doanh nghiệp thành viên để số tiền tương đương hơn 1,38 tỷ USD tại BAOVIET Bank",
-          "link": "https://cafef.vn/tap-doan-bao-viet-va-cac-doanh-nghiep-thanh-vien-de-so-tien-tuong-duong-hon-138-ty-usd-tai-baoviet-bank-188260819222501177.chn",
-          "pubDate": "2026-08-19T17:04:00.000Z",
-          "excerpt": "Theo BCTC bán niên 2026 soát xét, tại ngày 30/6, BAOVIET Bank có khoản phải trả đối với Tập đoàn Bảo Việt và các doanh nghiệp thành viên ở mức hơn 35.437,4 tỷ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Bao giờ chứng khoán hết “chán”?",
-          "link": "https://cafef.vn/bao-gio-chung-khoan-het-chan-188260819222309396.chn",
-          "pubDate": "2026-08-19T17:03:00.000Z",
-          "excerpt": "Dòng tiền sẽ không tự nhiên quay lại chỉ vì định giá đã thấp. Áp lực lãi suất cần được kiểm soát, thanh khoản hệ thống ngân hàng bớt căng thẳng và áp lực bán…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         }
       ],
@@ -159,10 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Cư dân Yên Bình Complex vui mừng nhận sổ đỏ sau 2 tháng bàn giao nhà",
-          "link": "https://cafef.vn/cu-dan-yen-binh-complex-vui-mung-nhan-so-do-sau-2-thang-ban-giao-nha-18826081920000435.chn",
-          "pubDate": "2026-08-20T01:00:00.000Z",
-          "excerpt": "Ngày 16/08 vừa qua, Công ty Phát triển Đô thị Yên Bình chính thức tổ chức lễ trao giấy chứng nhận quyền sở hữu nhà ở cho những cư dân đầu tiên của dự án Yên…",
+          "title": "Người dân Gia Lai đón tin vui: Chính thức khởi công đoạn cao tốc hơn 27.500 tỷ đồng, dài 68km qua địa hình hiểm trở, có 2 hầm đặc biệt và trụ cầu cao nhất Việt Nam",
+          "link": "https://cafef.vn/nguoi-dan-gia-lai-don-tin-vui-chinh-thuc-khoi-cong-doan-cao-toc-hon-27500-ty-dong-dai-68km-qua-dia-hinh-hiem-tro-co-2-ham-dac-biet-va-tru-cau-cao-nhat-viet-nam-188260820094821744.chn",
+          "pubDate": "2026-08-20T02:48:00.000Z",
+          "excerpt": "Đây là dự án có quy mô xây dựng, yêu cầu kỹ thuật rất phức tạp gồm 2 công trình cầu cấp đặc biệt và 2 công trình hầm cấp đặc biệt đi qua đèo An Khê và Mang…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +170,10 @@
           "condensed": null
         },
         {
-          "title": "Sở hữu Diamond Sky, hưởng trọn hệ sinh thái 3 tỷ USD",
-          "link": "https://cafef.vn/so-huu-diamond-sky-huong-tron-he-sinh-thai-3-ty-usd-188260819142434121.chn",
-          "pubDate": "2026-08-20T01:00:00.000Z",
-          "excerpt": "Mua Diamond Sky, khách hàng không chỉ sở hữu một căn hộ giữa trung tâm TP.HCM mà sẽ thụ hưởng ngay hệ thống tiện ích 3 tỷ USD đã hiện hữu, từ trung tâm thương…",
+          "title": "Sự thật đằng sau việc người mua ép giá bất động sản",
+          "link": "https://cafef.vn/su-that-dang-sau-viec-nguoi-mua-ep-gia-bat-dong-san-188260820084746761.chn",
+          "pubDate": "2026-08-20T02:47:00.000Z",
+          "excerpt": "Khi thị trường xuất hiện tràn lan các thông tin kiểu như “cắt lỗ 30%”, “bán gấp trả nợ ngân hàng, lỗ 5 tỷ”, “giá ngộp sập sàn”… trên mạng xã hội đã khiến bên…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,10 +181,10 @@
           "condensed": null
         },
         {
-          "title": "WELLCLUB 360 - Hệ sinh thái sống khỏe kiến tạo giá trị khác biệt tại The Parc One",
-          "link": "https://cafef.vn/wellclub-360-he-sinh-thai-song-khoe-kien-tao-gia-tri-khac-biet-tai-the-parc-one-188260819133416765.chn",
-          "pubDate": "2026-08-20T01:00:00.000Z",
-          "excerpt": "Wellness Living đang bước từ triết lý phát triển của các khu nghỉ dưỡng và khách sạn cao cấp trở thành chuẩn sống mới của bất động sản nhà ở.",
+          "title": "Rời phố chật chội tìm nhà ven sông: Tọa độ nào ở Tây Hồ Tây đang lọt tầm ngắm người mua Hà Nội?",
+          "link": "https://cafef.vn/roi-pho-chat-choi-tim-nha-ven-song-toa-do-nao-o-tay-ho-tay-dang-lot-tam-ngam-nguoi-mua-ha-noi-188260820085800635.chn",
+          "pubDate": "2026-08-20T01:57:00.000Z",
+          "excerpt": "Khi Hà Nội bắt đầu tái cấu trúc không gian đô thị về phía sông Hồng, những dự án vừa bám trục đại lộ cảnh quan với tầm nhìn trực diện mặt nước vừa gần kề công…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -192,14 +192,25 @@
           "condensed": null
         },
         {
-          "title": "The Windsor Collection - Sự hội tụ của bất động sản đảo hồ & mô hình TOD",
-          "link": "https://cafef.vn/the-windsor-collection-su-hoi-tu-cua-bat-dong-san-dao-ho-mo-hinh-tod-188260817204020057.chn",
-          "pubDate": "2026-08-20T01:00:00.000Z",
-          "excerpt": "Trên thế giới, bất động sản liền kề hạ tầng giao thông công cộng trọng điểm (TOD) luôn được đánh giá cao nhờ ưu thế kết nối và tiềm năng dài hạn. Trong khi đó,…",
+          "title": "Ngân hàng hướng tới các dự án bất động sản có pháp lý rõ ràng",
+          "link": "https://cafef.vn/ngan-hang-huong-toi-cac-du-an-bat-dong-san-co-phap-ly-ro-rang-188260820081749704.chn",
+          "pubDate": "2026-08-20T01:29:00.000Z",
+          "excerpt": "Nhiều ngân hàng tiếp tục duy trì tín dụng bất động sản nhưng chuyển trọng tâm sang những dự án có pháp lý rõ ràng, nhu cầu ở thực và khả năng hấp thụ tốt.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Những khoảnh khắc thi công vượt lũ sông Hồng ở “siêu cầu” Trần Hưng Đạo",
+          "link": "https://vneconomy.vn/nhung-khoanh-khac-thi-cong-vuot-lu-song-hong-o-sieu-cau-tran-hung-dao.htm",
+          "pubDate": "2026-08-20T01:26:51.000Z",
+          "excerpt": "Vừa hoàn thành các mốc tiến độ nhằm vượt lũ tiểu mãn trên sông Hồng, công trường dự án cầu Trần Hưng Đạo sẵn sàng bước vào hạng mục lắp dựng vòm thép trong…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         },
         {
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "TP. Hồ Chí Minh đẩy nhanh tiến độ dự án tái định cư, cam kết đủ quỹ nhà đến năm 2028",
-          "link": "https://vneconomy.vn/tp-ho-chi-minh-day-nhanh-tien-do-du-an-tai-dinh-cu-cam-ket-du-quy-nha-den-nam-2028.htm",
-          "pubDate": "2026-08-19T23:49:03.000Z",
-          "excerpt": "TP. Hồ Chí Minh đang nỗ lực đẩy nhanh tiến độ các dự án nhà ở tái định cư nhằm đảm bảo đến năm 2028 có đủ quỹ nhà để bố trí cho người dân bị giải tỏa…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -254,54 +254,54 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Hà Nội: Hơn 1.500 trường hợp vượt đèn đỏ bị CSGT xử lý trong một tháng qua",
+          "link": "https://cafef.vn/ha-noi-hon-1500-truong-hop-vuot-den-do-bi-csgt-xu-ly-trong-mot-thang-qua-188260820083435187.chn",
+          "pubDate": "2026-08-20T02:55:00.000Z",
+          "excerpt": "Từ 15/7 - 14/8/2026, CSGT Hà Nội xử lý gần 50.400 vi phạm giao thông các loại, trong đó có hơn 1.500 trường hợp vượt đèn đỏ.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "1.500 người Việt học sẽ được Chính phủ cấp học bổng toàn phần ra nước ngoài, đóng góp lớn cho nền kinh tế",
+          "link": "https://cafef.vn/1500-nguoi-viet-hoc-se-duoc-chinh-phu-cap-hoc-bong-toan-phan-ra-nuoc-ngoai-dong-gop-lon-cho-nen-kinh-te-18826082007035126.chn",
+          "pubDate": "2026-08-20T02:22:00.000Z",
+          "excerpt": "Đây là tin vui với nhiều người Việt Nam.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Năm nay, lương, thưởng của người lao động dịp lễ Quốc khánh 2/9 được tính như thế nào theo quy định mới nhất?",
+          "link": "https://cafef.vn/nam-nay-luong-thuong-cua-nguoi-lao-dong-dip-le-quoc-khanh-2-9-duoc-tinh-nhu-the-nao-theo-quy-dinh-moi-nhat-188260820091307029.chn",
+          "pubDate": "2026-08-20T02:12:00.000Z",
+          "excerpt": "Ngày 02/09/2026 là ngày nghỉ lễ Quốc khánh, người lao động được nghỉ làm việc và hưởng nguyên lương theo Bộ luật Lao động 2019, số 45/2019/QH14. Trường hợp đi…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "[Infographic] Hà Nội lập mới hồ sơ, bản đồ địa giới 126 xã, phường sau sắp xếp",
+          "link": "https://cafef.vn/infographic-ha-noi-lap-moi-ho-so-ban-do-dia-gioi-126-xa-phuong-sau-sap-xep-188260820074647566.chn",
+          "pubDate": "2026-08-20T02:11:00.000Z",
+          "excerpt": "Thành phố Hà Nội đang triển khai lập mới, cập nhật và chỉnh lý hồ sơ, bản đồ địa giới hành chính các cấp, xây dựng dữ liệu đồng bộ phục vụ quản lý nhà nước,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Quốc hội tiếp tục thảo luận việc tích hợp các chương trình mục tiêu quốc gia",
           "link": "https://cafef.vn/quoc-hoi-tiep-tuc-thao-luan-viec-tich-hop-cac-chuong-trinh-muc-tieu-quoc-gia-188260820072038053.chn",
           "pubDate": "2026-08-20T01:10:00.000Z",
           "excerpt": "Sáng 20/8, Quốc hội tiếp tục thảo luận ở hội trường về việc tích hợp 4 chương trình mục tiêu quốc gia thành 1 Chương trình mục tiêu quốc gia.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Giảm áp lực 'đầu vào' về thuế, phí, tín dụng cho doanh nghiệp",
-          "link": "https://cafef.vn/giam-ap-luc-dau-vao-ve-thue-phi-tin-dung-cho-doanh-nghiep-188260819151102582.chn",
-          "pubDate": "2026-08-20T00:34:00.000Z",
-          "excerpt": "Đây là một trong những giải pháp được các chuyên gia, nhà nghiên cứu kinh tế, đại diện doanh nghiệp nêu ra tại báo cáo chuyên đề kinh tế - xã hội TPHCM 6 tháng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "VETC dừng thu phí dịch vụ ví điện tử",
-          "link": "https://vnexpress.net/vetc-dung-thu-phi-dich-vu-vi-dien-tu-5111053.html",
-          "pubDate": "2026-08-20T00:01:44.000Z",
-          "excerpt": "Sáng 20/8, VETC cho biết dừng triển khai thu phí dịch vụ ví điện tử để xây dựng giải pháp phù hợp hơn.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Thông báo quan trọng tới tất cả người dân có lương hưu, trợ cấp",
-          "link": "https://cafef.vn/thong-bao-quan-trong-toi-tat-ca-nguoi-dan-co-luong-huu-tro-cap-188260818151839594.chn",
-          "pubDate": "2026-08-19T16:18:00.000Z",
-          "excerpt": "Sắp tới, lương hưu, bảo hiểm... sẽ được chi trả qua Ứng dụng Định danh quốc gia. Dưới đây là hướng dẫn các bước thực hiện tích hợp tài khoản hưởng an sinh xã…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Được hoàn tiền khám chữa bệnh BHYT ngay tại cơ sở khám",
-          "link": "https://cafef.vn/duoc-hoan-tien-kham-chua-benh-bhyt-ngay-tai-co-so-kham-188260819151150267.chn",
-          "pubDate": "2026-08-19T11:39:00.000Z",
-          "excerpt": "Trước đây người bệnh tham gia bảo hiểm y tế (BHYT) 5 năm liên tục, có số tiền cùng chi trả lớn hơn số tiền cùng chi trả lớn hơn 6 tháng lương cơ sở muốn nhận…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -320,21 +320,21 @@
           "condensed": null
         },
         {
-          "title": "Bảo hiểm xã hội khuyến nghị phụ huynh, học sinh, sinh viên chủ động kiểm tra lại thông tin này trên thẻ BHYT",
-          "link": "https://cafef.vn/bao-hiem-xa-hoi-khuyen-nghi-phu-huynh-hoc-sinh-sinh-vien-chu-dong-kiem-tra-lai-thong-tin-nay-tren-the-bhyt-18826081916373089.chn",
-          "pubDate": "2026-08-19T10:35:00.000Z",
-          "excerpt": "BHXH Việt Nam khuyến nghị phụ huynh, học sinh, sinh viên (HSSV) chủ động kiểm tra giá trị sử dụng thẻ BHYT sau khi hoàn tất tham gia BHYT, nhằm kịp thời phát…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Vietjet mở đường bay thẳng Colombo - TP.HCM, kết nối Sri Lanka",
           "link": "https://vneconomy.vn/vietjet-mo-duong-bay-thang-colombo-tphcm-ket-noi-sri-lanka.htm",
           "pubDate": "2026-08-19T09:19:46.000Z",
           "excerpt": "Sân bay quốc tế Bandaranaike, Colombo, Sri Lanka hôm nay (ngày 19/8) chào đón chuyến bay đầu tiên giữa Colombo với TP.HCM của Vietjet, đường bay thẳng kết…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Nghệ An: Khởi công 2 dự án có tổng vốn đầu tư hơn 6.150 tỷ đồng",
+          "link": "https://vneconomy.vn/nghe-an-khoi-cong-2-du-an-co-tong-von-dau-tu-hon-6150-ty-dong.htm",
+          "pubDate": "2026-08-19T08:53:33.000Z",
+          "excerpt": "Ngày 19/8/2026, UBND tỉnh Nghệ An phối hợp với các nhà đầu tư tổ chức khởi công Dự án Nhà máy điện rác Nghệ An tại xã Hải Lộc và khởi công kỹ thuật Dự án Khu…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -348,6 +348,28 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Netanyahu casts Turkey as Israel’s new villain amid tough re-election fight",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3364623/netanyahu-casts-turkey-israels-new-villain-amid-tough-re-election-fight?utm_source=rss_feed",
+          "pubDate": "2026-08-20T01:36:37.000Z",
+          "excerpt": "After more than two years of taking on Israel’s enemies across the Middle East, Prime Minister Benjamin Netanyahu, facing a tough re-election fight, is zeroing…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Phố Wall hồi phục sau khi Mỹ tung biện pháp “hạ nhiệt” thị trường trái phiếu",
+          "link": "http://vietstock.vn/2026/08/pho-wall-hoi-phuc-sau-khi-my-tung-bien-phap-ha-nhiet-thi-truong-trai-phieu-773-1482918.htm",
+          "pubDate": "2026-08-20T00:56:44.000Z",
+          "excerpt": "Chứng khoán Mỹ chấm dứt chuỗi ba phiên giảm liên tiếp trong ngày 19/08, sau khi lợi suất trái phiếu hạ nhiệt nhờ động thái mạnh tay của Bộ Tài chính Mỹ nhằm…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
         {
           "title": "Trump warns of punishment for any country that supports Iran: ‘economic warfare’",
           "link": "https://www.scmp.com/news/world/middle-east/article/3364619/trump-warns-punishment-any-country-supports-iran-economic-warfare?utm_source=rss_feed",
@@ -412,28 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Prince Harry and Meghan to move back to Britain, media reports say",
-          "link": "https://www.scmp.com/news/world/europe/article/3364616/prince-harry-and-meghan-move-back-britain-media-reports-say?utm_source=rss_feed",
-          "pubDate": "2026-08-19T22:13:39.000Z",
-          "excerpt": "Six years after stepping down as working royals, Prince Harry and his wife Meghan are moving back to the UK, British press reported late on Wednesday. In a…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "The chip-stock rally hits a speed bump — but these analysts see reason to be hopeful",
-          "link": "https://www.marketwatch.com/story/the-chip-stock-rally-hits-a-speed-bump-but-these-analysts-see-reason-to-be-hopeful-61821295?mod=mw_rss_topstories",
-          "pubDate": "2026-08-19T22:02:00.000Z",
-          "excerpt": "Previous instances of short-term pressure on semiconductor stocks opened up opportunities for investors who bought the dip, according to one analyst.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
