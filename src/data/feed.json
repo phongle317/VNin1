@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T15:36:39.467Z",
+  "lastUpdated": "2026-08-21T16:38:20.212Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4660.9,
+      "value": 4669.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7683.9,
-      "change": -101.86000000000058,
-      "changePercent": -1.3082858963030015
+      "value": 7680.9,
+      "change": -104.86000000000058,
+      "changePercent": -1.346817780152491
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26204.16,
-      "change": -525,
-      "changePercent": -1.9641470214552197
+      "value": 26200.01,
+      "change": -529.1500000000015,
+      "changePercent": -1.979673136005776
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26118.05,
-      "change": -322.26000000000204,
-      "changePercent": -1.2188208080767662
+      "value": 26136.56,
+      "change": -303.75,
+      "changePercent": -1.1488140645854756
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Một công ty tài chính nới room ngoại lên 50%",
+          "link": "https://cafef.vn/mot-cong-ty-tai-chinh-noi-room-ngoai-len-50-188260821232434253.chn",
+          "pubDate": "2026-08-21T16:24:00.000Z",
+          "excerpt": "Ngày 21/8/2026, tại Ninh Bình, Công ty Tài chính Tổng hợp Cổ phần Điện lực (EVF) tổ chức thành công Đại hội đồng cổ đông (ĐHĐCĐ) bất thường năm 2026. Đại hội…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "FTSE Russell chính thức công bố 27 cổ phiếu Việt Nam lọt vào FTSE All-Cap",
           "link": "https://vneconomy.vn/ftse-russell-chinh-thuc-cong-bo-27-co-phieu-viet-nam-lot-vao-ftse-all-cap.htm",
@@ -138,17 +149,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Chính thức công bố danh sách cổ phiếu Việt Nam lọt FTSE Global Equity Index Series",
-          "link": "https://cafef.vn/chinh-thuc-cong-bo-danh-sach-co-phieu-viet-nam-lot-ftse-global-equity-index-series-188260821182038611.chn",
-          "pubDate": "2026-08-21T11:20:00.000Z",
-          "excerpt": "FTSE Russell vừa công bố kết quả rà soát bán niên tháng 9/2026 của bộ chỉ số FTSE Global Equity Index Series (GEIS).",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         }
       ],
@@ -349,6 +349,50 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
+          "link": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
+          "pubDate": "2026-08-21T16:31:00.000Z",
+          "excerpt": "“You’ll have to trust me when I tell you that she had love, support and opportunities.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "6 AI hardware stocks to own for the remainder of the year, according to an analyst",
+          "link": "https://www.marketwatch.com/story/6-ai-hardware-stocks-to-own-for-the-remainder-of-the-year-according-to-an-analyst-ec0bad4e?mod=mw_rss_topstories",
+          "pubDate": "2026-08-21T16:27:00.000Z",
+          "excerpt": "An Evercore ISI analyst sees strong growth ahead for storage makers, networking providers and Apple.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "‘We are committed Christians’: Our son and daughter-in-law cut us out of their lives after a political argument. Should we change our $3 million will?",
+          "link": "https://www.marketwatch.com/story/we-are-hurt-our-son-and-daughter-in-law-cut-off-contact-with-us-over-politics-should-we-change-our-3-million-will-f763b761?mod=mw_rss_topstories",
+          "pubDate": "2026-08-21T16:15:00.000Z",
+          "excerpt": "“We are hurt and confused, but we have also tried to respect the boundaries they have established.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "States are coming after prediction markets — and setting up a costly legal battle over who gets to regulate them",
+          "link": "https://www.marketwatch.com/story/states-are-coming-after-prediction-markets-and-setting-up-a-costly-legal-battle-over-who-gets-to-regulate-them-f9ab9a37?mod=mw_rss_topstories",
+          "pubDate": "2026-08-21T16:14:00.000Z",
+          "excerpt": "Prediction markets like Kalshi are regulated in different ways across states. There’s a better way for them to thrive.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "‘This is very stressful’: My son’s roof was damaged in a storm, but his insurance won’t pay. Can he fight this?",
           "link": "https://www.marketwatch.com/story/this-is-very-stressful-my-sons-insurance-company-wont-pay-for-his-damaged-roof-how-can-he-fight-this-22f3a821?mod=mw_rss_topstories",
           "pubDate": "2026-08-21T15:30:00.000Z",
@@ -371,21 +415,10 @@
           "condensed": null
         },
         {
-          "title": "Our 4-year-old son has $100,000 in his 529 account. Is a bull market a bad time to buy him stocks instead?",
-          "link": "https://www.marketwatch.com/story/our-4-year-old-son-has-100-000-in-his-529-account-should-we-buy-him-stocks-instead-3ca745b2?mod=mw_rss_topstories",
-          "pubDate": "2026-08-21T15:00:00.000Z",
-          "excerpt": "“I’d love for our son to be able to attend college without needing to take out student loans.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Man armed with sword injures several at Swedish high school",
-          "link": "https://www.scmp.com/news/world/europe/article/3364889/man-armed-sword-injures-several-swedish-high-school?utm_source=rss_feed",
-          "pubDate": "2026-08-21T14:49:33.000Z",
-          "excerpt": "A man armed ⁠with a sword injured several people at a Swedish high school on Friday and one person was later detained, local authorities said. The incident…",
+          "title": "China and US push Southeast Asia over their AI blocs. Will it test region’s non-alignment?",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3364853/china-and-us-push-southeast-asia-over-their-ai-blocs-will-it-test-regions-non-alignment?utm_source=rss_feed",
+          "pubDate": "2026-08-21T15:00:05.000Z",
+          "excerpt": "Southeast Asian leaders have long insisted they will not be forced to pick sides in the great-power rivalry between the US and China. But their posture is…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -393,43 +426,10 @@
           "condensed": null
         },
         {
-          "title": "Bitcoin and gold surge as Bessent’s bond market intervention weighs on dollar",
-          "link": "https://www.ft.com/content/7e0c8dc0-e957-420a-bba3-d33666d919b8?syn-25a6b1a6=1",
-          "pubDate": "2026-08-21T14:48:16.000Z",
-          "excerpt": "World’s biggest cryptocurrency on track for best week in more than three years",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
-          "link": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
-          "pubDate": "2026-08-21T14:00:00.000Z",
-          "excerpt": "“Grandma feels that she was pressured by my mother into taking out a $50,000 HELOC.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Victor Niederhoffer, Known for Big Bets and an Unconventional Lifestyle, Dies at 82",
-          "link": "https://www.wsj.com/finance/investing/victor-niederhoffer-dead-54ca91a9?mod=rss_markets_main",
-          "pubDate": "2026-08-21T14:00:00.000Z",
-          "excerpt": "On Wall Street and the squash court, he became well-known for winning without behaving like anybody else.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Prince Harry and others ordered to pay initial US$13 million in failed lawsuit",
-          "link": "https://www.scmp.com/news/world/europe/article/3364881/prince-harry-and-others-ordered-pay-initial-us13-million-failed-lawsuit?utm_source=rss_feed",
-          "pubDate": "2026-08-21T13:39:25.000Z",
-          "excerpt": "Prince Harry, Elton John ⁠and other high-profile claimants face paying ⁠millions of dollars out of their own pockets to cover the legal costs of the Daily…",
+          "title": "Man armed with sword injures several at Swedish high school",
+          "link": "https://www.scmp.com/news/world/europe/article/3364889/man-armed-sword-injures-several-swedish-high-school?utm_source=rss_feed",
+          "pubDate": "2026-08-21T14:49:33.000Z",
+          "excerpt": "A man armed with a sword injured several people at a Swedish high school on Friday and one person was later detained, local authorities said, triggering a…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
