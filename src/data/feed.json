@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T13:49:04.129Z",
+  "lastUpdated": "2026-08-21T14:38:24.335Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4644.9,
+      "value": 4657,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7668.45,
-      "change": -117.3100000000004,
-      "changePercent": -1.5067250981278693
+      "value": 7660.8,
+      "change": -124.96000000000004,
+      "changePercent": -1.6049814019440625
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26107.322,
-      "change": -621.8379999999997,
-      "changePercent": -2.326440486719372
+      "value": 26078.828,
+      "change": -650.3319999999985,
+      "changePercent": -2.4330431633466914
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26117.83,
-      "change": -322.47999999999956,
-      "changePercent": -1.2196528709383496
+      "value": 26126.97,
+      "change": -313.34000000000015,
+      "changePercent": -1.1850844411430885
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Ngày làm bù 22/8, thị trường chứng khoán có giao dịch không?",
+          "link": "https://cafef.vn/ngay-lam-bu-22-8-thi-truong-chung-khoan-co-giao-dich-khong-188260821212857433.chn",
+          "pubDate": "2026-08-21T14:28:00.000Z",
+          "excerpt": "Nhiều cơ quan, đơn vị áp dụng lịch hoán đổi sẽ đi làm vào ngày 22/8 để được nghỉ liên tục trong kỳ nghỉ Quốc khánh.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tiền đổ vào chứng khoán ngân hàng đón sóng FTSE Russell, tổ chức trong nước tranh thủ thoát hàng",
+          "link": "https://vneconomy.vn/tien-do-vao-chung-khoan-ngan-hang-don-song-ftse-russell-to-chuc-trong-nuoc-tranh-thu-thoat-hang.htm",
+          "pubDate": "2026-08-21T13:56:38.000Z",
+          "excerpt": "Nhà đầu tư tổ chức trong nước bán ròng 629,5 tỷ đồng, tính riêng khớp lệnh thì họ bán ròng 251,3 tỷ đồng.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Chi tiết toàn bộ 90 cổ phiếu Việt Nam vào rổ Micro Cap của FTSE Global Equity Index Series",
           "link": "https://cafef.vn/chi-tiet-toan-bo-90-co-phieu-viet-nam-vao-ro-micro-cap-cua-ftse-global-equity-index-series-188260821191743878.chn",
@@ -128,28 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Tiếp tục kế hoạch tăng vốn, VIB chuẩn bị phát hành thêm cổ phiếu thưởng ESOP cho người lao động",
-          "link": "http://vietstock.vn/2026/08/tiep-tuc-ke-hoach-tang-von-vib-chuan-bi-phat-hanh-them-co-phieu-thuong-esop-cho-nguoi-lao-dong-764-1483630.htm",
-          "pubDate": "2026-08-21T10:00:00.000Z",
-          "excerpt": "Ngân hàng TMCP Quốc tế Việt Nam (HOSE: VIB) thông báo phát hành cổ phiếu theo chương trình lựa chọn cho người lao động (ESOP) nhằm tăng thêm vốn điều lệ.",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Tối ưu tài khoản thanh toán với sản phẩm Sinh Lời Tài Lộc của SACOMBANK",
-          "link": "http://vietstock.vn/2026/08/toi-uu-tai-khoan-thanh-toan-voi-san-pham-sinh-loi-tai-loc-cua-sacombank-757-1483637.htm",
-          "pubDate": "2026-08-21T09:45:19.000Z",
-          "excerpt": "Nhằm mang đến giải pháp quản lý dòng tiền thông minh cho cả khách hàng cá nhân và doanh nghiệp, Ngân hàng TMCP Sài Gòn Tài Lộc (SACOMBANK, HOSE: STB) chính…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Bộ trưởng Xây dựng: 'Không lo lãi suất khi mua nhà ở xã hội'",
+          "link": "https://cafef.vn/bo-truong-xay-dung-khong-lo-lai-suat-khi-mua-nha-o-xa-hoi-188260821195749084.chn",
+          "pubDate": "2026-08-21T13:39:00.000Z",
+          "excerpt": "Với chính sách tín dụng ưu đãi dành cho người mua nhà và chủ đầu tư nhà ở xã hội, Bộ trưởng Xây dựng Trần Hồng Minh cho rằng \"không lo\" khi người mua nhà vay…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Hà Nội đồng loạt chỉnh trang hạ tầng giao thông phục vụ Quốc khánh 2-9",
           "link": "https://cafef.vn/ha-noi-dong-loat-chinh-trang-ha-tang-giao-thong-phuc-vu-quoc-khanh-2-9-188260821165623087.chn",
@@ -203,17 +214,6 @@
           "condensed": null
         },
         {
-          "title": "Đà Nẵng gỡ vướng cho ba dự án bất động sản theo cơ chế đặc thù",
-          "link": "https://vnexpress.net/da-nang-go-vuong-cho-ba-du-an-bat-dong-san-theo-co-che-dac-thu-5111804.html",
-          "pubDate": "2026-08-21T11:38:30.000Z",
-          "excerpt": "Hai khu đô thị gần 39 ha cùng một dự án nhà ở xã hội tại phường Điện Bàn Đông vừa được UBND TP Đà Nẵng cho phép tiếp tục giao đất, cho thuê đất.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Tính đến sinh kế lâu dài trong chính sách bồi thường khi thu hồi đất",
           "link": "https://vneconomy.vn/tinh-den-sinh-ke-lau-dai-trong-chinh-sach-boi-thuong-khi-thu-hoi-dat.htm",
           "pubDate": "2026-08-21T11:38:20.000Z",
@@ -236,14 +236,14 @@
           "condensed": null
         },
         {
-          "title": "Conic Boulevard chính thức bàn giao Căn hộ và Giấy chứng nhận đến Cư dân",
-          "link": "https://cafef.vn/conic-boulevard-chinh-thuc-ban-giao-can-ho-va-giay-chung-nhan-den-cu-dan-188260821151236498.chn",
-          "pubDate": "2026-08-21T10:30:00.000Z",
-          "excerpt": "Từ ngày 01/08/2026, những căn hộ đầu tiên tại Block A dự án Conic Boulevard (đường Huỳnh Bá Chánh, xã Tân Nhựt, TP.HCM) được bàn giao đến cư dân. Trước đó,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Mô hình “Boutique” trong bất động sản: Khi giá trị của một nơi ở không được đo bằng số lượng",
+          "link": "https://vneconomy.vn/mo-hinh-boutique-trong-bat-dong-san-khi-gia-tri-cua-mot-noi-o-khong-duoc-do-bang-so-luong.htm",
+          "pubDate": "2026-08-21T09:28:16.000Z",
+          "excerpt": "Từ những cửa hàng nhỏ mang cá tính riêng tại châu Âu, hay những boutique hotel làm thay đổi ngành hospitality toàn cầu, cho đến thế hệ bất động sản chú trọng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -309,17 +309,6 @@
           "condensed": null
         },
         {
-          "title": "Đề xuất tách dự án điện hạt nhân Ninh Thuận thành các dự án độc lập",
-          "link": "https://vnexpress.net/de-xuat-tach-du-an-dien-hat-nhan-ninh-thuan-thanh-cac-du-an-doc-lap-5111640.html",
-          "pubDate": "2026-08-21T06:49:36.000Z",
-          "excerpt": "Chính phủ đề xuất tách dự án điện hạt Ninh Thuận thành 3 dự án độc lập gồm nhà máy điện hạt nhân Ninh Thuận 1, 2 và dự án bồi thường, hỗ trợ, tái định cư.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Áp lực “giải” bài toán huy động 450 tỷ USD cho phát triển hạ tầng",
           "link": "https://vneconomy.vn/ap-luc-giai-bai-toan-huy-dong-450-ty-usd-cho-phat-trien-ha-tang.htm",
           "pubDate": "2026-08-20T10:31:38.000Z",
@@ -340,6 +329,17 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Giá nhiên liệu tăng, lợi nhuận các hãng hàng không quốc tế đồng loạt giảm",
+          "link": "https://vneconomy.vn/gia-nhien-lieu-tang-loi-nhuan-cac-hang-hang-khong-quoc-te-dong-loat-giam.htm",
+          "pubDate": "2026-08-20T08:53:12.000Z",
+          "excerpt": "Giá nhiên liệu máy bay tăng mạnh đang tạo sức ép lên lợi nhuận của các hãng hàng không toàn cầu, ngay cả khi doanh thu và nhu cầu đi lại vẫn tăng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -348,6 +348,28 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "‘There is considerable tension’: My grandmother, 99, wants to cut my mother out of her will. Should I intervene?",
+          "link": "https://www.marketwatch.com/story/there-is-considerable-tension-my-grandmother-99-wants-to-cut-my-mother-out-of-her-will-should-i-intervene-5e8f408e?mod=mw_rss_topstories",
+          "pubDate": "2026-08-21T14:00:00.000Z",
+          "excerpt": "“Grandma feels that she was pressured by my mother into taking out a $50,000 HELOC.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Victor Niederhoffer, Known for Big Bets and an Unconventional Lifestyle, Dies at 82",
+          "link": "https://www.wsj.com/finance/investing/victor-niederhoffer-dead-54ca91a9?mod=rss_markets_main",
+          "pubDate": "2026-08-21T14:00:00.000Z",
+          "excerpt": "On Wall Street and the squash court, he became well-known for winning without behaving like anybody else.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
         {
           "title": "Prince Harry and others ordered to pay initial US$13 million in failed lawsuit",
           "link": "https://www.scmp.com/news/world/europe/article/3364881/prince-harry-and-others-ordered-pay-initial-us13-million-failed-lawsuit?utm_source=rss_feed",
@@ -412,28 +434,6 @@
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "I need to get out of my job. Can I leave for a competitor if I’ve signed a non-compete?",
-          "link": "https://www.marketwatch.com/story/i-need-to-get-out-of-my-job-can-i-leave-for-a-competitor-if-ive-signed-a-non-compete-33d3164b?mod=mw_rss_topstories",
-          "pubDate": "2026-08-21T13:07:00.000Z",
-          "excerpt": "“I’ve been unhappy for a while.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Bitcoin on track for best week in more than two years. Can this mean the next crypto bull market has arrived?",
-          "link": "https://www.marketwatch.com/story/bitcoin-on-track-for-best-week-in-more-than-two-years-has-the-next-crypto-bull-market-arrived-0181180c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-21T13:01:00.000Z",
-          "excerpt": "Is bitcoin ready to move on after a lengthy slump? One analyst says investors should be careful in trying to guess a bottom for the crypto.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
