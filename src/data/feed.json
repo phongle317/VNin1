@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T07:45:41.066Z",
+  "lastUpdated": "2026-08-21T08:43:53.989Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4618.6,
+      "value": 4637.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25955.51,
-      "change": 838.6599999999999,
-      "changePercent": 3.339033358084314
+      "value": 26009.46,
+      "change": 892.6100000000006,
+      "changePercent": 3.5538294013779623
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26010.94,
-      "change": -429.3700000000026,
-      "changePercent": -1.6239219585549587
+      "value": 26073.05,
+      "change": -367.26000000000204,
+      "changePercent": -1.3890154843116513
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Cổ phiếu chứng khoán tăng bùng nổ, dòng tiền đổ xô vào mua, khối ngoại cũng đảo chiều",
+          "link": "https://vneconomy.vn/co-phieu-chung-khoan-tang-bung-no-dong-tien-do-xo-vao-mua-khoi-ngoai-cung-dao-chieu.htm",
+          "pubDate": "2026-08-21T08:33:47.000Z",
+          "excerpt": "Thị trường đột ngột thay đổi khá sốc ngay khi bước vào phiên chiều. Nhóm phát tín hiệu là cổ phiếu chứng khoán, nhiều mã được “đánh lên” kịch trần trong thời…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Chuyên gia dự báo sốc về giá vàng",
+          "link": "https://cafef.vn/chuyen-gia-du-bao-soc-ve-gia-vang-188260821145017941.chn",
+          "pubDate": "2026-08-21T07:51:00.000Z",
+          "excerpt": "Với giá vàng quanh 4.500 USD/ounce, kịch bản tăng gấp 10 lần sẽ đưa kim loại quý lên khoảng 45.000 USD/ounce, nằm trong vùng dự báo mà Kaplan đưa ra.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Chuyện gì đây: Một mã chứng khoán “dựng cây thông”, thị giá bay gần 50% chỉ sau 1 tuần",
           "link": "https://cafef.vn/chuyen-gi-day-mot-ma-chung-khoan-dung-cay-thong-thi-gia-bay-gan-50-chi-sau-1-tuan-188260821140349821.chn",
@@ -83,6 +105,17 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đề xuất tách dự án điện hạt nhân Ninh Thuận thành các dự án độc lập",
+          "link": "https://vnexpress.net/de-xuat-tach-du-an-dien-hat-nhan-ninh-thuan-thanh-cac-du-an-doc-lap-5111640.html",
+          "pubDate": "2026-08-21T06:49:36.000Z",
+          "excerpt": "Chính phủ đề xuất tách dự án điện hạt Ninh Thuận thành 3 dự án độc lập gồm nhà máy điện hạt nhân Ninh Thuận 1, 2 và dự án bồi thường, hỗ trợ, tái định cư.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -108,17 +141,6 @@
           "condensed": null
         },
         {
-          "title": "Cổ phiếu LTG của Lộc Trời bị hủy giao dịch trên UPCoM từ ngày 25/8/2026",
-          "link": "https://cafef.vn/co-phieu-ltg-cua-loc-troi-bi-huy-giao-dich-tren-upcom-tu-ngay-25-8-2026-188260821125839654.chn",
-          "pubDate": "2026-08-21T05:58:00.000Z",
-          "excerpt": "Hơn 100,7 triệu cổ phiếu LTG sẽ bị hủy đăng ký giao dịch trên UPCoM kể từ ngày 25/87/2026 do Lộc Trời hủy tư cách công ty đại chúng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Thị trường năng lượng toàn cầu phát tín hiệu báo động",
           "link": "https://vnexpress.net/thi-truong-nang-luong-toan-cau-phat-tin-hieu-bao-dong-5111673.html",
           "pubDate": "2026-08-21T05:19:00.000Z",
@@ -127,28 +149,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "'Vua tiền mặt' bình quân mỗi ngày thu 27 tỷ đồng lãi ngân hàng",
-          "link": "https://vnexpress.net/vua-tien-mat-binh-quan-moi-ngay-thu-27-ty-dong-lai-ngan-hang-5111644.html",
-          "pubDate": "2026-08-21T05:15:25.000Z",
-          "excerpt": "Tập đoàn Bảo Việt thu gần 4.930 tỷ đồng lãi tiền gửi ngân hàng trong nửa đầu năm, tương ứng mỗi ngày khoảng 27 tỷ đồng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "VIB 30 năm: Tiếp sức hiện thực hóa 30 hành trình bước tiến, trao hơn 30,000 giải thưởng cho khách hàng",
-          "link": "http://vietstock.vn/2026/08/vib-30-nam-tiep-suc-hien-thuc-hoa-30-hanh-trinh-buoc-tien-trao-hon-30000-giai-thuong-cho-khach-hang-757-1483524.htm",
-          "pubDate": "2026-08-21T05:10:00.000Z",
-          "excerpt": "Đánh dấu cột mốc 30 năm hình thành và phát triển (18/09/1996 - 18/09/2026), Ngân hàng TMCP Quốc Tế Việt Nam (HOSE: VIB) ra mắt “Hành trình vì những bước tiến”…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
           "condensed": null
         }
       ],
@@ -159,10 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Chung cư Hà Nội chạm mốc 123 triệu đồng/m2, giao dịch bất động sản cả nước đồng loạt giảm mạnh",
-          "link": "https://cafef.vn/chung-cu-ha-noi-cham-moc-123-trieu-dong-m2-giao-dich-bat-dong-san-ca-nuoc-dong-loat-giam-manh-188260821125411113.chn",
-          "pubDate": "2026-08-21T05:55:00.000Z",
-          "excerpt": "Báo cáo mới nhất của Bộ Xây dựng cho thấy thị trường bất động sản quý II/2026 đang có sự phân hóa mạnh. Dù nguồn cung có chuyển biến tích cực, thanh khoản thị…",
+          "title": "Tỷ phú Phạm Nhật Vượng đang xây Khu đô thị Đại học Quốc tế 880 ha hàng đầu châu Á cho 60.000 sinh viên, sẽ có khoảng 100 công viên phủ khắp đại dự án",
+          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-dang-xay-khu-do-thi-dai-hoc-quoc-te-880-ha-hang-dau-chau-a-cho-60000-sinh-vien-se-co-khoang-100-cong-vien-phu-khap-dai-du-an-188260821145623249.chn",
+          "pubDate": "2026-08-21T07:56:00.000Z",
+          "excerpt": "Dự án Khu đô thị Đại học Quốc tế (còn gọi là Vinhomes SaiGon Park) tại xã Xuân Thới Sơn (TP.HCM) có quy mô 880 ha, tổng vốn đầu tư gần 59.000 tỷ đồng.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +170,10 @@
           "condensed": null
         },
         {
-          "title": "Bỏ thủ tục 'công chứng' trong luật không làm mất quyền, nghĩa vụ hợp pháp trong giao dịch đất đai",
-          "link": "https://cafef.vn/bo-thu-tuc-cong-chung-trong-luat-khong-lam-mat-quyen-nghia-vu-hop-phap-trong-giao-dich-dat-dai-188260821125146593.chn",
-          "pubDate": "2026-08-21T05:53:00.000Z",
-          "excerpt": "Về vấn đề công chứng trong quá trình giao dịch đất đai, theo Bộ trưởng NN&MT Trịnh Việt Hùng, sẽ không quy định trong luật, nhưng sẽ có trong dự thảo nghị…",
+          "title": "Việt Nam sở hữu một “khu rừng băng tuyết” thường xuyên duy trì -5 độ C, bàn ghế đều được làm bằng băng tạo nên không gian chưa từng có",
+          "link": "https://cafef.vn/viet-nam-so-huu-mot-khu-rung-bang-tuyet-thuong-xuyen-duy-tri-5-do-c-ban-ghe-deu-duoc-lam-bang-bang-tao-nen-khong-gian-chua-tung-co-188260821144819693.chn",
+          "pubDate": "2026-08-21T07:48:00.000Z",
+          "excerpt": "Công viên Ice Jungle được xây dựng trên diện tích 13.000m2, tổng vốn đầu tư hơn 5 triệu USD. Tại đây, nhiệt độ duy trì thường xuyên -5 độ C.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,10 +181,10 @@
           "condensed": null
         },
         {
-          "title": "Dự kiến điều chỉnh 2 ô đất xây nhà ở xã hội Thiên Lộc lên 30 tầng",
-          "link": "https://cafef.vn/du-kien-dieu-chinh-2-o-dat-xay-nha-o-xa-hoi-thien-loc-len-30-tang-188260821103924061.chn",
-          "pubDate": "2026-08-21T05:47:00.000Z",
-          "excerpt": "Chiều 20-8, UBND xã Thiên Lộc phối hợp Công ty cổ phần Đầu tư Bất động sản Bắc 9 tổ chức hội nghị xin ý kiến cộng đồng dân cư về đồ án Điều chỉnh cục bộ Quy…",
+          "title": "'Thu hồi đất, dân sẽ ở đâu, con học ở đâu, sinh kế ra sao?'",
+          "link": "https://cafef.vn/thu-hoi-dat-dan-se-o-dau-con-hoc-o-dau-sinh-ke-ra-sao-18826082114214817.chn",
+          "pubDate": "2026-08-21T07:48:00.000Z",
+          "excerpt": "Sáng 21/8, Quốc hội thảo luận định hướng sửa đổi Luật Đất đai 2024, trong đó, nhiều đại biểu lưu ý, thu hồi đất không thể chỉ tính chuyện bồi thường bao nhiêu…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -192,10 +192,21 @@
           "condensed": null
         },
         {
-          "title": "Hơn 10 ngày nữa, doanh nghiệp của tỷ phú Trần Bá Dương sẽ khởi công tuyến đường sắt 5 tỷ USD nối thành phố giàu nhất Việt Nam với siêu sân bay 16 tỷ USD",
-          "link": "https://cafef.vn/hon-10-ngay-nua-doanh-nghiep-cua-ty-phu-tran-ba-duong-se-khoi-cong-tuyen-duong-sat-5-ty-usd-noi-thanh-pho-giau-nhat-viet-nam-voi-sieu-san-bay-16-ty-usd-188260821112433227.chn",
-          "pubDate": "2026-08-21T05:14:00.000Z",
-          "excerpt": "Tuyến đường sắt Thủ Thiêm - Long Thành dài 46,44 km, được bố trí 18 nhà ga, với công suất tối đa gần 47.000 hành khách/giờ.",
+          "title": "ĐBQH: Người dân bị thu hồi đất cần được bày tỏ nguyện vọng về nơi tái định cư",
+          "link": "https://cafef.vn/dbqh-nguoi-dan-bi-thu-hoi-dat-can-duoc-bay-to-nguyen-vong-ve-noi-tai-dinh-cu-188260821112251522.chn",
+          "pubDate": "2026-08-21T07:48:00.000Z",
+          "excerpt": "Đó là kiến nghị của đại biểu Nguyễn Duy Minh (đoàn Đà Nẵng) khi thảo luận ở hội trường về định hướng chính sách sửa đổi Luật Đất đai năm 2024, sáng 21/8.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hodeco bị nhắc nhở vì chậm báo cáo thông tin tài liệu ĐHĐCĐ",
+          "link": "https://cafef.vn/hodeco-bi-nhac-nho-vi-cham-bao-cao-thong-tin-tai-lieu-dhdcd-188260821142310496.chn",
+          "pubDate": "2026-08-21T07:47:00.000Z",
+          "excerpt": "HoSE vừa nhắc nhở Hodeco về việc chậm báo cáo đồng thời thông tin công bố liên quan đường dẫn tài liệu họp ĐHĐCĐ thường niên năm 2026.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Loạt chính sách dự kiến sửa đổi có thể thay đổi 'cuộc chơi' trên thị trường bất động sản",
-          "link": "https://vnexpress.net/loat-chinh-sach-du-kien-sua-doi-co-the-thay-doi-cuoc-choi-tren-thi-truong-bat-dong-san-5111149.html",
-          "pubDate": "2026-08-20T21:00:00.000Z",
-          "excerpt": "Quy định mới về giá đất, chung cư có thời hạn, bồi thường tái định cư nằm trong nhóm vấn đề nóng đang được Quốc hội thảo luận khi sửa ba luật liên quan bất…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Ninh Bình yêu cầu khẩn trương tháo gỡ 'điểm nghẽn' cho 4 dự án giao thông trọng điểm",
+          "link": "https://cafef.vn/ninh-binh-yeu-cau-khan-truong-thao-go-diem-nghen-cho-4-du-an-giao-thong-trong-diem-188260821132407388.chn",
+          "pubDate": "2026-08-21T07:59:00.000Z",
+          "excerpt": "UBND tỉnh Ninh Bình yêu cầu các chủ đầu tư khẩn trương tháo gỡ điểm nghẽn, đẩy nhanh giải phóng mặt bằng và thi công 4 dự án giao thông trọng điểm. Đáng chú ý,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Trúng thưởng 100 triệu đồng, người trúng có được nhận toàn bộ số tiền? Cơ quan Thuế giải đáp",
           "link": "https://cafef.vn/trung-thuong-100-trieu-dong-nguoi-trung-co-duoc-nhan-toan-bo-so-tien-co-quan-thue-giai-dap-188260821143507466.chn",
@@ -287,14 +298,14 @@
           "condensed": null
         },
         {
-          "title": "Tách Dự án điện hạt nhân Ninh Thuận thành các dự án độc lập",
-          "link": "https://cafef.vn/tach-du-an-dien-hat-nhan-ninh-thuan-thanh-cac-du-an-doc-lap-188260821132253817.chn",
-          "pubDate": "2026-08-21T06:22:00.000Z",
-          "excerpt": "Quốc hội nghe báo cáo về việc tách Dự án điện hạt nhân Ninh Thuận thành các dự án độc lập tại phiên họp toàn thể ở Hội trường vào sáng nay (21/8).",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Cổ phiếu PNJ tăng trần sau kết luận không liên quan vụ buôn lậu kim cương",
+          "link": "https://vnexpress.net/co-phieu-pnj-tang-tran-sau-ket-luan-khong-lien-quan-vu-buon-lau-kim-cuong-5111575.html",
+          "pubDate": "2026-08-21T03:12:32.000Z",
+          "excerpt": "Sau kết luận của cơ quan điều tra \"không liên quan vụ buôn lậu kim cương\", cổ phiếu PNJ tăng hết biên độ lên 39.900 đồng từ lúc mở cửa với thanh khoản cao.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -329,17 +340,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Thủ tướng Lê Minh Hưng: Dự kiến 75% nguồn lực chương trình mục tiêu quốc gia dành cho chi đầu tư",
-          "link": "https://vneconomy.vn/thu-tuong-le-minh-hung-du-kien-75-nguon-luc-chuong-trinh-muc-tieu-quoc-gia-danh-cho-chi-dau-tu.htm",
-          "pubDate": "2026-08-20T03:36:14.000Z",
-          "excerpt": "Thủ tướng Lê Minh Hưng cho biết Chính phủ dự kiến cơ cấu lại hơn 800.000 tỷ đồng nguồn lực của 4 chương trình mục tiêu quốc gia, theo hướng khoảng 75% dành cho…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,6 +349,17 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "UK posts unexpected budget deficit of £1.8bn in July",
+          "link": "https://www.ft.com/content/481b3fd0-6b2d-4bbe-b6e3-b99146df827c?syn-25a6b1a6=1",
+          "pubDate": "2026-08-21T08:09:49.000Z",
+          "excerpt": "Latest borrowing data underscores challenge facing chancellor John Healey ahead of his first Budget",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "As Harry plans UK return, can he patch up royal rift with Prince William?",
           "link": "https://www.scmp.com/news/world/europe/article/3364794/harry-plans-uk-return-can-he-patch-royal-rift-prince-william?utm_source=rss_feed",
           "pubDate": "2026-08-21T06:53:49.000Z",
@@ -357,17 +368,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "UK posts surprise budget deficit of £1.8bn in July",
-          "link": "https://www.ft.com/content/481b3fd0-6b2d-4bbe-b6e3-b99146df827c?syn-25a6b1a6=1",
-          "pubDate": "2026-08-21T06:38:30.000Z",
-          "excerpt": "Borrowing figures underline challenge facing chancellor John Healey ahead of his first Budget",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         },
         {
@@ -426,10 +426,10 @@
           "condensed": null
         },
         {
-          "title": "The battle over golf’s future",
-          "link": "https://www.ft.com/content/d286cb7f-c63e-42a6-86db-d0a9ad0f296a?syn-25a6b1a6=1",
+          "title": "London cabbies plot ‘skulduggery’ to take on robotaxis",
+          "link": "https://www.ft.com/content/7f2d4be3-5879-439e-8060-339bac53ab40?syn-25a6b1a6=1",
           "pubDate": "2026-08-21T04:00:13.000Z",
-          "excerpt": "New management wants the sport to become more commercial, but others worry billionaires have too much say",
+          "excerpt": "Private-hire drivers are bracing for a new wave of technological change",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
