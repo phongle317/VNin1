@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T14:01:10.134Z",
+  "lastUpdated": "2026-08-24T14:45:42.738Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4731.6,
+      "value": 4730.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7652.16,
-      "change": -92.90000000000055,
-      "changePercent": -1.199474245519086
+      "value": 7654.16,
+      "change": -90.90000000000055,
+      "changePercent": -1.1736513338825076
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25969.037,
-      "change": -675.8729999999996,
-      "changePercent": -2.536593293052968
+      "value": 26016.113,
+      "change": -628.7969999999987,
+      "changePercent": -2.3599141449530086
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26056.89,
-      "change": -281.72000000000116,
-      "changePercent": -1.0696084569383166
+      "value": 26054.95,
+      "change": -283.65999999999985,
+      "changePercent": -1.0769740696263008
     }
   ],
   "themes": [
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Tổ chức trong nước và tự doanh tiếp tục thoát hàng",
+          "link": "https://vneconomy.vn/to-chuc-trong-nuoc-va-tu-doanh-tiep-tuc-thoat-hang.htm",
+          "pubDate": "2026-08-24T14:27:04.000Z",
+          "excerpt": "Tự doanh hôm nay bán ròng 197,9 tỷ đồng, tính riêng khớp lệnh họ bán ròng 164,5 tỷ đồng. Trong khi nhà đầu tư tổ chức trong nước bán ròng 217,2 tỷ đồng, tính…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Một cổ phiếu quốc dân bất ngờ bị hơn 20 quỹ ồ ạt \"xả hàng\"",
+          "link": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-bi-hon-20-quy-o-at-xa-hang-188260824210648107.chn",
+          "pubDate": "2026-08-24T14:06:00.000Z",
+          "excerpt": "Theo thống kê, nhiều cổ phiếu ngân hàng cũng chịu áp lực bán ròng trong tháng 7.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Một doanh nghiệp trên sàn chứng khoán chuẩn bị \"lăn chốt\" cổ tức 25% bằng tiền mặt",
+          "link": "https://cafef.vn/mot-doanh-nghiep-tren-san-chung-khoan-chuan-bi-lan-chot-co-tuc-25-bang-tien-mat-188260824210155606.chn",
+          "pubDate": "2026-08-24T14:01:00.000Z",
+          "excerpt": "Thời gian thanh toán dự kiến là 15/10/2026.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Chứng khoán Dầu khí sắp bầu thay thế thành viên HĐQT",
           "link": "https://cafef.vn/chung-khoan-dau-khi-sap-bau-thay-the-thanh-vien-hdqt-188260824204131926.chn",
@@ -97,28 +130,6 @@
           "condensed": null
         },
         {
-          "title": "Một thế lực quay đầu bán ròng gần 200 tỷ đồng cổ phiếu trong phiên đầu tuần",
-          "link": "https://cafef.vn/mot-the-luc-quay-dau-ban-rong-gan-200-ty-dong-co-phieu-trong-phien-dau-tuan-188260824184823608.chn",
-          "pubDate": "2026-08-24T11:48:00.000Z",
-          "excerpt": "Tự doanh CTCK bán ròng 194 tỷ đồng trên HoSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nữ Chủ tịch sinh năm 1999 của PC1 làm việc tại loạt dự án thủy điện Cao Bằng",
-          "link": "https://cafef.vn/nu-chu-tich-sinh-nam-1999-cua-pc1-thi-sat-loat-du-an-thuy-dien-tai-cao-bang-188260824174720875.chn",
-          "pubDate": "2026-08-24T10:47:00.000Z",
-          "excerpt": "Chuyến làm việc diễn ra khoảng một tháng sau khi bà Trịnh Khánh Linh, chính thức được bầu làm Chủ tịch HĐQT PC1.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Vietbank triển khai gói tín dụng ưu đãi 2,500 tỷ đồng, giảm lãi suất hỗ trợ doanh nghiệp",
           "link": "http://vietstock.vn/2026/08/vietbank-trien-khai-goi-tin-dung-uu-dai-2500-ty-dong-giam-lai-suat-ho-tro-doanh-nghiep-757-1484448.htm",
           "pubDate": "2026-08-24T10:21:04.000Z",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Cổ phiếu PNJ liên tục tăng trần",
-          "link": "https://vnexpress.net/co-phieu-pnj-lien-tuc-tang-tran-5112840.html",
-          "pubDate": "2026-08-24T09:22:48.000Z",
-          "excerpt": "PNJ nối dài mạch tăng 4 phiên liên tiếp, trong đó 2 phiên chạm trần, lên gần 43.000 đồng khi cơ quan điều tra kết luận doanh nghiệp không liên quan vụ buôn lậu…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Sửa 3 luật về đất đai, nhà ở, bất động sản: Đề xuất loạt thay đổi lớn",
+          "link": "https://cafef.vn/sua-3-luat-ve-dat-dai-nha-o-bat-dong-san-de-xuat-loat-thay-doi-lon-188260824200411069.chn",
+          "pubDate": "2026-08-24T14:10:00.000Z",
+          "excerpt": "Việc sửa đổi đồng bộ các luật về đất đai, nhà ở và kinh doanh bất động sản hướng tới tháo gỡ vướng mắc về thu hồi đất, tái định cư, giá đất, khơi thông nguồn…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Bộ trưởng Tài chính: Dự án khu đô thị lấn biển từ 100.000 - 200.000 tỷ",
           "link": "https://cafef.vn/bo-truong-tai-chinh-du-an-khu-do-thi-lan-bien-tu-100000-200000-ty-188260824183527972.chn",
@@ -207,17 +218,6 @@
           "link": "https://cafef.vn/ha-noi-xu-ly-dut-diem-tinh-trang-cham-cap-so-hong-tai-cac-du-an-chung-cu-1882608241441366.chn",
           "pubDate": "2026-08-24T09:41:00.000Z",
           "excerpt": "Thường trực Thành ủy Hà Nội yêu cầu tổng rà soát công tác cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất tại các dự án chung cư…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ninh Bình đấu giá 224 lô đất tại Hoa Lư và Phát Diệm",
-          "link": "https://cafef.vn/ninh-binh-dau-gia-224-lo-dat-tai-hoa-lu-va-phat-diem-188260824160313806.chn",
-          "pubDate": "2026-08-24T09:31:00.000Z",
-          "excerpt": "Hai cuộc đấu giá quyền sử dụng đất tại phường Hoa Lư và xã Phát Diệm, tỉnh Ninh Bình với tổng cộng 224 lô đất, trong đó 74 lô tại khu dân cư mới phường Hoa Lư…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,6 +349,39 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+          "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T14:15:00.000Z",
+          "excerpt": "“I also own my home and an SUV outright, with no outstanding debt.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Oil trades lower even as Bessent promises ‘economic D-Day’ announcement on Iran",
+          "link": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T13:58:00.000Z",
+          "excerpt": "One key is how any new U.S. sanctions might affect China, the No. 1 buyer of Iranian crude oil.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Trump says US to increase tariffs on Canadian cars to 50%",
+          "link": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91",
+          "pubDate": "2026-08-24T13:55:07.000Z",
+          "excerpt": "Move marks further escalation of Washington’s trade war with Ottawa",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
           "link": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
           "pubDate": "2026-08-24T13:50:00.000Z",
@@ -397,39 +430,6 @@
           "link": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
           "pubDate": "2026-08-24T13:35:00.000Z",
           "excerpt": "Tweaking my finances, work and life as I go from the “go-go” years to the “slow-go” years.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Here are two trades to make ahead of a critical week for markets as Nvidia results and Jackson Hole loom",
-          "link": "https://www.marketwatch.com/story/here-are-two-trades-to-make-ahead-of-a-critical-week-for-markets-as-nvidia-results-and-jackson-hole-loom-8ac3653c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T13:31:00.000Z",
-          "excerpt": "There’s a way to play more interest rate angst or an Nvidia inspired tech bounce says Evercore ISI",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-          "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-          "pubDate": "2026-08-24T13:17:35.000Z",
-          "excerpt": "Using the TGA would provide the Treasury with considerable firepower to influence long-term bond yields.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-          "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T13:15:00.000Z",
-          "excerpt": "“We don’t know whether they have signed leases or are renting month to month.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
