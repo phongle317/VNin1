@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T12:55:42.640Z",
+  "lastUpdated": "2026-08-24T14:01:10.134Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4713.9,
+      "value": 4731.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7674.37,
-      "change": -111.39000000000033,
-      "changePercent": -1.4306888473315427
+      "value": 7652.16,
+      "change": -92.90000000000055,
+      "changePercent": -1.199474245519086
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26180.455,
-      "change": -548.7049999999981,
-      "changePercent": -2.052832936014443
+      "value": 25969.037,
+      "change": -675.8729999999996,
+      "changePercent": -2.536593293052968
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26124.07,
-      "change": -214.54000000000087,
-      "changePercent": -0.8145456423099049
+      "value": 26056.89,
+      "change": -281.72000000000116,
+      "changePercent": -1.0696084569383166
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Chứng khoán Dầu khí sắp bầu thay thế thành viên HĐQT",
+          "link": "https://cafef.vn/chung-khoan-dau-khi-sap-bau-thay-the-thanh-vien-hdqt-188260824204131926.chn",
+          "pubDate": "2026-08-24T13:41:00.000Z",
+          "excerpt": "Cổ đông Chứng khoán Dầu khí sẽ bầu ông Ngô Ngọc Quang thay thế ông Nguyễn Anh Tuấn vào HĐQT trong thời gian còn lại của nhiệm kỳ 2022-2027 theo đề nghị của…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Miza chính thức được chấp thuận đầu tư Khu công nghiệp Miza Nghi Sơn, quy mô gần 200 ha",
           "link": "https://cafef.vn/miza-chinh-thuc-duoc-chap-thuan-dau-tu-khu-cong-nghiep-miza-nghi-son-quy-mo-gan-200-ha-188260824193143273.chn",
@@ -119,17 +130,6 @@
           "condensed": null
         },
         {
-          "title": "Giá vàng tăng vọt lên cao nhất 3 tháng, đón hai tin quan trọng sắp được công bố",
-          "link": "https://cafef.vn/gia-vang-tang-vot-len-cao-nhat-3-thang-don-hai-tin-quan-trong-sap-duoc-cong-bo-188260824163753376.chn",
-          "pubDate": "2026-08-24T09:38:00.000Z",
-          "excerpt": "Giới đầu tư đang hướng sự chú ý tới dữ liệu lạm phát Mỹ và bài phát biểu của Chủ tịch Cục Dự trữ Liên bang Mỹ (Fed) Kevin Warsh trong tuần này.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Những dấu hiệu nào bị coi là đáng ngờ trong giao dịch tài sản mã hóa?",
           "link": "https://vnexpress.net/nhung-dau-hieu-nao-bi-coi-la-dang-ngo-trong-giao-dich-tai-san-ma-hoa-5112657.html",
           "pubDate": "2026-08-24T09:34:20.000Z",
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Bộ trưởng Tài chính: Dự án khu đô thị lấn biển từ 100.000 - 200.000 tỷ",
+          "link": "https://cafef.vn/bo-truong-tai-chinh-du-an-khu-do-thi-lan-bien-tu-100000-200000-ty-188260824183527972.chn",
+          "pubDate": "2026-08-24T13:23:00.000Z",
+          "excerpt": "Theo Bộ trưởng Tài chính Ngô Văn Tuấn, một dự án khu đô thị lấn biển được triển khai thông suốt, nguồn vốn có thể từ 100.000 - 200.000 tỷ đồng, là con số rất…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Cận cảnh biệt thự có 80m2 lấn chiếm đất Bảo tàng Lịch sử quốc gia nhưng vẫn được cấp sổ đỏ",
           "link": "https://cafef.vn/can-canh-biet-thu-co-80m2-lan-chiem-dat-bao-tang-lich-su-quoc-gia-nhung-van-duoc-cap-so-do-188260824183241168.chn",
@@ -214,14 +225,14 @@
           "condensed": null
         },
         {
-          "title": "Việt Nam sở hữu cây cầu đặc biệt không bắc qua dòng sông nào, tọa lạc trên đỉnh núi cao, lọt top những cây cầu đẹp nhất thế giới",
-          "link": "https://cafef.vn/viet-nam-so-huu-cay-cau-dac-biet-khong-bac-qua-dong-song-nao-toa-lac-tren-dinh-nui-cao-lot-top-nhung-cay-cau-dep-nhat-the-gioi-do-sun-group-dau-tu-tai-thanh-pho-dang-song-nhat-nuoc-ta-188260824154133306.chn",
-          "pubDate": "2026-08-24T08:42:00.000Z",
-          "excerpt": "Tọa lạc trong quần thể du lịch nghỉ dưỡng kết hợp vui chơi giải trí Sun World Ba Na Hills (Đà Nẵng) ở độ cao hơn 1.400m, Cầu Vàng gây ấn tượng bởi thiết kế đôi…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Dư nợ kinh doanh bất động sản vượt 2,5 triệu tỷ đồng",
+          "link": "https://vnexpress.net/du-no-kinh-doanh-bat-dong-san-vuot-2-5-trieu-ty-dong-5112649.html",
+          "pubDate": "2026-08-24T09:10:14.000Z",
+          "excerpt": "Theo Bộ Xây dựng, quý II, dư nợ kinh doanh bất động sản đạt khoảng 2,5 triệu tỷ đồng, tăng gần 13% so với ba tháng đầu năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Khủng hoảng bất động sản Trung Quốc vẫn chưa chấm dứt",
-          "link": "https://vnexpress.net/khung-hoang-bat-dong-san-trung-quoc-van-chua-cham-dut-5112654.html",
-          "pubDate": "2026-08-24T03:52:49.000Z",
-          "excerpt": "Ông chủ Evergrande vừa bị kết án chung thân, 5 năm sau khi công ty vỡ nợ, nhưng khủng hoảng bất động sản Trung Quốc vẫn chưa chấm dứt.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Ba nhóm người ở Việt Nam có thể được hỗ trợ thêm 5 triệu đồng/tháng nếu làm một việc, điều kiện là gì?",
+          "link": "https://cafef.vn/ba-nhom-nguoi-o-viet-nam-co-the-duoc-ho-tro-them-5-trieu-dong-thang-neu-lam-mot-viec-dieu-kien-la-gi-188260824134310528.chn",
+          "pubDate": "2026-08-24T13:19:00.000Z",
+          "excerpt": "Đây là thông tin trong dự thảo hiện đang được Bộ Khoa học và Công nghệ lấy ý kiến.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Phấn đấu đến năm 2030 thu nhập bình quân của người dân nông thôn gấp 2,5 - 3 lần năm 2020",
           "link": "https://cafef.vn/phan-dau-den-nam-2030-thu-nhap-binh-quan-cua-nguoi-dan-nong-thon-gap-25-3-lan-nam-2020-188260824163158485.chn",
@@ -309,17 +320,6 @@
           "condensed": null
         },
         {
-          "title": "Chính thức từ hôm nay, hộ kinh doanh, doanh nghiệp có doanh thu tối đa 10 tỷ đồng sẽ được giảm 30% thuế trong hai năm 2026 và 2027",
-          "link": "https://cafef.vn/chinh-thuc-tu-hom-nay-ho-kinh-doanh-doanh-nghiep-co-doanh-thu-toi-da-10-ty-dong-se-duoc-giam-30-thue-trong-hai-nam-2026-va-2027-188260824154421099.chn",
-          "pubDate": "2026-08-24T08:50:00.000Z",
-          "excerpt": "Chiều 24/8, tiếp tục chương trình Kỳ họp không thường lệ lần thứ Nhất, Quốc hội khoá XVI, dưới sự chủ trì của Chủ tịch Quốc hội Trần Thanh Mẫn, sự điều hành…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Đà Nẵng kêu gọi đầu tư vào khu đất 276ha tại Khu thương mại tự do",
           "link": "https://vneconomy.vn/da-nang-keu-goi-dau-tu-vao-khu-dat-276ha-tai-khu-thuong-mai-tu-do.htm",
           "pubDate": "2026-08-24T08:04:39.000Z",
@@ -349,9 +349,42 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
+          "link": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T13:50:00.000Z",
+          "excerpt": "Maybe this stuff works on TV or on the stump. But it doesn’t work on Wall Street, where people can count.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "4 arrested as Kenya investigates 18 elephant deaths in Amboseli",
+          "link": "https://www.scmp.com/news/world/africa/article/3365098/4-arrested-kenya-investigates-18-elephant-deaths-amboseli?utm_source=rss_feed",
+          "pubDate": "2026-08-24T13:40:38.000Z",
+          "excerpt": "Police have arrested four suspects in an investigation ⁠into the deaths ⁠of 18 elephants in Kenya’s Amboseli ⁠ecosystem, where authorities also seized assorted…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "This has been one of the most affordable U.S. cities to buy a home for more than 134 years",
+          "link": "https://www.marketwatch.com/story/this-has-been-one-of-the-most-affordable-u-s-cities-to-buy-a-home-for-the-past-134-years-0c52895a?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T13:39:00.000Z",
+          "excerpt": "Home prices in America have changed dramatically over the last century — but the Midwest has remained a bastion of affordability through it all.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war",
           "link": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
-          "pubDate": "2026-08-24T12:49:04.000Z",
+          "pubDate": "2026-08-24T13:35:08.000Z",
           "excerpt": "\"As a smaller, more open economy, Canada has more to lose from this,\" ING strategists said Monday.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
@@ -360,9 +393,31 @@
           "condensed": null
         },
         {
+          "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
+          "link": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T13:35:00.000Z",
+          "excerpt": "Tweaking my finances, work and life as I go from the “go-go” years to the “slow-go” years.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Here are two trades to make ahead of a critical week for markets as Nvidia results and Jackson Hole loom",
+          "link": "https://www.marketwatch.com/story/here-are-two-trades-to-make-ahead-of-a-critical-week-for-markets-as-nvidia-results-and-jackson-hole-loom-8ac3653c?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T13:31:00.000Z",
+          "excerpt": "There’s a way to play more interest rate angst or an Nvidia inspired tech bounce says Evercore ISI",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
           "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-          "pubDate": "2026-08-24T12:42:46.000Z",
+          "pubDate": "2026-08-24T13:17:35.000Z",
           "excerpt": "Using the TGA would provide the Treasury with considerable firepower to influence long-term bond yields.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
@@ -371,65 +426,10 @@
           "condensed": null
         },
         {
-          "title": "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one",
-          "link": "https://www.marketwatch.com/story/there-are-six-stocks-that-hedge-funds-and-mutual-funds-are-both-overweight-and-spacex-is-one-2a17ffb1?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T12:37:00.000Z",
-          "excerpt": "SpaceX, trading at 93 times next year’s estimated earnings, seems hardly the stock to unite both short-term-focused hedge-fund managers and more…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "China’s view of Trump’s America has changed from alarm to a shrug",
-          "link": "https://www.scmp.com/opinion/china-opinion/article/3364449/chinas-view-trumps-america-has-changed-alarm-shrug?utm_source=rss_feed",
-          "pubDate": "2026-08-24T12:30:06.000Z",
-          "excerpt": "There is no shortage of Western commentary on US President Donald Trump’s second term. What’s missing is an honest account of how 1.4 billion of us in China…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Temu owner’s shares rise as results beat estimates despite tumbling profits",
-          "link": "https://www.marketwatch.com/story/temu-owners-shares-rise-as-results-beat-estimates-despite-tumbling-profits-18cf74ea?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T12:18:00.000Z",
-          "excerpt": "PDD Holdings reported a 12% decline in net profits in the three months ended June 30, surpassing Wall Street consensus.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘The estrangement isn’t about politics’: My daughter hasn’t spoken to me for 4 years. Do I leave her a monthly annuity?",
-          "link": "https://www.marketwatch.com/story/its-truly-a-tragedy-my-daughter-hasnt-spoken-to-me-for-4-years-but-it-has-nothing-to-do-with-politics-86c4bcf6?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T12:15:00.000Z",
-          "excerpt": "“You’ll have to trust me when I tell you that she had love, support and opportunities.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "This market shift resembles the post–World War II era — and bond yields could have room to go higher, says Morgan Stanley",
-          "link": "https://www.marketwatch.com/story/the-post-world-war-ii-market-shift-is-here-and-bond-yields-could-have-higher-to-go-says-morgan-stanley-9381532c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T12:10:00.000Z",
-          "excerpt": "Morgan Stanley recommends quality stocks with large market capitalizations, adopters of artificial intelligence and the S&P 500.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Yields are the highest they’ve been in years — but are bonds cheap enough to buy? Two strategists disagree.",
-          "link": "https://www.marketwatch.com/story/theyre-the-highest-theyve-been-in-years-but-are-bonds-cheap-enough-to-buy-here-two-strategists-disagree-348fe330?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T11:59:00.000Z",
-          "excerpt": "Bond yields are driven by the market’s estimate of the average federal funds rate over the next 10 years, plus some compensation for the risks associated with…",
+          "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+          "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T13:15:00.000Z",
+          "excerpt": "“We don’t know whether they have signed leases or are renting month to month.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
