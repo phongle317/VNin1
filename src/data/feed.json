@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T16:41:29.494Z",
+  "lastUpdated": "2026-08-24T17:33:50.177Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4716.5,
+      "value": 4687.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7661.3,
-      "change": -83.76000000000022,
-      "changePercent": -1.0814635393399175
+      "value": 7652.49,
+      "change": -92.57000000000062,
+      "changePercent": -1.1952134650990516
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26077.877,
-      "change": -567.0329999999994,
-      "changePercent": -2.1281100217640048
+      "value": 26029.354,
+      "change": -615.5560000000005,
+      "changePercent": -2.310219850620627
     },
     {
       "symbol": "^N225",
@@ -64,25 +64,47 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Thêm nhiều hàng hóa Canada bị Mỹ áp thuế 50%",
-          "link": "https://vnexpress.net/them-nhieu-hang-hoa-canada-bi-my-ap-thue-50-5112930.html",
-          "pubDate": "2026-08-24T14:52:05.000Z",
-          "excerpt": "Tổng thống Donald Trump cho biết từ đầu năm 2027 sẽ nâng thuế lên 50% với nhiều sản phẩm từ Canada như ôtô, nhôm, thép,...",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Top vốn hóa lớn nhất Trung Quốc: Alibaba, Tencent góp mặt, công ty bán dẫn 10 năm tuổi vươn lên số 1",
+          "link": "https://cafef.vn/top-von-hoa-lon-nhat-trung-quoc-alibaba-tencent-gop-mat-cong-ty-ban-dan-10-nam-tuoi-vuon-len-so-1-188260824225701617.chn",
+          "pubDate": "2026-08-24T17:07:00.000Z",
+          "excerpt": "Sự vươn lên mạnh mẽ của các công ty công nghệ đang định hình lại cấu trúc vốn hóa của thị trường chứng khoán Trung Quốc.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
-          "title": "Phó thủ tướng yêu cầu kiểm tra hoạt động thu phí điện tử không dừng ETC",
-          "link": "https://vnexpress.net/pho-thu-tuong-yeu-cau-kiem-tra-hoat-dong-thu-phi-dien-tu-khong-dung-etc-5112927.html",
-          "pubDate": "2026-08-24T14:28:12.000Z",
-          "excerpt": "Phó thủ tướng Thường trực Phạm Gia Túc yêu cầu các bộ, cơ quan chức năng kiểm tra, chấn chỉnh vi phạm trong hoạt động thu phí điện tử không dừng, nếu có.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Giá vàng tăng dựng đứng, chuyên gia đưa ra khuyến nghị bất ngờ",
+          "link": "https://cafef.vn/gia-vang-tang-dung-dung-chuyen-gia-dua-ra-khuyen-nghi-bat-ngo-188260824220841007.chn",
+          "pubDate": "2026-08-24T17:05:00.000Z",
+          "excerpt": "Bất chấp giá vàng vừa có nhịp tăng hơn 15% trong tháng 8, chiến lược gia Michael Hartnett của Bank of America vẫn duy trì quan điểm tích cực với kim loại quý.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ngành điện Việt Nam đứng trước thay đổi lớn, CTCK gọi tên doanh nghiệp được kỳ vọng",
+          "link": "https://cafef.vn/nganh-dien-viet-nam-dung-truoc-thay-doi-lon-ctck-goi-ten-doanh-nghiep-duoc-ky-vong-188260824220749795.chn",
+          "pubDate": "2026-08-24T17:03:00.000Z",
+          "excerpt": "Yuanta dự báo sản lượng điện tiêu thụ của Việt Nam đạt khoảng 510 TWh vào năm 2030, tương ứng tốc độ tăng trưởng kép khoảng 10%/năm.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "27 quỹ cùng “đổ tiền” vào một cổ phiếu ngân hàng, mua ròng 4 tháng liên tiếp",
+          "link": "https://cafef.vn/27-quy-cung-do-tien-vao-mot-co-phieu-ngan-hang-mua-rong-4-thang-lien-tiep-188260824223902783.chn",
+          "pubDate": "2026-08-24T17:01:00.000Z",
+          "excerpt": "Dù xu hướng chung là tăng nắm giữ tiền, một số cổ phiếu vẫn được các quỹ mua ròng trong tháng 7.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -97,17 +119,6 @@
           "condensed": null
         },
         {
-          "title": "Hà Nội đề xuất hỗ trợ tới 6 triệu đồng cho hộ lắp điện mặt trời mái nhà",
-          "link": "https://vnexpress.net/ha-noi-de-xuat-ho-tro-toi-6-trieu-dong-cho-ho-lap-dien-mat-troi-mai-nha-5112921.html",
-          "pubDate": "2026-08-24T14:14:03.000Z",
-          "excerpt": "Hộ gia đình tại Hà Nội có thể được hỗ trợ tối đa 6 triệu đồng khi lắp điện mặt trời mái nhà kèm hệ thống lưu trữ điện (BESS), theo dự thảo chính sách của thành…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Một cổ phiếu quốc dân bất ngờ bị hơn 20 quỹ ồ ạt \"xả hàng\"",
           "link": "https://cafef.vn/mot-co-phieu-quoc-dan-bat-ngo-bi-hon-20-quy-o-at-xa-hang-188260824210648107.chn",
           "pubDate": "2026-08-24T14:06:00.000Z",
@@ -119,36 +130,25 @@
           "condensed": null
         },
         {
-          "title": "Một doanh nghiệp trên sàn chứng khoán chuẩn bị \"lăn chốt\" cổ tức 25% bằng tiền mặt",
-          "link": "https://cafef.vn/mot-doanh-nghiep-tren-san-chung-khoan-chuan-bi-lan-chot-co-tuc-25-bang-tien-mat-188260824210155606.chn",
-          "pubDate": "2026-08-24T14:01:00.000Z",
-          "excerpt": "Thời gian thanh toán dự kiến là 15/10/2026.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Vietbank triển khai gói tín dụng ưu đãi 2,500 tỷ đồng, giảm lãi suất hỗ trợ doanh nghiệp",
+          "link": "http://vietstock.vn/2026/08/vietbank-trien-khai-goi-tin-dung-uu-dai-2500-ty-dong-giam-lai-suat-ho-tro-doanh-nghiep-757-1484448.htm",
+          "pubDate": "2026-08-24T10:21:04.000Z",
+          "excerpt": "Hưởng ứng chủ trương, định hướng của Chính phủ và Ngân hàng Nhà nước về giảm mặt bằng lãi suất cho vay, hỗ trợ doanh nghiệp tiếp cận nguồn vốn với chi phí hợp…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
           "condensed": null
         },
         {
-          "title": "Chứng khoán Dầu khí sắp bầu thay thế thành viên HĐQT",
-          "link": "https://cafef.vn/chung-khoan-dau-khi-sap-bau-thay-the-thanh-vien-hdqt-188260824204131926.chn",
-          "pubDate": "2026-08-24T13:41:00.000Z",
-          "excerpt": "Cổ đông Chứng khoán Dầu khí sẽ bầu ông Ngô Ngọc Quang thay thế ông Nguyễn Anh Tuấn vào HĐQT trong thời gian còn lại của nhiệm kỳ 2022-2027 theo đề nghị của…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Miza chính thức được chấp thuận đầu tư Khu công nghiệp Miza Nghi Sơn, quy mô gần 200 ha",
-          "link": "https://cafef.vn/miza-chinh-thuc-duoc-chap-thuan-dau-tu-khu-cong-nghiep-miza-nghi-son-quy-mo-gan-200-ha-188260824193143273.chn",
-          "pubDate": "2026-08-24T12:31:00.000Z",
-          "excerpt": "Đây là một bước đi chiến lược nhằm tạo dư địa phát triển dài hạn cho hệ sinh thái Miza và hiện thực hóa mục tiêu nâng công suất sản xuất giấy lên khoảng 1…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Những dấu hiệu nào bị coi là đáng ngờ trong giao dịch tài sản mã hóa?",
+          "link": "https://vnexpress.net/nhung-dau-hieu-nao-bi-coi-la-dang-ngo-trong-giao-dich-tai-san-ma-hoa-5112657.html",
+          "pubDate": "2026-08-24T09:34:20.000Z",
+          "excerpt": "Dịch vụ tài sản mã hóa phải tuân thủ quy định phòng, chống rửa tiền, trong đó chia nhỏ giao dịch thành nhiều khoản giá trị thấp là dấu hiệu đáng ngờ.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -254,6 +254,61 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Techcombank muốn hạ tỷ lệ cổ tức bằng cổ phiếu",
+          "link": "https://vnexpress.net/techcombank-muon-ha-ty-le-co-tuc-bang-co-phieu-5112910.html",
+          "pubDate": "2026-08-24T16:04:39.000Z",
+          "excerpt": "Với phương án trả cổ tức bằng cổ phiếu, Techcombank muốn hạ tỷ lệ chi trả từ 60% xuống còn 50%.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Cả nước chỉ có một dự án công - tư về xử lý chất thải",
+          "link": "https://vnexpress.net/ca-nuoc-chi-co-mot-du-an-cong-tu-ve-xu-ly-chat-thai-5112909.html",
+          "pubDate": "2026-08-24T15:50:19.000Z",
+          "excerpt": "Phần lớn dự án công - tư tập trung vào lĩnh vực giao thông, chỉ có một dự án trong lĩnh vực xử lý rác thải, nhưng hiện đã dừng chủ trương đầu tư.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Thêm nhiều hàng hóa Canada bị Mỹ áp thuế 50%",
+          "link": "https://vnexpress.net/them-nhieu-hang-hoa-canada-bi-my-ap-thue-50-5112930.html",
+          "pubDate": "2026-08-24T14:52:05.000Z",
+          "excerpt": "Tổng thống Donald Trump cho biết từ đầu năm 2027 sẽ nâng thuế lên 50% với nhiều sản phẩm từ Canada như ôtô, nhôm, thép,...",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Phó thủ tướng yêu cầu kiểm tra hoạt động thu phí điện tử không dừng ETC",
+          "link": "https://vnexpress.net/pho-thu-tuong-yeu-cau-kiem-tra-hoat-dong-thu-phi-dien-tu-khong-dung-etc-5112927.html",
+          "pubDate": "2026-08-24T14:28:12.000Z",
+          "excerpt": "Phó thủ tướng Thường trực Phạm Gia Túc yêu cầu các bộ, cơ quan chức năng kiểm tra, chấn chỉnh vi phạm trong hoạt động thu phí điện tử không dừng, nếu có.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội đề xuất hỗ trợ tới 6 triệu đồng cho hộ lắp điện mặt trời mái nhà",
+          "link": "https://vnexpress.net/ha-noi-de-xuat-ho-tro-toi-6-trieu-dong-cho-ho-lap-dien-mat-troi-mai-nha-5112921.html",
+          "pubDate": "2026-08-24T14:14:03.000Z",
+          "excerpt": "Hộ gia đình tại Hà Nội có thể được hỗ trợ tối đa 6 triệu đồng khi lắp điện mặt trời mái nhà kèm hệ thống lưu trữ điện (BESS), theo dự thảo chính sách của thành…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Ba nhóm người ở Việt Nam có thể được hỗ trợ thêm 5 triệu đồng/tháng nếu làm một việc, điều kiện là gì?",
           "link": "https://cafef.vn/ba-nhom-nguoi-o-viet-nam-co-the-duoc-ho-tro-them-5-trieu-dong-thang-neu-lam-mot-viec-dieu-kien-la-gi-188260824134310528.chn",
           "pubDate": "2026-08-24T13:19:00.000Z",
@@ -285,61 +340,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Phấn đấu đến năm 2030 thu nhập bình quân của người dân nông thôn gấp 2,5 - 3 lần năm 2020",
-          "link": "https://cafef.vn/phan-dau-den-nam-2030-thu-nhap-binh-quan-cua-nguoi-dan-nong-thon-gap-25-3-lan-nam-2020-188260824163158485.chn",
-          "pubDate": "2026-08-24T11:00:00.000Z",
-          "excerpt": "Tại phiên làm việc của kỳ họp không thường lệ thứ nhất chiều 24-8, Quốc hội khóa XVI đã phê duyệt chủ trương đầu tư Chương trình mục tiêu quốc gia phát triển…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ninh Bình phê duyệt tuyến đường 39km hơn 7.100 tỷ đồng nối Hoa Lư - Nam Định",
-          "link": "https://cafef.vn/ninh-binh-phe-duyet-tuyen-duong-39km-hon-7100-ty-dong-noi-hoa-lu-nam-dinh-188260824152519988.chn",
-          "pubDate": "2026-08-24T10:30:00.000Z",
-          "excerpt": "Tuyến đường trục động lực phát triển kinh tế - xã hội (Hoa Lư - Nam Định) dài 39km, tổng mức đầu tư 7.140 tỷ đồng, được thiết kế với vận tốc lên tới 100km/h.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất xây dựng khu vực bay thử nghiệm và hạ tầng quản lý không lưu quốc gia UTM",
-          "link": "https://vneconomy.vn/de-xuat-xay-dung-khu-vuc-bay-thu-nghiem-va-ha-tang-quan-ly-khong-luu-quoc-gia-utm.htm",
-          "pubDate": "2026-08-24T09:57:51.000Z",
-          "excerpt": "Bầu trời đang trở thành một “mặt trận” tăng trưởng mới của kinh tế toàn cầu. Từ vệ tinh, dữ liệu không gian đến UAV (phương tiện bay không người lái), kinh tế…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Tách Dự án điện hạt nhân Ninh Thuận thành 3 dự án độc lập",
-          "link": "https://cafef.vn/giam-30-thue-cho-ca-nhan-doanh-nghiep-co-doanh-thu-khong-qua-10-ty-dong-nam-188260824153541927.chn",
-          "pubDate": "2026-08-24T09:50:00.000Z",
-          "excerpt": "Chiều 24/8, với 476/481 số đại biểu tham gia tán thành (chiếm tỷ lệ 95,2%), dự thảo Nghị quyết của Quốc hội về việc tách Dự án điện hạt nhân Ninh Thuận thành…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tin vui: Quảng Ninh và Bắc Ninh chính thức nâng hạng lên thành phố trực thuộc Trung ương thứ 8 và 9 của Việt Nam",
-          "link": "https://cafef.vn/tin-vui-quang-ninh-va-bac-ninh-chinh-thuc-nang-hang-len-thanh-pho-truc-thuoc-trung-uong-thu-8-va-9-cua-viet-nam-188260824161449382.chn",
-          "pubDate": "2026-08-24T09:31:00.000Z",
-          "excerpt": "Chiều 24/8, Quốc hội đã tiến hành biểu quyết thông qua Nghị quyết về việc thành lập thành phố Quảng Ninh và thành phố Bắc Ninh trực thuộc Trung ương.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -348,6 +348,61 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Shein’s acquisition of Everlane faces US national security review",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3365109/sheins-acquisition-everlane-faces-us-national-security-review?utm_source=rss_feed",
+          "pubDate": "2026-08-24T17:24:54.000Z",
+          "excerpt": "US authorities are conducting a national security review of Shein Global Holdings’ purchase of American clothing retailer Everlane after Shein sought approval…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+          "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T17:15:00.000Z",
+          "excerpt": "“I also own my home and an SUV outright, with no outstanding debt.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Dell’s stock is up 235% this year — and earnings could propel it even higher, analysts say",
+          "link": "https://www.marketwatch.com/story/dells-stock-is-up-235-this-year-and-earnings-could-propel-it-even-higher-analysts-say-c1be29d7?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T17:02:00.000Z",
+          "excerpt": "The company faces a high bar heading into its upcoming report, but analysts think it can still exceed expectations.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Bessent tapping Treasury’s rainy-day fund for buybacks isn’t a ‘bazooka’ to get markets to move his way",
+          "link": "https://www.marketwatch.com/story/bessent-tapping-treasurys-rainy-day-fund-for-buybacks-isnt-a-bazooka-to-get-markets-to-move-his-way-705ca356?mod=mw_rss_topstories",
+          "pubDate": "2026-08-24T16:52:00.000Z",
+          "excerpt": "Bessent’s move “does not change anything. It just reduces the cash that Treasury has on deposit,” one analyst says.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "US strikes vessel in eastern Pacific, killing 2 people in first attack in months",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3365108/us-strikes-vessel-eastern-pacific-killing-2-people-first-attack-months?utm_source=rss_feed",
+          "pubDate": "2026-08-24T16:48:28.000Z",
+          "excerpt": "US forces have struck another vessel in the eastern Pacific Ocean, killing two people accused of trafficking drugs, the US military said on Monday, in the…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
         {
           "title": "Make these 7 money moves before taking out a private student loan",
           "link": "https://www.marketwatch.com/story/make-these-7-money-moves-before-taking-out-a-private-student-loan-09cf3e08?mod=mw_rss_topstories",
@@ -371,28 +426,6 @@
           "condensed": null
         },
         {
-          "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-          "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T16:15:00.000Z",
-          "excerpt": "“We don’t know whether they have signed leases or are renting month to month.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Global oil prices above $90 a barrel ahead of Bessent’s ‘economic D-Day’ announcement on Iran",
-          "link": "https://www.marketwatch.com/story/oil-trades-lower-even-as-bessent-promises-economic-d-day-announcement-on-iran-a90d862e?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T16:03:00.000Z",
-          "excerpt": "What matters more for oil prices is how hard U.S. sanctions hit China, Iran’s biggest oil buyer, and whether Beijing pushes back.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Trump says US to increase tariffs on Canadian cars to 50%",
           "link": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91?syn-25a6b1a6=1",
           "pubDate": "2026-08-24T16:01:38.000Z",
@@ -401,39 +434,6 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "UK police arrest 12 after deadly wrong-way crash that killed 7",
-          "link": "https://www.scmp.com/news/world/europe/article/3365104/uk-police-arrest-12-after-deadly-wrong-way-crash-killed-7?utm_source=rss_feed",
-          "pubDate": "2026-08-24T15:51:10.000Z",
-          "excerpt": "British police have arrested 12 people after a car pursued by police crashed while driving the wrong way on a major road, killing five youths and two officers.…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "U.S. automakers and home builders are among the big losers as Trump launches a trade war against Canada",
-          "link": "https://www.marketwatch.com/story/u-s-automakers-and-home-builders-are-among-the-big-losers-as-trump-launches-a-trade-war-against-canada-063c1d4c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-24T15:46:00.000Z",
-          "excerpt": "While certain U.S. sectors are facing headwinds from the new tariffs on Canadian goods, analysts have said the broad economic effects of the new 50% U.S.…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "France to press ahead with high school phone ban from next month",
-          "link": "https://www.scmp.com/news/world/europe/article/3365103/france-press-ahead-high-school-phone-ban-next-month?utm_source=rss_feed",
-          "pubDate": "2026-08-24T15:30:06.000Z",
-          "excerpt": "The French government said on Monday it would press ahead with a ban on mobile phones in high schools from next month, but trade unions warned that the measure…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
