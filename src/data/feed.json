@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T07:03:48.256Z",
+  "lastUpdated": "2026-08-24T08:02:40.367Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4708.9,
+      "value": 4691.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25542.05,
-      "change": 88.81999999999971,
-      "changePercent": 0.3489537477168898
+      "value": 25505.07,
+      "change": 51.840000000000146,
+      "changePercent": 0.20366766811127762
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26136.56,
-      "change": -202.04999999999927,
-      "changePercent": -0.7671247647465044
+      "value": 26074.42,
+      "change": -264.1900000000023,
+      "changePercent": -1.003052173216439
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Tập đoàn BIG mở rộng thêm quỹ đất, nhận cam kết rót vốn từ quỹ ngoại",
+          "link": "https://vneconomy.vn/tap-doan-big-mo-rong-them-quy-dat-nhan-cam-ket-rot-von-tu-quy-ngoai.htm",
+          "pubDate": "2026-08-24T07:56:43.000Z",
+          "excerpt": "Ngày 24/8, Tập đoàn BIG (UPCoM: BIG) công bố đính chính báo cáo tài chính quý 2/2026 của cho thấy doanh nghiệp đang tập trung nguồn lực đáng kể vào việc M&A…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Quỹ vàng lớn nhất Châu Âu “ráo riết” mua vàng",
+          "link": "https://cafef.vn/quy-vang-lon-nhat-chau-au-rao-riet-mua-vang-188260824145133908.chn",
+          "pubDate": "2026-08-24T07:51:00.000Z",
+          "excerpt": "Điều này đang phản ánh sự thay đổi đáng kể trong khẩu vị của dòng vốn đầu tư đối với vàng sau khi kim loại quý này trải qua một nhịp điều chỉnh mạnh hồi giữa…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "VIC và VHM có thể được các quỹ mua vào gần 23.500 tỷ đồng",
           "link": "https://vneconomy.vn/vic-va-vhm-co-the-duoc-cac-quy-mua-vao-gan-23500-ty-dong.htm",
@@ -128,28 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Diễn biến lạ tại PNJ",
-          "link": "https://cafef.vn/dien-bien-la-tai-pnj-188260824112547105.chn",
-          "pubDate": "2026-08-24T04:27:00.000Z",
-          "excerpt": "Lực cầu áp đảo khiến bên bán gần như trống hoàn toàn, trong khi lượng dư mua giá trần lên tới hàng triệu đơn vị.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "\"Áp lực thoát hàng của tổ chức trong nước trước lễ, tuyệt đối không được dùng margin\"",
-          "link": "https://vneconomy.vn/ap-luc-thoat-hang-cua-to-chuc-trong-nuoc-truoc-le-tuyet-doi-khong-duoc-dung-margin.htm",
-          "pubDate": "2026-08-24T04:14:08.000Z",
-          "excerpt": "Nhà đầu tư quản trị rủi ro kỳ nghỉ, tuyệt đối không sử dụng margin cao trong tuần tới. Áp lực \"thoát hàng\" của các tổ chức nội địa để thu tiền về trước lễ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,54 +159,54 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Mở cơ chế đặc thù cho đô thị lấn biển, trung tâm tài chính quốc tế",
+          "link": "https://cafef.vn/mo-co-che-dac-thu-cho-do-thi-lan-bien-trung-tam-tai-chinh-quoc-te-188260824143807995.chn",
+          "pubDate": "2026-08-24T07:37:00.000Z",
+          "excerpt": "Sáng 24-8, với đa số đại biểu tán thành, Quốc hội đã thông qua Luật Phát triển đô thị (trong đó có nội dung về cơ chế, chính sách đối với dự án xây dựng khu đô…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Sun Group đang cho làm tượng phật lớn nhất thế giới bằng đồng mạ bạc gần 168m bởi hàng trăm nghệ nhân của Việt Nam",
+          "link": "https://cafef.vn/sun-group-dang-cho-lam-tuong-phat-lon-nhat-the-gioi-bang-dong-ma-bac-gan-168m-boi-hang-tram-nghe-nhan-cua-viet-nam-188260824142024031.chn",
+          "pubDate": "2026-08-24T07:24:00.000Z",
+          "excerpt": "Quần thể du lịch tâm linh và di tích lịch sử Am Tiên hơn 350 ha với tôn tượng Phật Đại Nhật Như Lai bằng đồng mạ bạc cao 167,5 m. Dự án do Sun Group đầu tư.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Lộ diện phân khúc bất động sản “ế ẩm”",
+          "link": "https://cafef.vn/lo-dien-phan-khuc-bat-dong-san-e-am-188260824141940853.chn",
+          "pubDate": "2026-08-24T07:24:00.000Z",
+          "excerpt": "Theo báo cáo của Bộ Xây dựng, trong quý II/2026, nhà ở riêng lẻ có lượng tồn kho lớn nhất với 15.313 căn, tăng khoảng 46,4% so với quý I/2026. Đây cũng là loại…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thị trường bất động sản cần thêm “chân kiềng” vốn, vì sao quỹ tín thác bất động sản chưa thể phát triển ở Việt Nam?",
+          "link": "https://cafef.vn/thi-truong-bat-dong-san-can-them-chan-kieng-von-vi-sao-quy-tin-thac-bat-dong-san-chua-the-phat-trien-o-viet-nam-188260824141845467.chn",
+          "pubDate": "2026-08-24T07:21:00.000Z",
+          "excerpt": "Đặc thù của bất động sản là chu kỳ đầu tư dài, quy mô vốn lớn và thời gian thu hồi vốn kéo dài, đòi hỏi thị trường không thể chỉ dựa vào một kênh dẫn vốn.…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Thời hạn hoạt động dự án khu đô thị lấn biển không quá 70 năm",
           "link": "https://cafef.vn/thoi-han-hoat-dong-du-an-khu-do-thi-lan-bien-khong-qua-70-nam-188260824135220494.chn",
           "pubDate": "2026-08-24T06:52:00.000Z",
           "excerpt": "Theo quy định trong Luật Phát triển đô thị, thời hạn hoạt động của dự án đầu tư xây dựng khu đô thị lấn biển không quá 70 năm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Công ty Việt Pháp được chuyển mục đích sử dụng, thuê tổng cộng hơn 6.100m2 đất làm dự án trường học",
-          "link": "https://cafef.vn/cong-ty-viet-phap-duoc-chuyen-muc-dich-su-dung-thue-tong-cong-hon-6100m2-dat-lam-du-an-truong-hoc-188260824103740204.chn",
-          "pubDate": "2026-08-24T06:47:00.000Z",
-          "excerpt": "Công ty Việt Pháp được chuyển mục đích sử dụng 5.934m2 đất nông nghiệp; thuê 186,0m2 đất để làm Dự án xây dựng Trường mầm non Việt Pháp tại phường Xuân Phương.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "NOXH Marina Living Halong: Từ hệ tiện ích toàn diện đến chuẩn sống trọn vẹn",
-          "link": "https://cafef.vn/noxh-marina-living-halong-tu-he-tien-ich-toan-dien-den-chuan-song-tron-ven-18826082412591202.chn",
-          "pubDate": "2026-08-24T06:30:00.000Z",
-          "excerpt": "BIM Land phát triển Nhà ở Xã hội Marina Living Halong với hệ tiện ích, cảnh quan và hạ tầng vận hành được đầu tư đồng bộ, lấy chất lượng sống của cư dân làm…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Vì sao nhiều khách sạn không có tầng 13?",
-          "link": "https://cafef.vn/vi-sao-nhieu-khach-san-khong-co-tang-13-188260824071543329.chn",
-          "pubDate": "2026-08-24T06:15:00.000Z",
-          "excerpt": "Trong cách đánh số tầng của nhiều khách sạn, con số 13 thường bị bỏ qua, khiến không ít người tò mò.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Việt Nam hút 34,7 tỷ USD FDI trong nửa đầu năm, hàng loạt dự án hạ tầng đang mở rộng các cực tăng trưởng mới",
-          "link": "https://cafef.vn/viet-nam-hut-347-ty-usd-fdi-trong-nua-dau-nam-hang-loat-du-an-ha-tang-dang-mo-rong-cac-cuc-tang-truong-moi-188260824115625778.chn",
-          "pubDate": "2026-08-24T06:01:00.000Z",
-          "excerpt": "Ông Neil MacGregor, Tổng Giám đốc Savills Việt Nam, cho biết: “Hạ tầng đang mở rộng phạm vi các thị trường mà dòng vốn quốc tế có thể tiếp cận tại Việt Nam\".",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -254,6 +254,39 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Đề xuất thống nhất áp dụng cơ chế đặc biệt chung cho các dự án cao tốc",
+          "link": "https://cafef.vn/de-xuat-thong-nhat-ap-dung-co-che-dac-biet-chung-cho-cac-du-an-cao-toc-18826082413372073.chn",
+          "pubDate": "2026-08-24T07:58:00.000Z",
+          "excerpt": "Bộ Xây dựng nhận thấy nhiều cơ chế, chính sách đặc biệt đã được Quốc hội cho phép áp dụng lặp lại tại các dự án có tính chất tương đồng. Việc từng dự án phải…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Quốc hội thông qua cơ chế đặc thù APEC Phú Quốc: Gỡ vướng, không hợp thức hóa sai phạm",
+          "link": "https://cafef.vn/quoc-hoi-thong-qua-co-che-dac-thu-apec-phu-quoc-go-vuong-khong-hop-thuc-hoa-sai-pham-188260824132514998.chn",
+          "pubDate": "2026-08-24T07:10:00.000Z",
+          "excerpt": "Sáng 24/8, tiếp tục chương trình kỳ họp, Quốc hội biểu quyết thông qua Nghị quyết quy định cơ chế, chính sách đặc thù nhằm tháo gỡ khó khăn, vướng mắc trong…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Không phải Mỹ hay Trung Quốc, Việt Nam là quốc gia đầu tiên trên thế giới làm điều này",
+          "link": "https://cafef.vn/khong-phai-my-hay-trung-quoc-viet-nam-la-quoc-gia-dau-tien-tren-the-gioi-lam-dieu-nay-188260824140219107.chn",
+          "pubDate": "2026-08-24T07:02:00.000Z",
+          "excerpt": "Luật Công nghiệp Công nghệ số (CNCNS) chính thức thông qua được hơn 1 năm.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Quốc hội thông qua chính sách đột phá cho TP.HCM và các đô thị đặc biệt",
           "link": "https://cafef.vn/quoc-hoi-thong-qua-chinh-sach-dot-pha-cho-tphcm-va-cac-do-thi-dac-biet-188260824134310574.chn",
           "pubDate": "2026-08-24T06:45:00.000Z",
@@ -269,39 +302,6 @@
           "link": "https://cafef.vn/tat-ca-nguoi-dan-sap-nhan-luong-huu-tren-ca-nuoc-chu-y-quy-dinh-moi-nhat-da-ap-dung-188260824102525166.chn",
           "pubDate": "2026-08-24T06:43:00.000Z",
           "excerpt": "Đây là nội dung từ Quyết định số 2270/QĐ-BTC ngày 19/8/2026 của Bộ Tài chính.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "‘Chốt’ đường Vành đai 5 - Vùng Thủ đô dài 349 km, tổng vốn hơn 288 nghìn tỷ đồng",
-          "link": "https://cafef.vn/chot-duong-vanh-dai-5-vung-thu-do-dai-349-km-tong-von-hon-288-nghin-ty-dong-18826082411262351.chn",
-          "pubDate": "2026-08-24T05:16:00.000Z",
-          "excerpt": "Quốc hội đã thông qua chủ trương đầu tư Vành đai 5 - Vùng Thủ đô dài khoảng 349 km, tổng vốn sơ bộ 288.268 tỷ đồng, đi qua 7 tỉnh, thành phố, mở ra một trục…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Bão số 4 gây mưa lớn, nhiều tuyến phố từng thường xuyên ngập sâu ở Hà Nội ra sao?",
-          "link": "https://cafef.vn/bao-so-4-gay-mua-lon-nhieu-tuyen-pho-tung-thuong-xuyen-ngap-sau-o-ha-noi-ra-sao-188260824100552892.chn",
-          "pubDate": "2026-08-24T04:30:00.000Z",
-          "excerpt": "Bão số 4 gây mưa lớn diện rộng nhưng Hà Nội chỉ phát sinh vài điểm ngập cục bộ ở phía Tây, giao thông khu vực nội đô cơ bản thông suốt.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cho phép di chuyển 2 di tích để thực hiện tuyến đường kết nối sân bay Gia Bình với Hà Nội",
-          "link": "https://cafef.vn/cho-phep-di-chuyen-2-di-tich-de-thuc-hien-tuyen-duong-ket-noi-san-bay-gia-binh-voi-ha-noi-188260824102911117.chn",
-          "pubDate": "2026-08-24T03:54:00.000Z",
-          "excerpt": "Sáng 24-8, tại kỳ họp không thường lệ lần thứ nhất, Quốc hội khóa XVI đã biểu quyết thông qua Nghị quyết về việc di chuyển 2 di tích lịch sử - văn hóa trong…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
