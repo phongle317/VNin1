@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T14:50:04.037Z",
+  "lastUpdated": "2026-08-25T15:45:04.647Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4691.1,
+      "value": 4706.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7660.87,
-      "change": -30.890000000000327,
-      "changePercent": -0.4015985938198842
+      "value": 7668.86,
+      "change": -22.900000000000546,
+      "changePercent": -0.29772119774928685
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26092.887,
-      "change": -196.82300000000032,
-      "changePercent": -0.748669346295567
+      "value": 26125.438,
+      "change": -164.27200000000084,
+      "changePercent": -0.6248528416631483
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26304.4,
-      "change": 176.04000000000087,
-      "changePercent": 0.6737506678566924
+      "value": 26287.24,
+      "change": 158.88000000000102,
+      "changePercent": 0.6080749040506217
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Giá vàng trong nước thấp hơn thế giới: Nguyên nhân của \"chuyện lạ\" là gì?",
+          "link": "https://cafef.vn/gia-vang-trong-nuoc-thap-hon-the-gioi-nguyen-nhan-cua-chuyen-la-la-gi-188260825223407825.chn",
+          "pubDate": "2026-08-25T15:33:00.000Z",
+          "excerpt": "Giá vàng trong nước có thời điểm thấp hơn giá vàng thế giới, một diễn biến hiếm gặp sau nhiều năm thường chứng kiến chiều ngược lại.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "VN-Index tăng nhẹ nhưng áp lực bán chốt lời mạnh lên",
+          "link": "https://vneconomy.vn/vn-index-tang-nhe-nhung-ap-luc-ban-chot-loi-manh-len.htm",
+          "pubDate": "2026-08-25T15:24:11.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 26/8/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Nhà đầu tư cá nhân thoát hàng trước nghỉ lễ, bán ròng hơn 950 tỷ",
           "link": "https://vneconomy.vn/nha-dau-tu-ca-nhan-thoat-hang-truoc-nghi-le-ban-rong-hon-950-ty.htm",
@@ -128,28 +150,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Khối nợ công 40 nghìn tỷ USD của Mỹ lớn như thế nào?",
-          "link": "https://vneconomy.vn/khoi-no-cong-40-nghin-ty-usd-cua-my-lon-nhu-the-nao.htm",
-          "pubDate": "2026-08-25T12:41:33.000Z",
-          "excerpt": "Tuần vừa rồi, nợ công của Mỹ đã lần đầu tiên vượt mốc 40 nghìn tỷ USD, đánh dấu một cột mốc đáng lo ngại trong lịch sử tài chính của nền kinh tế lớn nhất thế…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Một cổ phiếu ngân hàng bị bán ròng hơn 200 tỷ trong phiên 25/8",
-          "link": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-ban-rong-hon-200-ty-trong-phien-25-8-188260825193520963.chn",
-          "pubDate": "2026-08-25T12:35:00.000Z",
-          "excerpt": "Tự doanh CTCK bán ròng 396 tỷ đồng trên HOSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,28 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Vụ 80m2 đất Bảo tàng lịch sử bị lấn chiếm: Hà Nội nêu lý do nhà 23 Tông Đản thành sở hữu tư nhân",
+          "link": "https://cafef.vn/vu-80m2-dat-bao-tang-lich-su-bi-lan-chiem-ha-noi-neu-ly-do-nha-23-tong-dan-thanh-so-huu-tu-nhan-188260825223250925.chn",
+          "pubDate": "2026-08-25T15:28:00.000Z",
+          "excerpt": "Công ty TNHH MTV Quản lý và Phát triển nhà Hà Nội cho biết, nhà 23 Tông Đản (phường Hoàn Kiếm, Hà Nội) là nhà được hỗ trợ theo chế độ chính sách. Đồng thời,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Huế đấu giá 36 lô đất giá 17 triệu đồng mỗi m2",
+          "link": "https://vnexpress.net/hue-dau-gia-36-lo-dat-gia-17-trieu-dong-moi-m2-5112865.html",
+          "pubDate": "2026-08-25T14:22:29.000Z",
+          "excerpt": "36 lô đất (khoảng 5.800 m2) tại Khu dân cư Đô thị mới An Vân Dương, phường Thanh Thủy sẽ được đấu giá với giá khởi điểm tổng cộng hơn 116,1 tỷ đồng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Hai không gian tại SOHO The Global City: Hai nhịp sống và kinh doanh song hành",
           "link": "https://cafef.vn/hai-khong-gian-tai-soho-the-global-city-hai-nhip-song-va-kinh-doanh-song-hanh-188260825204602979.chn",
@@ -203,17 +225,6 @@
           "condensed": null
         },
         {
-          "title": "Tỷ phú Phạm Nhật Vượng đang cho xây siêu công trình hầm - cầu vượt biển đầu tiên và lớn nhất Việt Nam, thiết kế ấn tượng với 2 cửa hầm tạo hình đóa sen khổng lồ giữa đại dương",
-          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-dang-cho-xay-sieu-cong-trinh-ham-cau-vuot-bien-dau-tien-va-lon-nhat-viet-nam-thiet-ke-an-tuong-voi-2-cua-ham-tao-hinh-doa-sen-khong-lo-giua-dai-duong-188260825165216369.chn",
-          "pubDate": "2026-08-25T09:51:00.000Z",
-          "excerpt": "Công trình đường vượt biển kết nối khu vực Cần Giờ - Vũng Tàu được thiết kế ấn tượng với khu vực cửa hầm hai đầu cầu mô phỏng hai đóa sen khổng lồ, kiêu hãnh…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "TP HCM sắp đấu giá thêm 8 khu đất",
           "link": "https://vnexpress.net/tp-hcm-sap-dau-gia-them-8-khu-dat-5113113.html",
           "pubDate": "2026-08-25T09:39:22.000Z",
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Cư dân dịch chuyển về phía Nam trung tâm, shophouse khối đế Đà Nẵng thêm dư địa",
-          "link": "https://vneconomy.vn/cu-dan-dich-chuyen-ve-phia-nam-trung-tam-shophouse-khoi-de-da-nang-them-du-dia.htm",
-          "pubDate": "2026-08-25T08:31:26.000Z",
-          "excerpt": "Không gian đô thị mở rộng về phía Nam trung tâm để tận dụng quỹ đất rộng lớn cùng lợi thế cảnh quan ven sông đang kéo theo dòng cư dân, chuyên gia và du khách,…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Hầm xuyên núi 'made by Vietnam' trị giá 11.000 tỷ đồng, dài thứ 2 cả nước, băng đèo hiểm trở chỉ mất 10 phút",
+          "link": "https://cafef.vn/ham-xuyen-nui-made-by-vietnam-tri-gia-11000-ty-dong-dai-thu-2-ca-nuoc-bang-deo-hiem-tro-chi-mat-10-phut-188260825102030907.chn",
+          "pubDate": "2026-08-25T14:59:00.000Z",
+          "excerpt": "Công trình hầm có tổng vốn đầu tư hơn 11.000 tỷ đồng, hoàn toàn do bàn tay, khối óc của những người thợ Việt Nam xây dựng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Gỡ điểm nghẽn thực chất, tạo thuận lợi cho doanh nghiệp đóng góp vào tăng trưởng hai con số",
           "link": "https://cafef.vn/go-diem-nghen-thuc-chat-tao-thuan-loi-cho-doanh-nghiep-dong-gop-vao-tang-truong-hai-con-so-188260825183432006.chn",
@@ -291,17 +302,6 @@
           "link": "https://cafef.vn/359-chu-xe-may-o-to-vi-pham-trong-danh-sach-sau-day-nhanh-chong-nop-phat-nguoi-theo-nghi-dinh-168-188260825161922675.chn",
           "pubDate": "2026-08-25T10:06:00.000Z",
           "excerpt": "Hai lỗi vi phạm phổ biến nhất trong danh sách là người điều khiển xe không chấp hành hiệu lệnh của đèn tín hiệu giao thông và chạy quá tốc độ quy định.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thuế TPHCM: Hoàn thuế hơn 29.500 tỷ đồng, cao nhất cả nước",
-          "link": "https://cafef.vn/thue-tphcm-hoan-thue-hon-29500-ty-dong-cao-nhat-ca-nuoc-188260825155811054.chn",
-          "pubDate": "2026-08-25T10:00:00.000Z",
-          "excerpt": "Số quyết định hoàn thuế của Thuế TPHCM đứng đầu cả nước, cao gần gấp đôi địa phương xếp thứ hai.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,6 +349,61 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
+          "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T15:30:00.000Z",
+          "excerpt": "“We don’t know whether they have signed leases or are renting month to month.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Home prices in Chicago have risen the most in the U.S. over the past year",
+          "link": "https://www.marketwatch.com/story/home-prices-in-chicago-have-risen-the-most-in-the-u-s-over-the-past-year-3ee317a8?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T15:22:00.000Z",
+          "excerpt": "Nationally, home prices are rising at a slow pace as housing inventory remains relatively low. But some markets, particularly in the Midwest, are seeing big…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
+          "link": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T15:10:00.000Z",
+          "excerpt": "An ongoing shortage of compute could provide Meta with the opportunity to sell its capacity for a big premium.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "What Nvidia says on Wednesday to address concerns about its competitiveness could be key for the stock",
+          "link": "https://www.marketwatch.com/story/what-nvidia-says-on-wednesday-to-address-concerns-about-its-competitiveness-could-be-key-for-the-stock-1f9ef8fd?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T15:04:00.000Z",
+          "excerpt": "The company’s commentary on its competitiveness, business agreements and memory will be key to the stock, a J.P. Morgan analyst says.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Are Inflation-Fighting Bonds on Sale?",
+          "link": "https://www.wsj.com/finance/investing/are-inflation-fighting-bonds-on-sale-376ad05a?mod=rss_markets_main",
+          "pubDate": "2026-08-25T14:55:00.000Z",
+          "excerpt": "I just bought more Treasury Inflation-Protected Securities. Plus, more questions for your adviser about private funds (and happy 96th birthday, Warren Buffett).",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
           "title": "US ‘economic asphyxiation’ of Iran sends Tehranites queuing for petrol",
           "link": "https://www.scmp.com/news/world/middle-east/article/3365242/us-economic-asphyxiation-iran-sends-tehranites-queuing-petrol?utm_source=rss_feed",
           "pubDate": "2026-08-25T14:44:04.000Z",
@@ -357,61 +412,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Dick’s Sporting Goods’ stock is having its worst day ever, as sneakers aren’t selling without deeper discounts",
-          "link": "https://www.marketwatch.com/story/dicks-sporting-goods-stock-is-having-its-worst-day-ever-as-sneakers-arent-selling-without-deeper-discounts-5a868358?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T14:41:00.000Z",
-          "excerpt": "Shares of the sporting-goods retailer suffering a record selloff as profit and sales missed expectations and the full-year outlook was slashed.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-          "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T14:30:00.000Z",
-          "excerpt": "“I also own my home and an SUV outright, with no outstanding debt.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "You don’t have to be rich to start investing. Here’s a simple way to begin.",
-          "link": "https://www.marketwatch.com/story/you-dont-have-to-be-rich-to-start-investing-heres-a-simple-way-to-begin-f1b0e194?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T14:23:00.000Z",
-          "excerpt": "You don’t need to be fluent in market jargon or have thousands of dollars stashed away to get started.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Think Medicare Advantage provides better care for chronic conditions? A new study suggests otherwise.",
-          "link": "https://www.marketwatch.com/story/think-medicare-advantage-provides-better-care-for-chronic-conditions-a-new-study-suggests-otherwise-276c7ffd?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T14:20:00.000Z",
-          "excerpt": "Medicare Advantage enrollees with diabetes aren’t healthier than Americans on traditional Medicare — despite the grocery and gym perks.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "This has been one of the most affordable U.S. cities to buy a home in for more than 134 years",
-          "link": "https://www.marketwatch.com/story/this-has-been-one-of-the-most-affordable-u-s-cities-to-buy-a-home-for-the-past-134-years-0c52895a?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T14:14:00.000Z",
-          "excerpt": "Home prices in America have changed dramatically over the last century — but the Midwest has remained a bastion of affordability through it all.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         },
         {
