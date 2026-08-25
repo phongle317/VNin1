@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T03:01:51.662Z",
+  "lastUpdated": "2026-08-25T03:52:00.436Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4690,
+      "value": 4690.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 65598.68,
-      "change": 272.25999999999476,
-      "changePercent": 0.4167685907171934
+      "value": 65767.79,
+      "change": 441.36999999999534,
+      "changePercent": 0.6756378200427872
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25466.53,
-      "change": -4.620000000002619,
-      "changePercent": -0.018138168084293874
+      "value": 25438.98,
+      "change": -32.17000000000189,
+      "changePercent": -0.12629975482065744
     },
     {
       "symbol": "^GDAXI",
@@ -64,6 +64,39 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "Bị Mỹ áp thuế quan 50% đối với ô tô, Canada tuyên bố không quay lại bàn đàm phán",
+          "link": "https://vneconomy.vn/bi-my-ap-thue-quan-50-doi-voi-o-to-canada-tuyen-bo-khong-quay-lai-ban-dam-phan.htm",
+          "pubDate": "2026-08-25T03:32:10.000Z",
+          "excerpt": "Cuộc chiến thương mại giữa Mỹ và Canada đã leo thang trở lại sau khi đàm phán thất bại trong tuần vừa rồi...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Giá vàng nhẫn nhiều thương hiệu cao hơn vàng miếng",
+          "link": "https://cafef.vn/gia-vang-nhan-nhieu-thuong-hieu-cao-hon-vang-mieng-18826082509374024.chn",
+          "pubDate": "2026-08-25T03:30:00.000Z",
+          "excerpt": "Sáng nay (25/8), giá vàng trong nước tăng ngày thứ 3 liên tiếp. Tại nhiều doanh nghiệp, giá vàng nhẫn vượt giá vàng miếng SJC lên tới gần 4 triệu đồng/lượng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "VPBank lọt nhóm 6 cổ phiếu Việt Nam vào FTSE All-World, rộng cửa đón dòng vốn ngoại",
+          "link": "https://cafef.vn/vpbank-lot-nhom-6-co-phieu-viet-nam-vao-ftse-all-world-rong-cua-don-dong-von-ngoai-188260825091158768.chn",
+          "pubDate": "2026-08-25T03:00:00.000Z",
+          "excerpt": "FTSE Russell đưa VPB vào cả FTSE All Cap và FTSE All-World, mở rộng cơ hội tiếp cận dòng vốn từ các quỹ thụ động toàn cầu. Cùng triển vọng từ quá trình nâng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Giá vàng tăng vọt, quỹ vàng lớn nhất thế giới không ngừng \"gom hàng\"",
           "link": "https://cafef.vn/gia-vang-tang-vot-quy-vang-lon-nhat-the-gioi-khong-ngung-gom-hang-188260825095017846.chn",
           "pubDate": "2026-08-25T02:51:00.000Z",
@@ -72,6 +105,17 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "100 doanh nghiệp tư nhân nộp gần 391.000 tỷ đồng vào ngân sách",
+          "link": "https://vnexpress.net/100-doanh-nghiep-tu-nhan-nop-gan-391-000-ty-dong-vao-ngan-sach-5113026.html",
+          "pubDate": "2026-08-25T02:49:19.000Z",
+          "excerpt": "Top 100 doanh nghiệp tư nhân nộp 390.700 tỷ đồng vào ngân sách 2025, tăng 60% so với năm trước, trong đó lĩnh vực bất động sản, xây dựng chiếm tỷ trọng lớn…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -101,50 +145,6 @@
           "link": "https://vneconomy.vn/chung-khoan-my-giang-co-sau-khi-my-gia-tang-suc-ep-kinh-te-len-iran-dau-sut-gia.htm",
           "pubDate": "2026-08-25T01:22:24.000Z",
           "excerpt": "Dù lợi suất trái phiếu kho bạc Mỹ giảm, cổ phiếu công nghệ vẫn là nhóm giảm nhiều nhất trong phiên này, gây áp lực lên toàn thị trường...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "SH Bond: Lời giải cho khoảng trống kỳ hạn trong danh mục thu nhập cố định",
-          "link": "https://cafef.vn/sh-bond-loi-giai-cho-khoang-trong-ky-han-trong-danh-muc-thu-nhap-co-dinh-188260824212924275.chn",
-          "pubDate": "2026-08-25T01:00:00.000Z",
-          "excerpt": "Nhà đầu tư chuyên nghiệp thường có những khoản vốn nhàn rỗi vài tháng chờ giải ngân, nhưng lựa chọn cho khoảng thời gian đó gần như chỉ dừng ở tiền gửi. SH…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Giá vàng tiến về mốc 4.700 USD/oz, SPDR Gold Trust không ngừng mua",
-          "link": "https://vneconomy.vn/gia-vang-tien-ve-moc-4700-usdoz-spdr-gold-trust-khong-ngung-mua.htm",
-          "pubDate": "2026-08-25T00:36:51.000Z",
-          "excerpt": "Giá vàng thế giới tăng trong phiên giao dịch ngày thứ Hai (24/8) và tiếp tục đi lên vào đầu giờ sáng nay (25/8), tiến gần tới mốc 4.700 USD/oz, bất chấp đồng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Giá điện Việt Nam đang ở đâu so với khu vực?",
-          "link": "https://vneconomy.vn/gia-dien-viet-nam-dang-o-dau-so-voi-khu-vuc.htm",
-          "pubDate": "2026-08-25T00:23:09.000Z",
-          "excerpt": "Giá điện của Việt Nam hiện vẫn ở mức thấp so với các nước trong khu vực, tạo dư địa cho các đợt tăng giá tiếp theo trong bối cảnh hệ thống điện ngày càng phụ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Chuyên gia SHS: Có khoảng 75% số mã đang có xu hướng tăng, vẫn có thể mua tìm kiếm cơ hội",
-          "link": "https://vneconomy.vn/chuyen-gia-shs-co-khoang-75-so-ma-dang-co-xu-huong-tang-van-co-the-mua-tim-kiem-co-hoi.htm",
-          "pubDate": "2026-08-25T00:21:55.000Z",
-          "excerpt": "Hiện có khoảng 64% số mã trên thị trường có xu hướng tăng. Theo đánh giá, trong những tuần trước, tỷ lệ này có khả năng tiến về vùng khoảng 70-75% số mã, trước…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -254,6 +254,50 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Quốc hội thông qua Luật Đầu tư sửa đổi, chuyển mạnh từ \"tiền kiểm\" sang \"hậu kiểm\", loại bỏ rào cản không cần thiết",
+          "link": "https://vneconomy.vn/quoc-hoi-thong-qua-luat-dau-tu-sua-doi-chuyen-manh-tu-tien-kiem-sang-hau-kiem-loai-bo-rao-can-khong-can-thiet.htm",
+          "pubDate": "2026-08-25T03:45:15.000Z",
+          "excerpt": "Với 474/476 đại biểu tán thành, Luật Đầu tư sửa đổi tiếp tục đẩy mạnh chuyển từ tiền kiểm sang hậu kiểm, đồng thời tăng kiểm soát đối với các lĩnh vực liên…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội, TPHCM tăng tốc hút khách dịp 2/9",
+          "link": "https://cafef.vn/ha-noi-tphcm-tang-toc-hut-khach-dip-2-9-18826082507344677.chn",
+          "pubDate": "2026-08-25T03:31:00.000Z",
+          "excerpt": "Kỳ nghỉ Quốc khánh 2/9 kéo dài 5 ngày đang mở ra cơ hội để Hà Nội và TPHCM tăng sức hút du lịch. Từ pháo hoa, chương trình nghệ thuật, triển lãm, trải nghiệm…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Sự kiện do Việt Nam tổ chức lập kỷ lục mới, xuất hiện loạt hoạt động \"chưa từng có\"",
+          "link": "https://cafef.vn/su-kien-do-viet-nam-to-chuc-lap-ky-luc-moi-xuat-hien-loat-hoat-dong-chua-tung-co-188260825094857383.chn",
+          "pubDate": "2026-08-25T03:12:00.000Z",
+          "excerpt": "Điều này thể hiện sự chuyển biến tích cực của ngành trong thời kỳ mới.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội triển khai Quy hoạch tổng thể Thủ đô tầm nhìn 100 năm",
+          "link": "https://cafef.vn/ha-noi-trien-khai-quy-hoach-tong-the-thu-do-tam-nhin-100-nam-188260825091513387.chn",
+          "pubDate": "2026-08-25T03:00:00.000Z",
+          "excerpt": "Hà Nội triển khai Quy hoạch tổng thể tầm nhìn 100 năm, với 81 quy hoạch, mô hình Thủ đô 4D, chuyển đổi số, phát triển xanh và các cực đô thị động lực mới theo…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Chỉ một tuần nữa, loạt chính sách mới về đất đai, nhà ở sẽ chính thức có hiệu lực, người dân lưu ý",
           "link": "https://cafef.vn/chi-mot-tuan-nua-loat-chinh-sach-moi-ve-dat-dai-nha-o-se-chinh-thuc-co-hieu-luc-nguoi-dan-luu-y-188260825092537804.chn",
           "pubDate": "2026-08-25T02:25:00.000Z",
@@ -276,69 +320,25 @@
           "condensed": null
         },
         {
-          "title": "Chính sách thuế với hộ kinh doanh: Cần lộ trình phù hợp",
-          "link": "https://cafef.vn/chinh-sach-thue-voi-ho-kinh-doanh-can-lo-trinh-phu-hop-188260825073543176.chn",
-          "pubDate": "2026-08-25T01:34:00.000Z",
-          "excerpt": "Năm 2026 có thể coi là một năm có những thay đổi rất lớn trong quản lý thuế đối với hộ kinh doanh. Phương thức quản lý đang chuyển mạnh từ truyền thống sang…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Doanh nghiệp tăng phúc lợi 'nghỉ thai sản' cho nam",
+          "link": "https://vnexpress.net/doanh-nghiep-tang-phuc-loi-nghi-thai-san-cho-nam-5112864.html",
+          "pubDate": "2026-08-24T20:53:39.000Z",
+          "excerpt": "Để tăng phúc lợi và thu hút nhân sự, một số doanh nghiệp tăng thêm số ngày \"nghỉ thai sản\" hưởng lương cho nam, có thể lên đến 6 tuần.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         },
         {
-          "title": "Sau sáp nhập, TP giàu nhất Việt Nam tham vọng xây sàn giao dịch chưa từng có, tác động hàng triệu người",
-          "link": "https://cafef.vn/sau-sap-nhap-tp-giau-nhat-viet-nam-tham-vong-xay-san-giao-dich-chua-tung-co-tac-dong-hang-trieu-nguoi-188260825071012305.chn",
-          "pubDate": "2026-08-25T00:56:00.000Z",
-          "excerpt": "Sàn giao dịch này được kỳ vọng sẽ chính thức đi vào vận hành vào cuối năm nay (2026), góp phần phát triển chuyển đổi số, kinh tế số ở Việt Nam.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thủ tục ủy quyền nhận BHXH một lần",
-          "link": "https://cafef.vn/thu-tuc-uy-quyen-nhan-bhxh-mot-lan-188260824133007983.chn",
-          "pubDate": "2026-08-25T00:24:00.000Z",
-          "excerpt": "Công dân nước ngoài chấm dứt hợp đồng lao động tại Việt Nam có thể hưởng BHXH một lần và ủy quyền cho người khác thực hiện thủ tục, nhận tiền.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Lâm Đồng khơi thông kết nối, “đánh thức” tiềm năng kinh tế từ liên kết vùng",
-          "link": "https://vneconomy.vn/lam-dong-khoi-thong-ket-noi-danh-thuc-tiem-nang-kinh-te-tu-lien-ket-vung.htm",
-          "pubDate": "2026-08-24T11:33:06.000Z",
-          "excerpt": "Với lợi thế về địa hình, tài nguyên và không gian phát triển đa dạng, Lâm Đồng đang đẩy mạnh đầu tư hạ tầng, kết nối hàng không và tăng cường liên kết với các…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Quốc hội thông qua điều chỉnh dự án đường sắt Lào Cai - Hà Nội - Hải Phòng và việc di chuyển 3 di tích phục vụ thi công dự án kết nối sân bay Gia Bình",
-          "link": "https://vneconomy.vn/quoc-hoi-thong-qua-dieu-chinh-du-an-duong-sat-lao-cai-ha-noi-hai-phong-va-viec-di-chuyen-3-di-tich-phuc-vu-thi-cong-du-an-ket-noi-san-bay-gia-binh.htm",
-          "pubDate": "2026-08-24T11:10:29.000Z",
-          "excerpt": "Quốc hội thông qua nghị quyết điều chỉnh dự án đường sắt Lào Cai - Hà Nội - Hải Phòng với tổng mức đầu tư sơ bộ 289.339 tỷ đồng, đồng thời di chuyển 3 di tích…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất xây dựng khu vực bay thử nghiệm và hạ tầng quản lý không lưu quốc gia UTM",
-          "link": "https://vneconomy.vn/de-xuat-xay-dung-khu-vuc-bay-thu-nghiem-va-ha-tang-quan-ly-khong-luu-quoc-gia-utm.htm",
-          "pubDate": "2026-08-24T09:57:51.000Z",
-          "excerpt": "Bầu trời đang trở thành một “mặt trận” tăng trưởng mới của kinh tế toàn cầu. Từ vệ tinh, dữ liệu không gian đến UAV (phương tiện bay không người lái), kinh tế…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
+          "title": "Ngành điện hợp tác quốc tế phát triển pin lưu trữ",
+          "link": "https://vnexpress.net/nganh-dien-hop-tac-quoc-te-phat-trien-pin-luu-tru-5112772.html",
+          "pubDate": "2026-08-24T20:45:31.000Z",
+          "excerpt": "Liên minh Năng lượng Toàn cầu sẽ hợp tác với Cục Điện lực phát triển hệ thống pin lưu trữ (BESS) và hiện đại hóa lưới điện bằng AI.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -348,6 +348,17 @@
       "key": "international",
       "displayName": "International",
       "articles": [
+        {
+          "title": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
+          "link": "https://www.scmp.com/news/world/americas/article/3365138/gang-attack-haiti-leaves-least-47-dead-anger-mounts-over-police-failures?utm_source=rss_feed",
+          "pubDate": "2026-08-25T03:27:02.000Z",
+          "excerpt": "At least 47 people were killed and 22 more injured in an overnight gang raid on a neighbourhood overlooking Haiti’s capital of Port-au-Prince, the UN said on…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
         {
           "title": "Hottest ocean temperature recorded as ‘super’ El Nino forms",
           "link": "https://www.scmp.com/news/world/article/3365131/hottest-ocean-temperature-recorded-super-el-nino-forms?utm_source=rss_feed",
@@ -423,17 +434,6 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-          "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T00:15:00.000Z",
-          "excerpt": "“The cost is absolutely ridiculous.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
