@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T13:53:27.380Z",
+  "lastUpdated": "2026-08-25T14:50:04.037Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4667.5,
+      "value": 4691.1,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7680.49,
-      "change": -11.270000000000437,
-      "changePercent": -0.1465204322547822
+      "value": 7660.87,
+      "change": -30.890000000000327,
+      "changePercent": -0.4015985938198842
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26203.883,
-      "change": -85.8269999999975,
-      "changePercent": -0.32646613446857153
+      "value": 26092.887,
+      "change": -196.82300000000032,
+      "changePercent": -0.748669346295567
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26261.19,
-      "change": 132.8299999999981,
-      "changePercent": 0.5083748080629558
+      "value": 26304.4,
+      "change": 176.04000000000087,
+      "changePercent": 0.6737506678566924
     }
   ],
   "themes": [
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Nhà đầu tư cá nhân thoát hàng trước nghỉ lễ, bán ròng hơn 950 tỷ",
+          "link": "https://vneconomy.vn/nha-dau-tu-ca-nhan-thoat-hang-truoc-nghi-le-ban-rong-hon-950-ty.htm",
+          "pubDate": "2026-08-25T14:47:45.000Z",
+          "excerpt": "Nhà đầu tư cá nhân hôm nay bán ròng 954,1 tỷ đồng, trong đó họ bán ròng khớp lệnh 628,9 tỷ đồng.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "VN-Index tăng dù phần lớn cổ phiếu giảm giá",
+          "link": "https://cafef.vn/vn-index-tang-du-phan-lon-co-phieu-giam-gia-188260825212211173.chn",
+          "pubDate": "2026-08-25T14:21:00.000Z",
+          "excerpt": "Thị trường chứng khoán hôm nay (25/8) khá lạ khi VN-Index vẫn tăng nhưng phần lớn cổ phiếu lại giảm giá. Sau khi có lúc lên 1.812 điểm, chỉ số dần hạ nhiệt…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Dùng 11 tài khoản thao túng cổ phiếu suốt 8 tháng, một cá nhân bị phạt 1,5 tỷ đồng, cấm giao dịch chứng khoán 3 năm",
+          "link": "https://cafef.vn/dung-11-tai-khoan-thao-tung-co-phieu-suot-8-thang-mot-ca-nhan-bi-phat-15-ty-dong-cam-giao-dich-chung-khoan-3-nam-188260825205831788.chn",
+          "pubDate": "2026-08-25T13:58:00.000Z",
+          "excerpt": "Cũng liên quan đến vụ việc, UBCKNN đã xử phạt 9 cá nhân, tổ chức về hành vi cho người khác mượn tài khoản để giao dịch chứng khoán, dẫn đến hành vi thao túng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu",
           "link": "https://cafef.vn/mot-cong-ty-sap-bao-chi-co-tuc-tien-mat-gap-6-lan-ke-hoach-ban-dau-188260825165146838.chn",
@@ -112,39 +145,6 @@
           "link": "https://cafef.vn/mot-co-phieu-ngan-hang-bi-ban-rong-hon-200-ty-trong-phien-25-8-188260825193520963.chn",
           "pubDate": "2026-08-25T12:35:00.000Z",
           "excerpt": "Tự doanh CTCK bán ròng 396 tỷ đồng trên HOSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "DatVietVAC trước điểm rơi lợi nhuận: Chuỗi IP, concert đồng loạt tăng tốc",
-          "link": "https://cafef.vn/datvietvac-truoc-diem-roi-loi-nhuan-chuoi-ip-concert-dong-loat-tang-toc-188260825184416638.chn",
-          "pubDate": "2026-08-25T12:30:00.000Z",
-          "excerpt": "Loạt IP đình đám cùng chuỗi concert dồn dập trong những tháng cuối năm đang mở ra mùa cao điểm khai thác doanh thu của DatVietVAC.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Xử phạt công ty sản xuất lô thuốc nhỏ mắt Natri clorid 0,9% vi phạm chất lượng",
-          "link": "https://cafef.vn/xu-phat-cong-ty-san-xuat-lo-thuoc-nho-mat-natri-clorid-09-vi-pham-chat-luong-188260825185452032.chn",
-          "pubDate": "2026-08-25T11:54:00.000Z",
-          "excerpt": "Cục Quản lý Dược, Bộ Y tế vừa có quyết định xử phạt Công ty cổ phần dược phẩm dược liệu Pharmedic 50 triệu đồng do sản xuất lô thuốc dung dịch nhỏ mắt Natri…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ông Tô Hải mua xong 31 triệu cổ phiếu Vietcap, nâng tổng giá trị nắm giữ lên 4.600 tỷ đồng",
-          "link": "https://cafef.vn/ong-to-hai-mua-xong-31-trieu-co-phieu-vietcap-nang-tong-gia-tri-nam-giu-len-4600-ty-dong-188260825184032922.chn",
-          "pubDate": "2026-08-25T11:40:00.000Z",
-          "excerpt": "Ông Tô Hải hiện là cổ đông lớn nhất tại Vietcap sở hữu hơn 205,5 triệu cổ phiếu, tương ứng tỷ lệ 17,84%.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,76 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
-          "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T13:15:00.000Z",
-          "excerpt": "“The cost is absolutely ridiculous.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Stanley Druckenmiller: “Lợi suất tăng là tín hiệu cảnh báo, cố kìm hãm tín hiệu đó chỉ khiến rủi ro lớn hơn”",
-          "link": "http://vietstock.vn/2026/08/stanley-druckenmiller-loi-suat-tang-la-tin-hieu-canh-bao-co-kim-ham-tin-hieu-do-chi-khien-rui-ro-lon-hon-773-1484838.htm",
-          "pubDate": "2026-08-25T13:02:00.000Z",
-          "excerpt": "Theo nhà đầu tư huyền thoại Stanley Druckenmiller, việc Bộ Tài chính Mỹ mua lại trái phiếu dài hạn có thể làm suy yếu vai trò kỷ luật của thị trường trái…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Investors poured into Canadian ETFs right before trade talks broke down",
-          "link": "https://www.marketwatch.com/story/investors-poured-into-canadian-etfs-right-before-trade-talks-broke-down-c8bea8ee?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T12:56:00.000Z",
-          "excerpt": "Investors misread the mood music on U.S.-Canadian talks, in a big way.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
-          "link": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
-          "pubDate": "2026-08-25T12:42:15.000Z",
-          "excerpt": "The U.S. can pressure Chinese banks over Iran through access to its financial system, while Beijing is building alternatives such as CIPS.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "Stick with value stocks until everyone starts talking about them — they’re still under the radar, this Wall Street firm says",
-          "link": "https://www.marketwatch.com/story/stick-with-value-stocks-until-everyone-is-talking-about-them-and-they-are-still-under-the-radar-this-wall-street-firm-says-598183de?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T12:40:00.000Z",
-          "excerpt": "BofA says investors continue to overlook value stocks, which work particularly well in a new era of higher interest rates and inflation.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump’s trade war with Canada could lead the U.S. back to quantitative easing",
-          "link": "https://www.marketwatch.com/story/trumps-canada-trade-war-could-lead-the-u-s-back-to-quantitative-easing-eef9be8b?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T12:33:00.000Z",
-          "excerpt": "That’s good for gold, stocks and long bonds. Eventually.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Could Mecca defence pact be first step to new Middle East order?",
-          "link": "https://www.scmp.com/opinion/asia-opinion/article/3364690/could-mecca-defence-pact-be-first-step-new-middle-east-order?utm_source=rss_feed",
-          "pubDate": "2026-08-25T12:30:09.000Z",
-          "excerpt": "The Mecca security pact between Saudi Arabia, Turkey and Pakistan stipulates that an armed attack against one shall count as an attack against all three. Yet…",
+          "title": "US ‘economic asphyxiation’ of Iran sends Tehranites queuing for petrol",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3365242/us-economic-asphyxiation-iran-sends-tehranites-queuing-petrol?utm_source=rss_feed",
+          "pubDate": "2026-08-25T14:44:04.000Z",
+          "excerpt": "Long queues formed at petrol stations in Tehran on Tuesday after the United States announced fresh sanctions aimed at pressuring Iran into submission.…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -426,14 +360,80 @@
           "condensed": null
         },
         {
-          "title": "Yes, the government can take your home after a Medicaid recipient dies. Here’s how to protect yourself.",
-          "link": "https://www.marketwatch.com/story/yes-the-government-can-take-your-home-after-a-medicaid-recipient-dies-heres-how-to-protect-yourself-fab0aafa?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T12:30:00.000Z",
-          "excerpt": "If you don’t defend against Medicaid estate recovery, states are required to go looking for reimbursement, and real estate is often the only asset left.",
+          "title": "Dick’s Sporting Goods’ stock is having its worst day ever, as sneakers aren’t selling without deeper discounts",
+          "link": "https://www.marketwatch.com/story/dicks-sporting-goods-stock-is-having-its-worst-day-ever-as-sneakers-arent-selling-without-deeper-discounts-5a868358?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T14:41:00.000Z",
+          "excerpt": "Shares of the sporting-goods retailer suffering a record selloff as profit and sales missed expectations and the full-year outlook was slashed.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
+          "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T14:30:00.000Z",
+          "excerpt": "“I also own my home and an SUV outright, with no outstanding debt.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "You don’t have to be rich to start investing. Here’s a simple way to begin.",
+          "link": "https://www.marketwatch.com/story/you-dont-have-to-be-rich-to-start-investing-heres-a-simple-way-to-begin-f1b0e194?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T14:23:00.000Z",
+          "excerpt": "You don’t need to be fluent in market jargon or have thousands of dollars stashed away to get started.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Think Medicare Advantage provides better care for chronic conditions? A new study suggests otherwise.",
+          "link": "https://www.marketwatch.com/story/think-medicare-advantage-provides-better-care-for-chronic-conditions-a-new-study-suggests-otherwise-276c7ffd?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T14:20:00.000Z",
+          "excerpt": "Medicare Advantage enrollees with diabetes aren’t healthier than Americans on traditional Medicare — despite the grocery and gym perks.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "This has been one of the most affordable U.S. cities to buy a home in for more than 134 years",
+          "link": "https://www.marketwatch.com/story/this-has-been-one-of-the-most-affordable-u-s-cities-to-buy-a-home-for-the-past-134-years-0c52895a?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T14:14:00.000Z",
+          "excerpt": "Home prices in America have changed dramatically over the last century — but the Midwest has remained a bastion of affordability through it all.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Regulators Probing Near-Collapse of Hedge Fund Situational Awareness",
+          "link": "https://www.wsj.com/finance/regulation/regulators-probing-near-collapse-of-hedge-fund-situational-awareness-dbf5dfc6?mod=rss_markets_main",
+          "pubDate": "2026-08-25T14:00:00.000Z",
+          "excerpt": "The SEC has sought information from banks that provided financing to supercharge the hedge fund’s AI-centric bets.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Can Trump’s ‘economic D-day’ force Iran to capitulate?",
+          "link": "https://www.ft.com/content/b6009dd2-7e97-4bbc-941d-cd0b8fc046b6?syn-25a6b1a6=1",
+          "pubDate": "2026-08-25T13:58:58.000Z",
+          "excerpt": "Tehran made no concessions as a result of ‘maximum pressure’ sanctions eight years ago. Few expect it to yield this time",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         }
       ],
