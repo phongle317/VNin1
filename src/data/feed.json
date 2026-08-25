@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T12:52:38.441Z",
+  "lastUpdated": "2026-08-25T13:53:27.380Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4689.9,
+      "value": 4667.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7652.86,
-      "change": -92.20000000000073,
-      "changePercent": -1.1904362264462862
+      "value": 7680.49,
+      "change": -11.270000000000437,
+      "changePercent": -0.1465204322547822
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 25980.191,
-      "change": -664.719000000001,
-      "changePercent": -2.4947316391761167
+      "value": 26203.883,
+      "change": -85.8269999999975,
+      "changePercent": -0.32646613446857153
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26283.99,
-      "change": 155.63000000000102,
-      "changePercent": 0.5956363124206839
+      "value": 26261.19,
+      "change": 132.8299999999981,
+      "changePercent": 0.5083748080629558
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Một công ty sắp bạo chi cổ tức tiền mặt gấp 6 lần kế hoạch ban đầu",
+          "link": "https://cafef.vn/mot-cong-ty-sap-bao-chi-co-tuc-tien-mat-gap-6-lan-ke-hoach-ban-dau-188260825165146838.chn",
+          "pubDate": "2026-08-25T13:09:00.000Z",
+          "excerpt": "Mức cổ tức ấp nhiều lần kế hoạch từng được ĐHĐCĐ thường niên năm 2025 thông qua trước đó.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Bitcoin vượt 80.000 USD sau những tín hiệu tích cực về tiền mã hoá từ Nhà Trắng",
           "link": "https://vneconomy.vn/bitcoin-vuot-80000-usd-sau-nhung-tin-hieu-tich-cuc-ve-tien-ma-hoa-tu-nha-trang.htm",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Chứng khoán ngày 25/8: VN-Index tăng điểm phiên thứ 4 liên tiếp",
-          "link": "https://cafef.vn/chung-khoan-ngay-25-8-vn-index-tang-diem-phien-thu-4-lien-tiep-188260825164041557.chn",
-          "pubDate": "2026-08-25T10:39:00.000Z",
-          "excerpt": "Thị trường chứng khoán ngày 25/8 với lực cung tiết giảm giúp VN-Index tăng điểm phiên thứ 4 liên tiếp.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Hai không gian tại SOHO The Global City: Hai nhịp sống và kinh doanh song hành",
+          "link": "https://cafef.vn/hai-khong-gian-tai-soho-the-global-city-hai-nhip-song-va-kinh-doanh-song-hanh-188260825204602979.chn",
+          "pubDate": "2026-08-25T13:30:00.000Z",
+          "excerpt": "Giá trị của nhà phố thương mại không chỉ được xác lập bởi vị trí hay diện tích, mà còn nằm ở khả năng linh hoạt thích ứng với những nhu cầu không ngừng thay…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "TP.HCM đấu giá khu đất hơn 92 ha ở Bến Cát, khởi điểm 2.756 tỷ",
           "link": "https://cafef.vn/tphcm-dau-gia-khu-dat-hon-92-ha-o-ben-cat-khoi-diem-2756-ty-188260825191256869.chn",
@@ -203,6 +214,28 @@
           "condensed": null
         },
         {
+          "title": "TP HCM sắp đấu giá thêm 8 khu đất",
+          "link": "https://vnexpress.net/tp-hcm-sap-dau-gia-them-8-khu-dat-5113113.html",
+          "pubDate": "2026-08-25T09:39:22.000Z",
+          "excerpt": "Tám khu đất quy mô vừa và nhỏ tại các phường Chợ Lớn, Phú Lâm, Bình Thới, Minh Phụng và Tân Bình (TP HCM) sắp được đấu giá, với mức khởi điểm tạm tính từ 4,4…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Đề xuất cấp 'sổ đỏ' riêng cho bất động sản tâm linh",
+          "link": "https://vnexpress.net/de-xuat-cap-so-do-rieng-cho-bat-dong-san-tam-linh-5113122.html",
+          "pubDate": "2026-08-25T08:50:03.000Z",
+          "excerpt": "Luật sư Hoàng Ngọc đề xuất nghiên cứu cấp giấy chứng nhận riêng cho bất động sản tâm linh để người dân có thể chuyển nhượng, tặng cho hay thế chấp.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Cư dân dịch chuyển về phía Nam trung tâm, shophouse khối đế Đà Nẵng thêm dư địa",
           "link": "https://vneconomy.vn/cu-dan-dich-chuyen-ve-phia-nam-trung-tam-shophouse-khoi-de-da-nang-them-du-dia.htm",
           "pubDate": "2026-08-25T08:31:26.000Z",
@@ -211,39 +244,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "CĐT Mitsubishi Corporation công bố ưu đãi mùa Vu Lan cho khách hàng Monrei Saigon",
-          "link": "https://cafef.vn/cdt-mitsubishi-corporation-cong-bo-uu-dai-mua-vu-lan-cho-khach-hang-monrei-saigon-188260825144457674.chn",
-          "pubDate": "2026-08-25T08:30:00.000Z",
-          "excerpt": "Chủ đầu tư Mitsubishi Corporation vừa công bố ưu đãi đặc biệt mùa Vu Lan dành cho khách hàng sở hữu căn hộ tại Monrei Saigon. Theo đó, chỉ cần thanh toán 15%…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội cụ thể hóa không gian phát triển qua 81 quy hoạch",
-          "link": "https://vneconomy.vn/ha-noi-cu-the-hoa-khong-gian-phat-trien-qua-81-quy-hoach.htm",
-          "pubDate": "2026-08-25T07:56:44.000Z",
-          "excerpt": "Trên địa bàn Thành phố Hà Nội sẽ tổ chức lập 81 quy hoạch. Trong số này có 47 đồ án quy hoạch tiếp tục thực hiện trên cơ sở kế thừa, phát triển tiếp các quy…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "5 điểm cộng của shophouse khối đế Sun Group Nam Đà Nẵng",
-          "link": "https://vnexpress.net/5-diem-cong-cua-shophouse-khoi-de-sun-group-nam-da-nang-5113096.html",
-          "pubDate": "2026-08-25T06:00:00.000Z",
-          "excerpt": "150 căn shophouse khối đế thuộc ba dự án Spana Tower, Cora Tower, S-Light Tower phía Nam trung tâm Đà Nẵng có lợi thế nguồn cung giới hạn, thiết kế, dòng…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -349,6 +349,39 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "‘She looked into COBRA’: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
+          "link": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T13:15:00.000Z",
+          "excerpt": "“The cost is absolutely ridiculous.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Stanley Druckenmiller: “Lợi suất tăng là tín hiệu cảnh báo, cố kìm hãm tín hiệu đó chỉ khiến rủi ro lớn hơn”",
+          "link": "http://vietstock.vn/2026/08/stanley-druckenmiller-loi-suat-tang-la-tin-hieu-canh-bao-co-kim-ham-tin-hieu-do-chi-khien-rui-ro-lon-hon-773-1484838.htm",
+          "pubDate": "2026-08-25T13:02:00.000Z",
+          "excerpt": "Theo nhà đầu tư huyền thoại Stanley Druckenmiller, việc Bộ Tài chính Mỹ mua lại trái phiếu dài hạn có thể làm suy yếu vai trò kỷ luật của thị trường trái…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "Investors poured into Canadian ETFs right before trade talks broke down",
+          "link": "https://www.marketwatch.com/story/investors-poured-into-canadian-etfs-right-before-trade-talks-broke-down-c8bea8ee?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T12:56:00.000Z",
+          "excerpt": "Investors misread the mood music on U.S.-Canadian talks, in a big way.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
           "link": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
           "pubDate": "2026-08-25T12:42:15.000Z",
@@ -401,39 +434,6 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Major Alibaba figures make purchases as Chinese giant sells $10 billion of stock",
-          "link": "https://www.marketwatch.com/story/major-alibaba-figures-make-purchases-as-chinese-giant-sells-10-billion-of-stock-879b52ec?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T12:22:00.000Z",
-          "excerpt": "Major Alibaba shareholders have made big share purchases ahead of vital secondary market offering",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-          "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-25T12:16:00.000Z",
-          "excerpt": "“We don’t know whether they have signed leases or are renting month to month.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump eyes renaming Lake Ontario to ‘Lake America’ as Canada trade war deepens",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3365227/trump-eyes-renaming-lake-ontario-lake-america-canada-trade-war-deepens?utm_source=rss_feed",
-          "pubDate": "2026-08-25T11:47:57.000Z",
-          "excerpt": "President Donald Trump said on Tuesday that he is considering changing the name of Lake Ontario to “Lake America” as the trade war between the United States…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
