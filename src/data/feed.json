@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T07:46:56.195Z",
+  "lastUpdated": "2026-08-25T08:46:09.078Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4691.6,
+      "value": 4689.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25510.05,
-      "change": 38.89999999999782,
-      "changePercent": 0.15272180486549614
+      "value": 25511.1,
+      "change": 39.94999999999709,
+      "changePercent": 0.15684411579373955
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26195.44,
-      "change": 67.07999999999811,
-      "changePercent": 0.2567325312419077
+      "value": 26226.81,
+      "change": 98.45000000000073,
+      "changePercent": 0.3767936449130398
     }
   ],
   "themes": [
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Doanh nghiệp siêu nhỏ và hoạt động trong lĩnh vực bất động sản có tỷ lệ đóng cửa cao nhất",
+          "link": "https://vneconomy.vn/doanh-nghiep-sieu-nho-va-hoat-dong-trong-linh-vuc-bat-dong-san-co-ty-le-dong-cua-cao-nhat.htm",
+          "pubDate": "2026-08-25T08:26:32.000Z",
+          "excerpt": "Trong năm 2025, ghi nhận tỷ lệ đóng cửa, theo thống kê FiinGroup, tăng ở cả ba nhóm quy mô. Doanh nghiệp siêu nhỏ có tỷ lệ đóng cửa cao nhất, khoảng 22,7%,…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Trụ “còng lưng” đỡ điểm, cổ phiếu vẫn giảm la liệt",
+          "link": "https://vneconomy.vn/tru-cong-lung-do-diem-co-phieu-van-giam-la-liet.htm",
+          "pubDate": "2026-08-25T08:26:09.000Z",
+          "excerpt": "Cả VIC lẫn VHM đều suy yếu trong phiên chiều khiến VN-Index đánh mất gần hết thành quả tăng điểm buổi sáng. Tệ hơn là tâm lý kém ổn định khiến nhà đầu tư bán…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Doanh nghiệp trăm năm tuổi trên sàn chứng khoán \"chơi lớn\" trả gần 700 tỷ tiền cổ tức",
+          "link": "https://cafef.vn/doanh-nghiep-tram-nam-tuoi-tren-san-chung-khoan-choi-lon-tra-gan-700-ty-tien-co-tuc-188260825145222882.chn",
+          "pubDate": "2026-08-25T07:53:00.000Z",
+          "excerpt": "Ngày đăng ký cuối cùng để thực hiện quyền nhận cổ tức là 16/9, ngày giao dịch không hưởng quyền 15/9.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Quy mô ngành quỹ Việt Nam chỉ khoảng 6% GDP, bằng 1/5 so với Thái Lan",
           "link": "https://vneconomy.vn/quy-mo-nganh-quy-viet-nam-chi-khoang-6-gdp-bang-15-so-voi-thai-lan.htm",
@@ -117,39 +150,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Ba yếu tố có thể khiến đồng USD giảm giá sâu hơn",
-          "link": "https://vneconomy.vn/ba-yeu-to-co-the-khien-dong-usd-giam-gia-sau-hon.htm",
-          "pubDate": "2026-08-25T07:02:46.000Z",
-          "excerpt": "Đồng USD đã giảm giá xuống mức thấp nhất 3 tháng trong tuần vừa rồi, và dù phục hồi trong phiên ngày thứ Hai (24/8) tại thị trường Mỹ và trong sáng nay (25/8)…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Định giá cổ phiếu ngân hàng vẫn đang ở vùng hấp dẫn",
-          "link": "https://vneconomy.vn/dinh-gia-co-phieu-ngan-hang-van-dang-o-vung-hap-dan.htm",
-          "pubDate": "2026-08-25T07:02:35.000Z",
-          "excerpt": "Theo Chứng khoán Yuanta, định giá cổ phiếu ngành ngân hàng vẫn hấp dẫn với P/BV 2026E toàn ngành ở mức 1,2x, cùng ROE đạt 17%.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Công ty nuôi lợn có \"biến\"",
-          "link": "https://cafef.vn/cong-ty-nuoi-lon-co-bien-188260825135840769.chn",
-          "pubDate": "2026-08-25T07:01:00.000Z",
-          "excerpt": "Thanh khoản đột biến và là mức cao nhất trong vòng hơn 1 tháng trở lại đây.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,61 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Cư dân dịch chuyển về phía Nam trung tâm, shophouse khối đế Đà Nẵng thêm dư địa",
+          "link": "https://vneconomy.vn/cu-dan-dich-chuyen-ve-phia-nam-trung-tam-shophouse-khoi-de-da-nang-them-du-dia.htm",
+          "pubDate": "2026-08-25T08:31:26.000Z",
+          "excerpt": "Không gian đô thị mở rộng về phía Nam trung tâm để tận dụng quỹ đất rộng lớn cùng lợi thế cảnh quan ven sông đang kéo theo dòng cư dân, chuyên gia và du khách,…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "CĐT Mitsubishi Corporation công bố ưu đãi mùa Vu Lan cho khách hàng Monrei Saigon",
+          "link": "https://cafef.vn/cdt-mitsubishi-corporation-cong-bo-uu-dai-mua-vu-lan-cho-khach-hang-monrei-saigon-188260825144457674.chn",
+          "pubDate": "2026-08-25T08:30:00.000Z",
+          "excerpt": "Chủ đầu tư Mitsubishi Corporation vừa công bố ưu đãi đặc biệt mùa Vu Lan dành cho khách hàng sở hữu căn hộ tại Monrei Saigon. Theo đó, chỉ cần thanh toán 15%…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Dấu ấn QLASSIC trong hành trình phát triển của SkyWorld",
+          "link": "https://cafef.vn/dau-an-qlassic-trong-hanh-trinh-phat-trien-cua-skyworld-18826082514285969.chn",
+          "pubDate": "2026-08-25T08:30:00.000Z",
+          "excerpt": "Trong bất động sản, chất lượng thường dừng ở những cam kết. Với SkyWorld, chất lượng được đo bằng một tiêu chuẩn cụ thể: QLASSIC – hệ thống đánh giá chất lượng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Siêu dự án gần 20.000 tỷ đồng lớn nhất Tây Nguyên của FLC đón tin vui",
+          "link": "https://cafef.vn/sieu-du-an-gan-20000-ty-dong-lon-nhat-tay-nguyen-cua-flc-don-tin-vui-188260825151618036.chn",
+          "pubDate": "2026-08-25T08:17:00.000Z",
+          "excerpt": "Dự án Khu phức hợp Đak Đoa của FLC vừa được đưa vào danh mục dự án mà tổ chức, cá nhân nước ngoài được phép sở hữu nhà ở, với tối đa 250 căn.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội cụ thể hóa không gian phát triển qua 81 quy hoạch",
+          "link": "https://vneconomy.vn/ha-noi-cu-the-hoa-khong-gian-phat-trien-qua-81-quy-hoach.htm",
+          "pubDate": "2026-08-25T07:56:44.000Z",
+          "excerpt": "Trên địa bàn Thành phố Hà Nội sẽ tổ chức lập 81 quy hoạch. Trong số này có 47 đồ án quy hoạch tiếp tục thực hiện trên cơ sở kế thừa, phát triển tiếp các quy…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Thông tin mới nhất về tuyến cao tốc hơn 27.000 tỷ có 2 hầm xuyên đèo hiểm trở, xây trụ cầu cao nhất Việt Nam",
           "link": "https://cafef.vn/thong-tin-moi-nhat-ve-tuyen-cao-toc-hon-27000-ty-co-2-ham-xuyen-deo-hiem-tro-xay-tru-cau-cao-nhat-viet-nam-188260825143304666.chn",
@@ -181,65 +236,10 @@
           "condensed": null
         },
         {
-          "title": "Diễn biến mới tại tuyến cao tốc dài 136km, vốn đầu tư 35.000 tỷ đồng, đi qua nơi từng “sôi sục” vì sốt đất và được ví như Đà Lạt thứ 2 của Tây Nguyên",
-          "link": "https://cafef.vn/dien-bien-moi-tai-tuyen-cao-toc-dai-136km-von-dau-tu-35000-ty-dong-di-qua-noi-tung-soi-suc-vi-sot-dat-va-duoc-vi-nhu-da-lat-thu-2-cua-tay-nguyen-18826082511595178.chn",
-          "pubDate": "2026-08-25T06:47:00.000Z",
-          "excerpt": "Tỉnh Quảng Ngãi đang chỉ đạo các đơn vị liên quan khẩn trương hoàn thiện Báo cáo nghiên cứu tiền khả thi tuyến cao tốc dài 136km, kết nối Quảng Ngãi với Kon…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ra mắt Alora Nha Trang: Nightlife Landmark – Biểu tượng ánh sáng, giải trí mới bừng sáng",
-          "link": "https://cafef.vn/ra-mat-alora-nha-trang-nightlife-landmark-bieu-tuong-anh-sang-giai-tri-moi-bung-sang-188260825114923739.chn",
-          "pubDate": "2026-08-25T06:30:00.000Z",
-          "excerpt": "Tại Nha Trang, ngày 24/8/2026 KDI Group chính thức ra mắt Alora Nha Trang, tòa tháp thuộc đô thị resort quốc tế Libera Nha Trang – Asia’s New Destination.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Novaland khởi công dự án cao tầng ngay ga Long Trường của tuyến Thủ Thiêm - Long Thành",
-          "link": "https://cafef.vn/novaland-khoi-cong-du-an-cao-tang-ngay-ga-long-truong-cua-tuyen-thu-thiem-long-thanh-188260825114803884.chn",
-          "pubDate": "2026-08-25T06:30:00.000Z",
-          "excerpt": "Trong bối cảnh TPHCM thúc tiến độ khởi công tuyến đường sắt đô thị Thủ Thiêm - Long Thành quy mô giai đoạn 1 hơn 134.000 tỷ đồng vào dịp 2/9, động thái kích…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Bắc Ninh giao hơn 100 ha đất cho Vingroup làm khu đô thị tỷ USD",
-          "link": "https://vnexpress.net/bac-ninh-giao-hon-100-ha-dat-cho-vingroup-lam-khu-do-thi-ty-usd-5113067.html",
-          "pubDate": "2026-08-25T03:40:21.000Z",
-          "excerpt": "Liên danh Vingroup được giao đất đợt 1 để triển khai khu đô thị mới phía Tây Bắc (Bắc Ninh), với tổng mức đầu tư hơn 41.000 tỷ đồng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Chủ đầu tư tặng vàng cho người mua Monrei Saigon tháng Ngâu",
-          "link": "https://vnexpress.net/chu-dau-tu-tang-vang-cho-nguoi-mua-monrei-saigon-thang-ngau-5112749.html",
-          "pubDate": "2026-08-25T02:30:00.000Z",
-          "excerpt": "Người mua căn hộ Monrei Saigon trong tháng Ngâu thanh toán trước 15%, được vay đến 80% giá trị căn hộ, ngân hàng hỗ trợ lãi suất 0% kèm quà tân gia nửa cây…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Alora Nha Trang khai thác lợi thế căn hộ mặt biển tại Nha Trang",
-          "link": "https://vnexpress.net/alora-nha-trang-khai-thac-loi-the-can-ho-mat-bien-tai-nha-trang-5112746.html",
-          "pubDate": "2026-08-25T02:00:00.000Z",
-          "excerpt": "KDI Group ra mắt tổ hợp căn hộ, dịch vụ lưu trú và giải trí đêm Alora Nha Trang tại khu đô thị biển Libera Nha Trang ngày 24/8 với hơn 90% căn hộ có tầm nhìn…",
+          "title": "5 điểm cộng của shophouse khối đế Sun Group Nam Đà Nẵng",
+          "link": "https://vnexpress.net/5-diem-cong-cua-shophouse-khoi-de-sun-group-nam-da-nang-5113096.html",
+          "pubDate": "2026-08-25T06:00:00.000Z",
+          "excerpt": "150 căn shophouse khối đế thuộc ba dự án Spana Tower, Cora Tower, S-Light Tower phía Nam trung tâm Đà Nẵng có lợi thế nguồn cung giới hạn, thiết kế, dòng…",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -254,10 +254,54 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "TPHCM: Lý do nhịp cầu hình lá dừa nước lùi ngày về bến Bạch Đằng",
-          "link": "https://cafef.vn/tphcm-ly-do-nhip-cau-hinh-la-dua-nuoc-lui-ngay-ve-ben-bach-dang-188260825140111738.chn",
-          "pubDate": "2026-08-25T07:30:00.000Z",
-          "excerpt": "Kế hoạch đưa nhịp chính cầu đi bộ qua sông Sài Gòn từ nhà máy ở Vũng Tàu về bến Bạch Đằng phải điều chỉnh do sà lan chuyên dụng chưa thể bàn giao theo kế hoạch.",
+          "title": "Cơ quan thuế thông báo: Loạt doanh nghiệp có tên trong danh sách sau bị phong tỏa tài khoản ngân hàng",
+          "link": "https://cafef.vn/co-quan-thue-thong-bao-loat-doanh-nghiep-co-ten-trong-danh-sach-sau-bi-phong-toa-tai-khoan-ngan-hang-188260825152720025.chn",
+          "pubDate": "2026-08-25T08:36:00.000Z",
+          "excerpt": "Cơ quan thuế thông tin, nguyên nhân áp dụng biện pháp cưỡng chế là các đơn vị này có tiền thuế nợ quá 90 ngày kể từ ngày hết thời hạn nộp theo quy định.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Quảng Ninh trở thành thành phố trực thuộc Trung ương từ 1/9",
+          "link": "https://cafef.vn/quang-ninh-tro-thanh-thanh-pho-truc-thuoc-trung-uong-tu-1-9-188260825135627187.chn",
+          "pubDate": "2026-08-25T08:30:00.000Z",
+          "excerpt": "Ngày 24/8, tại Kỳ họp không thường lệ thứ nhất, Quốc hội khóa XVI thông qua Nghị quyết thành lập thành phố Quảng Ninh trực thuộc Trung ương. Nghị quyết có hiệu…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Điều chưa từng có trong lịch sử, Việt Nam lọt top 4 thống trị ngành đóng tàu toàn cầu, liên tiếp lập kỷ lục với tàu lớn nhất thế giới",
+          "link": "https://cafef.vn/dieu-chua-tung-co-trong-lich-su-viet-nam-lot-top-4-thong-tri-nganh-dong-tau-toan-cau-lien-tiep-lap-ky-luc-voi-tau-lon-nhat-the-gioi-188260825152032843.chn",
+          "pubDate": "2026-08-25T08:20:00.000Z",
+          "excerpt": "Việt Nam iên tiếp lập kỷ lục với tàu lớn nhất toàn cầu.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thông tin mới về sân bay quốc tế 86 năm tuổi của Việt Nam do người Pháp xây dựng",
+          "link": "https://cafef.vn/thong-tin-moi-ve-san-bay-quoc-te-86-nam-tuoi-cua-viet-nam-do-nguoi-phap-xay-dung-188260825150318805.chn",
+          "pubDate": "2026-08-25T08:06:00.000Z",
+          "excerpt": "Bộ Xây dựng vừa phê duyệt dự án cải tạo đường cất hạ cánh Sân bay quốc tế Đà Nẵng với tổng vốn gần 1.700 tỷ đồng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chuyên gia quốc tế: \"Việt Nam không còn là phương án dự phòng trong chiến lược 'Trung Quốc+1'\"",
+          "link": "https://cafef.vn/chuyen-gia-quoc-te-viet-nam-khong-con-la-phuong-an-du-phong-trong-chien-luoc-trung-quoc1-188260825144646263.chn",
+          "pubDate": "2026-08-25T07:46:00.000Z",
+          "excerpt": "Việt Nam đang dần vượt khỏi vai trò một địa điểm sản xuất chi phí thấp để trở thành lựa chọn dài hạn trong chiến lược chuỗi cung ứng của các tập đoàn toàn cầu.…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -273,50 +317,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Đoạn cao tốc 27.570 tỷ đồng dài 68km, có 2 hầm xuyên núi cấp đặc biệt và 2 cầu có trụ cao nhất Việt Nam đang triển khai đến đâu?",
-          "link": "https://cafef.vn/doan-cao-toc-27570-ty-dong-dai-68km-co-2-ham-xuyen-nui-cap-dac-biet-va-2-cau-co-tru-cao-nhat-viet-nam-dang-trien-khai-den-dau-18826082514070109.chn",
-          "pubDate": "2026-08-25T07:20:00.000Z",
-          "excerpt": "Đây là dự án cao tốc có ý nghĩa quan trọng, giúp từng bước hình thành khung kết cấu hạ tầng khu vực Tây Nguyên, hành lang Đông - Tây.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Vận hành 28 trạm dừng nghỉ cao tốc Bắc - Nam dịp 2/9",
-          "link": "https://cafef.vn/van-hanh-28-tram-dung-nghi-cao-toc-bac-nam-dip-2-9-18826082513320882.chn",
-          "pubDate": "2026-08-25T06:56:00.000Z",
-          "excerpt": "Dịp nghỉ lễ Quốc khánh 2/9, tuyến cao tốc Bắc - Nam phía Đông có 28 trạm dừng nghỉ, trạm tạm và điểm dừng xe được khai thác; trung bình khoảng 75 km có một vị…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Xử lý hơn 3.500 vụ buôn lậu, gian lận thương mại và hàng giả trong một tháng",
-          "link": "https://cafef.vn/xu-ly-hon-3500-vu-buon-lau-gian-lan-thuong-mai-va-hang-gia-trong-mot-thang-188260825091315367.chn",
-          "pubDate": "2026-08-25T06:35:00.000Z",
-          "excerpt": "Hơn 3.500 vụ buôn lậu, gian lận thương mại và hàng giả đã bị xử lý trong kỳ báo cáo từ ngày 16-7 đến 15-8, với số tiền thu nộp ngân sách hơn 39,9 tỷ đồng.…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "FPT khởi công tổ hợp giáo dục quy mô tại Điện Biên",
-          "link": "https://cafef.vn/fpt-khoi-cong-to-hop-giao-duc-quy-mo-tai-dien-bien-188260825131331194.chn",
-          "pubDate": "2026-08-25T06:13:00.000Z",
-          "excerpt": "Ngày 25/8, Tập đoàn FPT khởi công Tổ hợp Giáo dục FPT tại tỉnh Điện Biên. Đây là tổ hợp giáo dục đầu tiên của khu vực Tây Bắc có đầy đủ các hệ đào tạo từ phổ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -349,6 +349,61 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "For states, being part of everything doesn’t mean being part of nothing",
+          "link": "https://www.scmp.com/opinion/world-opinion/article/3364821/states-being-part-everything-doesnt-mean-being-part-nothing?utm_source=rss_feed",
+          "pubDate": "2026-08-25T08:30:12.000Z",
+          "excerpt": "A coalition may call itself a commitment. It still has to say what that commitment is. The Trump administration is reportedly preparing to send a letter to…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Stock Market Today: Markets Shrug at Mideast Tensions, Canada Trade Dispute",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-25-2026?mod=rss_markets_main",
+          "pubDate": "2026-08-25T08:19:42.000Z",
+          "excerpt": "Stock futures muted; bitcoin extends rally",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Israel’s strikes push Syria towards Mecca defence pact membership",
+          "link": "https://www.scmp.com/week-asia/politics/article/3365172/israels-strikes-push-syria-towards-mecca-defence-pact-membership?utm_source=rss_feed",
+          "pubDate": "2026-08-25T08:00:06.000Z",
+          "excerpt": "Israel’s escalating campaign to stop Syria rebuilding its military with Turkish help looks set to backfire, after Damascus signalled it was considering joining…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.",
+          "link": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T08:00:00.000Z",
+          "excerpt": "Bitcoin was hovering around the $80,000 level Tuesday after the cryptocurrency surged last week on the Treasury Department’s plans to double its buy back of…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Investors poured into Canadian ETFs right before trade talks broke down",
+          "link": "https://www.marketwatch.com/story/investors-poured-into-canadian-etfs-right-before-trade-talks-broke-down-c8bea8ee?mod=mw_rss_topstories",
+          "pubDate": "2026-08-25T07:57:00.000Z",
+          "excerpt": "Investors misread the mood music on U.S.-Canadian talks, in a big way.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "‘Children were in pieces’: memories still raw 6 months after Iran school strike",
           "link": "https://www.scmp.com/news/world/middle-east/article/3365173/children-were-pieces-memories-still-raw-6-months-after-iran-school-strike?utm_source=rss_feed",
           "pubDate": "2026-08-25T07:09:13.000Z",
@@ -379,61 +434,6 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Skipton tries to show that building societies still matter",
-          "link": "https://www.ft.com/content/3bcae42c-b784-400e-9f2d-3bb00c4b0d85?syn-25a6b1a6=1",
-          "pubDate": "2026-08-25T04:00:31.000Z",
-          "excerpt": "The mutual financial group based in the Yorkshire Dales wants to emphasise the personal touch",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "The threats to ‘Swiss Made’",
-          "link": "https://www.ft.com/content/db7494b8-c590-4a50-8644-211d154a8f7b?syn-25a6b1a6=1",
-          "pubDate": "2026-08-25T04:00:21.000Z",
-          "excerpt": "For decades the country’s exporters focused on adding value, but US tariffs and the strong franc are now hitting them harder",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "US affordability tracker: the data that could decide the 2026 midterm elections",
-          "link": "https://www.ft.com/content/71dccbca-4a1f-485a-9790-28cc527cdb82?syn-25a6b1a6=1",
-          "pubDate": "2026-08-25T04:00:09.000Z",
-          "excerpt": "The FT is tracking changes to the cost of living that will affect American voters",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
-          "link": "https://www.scmp.com/news/world/americas/article/3365138/gang-attack-haiti-leaves-least-47-dead-anger-mounts-over-police-failures?utm_source=rss_feed",
-          "pubDate": "2026-08-25T03:27:02.000Z",
-          "excerpt": "At least 47 people were killed and 22 more injured in an overnight gang raid on a neighbourhood overlooking Haiti’s capital of Port-au-Prince, the UN said on…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Hottest ocean temperature recorded as ‘super’ El Nino forms",
-          "link": "https://www.scmp.com/news/world/article/3365131/hottest-ocean-temperature-recorded-super-el-nino-forms?utm_source=rss_feed",
-          "pubDate": "2026-08-25T02:30:07.000Z",
-          "excerpt": "Scientists have recorded the highest temperature ever measured in the world’s oceans, as climate change combines with a powerful El Nino in the tropical…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
