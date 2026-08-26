@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T04:43:01.171Z",
+  "lastUpdated": "2026-08-26T05:37:38.647Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4700.2,
+      "value": 4700,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 66375.31,
-      "change": 158.52000000000407,
-      "changePercent": 0.2393954765853254
+      "value": 66278.24,
+      "change": 61.45000000001164,
+      "changePercent": 0.09280123666521987
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25685.4,
-      "change": 190.33000000000175,
-      "changePercent": 0.746536487250287
+      "value": 25652.55,
+      "change": 157.47999999999956,
+      "changePercent": 0.6176880471400924
     },
     {
       "symbol": "^GDAXI",
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Tâm lý nghỉ Lễ sớm, thanh khoản giảm đột biến",
+          "link": "https://vneconomy.vn/tam-ly-nghi-le-som-thanh-khoan-giam-dot-bien.htm",
+          "pubDate": "2026-08-26T05:00:37.000Z",
+          "excerpt": "VN-Index vẫn chưa thể chinh phục được mốc 1800 điểm dù trong sáng nay có lúc đã tới 1803,3 điểm. Nguyên nhân là do dòng tiền vào quá kém khi nhà đầu tư có tâm…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "BIDV nâng vốn điều lệ lên gần 77,782 tỷ sau đợt phát hành gần 500 triệu cp",
+          "link": "http://vietstock.vn/2026/08/bidv-nang-von-dieu-le-len-gan-77782-ty-sau-dot-phat-hanh-gan-500-trieu-cp-757-1485207.htm",
+          "pubDate": "2026-08-26T04:56:24.000Z",
+          "excerpt": "Ngân hàng TMCP và Đầu tư Phát triển Việt Nam (BIDV, HOSE:BID) vừa báo cáo kết quả đợt phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, qua đó…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
         {
           "title": "Vietcombank phát cảnh báo khẩn về việc bị giả mạo",
           "link": "https://cafef.vn/vietcombank-phat-canh-bao-khan-ve-viec-bi-gia-mao-188260826111009435.chn",
@@ -128,28 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Gần 31 nghìn tỷ đồng trái phiếu doanh nghiệp đáo hạn trong quý 3/2026",
-          "link": "https://vneconomy.vn/gan-31-nghin-ty-dong-trai-phieu-doanh-nghiep-dao-han-trong-quy-32026.htm",
-          "pubDate": "2026-08-26T02:46:02.000Z",
-          "excerpt": "Ước tính khoảng 30,9 nghìn tỷ đồng trái phiếu doanh nghiệp đáo hạn trong quý 3/2026, giảm 47% so với cùng kỳ, tập trung chủ yếu ở nhóm Bất động sản với khoảng…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Dòng tiền toàn cầu thận trọng với cổ phiếu, đổ mạnh vào vàng và trái phiếu",
-          "link": "https://vneconomy.vn/dong-tien-toan-cau-than-trong-voi-co-phieu-do-manh-vao-vang-va-trai-phieu.htm",
-          "pubDate": "2026-08-26T02:44:35.000Z",
-          "excerpt": "ETF hàng hóa tiếp tục xu hướng hút ròng tuần thứ 3 liên tiếp, đạt hơn 4,8 tỷ USD, tăng 198% so với tuần trước và là mức cao nhất từ cuối tháng 02/2026. Trong…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,50 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Dự án gần 3.000 tỷ đồng của ông lớn vàng miếng DOJI tại thành phố nhỏ nhất Việt Nam có diễn biến mới",
+          "link": "https://cafef.vn/du-an-gan-3000-ty-dong-cua-ong-lon-vang-mieng-doji-tai-thanh-pho-nho-nhat-viet-nam-co-dien-bien-moi-18826082610560437.chn",
+          "pubDate": "2026-08-26T05:07:00.000Z",
+          "excerpt": "270 căn nhà ở thương mại thấp tầng hình thành trong tương lai tại Dự án Đầu tư xây dựng Khu đô thị mới tại phường Thủy Nguyên vừa được xác nhận đủ điều kiện…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Sunshine Group - Dấu ấn doanh nghiệp tư nhân trong đóng góp ngân sách Nhà nước",
+          "link": "https://vneconomy.vn/sunshine-group-dau-an-doanh-nghiep-tu-nhan-trong-dong-gop-ngan-sach-nha-nuoc.htm",
+          "pubDate": "2026-08-26T05:03:32.000Z",
+          "excerpt": "Không chỉ phát triển những dự án bất động sản quy mô lớn, Sunshine Group đang từng bước khẳng định vai trò của một doanh nghiệp tư nhân có đóng góp đáng kể cho…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Công ty xin phép xây nhà ở riêng lẻ cần điều kiện gì?",
+          "link": "https://cafef.vn/cong-ty-xin-phep-xay-nha-o-rieng-le-can-dieu-kien-gi-188260826092806377.chn",
+          "pubDate": "2026-08-26T04:55:00.000Z",
+          "excerpt": "Hồ sơ đề nghị cấp giấy phép xây dựng công trình nhà ở riêng lẻ của tổ chức hiện nay được quy định cụ thể tại điểm b khoản 3 Điều 60 Nghị định số 217/2026/NĐ-CP.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tin được không: Việt Nam sắp có phòng họp rộng gấp rưỡi mặt sân Mỹ Đình, không có cột nào nhưng vẫn chống đỡ mái thép 12.000 tấn",
+          "link": "https://cafef.vn/tin-duoc-khong-viet-nam-sap-co-phong-hop-rong-gap-ruoi-mat-san-my-dinh-khong-co-cot-nao-nhung-van-chong-do-mai-thep-12000-tan-188260826105905294.chn",
+          "pubDate": "2026-08-26T04:49:00.000Z",
+          "excerpt": "Tâm điểm của Trung tâm Hội nghị APEC (Phú Quốc) là ballroom rộng 11.050 m² với kết cấu không cột tạo tầm nhìn liền mạch và cho phép bố trí linh hoạt cho nhiều…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Đúng 1 tuần nữa sẽ khởi công dự án hơn 111.000 tỷ đồng, quy mô 600ha do Vinhomes đề xuất đầu tư ngay tại Hà Nội",
           "link": "https://cafef.vn/dung-1-tuan-nua-se-khoi-cong-du-an-hon-111000-ty-dong-quy-mo-600ha-do-vinhomes-de-xuat-dau-tu-ngay-tai-ha-noi-1882608261131451.chn",
@@ -181,28 +225,6 @@
           "condensed": null
         },
         {
-          "title": "Việt Nam đang nghiên cứu quy hoạch khu du lịch quốc gia mang tầm quốc tế hơn 2.900 ha, đề xuất xây 3 cầu cảnh quan dài gần 600m tại hồ Tuyền Lâm",
-          "link": "https://cafef.vn/viet-nam-dang-nghien-cuu-quy-hoach-khu-du-lich-quoc-gia-mang-tam-quoc-te-hon-2900-ha-de-xuat-xay-3-cau-canh-quan-dai-gan-600m-tai-ho-tuyen-lam-188260826110003732.chn",
-          "pubDate": "2026-08-26T04:20:00.000Z",
-          "excerpt": "Theo báo cáo của Ban Quản lý Khu du lịch quốc gia hồ Tuyền Lâm, quy mô nghiên cứu quy hoạch của khu du lịch là 2.944 ha.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Sunshine Group – Dấu ấn doanh nghiệp tư nhân trong đóng góp ngân sách Nhà nước",
-          "link": "https://cafef.vn/sunshine-group-dau-an-doanh-nghiep-tu-nhan-trong-dong-gop-ngan-sach-nha-nuoc-188260826105454556.chn",
-          "pubDate": "2026-08-26T04:09:00.000Z",
-          "excerpt": "Không chỉ phát triển những dự án bất động sản quy mô lớn, Sunshine Group đang từng bước khẳng định vai trò của một doanh nghiệp tư nhân có đóng góp đáng kể cho…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "The Magnolia và lời giải tầm nhìn từ kiến trúc",
           "link": "https://vneconomy.vn/the-magnolia-va-loi-giai-tam-nhin-tu-kien-truc.htm",
           "pubDate": "2026-08-26T04:06:28.000Z",
@@ -214,17 +236,6 @@
           "condensed": null
         },
         {
-          "title": "Hà Nội khánh thành đường Vành đai 1, khởi công đường quanh hồ Tây dịp Quốc khánh",
-          "link": "https://cafef.vn/ha-noi-khanh-thanh-duong-vanh-dai-1-khoi-cong-duong-quanh-ho-tay-dip-quoc-khanh-188260826104115664.chn",
-          "pubDate": "2026-08-26T04:01:00.000Z",
-          "excerpt": "Hà Nội khánh thành 11 công trình, dự án và khởi công 5 dự án trong dịp Quốc khánh 2/9.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Động lực thúc đẩy nguồn cung mới tại khu Tây TP HCM",
           "link": "https://vnexpress.net/dong-luc-thuc-day-nguon-cung-moi-tai-khu-tay-tp-hcm-5112915.html",
           "pubDate": "2026-08-26T02:00:00.000Z",
@@ -233,17 +244,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Kiểm soát công trình cao tầng trên tuyến Trần Nhật Duật - Trần Quang Khải - Trần Khánh Dư",
-          "link": "https://vneconomy.vn/kiem-soat-cong-trinh-cao-tang-tren-tuyen-tran-nhat-duat-tran-quang-khai-tran-khanh-du.htm",
-          "pubDate": "2026-08-26T01:11:13.000Z",
-          "excerpt": "Đồ án Thiết kế đô thị riêng tuyến đường Trần Nhật Duật - Trần Quang Khải - Trần Khánh Dư, tỷ lệ 1/500 vừa được TP. Hà Nội phê duyệt, nằm trên địa bàn các…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
