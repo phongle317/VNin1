@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T12:57:30.407Z",
+  "lastUpdated": "2026-08-26T13:57:49.066Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4675.1,
+      "value": 4677.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7677.28,
-      "change": -14.480000000000473,
-      "changePercent": -0.18825340364234547
+      "value": 7686.4,
+      "change": -21.579999999999927,
+      "changePercent": -0.27996958995741983
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26151.299,
-      "change": -138.41100000000006,
-      "changePercent": -0.5264835557334031
+      "value": 26172.771,
+      "change": -158.3189999999995,
+      "changePercent": -0.6012626138910295
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26389.51,
-      "change": 298.17999999999665,
-      "changePercent": 1.142831737592513
+      "value": 26422.41,
+      "change": 331.0799999999981,
+      "changePercent": 1.2689272643441254
     }
   ],
   "themes": [
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Nhà đầu tư cá nhân bất ngờ bán ròng phiên VN-Index đột phá ngưỡng 1800 điểm",
+          "link": "https://vneconomy.vn/nha-dau-tu-ca-nhan-bat-ngo-ban-rong-phien-vn-index-dot-pha-nguong-1800-diem.htm",
+          "pubDate": "2026-08-26T13:48:34.000Z",
+          "excerpt": "Tự doanh hôm nay mua ròng 298,6 tỷ đồng tính riêng khớp lệnh họ mua ròng 352 tỷ đồng. Nhà đầu tư cá nhân bất ngờ bán ròng 448,6 tỷ...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "VN-Index vượt mốc 1.800 điểm",
           "link": "https://cafef.vn/vn-index-vuot-moc-1800-diem-188260826192245639.chn",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Chứng khoán ngày 26/8: VN-Index vượt 1.820 điểm",
-          "link": "https://cafef.vn/chung-khoan-ngay-26-8-vn-index-vuot-1820-diem-18826082617005007.chn",
-          "pubDate": "2026-08-26T10:29:00.000Z",
-          "excerpt": "Thị trường chứng khoán ngày 26/8 được hỗ trợ tích cực bởi nhóm Vingroup và đặc biệt là TCB. Qua đó, VN-Index vươn lên ngưỡng 1.820 điểm.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,14 +159,14 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Gia Lai có thêm cụm công nghiệp 65 ha gần sân bay",
-          "link": "https://vnexpress.net/gia-lai-co-them-cum-cong-nghiep-65-ha-gan-san-bay-5113754.html",
-          "pubDate": "2026-08-26T09:45:00.000Z",
-          "excerpt": "Gia Lai vừa quyết định thành lập cụm công nghiệp Tân Nghi gần 400 tỷ đồng, nằm ở phường An Nhơn.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Động thái của doanh nghiệp 'dính' sai phạm ở khu du lịch Nam Hồ",
+          "link": "https://cafef.vn/dong-thai-cua-doanh-nghiep-dinh-sai-pham-o-khu-du-lich-nam-ho-188260826190615773.chn",
+          "pubDate": "2026-08-26T13:48:00.000Z",
+          "excerpt": "Gần 4 năm sau kết luận thanh tra, nhiều sai phạm tại Khu du lịch Nam Hồ vẫn chưa được khắc phục dứt điểm. Doanh nghiệp này vừa đề xuất điều chỉnh một số hạng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -214,17 +214,6 @@
           "condensed": null
         },
         {
-          "title": "Cú huých hạ tầng 2026: Mở cửa dòng vốn FDI vào bất động sản vùng ven",
-          "link": "https://cafef.vn/cu-huych-ha-tang-2026-mo-cua-dong-von-fdi-vao-bat-dong-san-vung-ven-188260826143904546.chn",
-          "pubDate": "2026-08-26T08:16:00.000Z",
-          "excerpt": "Theo ông Matthew Powell, Giám đốc Savills Hà Nội, hạ tầng không chỉ kết nối các vùng sản xuất mà còn đánh thức những thị trường tiềm năng trước đây ít được chú…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "TP HCM thu hồi khu đất hơn 2.300 m2 tại phường Cầu Ông Lãnh",
           "link": "https://vnexpress.net/tp-hcm-thu-hoi-khu-dat-hon-2-300-m2-tai-phuong-cau-ong-lanh-5113430.html",
           "pubDate": "2026-08-26T06:04:13.000Z",
@@ -244,6 +233,17 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội giao hơn 3,4 ha đất làm dự án nhà ở cho công an",
+          "link": "https://vnexpress.net/ha-noi-giao-hon-3-4-ha-dat-lam-du-an-nha-o-cho-cong-an-5113486.html",
+          "pubDate": "2026-08-26T04:44:10.000Z",
+          "excerpt": "Hơn 3,4 ha đất tại xã Đông Anh được giao cho Thái Nam Land để triển khai dự án nhà ở cho cán bộ, chiến sỹ công an.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -309,17 +309,6 @@
           "condensed": null
         },
         {
-          "title": "Việt Nam sở hữu một vòm thép lớn nhất ASEAN",
-          "link": "https://cafef.vn/viet-nam-so-huu-mot-vom-thep-lon-nhat-asean-188260826162238094.chn",
-          "pubDate": "2026-08-26T09:22:00.000Z",
-          "excerpt": "Việt Nam kỷ lục nâng vòm thép lớn và phức tạp hàng đầu thế giới.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Vương quốc Anh hỗ trợ Việt Nam hoàn thiện nền tảng pháp lý cho VIFC",
           "link": "https://vneconomy.vn/vuong-quoc-anh-ho-tro-viet-nam-hoan-thien-nen-tang-phap-ly-cho-vifc.htm",
           "pubDate": "2026-08-26T08:39:05.000Z",
@@ -340,6 +329,17 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Đà Nẵng khởi công 2 dự án trọng điểm với tổng vốn đầu tư gần 4.300 tỉ đồng",
+          "link": "https://vneconomy.vn/da-nang-khoi-cong-2-du-an-trong-diem-voi-tong-von-dau-tu-gan-4300-ti-dong.htm",
+          "pubDate": "2026-08-26T03:07:01.000Z",
+          "excerpt": "UBND thành phố Đà Nẵng khởi công hai dự án trọng điểm với tổng vốn gần 4.300 tỉ đồng, nhằm giải quyết điểm nghẽn giao thông trung tâm thành phố, tăng khả năng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,32 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
-          "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
-          "pubDate": "2026-08-26T12:49:11.000Z",
-          "excerpt": "The personal consumption expenditures price index was expected to rise 0.1% monthly and 3.6% on a 12-month basis, according to economists surveyed by Dow Jones.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "Prince Harry and Meghan back in UK after 6 years, beginning a new chapter",
-          "link": "https://www.scmp.com/news/world/europe/article/3365354/prince-harry-and-meghan-back-uk-after-6-years-beginning-new-chapter?utm_source=rss_feed",
-          "pubDate": "2026-08-26T12:46:41.000Z",
-          "excerpt": "Prince Harry and his family arrived back in Britain on Wednesday, the BBC reported, days after it was revealed the couple were relocating six years after…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "There’s so much betting against long-term bonds that a turnaround could catch investors off guard, says Citadel Securities",
-          "link": "https://www.marketwatch.com/story/wall-streets-massive-bet-against-long-term-bonds-is-a-recipe-for-a-painful-bearish-unwind-says-citadel-securities-430dc145?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T12:40:00.000Z",
-          "excerpt": "Citadel Securities’ strategist Frank Flight says a bet that appears to be one-sided against long-term bonds could be setting up for a painful unwind.",
+          "title": "Meta’s stock gives up gains as Wall Street digests settlement in social-media addiction trial",
+          "link": "https://www.marketwatch.com/story/metas-stock-rises-as-the-company-settles-in-social-media-addiction-trial-78abdfbf?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T13:55:00.000Z",
+          "excerpt": "The social-media giant agreed to pay up to $16.68 billion as part of the settlement.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -382,9 +360,20 @@
           "condensed": null
         },
         {
-          "title": "U.S. inflation rises again and stays well above Fed’s target. Rate hike might be in play.",
+          "title": "Consumer spending sees the smallest increase in seven months. Is the economy getting weaker?",
+          "link": "https://www.marketwatch.com/story/consumer-spending-posts-smallest-increases-in-14-months-is-the-economy-getting-weaker-1580cec6?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T13:52:00.000Z",
+          "excerpt": "Consumer spending rose in July at the slowest pace in seven months, suggesting the U.S. economy lost a little steam after the end of the 2026 Word Cup and…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "U.S. inflation rises again and stays well above the Fed’s target. A rate hike could be in play.",
           "link": "https://www.marketwatch.com/story/u-s-inflation-rises-in-july-and-stays-well-above-feds-target-b4e6109c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T12:38:00.000Z",
+          "pubDate": "2026-08-26T13:52:00.000Z",
           "excerpt": "The main inflation gauge used by the Federal Reserve to set U.S. interest rates rose at an elevated rate in July, potentially pushing the Federal Reserve…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -393,10 +382,32 @@
           "condensed": null
         },
         {
-          "title": "The security-obsessed global economy needs its own Helsinki process",
-          "link": "https://www.scmp.com/opinion/world-opinion/article/3364882/security-obsessed-global-economy-needs-its-own-helsinki-process?utm_source=rss_feed",
-          "pubDate": "2026-08-26T12:30:06.000Z",
-          "excerpt": "Forty years ago, the Stockholm Document turned the political promise of the 1975 Helsinki Final Act into a more practical system of confidence-building. Amid…",
+          "title": "You don’t have to be rich to start investing. Here’s a simple way to begin.",
+          "link": "https://www.marketwatch.com/story/you-dont-have-to-be-rich-to-start-investing-heres-a-simple-way-to-begin-f1b0e194?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T13:50:00.000Z",
+          "excerpt": "You don’t need to be fluent in market jargon or have thousands of dollars stashed away to get started.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "It now takes over 40 years for homeowners to break even after buying a house in these areas",
+          "link": "https://www.marketwatch.com/story/heres-where-it-takes-new-homeowners-almost-40-to-50-years-to-break-even-on-buying-a-house-c503cb50?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T13:48:00.000Z",
+          "excerpt": "In some housing markets, renting and investing can build wealth faster than buying a house.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Iran and Oman reach Hormuz deal, but reopening hinges on US compliance",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3365361/iran-and-oman-reach-hormuz-deal-reopening-hinges-us-compliance?utm_source=rss_feed",
+          "pubDate": "2026-08-26T13:36:30.000Z",
+          "excerpt": "Iran and Oman have reached agreement on their share of the Strait of Hormuz and its revenues, but the vital waterway will not be reopened if the US does not…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -404,36 +415,25 @@
           "condensed": null
         },
         {
-          "title": "The renter generation: Young Americans, shut out of homeownership, brace to rent forever",
-          "link": "https://www.marketwatch.com/story/the-renter-generation-young-americans-shut-out-of-homeownership-brace-to-rent-forever-43be0585?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T12:30:00.000Z",
-          "excerpt": "People once believed if they worked hard, they could become homeowners, but ‘we’re coming to terms with the fact that perhaps most won’t. And that’s the new…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
+          "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+          "pubDate": "2026-08-26T13:35:50.000Z",
+          "excerpt": "The personal consumption expenditures price index was expected to rise 0.1% monthly and 3.6% on a 12-month basis, according to economists surveyed by Dow Jones.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
           "condensed": null
         },
         {
-          "title": "Wall Street’s biggest optimist says ‘I wouldn’t jump into the AI trade right now’",
-          "link": "https://www.marketwatch.com/story/wall-streets-biggest-optimist-says-i-wouldnt-jump-into-the-ai-trade-right-now-18110306?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T12:16:00.000Z",
-          "excerpt": "Ed Yardeni, who has been called the most bullish person on Wall Street, says he hasn’t been bullish enough on the stock market.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Callaway Golf’s apology for ad showing woman being shoved to the ground exposes a major industry blind spot",
-          "link": "https://www.marketwatch.com/story/callaway-golfs-apology-for-ad-showing-woman-being-shoved-to-the-ground-exposes-a-major-industry-blind-spot-41101a13?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T11:43:00.000Z",
-          "excerpt": "The viral ad shows a male golfer pushing a female golfer to the ground. Since 2019, women and girls made up nearly 60% of net golfer growth.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "Meta to pay up to $16.7bn to settle children’s social media harm case",
+          "link": "https://www.ft.com/content/21dcbd96-ee57-445c-a9ba-0938c49b91c0?syn-25a6b1a6=1",
+          "pubDate": "2026-08-26T13:20:22.000Z",
+          "excerpt": "Case relating to alleged failures of child protection was getting under way in California",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         }
       ],
