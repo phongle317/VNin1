@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T06:54:48.327Z",
+  "lastUpdated": "2026-08-26T07:50:20.297Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4690.2,
+      "value": 4687.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25724.06,
-      "change": 228.9900000000016,
-      "changePercent": 0.8981736469050747
+      "value": 25656.48,
+      "change": 161.40999999999985,
+      "changePercent": 0.633102792029988
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26266.14,
-      "change": 137.77999999999884,
-      "changePercent": 0.5273197399300945
+      "value": 26212.05,
+      "change": 120.71999999999753,
+      "changePercent": 0.46268243129038467
     }
   ],
   "themes": [
@@ -64,8 +64,30 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Chú ý: Đúng ngày 3/9, hàng chục triệu cổ phiếu chứng khoán này bị đình chỉ giao dịch",
-          "link": "https://cafef.vn/chu-y-dung-ngay-3-9-hang-chuc-trieu-co-phieu-chung-khoan-nay-bi-dinh-chi-giao-dich-188260826134329745.chn",
+          "title": "Chứng khoán VIX ôm 1.000 tỷ đồng cổ phiếu TCB",
+          "link": "https://cafef.vn/chung-khoan-vix-om-1000-ty-dong-co-phieu-tcb-188260826142955527.chn",
+          "pubDate": "2026-08-26T07:29:00.000Z",
+          "excerpt": "TCB bất ngờ tăng kịch trần trắng bên bán trong phiên trước dịp nghỉ lễ dài.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nóng: Nhà thuốc An Khang hợp tác với VNVC",
+          "link": "https://cafef.vn/nong-nha-thuoc-an-khang-hop-tac-voi-vnvc-188260826140513839.chn",
+          "pubDate": "2026-08-26T07:05:00.000Z",
+          "excerpt": "Nhà thuốc An Khang hợp tác với hệ thống gần 300 trung tâm tiêm chủng VNVC trên toàn quốc.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đúng 1 tuần nữa, ngày 3/9, hàng chục triệu cổ phiếu chứng khoán này bị đình chỉ giao dịch",
+          "link": "https://cafef.vn/dung-1-tuan-nua-hang-chuc-trieu-co-phieu-chung-khoan-nay-bi-dinh-chi-giao-dich-188260826134329745.chn",
           "pubDate": "2026-08-26T06:43:00.000Z",
           "excerpt": "Trước khi bị đình chỉ, cổ phiếu HBS này đang trong diện cảnh báo và hạn chế giao dịch.",
           "sourceId": "cafef",
@@ -128,28 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Quỹ ngoại: Định giá nhiều cổ phiếu Việt Nam ở mức thấp bất thường",
-          "link": "https://vneconomy.vn/quy-ngoai-dinh-gia-nhieu-co-phieu-viet-nam-o-muc-thap-bat-thuong.htm",
-          "pubDate": "2026-08-26T03:57:40.000Z",
-          "excerpt": "Kết quả kinh doanh của doanh nghiệp đang tăng trưởng mạnh, định giá của phần lớn danh mục vẫn ở mức thấp bất thường, trong khi Việt Nam tiếp tục phát triển thị…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Green GSM có động thái mới tại quốc gia láng giềng Việt Nam",
-          "link": "https://cafef.vn/green-gsm-co-dong-thai-moi-tai-quoc-gia-lang-gieng-viet-nam-188260826105018144.chn",
-          "pubDate": "2026-08-26T03:50:00.000Z",
-          "excerpt": "Green GSM vừa cho ra mắt dịch vụ taxi công nghệ 7 chỗ cao cấp Premium Taxi tại Philippines.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,39 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Nơi bán chung cư giá rẻ hơn thị trường gần một nửa: Hàng trăm người đã thật sự hưởng lợi",
+          "link": "https://cafef.vn/noi-ban-chung-cu-gia-re-hon-thi-truong-gan-mot-nua-hang-tram-nguoi-da-that-su-huong-loi-188260826142251171.chn",
+          "pubDate": "2026-08-26T07:23:00.000Z",
+          "excerpt": "Một cách tiếp cận khác thường nhưng hiệu quả, cho thấy nhà ở vừa túi tiền, đôi khi, không nhất thiết phải chạy theo nhịp tăng của thị trường chung.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tỷ phú Phạm Nhật Vượng đang cho xây một công trình lớn nhất thế giới chứa hơn 450 triệu lít nước",
+          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-dang-cho-xay-mot-cong-trinh-lon-nhat-the-gioi-chua-hon-450-trieu-lit-nuoc-188260826135011864.chn",
+          "pubDate": "2026-08-26T06:52:00.000Z",
+          "excerpt": "VinWonders tại Vinhomes Global Gate Hạ Long dự kiến có công viên thủy cung quy mô 24 ha, được giới thiệu là lớn nhất thế giới.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Sun Group đang thi công thần tốc siêu dự án gần 22.000 tỷ đồng chưa từng có tại hòn đảo được mệnh danh “đẹp nhất châu Á”",
+          "link": "https://cafef.vn/sun-group-dang-thi-cong-than-toc-sieu-du-an-gan-22000-ty-dong-chua-tung-co-tai-hon-dao-duoc-menh-danh-dep-nhat-chau-a-18826082613482063.chn",
+          "pubDate": "2026-08-26T06:52:00.000Z",
+          "excerpt": "Cảng Hàng không quốc tế Phú Quốc đang chạy đua với tiến độ chưa từng có, hướng tới mục tiêu hoàn thành hạ tầng phục vụ Tuần lễ Cấp cao APEC 2027, đồng thời tạo…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Đà Nẵng mở rộng phát triển nhà ở xã hội cho thuê",
           "link": "https://cafef.vn/da-nang-mo-rong-phat-trien-nha-o-xa-hoi-cho-thue-18826082613373977.chn",
@@ -174,39 +207,6 @@
           "link": "https://cafef.vn/ngoi-nha-mat-pho-voi-hinh-khoi-mang-dang-ve-cua-kien-truc-nhiet-doi-188260826133842646.chn",
           "pubDate": "2026-08-26T06:43:00.000Z",
           "excerpt": "Ngôi nhà nổi bật giữa mặt phố với hình khối cô đọng, mang dáng vẻ đặc trưng của kiến trúc nhiệt đới. Giếng trời được thiết kế đủ rộng, bố trí nhiều cây xanh,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cận cảnh hướng tuyến đường sắt Thủ Thiêm - Long Thành",
-          "link": "https://cafef.vn/can-canh-huong-tuyen-duong-sat-thu-thiem-long-thanh-188260826113251845.chn",
-          "pubDate": "2026-08-26T06:43:00.000Z",
-          "excerpt": "Tuyến đường sắt Thủ Thiêm - Long Thành dài 46,44 km, gồm 18 ga, kết nối trung tâm TP.HCM với sân bay Long Thành, dự kiến hoàn thành năm 2030.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Chuyên gia chỉ ra cơ hội đặc biệt của TP.HCM khi Luật Phát triển đô thị ra đời",
-          "link": "https://cafef.vn/chuyen-gia-chi-ra-co-hoi-dac-biet-cua-tphcm-khi-luat-phat-trien-do-thi-ra-doi-188260826134046202.chn",
-          "pubDate": "2026-08-26T06:42:00.000Z",
-          "excerpt": "Luật Phát triển đô thị và Quy hoạch TP.HCM tầm nhìn 100 năm như 2 tuyến mở cho sự phát triển, để TP có không gian mới với khung pháp lý để thực thi các mô hình…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Metro Hà Nội mở cuộc chơi mới: Bất động sản nào sẽ “hút” dòng tiền từ hàng triệu bước chân?",
-          "link": "https://cafef.vn/metro-ha-noi-mo-cuoc-choi-moi-bat-dong-san-nao-se-hut-dong-tien-tu-hang-trieu-buoc-chan-188260826113201243.chn",
-          "pubDate": "2026-08-26T06:30:00.000Z",
-          "excerpt": "Khi hệ thống giao thông công cộng Thủ đô chuyển mình với những tuyến đường sắt đô thị hiện đại, giá trị của bất động sản không còn đo bằng vị trí đơn thuần, mà…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -254,54 +254,54 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Thí điểm vùng phát thải thấp tại trung tâm TPHCM từ giữa năm 2027",
+          "link": "https://cafef.vn/thi-diem-vung-phat-thai-thap-tai-trung-tam-tphcm-tu-giua-nam-2027-188260826135740983.chn",
+          "pubDate": "2026-08-26T07:32:00.000Z",
+          "excerpt": "Từ ngày 1/7/2027, TPHCM dự kiến thí điểm vùng phát thải thấp (LEZ) tại khu vực lõi trung tâm rộng khoảng 930 ha và khu đô thị mới Thủ Thiêm. Thành phố sẽ triển…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội: CSGT tổng kiểm tra xe kinh doanh vận tải, phát hiện xe máy trên khoang chở khách",
+          "link": "https://cafef.vn/ha-noi-csgt-tong-kiem-tra-xe-kinh-doanh-van-tai-phat-hien-xe-may-tren-khoang-cho-khach-188260826134537618.chn",
+          "pubDate": "2026-08-26T07:30:00.000Z",
+          "excerpt": "CSGT Hà Nội đồng loạt tổng kiểm tra phương tiện kinh doanh vận tải từ sáng 26/8. Trên quốc lộ 32, lực lượng chức năng phát hiện một xe khách để nhiều hàng hóa,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đúng 10h, ngọn lửa mới bùng cháy, người Việt Nam hò reo vì tin vui ập tới, kỳ tích lớn nhất lịch sử ngành dầu khí được ghi nhận diễn ra vào 38 năm trước",
+          "link": "https://cafef.vn/dung-10h-ngon-lua-moi-bung-chay-nguoi-viet-nam-ho-reo-vi-tin-vui-ap-toi-ky-tich-lon-nhat-lich-su-nganh-dau-khi-duoc-ghi-nhan-dien-ra-vao-38-nam-truoc-188260826141503625.chn",
+          "pubDate": "2026-08-26T07:14:00.000Z",
+          "excerpt": "38 năm trước, một sự kiện lớn trong lĩnh vực dầu khí đã diễn ra.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội khánh thành đường Vành đai 1, khởi công tuyến ven Hồ Tây dịp 2/9",
+          "link": "https://cafef.vn/ha-noi-khanh-thanh-duong-vanh-dai-1-khoi-cong-tuyen-ven-ho-tay-dip-2-9-188260826134852582.chn",
+          "pubDate": "2026-08-26T07:00:00.000Z",
+          "excerpt": "Trong số 16 công trình, dự án được triển khai nhân dịp Quốc khánh 2/9, Hà Nội sẽ khánh thành đường Vành đai 1 và khởi công tuyến đường ven Hồ Tây.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "TP trực thuộc Trung ương mới nhất Việt Nam sẽ nối liền 2 đảo đẹp top đầu miền Bắc bằng dự án 1.991 tỷ đồng",
           "link": "https://cafef.vn/tp-truc-thuoc-trung-uong-moi-nhat-viet-nam-se-noi-lien-2-dao-dep-top-dau-mien-bac-bang-du-an-1991-ty-dong-188260825113125808.chn",
           "pubDate": "2026-08-26T06:35:00.000Z",
           "excerpt": "Lần đầu tiên, Việt Nam có cây cầu vượt biển dài 2,3km nối liền 2 hòn đảo.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Đề xuất quy định xếp loại và chi thu nhập tăng thêm đối với cán bộ, công chức, viên chức, người lao động",
-          "link": "https://cafef.vn/de-xuat-quy-dinh-xep-loai-va-chi-thu-nhap-tang-them-doi-voi-can-bo-cong-chuc-vien-chuc-nguoi-lao-dong-188260826112106169.chn",
-          "pubDate": "2026-08-26T04:30:00.000Z",
-          "excerpt": "Sở Nội vụ TPHCM đề xuất quy định xếp loại và chi thu nhập tăng thêm đối với cán bộ, công chức, viên chức, người làm việc và người lao động trong các cơ quan,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Kết nối với khu vực FDI ít cải thiện, Việt Nam cần làm gì để nâng giá trị nội địa?",
-          "link": "https://cafef.vn/ket-noi-voi-khu-vuc-fdi-it-cai-thien-viet-nam-can-lam-gi-de-nang-gia-tri-noi-dia-188260826105546272.chn",
-          "pubDate": "2026-08-26T03:57:00.000Z",
-          "excerpt": "Thu hút vốn đầu tư trực tiếp nước ngoài (FDI) vào sản xuất vẫn đang tích cực nhưng kết nối doanh nghiệp ngoại và nội vẫn \"lỏng lẻo\". Để thúc đẩy tăng trưởng,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Từ ngày mai, CSGT sẽ tăng cường xử phạt lỗi vi phạm sau, mức phạt có thể từ 4-22 triệu đồng",
-          "link": "https://cafef.vn/tu-ngay-mai-csgt-se-tang-cuong-xu-phat-loi-vi-pham-sau-muc-phat-co-the-tu-4-22-trieu-dong-188260826102747802.chn",
-          "pubDate": "2026-08-26T03:27:00.000Z",
-          "excerpt": "Đó là những lỗi gì?",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tính thời hiệu xử phạt hành vi chiếm đất công",
-          "link": "https://cafef.vn/tinh-thoi-hieu-xu-phat-hanh-vi-chiem-dat-cong-188260826101342534.chn",
-          "pubDate": "2026-08-26T03:19:00.000Z",
-          "excerpt": "Ngày 25/02/2025, UBND phường A lập biên bản vi phạm hành chính đối với ông B vì hành vi chiếm đất công. Hiện nay ông B vẫn tiếp tục hành vi vi phạm của mình và…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,10 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "UK household energy price cap to rise by 4% from October",
+          "title": "UK household energy bills to hit three-year high from October",
           "link": "https://www.ft.com/content/c89182ba-283f-43ae-abda-7828bfcef07a?syn-25a6b1a6=1",
-          "pubDate": "2026-08-26T06:19:43.000Z",
-          "excerpt": "Middle East war pushes price limit to three-year high ahead of the winter",
+          "pubDate": "2026-08-26T07:23:14.000Z",
+          "excerpt": "Middle East war pushes prices up 4 per cent",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
