@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T19:05:58.687Z",
+  "lastUpdated": "2026-08-26T21:48:04.453Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4651,
+      "value": 4647.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7690.56,
-      "change": -17.419999999999163,
-      "changePercent": -0.22599954851983484
+      "value": 7675.7,
+      "change": -32.279999999999745,
+      "changePercent": -0.41878676384733415
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26189.38,
-      "change": -141.70999999999913,
-      "changePercent": -0.5381850884258841
+      "value": 26130.197,
+      "change": -200.89300000000003,
+      "changePercent": -0.7629498057239561
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Người Iran lo ngại trước đòn kinh tế của Mỹ",
+          "link": "https://vnexpress.net/nguoi-iran-lo-ngai-truoc-don-kinh-te-cua-my-5113699.html",
+          "pubDate": "2026-08-26T17:30:00.000Z",
+          "excerpt": "Tanee (23 tuổi) đã sống trong các lệnh trừng phạt từ khi sinh ra, và giờ càng lo lắng với chính sách mới nhất của Mỹ.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Bà Phạm Thu Hương trở thành người giàu thứ 2 Việt Nam",
           "link": "https://cafef.vn/ba-pham-thu-huong-tro-thanh-nguoi-giau-thu-2-viet-nam-188260826232630808.chn",
@@ -138,17 +149,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Doanh nghiệp nguy cơ mất 100 USD mỗi tấn thép sang EU vì phát thải",
-          "link": "https://vnexpress.net/doanh-nghiep-nguy-co-mat-100-usd-moi-tan-thep-sang-eu-vi-phat-thai-5113827.html",
-          "pubDate": "2026-08-26T17:00:00.000Z",
-          "excerpt": "Doanh nghiệp Việt có thể đối diện nguy cơ phải bù đắp hơn 100 USD mỗi tấn khi xuất khẩu hàng phát thải lớn, như thép, sang EU, theo cơ chế CBAM.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -254,17 +254,6 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Người Iran lo ngại trước đòn kinh tế của Mỹ",
-          "link": "https://vnexpress.net/nguoi-iran-lo-ngai-truoc-don-kinh-te-cua-my-5113699.html",
-          "pubDate": "2026-08-26T17:30:00.000Z",
-          "excerpt": "Tanee (23 tuổi) đã sống trong các lệnh trừng phạt từ khi sinh ra, và giờ càng lo lắng với chính sách mới nhất của Mỹ.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Bảo hiểm xã hội Việt Nam vừa có thông báo mới",
           "link": "https://cafef.vn/bao-hiem-xa-hoi-viet-nam-vua-co-thong-bao-moi-188260826221647563.chn",
           "pubDate": "2026-08-26T16:45:00.000Z",
@@ -340,6 +329,17 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Đà Nẵng khởi công 2 dự án trọng điểm với tổng vốn đầu tư gần 4.300 tỉ đồng",
+          "link": "https://vneconomy.vn/da-nang-khoi-cong-2-du-an-trong-diem-voi-tong-von-dau-tu-gan-4300-ti-dong.htm",
+          "pubDate": "2026-08-26T03:07:01.000Z",
+          "excerpt": "UBND thành phố Đà Nẵng khởi công hai dự án trọng điểm với tổng vốn gần 4.300 tỉ đồng, nhằm giải quyết điểm nghẽn giao thông trung tâm thành phố, tăng khả năng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-          "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T18:45:00.000Z",
-          "excerpt": "“I also own my home and an SUV outright, with no outstanding debt.”",
+          "title": "Investors Brace for Less-Than-Perfect Nvidia Results, Pull Stocks Lower",
+          "link": "https://www.wsj.com/finance/stocks/investors-brace-for-less-than-perfect-nvidia-results-pull-stocks-lower-2ef52443?mod=rss_markets_main",
+          "pubDate": "2026-08-26T21:13:00.000Z",
+          "excerpt": "The major stock indexes edge lower on Wednesday in light trading.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "I’m turning 70. Here’s how I’m making this decade the richest of my retirement.",
+          "link": "https://www.marketwatch.com/story/im-turning-70-heres-how-im-making-this-decade-the-richest-of-my-retirement-ae351f90?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T21:09:00.000Z",
+          "excerpt": "Tweaking my finances, work and life as I go from the “go-go” years to the “slow-go” years.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,10 +371,10 @@
           "condensed": null
         },
         {
-          "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-          "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T18:26:00.000Z",
-          "excerpt": "“We don’t know whether they have signed leases or are renting month to month.”",
+          "title": "Salesforce’s stock surges as AI momentum fuels revenue growth",
+          "link": "https://www.marketwatch.com/story/salesforces-stock-surges-as-ai-momentums-fuel-revenue-growth-8c96eef3?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T21:04:00.000Z",
+          "excerpt": "Salesforce cleared Wall Street’s second-quarter expectations and deepened its ties with AI lab Anthropic.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -371,69 +382,58 @@
           "condensed": null
         },
         {
-          "title": "5 affordable cities to retire in the U.S. right now",
-          "link": "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T18:10:00.000Z",
-          "excerpt": "You don’t have to leave the country to find an affordable place that matches your retirement vision.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "I need to get out of my job, but I’ve signed a noncompete. Can I still leave for a competitor?",
-          "link": "https://www.marketwatch.com/story/i-need-to-get-out-of-my-job-can-i-leave-for-a-competitor-if-ive-signed-a-non-compete-33d3164b?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T17:44:00.000Z",
-          "excerpt": "“I’ve been unhappy for a while.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Two-thirds of parents are failing at this vital safety measure for their children",
-          "link": "https://www.marketwatch.com/story/two-thirds-of-parents-dont-have-this-vital-document-they-need-in-case-of-emergency-7c54efb3?mod=mw_rss_topstories",
-          "pubDate": "2026-08-26T17:37:00.000Z",
-          "excerpt": "Here’s why most parents balk at this legal task.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Tim Curry, famed for Rocky Horror Picture Show, dead at 80",
-          "link": "https://www.scmp.com/news/world/europe/article/3365372/tim-curry-famed-rocky-horror-picture-show-dead-80?utm_source=rss_feed",
-          "pubDate": "2026-08-26T17:09:15.000Z",
-          "excerpt": "Tim Curry, the baritone-voiced British actor who pranced to movie fame as a singing, lingerie-clad “sweet transvestite” in the 1975 ⁠cult classic The Rocky…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "US critical minerals proposals to Brazil go unanswered as China looms",
-          "link": "https://www.scmp.com/news/us/article/3365371/us-critical-minerals-proposals-brazil-go-unanswered-china-looms?utm_source=rss_feed",
-          "pubDate": "2026-08-26T16:44:57.000Z",
-          "excerpt": "Brazil has not answered two American proposals to formalise cooperation on critical minerals, a senior US diplomat said at Latin America’s largest mining fair,…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "After ‘neoliberalism’, Burnham offers business a new deal",
-          "link": "https://www.ft.com/content/284f83f5-b6af-41a9-909d-26ca5693e5a9?syn-25a6b1a6=1",
-          "pubDate": "2026-08-26T16:08:42.000Z",
-          "excerpt": "New prime minister hits crowd-pleasing note but private sector will reserve judgment until October Budget",
+          "title": "Nvidia sales more than double to $96bn on bumper AI demand",
+          "link": "https://www.ft.com/content/72908915-5e4a-457c-8c3a-aee8917a664a?syn-25a6b1a6=1",
+          "pubDate": "2026-08-26T20:59:28.000Z",
+          "excerpt": "Chip giant’s data centre division grew 117% as clients race for computing power",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "CrowdStrike’s stock soars after AI fuels the cybersecurity company’s ‘best quarter in history’",
+          "link": "https://www.marketwatch.com/story/crowdstrikes-stock-soars-after-ai-fuels-the-cybersecurity-companys-best-quarter-ever-6aeae1d5?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T20:59:00.000Z",
+          "excerpt": "Shares of CrowdStrike Holdings were roaring after the cybersecurity company revealed a record-breaking quarter, one partially boosted by fears about the power…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Trump declares ‘Mission Accomplished’ in Iran, as conflict drags on",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3365374/trump-declares-mission-accomplished-iran-conflict-drags?utm_source=rss_feed",
+          "pubDate": "2026-08-26T20:57:41.000Z",
+          "excerpt": "US President Donald Trump on Wednesday declared “Mission Accomplished” in Iran even as the unpopular and costly war drags on with no end in sight and no sign…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Meta Settles for $18 Billion",
+          "link": "https://www.wsj.com/finance/investing/meta-settles-for-18-billion-c8b5636b?mod=rss_markets_main",
+          "pubDate": "2026-08-26T20:34:00.000Z",
+          "excerpt": "Plus, Nvidia reports and inflation stays elevated.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "‘The relationship quickly deteriorated’: My friend’s lawyer settled his injury case without his consent. What can he do?",
+          "link": "https://www.marketwatch.com/story/the-relationship-quickly-deteriorated-my-friends-lawyer-settled-his-injury-case-without-his-consent-what-can-he-do-a289fee9?mod=mw_rss_topstories",
+          "pubDate": "2026-08-26T20:15:00.000Z",
+          "excerpt": "“His former lawyer is now holding the settlement funds, maintaining that he is entitled to attorney’s fees.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
