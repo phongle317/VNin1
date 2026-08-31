@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T11:27:31.335Z",
+  "lastUpdated": "2026-08-31T18:56:55.660Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4503.6,
+      "value": 4478.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7711.76,
-      "change": 37.39000000000033,
-      "changePercent": 0.4872061159417689
+      "value": 7673.33,
+      "change": 20.470000000000255,
+      "changePercent": 0.2674816996521595
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26402.424,
-      "change": 221.96399999999994,
-      "changePercent": 0.8478231474924427
+      "value": 26276.904,
+      "change": 296.71399999999994,
+      "changePercent": 1.142077867790805
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26388.05,
-      "change": 281.4500000000007,
-      "changePercent": 1.07807987252266
+      "value": 26258.11,
+      "change": 151.51000000000204,
+      "changePercent": 0.5803513287827677
     }
   ],
   "themes": [
@@ -63,6 +63,61 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Loạt thông tin quan trọng sắp công bố, chuyên gia dự báo thế nào về giá vàng tuần tới?",
+          "link": "https://cafef.vn/loat-thong-tin-quan-trong-sap-cong-bo-chuyen-gia-du-bao-the-nao-ve-gia-vang-tuan-toi-188260831220949221.chn",
+          "pubDate": "2026-08-31T17:03:00.000Z",
+          "excerpt": "Trong tuần tới, tâm điểm của thị trường sẽ chuyển sang loạt dữ liệu kinh tế Mỹ, đặc biệt là báo cáo việc làm, trong bối cảnh nhà đầu tư tiếp tục đánh giá khả…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Lịch chốt quyền trả cổ tức trong tuần sau nghỉ lễ 2/9, tỷ lệ cao nhất 16%",
+          "link": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-sau-nghi-le-2-9-ty-le-cao-nhat-16-188260831160554783.chn",
+          "pubDate": "2026-08-31T17:02:00.000Z",
+          "excerpt": "Sau nghỉ lễ Quốc khánh 2/9, ngày 3/9/2026 và 4/9/2026, trên các sàn chứng khoán, có khoảng 10 doanh nghiệp dự kiến trả cổ tức với tỷ lệ cao nhất là 16%.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Quỹ vàng lớn nhất nhất thế giới mua mạnh nhất trong vòng 18 tháng",
+          "link": "https://cafef.vn/quy-vang-lon-nhat-nhat-the-gioi-mua-manh-nhat-trong-vong-18-thang-188260831230250079.chn",
+          "pubDate": "2026-08-31T17:01:00.000Z",
+          "excerpt": "Động thái cho thấy dòng vốn đầu tư toàn cầu đang có sự thay đổi đáng kể khẩu vị đối với vàng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "CTCK chỉ tên 10 cổ phiếu triển vọng trong tháng 9",
+          "link": "https://cafef.vn/ctck-chi-ten-10-co-phieu-trien-vong-trong-thang-9-188260831221210273.chn",
+          "pubDate": "2026-08-31T17:01:00.000Z",
+          "excerpt": "Chứng khoán Mirae Asset Việt Nam đánh giá triển vọng của loạt cổ phiếu lớn thuộc các nhóm ngân hàng, thép, công nghệ, sữa và xăng dầu.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Em gái CEO Quốc Cường Gia Lai cho công ty mượn gần 200 tỷ đồng",
+          "link": "https://vnexpress.net/em-gai-ceo-quoc-cuong-gia-lai-cho-cong-ty-muon-gan-200-ty-dong-5115445.html",
+          "pubDate": "2026-08-31T13:58:01.000Z",
+          "excerpt": "Bà Nguyễn Ngọc Huyền My cho Quốc Cường Gia Lai mượn thêm 148 tỷ đồng trong nửa năm, nâng dư nợ lên gần 200 tỷ đồng và không lấy lãi.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Cảnh báo lừa đảo gửi tiết kiệm lãi cao",
           "link": "https://cafebiz.vn/canh-bao-lua-dao-gui-tiet-kiem-lai-cao-176260831165840513.chn",
@@ -95,61 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "HAGL đã bán gần 15 triệu cổ phần tại HGI với giá thấp hơn 25% giá IPO",
-          "link": "https://cafef.vn/hagl-da-ban-gan-15-trieu-co-phan-tai-hgi-voi-gia-thap-hon-25-gia-ipo-188260831140355284.chn",
-          "pubDate": "2026-08-31T07:35:00.000Z",
-          "excerpt": "HAGL đã chuyển nhượng gần 14,7 triệu cổ phần tại HGI với tổng giá trị hơn 670 tỷ đồng, tương đương 45.652 đồng/cổ phần, thấp hơn khoảng 25% so với giá chào bán…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Điều gì quyết định tỷ giá USD thời gian tới?",
-          "link": "http://vietstock.vn/2026/08/dieu-gi-quyet-dinh-ty-gia-usd-thoi-gian-toi-757-1487015.htm",
-          "pubDate": "2026-08-31T07:22:00.000Z",
-          "excerpt": "Sau nhiều tuần giảm liên tiếp, tỷ giá USD trên cả thị trường ngân hàng và tự do đang có xu hướng “hạ nhiệt”, chuyên gia cho rằng diễn biến này cho thấy cung -…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Hộ kinh doanh thu đến 10 tỷ đồng tạm nộp thuế ra sao?",
-          "link": "https://vnexpress.net/ho-kinh-doanh-thu-den-10-ty-dong-tam-nop-thue-ra-sao-5115342.html",
-          "pubDate": "2026-08-31T07:16:40.000Z",
-          "excerpt": "Trong thời gian chờ nâng ngưỡng doanh thu được áp cách tính thuế đơn giản từ 3 lên 10 tỷ đồng, hộ kinh doanh được hướng dẫn tạm nộp thuế thu nhập cá nhân theo…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Chứng khoán Kafi chốt ngày lên UPCoM, giá tham chiếu 15.000 đồng/cổ phiếu",
-          "link": "https://cafef.vn/chung-khoan-kafi-chot-ngay-len-upcom-gia-tham-chieu-15000-dong-co-phieu-188260831140251723.chn",
-          "pubDate": "2026-08-31T07:02:00.000Z",
-          "excerpt": "HNX đã chấp thuận đăng ký giao dịch 750 triệu cổ phiếu của Chứng khoán Kafi trên UPCoM với mã KAI. Ngày giao dịch đầu tiên là 9/9/2026, giá tham chiếu 15.000…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nên đầu tư thế nào trong những tháng cuối năm?",
-          "link": "https://cafef.vn/nen-dau-tu-the-nao-trong-nhung-thang-cuoi-nam-188260831135940786.chn",
-          "pubDate": "2026-08-31T07:00:00.000Z",
-          "excerpt": "Theo chuyên gia, trong bối cảnh hiện nay không có kênh đầu tư nào tuyệt đối an toàn hay luôn mang lại lợi nhuận, vì thế cần cẩn trọng để đưa ra quyết định sáng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,28 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Lập chốt 24/24 giờ, lắp camera ‘canh’ cát 'tặc' tại điểm nóng",
+          "link": "https://cafef.vn/lap-chot-24-24-gio-lap-camera-canh-cat-tac-tai-diem-nong-188260831214621133.chn",
+          "pubDate": "2026-08-31T14:56:00.000Z",
+          "excerpt": "Trước tình trạng khai thác cát trái phép diễn biến phức tạp, phường Bắc Gianh (Quảng Trị) lập chốt kiểm soát 24/24 giờ tại các điểm nóng, đồng thời cắm biển và…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Dự án nhà ở xã hội có giá bán cao nhất Thái Nguyên bắt đầu nhận hồ sơ",
+          "link": "https://cafef.vn/du-an-nha-o-xa-hoi-co-gia-ban-cao-nhat-thai-nguyen-bat-dau-nhan-ho-so-188260831214303622.chn",
+          "pubDate": "2026-08-31T14:42:00.000Z",
+          "excerpt": "Dự án nhà ở xã hội TNG Việt Bắc được triển khai tại phường Tích Lương, tỉnh Thái Nguyên nhận hồ sơ từ 7/9 đến 7/10. Với giá bán khoảng 22,82 triệu đồng/m2 (đã…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Việt Nam sở hữu ngôi làng chài 400 năm tuổi ví như “viên ngọc thô” của xứ Nẫu, được đề cử “Làng du lịch tốt nhất thế giới”",
           "link": "https://cafef.vn/viet-nam-so-huu-ngoi-lang-chai-400-nam-tuoi-vi-nhu-vien-ngoc-tho-cua-xu-nau-duoc-de-cu-lang-du-lich-tot-nhat-the-gioi-188260831171200117.chn",
@@ -185,28 +207,6 @@
           "link": "https://cafef.vn/nhip-thi-cong-soi-dong-tren-cong-truong-dip-quoc-khanh-2-9-18826083116593297.chn",
           "pubDate": "2026-08-31T09:59:00.000Z",
           "excerpt": "Trong khi nhiều gia đình đang tận hưởng kỳ nghỉ Quốc khánh 2-9, thì tại những công trường trọng điểm của Hà Nội, máy móc vẫn hoạt động, công nhân, kỹ sư vẫn…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cần Thơ cấm san lấp 10 hồ, ao",
-          "link": "https://cafef.vn/can-tho-cam-san-lap-10-ho-ao-188260831163823154.chn",
-          "pubDate": "2026-08-31T09:38:00.000Z",
-          "excerpt": "Các tổ chức, cá nhân quản lý hồ, ao sử dụng đúng mục đích, không được tự ý san lấp, cải tạo. Kiểm soát chặt chẽ các hành vi lấn chiếm xây dựng công trình trái…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Lý do người dân ở TPHCM đồng thuận giao mặt bằng mở rộng quốc lộ 1",
-          "link": "https://cafef.vn/ly-do-nguoi-dan-o-tphcm-dong-thuan-giao-mat-bang-mo-rong-quoc-lo-1-188260831163411935.chn",
-          "pubDate": "2026-08-31T09:33:00.000Z",
-          "excerpt": "Dự án mở rộng quốc lộ 1, đoạn qua cửa ngõ phía Tây TPHCM dài 9,62km với tổng vốn đầu tư 16.285 tỷ đồng đang được đẩy nhanh tiến độ giải phóng mặt bằng chưa…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -254,6 +254,39 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Từ hôm nay (1/9), Việt Nam chính thức có thêm thành phố trực thuộc Trung ương thứ 8: Quy mô kinh tế hơn 14 tỷ USD, sở hữu loạt lợi thế độc nhất",
+          "link": "https://cafef.vn/ngay-ngay-mai-1-9-viet-nam-chinh-thuc-co-them-thanh-pho-truc-thuoc-trung-uong-thu-8-quy-mo-kinh-te-hon-14-ty-usd-so-huu-loat-loi-the-doc-nhat-188260831220930044.chn",
+          "pubDate": "2026-08-31T17:09:00.000Z",
+          "excerpt": "Từ ngày 1/9/2026, Quảng Ninh chính thức trở thành thành phố trực thuộc Trung ương theo Nghị quyết số 36/2026/QH16 của Quốc hội. Đây không đơn thuần là sự thay…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chính sách đặc thù: Miễn kỷ luật; chưa xử lý kỷ luật đối với cán bộ, công chức, viên chức, lực lượng vũ trang",
+          "link": "https://cafef.vn/chinh-sach-dac-thu-mien-ky-luat-chua-xu-ly-ky-luat-doi-voi-can-bo-cong-chuc-vien-chuc-luc-luong-vu-trang-188260831191802292.chn",
+          "pubDate": "2026-08-31T12:17:00.000Z",
+          "excerpt": "Tại Nghị quyết số 37/2026/QH16, Quốc hội quy định áp dụng chính sách đặc thù trong việc miễn xem xét kỷ luật, chưa xem xét xử lý kỷ luật người thuộc lực lượng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Một tỉnh có hơn 1,5 triệu dân, nhưng có đến trên 1,2 triệu người sống ở đô thị",
+          "link": "https://cafef.vn/mot-tinh-co-hon-15-trieu-dan-nhung-co-den-tren-12-trieu-nguoi-song-o-do-thi-188260831175226597.chn",
+          "pubDate": "2026-08-31T11:50:00.000Z",
+          "excerpt": "Tỷ lệ đô thị hoá của địa phương này hiện đạt trên 81%.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Nhà máy Lọc dầu Dung Quất đón 1,25 triệu thùng dầu thô dịp Quốc khánh 2/9",
           "link": "https://cafef.vn/nha-may-loc-dau-dung-quat-don-125-trieu-thung-dau-tho-dip-quoc-khanh-2-9-188260831172647978.chn",
           "pubDate": "2026-08-31T10:45:00.000Z",
@@ -269,39 +302,6 @@
           "link": "https://cafef.vn/viet-nam-khong-thieu-von-chi-thieu-du-an-du-suc-hut-von-18826083115591629.chn",
           "pubDate": "2026-08-31T09:50:00.000Z",
           "excerpt": "Dòng vốn quốc tế vào Việt Nam tăng mạnh, nhưng để biến cơ hội thành nguồn lực phát triển, dự án cần pháp lý rõ, cấu trúc minh bạch và khả thi, đó là chia sẻ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội liên thông vé metro và xe buýt từ ngày mai",
-          "link": "https://cafef.vn/ha-noi-lien-thong-ve-metro-va-xe-buyt-tu-ngay-mai-188260831151835573.chn",
-          "pubDate": "2026-08-31T08:31:00.000Z",
-          "excerpt": "Từ ngày mai (1/9), Hà Nội chính thức triển khai hệ thống vé điện tử liên thông giữa đường sắt đô thị (metro) và xe buýt. Hành khách có thể sử dụng một loại vé…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "EVNNPT hoàn thành 2 công trình truyền tải điện chào mừng Quốc khánh",
-          "link": "https://cafef.vn/evnnpt-hoan-thanh-2-cong-trinh-truyen-tai-dien-chao-mung-quoc-khanh-188260831143536739.chn",
-          "pubDate": "2026-08-31T07:46:00.000Z",
-          "excerpt": "Ngày 31/8, Tổng công ty Truyền tải điện quốc gia (EVNNPT), Ban QLDA các công trình điện miền Nam (SPMB) và các đơn vị liên quan đóng điện hai công trình truyền…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cầu Ngọc Hồi tăng tốc, hướng tới hoàn thành trước APEC 2027",
-          "link": "https://cafef.vn/cau-ngoc-hoi-tang-toc-huong-toi-hoan-thanh-truoc-apec-2027-18826083113202353.chn",
-          "pubDate": "2026-08-31T07:00:00.000Z",
-          "excerpt": "Dự án đầu tư xây dựng cầu Ngọc Hồi và đường dẫn hai đầu cầu đang được các nhà thầu đẩy nhanh thi công, với mục tiêu hoàn thành công trình trước thời điểm diễn…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,21 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "India’s economy expands 7.8% in fiscal first quarter, beating estimates",
-          "link": "https://www.cnbc.com/2026/08/31/india-economy-gdp-energy-el-nino.html",
-          "pubDate": "2026-08-31T11:23:42.000Z",
-          "excerpt": "The economy was driven by a strong performance in the financial, real estate, information technology and professional services sectors.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "America is asking the wrong question about its $40 trillion in debt, this MIT expert warns",
-          "link": "https://www.marketwatch.com/story/america-is-asking-the-wrong-question-about-its-40-trillion-in-debt-this-mit-expert-warns-0fbda60e?mod=mw_rss_topstories",
-          "pubDate": "2026-08-31T11:21:00.000Z",
-          "excerpt": "The federal debt may be sustainable, but rising burdens may still be troublesome to the U.S. economy, says one expert.",
+          "title": "My friend is charging everyone $80 to attend her 30th birthday party. She says it’s to cover the open bar. Is it rude to not go?",
+          "link": "https://www.marketwatch.com/story/my-friend-is-charging-everyone-80-to-attend-her-30th-birthday-party-she-says-its-to-cover-the-open-bar-is-it-rude-to-not-go-d60b3b5b?mod=mw_rss_topstories",
+          "pubDate": "2026-08-31T18:55:00.000Z",
+          "excerpt": "“I think she would take it personally if I didn’t attend.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -371,10 +360,10 @@
           "condensed": null
         },
         {
-          "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-          "link": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-          "pubDate": "2026-08-31T11:00:00.000Z",
-          "excerpt": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+          "title": "Tesla’s stock is leading S&P 500 gainers as investors prepare for a Cybercab launch",
+          "link": "https://www.marketwatch.com/story/teslas-stock-is-leading-s-p-500-gainers-as-investors-prepare-for-a-cybercab-launch-f23a0d52?mod=mw_rss_topstories",
+          "pubDate": "2026-08-31T18:41:00.000Z",
+          "excerpt": "The company is seemingly getting closer to rolling out a vehicle that comes without a steering wheel or pedals.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -382,10 +371,10 @@
           "condensed": null
         },
         {
-          "title": "Aon Strikes Roughly $17 Billion Deal for Insurance Brokerage USI",
-          "link": "https://www.wsj.com/finance/aon-nears-roughly-17-billion-deal-for-insurance-brokerage-usi-fcc9fba9?mod=rss_markets_main",
-          "pubDate": "2026-08-31T10:51:00.000Z",
-          "excerpt": "Private-equity giant KKR has owned USI Insurance since 2017.",
+          "title": "Westinghouse Electric Wants to Ride a Nuclear Power Revival to an IPO",
+          "link": "https://www.wsj.com/business/energy-oil/westinghouse-electric-wants-to-ride-a-nuclear-power-revival-to-an-ipo-9ad2b196?mod=rss_markets_main",
+          "pubDate": "2026-08-31T18:35:00.000Z",
+          "excerpt": "The company has a powerful ally with an incentive to see it grow: the U.S. government.",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
@@ -393,32 +382,43 @@
           "condensed": null
         },
         {
-          "title": "Bank of England chief warns new AI models threaten global financial stability",
-          "link": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
-          "pubDate": "2026-08-31T10:18:59.000Z",
-          "excerpt": "Bank of England Governor Andrew Bailey has warned that frontier AI could materially increase cyber risks to the global financial system.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
+          "title": "Trump to meet with oil execs about cutting gas prices, as his Venezuelan SPR plan faces skepticism",
+          "link": "https://www.marketwatch.com/story/trump-to-meet-with-oil-execs-about-cutting-gas-prices-as-his-venezuelan-spr-plan-faces-skepticism-d8113b17?mod=mw_rss_topstories",
+          "pubDate": "2026-08-31T18:34:00.000Z",
+          "excerpt": "The president and his fellow Republicans look set to focus on affordability as the midterms near.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "The Index-Fund Strategy Quietly Beating Big Tech This Year",
-          "link": "https://www.wsj.com/finance/stocks/the-index-fund-strategy-quietly-beating-big-tech-this-year-c74bb58e?mod=rss_markets_main",
-          "pubDate": "2026-08-31T10:12:00.000Z",
-          "excerpt": "Plus, a whiskey glut and booming corporate profits",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "Here’s how to invest using a winning strategy that offers a spin on traditional stock index funds",
+          "link": "https://www.marketwatch.com/story/heres-how-to-invest-using-a-winning-strategy-that-offers-a-spin-on-traditional-stock-index-funds-b32f1174?mod=mw_rss_topstories",
+          "pubDate": "2026-08-31T18:30:00.000Z",
+          "excerpt": "Equal-weighted strategies are mostly outperforming those that use traditional market-cap weightings.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Countries must consider reparations for slave trade, UN committee says",
-          "link": "https://www.scmp.com/news/world/article/3365856/countries-must-consider-reparations-slave-trade-un-committee-says?utm_source=rss_feed",
-          "pubDate": "2026-08-31T10:07:37.000Z",
-          "excerpt": "A UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other measures to address the enduring…",
+          "title": "Swiss lawmakers call for softer regulation in victory for UBS",
+          "link": "https://www.ft.com/content/1bdafff4-3e78-4099-be47-755e6b643408?syn-25a6b1a6=1",
+          "pubDate": "2026-08-31T18:24:46.000Z",
+          "excerpt": "Proposal is a boost for Switzerland’s largest bank and chief executive Sergio Ermotti",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Jury hears closing arguments in Tupac Shakur murder trial",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3365893/jury-hears-closing-arguments-tupac-shakur-murder-trial?utm_source=rss_feed",
+          "pubDate": "2026-08-31T18:16:10.000Z",
+          "excerpt": "A jury heard closing arguments on Monday in the trial of a former Los Angeles gang leader accused of involvement in the sensational murder three decades ago of…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -426,14 +426,14 @@
           "condensed": null
         },
         {
-          "title": "Consultants head for a showdown — with their own clients",
-          "link": "https://www.ft.com/content/709d7e2d-0c2f-45bc-b559-e7328372cf9e?syn-25a6b1a6=1",
-          "pubDate": "2026-08-31T10:01:01.000Z",
-          "excerpt": "Pressure is on Accenture, Capgemini and the Big Four as companies demand savings",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Trump to meet US oil executives as Iran war keeps fuel prices high",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3365892/trump-meet-us-oil-executives-iran-war-keeps-fuel-prices-high?utm_source=rss_feed",
+          "pubDate": "2026-08-31T17:47:15.000Z",
+          "excerpt": "US President Donald Trump will meet oil refining executives on Tuesday as he tries to tame fuel prices sent spiralling by the Iran war ahead of midterm…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
