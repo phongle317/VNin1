@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T14:37:56.320Z",
+  "lastUpdated": "2026-09-01T18:15:43.342Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4417.2,
+      "value": 4388,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7659.33,
-      "change": -17.949999999999818,
-      "changePercent": -0.23380676489589824
+      "value": 7630.46,
+      "change": -46.81999999999971,
+      "changePercent": -0.6098514057061838
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26174.77,
-      "change": 23.470000000001164,
-      "changePercent": 0.08974697242584945
+      "value": 26094.648,
+      "change": -56.651999999998225,
+      "changePercent": -0.21663167796628935
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25978.74,
-      "change": -287.3999999999978,
-      "changePercent": -1.0941843757780847
+      "value": 25970.11,
+      "change": -296.02999999999884,
+      "changePercent": -1.1270403645149185
     }
   ],
   "themes": [
@@ -63,6 +63,61 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Dự báo sốc về giá vàng",
+          "link": "https://cafef.vn/du-bao-soc-ve-gia-vang-188260901220637603.chn",
+          "pubDate": "2026-09-01T17:05:00.000Z",
+          "excerpt": "Dù giá vàng đã trải qua nhịp điều chỉnh đáng kể sau khi lập đỉnh lịch sử, CEO Crescat Capital cho rằng xu hướng tăng dài hạn của kim loại quý vẫn chưa thay đổi.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Khối ngoại bán ròng hơn 90.000 tỷ từ đầu năm nhưng một tín hiệu tích cực đã xuất hiện",
+          "link": "https://cafef.vn/khoi-ngoai-ban-rong-hon-90000-ty-tu-dau-nam-nhung-mot-tin-hieu-tich-cuc-da-xuat-hien-188260901220700323.chn",
+          "pubDate": "2026-09-01T17:04:00.000Z",
+          "excerpt": "Lực bán ròng của khối ngoại đã suy yếu rõ rệt trong tháng 8, đặc biệt sau khi FTSE Russell công bố danh mục FTSE GEIS, trong đó 27 cổ phiếu Việt Nam lọt rổ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Giá thuê giàn khoan chịu áp lực ngắn hạn, \"ông lớn\" dầu khí vẫn được dự báo tăng trưởng mạnh",
+          "link": "https://cafef.vn/gia-thue-gian-khoan-chiu-ap-luc-ngan-han-ong-lon-dau-khi-van-duoc-du-bao-tang-truong-manh-188260901220505686.chn",
+          "pubDate": "2026-09-01T17:03:00.000Z",
+          "excerpt": "CTCK vẫn duy trì kỳ vọng tăng trưởng lợi nhuận trong các năm tới nhờ mở rộng đội giàn và sự phục hồi của mảng dịch vụ giếng khoan.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Petrosetco (PET) rót gần 473 tỷ đồng vào chứng khoán, mạnh tay với VIX, GEL, VPB và MSN",
+          "link": "https://cafef.vn/petrosetco-pet-rot-gan-473-ty-dong-vao-chung-khoan-manh-tay-voi-vix-gel-vpb-va-msn-188260901191955926.chn",
+          "pubDate": "2026-09-01T17:02:00.000Z",
+          "excerpt": "Nửa đầu năm 2026, Petrosetco tăng mạnh quy mô danh mục chứng khoán kinh doanh, trong đó hơn 423 tỷ đồng được phân bổ vào VIX, GEL, VPB và MSN. Đáng chú ý,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ông Petri Deryng lý giải nguyên nhân cổ phiếu Việt Nam chưa tăng như kỳ vọng",
+          "link": "https://cafef.vn/ong-petri-deryng-ly-giai-nguyen-nhan-co-phieu-viet-nam-chua-tang-nhu-ky-vong-188260901220348935.chn",
+          "pubDate": "2026-09-01T17:01:00.000Z",
+          "excerpt": "PYN Elite chỉ ra hai yếu tố đáng chú ý đã khiến thanh khoản trở nên thắt chặt hơn trong giai đoạn từ tháng 1 đến tháng 7.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Bốn nhà máy Samsung Việt Nam lãi hơn 2 tỷ USD",
           "link": "https://vnexpress.net/bon-nha-may-samsung-viet-nam-lai-hon-2-ty-usd-5115624.html",
@@ -86,28 +141,6 @@
           "condensed": null
         },
         {
-          "title": "Vàng tăng hơn 10 triệu đồng/lượng trong tháng 8: Tháng 9 liệu còn ‘nóng’?",
-          "link": "https://cafef.vn/vang-tang-hon-10-trieu-dong-luong-trong-thang-8-thang-9-lieu-con-nong-18826090116162466.chn",
-          "pubDate": "2026-09-01T09:44:00.000Z",
-          "excerpt": "Giá vàng miếng trong nước có thời điểm vượt mốc 150,6 triệu đồng/lượng trước khi hạ nhiệt cuối tháng. Về triển vọng, nhiều chuyên gia và tổ chức quốc tế cho…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thù lao lãnh đạo cấp cao Đạm Phú Mỹ (DPM) tăng gần 57%, có trường hợp tăng hơn 14,6 lần",
-          "link": "https://cafef.vn/thu-lao-lanh-dao-cap-cao-dam-phu-my-dpm-tang-gan-57-co-truong-hop-tang-hon-146-lan-188260901161427988.chn",
-          "pubDate": "2026-09-01T09:44:00.000Z",
-          "excerpt": "6 tháng đầu năm 2026, Đạm Phú Mỹ (DPM) chi hơn 23,38 tỷ đồng cho HĐQT, Ban Tổng Giám đốc, Ban Kiểm soát và Kế toán trưởng, tăng gần 57% so với cùng kỳ năm…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Xoá lịch sử giao dịch ngân hàng có được không?",
           "link": "http://vietstock.vn/2026/08/xoa-lich-su-giao-dich-ngan-hang-co-duoc-khong-757-1487063.htm",
           "pubDate": "2026-09-01T09:31:21.000Z",
@@ -116,39 +149,6 @@
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
           "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Có hơn 1 tỷ đồng nên trả nợ mua nhà, gửi tiết kiệm hay mua vàng?",
-          "link": "https://cafef.vn/co-hon-1-ty-dong-nen-tra-no-mua-nha-gui-tiet-kiem-hay-mua-vang-188260901152042774.chn",
-          "pubDate": "2026-09-01T09:23:00.000Z",
-          "excerpt": "Có hơn 1 tỷ đồng, anh Tùng đang phân vân giữa việc trả trước khoản vay mua nhà và gửi tiết kiệm, mua vàng để tìm kiếm lợi nhuận.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tỷ phú Phạm Nhật Vượng tiếp tục nhận thù lao 0 đồng",
-          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-tiep-tuc-nhan-thu-lao-0-dong-188260901152155463.chn",
-          "pubDate": "2026-09-01T08:21:00.000Z",
-          "excerpt": "Ông Phạm Nhật Vượng, Chủ tịch hội đồng quản trị Vingroup, tiếp tục không nhận thù lao tại Tập đoàn Vingroup (VIC).",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tân Chủ tịch HĐQT nâng sở hữu lên 75% vốn VikkiBankS",
-          "link": "https://cafef.vn/tan-chu-tich-hdqt-nang-so-huu-len-75-von-vikkibanks-18826090113253646.chn",
-          "pubDate": "2026-09-01T06:59:00.000Z",
-          "excerpt": "10 ngày sau khi được bầu làm Chủ tịch HĐQT VikkiBankS, ông Nguyễn Trường Thành nâng sở hữu lên hơn 75% vốn công ty chứng khoán này.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         }
       ],
@@ -159,43 +159,54 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Đông Tây Land của Chủ tịch Nguyễn Thái Bình sắp lên sàn UPCoM, kiểm toán lưu ý loạt khoản công nợ",
+          "link": "https://cafef.vn/dong-tay-land-cua-chu-tich-nguyen-thai-binh-sap-len-san-upcom-kiem-toan-luu-y-loat-khoan-cong-no-188260901221454988.chn",
+          "pubDate": "2026-09-01T15:14:00.000Z",
+          "excerpt": "HNX đã chấp thuận đăng ký giao dịch 80 triệu cổ phiếu DTR của Đông Tây Land trên UPCoM. Đáng chú ý, trước thềm lên sàn, doanh nghiệp môi giới bất động sản này…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Công nhân thi công xuyên lễ dựng những nhịp cầu Trần Hưng Đạo",
+          "link": "https://cafef.vn/cong-nhan-thi-cong-xuyen-le-dung-nhung-nhip-cau-tran-hung-dao-188260901220923814.chn",
+          "pubDate": "2026-09-01T15:09:00.000Z",
+          "excerpt": "Không có kỳ nghỉ lễ trên công trường cầu Trần Hưng Đạo. Hàng trăm công nhân, kỹ sư cùng máy móc, thiết bị vẫn hoạt động liên tục, từng bước đưa những đốt dầm…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thi công xuyên lễ, dự án chống ngập 10.000 tỷ 'chạy đua' về đích tháng 11",
+          "link": "https://cafef.vn/thi-cong-xuyen-le-du-an-chong-ngap-10000-ty-chay-dua-ve-dich-thang-11-188260901220149052.chn",
+          "pubDate": "2026-09-01T15:01:00.000Z",
+          "excerpt": "Dịp nghỉ lễ 2/9, hơn 800 kỹ sư, công nhân vẫn bám công trường dự án \"Giải quyết ngập do triều khu vực TPHCM, có xét đến biến đổi khí hậu - giai đoạn 1\", tập…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Từ hôm nay (1/9), bất động sản ở Việt Nam có một sự thay đổi lớn, hàng triệu người dân chú ý",
+          "link": "https://cafef.vn/tu-hom-nay-1-9-bat-dong-san-o-viet-nam-co-mot-su-thay-doi-lon-hang-trieu-nguoi-dan-chu-y-188260901215611031.chn",
+          "pubDate": "2026-09-01T14:56:00.000Z",
+          "excerpt": "Đây là sự thay đổi lớn về bất động sản ở Việt Nam.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "TP.HCM vào giai đoạn đầu tư hạ tầng lớn nhất từ trước đến nay",
           "link": "https://cafef.vn/tphcm-vao-giai-doan-dau-tu-ha-tang-lon-nhat-tu-truoc-den-nay-188260901185952501.chn",
           "pubDate": "2026-09-01T13:42:00.000Z",
           "excerpt": "Nhiều tuyến metro cùng loạt cầu, đường; công trình di dời nhà ven kênh, cải tạo môi trường, chỉnh trang đô thị đang được TP.HCM chạy đua hoàn tất thủ tục đầu…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tạo đột phá trong quản lý, sử dụng nguồn lực đất đai:Bài cuối: Để đất đai thực sự trở thành nguồn lực cho tăng trưởng",
-          "link": "https://cafef.vn/tao-dot-pha-trong-quan-ly-su-dung-nguon-luc-dat-daibai-cuoi-de-dat-dai-thuc-su-tro-thanh-nguon-luc-cho-tang-truong-188260901144954915.chn",
-          "pubDate": "2026-09-01T09:12:00.000Z",
-          "excerpt": "Thảo luận về định hướng chính sách sửa đổi Luật Đất đai năm 2024, các đại biểu Quốc hội thống nhất yêu cầu đổi mới mạnh mẽ tư duy quản lý. Đặc biệt là đẩy…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Khu lấn biển 15 tỷ USD, rộng 132.600ha do Tập đoàn Xuân Thiện đề xuất tại một thành phố trực thuộc Trung ương có diễn biến quan trọng",
-          "link": "https://cafef.vn/khu-lan-bien-15-ty-usd-rong-132600ha-do-tap-doan-xuan-thien-de-xuat-tai-mot-thanh-pho-truc-thuoc-trung-uong-co-dien-bien-quan-trong-188260901155102381.chn",
-          "pubDate": "2026-09-01T08:58:00.000Z",
-          "excerpt": "Theo UBND TP Cần Thơ, dự án đầu tư Tổ hợp dự án Cảng biển nước sâu, công - nông nghiệp chất lượng cao kết hợp đô thị - du lịch và năng lượng tại thành phố Cần…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cận cảnh căn nhà Đình Bắc xây báo hiếu bố mẹ ở quê",
-          "link": "https://cafef.vn/can-canh-can-nha-dinh-bac-xay-bao-hieu-bo-me-o-que-188260901144843313.chn",
-          "pubDate": "2026-09-01T08:56:00.000Z",
-          "excerpt": "Căn nhà mới khang trang mà Đình Bắc dành nhiều tâm huyết xây dựng cho bố mẹ đã hoàn thiện. Đây không chỉ là nơi gia đình sum vầy, ngôi nhà còn lưu giữ những…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "5 không gian kiến trúc mang dấu chấm bi của Yayoi Kusama",
-          "link": "https://vnexpress.net/5-khong-gian-kien-truc-mang-dau-cham-bi-cua-yayoi-kusama-5114716.html",
-          "pubDate": "2026-08-31T17:03:00.000Z",
-          "excerpt": "Tác phẩm của Yayoi Kusama xuất hiện trong nhiều công trình, từ nhà kính, chung cư cao tầng đến không gian nội thất mô phỏng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Nhiều lãnh đạo trong hệ sinh thái Vingroup thu nhập tiền tỷ mỗi tháng",
+          "link": "https://vnexpress.net/nhieu-lanh-dao-trong-he-sinh-thai-vingroup-thu-nhap-tien-ty-moi-thang-5115485.html",
+          "pubDate": "2026-09-01T17:04:00.000Z",
+          "excerpt": "Tổng giám đốc Vingroup, Vinhomes, Vinpearl, Vincom Retail đều có thu nhập tiền tỷ trong nửa đầu năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Rà soát, đánh giá kỹ quy định về khoảng cách an toàn trên cao tốc",
           "link": "https://cafef.vn/ra-soat-danh-gia-ky-quy-dinh-ve-khoang-cach-an-toan-tren-cao-toc-188260901173643959.chn",
@@ -329,17 +340,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Từ tăng trưởng đến thịnh vượng, hạnh phúc",
-          "link": "https://vneconomy.vn/tu-tang-truong-den-thinh-vuong-hanh-phuc.htm",
-          "pubDate": "2026-08-31T11:04:29.000Z",
-          "excerpt": "Trong tư tưởng Hồ Chí Minh, phát triển kinh tế chưa bao giờ là mục tiêu tự thân. Đằng sau tăng trưởng, sản xuất và tích lũy của cải là một yêu cầu nhất quán:…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,54 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Get over your fear of haggling — and start saving real money",
-          "link": "https://www.marketwatch.com/story/get-over-your-fear-of-haggling-and-start-saving-real-money-5c215dc8?mod=mw_rss_topstories",
-          "pubDate": "2026-09-01T14:10:00.000Z",
-          "excerpt": "If you ask for a lower price on something, the worst they can do is say no.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Global oil prices surge above $92 a barrel after report of strikes on two tankers in the Strait of Hormuz",
-          "link": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
-          "pubDate": "2026-09-01T13:56:00.000Z",
-          "excerpt": "Both the U.S. and international oil benchmarks are at their highest levels in almost two weeks.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Global bond sell-off deepens amid inflation fears",
-          "link": "https://www.ft.com/content/e6f5f97a-b199-444e-aaec-b8199359b08e?syn-25a6b1a6=1",
-          "pubDate": "2026-09-01T13:35:14.000Z",
-          "excerpt": "UK borrowing costs rise to highest level since 2008 and Japanese yields hit peaks not seen since 1990s",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get a piece of the market",
-          "link": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
-          "pubDate": "2026-09-01T13:30:00.000Z",
-          "excerpt": "When everyone indexes, what is the market?",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Apple’s new CEO Ternus takes over from Tim Cook after 15 years",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3366022/apples-new-ceo-ternus-takes-over-tim-cook-after-15-years?utm_source=rss_feed",
-          "pubDate": "2026-09-01T13:27:55.000Z",
-          "excerpt": "Apple’s new CEO John Ternus takes the helm of the iconic tech giant on Tuesday, ending Tim Cook’s 15-year tenure during which the company’s value skyrocketed…",
+          "title": "Carney fires back at Trump as US-Canada trade fight escalates: ‘stop trying to be tough’",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3366031/carney-fires-back-trump-us-canada-trade-fight-escalates-stop-trying-be-tough?utm_source=rss_feed",
+          "pubDate": "2026-09-01T18:00:45.000Z",
+          "excerpt": "Canadian Prime Minister Mark Carney told the Trump administration on Tuesday to “stop doing memes, stop throwing shade and stop trying to be tough”, as he…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -404,9 +360,42 @@
           "condensed": null
         },
         {
+          "title": "‘Neither of us attended college’: At 62, how can we afford to put our granddaughter through college?",
+          "link": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+          "pubDate": "2026-09-01T18:00:00.000Z",
+          "excerpt": "“Her life was very challenging before we got custody.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "US launches further strikes on Iran as conflict flares up",
+          "link": "https://www.ft.com/content/c557ccc2-9fe7-4725-8a1c-c40a0948e8d3?syn-25a6b1a6=1",
+          "pubDate": "2026-09-01T17:56:33.000Z",
+          "excerpt": "Escalation pushes oil prices higher and sends Treasury yields to day’s highs as investors fret over new bout of inflation",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Buy these stocks to ride the next big AI wave — connectivity, analyst says",
+          "link": "https://www.marketwatch.com/story/buy-these-stocks-to-ride-the-next-big-ai-wave-connectivity-analyst-says-196241b2?mod=mw_rss_topstories",
+          "pubDate": "2026-09-01T17:47:00.000Z",
+          "excerpt": "Shares of Coherent and Lumentum are Deutsche Bank’s “highest conviction” picks among hardware companies in the era of AI.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
           "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
           "link": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
-          "pubDate": "2026-09-01T13:15:00.000Z",
+          "pubDate": "2026-09-01T17:45:00.000Z",
           "excerpt": "“I am frustrated and financially exhausted from continuing to invest my own money into these properties.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -415,25 +404,36 @@
           "condensed": null
         },
         {
-          "title": "Explosive devices damage power lines near German coal plant",
-          "link": "https://www.scmp.com/news/world/europe/article/3366017/explosive-devices-found-near-major-power-plant-germany?utm_source=rss_feed",
-          "pubDate": "2026-09-01T12:56:41.000Z",
-          "excerpt": "Improvised explosive devices were used on Tuesday to target power lines near a coal-fired power plant in Germany, with several electricity lines damaged and…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Why Microsoft’s stock could rally another 20% even after a summer winning streak",
+          "link": "https://www.marketwatch.com/story/why-microsofts-stock-could-rally-another-20-even-after-a-summer-winning-streak-a0356551?mod=mw_rss_topstories",
+          "pubDate": "2026-09-01T17:38:00.000Z",
+          "excerpt": "A BofA analyst says Microsoft’s full-stack strategy and custom chips are driving superior AI economics.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "UK ex-PM Starmer to quit parliament, focus on ‘international affairs’",
-          "link": "https://www.scmp.com/news/world/europe/article/3366013/uk-ex-pm-starmer-quit-parliament-focus-international-affairs?utm_source=rss_feed",
-          "pubDate": "2026-09-01T12:07:26.000Z",
-          "excerpt": "Britain’s former prime minister Keir Starmer, who stepped down as leader this summer after a tumultuous two years in power, announced on Tuesday he would quit…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Governments should heed the bond market’s warning",
+          "link": "https://www.ft.com/content/fe0fc9bf-e7dc-4fa1-91d2-4d7bad22c3c3?syn-25a6b1a6=1",
+          "pubDate": "2026-09-01T17:17:28.000Z",
+          "excerpt": "Financial repression is not a sustainable way to manage rising borrowing costs",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Global oil prices surge above $94 a barrel after the U.S. strikes Iranian targets",
+          "link": "https://www.marketwatch.com/story/global-oil-prices-extend-move-over-90-after-report-of-two-tankers-struck-in-hormuz-0effd708?mod=mw_rss_topstories",
+          "pubDate": "2026-09-01T17:12:00.000Z",
+          "excerpt": "Oil prices on Tuesday extended their increase from morning action after the U.S. military said it struck Iranian targets in the Strait of Hormuz in response to…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
