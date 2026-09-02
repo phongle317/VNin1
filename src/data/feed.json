@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T03:33:15.844Z",
+  "lastUpdated": "2026-09-02T08:34:14.913Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4342.2,
+      "value": 4372.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -37,25 +37,25 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 64473.16,
-      "change": -1658.8199999999924,
-      "changePercent": -2.5083477010668553
+      "value": 64325.64,
+      "change": -1806.3399999999965,
+      "changePercent": -2.731416782016804
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 25061.64,
-      "change": -591.3300000000017,
-      "changePercent": -2.3051132091138054
+      "value": 25311.21,
+      "change": -341.76000000000204,
+      "changePercent": -1.3322434010564936
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25970.11,
-      "change": -296.02999999999884,
-      "changePercent": -1.1270403645149185
+      "value": 25856.85,
+      "change": -429.1100000000006,
+      "changePercent": -1.6324684356211476
     }
   ],
   "themes": [
@@ -63,6 +63,61 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Chuyên gia: Thị trường chứng khoán cuối năm sẽ phân hóa mạnh",
+          "link": "https://cafef.vn/chuyen-gia-thi-truong-chung-khoan-cuoi-nam-se-phan-hoa-manh-188260902152821037.chn",
+          "pubDate": "2026-09-02T08:28:00.000Z",
+          "excerpt": "Thị trường chứng khoán cuối năm 2026 được dự báo có thể phân hóa mạnh, nhà đầu tư do đó cần cẩn trọng trước khi quyết định xuống tiền.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Sau nghỉ lễ 2/9, chứng khoán có bứt phá với 'cú hích' nâng hạng?",
+          "link": "https://cafef.vn/sau-nghi-le-2-9-chung-khoan-co-but-pha-voi-cu-hich-nang-hang-188260902152420517.chn",
+          "pubDate": "2026-09-02T08:24:00.000Z",
+          "excerpt": "Sau chuỗi phiên tăng điểm mạnh, VN-Index đang tiến sát vùng kháng cự 1.850 điểm trong bối cảnh dòng tiền cải thiện và khối ngoại bắt đầu mua ròng trở lại. Bước…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thị trường trái phiếu chính phủ toàn cầu lại bán tháo",
+          "link": "https://vneconomy.vn/thi-truong-trai-phieu-chinh-phu-toan-cau-lai-ban-thao.htm",
+          "pubDate": "2026-09-02T05:50:05.000Z",
+          "excerpt": "Thị trường trái phiếu chính phủ toàn cầu có thêm một phiên bán tháo mạnh mẽ vào ngày 1/9, khi nhà đầu tư lo ngại về việc các ngân hàng trung ương sẽ phải tăng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Thông tin lương thưởng của chủ tịch, CEO Vingroup",
+          "link": "https://cafef.vn/thong-tin-luong-thuong-cua-chu-tich-ceo-vingroup-188260902102212334.chn",
+          "pubDate": "2026-09-02T04:21:00.000Z",
+          "excerpt": "Nửa đầu năm nay, ông Phạm Nhật Vượng - Chủ tịch Hội đồng quản trị Tập đoàn Vingroup - tiếp tục không nhận thù lao. Ông Nguyễn Việt Quang - Tổng Giám đốc Tập…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Mixue giảm lợi nhuận, tiếp tục đóng cửa hàng",
+          "link": "https://vnexpress.net/mixue-giam-loi-nhuan-tiep-tuc-dong-cua-hang-5115726.html",
+          "pubDate": "2026-09-02T04:00:00.000Z",
+          "excerpt": "Mixue giảm 89 cửa hàng ở nước ngoài, chủ yếu ở Việt Nam và Indonesia, trong khi lợi nhuận ròng 6 tháng sụt 15% so với cùng kỳ năm trước.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Mỹ cho biết Trung Quốc bất đồng với tuyên bố chung của G20 về “hàng xuất khẩu giá rẻ”",
           "link": "https://vneconomy.vn/my-cho-biet-trung-quoc-bat-dong-voi-tuyen-bo-chung-cua-g20-ve-hang-xuat-khau-gia-re.htm",
@@ -95,61 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Giá vàng sụt gần 120 USD/oz vì đồng USD và lợi suất trái phiếu tăng mạnh",
-          "link": "https://vneconomy.vn/gia-vang-sut-gan-120-usdoz-vi-dong-usd-va-loi-suat-trai-phieu-tang-manh.htm",
-          "pubDate": "2026-09-02T01:49:18.000Z",
-          "excerpt": "Giới phân tích cho biết yếu tố kỹ thuật cũng đóng một vai trò quan trọng trong phiên bán tháo này của vàng...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Chứng khoán Mỹ giảm liền 3 phiên, giá dầu nhảy 5% vì căng thẳng Vùng Vịnh tăng nhiệt",
-          "link": "https://vneconomy.vn/chung-khoan-my-giam-lien-3-phien-gia-dau-nhay-5-vi-cang-thang-vung-vinh-tang-nhiet.htm",
-          "pubDate": "2026-09-02T01:49:12.000Z",
-          "excerpt": "“Thị trường chứng khoán luôn gặp khó khăn trong việc hấp thụ những chuyển động lớn như thế này trên thị trường trái phiếu\"...",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "VN-Index tăng nhẹ, rủi ro rung lắc vẫn hiện hữu",
-          "link": "https://vneconomy.vn/vn-index-tang-nhe-rui-ro-rung-lac-van-hien-huu.htm",
-          "pubDate": "2026-09-02T00:57:46.000Z",
-          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 3/9/2026.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Giá vàng thế giới xuống thấp nhất 2 tuần",
-          "link": "https://vnexpress.net/gia-vang-the-gioi-xuong-thap-nhat-2-tuan-5115706.html",
-          "pubDate": "2026-09-02T00:39:39.000Z",
-          "excerpt": "Mỗi ounce vàng thế giới giảm hơn 100 USD chỉ trong một phiên, hiện về sát mốc 4.300 USD.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Lắp điện mặt trời giúp người Anh tiết kiệm đến 800 USD mỗi năm",
-          "link": "https://vnexpress.net/lap-dien-mat-troi-giup-nguoi-anh-tiet-kiem-den-800-usd-moi-nam-5115647.html",
-          "pubDate": "2026-09-02T00:39:23.000Z",
-          "excerpt": "Các hộ gia đình tại những nơi nhiều nắng ở Anh có thể tiết kiệm đến 618 bảng (836 USD) tiền điện mỗi năm nếu lắp pin mặt trời.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,6 +159,61 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Công nhân xuyên lễ thi công cầu Trần Hưng Đạo, lắp những đốt dầm đầu tiên",
+          "link": "https://cafef.vn/cong-nhan-xuyen-le-thi-cong-cau-tran-hung-dao-lap-nhung-dot-dam-dau-tien-188260902123750521.chn",
+          "pubDate": "2026-09-02T07:37:00.000Z",
+          "excerpt": "Dịp Quốc khánh 2/9, hàng trăm công nhân, kỹ sư vẫn bám công trường, lắp những đốt dầm thép đầu tiên, từng bước hình thành cầu Trần Hưng Đạo.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chiêm ngưỡng những đại công trình định hình diện mạo mới của Thủ đô",
+          "link": "https://cafef.vn/chiem-nguong-nhung-dai-cong-trinh-dinh-hinh-dien-mao-moi-cua-thu-do-188260902123120374.chn",
+          "pubDate": "2026-09-02T06:50:00.000Z",
+          "excerpt": "Loạt tuyến đường huyết mạch, hồ điều hòa, cầu vượt sông Hồng, tổ hợp thể thao đang thi công thần tốc và lần lượt hoàn thành, góp phần tạo diện mạo mới cho Hà…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ngôi nhà dành một nửa diện tích cho nắng, gió và cây xanh",
+          "link": "https://cafef.vn/ngoi-nha-danh-mot-nua-dien-tich-cho-nang-gio-va-cay-xanh-188260902122529288.chn",
+          "pubDate": "2026-09-02T06:07:00.000Z",
+          "excerpt": "Giữa khu vực có mật độ xây dựng cao tại TP.HCM, ngôi nhà lựa chọn dành một nửa khu đất cho nắng, gió, nước và cây xanh thay vì cố gắng tận dụng tối đa diện…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Vành đai 1 Hoàng Cầu - Voi Phục thông xe 2/9, nhiều hướng đi thay đổi",
+          "link": "https://cafef.vn/vanh-dai-1-hoang-cau-voi-phuc-thong-xe-2-9-nhieu-huong-di-thay-doi-188260902123349231.chn",
+          "pubDate": "2026-09-02T05:33:00.000Z",
+          "excerpt": "Từ 2/9, Hà Nội thông xe tạm Vành đai 1 đoạn Hoàng Cầu đến Voi Phục, đồng thời tổ chức lại giao thông tại hàng loạt nút giao trên tuyến.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Gần 150.000 căn condotel bị 'mắc cạn'",
+          "link": "https://cafef.vn/gan-150000-can-condotel-bi-mac-can-188260902122318306.chn",
+          "pubDate": "2026-09-02T05:23:00.000Z",
+          "excerpt": "Cả nước có khoảng 146.438 căn condotel, trong đó hầu hết các dự án condotel được đầu tư trong giai đoạn 2007 - 2020 bị vướng mắc do chưa có đủ các quy định…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Chuyển từ bồi thường thiệt hại sang tái thiết cuộc sống cho người bị thu hồi đất",
           "link": "https://vneconomy.vn/chuyen-tu-boi-thuong-thiet-hai-sang-tai-thiet-cuoc-song-cho-nguoi-bi-thu-hoi-dat.htm",
           "pubDate": "2026-09-02T02:42:24.000Z",
@@ -167,61 +222,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Bất động sản công nghiệp tiếp tục là động lực tăng trưởng của thị trường phía Nam",
-          "link": "https://cafef.vn/bat-dong-san-cong-nghiep-tiep-tuc-la-dong-luc-tang-truong-cua-thi-truong-phia-nam-188260902084602832.chn",
-          "pubDate": "2026-09-02T01:57:00.000Z",
-          "excerpt": "Tỷ lệ lấp đầy khu công nghiệp đạt tới 90% cùng sự chuyển dịch của chuỗi cung ứng toàn cầu đang biến bất động sản công nghiệp thành động lực tăng trưởng cốt lõi.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Từ 'ở xa' thành 'đi gần': Hạ tầng thay đổi cuộc chơi bất động sản",
-          "link": "https://cafef.vn/tu-o-xa-thanh-di-gan-ha-tang-thay-doi-cuoc-choi-bat-dong-san-188260902071323026.chn",
-          "pubDate": "2026-09-02T01:50:00.000Z",
-          "excerpt": "Nếu như trước đây, nhiều người ngại mua nhà ở các vùng ven đô thì vài năm trở lại đây, tâm lý này đã có sự thay đổi rõ ràng khi hạ tầng giao thông được mở rộng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Thị trường bán lẻ Hà Nội sôi động dịp Quốc khánh 2/9",
-          "link": "https://cafef.vn/thi-truong-ban-le-ha-noi-soi-dong-dip-quoc-khanh-2-9-188260902082658834.chn",
-          "pubDate": "2026-09-02T01:26:00.000Z",
-          "excerpt": "Kỳ nghỉ Quốc khánh kéo dài 5 ngày đang tạo cú hích cho thị trường bán lẻ Hà Nội. Các hệ thống phân phối đồng loạt tăng dự trữ hàng hóa, đẩy mạnh khuyến mại,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Việt Nam có thể xuất hiện siêu tháp 99 tầng cao top đầu châu Á, là nơi tỷ phú Nguyễn Thị Phương Thảo muốn đầu tư với tổng vốn hơn 1,8 tỷ USD",
-          "link": "https://cafef.vn/viet-nam-co-the-xuat-hien-sieu-thap-99-tang-cao-top-dau-chau-a-la-noi-ty-phu-nguyen-thi-phuong-thao-muon-dau-tu-voi-tong-von-hon-18-ty-usd-188260902081623269.chn",
-          "pubDate": "2026-09-02T01:16:00.000Z",
-          "excerpt": "Với chiều cao khoảng 500m theo đề xuất, tòa tháp biểu tượng IFC-99F HCMC cao 99 tầng có thể lọt nhóm những công trình cao hàng đầu châu Á, tiệm cận Shanghai…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Giếng trời và thông tầng khác nhau thế nào?",
-          "link": "https://cafef.vn/gieng-troi-va-thong-tang-khac-nhau-the-nao-188260902071541249.chn",
-          "pubDate": "2026-09-02T00:49:00.000Z",
-          "excerpt": "Cùng mang lại ánh sáng tự nhiên và sự thoáng đãng cho không gian sống, song thông tầng và giếng trời vẫn có nhiều điểm khác biệt.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Công an yêu cầu tất cả chủ xe máy, ô tô vi phạm có biển số sau đây nhanh chóng đến nộp phạt nguội theo Nghị định 168",
-          "link": "https://cafef.vn/cong-an-yeu-cau-tat-ca-chu-xe-may-o-to-vi-pham-co-bien-so-sau-day-nhanh-chong-den-nop-phat-nguoi-theo-nghi-dinh-168-188260902084245341.chn",
-          "pubDate": "2026-09-02T03:03:00.000Z",
-          "excerpt": "Danh sách các phương tiện vi phạm được cơ quan Công an ghi nhận từ ngày 24/8 đến ngày 30/8.",
+          "title": "Thái Nguyên: Khẩn trương thi công các công trình dự án giao thông trọng điểm",
+          "link": "https://cafef.vn/thai-nguyen-khan-truong-thi-cong-cac-cong-trinh-du-an-giao-thong-trong-diem-18826090214033727.chn",
+          "pubDate": "2026-09-02T08:00:00.000Z",
+          "excerpt": "Hiện nay, nhiều công trình dự án giao thông trọng điểm và hệ thống công trình chống ngập lụt khu vực trung tâm tỉnh Thái Nguyên đang được thi công rất khẩn…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -265,10 +265,10 @@
           "condensed": null
         },
         {
-          "title": "Đề xuất tăng quyền lợi cho người đóng bảo hiểm y tế lâu năm",
-          "link": "https://cafef.vn/de-xuat-tang-quyen-loi-cho-nguoi-dong-bao-hiem-y-te-lau-nam-188260902072138265.chn",
-          "pubDate": "2026-09-02T02:00:00.000Z",
-          "excerpt": "Cử tri An Giang đề nghị bổ sung ưu đãi cho người duy trì bảo hiểm y tế liên tục trên 5, 10 năm, nhằm khuyến khích người dân gắn bó lâu dài.",
+          "title": "CSGT sẽ xử lý xe 'rùa bò' bám làn trái trên cao tốc",
+          "link": "https://cafef.vn/csgt-se-xu-ly-xe-rua-bo-bam-lan-trai-tren-cao-toc-188260902135358837.chn",
+          "pubDate": "2026-09-02T07:30:00.000Z",
+          "excerpt": "Cục CSGT cho biết, sẽ xử phạt nghiêm với xe đi dưới tốc độ tối thiểu và điều khiển xe chạy tốc độ thấp hơn các xe khác đi cùng chiều mà không đi về làn đường…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -276,10 +276,21 @@
           "condensed": null
         },
         {
-          "title": "Chưa được cấp sổ đỏ vẫn có thể bị tính tiền chậm nộp",
-          "link": "https://cafef.vn/chua-duoc-cap-so-do-van-co-the-bi-tinh-tien-cham-nop-18826090207191675.chn",
-          "pubDate": "2026-09-02T00:55:00.000Z",
-          "excerpt": "Quy định hiện hành đã rõ ràng, người sử dụng đất phải thực hiện nghĩa vụ tài chính theo thời hạn quy định của Luật Quản lý thuế, và chỉ được cấp Giấy chứng…",
+          "title": "[Interactive] Nghị quyết số 19-NQ/TW: Đổi mới mô hình phát triển đất nước",
+          "link": "https://vneconomy.vn/interactive-nghi-quyet-so-19-nqtw-doi-moi-mo-hinh-phat-trien-dat-nuoc.htm",
+          "pubDate": "2026-09-02T07:09:30.000Z",
+          "excerpt": "Để thực hiện Nghị quyết số 19-NQ/TW, cũng trong ngày 28/7/2026 Bộ Chính trị đã ký ban hành Chương trình hành động thực hiện Nghị quyết với 40 chỉ tiêu và 51…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Sẽ 'đóng' một chiều cao tốc Long Thành khi phương tiện về TPHCM tăng đột biến",
+          "link": "https://cafef.vn/se-dong-mot-chieu-cao-toc-long-thanh-khi-phuong-tien-ve-tphcm-tang-dot-bien-18826090213455112.chn",
+          "pubDate": "2026-09-02T07:00:00.000Z",
+          "excerpt": "Sáng 2/9, cao tốc TPHCM - Long Thành - Dầu Giây vẫn lưu thông hai chiều. CSGT sẵn sàng kích hoạt phương án phân luồng khi xe về TPHCM tăng cao.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -287,21 +298,21 @@
           "condensed": null
         },
         {
-          "title": "Giá vàng thế giới xuống thấp nhất hai tuần",
-          "link": "https://vnexpress.net/gia-vang-the-gioi-xuong-thap-nhat-hai-tuan-5115706.html",
-          "pubDate": "2026-09-02T00:39:39.000Z",
-          "excerpt": "Mỗi ounce vàng thế giới giảm hơn 100 USD chỉ trong một phiên, hiện về sát mốc 4.300 USD.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Du lịch Ninh Bình đạt doanh thu nghìn tỷ dịp nghỉ lễ Quốc khánh 2/9",
+          "link": "https://cafef.vn/du-lich-ninh-binh-dat-doanh-thu-nghin-ty-dip-nghi-le-quoc-khanh-2-9-188260902132954087.chn",
+          "pubDate": "2026-09-02T06:34:00.000Z",
+          "excerpt": "Dịp Quốc khánh 2/9, Ninh Bình dự kiến đón gần 777.000 lượt khách trong 5 ngày, tăng hơn 84% so với cùng kỳ năm 2025; riêng khách quốc tế tăng hơn 35%. Đáng chú…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
-          "title": "40 năm chuyển mình của xuất nhập khẩu Việt Nam",
-          "link": "https://cafef.vn/40-nam-chuyen-minh-cua-xuat-nhap-khau-viet-nam-188260902071551333.chn",
-          "pubDate": "2026-09-02T00:20:00.000Z",
-          "excerpt": "Kỷ niệm 81 năm Quốc khánh nước Cộng hòa xã hội chủ nghĩa Việt Nam là dịp nhìn lại chặng đường phát triển của đất nước, đặc biệt là những thành tựu có ý nghĩa…",
+          "title": "Đề xuất hộ kinh doanh chuyển lên công ty không cần chủ tịch, kế toán trưởng",
+          "link": "https://cafef.vn/de-xuat-ho-kinh-doanh-chuyen-len-cong-ty-khong-can-chu-tich-ke-toan-truong-188260902104524768.chn",
+          "pubDate": "2026-09-02T04:30:00.000Z",
+          "excerpt": "Dự thảo Luật đề xuất đơn giản hóa bộ máy, cho phép doanh nghiệp siêu nhỏ chuyển từ hộ kinh doanh không cần chủ tịch và kế toán trưởng.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -317,17 +328,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Rà soát, đánh giá kỹ quy định về khoảng cách an toàn trên cao tốc",
-          "link": "https://cafef.vn/ra-soat-danh-gia-ky-quy-dinh-ve-khoang-cach-an-toan-tren-cao-toc-188260901173643959.chn",
-          "pubDate": "2026-09-01T10:36:00.000Z",
-          "excerpt": "Văn phòng Chính phủ có Công văn số 8948/VPCP-CN ngày 01/9/2026 gửi Bộ trưởng các Bộ: Công an, Xây dựng; Chủ tịch UBND các tỉnh, thành phố trực thuộc Trung ương…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -349,6 +349,83 @@
       "displayName": "International",
       "articles": [
         {
+          "title": "How the SCO chips away at US power without an alliance system",
+          "link": "https://www.scmp.com/opinion/china-opinion/article/3366054/how-sco-chips-away-us-power-without-alliance-system?utm_source=rss_feed",
+          "pubDate": "2026-09-02T08:30:06.000Z",
+          "excerpt": "The Shanghai Cooperation Organisation (SCO) was born 25 years ago as a modest mechanism for managing borders between China, Russia and four Central Asian…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Stock Market Today: Global Bonds Continue to Sell Off",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-02-2026?mod=rss_markets_main",
+          "pubDate": "2026-09-02T08:23:21.000Z",
+          "excerpt": "10-year Treasury yield heads for three-year high",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "European gas prices hit three-year high",
+          "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
+          "pubDate": "2026-09-02T07:39:25.000Z",
+          "excerpt": "Resumption of US-Iran hostilities raises fears of return to full-blown conflict",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top",
+          "link": "https://www.marketwatch.com/story/ai-capital-expenditure-forecasted-to-exceed-the-cost-of-building-railways-in-both-the-u-s-and-the-u-k-with-the-internet-added-on-top-765b927f?mod=mw_rss_topstories",
+          "pubDate": "2026-09-02T06:36:00.000Z",
+          "excerpt": "The accounting giant says the buildout of artificial intelligence differs from the development of railways and the internet because of its scale and spending…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Netanyahu accuses security officials of intentionally not waking him on October 7",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3366052/netanyahu-accuses-security-officials-intentionally-not-waking-him-october-7?utm_source=rss_feed",
+          "pubDate": "2026-09-02T04:13:39.000Z",
+          "excerpt": "Israeli Prime Minister Benjamin Netanyahu accused security officials on Tuesday of intentionally failing to wake him on the morning of Hamas’ October 7…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "The wheels are coming off the US world order",
+          "link": "https://www.ft.com/content/c51dec0b-977e-463e-9590-daff0d91a8a6?syn-25a6b1a6=1",
+          "pubDate": "2026-09-02T04:00:26.000Z",
+          "excerpt": "Trump believes in a world in which there are no allies, only satellites, and in which power is America’s alone to wield",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Ukraine’s president warns airlines to avoid ‘drone-infested’ Russian airspace",
+          "link": "https://www.scmp.com/news/world/europe/article/3366049/ukraines-president-warns-airlines-avoid-drone-infested-russian-airspace?utm_source=rss_feed",
+          "pubDate": "2026-09-02T03:47:19.000Z",
+          "excerpt": "Ukrainian President Volodymyr Zelensky warned Tuesday that his country’s drones would make Russia’s airspace “completely unsafe” for the duration of the war,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
           "title": "US judge rules alleged Charlie Kirk killer to stand trial, could face death penalty",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3366043/us-judge-rules-alleged-charlie-kirk-killer-stand-trial-could-face-death-penalty?utm_source=rss_feed",
           "pubDate": "2026-09-02T02:41:44.000Z",
@@ -357,83 +434,6 @@
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Tiếp đà lao dốc, Dow Jones giảm hơn 400 điểm",
-          "link": "http://vietstock.vn/2026/09/tiep-da-lao-doc-dow-jones-giam-hon-400-diem-773-1487065.htm",
-          "pubDate": "2026-09-02T02:10:51.000Z",
-          "excerpt": "Chứng khoán Mỹ giảm trong ngày 01/09 khi lo ngại lạm phát và giá dầu tăng cao đẩy lợi suất trái phiếu tại Mỹ và các thị trường khác trên thế giới đi lên, làm…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "China’s multipolar world order must prove it can be peaceful",
-          "link": "https://www.scmp.com/opinion/china-opinion/article/3365750/chinas-multipolar-world-order-must-prove-it-can-be-peaceful?utm_source=rss_feed",
-          "pubDate": "2026-09-02T01:30:06.000Z",
-          "excerpt": "China has spent years articulating its preferred principles for the world order. In June, it went a step further, bringing many of them together in a white…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "The Takaichi revolution",
-          "link": "https://www.ft.com/content/4abc4d57-fa90-4d33-99ea-ee165be7a79d?syn-25a6b1a6=1",
-          "pubDate": "2026-09-02T01:04:42.000Z",
-          "excerpt": "The prime minister’s style is clashing with Japan’s traditions — and the bond market",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
-          "link": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
-          "pubDate": "2026-09-02T00:19:00.000Z",
-          "excerpt": "The company’s backlog has reached $95 billion as demand accelerates for its AI servers",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
-          "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
-          "pubDate": "2026-09-02T00:18:00.000Z",
-          "excerpt": "Enterprise cyber threats and AI adoption are giving Palo Alto Networks ‘durable tailwinds,’ according to CEO Nikesh Arora, but the stock retreated after an…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump puts pressure on squeezed US oil refiners to ease pump prices",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3366037/trump-puts-pressure-squeezed-us-oil-refiners-ease-pump-prices?utm_source=rss_feed",
-          "pubDate": "2026-09-01T23:37:53.000Z",
-          "excerpt": "President Donald Trump pressed US oil refiners to boost domestic production of petrol and diesel during a closed-door meeting on Tuesday, as he contends with…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
-          "link": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
-          "pubDate": "2026-09-01T23:15:00.000Z",
-          "excerpt": "“I am frustrated and financially exhausted from continuing to invest my own money into these properties.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
