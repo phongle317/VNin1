@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T13:16:32.038Z",
+  "lastUpdated": "2026-09-04T17:27:31.107Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4427.1,
+      "value": 4480.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7747.71,
-      "change": 16.720000000000255,
-      "changePercent": 0.21627243082710307
+      "value": 7717.47,
+      "change": 5.710000000000036,
+      "changePercent": 0.0740427606668262
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26584.06,
-      "change": 42.710000000002765,
-      "changePercent": 0.16091871739758065
+      "value": 26486.11,
+      "change": 83.69000000000233,
+      "changePercent": 0.3169785193933069
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 26115.51,
-      "change": -454.4800000000032,
-      "changePercent": -1.7105012083181184
+      "value": 26046.4,
+      "change": -523.5900000000001,
+      "changePercent": -1.9706066882223143
     }
   ],
   "themes": [
@@ -63,6 +63,28 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Một công ty chuẩn bị “lăn chốt” cổ tức 20% bằng tiền mặt ngay tháng 9",
+          "link": "https://cafef.vn/mot-cong-ty-chuan-bi-lan-chot-co-tuc-20-bang-tien-mat-ngay-thang-9-188260904223522096.chn",
+          "pubDate": "2026-09-04T17:01:00.000Z",
+          "excerpt": "Cao su Thống Nhất dự kiến chi 39 tỷ đồng để hoàn tất đợt thanh toán này.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "2 cổ phiếu chứng khoán có thể bị loại khỏi FTSE Vietnam 30",
+          "link": "https://cafef.vn/2-co-phieu-chung-khoan-co-the-bi-loai-khoi-ftse-vietnam-30-188260904223448979.chn",
+          "pubDate": "2026-09-04T17:01:00.000Z",
+          "excerpt": "Với các cổ phiếu dự kiến được thêm vào FTSE Vietnam 30, Fubon Vietnam ETF có thể mua mạnh nhất VPB với khoảng 21,9 triệu cổ phiếu.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Thế giới bước vào kỷ nguyên lãi suất cao: Ai thiệt hại?",
           "link": "https://vneconomy.vn/the-gioi-buoc-vao-ky-nguyen-lai-suat-cao-ai-thiet-hai.htm",
@@ -83,28 +105,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Lợi nhuận chủ đầu tư Merryland Quy Nhơn giảm mạnh",
-          "link": "https://vnexpress.net/loi-nhuan-chu-dau-tu-merryland-quy-nhon-giam-manh-5116530.html",
-          "pubDate": "2026-09-04T11:00:00.000Z",
-          "excerpt": "Công ty Hưng Thịnh Quy Nhơn, chủ đầu tư Merryland Quy Nhơn, lãi sau thuế gần 188 tỷ đồng nửa đầu năm, trong khi cùng kỳ ghi nhận tới gần 703 tỷ.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Ông Nguyễn Văn Được: Kinh tế TP HCM quý III cần tăng trên 11%",
-          "link": "https://vnexpress.net/ong-nguyen-van-duoc-kinh-te-tp-hcm-quy-iii-can-tang-tren-11-5116573.html",
-          "pubDate": "2026-09-04T10:00:44.000Z",
-          "excerpt": "Chủ tịch UBND TP HCM cho biết kinh tế quý III của địa phương cần đạt trên 11% để đạt mục tiêu GRDP cả năm hai chữ số.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -141,14 +141,14 @@
           "condensed": null
         },
         {
-          "title": "Cựu Chủ tịch Bamboo Airways Lê Thái Sâm bị hoãn xuất cảnh",
-          "link": "https://vnexpress.net/cuu-chu-tich-bamboo-airways-le-thai-sam-bi-hoan-xuat-canh-5116616.html",
-          "pubDate": "2026-09-04T09:27:53.000Z",
-          "excerpt": "Ông Lê Thái Sâm bị tạm hoãn xuất cảnh từ 3/9 do Bamboo Airways nợ thuế hơn 440 tỷ đồng.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "HTN: Kết quả bán niên 2026 khả quan, hoàn tất thủ tục tăng vốn điều lệ thêm 50%",
+          "link": "https://vneconomy.vn/htn-ket-qua-ban-nien-2026-kha-quan-hoan-tat-thu-tuc-tang-von-dieu-le-them-50.htm",
+          "pubDate": "2026-09-04T09:16:58.000Z",
+          "excerpt": "Với kết quả đạt được trong 6 tháng đầu năm khả quan cùng với việc hoàn tất thủ tục tăng vốn điều lệ thêm 50%, HTN hướng tới việc duy trì ổn định hoạt động kinh…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -159,10 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Dòng tiền sẽ đổ về đâu sau đại quy hoạch phía Nam Hà Nội?",
-          "link": "https://cafef.vn/dong-tien-se-do-ve-dau-sau-dai-quy-hoach-phia-nam-ha-noi-188260904190658052.chn",
-          "pubDate": "2026-09-04T12:30:00.000Z",
-          "excerpt": "Hàng loạt dự án hạ tầng được triển khai cùng quy hoạch phát triển khu Nam đang tạo thêm động lực cho thị trường bất động sản phía Nam Hà Nội.",
+          "title": "TP.HCM: 22 dự án giao thông hơn 647.000 tỷ đồng đã khởi công",
+          "link": "https://cafef.vn/tphcm-22-du-an-giao-thong-hon-647000-ty-dong-da-khoi-cong-188260904162510848.chn",
+          "pubDate": "2026-09-04T17:00:00.000Z",
+          "excerpt": "Trong 8 tháng đầu năm 2026, TP.HCM đã khởi công 22 công trình, dự án trọng điểm với tổng mức đầu tư khoảng 647.379 tỷ đồng; dự kiến thêm 9 dự án khởi công và…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +170,10 @@
           "condensed": null
         },
         {
-          "title": "Khẩu vị thị trường xoay chiều: Dòng tiền tìm về những khu đô thị “sáng đèn”",
-          "link": "https://cafef.vn/khau-vi-thi-truong-xoay-chieu-dong-tien-tim-ve-nhung-khu-do-thi-sang-den-188260904151507287.chn",
-          "pubDate": "2026-09-04T10:30:00.000Z",
-          "excerpt": "Phía Tây TP.HCM đang nổi lên như một điểm đến hấp dẫn nhờ sự xuất hiện của đại đô thị tích hợp Waterpoint - nơi giá trị bất động sản ngày càng được nhìn nhận…",
+          "title": "Đằng sau \"mặt bằng giá mới\" của thị trường bất động sản không chỉ là câu chuyện cung - cầu",
+          "link": "https://cafef.vn/dang-sau-mat-bang-gia-moi-cua-thi-truong-bat-dong-san-khong-chi-la-cau-chuyen-cung-cau-1882609041605439.chn",
+          "pubDate": "2026-09-04T16:45:00.000Z",
+          "excerpt": "Nguồn cung tăng 50% nhưng giá bất động sản vẫn khó giảm khi chi phí đất đai, xây dựng, pháp lý và vốn cùng neo cao. Trong khi đó, dòng tiền ngày càng chọn lọc,…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,10 +181,10 @@
           "condensed": null
         },
         {
-          "title": "HURC1 tuyển nhân sự cho tuyến đường sắt LRT Phú Quốc",
-          "link": "https://cafef.vn/hurc1-tuyen-nhan-su-cho-tuyen-duong-sat-lrt-phu-quoc-188260904155617818.chn",
-          "pubDate": "2026-09-04T09:47:00.000Z",
-          "excerpt": "HURC1 thông báo tuyển 168 nhân sự để đào tạo, tiếp nhận chuyển giao công nghệ vận hành và bảo dưỡng tuyến đường sắt LRT Phú Quốc.",
+          "title": "'Thủ phủ' chung cư mini 'cháy' phòng cho thuê",
+          "link": "https://cafef.vn/thu-phu-chung-cu-mini-chay-phong-cho-thue-188260904184607138.chn",
+          "pubDate": "2026-09-04T16:38:00.000Z",
+          "excerpt": "Năm học 2026-2027, khoảng 17.000 sinh viên thuộc Đại học Quốc gia Hà Nội sẽ học tập tại Hòa Lạc, kéo theo nhu cầu thuê trọ tăng mạnh. Theo ghi nhận, nhiều khu…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -192,10 +192,10 @@
           "condensed": null
         },
         {
-          "title": "Khai thác hiệu quả quỹ đất 2.100 ha sau phục hồi 3 hệ thống sông",
-          "link": "https://cafef.vn/khai-thac-hieu-qua-quy-dat-2100-ha-sau-phuc-hoi-3-he-thong-song-188260904145643645.chn",
-          "pubDate": "2026-09-04T08:44:00.000Z",
-          "excerpt": "Phó Thủ tướng Hồ Quốc Dũng yêu cầu quy hoạch, khai thác hiệu quả khoảng 2.100 ha đất hình thành sau quá trình phục hồi sông Bắc Hưng Hải, Nhuệ - Đáy, Ngũ Huyện…",
+          "title": "Vụ kiện đất đai lớn nhất miền Trung: Yêu cầu chủ đầu tư phải chứng minh năng lực tài chính",
+          "link": "https://cafef.vn/vu-kien-dat-dai-lon-nhat-mien-trung-yeu-cau-chu-dau-tu-phai-chung-minh-nang-luc-tai-chinh-188260904184841457.chn",
+          "pubDate": "2026-09-04T16:20:00.000Z",
+          "excerpt": "UBND thành phố Đà Nẵng vừa có chỉ đạo liên quan đến 3 dự án do Công ty CP Bách Đạt An làm chủ đầu tư, gồm Khu đô thị Hera Complex Riverside, Khu đô thị 7B mở…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -203,10 +203,10 @@
           "condensed": null
         },
         {
-          "title": "Xã Hồng Vân hoàn thành giải phóng mặt bằng được 98,05% của dự án Khu đô thị thể thao quốc tế Hà Nội",
-          "link": "https://cafef.vn/xa-hong-van-hoan-thanh-giai-phong-mat-bang-duoc-9805-cua-du-an-khu-do-thi-the-thao-quoc-te-ha-noi-188260904140314352.chn",
-          "pubDate": "2026-09-04T07:54:00.000Z",
-          "excerpt": "Xã Hồng Vân xác nhận đã hoàn thành giải phóng mặt bằng được 7.686.153m², đạt 98,05% diện tích phải giải phóng mặt bằng (GPMB) dự án Khu đô thị thể thao quốc tế…",
+          "title": "Hà Nội cưỡng chế phá dỡ loạt villa, homestay quanh hồ Đồng Đò",
+          "link": "https://cafef.vn/ha-noi-cuong-che-pha-do-loat-villa-homestay-quanh-ho-dong-do-188260904184233729.chn",
+          "pubDate": "2026-09-04T16:13:00.000Z",
+          "excerpt": "UBND xã Kim Anh (Hà Nội) huy động lực lượng, máy móc cưỡng chế một số villa, homestay xây dựng trái phép tại khu vực rừng phòng hộ cạnh hồ Đồng Đò.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -254,6 +254,50 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Hơn 300 công ty Mỹ vẫn kinh doanh ở Nga",
+          "link": "https://vnexpress.net/hon-300-cong-ty-my-van-kinh-doanh-o-nga-5116557.html",
+          "pubDate": "2026-09-04T17:05:00.000Z",
+          "excerpt": "Bốn năm sau làn sóng doanh nghiệp ngoại rời Nga vì chiến sự Ukraine, hơn 300 công ty Mỹ vẫn duy trì hiện diện tại đây.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Đóng đủ 35 năm BHXH nhưng mới 57 tuổi, lao động nam dừng đóng chờ 62 tuổi có được hưởng 75% lương hưu? BHXH Việt Nam trả lời",
+          "link": "https://cafef.vn/dong-du-35-nam-bhxh-nhung-moi-57-tuoi-lao-dong-nam-dung-dong-cho-62-tuoi-co-duoc-huong-75-luong-huu-bhxh-viet-nam-tra-loi-188260904185606547.chn",
+          "pubDate": "2026-09-04T16:30:00.000Z",
+          "excerpt": "Bảo hiểm xã hội Việt Nam đã giải đáp thắc mắc của một người lao động về vấn đề lương hưu và trợ cấp thất nghiệp.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ông Trump dọa dừng giao thương với nhiều nước nếu Fed không giảm lãi",
+          "link": "https://vnexpress.net/ong-trump-doa-dung-giao-thuong-voi-nhieu-nuoc-neu-fed-khong-giam-lai-5116714.html",
+          "pubDate": "2026-09-04T15:30:20.000Z",
+          "excerpt": "Tổng thống Mỹ dường như lại muốn gây sức ép với Fed để tổ chức này hạ lãi suất, nhằm thực hiện chính sách như ông mong muốn.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Gần 95.000 doanh nghiệp đóng mã số thuế từ đầu năm",
+          "link": "https://vnexpress.net/gan-95-000-doanh-nghiep-dong-ma-so-thue-tu-dau-nam-5116699.html",
+          "pubDate": "2026-09-04T14:38:20.000Z",
+          "excerpt": "Gần 95.000 doanh nghiệp, tổ chức đóng mã số thuế trong 8 tháng đầu năm, tăng gấp đôi cùng kỳ, nhưng phần lớn là hồ sơ tồn đọng từ các năm trước.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "TP. Hồ Chí Minh quyết tâm đạt tăng trưởng GRDP trên 10% năm 2026, thu ngân sách 1 triệu tỷ đồng",
           "link": "https://vneconomy.vn/tp-ho-chi-minh-quyet-tam-dat-tang-truong-grdp-tren-10-nam-2026-thu-ngan-sach-1-trieu-ty-dong.htm",
           "pubDate": "2026-09-04T12:32:39.000Z",
@@ -276,6 +320,17 @@
           "condensed": null
         },
         {
+          "title": "Lợi nhuận chủ đầu tư Merryland Quy Nhơn giảm mạnh",
+          "link": "https://vnexpress.net/loi-nhuan-chu-dau-tu-merryland-quy-nhon-giam-manh-5116530.html",
+          "pubDate": "2026-09-04T11:00:00.000Z",
+          "excerpt": "Công ty Hưng Thịnh Quy Nhơn, chủ đầu tư Merryland Quy Nhơn, lãi sau thuế gần 188 tỷ đồng nửa đầu năm, trong khi cùng kỳ ghi nhận tới gần 703 tỷ.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Chủ tịch TPHCM giao KPI cho cán bộ trong quý III, 'không đạt thì không hoàn thành tốt nhiệm vụ'",
           "link": "https://cafef.vn/chu-tich-tphcm-giao-kpi-cho-can-bo-trong-quy-iii-khong-dat-thi-khong-hoan-thanh-tot-nhiem-vu-188260904162533256.chn",
           "pubDate": "2026-09-04T10:30:00.000Z",
@@ -284,61 +339,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Địa phương có mật độ dân số cao nhất Việt Nam sau sáp nhập: Trung bình 1km² có hơn 2.600 người sinh sống",
-          "link": "https://cafef.vn/dia-phuong-co-mat-do-dan-so-cao-nhat-viet-nam-sau-sap-nhap-trung-binh-1km-co-hon-2600-nguoi-sinh-song-188260904154352236.chn",
-          "pubDate": "2026-09-04T09:48:00.000Z",
-          "excerpt": "Mật độ dân số của địa phương này cao gấp 1,3 lần TP. Hồ Chí Minh.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Chủ tịch TPHCM nói về nguyên nhân nhiều doanh nghiệp rời thị trường",
-          "link": "https://cafef.vn/chu-tich-tphcm-noi-ve-nguyen-nhan-nhieu-doanh-nghiep-roi-thi-truong-188260904152057471.chn",
-          "pubDate": "2026-09-04T09:16:00.000Z",
-          "excerpt": "Chủ tịch UBND TPHCM cho rằng có nhiều nguyên nhân khiến doanh nghiệp rời khỏi thị trường, trong đó có liên quan đến thủ tục hành chính. “61% doanh nghiệp đánh…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "VIS 2026: Kết nối doanh nghiệp Việt với chuỗi cung ứng toàn cầu",
-          "link": "https://cafef.vn/vis-2026-ket-noi-doanh-nghiep-viet-voi-chuoi-cung-ung-toan-cau-188260904154128622.chn",
-          "pubDate": "2026-09-04T08:49:00.000Z",
-          "excerpt": "Trong bối cảnh chuỗi cung ứng toàn cầu đang tái cấu trúc, các tiêu chuẩn về chất lượng, truy xuất nguồn gốc, phát triển bền vững ngày càng trở thành điều kiện…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Sản lượng thi công cầu Hồng Hà trên đường Vành đai 4 đạt hơn 45%",
-          "link": "https://cafef.vn/san-luong-thi-cong-cau-hong-ha-tren-duong-vanh-dai-4-dat-hon-45-188260904143242444.chn",
-          "pubDate": "2026-09-04T08:37:00.000Z",
-          "excerpt": "Dự án xây dựng cầu Hồng Hà, một trong những công trình giao thông trọng điểm thuộc tuyến đường Vành đai 4 - Vùng Thủ đô Hà Nội đang được chủ đầu tư và các nhà…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Biên lợi nhuận của Tasco lên cao nhất từ khi tái cấu trúc",
-          "link": "https://vnexpress.net/bien-loi-nhuan-cua-tasco-len-cao-nhat-tu-khi-tai-cau-truc-5116550.html",
-          "pubDate": "2026-09-04T08:05:40.000Z",
-          "excerpt": "Sau khi tái cấu trúc năm 2023, biên lợi nhuận gộp của Tasco - nhà phân phối xe Volvo tại Việt Nam - đạt 11,4%, cao nhất 3 năm.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         }
       ],
@@ -349,31 +349,9 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Why are fuel and petrochemical prices outpacing crude – and how long will it last?",
-          "link": "https://www.scmp.com/economy/global-economy/article/3366432/why-are-fuel-and-petrochemical-prices-outpacing-crude-and-how-long-will-it-last?utm_source=rss_feed",
-          "pubDate": "2026-09-04T13:00:08.000Z",
-          "excerpt": "This summer, David Chen, a Chinese national living in Japan, got an unexpected lesson in global industrial supply chains – delivered through a bag of potato…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "You’re Not Tough Enough to Earn These Huge Returns",
-          "link": "https://www.wsj.com/finance/investing/youre-not-tough-enough-to-earn-these-huge-returns-3feaad7b?mod=rss_markets_main",
-          "pubDate": "2026-09-04T13:00:00.000Z",
-          "excerpt": "The latest defense of supercharged ETFs doesn’t hold water for most investors.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
           "title": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
           "link": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
-          "pubDate": "2026-09-04T12:54:27.000Z",
+          "pubDate": "2026-09-04T17:16:37.000Z",
           "excerpt": "Nonfarm payrolls were expected to increase by 53,000 in August while the unemployment rate held at 4.1%, according to the Dow Jones consensus.",
           "sourceId": "cnbc",
           "sourceName": "CNBC",
@@ -382,43 +360,10 @@
           "condensed": null
         },
         {
-          "title": "Is the stock market open on Labor Day? What about bond trading? Will the post office deliver mail?",
-          "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
-          "pubDate": "2026-09-04T12:51:00.000Z",
-          "excerpt": "Here’s how trading hours and other services are affected by the Labor Day holiday on Monday, Sept. 7.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Potential midterm-election chaos could roil markets. Here’s one trader’s play.",
-          "link": "https://www.marketwatch.com/story/potential-midterm-election-chaos-can-roil-markets-heres-one-traders-play-73a02966?mod=mw_rss_topstories",
-          "pubDate": "2026-09-04T12:40:00.000Z",
-          "excerpt": "Buying portfolio insurance to protect against falls in the market — if the outcome of the midterm elections is disputed — is so obvious to Kevin Muir, he…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Six reasons that the risk of a stock-market selloff is rising. Here’s what investors should be doing.",
-          "link": "https://www.marketwatch.com/story/six-reasons-that-the-risk-of-a-stock-market-selloff-is-rising-heres-what-investors-should-be-doing-4c3d84ec?mod=mw_rss_topstories",
-          "pubDate": "2026-09-04T12:38:00.000Z",
-          "excerpt": "Many markets are priced for perfection warns Longview Economics.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "US economy smashes forecast with 162,000 jobs added in August",
-          "link": "https://www.ft.com/content/a7ce8b2f-98f5-4e96-afa0-ccf4dceef8bd?syn-25a6b1a6=1",
-          "pubDate": "2026-09-04T12:32:03.000Z",
-          "excerpt": "Figure comes ahead of interest rate decision from Federal Reserve this month",
+          "title": "John Ternus, Apple’s new ‘wicked calm’ CEO",
+          "link": "https://www.ft.com/content/7347b9fc-ba63-48fb-b06d-b9fe5e9b046a?syn-25a6b1a6=1",
+          "pubDate": "2026-09-04T17:00:09.000Z",
+          "excerpt": "Tim Cook’s successor is a product engineer who has spent 25 years at the company and belongs to the generation mentored by Steve Jobs",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -426,14 +371,69 @@
           "condensed": null
         },
         {
-          "title": "The US’ dangerous reversion to imperialism in Latin America",
-          "link": "https://www.scmp.com/opinion/world-opinion/article/3366092/us-dangerous-reversion-imperialism-latin-america?utm_source=rss_feed",
-          "pubDate": "2026-09-04T12:30:10.000Z",
-          "excerpt": "When China’s trade with Latin America reached a record US$518.4 billion in 2024, it marked a fundamental shift in hemispheric economics. Beijing is now the…",
+          "title": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’",
+          "link": "https://www.marketwatch.com/story/think-of-nvidias-13-billion-deal-for-hugging-face-as-a-form-of-health-insurance-04c37535?mod=mw_rss_topstories",
+          "pubDate": "2026-09-04T16:19:00.000Z",
+          "excerpt": "As long as open-source AI models dominate, Nvidia’s custom chip competitors won’t be able to take over its share of the market, an analyst says",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Here’s how people are building their nest eggs using ‘rent and invest’ strategies",
+          "link": "https://www.marketwatch.com/story/heres-how-people-are-building-their-nest-eggs-using-rent-and-invest-strategies-253b069e?mod=mw_rss_topstories",
+          "pubDate": "2026-09-04T15:57:00.000Z",
+          "excerpt": "Also in Weekend Reads: The disrupted bond market, a warning for traders who borrow money, and advice from the Moneyist.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "5 EU nations plan to send rejected migrants to non-EU ‘return hubs’, target 2027",
+          "link": "https://www.scmp.com/news/world/europe/article/3366443/5-eu-nations-plan-send-rejected-migrants-non-eu-return-hubs-target-2027?utm_source=rss_feed",
+          "pubDate": "2026-09-04T15:55:16.000Z",
+          "excerpt": "Denmark and four other European Union countries agreed on Friday on a model for “return hubs” in non-EU nations and hope to begin sending migrants to the…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks.",
+          "link": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+          "pubDate": "2026-09-04T15:48:00.000Z",
+          "excerpt": "The president needs lower gasoline prices and mortgage rates — fast.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "S&P 500 changes are coming soon. These stocks could be named to the index today.",
+          "link": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
+          "pubDate": "2026-09-04T15:39:00.000Z",
+          "excerpt": "Twilio, Bloom Energy and Cheniere Energy are among the top contenders to join the S&P 500 in the upcoming quarterly rebalancing.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "The big business of personal protection: How private security became a $50 billion industry",
+          "link": "https://www.cnbc.com/2026/09/04/private-security-spending-crime-allied-universal.html",
+          "pubDate": "2026-09-04T14:15:04.000Z",
+          "excerpt": "Private security spending and guard employment have climbed as companies and communities respond to high-profile attacks, even as violent crime falls.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
           "condensed": null
         }
       ],
