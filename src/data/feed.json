@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T23:00:13.795Z",
+  "lastUpdated": "2026-09-14T00:50:30.616Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4377.2,
+      "value": 4374.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -37,9 +37,9 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 64011.34,
-      "change": -2388.5,
-      "changePercent": -3.597147222041499
+      "value": 62958.61,
+      "change": -2310.720000000001,
+      "changePercent": -3.540284540993451
     },
     {
       "symbol": "^HSI",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Vàng tụt giá trước thềm cuộc họp Fed",
+          "link": "https://vneconomy.vn/vang-tut-gia-truoc-them-cuoc-hop-fed.htm",
+          "pubDate": "2026-09-14T00:04:42.000Z",
+          "excerpt": "Giá vàng thế giới khởi động tuần giao dịch mới vào sáng nay (14/9) tại thị trường châu Á trong trạng thái giảm, khi nhà đầu tư chuẩn bị cho khả năng Cục Dự trữ…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Sau cột mốc nâng hạng, một \"hiệu ứng\" đặc biệt có thể xuất hiện trên TTCK Việt Nam",
           "link": "https://cafef.vn/sau-cot-moc-nang-hang-mot-hieu-ung-dac-biet-co-the-xuat-hien-tren-ttck-viet-nam-188260913144915237.chn",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Đề xuất doanh nghiệp, hộ kinh doanh được giảm 30% thuế hàng kỳ kê khai",
-          "link": "https://vnexpress.net/de-xuat-doanh-nghiep-ho-kinh-doanh-duoc-giam-30-thue-hang-ky-ke-khai-5119771.html",
-          "pubDate": "2026-09-13T10:17:46.000Z",
-          "excerpt": "Bộ Tài chính đề xuất doanh nghiệp, hộ kinh doanh có doanh thu tối đa 10 tỷ đồng một năm được giảm 30% thuế ngay trong kỳ kê khai, thay vì chờ quyết toán cuối…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,54 +159,65 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Chỉ 2 ngày nữa, Vingroup của tỷ phú Phạm Nhật Vượng sẽ khởi công ‘siêu’ dự án 41.000 tỷ tại địa phương giáp Hà Nội",
-          "link": "https://cafef.vn/chi-2-ngay-nua-vingroup-cua-ty-phu-pham-nhat-vuong-se-khoi-cong-sieu-du-an-41000-ty-tai-dia-phuong-giap-ha-noi-188260913234305558.chn",
+          "title": "Hạ tầng chắp vá úng ngập triền miên",
+          "link": "https://cafef.vn/ha-tang-chap-va-ung-ngap-trien-mien-188260914063113642.chn",
+          "pubDate": "2026-09-13T23:59:00.000Z",
+          "excerpt": "Trận mưa lớn nhất từ đầu năm với lượng mưa có nơi vượt 153 mm khiến 33 tuyến đường TPHCM ngập cục bộ tối 10/9, nhiều nơi nước tràn vào nhà dân, giao thông và…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chạy đua hoàn thiện dự án ngăn triều 10.000 tỷ đồng",
+          "link": "https://cafef.vn/chay-dua-hoan-thien-du-an-ngan-trieu-10000-ty-dong-188260914062756741.chn",
+          "pubDate": "2026-09-13T23:49:00.000Z",
+          "excerpt": "Sau nhiều năm đình trệ, dự án Giải quyết ngập do triều khu vực TPHCM có xét đến yếu tố biến đổi khí hậu - giai đoạn 1 đang được tập trung hoàn thiện để hướng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ngay tháng sau sẽ khởi công siêu cảng gần 5 tỷ USD, đủ sức đón được tàu container lớn nhất thế giới",
+          "link": "https://cafef.vn/ngay-thang-sau-se-khoi-cong-sieu-cang-gan-5-ty-usd-du-suc-don-duoc-tau-container-lon-nhat-the-gioi-188260914000150999.chn",
+          "pubDate": "2026-09-13T23:24:00.000Z",
+          "excerpt": "Dự án Cảng trung chuyển quốc tế Cần Giờ có diện tích khoảng 571ha, được thiết kế để đón những tàu container lớn nhất thế giới với sức chở khoảng 24.000 TEU.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Diễn biến mới tại ‘siêu’ dự án gần 10.000 tỷ do Sun Group đầu tư tại nơi được ví như “Đảo Ngọc” của một tỉnh miền Trung",
+          "link": "https://cafef.vn/dien-bien-moi-tai-sieu-du-an-gan-10000-ty-do-sun-group-dau-tu-tai-noi-duoc-vi-nhu-dao-ngoc-cua-mot-tinh-mien-trung-188260913234805475.chn",
+          "pubDate": "2026-09-13T23:08:00.000Z",
+          "excerpt": "Dự án Khu đô thị mới An Phú (Đảo Ngọc) quy mô gần 9.700 tỷ đồng do Tập đoàn Sun Group đầu tư đang được Quảng Ngãi đẩy nhanh các thủ tục bồi thường, giải phóng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nhà gỗ 20 m2 mô phỏng 'tàu ngầm đỏ' giữa rừng",
+          "link": "https://vnexpress.net/nha-go-20-m2-mo-phong-tau-ngam-do-giua-rung-5119716.html",
+          "pubDate": "2026-09-13T17:02:00.000Z",
+          "excerpt": "Diện tích chỉ 20 m2 nhưng căn nhà cabin vẫn có đủ khu sinh hoạt, chỗ ngủ và nhiều khoảng mở để kết nối trực tiếp với khu rừng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Tặng siêu xe, đứng bán phở, 21 giây livestream chốt một căn nhà và cách doanh nhân Cường Đô La chuyển sự tò mò của công chúng thành ngân sách marketing cho doanh nghiệp",
+          "link": "https://cafef.vn/tang-sieu-xe-dung-ban-pho-21-giay-livestream-chot-mot-can-nha-va-cach-doanh-nhan-cuong-do-la-chuyen-su-to-mo-cua-cong-chung-thanh-ngan-sach-marketing-cho-doanh-nghiep-188260914000011894.chn",
           "pubDate": "2026-09-13T17:00:00.000Z",
-          "excerpt": "Ngày 16/9, Tập đoàn Vingroup sẽ khởi công Khu đô thị mới phía Tây Bắc TP Bắc Ninh - Khu 1, dự án có tổng vốn đầu tư sơ bộ hơn 41.270 tỷ đồng, quy mô gần 269 ha.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tỷ phú Phạm Nhật Vượng đang cho xây công trình 5 sao nằm trong siêu dự án 10 tỷ USD",
-          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-dang-cho-xay-cong-trinh-5-sao-nam-trong-sieu-du-an-10-ty-usd-188260913171407007.chn",
-          "pubDate": "2026-09-13T16:59:00.000Z",
-          "excerpt": "Cảng tàu quốc tế 5 sao Landmark Harbour nằm tại phân khu The Paradise, thuộc đại đô thị lấn biển quy mô 2.870ha do Vingroup phát triển.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Một thành viên Pi Group được chuyển mục đích hơn 1 ha đất nông nghiệp làm khu đô thị An Phú",
-          "link": "https://cafef.vn/mot-thanh-vien-pi-group-duoc-chuyen-muc-dich-hon-1-ha-dat-nong-nghiep-lam-khu-do-thi-an-phu-188260913215250065.chn",
-          "pubDate": "2026-09-13T14:48:00.000Z",
-          "excerpt": "UBND TPHCM vừa cho phép Công ty TNHH Picity Central Park chuyển mục đích sử dụng gần 10.478m² đất để thực hiện khu đô thị An Phú – dự án được Pi Group phát…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Chuẩn bị khởi công siêu dự án gần 10.000 tỷ do Sun Group đầu tư tại một tỉnh miền Trung",
-          "link": "https://cafef.vn/chuan-bi-khoi-cong-sieu-du-an-gan-10000-ty-do-sun-group-dau-tu-tai-mot-tinh-mien-trung-188260913153908525.chn",
-          "pubDate": "2026-09-13T13:29:00.000Z",
-          "excerpt": "Cùng với việc đẩy nhanh giải phóng mặt bằng và chuẩn bị quỹ đất tái định cư, các cơ quan liên quan đang chủ động hoàn thiện điều kiện để tổ chức lễ khởi công…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nợ vay của doanh nghiệp bất động sản niêm yết tăng hơn 60.000 tỷ đồng chỉ sau 1 quý, lên mức cao nhất 15 quý",
-          "link": "https://cafef.vn/no-vay-cua-doanh-nghiep-bat-dong-san-niem-yet-tang-hon-60000-ty-dong-chi-sau-1-quy-len-muc-cao-nhat-15-quy-188260913161155141.chn",
-          "pubDate": "2026-09-13T13:07:00.000Z",
-          "excerpt": "Theo số liệu được S&I Ratings công bố, tỷ lệ nợ vay/vốn chủ sở hữu của các doanh nghiệp bất động sản niêm yết trong quý II/2026 lên đến 0,72 lần, mức cao nhất…",
+          "excerpt": "Bằng việc trực tiếp đứng bán phở hay chốt đơn căn hộ, người đứng đầu C-Holdings đã biến sự quan tâm của công chúng thành giá trị thương mại cụ thể, giúp doanh…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -234,17 +245,6 @@
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
           "condensed": null
-        },
-        {
-          "title": "TP HCM bố trí 128 nhà, đất tái định cư cho dự án metro Bến Thành - Cần Giờ, Vành đai 4",
-          "link": "https://vnexpress.net/tp-hcm-bo-tri-128-nha-dat-tai-dinh-cu-cho-du-an-metro-ben-thanh-can-gio-vanh-dai-4-5119695.html",
-          "pubDate": "2026-09-13T08:10:03.000Z",
-          "excerpt": "TP HCM bố trí 128 suất nhà, đất và căn hộ tái định cư phục vụ giải phóng mặt bằng dự án tuyến đường sắt Bến Thành - Cần Giờ và Vành đai 4.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,28 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Quyết liệt kiểm soát giá trong những tháng cuối năm",
+          "link": "https://cafef.vn/quyet-liet-kiem-soat-gia-trong-nhung-thang-cuoi-nam-188260914071920292.chn",
+          "pubDate": "2026-09-14T00:23:00.000Z",
+          "excerpt": "Văn phòng Chính phủ có văn bản số 480/TB-VPCP thông báo kết luận của Phó Thủ tướng Chính phủ Nguyễn Văn Thắng, Trưởng Ban chỉ đạo điều hành giá tại cuộc họp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đóng góp hơn 60.000 tỷ đồng ngân sách mỗi năm, ngành đồ uống đang chuyển hướng ra sao?",
+          "link": "https://cafef.vn/dong-gop-hon-60000-ty-dong-ngan-sach-moi-nam-nganh-do-uong-dang-chuyen-huong-ra-sao-188260914071036655.chn",
+          "pubDate": "2026-09-13T14:10:00.000Z",
+          "excerpt": "Ngành đồ uống hiện đóng góp hơn 60.000 tỷ đồng vào ngân sách mỗi năm, tạo việc làm trực tiếp và gián tiếp cho hàng triệu lao động. Bên cạnh hoạt động sản xuất,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "GDP (PPP) Việt Nam sắp vượt Thái Lan, Úc, tiến tới Top 22 toàn cầu",
           "link": "https://cafef.vn/gdp-ppp-viet-nam-sap-vuot-thai-lan-uc-tien-toi-top-22-toan-cau-188260913192506799.chn",
@@ -280,28 +302,6 @@
           "link": "https://cafef.vn/cong-an-phat-thong-bao-quan-trong-lien-quan-den-bien-so-xe-cua-tat-ca-nguoi-dan-tren-ca-nuoc-188260913160254755.chn",
           "pubDate": "2026-09-13T10:00:00.000Z",
           "excerpt": "Người tham gia giao thông cần chú ý thông báo sau từ cơ quan Công an.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội dự kiến thêm 5 cầu vượt sông trên Trục đại lộ cảnh quan sông Hồng",
-          "link": "https://cafef.vn/ha-noi-du-kien-them-5-cau-vuot-song-tren-truc-dai-lo-canh-quan-song-hong-188260913153046406.chn",
-          "pubDate": "2026-09-13T09:35:00.000Z",
-          "excerpt": "Hà Nội dự kiến quy hoạch thêm 5 cầu vượt sông Hồng trên Trục đại lộ cảnh quan, giai đoạn 2026-2038, gồm Liên Trung, Tàm Xá, Cự Khối, Bát Tràng và Khuyến Lương.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Dự án trục đại lộ cảnh quan sông Hồng qua góc nhìn quốc tế: Định hình một Hà Nội mới",
-          "link": "https://cafef.vn/du-an-truc-dai-lo-canh-quan-song-hong-qua-goc-nhin-quoc-te-dinh-hinh-mot-ha-noi-moi-188260913143302455.chn",
-          "pubDate": "2026-09-13T09:00:00.000Z",
-          "excerpt": "Trong con mắt của các chuyên gia và truyền thông quốc tế, dự án phát triển không gian sông Hồng của Hà Nội được nhìn nhận là một nỗ lực tái cấu trúc đô thị quy…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
