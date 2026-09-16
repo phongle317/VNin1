@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T18:45:48.269Z",
+  "lastUpdated": "2026-09-16T21:58:22.648Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4323.6,
+      "value": 4302.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7605.6,
-      "change": -30.75999999999931,
-      "changePercent": -0.4028097156236651
+      "value": 7551.81,
+      "change": -84.54999999999927,
+      "changePercent": -1.1072029081918515
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26153.516,
-      "change": -99.82400000000052,
-      "changePercent": -0.3802335245724945
+      "value": 25978.424,
+      "change": -274.9160000000011,
+      "changePercent": -1.0471658082362132
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Fed tăng lãi suất lần đầu tiên sau 3 năm",
+          "link": "https://vnexpress.net/fed-tang-lai-suat-lan-dau-tien-sau-3-nam-5121142.html",
+          "pubDate": "2026-09-16T18:38:07.000Z",
+          "excerpt": "Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất lần đầu tiên kể từ năm 2023, đúng như dự báo của thị trường.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Một thế lực nắm giữ lượng vàng kỷ lục hơn 4.200 tấn nhưng vẫn không ngừng mua thêm",
           "link": "https://cafef.vn/mot-the-luc-nam-giu-luong-vang-ky-luc-hon-4200-tan-nhung-van-khong-ngung-mua-them-18826091700112272.chn",
@@ -119,6 +130,17 @@
           "condensed": null
         },
         {
+          "title": "Mới có hai địa phương hỗ trợ người dân lắp điện mặt trời mái nhà",
+          "link": "https://vnexpress.net/moi-co-hai-dia-phuong-ho-tro-nguoi-dan-lap-dien-mat-troi-mai-nha-5121075.html",
+          "pubDate": "2026-09-16T13:20:57.000Z",
+          "excerpt": "Bộ Công Thương đề nghị các địa phương sớm đưa ra chính sách hỗ trợ hộ gia đình lắp điện mặt trời mái nhà tự dùng, tương tự Bắc Ninh và Lai Châu.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Từng vỡ nợ, Hy Lạp bây giờ đi vay với lãi suất còn thấp hơn cả Pháp",
           "link": "https://vneconomy.vn/tung-vo-no-hy-lap-bay-gio-di-vay-voi-lai-suat-con-thap-hon-ca-phap.htm",
           "pubDate": "2026-09-16T13:12:51.000Z",
@@ -127,28 +149,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Techcombank triển khai phương án tăng vốn điều lệ lên mức 106,593 tỷ đồng",
-          "link": "http://vietstock.vn/2026/09/techcombank-trien-khai-phuong-an-tang-von-dieu-le-len-muc-106593-ty-dong-757-1493116.htm",
-          "pubDate": "2026-09-16T12:55:55.000Z",
-          "excerpt": "Ngày 15/09/2026, HĐQT Ngân hàng TMCP Kỹ thương Việt Nam (Techcombank, HOSE: TCB) thông qua nghị quyết triển khai phương án tăng vốn điều lệ năm 2026.",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Trước thềm ĐHĐCĐ bất thường, Eximbank gia hạn đề cử nhân sự HĐQT",
-          "link": "http://vietstock.vn/2026/09/truoc-them-dhdcd-bat-thuong-eximbank-gia-han-de-cu-nhan-su-hdqt-757-1493115.htm",
-          "pubDate": "2026-09-16T12:33:34.000Z",
-          "excerpt": "Ngân hàng TMCP Xuất nhập khẩu Việt Nam (Eximbank, HOSE: EIB) công bố thông tin liên quan đến việc gia hạn thời gian nhận hồ sơ đề cử nhân sự dự kiến bầu bổ…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
           "condensed": null
         }
       ],
@@ -254,28 +254,6 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Fed tăng lãi suất lần đầu tiên sau 3 năm",
-          "link": "https://vnexpress.net/fed-tang-lai-suat-lan-dau-tien-sau-3-nam-5121142.html",
-          "pubDate": "2026-09-16T18:38:07.000Z",
-          "excerpt": "Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất lần đầu tiên kể từ năm 2023, đúng như dự báo của thị trường.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Mới có hai địa phương hỗ trợ người dân lắp điện mặt trời mái nhà",
-          "link": "https://vnexpress.net/moi-co-hai-dia-phuong-ho-tro-nguoi-dan-lap-dien-mat-troi-mai-nha-5121075.html",
-          "pubDate": "2026-09-16T13:20:57.000Z",
-          "excerpt": "Bộ Công Thương đề nghị các địa phương sớm đưa ra chính sách hỗ trợ hộ gia đình lắp điện mặt trời mái nhà tự dùng, tương tự Bắc Ninh và Lai Châu.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Đảm bảo năng lực nhà đầu tư cho dự án nạo vét cảng cá Cà Ná",
           "link": "https://cafef.vn/dam-bao-nang-luc-nha-dau-tu-cho-du-an-nao-vet-cang-ca-ca-na-188260916201259231.chn",
           "pubDate": "2026-09-16T13:12:00.000Z",
@@ -340,6 +318,28 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "TP. Hồ Chí Minh dự chi hơn 26.000 tỷ đồng bồi thường, tái định cư làm metro số 6",
+          "link": "https://vneconomy.vn/tp-ho-chi-minh-du-chi-hon-26000-ty-dong-boi-thuong-tai-dinh-cu-lam-metro-so-6.htm",
+          "pubDate": "2026-09-16T07:02:14.000Z",
+          "excerpt": "TP. Hồ Chí Minh đang lấy ý kiến thẩm định dự án bồi thường, hỗ trợ, tái định cư hơn 26.000 tỷ đồng để giải phóng mặt bằng tuyến đường sắt đô thị số 6 dài gần…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Ban hành Nghị định mới gỡ vướng và rút ngắn quy trình triển khai các dự án đường sắt",
+          "link": "https://vneconomy.vn/ban-hanh-nghi-dinh-moi-go-vuong-va-rut-ngan-quy-trinh-trien-khai-cac-du-an-duong-sat.htm",
+          "pubDate": "2026-09-16T04:14:01.000Z",
+          "excerpt": "Nghị định 352/2026/NĐ-CP cho phép triển khai song song một số công việc tại dự án đường sắt, áp dụng thiết kế FEED và thuê tư vấn nước ngoài trong nhiều khâu…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "The smartest money moves to make now that interest rates are going higher",
-          "link": "https://www.marketwatch.com/story/the-smartest-money-moves-to-make-with-interest-rates-expected-to-go-higher-aefe375b?mod=mw_rss_topstories",
-          "pubDate": "2026-09-16T18:38:00.000Z",
-          "excerpt": "The Fed’s quarter-point interest-rate hike will ‘bite’ consumers. Here’s how to prep your money.",
+          "title": "US troops must prepare to fight around the moon, Trump’s top military adviser says",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3367778/us-troops-must-prepare-fight-around-moon-trumps-top-military-adviser-says?utm_source=rss_feed",
+          "pubDate": "2026-09-16T21:47:55.000Z",
+          "excerpt": "American troops need to prepare for combat not only in Earth’s orbit but around the moon, President Donald Trump’s top military adviser said on Wednesday,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+          "link": "https://www.marketwatch.com/story/fed-rate-hike-fails-to-calm-troubled-markets-as-dow-falls-600-points-expect-more-sharp-swings-in-stocks-and-bonds-5ffb55fe?mod=mw_rss_topstories",
+          "pubDate": "2026-09-16T21:40:00.000Z",
+          "excerpt": "Fed Chair Kevin Warsh has sent investors a message: When it comes to tamping down inflation, he means business.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,10 +371,10 @@
           "condensed": null
         },
         {
-          "title": "What Fed Rate Increase Means for Your Money",
-          "link": "https://www.wsj.com/finance/investing/what-fed-rate-increase-means-for-your-money-cf527fcd?mod=rss_markets_main",
-          "pubDate": "2026-09-16T18:37:00.000Z",
-          "excerpt": "The increase will add to interest costs for credit-card borrowers but won‘t directly affect mortgage rates.",
+          "title": "U.S. Markets Sell Off After Fed’s Warsh Says Inflation Is Still ‘Too High’",
+          "link": "https://www.wsj.com/finance/investing/u-s-markets-sell-off-after-feds-warsh-says-inflation-is-still-too-high-26bd17f2?mod=rss_markets_main",
+          "pubDate": "2026-09-16T21:12:00.000Z",
+          "excerpt": "All three major U.S. stock indexes closed lower for the seventh time in the past eight sessions after the Fed chairman made it clear inflation is still a…",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
@@ -371,31 +382,31 @@
           "condensed": null
         },
         {
-          "title": "Warsh’s Fed rolls out first interest-rate hike in 3 years — with one more increase expected",
-          "link": "https://www.marketwatch.com/story/warshs-fed-rolls-out-first-interest-rate-hike-in-3-years-with-one-more-increase-expected-cde3060d?mod=mw_rss_topstories",
-          "pubDate": "2026-09-16T18:29:00.000Z",
-          "excerpt": "The Federal Reserve on Wednesday rolled out its decision on interest rates as the U.S. central bank tries to tame persistent inflation.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "Trump calls for rates to be 1% or less after Fed tightens monetary policy",
+          "link": "https://www.ft.com/content/61b5fbae-9dd6-4980-bd1f-effe54b72d84",
+          "pubDate": "2026-09-16T21:03:29.000Z",
+          "excerpt": "President urges policymakers to act for the sake of the country as rate-setters lift borrowing costs for first time since 2023",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         },
         {
-          "title": "Micron’s stock could climb 70% higher thanks to a factor that’s been largely absent so far",
-          "link": "https://www.marketwatch.com/story/microns-stock-could-climb-70-higher-thanks-to-a-factor-thats-been-largely-absent-so-far-2489f2cc?mod=mw_rss_topstories",
-          "pubDate": "2026-09-16T18:26:00.000Z",
-          "excerpt": "Shares of Micron trade at a stubbornly low valuation but a TD Cowen analyst thinks that could change.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
+          "title": "Fed defies Trump with first rate rise since 2023",
+          "link": "https://www.ft.com/content/f5ce5c38-76e3-4212-8c60-4c868f6dee70?syn-25a6b1a6=1",
+          "pubDate": "2026-09-16T20:59:14.000Z",
+          "excerpt": "Central bank signals willingness for further action as chair Kevin Warsh warns that ‘inflation is too high and has been for too long’",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         },
         {
           "title": "Intel’s stock rises as investors hope memory chips can mark the next step in its turnaround",
           "link": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
-          "pubDate": "2026-09-16T18:20:00.000Z",
+          "pubDate": "2026-09-16T20:53:00.000Z",
           "excerpt": "A report says Intel is in early talks with SK Hynix, which is considering some sort of partnership that would enable it to make memory chips in the U.S.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -404,36 +415,25 @@
           "condensed": null
         },
         {
-          "title": "US Federal Reserve raises interest rates for first time in 3 years, risking Trump’s ire",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3367774/us-federal-reserve-raises-interest-rates-first-time-3-years-risking-trumps-ire?utm_source=rss_feed",
-          "pubDate": "2026-09-16T18:15:10.000Z",
-          "excerpt": "The Federal Reserve on Wednesday raised interest rates in the world’s largest economy by a quarter of a percentage point to tackle stubbornly high inflation, a…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Why optical stocks Lumentum and Coherent were the day’s biggest S&P 500 gainers",
+          "link": "https://www.marketwatch.com/story/why-optical-stocks-lumentum-and-coherent-were-the-days-biggest-gainers-051af440?mod=mw_rss_topstories",
+          "pubDate": "2026-09-16T20:52:00.000Z",
+          "excerpt": "Investors are looking further down the AI data-center supply chain for signs of demand amid concerns of a spending slowdown, one expert says.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Fed raises rates for first time since 2023 in unanimous decision",
-          "link": "https://www.ft.com/content/61b5fbae-9dd6-4980-bd1f-effe54b72d84",
-          "pubDate": "2026-09-16T18:01:54.000Z",
-          "excerpt": "Central bank chair Kevin Warsh defies calls from Donald Trump to lower borrowing costs",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "'Science fiction': Transport companies — the backbone of economy — are sounding alarm on fuel prices",
-          "link": "https://www.cnbc.com/2026/09/16/transport-economy-diesel-prices-iran.html",
-          "pubDate": "2026-09-16T17:50:28.000Z",
-          "excerpt": "Prices for diesel, the fuel type used to power trucks and trains, came in at an all-time high of $6.31 per gallon on Wednesday.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
+          "title": "Here’s a sneaky way to play the Fed’s rate increase",
+          "link": "https://www.marketwatch.com/story/heres-a-sneaky-way-to-play-the-feds-rate-increase-6deb072f?mod=mw_rss_topstories",
+          "pubDate": "2026-09-16T20:38:00.000Z",
+          "excerpt": "But watch out for the pitfalls.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
