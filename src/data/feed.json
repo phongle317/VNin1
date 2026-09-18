@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-09-18T07:12:01.063Z",
+  "lastUpdated": "2026-09-18T12:48:39.168Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26200,
+      "value": 26210,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4432.5,
+      "value": 4409.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": true,
-    "note": null
+    "marketOpen": false,
+    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
   },
   "globalIndices": [
     {
@@ -45,17 +45,17 @@
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 24815.71,
-      "change": 10.079999999998108,
-      "changePercent": 0.04063593627736166
+      "value": 24750.78,
+      "change": -54.85000000000218,
+      "changePercent": -0.2211191572235907
     },
     {
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25716.7,
-      "change": 148.13999999999942,
-      "changePercent": 0.5793834302753045
+      "value": 25397.61,
+      "change": -170.95000000000073,
+      "changePercent": -0.6685945551880932
     }
   ],
   "themes": [
@@ -64,32 +64,10 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Nhà đầu tư ngoại tăng mua cổ phiếu Việt Nam trước thềm nâng hạng FTSE",
-          "link": "https://cafef.vn/nha-dau-tu-ngoai-tang-mua-co-phieu-viet-nam-truoc-them-nang-hang-ftse-18826091814032272.chn",
-          "pubDate": "2026-09-18T07:03:00.000Z",
-          "excerpt": "Nhà đầu tư nước ngoài gia tăng mua cổ phiếu Việt Nam trước thời điểm FTSE Russell chính thức nâng hạng thị trường.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Âu Lạc dự kiến chia cổ phiếu thưởng tỷ lệ 49%",
-          "link": "https://cafef.vn/au-lac-du-kien-chia-co-phieu-thuong-ty-le-49-188260918130819413.chn",
-          "pubDate": "2026-09-18T06:34:00.000Z",
-          "excerpt": "Âu Lạc sẽ chia cổ phiếu thưởng với tỷ lệ 49%, tương đương phát hành thêm hơn 25 triệu cổ phiếu.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Gần 1.3 triệu tỷ đồng rót vào bất động sản: Dấu hiệu phục hồi hay \"bong bóng\" đang hình thành?",
-          "link": "http://vietstock.vn/2026/09/gan-13-trieu-ty-dong-rot-vao-bat-dong-san-dau-hieu-phuc-hoi-hay-bong-bong-dang-hinh-thanh-757-1493533.htm",
-          "pubDate": "2026-09-18T06:02:00.000Z",
-          "excerpt": ".",
+          "title": "TPBank hoàn tất nền tảng triển khai IRB, tự tin bước vào giai đoạn chuyển đổi theo Thông tư 14",
+          "link": "http://vietstock.vn/2026/09/tpbank-hoan-tat-nen-tang-trien-khai-irb-tu-tin-buoc-vao-giai-doan-chuyen-doi-theo-thong-tu-14-757-1493930.htm",
+          "pubDate": "2026-09-18T12:06:14.000Z",
+          "excerpt": "Sở hữu các chỉ số tài chính mạnh là bệ phóng vững chắc để TPBank mở rộng quy mô một cách an toàn, hiệu quả và tối ưu hóa việc sử dụng vốn. Sau khi sớm hoàn tất…",
           "sourceId": "vietstock",
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
@@ -97,43 +75,43 @@
           "condensed": null
         },
         {
-          "title": "Vinhomes nâng hợp đồng tổng thầu siêu dự án Cần Giờ tăng 76%, lên hơn 12 tỷ USD",
-          "link": "https://cafef.vn/vinhomes-nang-hop-dong-tong-thau-sieu-du-an-can-gio-tang-76-len-hon-12-ty-usd-188260918125909481.chn",
-          "pubDate": "2026-09-18T05:59:00.000Z",
-          "excerpt": "Dự án Vinhomes Cần Giờ được giới thiệu có tổng mức đầu tư 9 tỷ USD. Không ngoại trừ khả năng Vinhomes đã nâng tổng mức đầu tư dự án này.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Giám đốc FTSE Russell: Cam kết trở thành đối tác lâu dài của Việt Nam, tiếp tục hiện đại hóa thị trường vốn",
+          "link": "https://vneconomy.vn/giam-doc-ftse-russell-cam-ket-tro-thanh-doi-tac-lau-dai-cua-viet-nam-tiep-tuc-hien-dai-hoa-thi-truong-von.htm",
+          "pubDate": "2026-09-18T12:00:43.000Z",
+          "excerpt": "FTSE Russell cam kết trở thành đối tác lâu dài của Việt Nam trong quá trình tiếp tục hiện đại hóa thị trường vốn.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         },
         {
-          "title": "Động thái mới nhất của tỷ phú Phạm Nhật Vượng tại Mỹ",
-          "link": "https://cafef.vn/dong-thai-moi-nhat-cua-ty-phu-pham-nhat-vuong-tai-my-18826091812303291.chn",
-          "pubDate": "2026-09-18T05:30:00.000Z",
-          "excerpt": "Bên cạnh việc phát triển mạng lưới bán hàng và dịch vụ, VinFast tiếp tục đẩy mạnh Chương trình Xe đã qua sử dụng Chính hãng, mang đến cho khách hàng tại Mỹ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Bộ trưởng Tài chính: Nâng hạng không phải là bước tiến cuối cùng mà là một bước tiến mới",
+          "link": "https://vneconomy.vn/bo-truong-tai-chinh-nang-hang-khong-phai-la-buoc-tien-cuoi-cung-ma-la-mot-buoc-tien-moi.htm",
+          "pubDate": "2026-09-18T11:40:34.000Z",
+          "excerpt": "Nâng hạng không phải là bước tiến cuối cùng mà là một bước tiến mới, đồng thời đặt ra yêu cầu cao hơn đối với thị trường và với cơ quan quản lý trong bối cảnh…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         },
         {
-          "title": "Chuyên gia Morgan Stanley: Thanh khoản chứng khoán Việt Nam có thể lên 3-4 tỷ USD/ngày",
-          "link": "https://cafef.vn/chuyen-gia-morgan-stanley-thanh-khoan-chung-khoan-viet-nam-co-the-len-3-4-ty-usd-ngay-188260918113737857.chn",
-          "pubDate": "2026-09-18T04:40:00.000Z",
-          "excerpt": "Theo ông, nâng hạng là nền tảng để Việt Nam thu hút trở lại sự quan tâm của dòng vốn trong môi trường cạnh tranh của thị trường vốn châu Á.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "UOB: Triển vọng tăng trưởng 2026 tích cực, tỷ giá vẫn ổn định",
+          "link": "https://vneconomy.vn/uob-trien-vong-tang-truong-2026-tich-cuc-ty-gia-van-on-dinh.htm",
+          "pubDate": "2026-09-18T11:00:57.000Z",
+          "excerpt": "Trong bối cảnh kinh tế toàn cầu còn nhiều biến động, các chuyên gia UOB duy trì đánh giá tích cực về triển vọng tăng trưởng Việt Nam, với AI, xuất khẩu và dòng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         },
         {
-          "title": "VIB 30 năm: Sáng tạo vì những bước tiến",
-          "link": "http://vietstock.vn/2026/09/vib-30-nam-sang-tao-vi-nhung-buoc-tien-757-1493624.htm",
-          "pubDate": "2026-09-18T04:23:23.000Z",
-          "excerpt": "Từ 2016-2026, tổng tài sản VIB tăng hơn 5.5 lần, từ 104,517 tỷ đồng lên hơn 580,000 tỷ đồng. Nhìn trên hành trình 30 năm, từ 50 tỷ đồng vốn điều lệ và 23 nhân…",
+          "title": "HDBank tiếp tục vào Top 50 Forbes Việt Nam trong bước chuyển lớn của thị trường vốn",
+          "link": "http://vietstock.vn/2026/09/hdbank-tiep-tuc-vao-top-50-forbes-viet-nam-trong-buoc-chuyen-lon-cua-thi-truong-von-757-1493803.htm",
+          "pubDate": "2026-09-18T10:55:31.000Z",
+          "excerpt": "Ngân hàng TMCP Phát triển TPHCM (HDBank, HOSE: HDB) tiếp tục được vinh danh trong Top 50 Công ty niêm yết tốt nhất Việt Nam 2026 tại Diễn đàn Kinh doanh Forbes…",
           "sourceId": "vietstock",
           "sourceName": "Vietstock",
           "sourceUrl": "https://vietstock.vn",
@@ -141,14 +119,36 @@
           "condensed": null
         },
         {
-          "title": "Phòng gym cao cấp hụt hơi",
-          "link": "https://vnexpress.net/phong-gym-cao-cap-hut-hoi-5121139.html",
-          "pubDate": "2026-09-18T02:36:20.000Z",
-          "excerpt": "Chi phí mặt bằng lớn, vận hành cồng kềnh và khách hàng có thêm nhiều lựa chọn khiến các chuỗi gym cao cấp thu hẹp hoặc rời thị trường.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "VN-Index đảo chiều trước giờ nâng hạng",
+          "link": "https://cafef.vn/vn-index-dao-chieu-truoc-gio-nang-hang-188260918170117351.chn",
+          "pubDate": "2026-09-18T10:30:00.000Z",
+          "excerpt": "Phiên giao dịch cuối cùng trước khi thị trường chứng khoán Việt Nam chính thức được FTSE Russell nâng hạng diễn ra đầy biến động. VN-Index có lúc tăng hơn 18…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tác động từ chính sách của Fed và triển vọng tỷ giá giai đoạn 2026-2027",
+          "link": "http://vietstock.vn/2026/09/tac-dong-tu-chinh-sach-cua-fed-va-trien-vong-ty-gia-giai-doan-2026-2027-757-1493768.htm",
+          "pubDate": "2026-09-18T10:23:38.000Z",
+          "excerpt": "Lộ trình tăng lãi suất của Fed đang tạo ra những sức ép nhất định lên thị trường ngoại hối, song các chuyên gia từ UOB nhận định đồng Việt Nam vẫn duy trì được…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "Kịch bản nào cho mặt bằng nội địa khi Fed tiếp tục lộ trình tăng lãi suất?",
+          "link": "http://vietstock.vn/2026/09/kich-ban-nao-cho-mat-bang-noi-dia-khi-fed-tiep-tuc-lo-trinh-tang-lai-suat-757-1493740.htm",
+          "pubDate": "2026-09-18T10:13:34.000Z",
+          "excerpt": "Trước dự báo Fed tiếp tục lộ trình tăng lãi suất, lo ngại về sức ép lên chi phí vốn nội địa lập tức xuất hiện. Tuy nhiên, nhờ chiến lược phòng vệ chủ động của…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
           "condensed": null
         }
       ],
@@ -159,43 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Kiến trúc mang dấu ấn hoa mai của tòa căn hộ F2 FourS Tower",
-          "link": "https://vnexpress.net/kien-truc-mang-dau-an-hoa-mai-cua-toa-can-ho-f2-fours-tower-5121769.html",
-          "pubDate": "2026-09-18T07:00:00.000Z",
-          "excerpt": "Tháp Mùa Xuân thuộc tổ hợp FourS Tower tại Đà Nẵng lấy cảm hứng từ hoa mai trong tranh tứ bình, thể hiện qua kiến trúc, hướng căn hộ và cách mở rộng tầm nhìn.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Luật Phát triển đô thị: Từ dư địa thể chế đến kỳ vọng về diện mạo đô thị mới",
-          "link": "https://vneconomy.vn/luat-phat-trien-do-thi-tu-du-dia-the-che-den-ky-vong-ve-dien-mao-do-thi-moi.htm",
-          "pubDate": "2026-09-18T06:37:42.000Z",
-          "excerpt": "Luật Phát triển đô thị được Quốc hội thông qua ngày 24/8/2026, có hiệu lực từ ngày 1/10/2026. Khoảng cách ngắn giữa hai mốc này đặt ra yêu cầu về tính đồng bộ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội quy định trình tự, thủ tục thu hồi đất các trường hợp tại Luật Thủ đô",
-          "link": "https://vneconomy.vn/ha-noi-quy-dinh-trinh-tu-thu-tuc-thu-hoi-dat-cac-truong-hop-tai-luat-thu-do.htm",
-          "pubDate": "2026-09-18T06:36:06.000Z",
-          "excerpt": "Theo Quyết định số 127/2026/QĐ - UBND của Hà Nội, đối với trường hợp dự án chưa hoàn thành việc bố trí tái định cư: UBND cấp có thẩm quyền ban hành quyết định…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Đà Nẵng trước chu kỳ tăng trưởng mới: Bất động sản có dòng tiền thực lên ngôi",
-          "link": "https://cafef.vn/da-nang-truoc-chu-ky-tang-truong-moi-bat-dong-san-co-dong-tien-thuc-len-ngoi-188260918111723171.chn",
-          "pubDate": "2026-09-18T06:30:00.000Z",
-          "excerpt": "Hạ tầng kết nối, du lịch nghỉ dưỡng và hệ sinh thái dịch vụ đang cùng tạo lực đẩy cho Nam Đà Nẵng. Tọa lạc trên đại lộ Trường Sa, liền kề biển, sân gôn và các…",
+          "title": "Động thổ KCN Tân Phước 1, khởi động chiến lược đầu tư toàn diện của IDICO tại ĐBSCL",
+          "link": "https://cafef.vn/dong-tho-kcn-tan-phuoc-1-khoi-dong-chien-luoc-dau-tu-toan-dien-cua-idico-tai-dbscl-188260918192546374.chn",
+          "pubDate": "2026-09-18T12:30:00.000Z",
+          "excerpt": "Đồng Tháp, ngày 17/9/2026 – Công ty CP IDICO Tiền Giang (thành viên Tổng Công ty IDICO – CTCP, HNX: IDC) chính thức tổ chức Lễ động thổ thi công hạ tầng kỹ…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -203,10 +170,43 @@
           "condensed": null
         },
         {
-          "title": "Mê Linh tạm dừng hàng loạt thủ tục đất đai trong phạm vi quy hoạch siêu dự án đại lộ sông Hồng",
-          "link": "https://cafebiz.vn/me-linh-tam-dung-hang-loat-thu-tuc-dat-dai-trong-pham-vi-quy-hoach-sieu-du-an-dai-lo-song-hong-176260918130612082.chn",
-          "pubDate": "2026-09-18T06:07:00.000Z",
-          "excerpt": "Việc tạm dừng được thực hiện trong thời gian xã Mê Linh lấy ý kiến cộng đồng về dự án Trục đại lộ cảnh quan sông Hồng và chờ hướng dẫn của cơ quan chuyên môn.",
+          "title": "TT GENESIS chính thức kick-off, gia nhập thị trường Nam TP. Hồ Chí Minh với giá từ 69 triệu đồng/m²",
+          "link": "https://cafef.vn/tt-genesis-chinh-thuc-kick-off-gia-nhap-thi-truong-nam-tp-ho-chi-minh-voi-gia-tu-69-trieu-dong-m-188260918155213666.chn",
+          "pubDate": "2026-09-18T12:30:00.000Z",
+          "excerpt": "Trong bối cảnh mặt bằng giá căn hộ mới tại khu Nam, đặc biệt ở khu vực liền kề Phú Mỹ Hưng, đã dao động quanh ngưỡng 100 triệu đồng/m², TT GENESIS chính thức…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tỉnh sắp lên TP trực thuộc Trung ương duyệt quy hoạch KĐT gần 80ha, tạm làm quỹ đất đối ứng cho tuyến đường nối sân bay 5 sao, top 10 thế giới với Hà Nội",
+          "link": "https://cafef.vn/tinh-sap-len-tp-truc-thuoc-trung-uong-duyet-quy-hoach-kdt-gan-80ha-tam-lam-quy-dat-doi-ung-cho-tuyen-duong-noi-san-bay-5-sao-top-10-the-gioi-voi-ha-noi-188260918182202387.chn",
+          "pubDate": "2026-09-18T11:21:00.000Z",
+          "excerpt": "Khu đô thị số 28 Nhân Hòa quy mô gần 80ha, dân số dự kiến hơn 12.000 người, tạm xác định làm quỹ đất đối ứng cho tuyến đường kết nối sân bay Gia Bình với Hà…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hà Nội: 5 ngày người dân Tứ Liên sống chật vật trong cảnh ngập lụt",
+          "link": "https://cafef.vn/ha-noi-5-ngay-nguoi-dan-tu-lien-song-chat-vat-trong-canh-ngap-lut-188260918154141204.chn",
+          "pubDate": "2026-09-18T09:24:00.000Z",
+          "excerpt": "Nước ngập 5 ngày chưa rút hết, nhiều hộ dân ngõ 39 Tứ Liên, Hà Nội, phải sống trong cảnh mất điện, thiếu nước sạch, đi lại khó khăn, đồ đạc hư hỏng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Gần 230.000 tỷ đồng cải tạo sông Đáy: MIK Group xin làm BT, đổi bằng đất",
+          "link": "https://cafebiz.vn/gan-230000-ty-dong-cai-tao-song-day-mik-group-xin-lam-bt-doi-bang-dat-176260918161106792.chn",
+          "pubDate": "2026-09-18T09:12:00.000Z",
+          "excerpt": "MIK Group đề xuất cải tạo sông Đáy theo hình thức PPP, hợp đồng BT, với sơ bộ tổng mức đầu tư gần 230.000 tỷ đồng. Doanh nghiệp dự kiến ứng vốn thực hiện dự án…",
           "sourceId": "cafebiz",
           "sourceName": "CafeBiz",
           "sourceUrl": "https://cafebiz.vn",
@@ -214,21 +214,10 @@
           "condensed": null
         },
         {
-          "title": "Vinhomes nâng hợp đồng tổng thầu siêu dự án Cần Giờ tăng 76%, lên hơn 12 tỷ USD",
-          "link": "https://cafebiz.vn/vinhomes-nang-hop-dong-tong-thau-sieu-du-an-can-gio-tang-76-len-hon-12-ty-usd-176260918125635861.chn",
-          "pubDate": "2026-09-18T05:57:00.000Z",
-          "excerpt": "Dự án Vinhomes Cần Giờ được giới thiệu có tổng mức đầu tư 9 tỷ USD. Không ngoại trừ khả năng Vinhomes đã nâng tổng mức đầu tư dự án này.",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": null
-        },
-        {
-          "title": "Tăng tốc thi công cầu Hồng Hà thuộc Vành đai 4 - Vùng Thủ đô",
-          "link": "https://cafef.vn/tang-toc-thi-cong-cau-hong-ha-thuoc-vanh-dai-4-vung-thu-do-188260918122547742.chn",
-          "pubDate": "2026-09-18T05:34:00.000Z",
-          "excerpt": "Sau 11 tháng khởi công, dự án cầu Hồng Hà thuộc Vành đai 4 - Vùng Thủ đô đang được các nhà thầu tăng tốc thi công. Những trụ cầu cao dần lên giữa dòng sông…",
+          "title": "'Muốn hết ngập hầm chui An Phú phải giải bài toán thoát nước cả khu vực'",
+          "link": "https://cafef.vn/muon-het-ngap-ham-chui-an-phu-phai-giai-bai-toan-thoat-nuoc-ca-khu-vuc-188260918154306151.chn",
+          "pubDate": "2026-09-18T08:56:00.000Z",
+          "excerpt": "Đó là nhận định của TS-KTS Võ Kim Cương, nguyên Phó Kiến trúc sư trưởng TP.HCM về việc xử lý ngập tại hầm chui An Phú mỗi khi mưa lớn.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -236,14 +225,25 @@
           "condensed": null
         },
         {
-          "title": "Lãnh đạo May 10 thừa nhận bán hàng trong nước không dễ: Người tiêu dùng yêu cầu cao, offline chịu tiền thuê mặt bằng đắt, online mất 25-27% phí sàn",
-          "link": "https://cafef.vn/lanh-dao-may-10-thua-nhan-ban-hang-trong-nuoc-khong-de-nguoi-tieu-dung-yeu-cau-cao-offline-chiu-tien-thue-mat-bang-dat-online-mat-25-27-phi-san-188260918121106558.chn",
-          "pubDate": "2026-09-18T05:09:00.000Z",
-          "excerpt": "Ông Hoàng Thế Nhu, Phó Tổng Giám đốc Tổng Công ty May 10 cho rằng sức mua trong nước đang phục hồi rõ nét nhưng cách người Việt mua sắm cũng thay đổi nhanh,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Huế: Rà soát, tính phương án khai thác hiệu quả các khu đất sau thu hồi",
+          "link": "https://vneconomy.vn/hue-ra-soat-tinh-phuong-an-khai-thac-hieu-qua-cac-khu-dat-sau-thu-hoi.htm",
+          "pubDate": "2026-09-18T08:41:15.000Z",
+          "excerpt": "Nhiều khu đất sau khi Nhà nước thu hồi tại các phường Thuận Hóa, Phú Xuân và Vỹ Dạ đang được thành phố Huế rà soát hồ sơ, hiện trạng để tháo gỡ vướng mắc, xử…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Đồng Nai đấu giá “đất vàng” khu vực trung tâm và gần sân bay Long Thành",
+          "link": "https://vneconomy.vn/dong-nai-dau-gia-dat-vang-khu-vuc-trung-tam-va-gan-san-bay-long-thanh.htm",
+          "pubDate": "2026-09-18T08:16:58.000Z",
+          "excerpt": "TP. Đồng Nai đang trở thành tâm điểm chú ý của giới đầu tư bất động sản khi Trung tâm Phát triển quỹ đất Thành phố thông báo đấu giá quyền sử dụng đất cho bốn…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Hà Nội rà soát toàn bộ dự án chậm triển khai",
-          "link": "https://cafef.vn/ha-noi-ra-soat-toan-bo-du-an-cham-trien-khai-18826091813470412.chn",
-          "pubDate": "2026-09-18T06:55:00.000Z",
-          "excerpt": "Hà Nội sẽ rà soát toàn bộ dự án chậm triển khai, làm rõ nguyên nhân, trách nhiệm và hướng xử lý; kiên quyết thu hồi đất sử dụng sai mục đích, bỏ hoang, lãng…",
+          "title": "Ông Trần Thanh Lâm giữ chức Bí thư Đảng ủy Cơ quan Ban Tuyên giáo Trung ương",
+          "link": "https://cafef.vn/ong-tran-thanh-lam-giu-chuc-bi-thu-dang-uy-co-quan-ban-tuyen-giao-trung-uong-188260918191307955.chn",
+          "pubDate": "2026-09-18T12:12:00.000Z",
+          "excerpt": "Phó Trưởng ban Thường trực Ban Tuyên giáo Trung ương Trần Thanh Lâm được chỉ định giữ chức Bí thư Đảng ủy Cơ quan Ban Tuyên giáo Trung ương nhiệm kỳ 2025-2030.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -265,21 +265,10 @@
           "condensed": null
         },
         {
-          "title": "Lộ diện nền kinh tế đầu tiên và duy nhất rót gần 11 tỷ USD vốn FDI vào Việt Nam trong 8 tháng năm 2026",
-          "link": "https://cafef.vn/lo-dien-nen-kinh-te-dau-tien-va-duy-nhat-rot-gan-11-ty-usd-von-fdi-vao-viet-nam-trong-8-thang-nam-2026-188260918112412397.chn",
-          "pubDate": "2026-09-18T06:26:00.000Z",
-          "excerpt": "Theo số liệu mới nhất từ Cục Đầu tư nước ngoài (Bộ Tài chính), tổng vốn đầu tư nước ngoài đăng ký vào Việt Nam tính đến ngày 31/8/2026 bao gồm: Vốn đăng ký cấp…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tính toán của nhà đầu tư sau khi Fed nâng lãi",
-          "link": "https://vnexpress.net/tinh-toan-cua-nha-dau-tu-sau-khi-fed-nang-lai-5121788.html",
-          "pubDate": "2026-09-18T05:31:30.000Z",
-          "excerpt": "Nhà đầu tư tin tưởng hơn vào sự độc lập của Fed, nhưng lo ngại sự thiếu chắc chắn về mức độ thắt chặt sẽ gây biến động giá cổ phiếu, trái phiếu.",
+          "title": "Tỷ phú Warren Buffett rời chức Chủ tịch Berkshire",
+          "link": "https://vnexpress.net/ty-phu-warren-buffett-roi-chuc-chu-tich-berkshire-5121977.html",
+          "pubDate": "2026-09-18T10:58:39.000Z",
+          "excerpt": "Huyền thoại đầu tư Warren Buffett rời vị trí Chủ tịch Berkshire Hathaway - tập đoàn đa ngành trị giá 1.000 tỷ USD ông đã lãnh đạo từ năm 1965.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -287,21 +276,10 @@
           "condensed": null
         },
         {
-          "title": "UOB: Ngân hàng Nhà nước có thể chưa tăng lãi suất theo Fed",
-          "link": "https://vnexpress.net/uob-ngan-hang-nha-nuoc-co-the-chua-tang-lai-suat-theo-fed-5121751.html",
-          "pubDate": "2026-09-18T05:03:59.000Z",
-          "excerpt": "Ngân hàng Nhà nước nhiều khả năng giữ nguyên lãi suất điều hành, bởi thắt chặt chính sách tiền tệ được dự báo không mang lại nhiều hiệu quả trong việc kiềm chế…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Đổi cách ưu đãi thuế, nâng sức cạnh tranh doanh nghiệp Việt",
-          "link": "https://cafef.vn/doi-cach-uu-dai-thue-nang-suc-canh-tranh-doanh-nghiep-viet-188260918103853098.chn",
-          "pubDate": "2026-09-18T04:30:00.000Z",
-          "excerpt": "Chuỗi cung ứng toàn cầu đang tái cấu trúc, mở ra cơ hội để Việt Nam đón thêm dòng vốn, đơn hàng và công đoạn sản xuất mới. Tuy nhiên, để doanh nghiệp trong…",
+          "title": "Đà Nẵng: ‘Chốt’ tiến độ các dự án giao thông, chống xói lở bờ biển",
+          "link": "https://cafef.vn/da-nang-chot-tien-do-cac-du-an-giao-thong-chong-xoi-lo-bo-bien-188260918163024843.chn",
+          "pubDate": "2026-09-18T09:57:00.000Z",
+          "excerpt": "Ngày 18/9, tại buổi kiểm tra các dự án, Phó Chủ tịch UBND TP Đà Nẵng Trần Nam Hưng yêu cầu các đơn vị tập trung tháo gỡ vướng mắc, đẩy nhanh tiến độ các dự án…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -309,10 +287,10 @@
           "condensed": null
         },
         {
-          "title": "Nhật Bản nâng lãi suất lên cao nhất 31 năm",
-          "link": "https://vnexpress.net/nhat-ban-nang-lai-suat-len-cao-nhat-31-nam-5121755.html",
-          "pubDate": "2026-09-18T04:25:36.000Z",
-          "excerpt": "Ngày 18/9, Ngân hàng Trung ương Nhật Bản (BOJ) nâng lãi suất tham chiếu từ 1% lên 1,25%.",
+          "title": "Việt Nam muốn sàn crypto chứng minh lượng tài sản đang nắm giữ",
+          "link": "https://vnexpress.net/viet-nam-muon-san-crypto-chung-minh-luong-tai-san-dang-nam-giu-5121694.html",
+          "pubDate": "2026-09-18T09:09:23.000Z",
+          "excerpt": "Bộ Tài chính đưa \"proof of reserves - bằng chứng dự trữ\" vào nội dung mà các sàn crypto phải báo cáo, cùng địa chỉ ví và lượng tài sản sàn đang nắm giữ.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -320,10 +298,10 @@
           "condensed": null
         },
         {
-          "title": "Sau mưa lũ, kè chống sạt lở trăm tỷ ở Huế ra sao?",
-          "link": "https://cafef.vn/sau-mua-lu-ke-chong-sat-lo-tram-ty-o-hue-ra-sao-188260918092723914.chn",
-          "pubDate": "2026-09-18T04:00:00.000Z",
-          "excerpt": "Dự án xử lý sạt lở bờ biển Thuận An (phường Thuận An, TP Huế) đang thi công dang dở thì phải đối mặt đợt mưa lũ kéo dài do ảnh hưởng của áp thấp nhiệt đới.",
+          "title": "Lai Châu chủ động chuẩn bị cho Dự án cao tốc Bảo Hà - Lai Châu",
+          "link": "https://cafef.vn/lai-chau-chu-dong-chuan-bi-cho-du-an-cao-toc-bao-ha-lai-chau-18826091813430419.chn",
+          "pubDate": "2026-09-18T09:00:00.000Z",
+          "excerpt": "Từ việc hoàn thiện hồ sơ nghiên cứu tiền khả thi đến giải phóng mặt bằng, Lai Châu đang chủ động chuẩn bị các điều kiện cho dự án cao tốc Bảo Hà - Lai Châu.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -331,10 +309,32 @@
           "condensed": null
         },
         {
-          "title": "Chỉ đạo mới nhất của Thủ tướng về khám sức khỏe cho người dân",
-          "link": "https://cafef.vn/chi-dao-moi-nhat-cua-thu-tuong-ve-kham-suc-khoe-cho-nguoi-dan-188260918093809992.chn",
-          "pubDate": "2026-09-18T03:29:00.000Z",
-          "excerpt": "Thủ tướng yêu cầu các địa phương khẩn trương rà soát kế hoạch khám sức khỏe cho người dân đến hết năm 2026, phân nhóm đối tượng, tránh khám trùng và đẩy mạnh…",
+          "title": "Người dân gửi ngân hàng hơn 11,2 triệu tỷ đồng",
+          "link": "https://vnexpress.net/nguoi-dan-gui-ngan-hang-hon-11-2-trieu-ty-dong-5121849.html",
+          "pubDate": "2026-09-18T08:44:48.000Z",
+          "excerpt": "Tiền gửi dân cư đến cuối tháng 7 đạt 11,2 triệu tỷ đồng, tăng gần 9% so với cuối năm ngoái khi mặt bằng lãi suất huy động neo ở mức cao.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Chứng khoán mất 7 điểm sau phiên ATC",
+          "link": "https://vnexpress.net/chung-khoan-mat-7-diem-sau-phien-atc-5121900.html",
+          "pubDate": "2026-09-18T08:31:34.000Z",
+          "excerpt": "Giữ sắc xanh cả ngày khi dòng tiền hưởng ứng sự kiện nâng hạng lan tỏa khắp thị trường, nhưng sau phiên ATC, chứng khoán đóng cửa giảm 7 điểm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "TPHCM kết nối với 7 tỉnh thành, mở rộng cực tăng trưởng",
+          "link": "https://cafef.vn/tphcm-ket-noi-voi-7-tinh-thanh-mo-rong-cuc-tang-truong-188260918141419115.chn",
+          "pubDate": "2026-09-18T08:30:00.000Z",
+          "excerpt": "Chiều 17-9, tại TPHCM, UBND TPHCM chủ trì Hội nghị kết nối đầu tư và hợp tác phát triển giữa TPHCM với các tỉnh, thành vùng Đông Nam bộ và vùng ĐBSCL.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,10 +349,32 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Russians begin voting in parliamentary election in shadow of war",
-          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3367960/russians-begin-voting-parliamentary-election-shadow-war?utm_source=rss_feed",
-          "pubDate": "2026-09-18T05:45:55.000Z",
-          "excerpt": "Polling stations opened Friday in Russia’s Far East, kicking off a three-day election that President Vladimir Putin’s party is all but guaranteed to win in the…",
+          "title": "Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert",
+          "link": "https://www.marketwatch.com/story/why-mortgage-bonds-are-set-to-deteriorate-and-possibly-hit-the-whole-market-according-to-this-wall-street-expert-0dd7f05d?mod=mw_rss_topstories",
+          "pubDate": "2026-09-18T12:40:00.000Z",
+          "excerpt": "A flattening Treasury yield curve is part of the problem for mortgage-backed securities, says Harley Bassman.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Tesla’s upcoming product frenzy could leave investors disappointed",
+          "link": "https://www.marketwatch.com/story/teslas-upcoming-product-frenzy-could-leave-investors-disappointed-18619fb3?mod=mw_rss_topstories",
+          "pubDate": "2026-09-18T12:34:00.000Z",
+          "excerpt": "Slower-than-expected robotaxi progress is still a chief concern, according to experts.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Ending the nuclear arms race starts with cities doing their part",
+          "link": "https://www.scmp.com/opinion/world-opinion/article/3367530/ending-nuclear-arms-race-starts-cities-doing-their-part?utm_source=rss_feed",
+          "pubDate": "2026-09-18T12:30:05.000Z",
+          "excerpt": "The catastrophic danger posed to cities by nuclear weapons is nothing new. Putting major urban areas at risk across generations is, in fact, the point of these…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -360,10 +382,43 @@
           "condensed": null
         },
         {
-          "title": "Saudi scrambles to solve ‘humiliating dilemma’ after US rejects Red Sea intervention",
-          "link": "https://www.scmp.com/week-asia/politics/article/3367944/saudi-scrambles-solve-humiliating-dilemma-after-us-rejects-red-sea-intervention?utm_source=rss_feed",
-          "pubDate": "2026-09-18T05:00:06.000Z",
-          "excerpt": "Saudi Arabia faces a “humiliating dilemma” after the United States refused to militarily intervene to prevent the Iran-aligned Houthi militia from tightening…",
+          "title": "Warren Buffett moves further out of the spotlight at Berkshire, as his son is named chairman",
+          "link": "https://www.marketwatch.com/story/warren-buffett-exits-as-berkshire-hathaway-as-his-son-howard-becomes-chairman-095cc4f9?mod=mw_rss_topstories",
+          "pubDate": "2026-09-18T12:22:00.000Z",
+          "excerpt": "Warren Buffett, the investing legend that turned Berkshire Hathaway into an massive conglomerate, has officially stepped aside as chairman after leaving as CEO…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
+          "link": "https://www.wsj.com/finance/warren-buffett-to-step-down-as-berkshire-hathaway-chairman-de0e003f?mod=rss_markets_main",
+          "pubDate": "2026-09-18T11:58:00.000Z",
+          "excerpt": "The legendary investor, whose son Howard succeeds him as chairman, will remain on the board and become chairman emeritus.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
+          "link": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
+          "pubDate": "2026-09-18T11:51:00.000Z",
+          "excerpt": "For six months, investors had a playbook: when Trump threatens Iran, buy the dip, because he always backs down. But in September, the playbook stopped working.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Howard replaces his father, Warren Buffett, as Berkshire Hathaway chairman",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368049/howard-replaces-his-father-warren-buffett-berkshire-hathaway-chairman?utm_source=rss_feed",
+          "pubDate": "2026-09-18T11:50:59.000Z",
+          "excerpt": "Warren Buffett is stepping down as chairman of Berkshire Hathaway after serving in the role at the conglomerate for more than 50 years. Buffett, 96, will…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -371,69 +426,14 @@
           "condensed": null
         },
         {
-          "title": "China launches Pinglu Canal; Hong Kong unveils first 5-year plan: SCMP’s 7 highlights",
-          "link": "https://www.scmp.com/news/china/article/3367930/china-launches-pinglu-canal-hong-kong-unveils-first-5-year-plan-scmps-7-highlights?utm_source=rss_feed",
-          "pubDate": "2026-09-18T04:45:05.000Z",
-          "excerpt": "We have selected seven stories from this week’s news across Hong Kong, mainland China, the wider Asia region and beyond that resonated with our readers and…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "US to allow Iranian leaders to attend UN meeting in New York amid wartime stand-off",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3367948/us-allow-iranian-leaders-attend-un-meeting-new-york-amid-wartime-stand?utm_source=rss_feed",
-          "pubDate": "2026-09-18T04:11:25.000Z",
-          "excerpt": "The Trump administration has approved visas for top Iranian officials, including the president and foreign minister, to attend next week’s UN General Assembly…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Venezuela nears deal to move $4bn gold reserve from London to New York",
-          "link": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c?syn-25a6b1a6=1",
-          "pubDate": "2026-09-18T04:00:29.000Z",
-          "excerpt": "Agreement would allow interim government of Delcy Rodríguez to access funding",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Liechtenstein royals threaten lawsuit over dynasty reforms",
-          "link": "https://www.ft.com/content/6fd9f78e-f822-4e48-b8e2-968a3e4d2181?syn-25a6b1a6=1",
-          "pubDate": "2026-09-18T04:00:18.000Z",
-          "excerpt": "Feud in Europe’s wealthiest monarchy deepens after Prince Alois tightens control over family members",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "The west must hurry to catch up with Ukraine on AI combat",
-          "link": "https://www.ft.com/content/5b08fae3-51b5-465b-acb5-e842c30ebd0c?syn-25a6b1a6=1",
-          "pubDate": "2026-09-18T04:00:18.000Z",
-          "excerpt": "Technological innovations mean that the terms of military conflict have changed — forever",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "Medical AI has a proof problem",
-          "link": "https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190?syn-25a6b1a6=1",
-          "pubDate": "2026-09-18T04:00:10.000Z",
-          "excerpt": "The technology’s advances have not yet translated into big improvements in real-life care",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
+          "link": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+          "pubDate": "2026-09-18T11:50:00.000Z",
+          "excerpt": "“The higher that yields go — for at least new money — it becomes more enticing to think about putting money into bonds,” one strategist notes.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
