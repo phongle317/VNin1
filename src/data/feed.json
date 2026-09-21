@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T18:33:32.436Z",
+  "lastUpdated": "2026-09-21T22:31:34.765Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4389.2,
+      "value": 4389.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7767.2,
-      "change": 147.22000000000025,
-      "changePercent": 1.932026068309894
+      "value": 7764.7,
+      "change": 144.72000000000025,
+      "changePercent": 1.8992175832482534
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 27095.152,
-      "change": 908.7419999999984,
-      "changePercent": 3.47028095871102
+      "value": 27122.094,
+      "change": 935.6840000000011,
+      "changePercent": 3.5731663866868395
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Phó thủ tướng: Logistics quyết định năng lực cạnh tranh của cả nền kinh tế",
+          "link": "https://vnexpress.net/pho-thu-tuong-logistics-quyet-dinh-nang-luc-canh-tranh-cua-ca-nen-kinh-te-5123018.html",
+          "pubDate": "2026-09-21T19:11:41.000Z",
+          "excerpt": "Theo Phó thủ tướng Hồ Đức Dũng, Logistics không chỉ là dịch vụ hỗ trợ, mà là bộ phận quan trọng của hạ tầng kinh tế quốc gia, quyết định trực tiếp năng lực…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Phó Tổng Giám đốc Đạm Cà Mau (DCM) thôi chức trước thềm ĐHĐCĐ bất thường",
           "link": "https://cafef.vn/pho-tong-giam-doc-dam-ca-mau-dcm-thoi-chuc-truoc-them-dhdcd-bat-thuong-188260921222719991.chn",
@@ -119,32 +130,21 @@
           "condensed": null
         },
         {
+          "title": "Vì sao EU muốn Trung Quốc 'tự nguyện' giảm xuất khẩu xe hybrid?",
+          "link": "https://vnexpress.net/vi-sao-eu-muon-trung-quoc-tu-nguyen-giam-xuat-khau-xe-hybrid-5122826.html",
+          "pubDate": "2026-09-21T17:00:00.000Z",
+          "excerpt": "EU muốn Trung Quốc giảm bán xe, trong bối cảnh ôtô từ thị trường này thâm nhập với \"vận tốc ánh sáng\", đẩy các hãng xe chủ chốt của châu Âu vào khủng hoảng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "VN-Index giảm 16 điểm, dòng tiền còn dè dặt và cần thêm thời gian tích lũy",
           "link": "https://vneconomy.vn/vn-index-giam-16-diem-dong-tien-con-de-dat-va-can-them-thoi-gian-tich-luy.htm",
           "pubDate": "2026-09-21T14:50:50.000Z",
           "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 22/9/2026.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Khối ngoại quay đầu bán ròng phiên VN-Index chính thức lên thị trường mới nổi",
-          "link": "https://vneconomy.vn/khoi-ngoai-quay-dau-ban-rong-phien-vn-index-chinh-thuc-len-thi-truong-moi-noi.htm",
-          "pubDate": "2026-09-21T14:50:14.000Z",
-          "excerpt": "Nhà đầu tư nước ngoài bán ròng 677,3 tỷ đồng, tính riêng giao dịch khớp lệnh, họ bán ròng 423,6 tỷ đồng.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Các ngân hàng trung ương có thể đã bước vào một chu kỳ thắt chặt mới",
-          "link": "https://vneconomy.vn/cac-ngan-hang-trung-uong-co-the-da-buoc-vao-mot-chu-ky-that-chat-moi.htm",
-          "pubDate": "2026-09-21T11:47:28.000Z",
-          "excerpt": "Trong bối cảnh áp lực lạm phát gia tăng trên toàn cầu do cuộc chiến tranh giữa Mỹ và Iran, các ngân hàng trung ương hàng đầu thế giới dường như đã khởi động…",
           "sourceId": "vneconomy",
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Vì sao EU muốn Trung Quốc 'tự nguyện' giảm xuất khẩu xe hybrid?",
-          "link": "https://vnexpress.net/vi-sao-eu-muon-trung-quoc-tu-nguyen-giam-xuat-khau-xe-hybrid-5122826.html",
-          "pubDate": "2026-09-21T17:00:00.000Z",
-          "excerpt": "EU muốn Trung Quốc giảm bán xe, trong bối cảnh ôtô từ thị trường này thâm nhập với \"vận tốc ánh sáng\", đẩy các hãng xe chủ chốt của châu Âu vào khủng hoảng.",
+          "title": "Giằng co ý tưởng đánh thuế tỷ phú ở California",
+          "link": "https://vnexpress.net/giang-co-y-tuong-danh-thue-ty-phu-o-california-5122883.html",
+          "pubDate": "2026-09-21T20:15:04.000Z",
+          "excerpt": "Là thủ phủ tỷ phú của Mỹ nhưng người dân và một số giới chức bang California không mặn mà với ý tưởng đánh thuế nhóm siêu giàu này.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -298,17 +298,6 @@
           "condensed": null
         },
         {
-          "title": "Bitcoin lên mức cao nhất 8 tháng",
-          "link": "https://vnexpress.net/bitcoin-len-muc-cao-nhat-8-thang-5123043.html",
-          "pubDate": "2026-09-21T13:10:07.000Z",
-          "excerpt": "Tiền số lớn nhất thế giới vượt 85.000 USD, mức cao nhất kể từ cuối tháng 1, do nhà đầu tư cược Bitcoin giảm phải mua lại để cắt lỗ.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "“Cởi trói” tín dụng du lịch: “Đòn bẩy” cho hệ sinh thái đủ sức cạnh tranh quốc tế",
           "link": "https://cafef.vn/coi-troi-tin-dung-du-lich-don-bay-cho-he-sinh-thai-du-suc-canh-tranh-quoc-te-188260921181243426.chn",
           "pubDate": "2026-09-21T11:12:00.000Z",
@@ -340,6 +329,17 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Điểm nghẽn phía sau dòng vốn dài hạn vào hạ tầng",
+          "link": "https://vneconomy.vn/diem-nghen-phia-sau-dong-von-dai-han-vao-ha-tang.htm",
+          "pubDate": "2026-09-19T09:31:26.000Z",
+          "excerpt": "Nhu cầu vốn cho hạ tầng ngày càng lớn trong khi thị trường không thiếu nguồn lực. Điểm nghẽn nằm ở chỗ nhiều dự án chưa tạo được dòng tiền đủ rõ, cơ chế phân…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,31 +349,9 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Flights halted at eastern US airports as world leaders arrive for New York UN meeting",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368302/flights-halted-eastern-us-airports-world-leaders-arrive-new-york-un-meeting?utm_source=rss_feed",
-          "pubDate": "2026-09-21T18:18:07.000Z",
-          "excerpt": "The ⁠Federal Aviation Administration halted flights at ⁠busy East Coast airports in New York, Philadelphia and Boston on Monday, saying a fibre cable was…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-          "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-          "pubDate": "2026-09-21T18:00:00.000Z",
-          "excerpt": "“On each of these weekends away, she’s probably spending $500.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
           "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
           "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-          "pubDate": "2026-09-21T17:45:00.000Z",
+          "pubDate": "2026-09-21T22:01:00.000Z",
           "excerpt": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -382,43 +360,10 @@
           "condensed": null
         },
         {
-          "title": "The future of retirement? Work until you die.",
-          "link": "https://www.marketwatch.com/story/the-future-of-retirement-work-until-you-die-6d0e5341?mod=mw_rss_topstories",
-          "pubDate": "2026-09-21T17:16:00.000Z",
-          "excerpt": "The retirement myth has been crumbling for decades",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "A happier retirement contains these 3 elements",
-          "link": "https://www.marketwatch.com/story/a-happier-retirement-contains-these-3-elements-9aa99c9a?mod=mw_rss_topstories",
-          "pubDate": "2026-09-21T17:12:00.000Z",
-          "excerpt": "Boosting your postwork satisfaction isn’t about luck. Here is what experts say actually drives fulfillment in your next chapter.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
-          "link": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
-          "pubDate": "2026-09-21T16:30:00.000Z",
-          "excerpt": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Gaza children return to in-person schools for first time in 3 years",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3368299/gaza-children-return-person-schools-first-time-3-years?utm_source=rss_feed",
-          "pubDate": "2026-09-21T15:32:33.000Z",
-          "excerpt": "Hundreds of thousands of children in Gaza have returned to in-person teaching for the first time in nearly three years, albeit in damaged or makeshift school…",
+          "title": "The US-China tech war has evolved since the last Xi-Trump summit. Who has the edge now?",
+          "link": "https://www.scmp.com/economy/global-economy/article/3368262/us-china-tech-war-has-evolved-last-xi-trump-summit-who-has-edge-now?utm_source=rss_feed",
+          "pubDate": "2026-09-21T22:00:06.000Z",
+          "excerpt": "When the presidents of the United States and China meet in Washington, the world will be watching to see whether their two countries can make good on their…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -426,14 +371,69 @@
           "condensed": null
         },
         {
-          "title": "Changing leader is not the panacea many Lib Dems think it is",
-          "link": "https://www.ft.com/content/f3092492-9e70-4987-a359-22e31f93b77b?syn-25a6b1a6=1",
-          "pubDate": "2026-09-21T15:28:50.000Z",
-          "excerpt": "The party faces serious structural problems in an era of growing political polarisation",
+          "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
+          "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
+          "pubDate": "2026-09-21T21:57:00.000Z",
+          "excerpt": "An analyst at BNP has taken a positive view of AT&T’s stock, writing that investors should have “little to quibble with on the mobile side.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Canada’s British Columbia sues OpenAI in US court over school shooting",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368310/canadas-british-columbia-sues-openai-us-court-over-school-shooting?utm_source=rss_feed",
+          "pubDate": "2026-09-21T21:50:59.000Z",
+          "excerpt": "British Columbia filed a lawsuit on Monday against OpenAI in California over the company’s failure to report violent activity on its ChatGPT service by the…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
+          "link": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
+          "pubDate": "2026-09-21T21:47:00.000Z",
+          "excerpt": "The lack of clarity around crypto’s regulatory framework hasn’t stopped bitcoin from surging, as investors haven’t abandoned hopes for clearer U.S. rules.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Burnham to call for global effort to control threats posed by AI",
+          "link": "https://www.ft.com/content/697c5196-3aa4-4c59-bad9-a455bcc1858f?syn-25a6b1a6=1",
+          "pubDate": "2026-09-21T21:30:12.000Z",
+          "excerpt": "UK prime minister will meet Donald Trump in person for first time at New York UN meeting",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
           "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "As the S&P 500 nears a new record high, there are signs of weakness below the surface",
+          "link": "https://www.marketwatch.com/story/as-the-s-p-500-nears-a-new-record-high-there-are-cracks-below-the-surface-6df3e90d?mod=mw_rss_topstories",
+          "pubDate": "2026-09-21T21:17:00.000Z",
+          "excerpt": "About 60% of the stocks in the S&P 500 are down more than 20% from their all-time highs.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "UK PM Burnham agrees to Saudi request for refuelling support",
+          "link": "https://www.scmp.com/news/world/europe/article/3368308/uk-pm-burnham-agrees-saudi-request-refuelling-support?utm_source=rss_feed",
+          "pubDate": "2026-09-21T21:12:06.000Z",
+          "excerpt": "British Prime Minister Andy Burnham said on ⁠Monday he had ⁠agreed to a request ⁠from Saudi Arabia to provide defensive air-to-air refuelling for a limited…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
