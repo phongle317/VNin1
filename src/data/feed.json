@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T14:47:44.013Z",
+  "lastUpdated": "2026-09-23T18:55:46.004Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4326,
+      "value": 4320.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7722.43,
-      "change": 170.6199999999999,
-      "changePercent": 2.259325909947415
+      "value": 7708.67,
+      "change": 156.85999999999967,
+      "changePercent": 2.0771179359650156
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26963.809,
-      "change": 985.3790000000008,
-      "changePercent": 3.793066016691543
+      "value": 26946.555,
+      "change": 968.125,
+      "changePercent": 3.726649377964719
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25434.25,
-      "change": -103.5,
-      "changePercent": -0.40528237609029766
+      "value": 25410.63,
+      "change": -127.11999999999898,
+      "changePercent": -0.4977729048173742
     }
   ],
   "themes": [
@@ -64,10 +64,21 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
-          "title": "Diễn đàn Chứng khoán châu Á lần thứ 31 sẽ bàn cách hút vốn vào Việt Nam",
-          "link": "https://cafef.vn/dien-dan-chung-khoan-chau-a-lan-thu-31-se-ban-cach-hut-von-vao-viet-nam-188260923203933895.chn",
-          "pubDate": "2026-09-23T13:39:00.000Z",
-          "excerpt": "Lần đầu đăng cai Hội nghị thường niên Diễn đàn Chứng khoán châu Á diễn ra từ ngày 30/9 đến 3/10 tại Hà Nội, sẽ có một chuyên đề riêng về huy động vốn, vai trò…",
+          "title": "Lương thực toàn cầu trước áp lực tăng giá vì El Nino",
+          "link": "https://vnexpress.net/luong-thuc-toan-cau-truoc-ap-luc-tang-gia-vi-el-nino-5123872.html",
+          "pubDate": "2026-09-23T17:30:00.000Z",
+          "excerpt": "El Nino năm nay có nguy cơ gây hạn hán tại châu Á và thời tiết cực đoan trên khắp thế giới khiến giá lương thực tăng, theo chuyên gia.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Hai chị em tỷ phú người Việt vừa mất gần 230 triệu USD trong một ngày",
+          "link": "https://cafef.vn/hai-chi-em-ty-phu-nguoi-viet-vua-mat-gan-230-trieu-usd-trong-mot-ngay-188260923231159839.chn",
+          "pubDate": "2026-09-23T17:07:00.000Z",
+          "excerpt": "Dù mất tổng cộng gần 230 triệu USD trong một ngày nhưng hai chị em tỷ phú này vẫn nằm trong danh sách những người giàu nhất Việt Nam.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -75,32 +86,10 @@
           "condensed": null
         },
         {
-          "title": "Có thể kỳ vọng lãi suất giảm nhẹ vào cuối năm?",
-          "link": "https://vneconomy.vn/co-the-ky-vong-lai-suat-giam-nhe-vao-cuoi-nam.htm",
-          "pubDate": "2026-09-23T12:53:23.000Z",
-          "excerpt": "Kỳ vọng lãi suất huy động sẽ duy trì ở vùng hiện tại trong phần còn lại của năm và kỳ vọng có thể giảm nhẹ nếu lạm phát được kiểm soát và Ngân hàng Nhà nước sẽ…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Khối ngoại bất ngờ bán ròng mạnh tay hơn 1.000 tỷ",
-          "link": "https://vneconomy.vn/khoi-ngoai-bat-ngo-ban-rong-manh-tay-hon-1000-ty.htm",
-          "pubDate": "2026-09-23T12:53:05.000Z",
-          "excerpt": "Nhà đầu tư nước ngoài hôm nay bán ròng 1.057,1 tỷ đồng; tính riêng giao dịch khớp lệnh, họ bán ròng 1.017,5 tỷ đồng.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Bitcoin phá vỡ “lời nguyền” tồn tại 4 năm",
-          "link": "https://cafef.vn/bitcoin-pha-vo-loi-nguyen-ton-tai-4-nam-188260923183044327.chn",
-          "pubDate": "2026-09-23T12:00:00.000Z",
-          "excerpt": "Sau khi chấm dứt chuỗi 4 năm liên tiếp giảm giá trong tháng 8, Bitcoin tiếp tục tăng mạnh trong tháng 9 qua đó leo lên mức cao nhất kể từ tháng 1 năm nay.",
+          "title": "Việt Nam có một Quỹ từ thiện sắp được tặng số cổ phiếu trị giá gần 4 tỷ đồng",
+          "link": "https://cafef.vn/viet-nam-co-mot-quy-tu-thien-sap-duoc-tang-so-co-phieu-tri-gia-gan-4-ty-dong-188260923230655563.chn",
+          "pubDate": "2026-09-23T17:06:00.000Z",
+          "excerpt": "Quỹ từ thiện này hoạt động không vì lợi nhuận mà hướng tới 2 mục đích rất đặc biệt.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -108,10 +97,10 @@
           "condensed": null
         },
         {
-          "title": "Ông Nguyễn Hữu Chỉnh bị bắt, doanh nghiệp công bố kế hoạch mới",
-          "link": "https://cafef.vn/ong-nguyen-huu-chinh-bi-bat-doanh-nghiep-cong-bo-ke-hoach-moi-188260923160953522.chn",
-          "pubDate": "2026-09-23T11:09:00.000Z",
-          "excerpt": "Động thái chia cổ tức diễn ra trong bối cảnh doanh nghiệp trải qua nhiều biến động liên quan đến vụ án khiến một số lãnh đạo doanh nghiệp bị khởi tố.",
+          "title": "Một “thành phố” đang mọc lên giữa biển tại TP.HCM: 110 triệu m3 vật liệu được đưa xuống biển, 120km đường đã thành hình",
+          "link": "https://cafef.vn/mot-thanh-pho-dang-moc-len-giua-bien-tai-tphcm-110-trieu-m3-vat-lieu-duoc-dua-xuong-bien-120km-duong-da-thanh-hinh-18826092322175309.chn",
+          "pubDate": "2026-09-23T17:05:00.000Z",
+          "excerpt": "Sau hơn một năm thi công, vùng biển Cần Giờ đang dần xuất hiện hình hài của một đại đô thị mới. Hơn 120 km đường nội khu đã hình thành, trong đó trục Đại lộ…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -119,10 +108,10 @@
           "condensed": null
         },
         {
-          "title": "Tỷ phú Phạm Nhật Vượng tuyển diễn viên phim hài, biết \"bật cười\" đúng lúc",
-          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-tuyen-dien-vien-phim-hai-biet-bat-cuoi-dung-luc-188260923173247549.chn",
-          "pubDate": "2026-09-23T10:30:00.000Z",
-          "excerpt": "V-Film cho biết dự án không chỉ tìm diễn viên chuyên nghiệp mà mở cơ hội cho cả những gương mặt mới, với yêu cầu nổi bật là khả năng diễn tự nhiên, hài hước và…",
+          "title": "Kỳ vọng VN-Index hướng tới vùng 2.000 điểm trong kịch bản tích cực, CTCK điểm tên 5 nhóm ngành đáng chú ý",
+          "link": "https://cafef.vn/ky-vong-vn-index-huong-toi-vung-2000-diem-trong-kich-ban-tich-cuc-ctck-diem-ten-5-nhom-nganh-dang-chu-y-18826092322164857.chn",
+          "pubDate": "2026-09-23T17:05:00.000Z",
+          "excerpt": "Ở kịch bản tích cực, với xác suất 20%, TPS cho rằng VN-Index có thể hướng tới vùng 1.935-2.026 điểm nếu vượt được kháng cự 1.894 điểm cùng sự cải thiện của…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -130,10 +119,10 @@
           "condensed": null
         },
         {
-          "title": "VN-Index hụt hơi cuối phiên, khối ngoại bán ròng hơn 1.000 tỷ đồng",
-          "link": "https://cafef.vn/vn-index-hut-hoi-cuoi-phien-khoi-ngoai-ban-rong-hon-1000-ty-dong-188260923164942778.chn",
-          "pubDate": "2026-09-23T10:27:00.000Z",
-          "excerpt": "Sau phần lớn thời gian giao dịch trong sắc xanh, VN-Index bất ngờ chịu áp lực bán mạnh về cuối phiên 23/9, mất hơn 15 điểm và lùi sát mốc 1.800 điểm. Khối…",
+          "title": "Ông Lê Chí Phúc hé lộ kênh đầu tư có hiệu suất dài hạn vượt trội so với gửi tiết kiệm",
+          "link": "https://cafef.vn/ong-le-chi-phuc-he-lo-kenh-dau-tu-co-hieu-suat-dai-han-vuot-troi-so-voi-gui-tiet-kiem-188260923152301277.chn",
+          "pubDate": "2026-09-23T17:03:00.000Z",
+          "excerpt": "Trong dài hạn, kênh đầu tư này vẫn được kỳ vọng mang lại lợi nhuận vượt trội so với gửi tiết kiệm, dù trước mắt còn không ít thách thức.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -141,10 +130,21 @@
           "condensed": null
         },
         {
-          "title": "'Nâng hạng tín nhiệm có thể giúp Việt Nam hút 10-20 tỷ USD vào trái phiếu'",
-          "link": "https://vnexpress.net/nang-hang-tin-nhiem-co-the-giup-viet-nam-hut-10-20-ty-usd-vao-trai-phieu-5123711.html",
-          "pubDate": "2026-09-23T09:15:00.000Z",
-          "excerpt": "Cải thiện xếp hạng tín nhiệm quốc gia có thể giúp Việt Nam thu hút 10-20 tỷ USD vốn ngoại vào thị trường trái phiếu, theo đại diện VBMA.",
+          "title": "Túi tái sử dụng cũng có thể gây hại môi trường thế nào?",
+          "link": "https://vnexpress.net/tui-tai-su-dung-cung-co-the-gay-hai-moi-truong-the-nao-5123504.html",
+          "pubDate": "2026-09-23T17:02:20.000Z",
+          "excerpt": "Sản xuất túi tái sử dụng tốn tài nguyên hơn túi nilon nên nếu tích trữ nhiều mà số lần dùng ít thì chúng lại là \"khoản nợ môi trường\".",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Chuyên gia: Hỗ trợ con cháu đúng lúc cần hơn giao tài sản một lần",
+          "link": "https://vnexpress.net/chuyen-gia-ho-tro-con-chau-dung-luc-can-hon-giao-tai-san-mot-lan-5123782.html",
+          "pubDate": "2026-09-23T17:00:00.000Z",
+          "excerpt": "Chuyển giao dần tài sản, đúng lúc con cháu cần nguồn lực nhất nên được cân nhắc hơn việc chờ nhiều năm để thừa kế một lần, theo chuyên gia.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -158,6 +158,28 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Nhà thiết kế gốc Việt đưa ký ức đa văn hóa vào căn nhà tại Mỹ",
+          "link": "https://vnexpress.net/nha-thiet-ke-goc-viet-dua-ky-uc-da-van-hoa-vao-can-nha-tai-my-5123687.html",
+          "pubDate": "2026-09-23T17:05:00.000Z",
+          "excerpt": "Không gian sống của Muriel Brandolini kết hợp nội thất Pháp, Italy với lụa, đồ thêu và vật dụng trang trí mang ảnh hưởng châu Á.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Có nên mua chung cư view nghĩa trang vì giá rẻ hơn 500 triệu đồng?",
+          "link": "https://vnexpress.net/co-nen-mua-chung-cu-view-nghia-trang-vi-gia-re-hon-500-trieu-dong-5123956.html",
+          "pubDate": "2026-09-23T17:00:00.000Z",
+          "excerpt": "Ngoài tiêu chí giá rẻ, người mua cần cân nhắc kỹ các yếu tố về tâm lý, trải nghiệm sống và khả năng thanh khoản khi mua căn hộ tầm nhìn nghĩa trang, theo…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Nguyên lãnh đạo Đảng và Nhà nước đến thăm các dự án APEC đang thi công ‘thần tốc’ tại Phú Quốc",
           "link": "https://cafef.vn/nguyen-lanh-dao-dang-va-nha-nuoc-den-tham-cac-du-an-apec-dang-thi-cong-than-toc-tai-phu-quoc-188260923184303278.chn",
@@ -223,28 +245,6 @@
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
           "condensed": null
-        },
-        {
-          "title": "Hưng Yên quy hoạch hơn 1.700 ha tái hiện thương cảng Phố Hiến xưa",
-          "link": "https://vnexpress.net/hung-yen-quy-hoach-hon-1-700-ha-tai-hien-thuong-cang-pho-hien-xua-5123909.html",
-          "pubDate": "2026-09-23T12:04:33.000Z",
-          "excerpt": "Dự án thương cảng Phố Hiến hơn 1.708 ha, được chia thành 4 phân khu chức năng nhằm tái hiện không gian giao thương sầm uất một thời.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Thị trường đang ghi nhận những trường hợp nhà ở xã hội đã hoàn thành nhưng tốc độ bán hàng rất chậm",
-          "link": "https://cafebiz.vn/thi-truong-dang-ghi-nhan-nhung-truong-hop-nha-o-xa-hoi-da-hoan-thanh-nhung-toc-do-ban-hang-rat-cham-176260923185200948.chn",
-          "pubDate": "2026-09-23T11:51:00.000Z",
-          "excerpt": "Theo các chuyên gia, doanh nghiệp bất động sản, dù nguồn cung còn hạn chế trong bối cảnh nhu cầu thực tế cao nhưng dự án nhà ở xã hội nếu đặt ở vị trí không…",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,28 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Lưu ý mới nhất từ cơ quan Thuế: Tác động trực tiếp đến quyền lợi người lao động khi quyết toán thuế TNCN năm nay, đặc biệt là nhóm người sau",
+          "link": "https://cafef.vn/luu-y-moi-nhat-tu-co-quan-thue-tac-dong-truc-tiep-den-quyen-loi-nguoi-lao-dong-khi-quyet-toan-thue-tncn-nam-nay-dac-biet-la-nhom-nguoi-sau-188260923215756914.chn",
+          "pubDate": "2026-09-23T16:23:00.000Z",
+          "excerpt": "Để người dân, người lao động và các đơn vị liên quan thực hiện đúng, bảo đảm quyền lợi về thuế, mới đây, Thuế Thành phố Hà Nội đã có Công văn số…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đất nông nghiệp có nhà xây từ 1998, nay chuyển sang đất ở có bị phạt?",
+          "link": "https://cafef.vn/dat-nong-nghiep-co-nha-xay-tu-1998-nay-chuyen-sang-dat-o-co-bi-phat-188260923214344159.chn",
+          "pubDate": "2026-09-23T14:43:00.000Z",
+          "excerpt": "Gia đình ông Chử Đức Hùng (Hà Nội) xây nhà trên mảnh đất có nguồn gốc là đất nông nghiệp trồng cây lâu năm từ năm 1998. Nay bố mẹ ông muốn chuyển đổi lên đất ở.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "8 xã ở Thái Nguyên chuẩn bị lên phường",
           "link": "https://cafef.vn/8-xa-o-thai-nguyen-chuan-bi-len-phuong-188260923201656782.chn",
@@ -287,17 +309,6 @@
           "condensed": null
         },
         {
-          "title": "Chỉ đạo mới về giải phóng mặt bằng tại tuyến cao tốc hơn 43.700 tỷ đồng, dài khoảng 125 km vượt 2 con đèo hiểm trở, rút ngắn thời gian di chuyển từ Quy Nhơn - Pleiku còn 1,5 giờ",
-          "link": "https://cafef.vn/chi-dao-moi-ve-giai-phong-mat-bang-tai-tuyen-cao-toc-hon-43700-ty-dong-dai-khoang-125-km-vuot-2-con-deo-hiem-tro-rut-ngan-thoi-gian-di-chuyen-tu-quy-nhon-pleiku-con-15-gio-18826092318341234.chn",
-          "pubDate": "2026-09-23T11:47:00.000Z",
-          "excerpt": "Phó Chủ tịch UBND tỉnh Gia Lai yêu cầu hoàn thành bàn giao toàn bộ mặt bằng phục vụ thi công cao tốc Quy Nhơn - Pleiku chậm nhất cuối tháng 10/2026, đồng thời…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Điều chỉnh quy hoạch sân bay Phú Quốc, bổ sung loạt hạng mục phục vụ APEC 2027",
           "link": "https://vneconomy.vn/dieu-chinh-quy-hoach-san-bay-phu-quoc-bo-sung-loat-hang-muc-phuc-vu-apec-2027.htm",
           "pubDate": "2026-09-23T11:29:20.000Z",
@@ -306,17 +317,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Cần Thơ chi hơn 1.400 tỷ đồng ngân sách đầu tư một phần khu công nghệ cao",
-          "link": "https://cafef.vn/can-tho-chi-hon-1400-ty-dong-ngan-sach-dau-tu-mot-phan-khu-cong-nghe-cao-188260923171617465.chn",
-          "pubDate": "2026-09-23T11:16:00.000Z",
-          "excerpt": "TPO - UBND TP. Cần Thơ vừa quyết định thành lập Khu công nghệ cao rộng 200ha tại phường Ô Môn, tổng mức đầu tư hơn 5.000 tỷ đồng, trong đó ngân sách thành phố…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -349,21 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Trump’s Board of Peace proposes US$2.45 billion Gaza reconstruction plan",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3368551/trumps-board-peace-proposes-us245-billion-gaza-reconstruction-plan?utm_source=rss_feed",
-          "pubDate": "2026-09-23T14:37:34.000Z",
-          "excerpt": "The US-backed Board of Peace is proposing a six-month US$2.45 billion plan to begin reconstruction and governance in Gaza as President Donald Trump’s ceasefire…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-          "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-          "pubDate": "2026-09-23T14:15:00.000Z",
-          "excerpt": "“She currently has about 15 sitters, all independent contractors.”",
+          "title": "Palantir’s stock is heading for its highest close of the year, in a dramatic comeback",
+          "link": "https://www.marketwatch.com/story/palantirs-stock-is-heading-for-its-highest-close-of-the-year-in-a-dramatic-comeback-a5fd451d?mod=mw_rss_topstories",
+          "pubDate": "2026-09-23T18:31:00.000Z",
+          "excerpt": "Palantir’s last earnings report reignited investor enthusiasm, and now the company is basking in the glow of a real-world AI boom.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -371,10 +360,10 @@
           "condensed": null
         },
         {
-          "title": "These stocks are the ‘four horsemen of AI’ — and they’re not the ones you’d think",
-          "link": "https://www.marketwatch.com/story/these-stocks-are-the-four-horsemen-of-ai-and-theyre-not-the-ones-youd-think-bd4072ae?mod=mw_rss_topstories",
-          "pubDate": "2026-09-23T13:58:00.000Z",
-          "excerpt": "Looking beyond the artificial-intelligence stocks that have become almost household names for investors, there are other ways to play the boom in computing…",
+          "title": "The ingredients for a financial reckoning are all in place",
+          "link": "https://www.marketwatch.com/story/the-ingredients-for-a-financial-reckoning-are-all-in-place-07520a5d?mod=mw_rss_topstories",
+          "pubDate": "2026-09-23T18:24:00.000Z",
+          "excerpt": "A witch’s brew of rising debt levels, higher costs of capital and contagion risks is bubbling.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -382,10 +371,10 @@
           "condensed": null
         },
         {
-          "title": "Nearly half of adults under 30 live with their parents. The financial fallout could last for decades.",
-          "link": "https://www.marketwatch.com/story/nearly-half-of-adults-under-30-live-with-their-parents-the-financial-fallout-could-last-for-decades-5d9f059d?mod=mw_rss_topstories",
-          "pubDate": "2026-09-23T13:51:00.000Z",
-          "excerpt": "Young people are increasingly living with their parents instead of establishing their own households.",
+          "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval",
+          "link": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+          "pubDate": "2026-09-23T18:15:00.000Z",
+          "excerpt": "Grail’s Galleri test looks for 50 cancers from a blood draw, but a major study failed to prove it could detect later-stage cancers.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -393,10 +382,10 @@
           "condensed": null
         },
         {
-          "title": "Want to retire with more money? Leave the U.S. early in your career — and then come back.",
-          "link": "https://www.marketwatch.com/story/want-to-retire-with-more-money-leave-the-country-for-work-early-in-your-career-7e568d03?mod=mw_rss_topstories",
-          "pubDate": "2026-09-23T13:43:00.000Z",
-          "excerpt": "Gain experiences, memories and a substantial contribution to your future nest egg.",
+          "title": "Businesses are growing at the fastest pace in over four years. Why war and inflation aren’t slowing the U.S. economy down.",
+          "link": "https://www.marketwatch.com/story/businesses-are-growing-at-the-fastest-pace-in-over-four-years-why-war-and-inflation-isnt-slowing-the-u-s-economy-down-2e39e7c7?mod=mw_rss_topstories",
+          "pubDate": "2026-09-23T18:06:00.000Z",
+          "excerpt": "Expensive gas, higher inflation, a stalemate with Iran and rising interest rates — no matter. The U.S. economy appears to have sped up in the early fall.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,21 +393,21 @@
           "condensed": null
         },
         {
-          "title": "Italy’s Colosseum closes after worker dies in accident",
-          "link": "https://www.scmp.com/news/world/europe/article/3368532/italys-colosseum-closes-after-worker-dies-accident?utm_source=rss_feed",
-          "pubDate": "2026-09-23T11:09:37.000Z",
-          "excerpt": "Italy’s Culture Minister Alessandro Giuli ordered the one-day closure of the Colosseum on Wednesday as a mark of respect after a worker was ‌killed overnight…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "McDonald’s is making a historic bet on chicken — and AI — to bring back customers",
+          "link": "https://www.marketwatch.com/story/mcdonalds-is-making-a-historic-bet-on-chicken-and-ai-to-bring-back-customers-43468a53?mod=mw_rss_topstories",
+          "pubDate": "2026-09-23T18:02:00.000Z",
+          "excerpt": "Investors aren’t sold on plans to introduce new McNugget flavors, and an analyst recently noted that McDonald’s has struggled to break through on…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "The west does not have a leadership problem",
-          "link": "https://www.ft.com/content/67f10dca-63f3-4cf8-951b-22d0c87f6be2?syn-25a6b1a6=1",
-          "pubDate": "2026-09-23T10:33:40.000Z",
-          "excerpt": "If Friedrich Merz and almost everyone else is unpopular, perhaps governments aren’t the issue",
+          "title": "US Treasury yields soar most since ‘liberation day’ tariffs shook markets",
+          "link": "https://www.ft.com/content/5b11b598-7c77-4bdf-82bf-a763adf71a72?syn-25a6b1a6=1",
+          "pubDate": "2026-09-23T17:44:25.000Z",
+          "excerpt": "Traders crank up bets on Federal Reserve rate rises after new data fuel worries economy is overheating",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -426,14 +415,25 @@
           "condensed": null
         },
         {
-          "title": "Add France to Your List of Investing Worries",
-          "link": "https://www.wsj.com/finance/investing/add-france-to-your-list-of-investing-worries-00b3d9f5?mod=rss_markets_main",
-          "pubDate": "2026-09-23T10:25:00.000Z",
-          "excerpt": "Plus, Mr. Xi Goes to Washington",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
+          "title": "Marco Rubio defends Xi Jinping’s US visit as essential despite deep disagreements",
+          "link": "https://www.scmp.com/news/us/politics/article/3368559/marco-rubio-defends-xi-jinpings-us-visit-essential-despite-deep-disagreements?utm_source=rss_feed",
+          "pubDate": "2026-09-23T17:14:07.000Z",
+          "excerpt": "US Secretary of State Marco Rubio defended the welcome planned for Chinese President Xi Jinping on Wednesday, saying it would be “irresponsible” for the…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Can Warsh tighten financial conditions without engineering a stock market fall?",
+          "link": "https://www.ft.com/content/281a2cd1-2094-4f33-af04-387b75fe9db1",
+          "pubDate": "2026-09-23T17:03:01.000Z",
+          "excerpt": "Change the messenger",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
           "condensed": null
         }
       ],
