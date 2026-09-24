@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T13:23:36.939Z",
+  "lastUpdated": "2026-09-24T18:20:12.540Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4316.1,
+      "value": 4296.8,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7706.03,
-      "change": 154.21999999999935,
-      "changePercent": 2.042159429328854
+      "value": 7702.31,
+      "change": 64.55000000000018,
+      "changePercent": 0.8451430785989634
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26936.037,
-      "change": 957.607,
-      "changePercent": 3.6861619428117867
+      "value": 26904.068,
+      "change": 485.76800000000003,
+      "changePercent": 1.8387557110033579
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25359.52,
-      "change": -357.1899999999987,
-      "changePercent": -1.388941275925259
+      "value": 25266.53,
+      "change": -450.1800000000003,
+      "changePercent": -1.7505349634537246
     }
   ],
   "themes": [
@@ -63,6 +63,83 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Một Phó Tổng Giám đốc ngân hàng nhầm lệnh mua bán cổ phiếu",
+          "link": "https://cafef.vn/mot-pho-tong-giam-doc-ngan-hang-nham-lenh-mua-ban-co-phieu-18826092422021143.chn",
+          "pubDate": "2026-09-24T17:05:00.000Z",
+          "excerpt": "Trong phiên giao dịch ngày 23/9/2026, ông Khoán đã bán 95.000 cổ phiếu SSB, đúng với số lượng đã đăng ký trước đó. Tuy nhiên, trong quá trình đặt lệnh, ông mua…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Việt Nam sắp có thêm một “đại công trình” thép gần 80.000 tỷ đồng: Diện tích lớn hơn cả Hòa Phát Dung Quất 2",
+          "link": "https://cafef.vn/viet-nam-sap-co-them-mot-dai-cong-trinh-thep-gan-80000-ty-dong-dien-tich-lon-hon-ca-hoa-phat-dung-quat-2-18826092422072351.chn",
+          "pubDate": "2026-09-24T17:03:00.000Z",
+          "excerpt": "Tổ hợp thép VinMetal tại Hà Tĩnh có tổng vốn đầu tư gần 80.000 tỷ đồng, quy mô gần 460 ha. Dự án được định hướng sản xuất các dòng thép chất lượng cao phục vụ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Khối ngoại bán thẳng tay 2.600 tỷ đồng ngay sau nâng hạng, điều gì đang diễn ra?",
+          "link": "https://cafef.vn/khoi-ngoai-ban-thang-tay-2600-ty-dong-ngay-sau-nang-hang-dieu-gi-dang-dien-ra-188260924164857616.chn",
+          "pubDate": "2026-09-24T17:02:00.000Z",
+          "excerpt": "Áp lực bán diễn ra trong bối cảnh thị trường liên tục rung lắc.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nhóm công nghệ áp đảo top 10 công ty vốn hóa lớn nhất thế giới, không có bóng dáng ngân hàng, bất động sản",
+          "link": "https://cafef.vn/nhom-cong-nghe-ap-dao-top-10-cong-ty-von-hoa-lon-nhat-the-gioi-khong-co-bong-dang-ngan-hang-bat-dong-san-188260924225047509.chn",
+          "pubDate": "2026-09-24T17:01:00.000Z",
+          "excerpt": "Cái tên duy nhất trong top 10 công ty vốn hóa lớn nhất thế giới không có yếu tố công nghệ là một “gã khổng lồ” ngành năng lượng.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thủng mốc 1800 điểm sau nâng hạng chính thức, các công ty chứng khoán nhận định gì?",
+          "link": "https://vneconomy.vn/thung-moc-1800-diem-sau-nang-hang-chinh-thuc-cac-cong-ty-chung-khoan-nhan-dinh-gi.htm",
+          "pubDate": "2026-09-24T15:54:38.000Z",
+          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 25/9/2026.",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Nâng hạng thị trường, nâng chuẩn doanh nghiệp niêm yết",
+          "link": "https://vneconomy.vn/nang-hang-thi-truong-nang-chuan-doanh-nghiep-niem-yet.htm",
+          "pubDate": "2026-09-24T14:07:10.000Z",
+          "excerpt": "Việt Nam vừa được FTSE Russell nâng hạng lên thị trường Mới nổi Thứ cấp kéo theo yêu cầu cao hơn về minh bạch và công bố thông tin. Trong khi đó, hoạt động…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Lọc hóa dầu Việt Nam đạt thoả thuận mua dầu thô từ ExxonMobil của Mỹ",
+          "link": "https://cafef.vn/loc-hoa-dau-viet-nam-dat-thoa-thuan-mua-dau-tho-tu-exxonmobil-cua-my-188260924210741052.chn",
+          "pubDate": "2026-09-24T14:07:00.000Z",
+          "excerpt": "Thỏa thuận với ExxonMobil Châu Á - Thái Bình Dương được thực hiện trong bối cảnh BSR đang đẩy mạnh đa dạng hóa nguồn dầu thô.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Ông Đỗ Quang Vinh rời HĐQT Vietravel Airlines",
           "link": "https://vnexpress.net/ong-do-quang-vinh-roi-hdqt-vietravel-airlines-5124326.html",
@@ -73,83 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Quỹ nắm những \"viên kim cương\" của chứng khoán Việt Nam bất ngờ bị rút vốn liên tiếp sau nâng hạng",
-          "link": "https://cafef.vn/quy-nam-nhung-vien-kim-cuong-cua-chung-khoan-viet-nam-bat-ngo-bi-rut-von-lien-tiep-sau-nang-hang-18826092416422618.chn",
-          "pubDate": "2026-09-24T12:02:00.000Z",
-          "excerpt": "Dòng vốn tại quỹ đã bị rút ròng trong cả 3 phiên giao dịch gần nhất.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Một Thành viên HĐQT độc lập của Đầu tư MST xin từ nhiệm",
-          "link": "https://cafef.vn/mot-thanh-vien-hdqt-doc-lap-cua-dau-tu-mst-xin-tu-nhiem-188260924190045633.chn",
-          "pubDate": "2026-09-24T12:00:00.000Z",
-          "excerpt": "Ông Nguyễn Hoàng Minh vừa có đơn xin từ nhiệm chức vụ Thành viên HĐQT độc lập nhiệm kỳ 2025-2030 của Đầu tư MST vì lý do cá nhân.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nhà cung ứng nguyên liệu đầu vào quan trọng cho Samsung Việt Nam công bố kế hoạch mới",
-          "link": "https://cafef.vn/nha-cung-ung-nguyen-lieu-dau-vao-quan-trong-cho-samsung-viet-nam-cong-bo-ke-hoach-moi-188260924115609841.chn",
-          "pubDate": "2026-09-24T11:00:00.000Z",
-          "excerpt": "Công ty này đặt nhà máy tại Khu công nghiệp Yên Phong, Bắc Ninh và hoạt động chính trong lĩnh vực sản xuất ốc vít chính xác, linh kiện điện tử kỹ thuật cao.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Kết nối dòng vốn Hoa Kỳ với các cơ hội tăng trưởng dài hạn tại Việt Nam",
-          "link": "https://cafef.vn/ket-noi-dong-von-hoa-ky-voi-cac-co-hoi-tang-truong-dai-han-tai-viet-nam-18826092417470923.chn",
-          "pubDate": "2026-09-24T10:47:01.000Z",
-          "excerpt": "Ba thập kỷ sau khi quan hệ Việt Nam - Hoa Kỳ bước sang trang mới, các nhà đầu tư quốc tế tiếp tục nhìn thấy ở Việt Nam một thị trường năng động, giàu tiềm năng…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Một cổ phiếu ngân hàng được tự doanh CTCK \"gom\" hàng trăm tỷ đồng trong phiên 24/9",
-          "link": "https://cafef.vn/mot-co-phieu-ngan-hang-duoc-tu-doanh-ctck-gom-hang-tram-ty-dong-trong-phien-24-9-188260924174326256.chn",
-          "pubDate": "2026-09-24T10:43:00.000Z",
-          "excerpt": "Tự doanh CTCK mua ròng 283 tỷ đồng trên HoSE.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "BVBank dừng kế hoạch phát hành trái phiếu cũ, chốt phương án huy động 1,300 tỷ đồng trái phiếu năm 2026",
-          "link": "http://vietstock.vn/2026/09/bvbank-dung-ke-hoach-phat-hanh-trai-phieu-cu-chot-phuong-an-huy-dong-1300-ty-dong-trai-phieu-nam-2026-3118-1495580.htm",
-          "pubDate": "2026-09-24T10:00:00.000Z",
-          "excerpt": "Ngân hàng TMCP Bản Việt (BVBank, HOSE: BVB) công bố không tiếp tục triển khai kế hoạch phát hành trái phiếu ra công chúng tăng vốn cấp 2 năm 2024-2025 và quyết…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Blog chứng khoán: Gãy trend ngắn hạn?",
-          "link": "https://vneconomy.vn/blog-chung-khoan-gay-trend-ngan-han.htm",
-          "pubDate": "2026-09-24T09:18:56.000Z",
-          "excerpt": "VNI giảm mạnh hôm nay nếu chỉ thuần túy ép trụ thì không xấu, nhưng cổ phiếu giảm mạnh trên diện rộng, trải từ blue-chips tới penny, cho thấy áp lực bán đã…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,10 +159,21 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Công nhân dầm mưa bơm nước 'giải cứu' ngập chân cầu Ba Son",
-          "link": "https://cafef.vn/cong-nhan-dam-mua-bom-nuoc-giai-cuu-ngap-chan-cau-ba-son-188260924200846148.chn",
-          "pubDate": "2026-09-24T13:04:00.000Z",
-          "excerpt": "Mưa lớn kéo dài khiến chân cầu Ba Son phía Thủ Thiêm (TPHCM) ngập cục bộ. Công nhân dầm mưa, huy động máy bơm hút nước, hạn chế ảnh hưởng giao thông.",
+          "title": "Nhà một tầng mang tinh thần nghỉ dưỡng giữa khu dân cư",
+          "link": "https://vnexpress.net/nha-mot-tang-mang-tinh-than-nghi-duong-giua-khu-dan-cu-5124173.html",
+          "pubDate": "2026-09-24T17:58:21.000Z",
+          "excerpt": "Công trình sử dụng cao độ nâng hạ phi đối xứng, giếng trời và bảng màu trung tính để kết nối các không gian sinh hoạt.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Loạt siêu dự án chưa từng có tại Việt Nam sắp về đích: Công trình VIP quy mô 8.500 m2 dần lộ diện, nhà biểu diễn lớn hơn nơi trao giải Oscar cũng hoàn thành gần 100% kết cấu bê tông cốt thép",
+          "link": "https://cafef.vn/loat-sieu-du-an-chua-tung-co-tai-viet-namsap-ve-dich-cong-trinh-vip-quy-mo-8500-m2-dan-lo-dien-nha-bieu-dien-lon-hon-noi-trao-giai-oscar-cung-hoan-thanh-gan-100-ket-cau-be-tong-cot-thep-188260924222416781.chn",
+          "pubDate": "2026-09-24T17:08:00.000Z",
+          "excerpt": "Các công trình phục vụ APEC 2027 tại Phú Quốc đang tăng tốc thi công, từ sân bay mở rộng, nhà ga VIP đến trung tâm hội nghị và nhà biểu diễn đa năng.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +181,10 @@
           "condensed": null
         },
         {
-          "title": "Cơ bản hoàn thành giải phóng mặt bằng 7 cầu vượt sông Hồng",
-          "link": "https://cafef.vn/co-ban-hoan-thanh-giai-phong-mat-bang-7-cau-vuot-song-hong-188260924194923611.chn",
-          "pubDate": "2026-09-24T12:58:00.000Z",
-          "excerpt": "Theo báo cáo của Sở Nông nghiệp và Môi trường Hà Nội, đến nay, thành phố đã hoàn thành công tác giải phóng mặt bằng (GPMB) thực hiện 7/7 cầu vượt sông Hồng.…",
+          "title": "Ông Phạm Nhật Vượng tiếp tục cho xây một làng đặc biệt rộng 100.000 m2, được giới thiệu lớn nhất Việt Nam",
+          "link": "https://cafef.vn/ong-pham-nhat-vuong-tiep-tuc-cho-xay-mot-lang-dac-biet-rong-100000-m2-duoc-gioi-thieu-lon-nhat-viet-nam-188260924160634191.chn",
+          "pubDate": "2026-09-24T17:05:00.000Z",
+          "excerpt": "Nằm trong đại đô thị Vinhomes Global Gate Hạ Long, Làng Hải sản Viet Seafood được định hướng trở thành không gian ẩm thực chuyên biệt, tập trung vào nguồn hải…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,10 +192,10 @@
           "condensed": null
         },
         {
-          "title": "Đồng Nai đấu giá 12,8 ha đất làm cơ sở giáo dục, giá khởi điểm 140 tỷ đồng",
-          "link": "https://cafef.vn/dong-nai-dau-gia-128-ha-dat-lam-co-so-giao-duc-gia-khoi-diem-140-ty-dong-188260924184225092.chn",
-          "pubDate": "2026-09-24T12:42:00.000Z",
-          "excerpt": "Đồng Nai đấu giá quyền sử dụng đất thửa đất số 41 tờ bản đồ địa chính số 18 phường Dầu Giây được quy hoạch làm cơ sở giáo dục.",
+          "title": "Tỷ phú Phạm Nhật Vượng chi hơn 2 tỷ USD biến hòn đảo gần 900ha từ vùng đất biệt lập thành đại đô thị, kết nối trung tâm chỉ 5 phút",
+          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-chi-hon-2-ty-usd-bien-hon-dao-gan-900ha-tu-vung-dat-biet-lap-thanh-dai-do-thi-ket-noi-trung-tam-chi-5-phut-188260924210110944.chn",
+          "pubDate": "2026-09-24T17:01:00.000Z",
+          "excerpt": "Với quy mô 877 ha và tổng vốn đầu tư hơn 2 tỷ USD, Vinhomes Royal Island đang từng bước thay đổi diện mạo đảo Vũ Yên, từ một vùng đất biệt lập thành đại đô thị…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -192,10 +203,10 @@
           "condensed": null
         },
         {
-          "title": "Thủ tướng: Sửa đồng bộ các luật nhằm không để giá đất tăng cao và bảo đảm chỗ ở cho người dân",
-          "link": "https://cafef.vn/thu-tuong-sua-dong-bo-cac-luat-nham-khong-de-gia-dat-tang-cao-va-bao-dam-cho-o-cho-nguoi-dan-188260924183750617.chn",
-          "pubDate": "2026-09-24T12:32:00.000Z",
-          "excerpt": "Chiều 24/9, Thủ tướng Lê Minh Hưng cùng đoàn đại biểu Quốc hội thành phố Hải Phòng tiếp xúc cử tri trước kỳ họp thứ 2, Quốc hội khóa XVI. Trao đổi với cử tri,…",
+          "title": "Khu đất 17 tỷ đồng của NSƯT Vũ Linh dính quy hoạch, phiên tòa tranh chấp buộc phải dừng",
+          "link": "https://cafef.vn/khu-dat-17-ty-dong-cua-nsut-vu-linh-dinh-quy-hoach-phien-toa-tranh-chap-buoc-phai-dung-188260924213329182.chn",
+          "pubDate": "2026-09-24T14:33:00.000Z",
+          "excerpt": "Sau hai lần hoãn tòa, Tòa phúc thẩm TAND Tối cao tại TPHCM mở lại phiên xét xử vụ tranh chấp thừa kế di sản và đòi nhà cho ở nhờ liên quan cố NSƯT Vũ Linh. Tuy…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -203,10 +214,21 @@
           "condensed": null
         },
         {
-          "title": "Bắc Ninh phê duyệt phương án đấu giá đất làm khu nhà ở 610 tỷ đồng",
-          "link": "https://cafef.vn/bac-ninh-phe-duyet-phuong-an-dau-gia-dat-lam-khu-nha-o-610-ty-dong-188260924184046769.chn",
-          "pubDate": "2026-09-24T11:59:00.000Z",
-          "excerpt": "Khu nhà ở tại tổ dân phố Mao Dộc, phường Phương Liễu dự kiến được thực hiện trên diện tích 4,1 ha, trong đó, diện tích đưa ra đấu giá là hơn 1,4 ha.",
+          "title": "Cấp xã được quyết giá bán nhà tái định cư tại TP HCM",
+          "link": "https://vnexpress.net/cap-xa-duoc-quyet-gia-ban-nha-tai-dinh-cu-tai-tp-hcm-5124413.html",
+          "pubDate": "2026-09-24T13:40:12.000Z",
+          "excerpt": "UBND TP HCM ủy quyền cho UBND xã, phường, đặc khu quyết định giá bán nhà ở phục vụ tái định cư do Nhà nước đầu tư xây dựng, áp dụng đến hết năm 2030.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Các dự án TOD của TPHCM có nguy cơ kéo dài vì nhiều nguyên nhân",
+          "link": "https://cafef.vn/cac-du-an-tod-cua-tphcm-co-nguy-co-keo-dai-vi-nhieu-nguyen-nhan-188260924185428936.chn",
+          "pubDate": "2026-09-24T13:25:00.000Z",
+          "excerpt": "Đây là nội dung thông tin được Sở Xây dựng TPHCM cung cấp tại buổi họp báo về tình hình kinh tế - xã hội của thành phố, vào chiều 24/9.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -223,28 +245,6 @@
           "sourceUrl": "https://cafebiz.vn",
           "attribution": "CafeBiz",
           "condensed": null
-        },
-        {
-          "title": "TP HCM gỡ vướng tách thửa đất ở xen kẽ đất nông nghiệp",
-          "link": "https://vnexpress.net/tp-hcm-go-vuong-tach-thua-dat-o-xen-ke-dat-nong-nghiep-5124340.html",
-          "pubDate": "2026-09-24T09:24:16.000Z",
-          "excerpt": "Người dân TP HCM sở hữu đất hỗn hợp khi tách phần đất ở sẽ không bị bắt buộc phần đất nông nghiệp đính kèm phải đảm bảo diện tích tối thiểu.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Novaland: Dự án xếp hàng chờ triển khai, doanh nghiệp vẫn tính đường xoay vốn từ cổ đông để trả nợ",
-          "link": "https://cafebiz.vn/novaland-du-an-xep-hang-cho-trien-khai-doanh-nghiep-van-tinh-duong-xoay-von-tu-co-dong-de-tra-no-176260924143706985.chn",
-          "pubDate": "2026-09-24T07:43:00.000Z",
-          "excerpt": "Novaland đang phải xử lý đồng thời hai bài toán lớn: khơi thông, tái triển khai các dự án còn vướng pháp lý để tạo nguồn thu, trong khi vẫn cần nguồn tiền lớn…",
-          "sourceId": "cafebiz",
-          "sourceName": "CafeBiz",
-          "sourceUrl": "https://cafebiz.vn",
-          "attribution": "CafeBiz",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -254,10 +254,21 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Đề xuất dừng xuất cảnh, cắt điện, nước, Internet để cưỡng chế vi phạm hành chính",
-          "link": "https://cafef.vn/de-xuat-dung-xuat-canh-cat-dien-nuoc-internet-de-cuong-che-vi-pham-hanh-chinh-188260923201027417.chn",
-          "pubDate": "2026-09-24T13:10:00.000Z",
-          "excerpt": "Dự thảo Luật Xử lý vi phạm hành chính (sửa đổi) đề xuất bổ sung các biện pháp cưỡng chế như dừng xuất cảnh, ngừng cung cấp điện, nước, Internet, dịch vụ viễn…",
+          "title": "Doanh nghiệp cần tránh bẫy chiều lòng nhà đầu tư 'lướt sóng'",
+          "link": "https://vnexpress.net/doanh-nghiep-can-tranh-bay-chieu-long-nha-dau-tu-luot-song-5124346.html",
+          "pubDate": "2026-09-24T18:07:10.000Z",
+          "excerpt": "Theo chuyên gia, cố gắng làm hài lòng mọi nhà đầu tư, kể cả nhóm ngắn hạn, có thể khiến doanh nghiệp phân tán nguồn lực, xa rời chiến lược.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Thu nhập bình quân (PPP) từng bằng 1/2 Philippines, 1/3 Indonesia, Việt Nam mất 26 năm vượt Philippines, mấy năm vượt Indonesia?",
+          "link": "https://cafef.vn/thu-nhap-binh-quan-ppp-tung-bang-1-2-philippines-1-3-indonesia-viet-nam-mat-26-nam-vuot-philippines-may-nam-vuot-indonesia-188260924233558423.chn",
+          "pubDate": "2026-09-24T17:31:00.000Z",
+          "excerpt": "Năm 1990, thu nhập bình quân theo sức mua tương đương (PPP) của Việt Nam đạt khoảng 1.100 USD, thấp hơn Indonesia và Philippines.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -265,10 +276,10 @@
           "condensed": null
         },
         {
-          "title": "Thủ tướng: Nhà nước bảo đảm chỗ ở cho người dân với giá phù hợp",
-          "link": "https://cafef.vn/thu-tuong-nha-nuoc-bao-dam-cho-o-cho-nguoi-dan-voi-gia-phu-hop-188260924193920987.chn",
-          "pubDate": "2026-09-24T12:47:00.000Z",
-          "excerpt": "Thủ tướng cho rằng khi Nhà nước bảo đảm chỗ ở cho người dân với giá cả phù hợp và thời gian dài hạn thì nhu cầu, áp lực về sở hữu nhà sẽ giảm đi.",
+          "title": "Việt Nam sẽ xây cao tốc có 6 hầm xuyên núi và 70 cây cầu nối hai tỉnh miền núi phía Bắc với tổng vốn khoảng 50.000 tỷ đồng",
+          "link": "https://cafef.vn/viet-nam-se-xay-cao-toc-co-6-ham-xuyen-nui-va-70-cay-cau-noi-hai-tinh-mien-nui-phia-bac-voi-tong-von-khoang-50000-ty-dong-188260924212804149.chn",
+          "pubDate": "2026-09-24T17:01:00.000Z",
+          "excerpt": "Dự án cao tốc này dài khoảng 119 km đang được hoàn thiện hồ sơ chuẩn bị đầu tư, đồng thời rà soát phạm vi thu hồi đất, số hộ bị ảnh hưởng và nhu cầu tái định…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -276,10 +287,10 @@
           "condensed": null
         },
         {
-          "title": "Lãnh đạo Thành ủy Hà Nội: Đẩy nhanh tiến độ dự án Quốc lộ 6 Ba La - Xuân Mai",
-          "link": "https://cafef.vn/lanh-dao-thanh-uy-ha-noi-day-nhanh-tien-do-du-an-quoc-lo-6-ba-la-xuan-mai-18826092407220228.chn",
-          "pubDate": "2026-09-24T11:30:00.000Z",
-          "excerpt": "Theo Phó Bí thư Thường trực Thành ủy Hà Nội Nguyễn Trọng Đông, khi người dân đã bàn giao nhà, đất để thực hiện dự án, các cơ quan, đơn vị phải khẩn trương tổ…",
+          "title": "Hoàn thuế kéo dài, Cục Thuế yêu cầu phải trả lời rõ với doanh nghiệp",
+          "link": "https://cafef.vn/hoan-thue-keo-dai-cuc-thue-yeu-cau-phai-tra-loi-ro-voi-doanh-nghiep-188260924211405974.chn",
+          "pubDate": "2026-09-24T14:14:00.000Z",
+          "excerpt": "Hàng loạt doanh nghiệp, hiệp hội tiếp tục phản ánh vướng mắc trong hoàn thuế giá trị gia tăng, trong đó có hồ sơ kéo dài nhiều năm với số tiền hàng chục tỷ…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -287,10 +298,10 @@
           "condensed": null
         },
         {
-          "title": "Bộ Tài chính thông tin về Quỹ bình ổn giá xăng, dầu",
-          "link": "https://cafef.vn/bo-tai-chinh-thong-tin-ve-quy-binh-on-gia-xang-dau-188260924072725737.chn",
-          "pubDate": "2026-09-24T11:15:00.000Z",
-          "excerpt": "Bộ Tài chính cho biết, số dư Quỹ bình ổn giá xăng, dầu đến hết ngày 30-6 là hơn 196,28 tỷ đồng, tăng hơn 1,22 tỷ đồng so với đầu quý II do phát sinh lãi. Trong…",
+          "title": "Cơ quan Thuế yêu cầu Vietcombank, MSB... trích hơn 490 triệu đồng từ tài khoản của 3 người nộp thuế sau",
+          "link": "https://cafef.vn/co-quan-thue-yeu-cau-vietcombank-msb-trich-hon-490-trieu-dong-tu-tai-khoan-cua-3-nguoi-nop-thue-sau-188260924171926229.chn",
+          "pubDate": "2026-09-24T14:11:00.000Z",
+          "excerpt": "Thuế thành phố Đồng Nai đã ban hành các quyết định cưỡng chế thuế bằng biện pháp trích tiền từ tài khoản đối với 3 doanh nghiệp có khoản nợ thuế quá 90 ngày.…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -298,10 +309,10 @@
           "condensed": null
         },
         {
-          "title": "Chuyến tàu đầu tiên qua 'kênh đào thế kỷ' Trung Quốc về Cần Thơ",
-          "link": "https://cafef.vn/chuyen-tau-dau-tien-qua-kenh-dao-the-ky-trung-quoc-ve-can-tho-188260924170114378.chn",
-          "pubDate": "2026-09-24T10:55:00.000Z",
-          "excerpt": "Chuyến tàu chở container đầu tiên từ cảng Nam Ninh, Trung Quốc qua kênh đào Bình Lục ra biển đã cập bến cảng Cái Cui, Cần Thơ, đánh dấu chính thức hình thành…",
+          "title": "Rà soát nhu cầu, khả năng giải ngân vốn 'siêu dự án' đường sắt tốc độ cao",
+          "link": "https://cafef.vn/ra-soat-nhu-cau-kha-nang-giai-ngan-von-sieu-du-an-duong-sat-toc-do-cao-188260924193706506.chn",
+          "pubDate": "2026-09-24T13:45:00.000Z",
+          "excerpt": "Thủ tướng yêu cầu khẩn trương rà soát nhu cầu, khả năng giải ngân vốn cho Dự án đường sắt tốc độ cao Bắc - Nam, đồng thời đẩy nhanh xây dựng khu tái định cư,…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -317,17 +328,6 @@
           "sourceName": "VnEconomy",
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Đức chốt lộ trình loại bỏ than, dầu, xe xăng",
-          "link": "https://vnexpress.net/duc-chot-lo-trinh-loai-bo-than-dau-xe-xang-5124077.html",
-          "pubDate": "2026-09-24T05:30:00.000Z",
-          "excerpt": "Đức sẽ loại bỏ nhiên liệu hóa thạch với mốc chuyển đổi khỏi than đá, xe xăng từ năm 2035.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-          "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T13:15:00.000Z",
-          "excerpt": "“On each of these weekends away, she’s probably spending $500.”",
+          "title": "Knifeman kills priest, injures 4 in attack at Polish abbey",
+          "link": "https://www.scmp.com/news/world/europe/article/3368718/knifeman-kills-priest-injures-4-attack-polish-abbey?utm_source=rss_feed",
+          "pubDate": "2026-09-24T18:11:28.000Z",
+          "excerpt": "A man armed with a knife killed a priest and injured four other people during an attack on clergy and worshippers at a Benedictine abbey in southern Poland on…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Here are 3 alternatives for investors looking to dodge the bond-market beatdown",
+          "link": "https://www.marketwatch.com/story/here-are-3-alternatives-for-investors-looking-to-dodge-the-bond-market-beatdown-ec8fda43?mod=mw_rss_topstories",
+          "pubDate": "2026-09-24T18:07:00.000Z",
+          "excerpt": "U.S. stocks have kept chugging higher this year, but bonds haven’t been able to shake off a five-year slump. That has sent some investors interested in a…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,9 +371,53 @@
           "condensed": null
         },
         {
+          "title": "Netanyahu addresses UN summit",
+          "link": "https://www.ft.com/content/979ae3ac-4623-4fe9-a771-43ce451a9e73",
+          "pubDate": "2026-09-24T18:05:39.000Z",
+          "excerpt": "Israeli leader’s speech comes on high-profile day for international relations as Donald Trump hosts Xi Jinping at the White House",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Xi says US and China must ‘coexist in peace’ in historic White House visit",
+          "link": "https://www.ft.com/content/24c13fd3-5de5-4916-8300-ec3073027ff6?syn-25a6b1a6=1",
+          "pubDate": "2026-09-24T17:53:11.000Z",
+          "excerpt": "The Chinese leader is meeting his US counterpart Donald Trump in Washington for wide-ranging talks between the superpowers",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Abbas accuses Israel of waging ‘genocidal war’ in Gaza, in pre-recorded UN address",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368717/abbas-accuses-israel-waging-genocidal-war-gaza-pre-recorded-un-speech?utm_source=rss_feed",
+          "pubDate": "2026-09-24T17:40:03.000Z",
+          "excerpt": "Palestinian President Mahmoud Abbas on Thursday warned that the Palestinian people were facing “one of the most dangerous phases in their history” in a speech…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "The AI agent revolution has moved a big step closer",
+          "link": "https://www.ft.com/content/e60b40b6-dae5-4ccf-83cc-978269cbcaa5?syn-25a6b1a6=1",
+          "pubDate": "2026-09-24T17:33:10.000Z",
+          "excerpt": "Launch of Muse by Meta has provided a glimpse of how the technology could be turned into a mass-market product",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
           "title": "‘We made a bad, bad decision’: I learned the hard way how to manage my aging father’s money",
           "link": "https://www.marketwatch.com/story/we-made-a-bad-bad-decision-i-learned-the-hard-way-how-to-manage-my-aging-fathers-money-c87cabed?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T13:15:00.000Z",
+          "pubDate": "2026-09-24T17:15:00.000Z",
           "excerpt": "“When my father died, his trust was the Bible.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -371,69 +426,14 @@
           "condensed": null
         },
         {
-          "title": "UK far-right activist arrested after migrant boat slashed in English Channel",
-          "link": "https://www.scmp.com/news/world/europe/article/3368701/uk-far-right-activist-arrested-after-migrant-boat-slashed-english-channel?utm_source=rss_feed",
-          "pubDate": "2026-09-24T13:11:35.000Z",
-          "excerpt": "A far-right activist who had led protests against migrants crossing the English Channel in small boats has been arrested for allegedly slashing a dinghy in the…",
+          "title": "Croatian court approves extradition of Nord Stream blast suspect to Germany",
+          "link": "https://www.scmp.com/news/world/europe/article/3368715/croatian-court-approves-extradition-nord-stream-blast-suspect-germany?utm_source=rss_feed",
+          "pubDate": "2026-09-24T16:46:52.000Z",
+          "excerpt": "A Croatian court has approved the extradition of a Ukrainian man who is wanted in Germany in connection with the 2022 undersea explosions that damaged the Nord…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
           "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Oracle’s stock is falling as investors fear a data-center setback",
-          "link": "https://www.marketwatch.com/story/oracles-stock-is-falling-as-investors-fear-a-data-center-setback-d8105ef9?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T13:02:00.000Z",
-          "excerpt": "A recent report noted that Oracle is looking to protect itself from paying some expenses if a high-profile data-center project gets delayed.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Three reasons to stick with stocks despite rising yields, according to Barclays",
-          "link": "https://www.marketwatch.com/story/three-reasons-to-stick-with-stocks-despite-rising-yields-according-to-barclays-9b8ea2c3?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T12:58:00.000Z",
-          "excerpt": "Strategists at the bank recommend exposure to U.S. technology, media, telecommunications and industrial stocks.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Global bond sell-off spreads as oil climbs back to $105",
-          "link": "https://www.ft.com/content/2d87f8bf-d529-4997-90c5-393ef65d280c?syn-25a6b1a6=1",
-          "pubDate": "2026-09-24T12:18:18.000Z",
-          "excerpt": "Rising yields strain public finances after brutal sell-off in US Treasuries market",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "BlackRock Investment Portfolios Debut on the Blockchain as Digital Tokens",
-          "link": "https://www.wsj.com/finance/investing/blackrock-investment-portfolios-debut-on-the-blockchain-as-digital-tokens-c9df7ca6?mod=rss_markets_main",
-          "pubDate": "2026-09-24T12:00:00.000Z",
-          "excerpt": "Three model portfolios developed by the money manager will hold baskets of ETFs and be tokenized by Ondo Finance.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Trump says he wants to leave AI ‘exactly where it is’ ahead of Xi meeting",
-          "link": "https://www.ft.com/content/979ae3ac-4623-4fe9-a771-43ce451a9e73",
-          "pubDate": "2026-09-24T11:48:36.000Z",
-          "excerpt": "The leaders are expected to discuss trade war truce and AI risks before a state dinner with American business leaders",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
           "condensed": null
         }
       ],
