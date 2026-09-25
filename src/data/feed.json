@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T22:06:34.724Z",
+  "lastUpdated": "2026-09-25T00:30:29.993Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4310.1,
+      "value": 4302.4,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -37,9 +37,9 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 65513.99,
-      "change": 2029.8899999999994,
-      "changePercent": 3.197477793652268
+      "value": 65765.13,
+      "change": 1842.1300000000047,
+      "changePercent": 2.8817952849522155
     },
     {
       "symbol": "^HSI",
@@ -64,10 +64,43 @@
       "displayName": "Chứng khoán",
       "articles": [
         {
+          "title": "Kinh tế thế giới đang trụ vững dưới sức ép của lãi suất tăng",
+          "link": "https://vneconomy.vn/kinh-te-the-gioi-dang-tru-vung-duoi-suc-ep-cua-lai-suat-tang.htm",
+          "pubDate": "2026-09-25T00:23:22.000Z",
+          "excerpt": "Trong lúc lãi suất đi vay trên toàn cầu leo thang, một số nhà kinh tế nhận thấy có một dấu hiệu tích cực là nền kinh tế đủ mạnh để đương đầu áp lực này...",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Lãi suất khi nào có thể hạ nhiệt?",
+          "link": "https://vnexpress.net/lai-suat-khi-nao-co-the-ha-nhiet-5124449.html",
+          "pubDate": "2026-09-24T22:00:00.000Z",
+          "excerpt": "Lãi suất chủ yếu đi ngang và khó giảm rõ nét trước đầu năm 2027 bởi áp lực lạm phát, cộng thêm khả năng Fed tiếp tục nâng lãi suất, theo chuyên gia.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Có nên gom thêm cổ phiếu khi đang lãi gấp đôi?",
           "link": "https://vnexpress.net/co-nen-gom-them-co-phieu-khi-dang-lai-gap-doi-5122395.html",
           "pubDate": "2026-09-24T20:12:00.000Z",
           "excerpt": "Chuyên gia cho rằng giá cổ phiếu đắt hay rẻ, phù hợp mua thêm hay không nằm ở giá trị nội tại của doanh nghiệp và triển vọng tăng trưởng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "'Năng suất lao động cần tăng 9% để tăng trưởng hai con số'",
+          "link": "https://vnexpress.net/nang-suat-lao-dong-can-tang-9-de-tang-truong-hai-con-so-5124445.html",
+          "pubDate": "2026-09-24T20:06:30.000Z",
+          "excerpt": "Để đạt mục tiêu tăng trưởng hai con số, tốc độ tăng năng suất lao động cần bứt tốc lên 8,5-9% mỗi năm, theo chuyên gia.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -97,17 +130,6 @@
           "condensed": null
         },
         {
-          "title": "Doanh nghiệp cần tránh bẫy chiều lòng nhà đầu tư 'lướt sóng'",
-          "link": "https://vnexpress.net/doanh-nghiep-can-tranh-bay-chieu-long-nha-dau-tu-luot-song-5124346.html",
-          "pubDate": "2026-09-24T18:07:10.000Z",
-          "excerpt": "Theo chuyên gia, cố gắng làm hài lòng mọi nhà đầu tư, kể cả nhóm ngắn hạn, có thể khiến doanh nghiệp phân tán nguồn lực, xa rời chiến lược.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Một Phó Tổng Giám đốc ngân hàng nhầm lệnh mua bán cổ phiếu",
           "link": "https://cafef.vn/mot-pho-tong-giam-doc-ngan-hang-nham-lenh-mua-ban-co-phieu-18826092422021143.chn",
           "pubDate": "2026-09-24T17:05:00.000Z",
@@ -128,28 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Khối ngoại bán thẳng tay 2.600 tỷ đồng ngay sau nâng hạng, điều gì đang diễn ra?",
-          "link": "https://cafef.vn/khoi-ngoai-ban-thang-tay-2600-ty-dong-ngay-sau-nang-hang-dieu-gi-dang-dien-ra-188260924164857616.chn",
-          "pubDate": "2026-09-24T17:02:00.000Z",
-          "excerpt": "Áp lực bán diễn ra trong bối cảnh thị trường liên tục rung lắc.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Nhóm công nghệ áp đảo top 10 công ty vốn hóa lớn nhất thế giới, không có bóng dáng ngân hàng, bất động sản",
-          "link": "https://cafef.vn/nhom-cong-nghe-ap-dao-top-10-cong-ty-von-hoa-lon-nhat-the-gioi-khong-co-bong-dang-ngan-hang-bat-dong-san-188260924225047509.chn",
-          "pubDate": "2026-09-24T17:01:00.000Z",
-          "excerpt": "Cái tên duy nhất trong top 10 công ty vốn hóa lớn nhất thế giới không có yếu tố công nghệ là một “gã khổng lồ” ngành năng lượng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,14 +159,58 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Bất động sản công nghiệp đắt khách nhờ FDI ồ ạt giải ngân",
-          "link": "https://vnexpress.net/bat-dong-san-cong-nghiep-dat-khach-nho-fdi-o-at-giai-ngan-5124233.html",
-          "pubDate": "2026-09-24T22:00:00.000Z",
-          "excerpt": "Hai tháng qua, khu công nghiệp Prodezi tại Tây Ninh đón thêm 3 dự án mới, tổng vốn khoảng 24 triệu USD, trong đó, nhà đầu tư Singapore chi 20 triệu USD xây nhà…",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
+          "title": "Vốn đắt, doanh nghiệp bất động sản khó tiếp cận gói tín dụng 145.000 tỷ",
+          "link": "https://cafef.vn/von-dat-doanh-nghiep-bat-dong-san-kho-tiep-can-goi-tin-dung-145000-ty-188260925061403157.chn",
+          "pubDate": "2026-09-25T00:13:00.000Z",
+          "excerpt": "HoREA thông tin, hầu như không có doanh nghiệp phát triển nhà ở xã hội nào tiếp cận được gói tín dụng 145.000 tỷ đồng của 9 ngân hàng với lãi suất 6,1%/năm.…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Thuế chống đầu cơ đất: Cần làm rõ thế nào là bỏ hoang, găm giữ?",
+          "link": "https://cafef.vn/thue-chong-dau-co-dat-can-lam-ro-the-nao-la-bo-hoang-gam-giu-188260925061507159.chn",
+          "pubDate": "2026-09-25T00:03:00.000Z",
+          "excerpt": "Theo chuyên gia, để chính sách về thuế chống đầu cơ và xử lý tình trạng đất bỏ hoang được hình thành và đi vào thực tế trong tương lai, trước hết cần tiêu chí…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Ngôi nhà của cô gái SN 1995 khiến ai nhìn cũng muốn về nhà ngay: 150m² toàn những góc để “chữa lành”",
+          "link": "https://cafef.vn/ngoi-nha-cua-co-gai-sn-1995-khien-ai-nhin-cung-muon-ve-nha-ngay-150m-toan-nhung-goc-de-chua-lanh-188260925065010052.chn",
+          "pubDate": "2026-09-24T23:49:00.000Z",
+          "excerpt": "Căn nhà 150m² được cô gái sinh năm 1995 vun vén thành nơi chỉ cần trở về là thấy dễ chịu.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Doanh nghiệp của tỷ phú Phạm Nhật Vượng sẽ phủ 700.000 tấm pin trên hồ thủy điện ở Tây Bắc",
+          "link": "https://cafef.vn/doanh-nghiep-cua-ty-phu-pham-nhat-vuong-se-phu-700000-tam-pin-tren-ho-thuy-dien-o-tay-bac-188260925002530629.chn",
+          "pubDate": "2026-09-24T23:45:00.000Z",
+          "excerpt": "Hai dự án điện mặt trời nổi do VinEnergo đầu tư trên hồ thủy điện Bản Chát có tổng công suất 550MW, dự kiến sử dụng gần 692.200 tấm pin.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nhà đầu tư vàng, chứng khoán đi 'tàu lượn', vì sao bất động sản hút dòng tiền?",
+          "link": "https://cafef.vn/nha-dau-tu-vang-chung-khoan-di-tau-luon-vi-sao-bat-dong-san-hut-dong-tien-188260925061011101.chn",
+          "pubDate": "2026-09-24T23:10:00.000Z",
+          "excerpt": "Trong khi chứng khoán, vàng đưa nhà đầu tư đi “tàu lượn” thì bất động sản vẫn là phễu hút dòng tiền. Thị trường ghi nhận, dòng tiền thông minh đang tranh thủ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
           "condensed": null
         },
         {
@@ -181,50 +225,6 @@
           "condensed": null
         },
         {
-          "title": "Loạt siêu dự án chưa từng có tại Việt Nam sắp về đích: Công trình VIP quy mô 8.500 m2 dần lộ diện, nhà biểu diễn lớn hơn nơi trao giải Oscar cũng hoàn thành gần 100% kết cấu bê tông cốt thép",
-          "link": "https://cafef.vn/loat-sieu-du-an-chua-tung-co-tai-viet-namsap-ve-dich-cong-trinh-vip-quy-mo-8500-m2-dan-lo-dien-nha-bieu-dien-lon-hon-noi-trao-giai-oscar-cung-hoan-thanh-gan-100-ket-cau-be-tong-cot-thep-188260924222416781.chn",
-          "pubDate": "2026-09-24T17:08:00.000Z",
-          "excerpt": "Các công trình phục vụ APEC 2027 tại Phú Quốc đang tăng tốc thi công, từ sân bay mở rộng, nhà ga VIP đến trung tâm hội nghị và nhà biểu diễn đa năng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ông Phạm Nhật Vượng tiếp tục cho xây một làng đặc biệt rộng 100.000 m2, được giới thiệu lớn nhất Việt Nam",
-          "link": "https://cafef.vn/ong-pham-nhat-vuong-tiep-tuc-cho-xay-mot-lang-dac-biet-rong-100000-m2-duoc-gioi-thieu-lon-nhat-viet-nam-188260924160634191.chn",
-          "pubDate": "2026-09-24T17:05:00.000Z",
-          "excerpt": "Nằm trong đại đô thị Vinhomes Global Gate Hạ Long, Làng Hải sản Viet Seafood được định hướng trở thành không gian ẩm thực chuyên biệt, tập trung vào nguồn hải…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tỷ phú Phạm Nhật Vượng chi hơn 2 tỷ USD biến hòn đảo gần 900ha từ vùng đất biệt lập thành đại đô thị, kết nối trung tâm chỉ 5 phút",
-          "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-chi-hon-2-ty-usd-bien-hon-dao-gan-900ha-tu-vung-dat-biet-lap-thanh-dai-do-thi-ket-noi-trung-tam-chi-5-phut-188260924210110944.chn",
-          "pubDate": "2026-09-24T17:01:00.000Z",
-          "excerpt": "Với quy mô 877 ha và tổng vốn đầu tư hơn 2 tỷ USD, Vinhomes Royal Island đang từng bước thay đổi diện mạo đảo Vũ Yên, từ một vùng đất biệt lập thành đại đô thị…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Khu đất 17 tỷ đồng của NSƯT Vũ Linh dính quy hoạch, phiên tòa tranh chấp buộc phải dừng",
-          "link": "https://cafef.vn/khu-dat-17-ty-dong-cua-nsut-vu-linh-dinh-quy-hoach-phien-toa-tranh-chap-buoc-phai-dung-188260924213329182.chn",
-          "pubDate": "2026-09-24T14:33:00.000Z",
-          "excerpt": "Sau hai lần hoãn tòa, Tòa phúc thẩm TAND Tối cao tại TPHCM mở lại phiên xét xử vụ tranh chấp thừa kế di sản và đòi nhà cho ở nhờ liên quan cố NSƯT Vũ Linh. Tuy…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Cấp xã được quyết giá bán nhà tái định cư tại TP HCM",
           "link": "https://vnexpress.net/cap-xa-duoc-quyet-gia-ban-nha-tai-dinh-cu-tai-tp-hcm-5124413.html",
           "pubDate": "2026-09-24T13:40:12.000Z",
@@ -236,14 +236,14 @@
           "condensed": null
         },
         {
-          "title": "Các dự án TOD của TPHCM có nguy cơ kéo dài vì nhiều nguyên nhân",
-          "link": "https://cafef.vn/cac-du-an-tod-cua-tphcm-co-nguy-co-keo-dai-vi-nhieu-nguyen-nhan-188260924185428936.chn",
-          "pubDate": "2026-09-24T13:25:00.000Z",
-          "excerpt": "Đây là nội dung thông tin được Sở Xây dựng TPHCM cung cấp tại buổi họp báo về tình hình kinh tế - xã hội của thành phố, vào chiều 24/9.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
+          "title": "Bất đồng ý kiến với kiểm toán, DRH Holdings đối mặt với điều gì?",
+          "link": "https://cafebiz.vn/bat-dong-y-kien-voi-kiem-toan-drh-holdings-doi-mat-voi-dieu-gi-17626092418145069.chn",
+          "pubDate": "2026-09-24T11:14:00.000Z",
+          "excerpt": "Cổ phiếu DRH có thể bị đình chỉ giao dịch nếu Công ty vẫn tiếp tục trì hoãn nộp báo cáo kiểm toán năm 2025.",
+          "sourceId": "cafebiz",
+          "sourceName": "CafeBiz",
+          "sourceUrl": "https://cafebiz.vn",
+          "attribution": "CafeBiz",
           "condensed": null
         }
       ],
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Cơ quan Thuế yêu cầu Vietcombank, MSB... trích hơn 490 triệu đồng từ tài khoản của 3 người nộp thuế sau",
-          "link": "https://cafef.vn/co-quan-thue-yeu-cau-vietcombank-msb-trich-hon-490-trieu-dong-tu-tai-khoan-cua-3-nguoi-nop-thue-sau-188260924171926229.chn",
-          "pubDate": "2026-09-24T20:17:00.000Z",
-          "excerpt": "Thuế thành phố Đồng Nai đã ban hành các quyết định cưỡng chế thuế bằng biện pháp trích tiền từ tài khoản đối với 3 doanh nghiệp có khoản nợ thuế quá 90 ngày.…",
+          "title": "Thu nhập bình quân (PPP) từng bằng 1/2 Philippines, 1/3 Indonesia, Việt Nam mất 26 năm vượt Philippines, mấy năm vượt Indonesia?",
+          "link": "https://cafef.vn/thu-nhap-binh-quan-ppp-tung-bang-1-2-philippines-1-3-indonesia-viet-nam-mat-26-nam-vuot-philippines-may-nam-vuot-indonesia-188260924233558423.chn",
+          "pubDate": "2026-09-25T00:18:00.000Z",
+          "excerpt": "Năm 1990, thu nhập bình quân theo sức mua tương đương (PPP) của Việt Nam đạt khoảng 1.100 USD, thấp hơn Indonesia và Philippines.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -265,10 +265,10 @@
           "condensed": null
         },
         {
-          "title": "Thu nhập bình quân (PPP) từng bằng 1/2 Philippines, 1/3 Indonesia, Việt Nam mất 26 năm vượt Philippines, mấy năm vượt Indonesia?",
-          "link": "https://cafef.vn/thu-nhap-binh-quan-ppp-tung-bang-1-2-philippines-1-3-indonesia-viet-nam-mat-26-nam-vuot-philippines-may-nam-vuot-indonesia-188260924233558423.chn",
-          "pubDate": "2026-09-24T18:17:00.000Z",
-          "excerpt": "Năm 1990, thu nhập bình quân theo sức mua tương đương (PPP) của Việt Nam đạt khoảng 1.100 USD, thấp hơn Indonesia và Philippines.",
+          "title": "Cơ quan Thuế yêu cầu Vietcombank, MSB... trích hơn 490 triệu đồng từ tài khoản của 3 người nộp thuế sau",
+          "link": "https://cafef.vn/co-quan-thue-yeu-cau-vietcombank-msb-trich-hon-490-trieu-dong-tu-tai-khoan-cua-3-nguoi-nop-thue-sau-188260924171926229.chn",
+          "pubDate": "2026-09-24T20:17:00.000Z",
+          "excerpt": "Thuế thành phố Đồng Nai đã ban hành các quyết định cưỡng chế thuế bằng biện pháp trích tiền từ tài khoản đối với 3 doanh nghiệp có khoản nợ thuế quá 90 ngày.…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,43 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges",
-          "link": "https://www.marketwatch.com/story/8-mortgage-rates-are-not-an-impossibility-as-the-30-year-fixed-rate-surges-aa202464?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T22:03:00.000Z",
-          "excerpt": "With the 10-year Treasury up sharply and the outlook for the U.S. economy looking unclear, some say 8% mortgage rates are back on the table.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Bond Traders Are Paying Too Much Attention to the Oil Price",
-          "link": "https://www.wsj.com/finance/investing/bond-traders-are-paying-too-much-attention-to-the-oil-price-faa6a6cb?mod=rss_markets_main",
-          "pubDate": "2026-09-24T22:00:00.000Z",
-          "excerpt": "Bond yields and oil are dancing to the same tune, but in some ways that doesn’t make sense.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
-          "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
-          "pubDate": "2026-09-24T21:40:19.000Z",
-          "excerpt": "Markets expect the central bank will take a firmer hand on inflation. It's not that easy.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "China’s industrial strengths must also benefit its trading partners",
-          "link": "https://www.scmp.com/opinion/china-opinion/article/3368293/chinas-industrial-strengths-must-also-benefit-its-trading-partners?utm_source=rss_feed",
-          "pubDate": "2026-09-24T21:30:12.000Z",
-          "excerpt": "The European Commission is pressing China for progress by next month to address the widening EU-China trade imbalance, and raising the possibility of new…",
+          "title": "Hollywood star Susan Sarandon among 100 arrested at New York anti-Netanyahu protest",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368728/hollywood-star-susan-sarandon-among-100-arrested-new-york-anti-netanyahu-protest?utm_source=rss_feed",
+          "pubDate": "2026-09-24T23:43:58.000Z",
+          "excerpt": "Film star Susan Sarandon and Hacks actress Hannah Einbinder were among a reported 100 people detained by police in New York on Thursday as they broke up a…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -393,10 +360,10 @@
           "condensed": null
         },
         {
-          "title": "Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market",
-          "link": "https://www.marketwatch.com/story/why-investors-arent-buying-yet-another-attempt-by-the-treasury-to-calm-the-rattled-bond-market-b168cac3?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T21:23:00.000Z",
-          "excerpt": "Back-to-back weak auctions for Treasury notes show that government repurchases haven’t spurred demand for bonds.",
+          "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
+          "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
+          "pubDate": "2026-09-24T23:35:00.000Z",
+          "excerpt": "“She currently has about 15 sitters, all independent contractors.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,20 +371,31 @@
           "condensed": null
         },
         {
-          "title": "Costa Rica’s foreign minister fired for attending Trump meeting without telling president",
-          "link": "https://www.scmp.com/news/world/americas/article/3368722/costa-ricas-foreign-minister-fired-attending-trump-meeting-without-telling-president?utm_source=rss_feed",
-          "pubDate": "2026-09-24T21:18:06.000Z",
-          "excerpt": "Costa Rica’s President Laura Fernandez on Thursday fired her foreign minister for attending a meeting on Latin America’s security led by US President Donald…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "3 things Micron investors need to watch as the stakes get higher",
+          "link": "https://www.marketwatch.com/story/3-things-micron-investors-need-to-watch-as-the-stakes-get-higher-e53fde7e?mod=mw_rss_topstories",
+          "pubDate": "2026-09-24T23:28:00.000Z",
+          "excerpt": "When Micron reports earnings next week, a Rosenblatt analyst expects to hear about additional customer agreements, rising prices and stock buybacks.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Costco earnings beat expectations, thanks to tariff refunds",
+          "title": "The S&P 500’s newest tech stock is now its best performer",
+          "link": "https://www.marketwatch.com/story/the-s-p-500s-newest-tech-stock-is-now-its-best-performer-5bfeb6e2?mod=mw_rss_topstories",
+          "pubDate": "2026-09-24T23:26:00.000Z",
+          "excerpt": "Shares of data-storage company Everpure were leading S&P 500 gainers on Thursday.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Costco’s results beat expectations. Here’s why investors are still cautious.",
           "link": "https://www.marketwatch.com/story/costco-earnings-beat-expectations-thanks-to-tariff-refunds-e7270cfa?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T20:54:00.000Z",
+          "pubDate": "2026-09-24T23:23:00.000Z",
           "excerpt": "Tariff refunds helped deliver a profit beat during Costco’s fourth quarter.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -426,14 +404,36 @@
           "condensed": null
         },
         {
-          "title": "Here’s how to position your portfolio for the next AI wave, according to Morgan Stanley",
-          "link": "https://www.marketwatch.com/story/heres-how-to-position-your-portfolio-for-the-next-ai-wave-according-to-morgan-stanley-ac8f8a4a?mod=mw_rss_topstories",
-          "pubDate": "2026-09-24T20:50:00.000Z",
-          "excerpt": "There’s still room for AI hardware stocks to rise, but analysts at Morgan Stanley say it’s time to diversify into a wide variety of industries that are…",
+          "title": "Amnesty International calls for abolition of ICE in report documenting rights violations",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368727/amnesty-international-calls-abolition-ice-report-documenting-rights-violations?utm_source=rss_feed",
+          "pubDate": "2026-09-24T23:19:18.000Z",
+          "excerpt": "Amnesty International called for the abolition of US Immigration and Customs Enforcement (ICE), which is tasked with leading Donald Trump’s anti-immigrant…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "I spend my time and money caring for my aging mother — yet she gave my brother $100,000. Should I pull back?",
+          "link": "https://www.marketwatch.com/story/i-spend-my-time-and-money-caring-for-my-aging-mother-yet-she-gave-my-brother-100-000-should-i-pull-back-7e4a3185?mod=mw_rss_topstories",
+          "pubDate": "2026-09-24T23:16:00.000Z",
+          "excerpt": "“My mother started having more trouble getting around. First a knee replacement, then a fall.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "UK will not ‘tolerate intimidation’, foreign secretary tells Iran",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3368726/uk-will-not-tolerate-intimidation-foreign-secretary-tells-iran?utm_source=rss_feed",
+          "pubDate": "2026-09-24T23:05:08.000Z",
+          "excerpt": "UK Foreign Secretary Ed Miliband has told Iran’s foreign minister Abbas Araghchi in a face-to-face meeting that Britain will “not tolerate intimidation,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
