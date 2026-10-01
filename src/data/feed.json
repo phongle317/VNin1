@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-30T21:19:47.702Z",
+  "lastUpdated": "2026-10-01T01:09:54.242Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
     "usdVnd": {
-      "value": 26160,
+      "value": 26150,
       "source": "Vietcombank"
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4189.1,
+      "value": 4174.9,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -37,9 +37,9 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 66753.72,
-      "change": 1239.7300000000032,
-      "changePercent": 1.8923133822256946
+      "value": 67592.21,
+      "change": 1228.0100000000093,
+      "changePercent": 1.8504103115836692
     },
     {
       "symbol": "^HSI",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Vàng trượt giá dù số liệu lạm phát Mỹ yếu hơn dự báo, SPDR Gold Trust bán ròng",
+          "link": "https://vneconomy.vn/vang-truot-gia-du-so-lieu-lam-phat-my-yeu-hon-du-bao-spdr-gold-trust-ban-rong.htm",
+          "pubDate": "2026-10-01T00:31:36.000Z",
+          "excerpt": "Giá vàng thế giới đi xuống trong phiên giao dịch ngày thứ Tư (30/9), hoàn tất một tháng giảm sâu, dù số liệu lạm phát yếu hơn kỳ vọng của Mỹ khiến kỳ vọng Cục…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
         {
           "title": "Tỷ phú Phạm Nhật Vượng tuyển 2.000 người cho Vinfast, có vị trí chỉ cần \"biết đọc biết viết\", thu nhập tới 18 triệu đồng/tháng",
           "link": "https://cafef.vn/ty-phu-pham-nhat-vuong-tuyen-2000-nguoi-cho-vinfast-co-vi-tri-chi-can-biet-doc-biet-viet-thu-nhap-toi-18-trieu-dong-thang-188260930225743362.chn",
@@ -139,17 +150,6 @@
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
           "condensed": null
-        },
-        {
-          "title": "Tiếp tục giảm thuế xăng dầu đến hết năm nay",
-          "link": "https://vnexpress.net/tiep-tuc-giam-thue-xang-dau-den-het-nam-nay-5126830.html",
-          "pubDate": "2026-09-30T14:10:38.000Z",
-          "excerpt": "Chính sách giảm thuế nhập khẩu ưu đãi, thuế bảo vệ môi trường và VAT với xăng dầu tiếp tục được áp dụng đến hết năm nay, thay vì kết thúc vào 30/9.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,10 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Nhà đã bán, sang tên sổ đỏ từ 12 năm trước bỗng có thông báo phạt thuế: Chủ nhà cũ sau một hồi vật lộn cũng tìm được cách xử lý nhanh gọn",
-          "link": "https://cafef.vn/nha-da-ban-sang-ten-so-do-tu-12-nam-truoc-bong-co-thong-bao-phat-thue-chu-nha-cu-sau-mot-hoi-vat-lon-cung-tim-duoc-cach-xu-ly-nhanh-gon-188260930152918397.chn",
-          "pubDate": "2026-09-30T17:01:00.000Z",
-          "excerpt": "Bà T.N. sống tại Hà Nội cho biết đã bán căn nhà tại khu vực Thanh Trì (Hà Nội) từ năm 2014 và hoàn tất thủ tục chuyển nhượng. Tuy nhiên, tháng 9/2026, bà T.N.…",
+          "title": "Chính phủ giao chỉ tiêu phát triển nhà ở xã hội, nhà ở cho thuê cho địa phương",
+          "link": "https://cafef.vn/chinh-phu-giao-chi-tieu-phat-trien-nha-o-xa-hoi-nha-o-cho-thue-cho-dia-phuong-188260930220751231.chn",
+          "pubDate": "2026-10-01T01:00:00.000Z",
+          "excerpt": "Phó Thủ tướng Thường trực vừa ký ban hành Nghị quyết 303 về việc giao chỉ tiêu phát triển nhà ở xã hội, nhà ở cho thuê cho các địa phương giai đoạn 2026-2030.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +170,54 @@
           "condensed": null
         },
         {
-          "title": "Siêu sân bay lớn gần gấp 4 lần sân bay Nội Bài: Vốn đầu tư 30 tỷ USD, dự kiến hoàn thành năm 2030, tương lai có thể đón tới 185 triệu khách/năm",
-          "link": "https://cafef.vn/sieu-san-bay-lon-gan-gap-4-lan-san-bay-noi-bai-von-dau-tu-30-ty-usd-du-kien-hoan-thanh-nam-2030-tuong-lai-co-the-don-toi-185-trieu-khach-nam-188260930152426066.chn",
-          "pubDate": "2026-09-30T17:01:00.000Z",
-          "excerpt": "Dự kiến khi hoàn thành đây sẽ là sân bay lớn nhất thế giới.",
+          "title": "Khu nhà ở thấp tầng số 8 Đông Tăng Long nguồn cung chọn lọc phía Đông TP HCM",
+          "link": "https://cafef.vn/khu-nha-o-thap-tang-so-8-dong-tang-long-nguon-cung-chon-loc-phia-dong-tp-hcm-188260930204232062.chn",
+          "pubDate": "2026-10-01T01:00:00.000Z",
+          "excerpt": "Nhà thấp tầng gắn liền với đất tiếp tục duy trì sức hút khi nguồn cung tại TP.HCM đang mở rộng về các khu đô thị quy mô lớn. Sự dịch chuyển này không chỉ mở…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Nhà ngõ, biệt thự vùng ven hay duplex nội đô: Gia đình tại Hà Nội chọn không gian sống nào?",
+          "link": "https://cafef.vn/nha-ngo-biet-thu-vung-ven-hay-duplex-noi-do-gia-dinh-tai-ha-noi-chon-khong-gian-song-nao-188260930154841114.chn",
+          "pubDate": "2026-10-01T01:00:00.000Z",
+          "excerpt": "Khả năng tài chính tốt mở ra nhiều lựa chọn, nhưng cũng khiến các gia đình Hà Nội băn khoăn: sống tại nhà ngõ nội đô, biệt thự ngoại ô hay căn hộ thông tầng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Capital Square: “Hào quang thăng hoa” mở cơ hội sở hữu căn hộ trung tâm bên sông Hàn",
+          "link": "https://cafef.vn/capital-square-hao-quang-thang-hoa-mo-co-hoi-so-huu-can-ho-trung-tam-ben-song-han-18826093015475192.chn",
+          "pubDate": "2026-10-01T01:00:00.000Z",
+          "excerpt": "Sự kiện “Chào thu – Autumn Fest: Hào quang thăng hoa” giới thiệu hai tòa căn hộ Broadway Place và Hudson Place thuộc phân khu Square District. Vị trí trung tâm…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Từ mạch nước đến mạch sống - câu chuyện phía sau hành trình kiến tạo Mizuki Park",
+          "link": "https://vneconomy.vn/tu-mach-nuoc-den-mach-song-cau-chuyen-phia-sau-hanh-trinh-kien-tao-mizuki-park.htm",
+          "pubDate": "2026-10-01T01:00:00.000Z",
+          "excerpt": "Cuộc trò chuyện với KTS trưởng Nguyễn Ngọc Thanh - người gắn bó với các khu đô thị Nam Long suốt ba thập kỷ - hé mở cách kiến trúc và quy hoạch ở Mizuki Park…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Bỏ ngoài sổ sách 28 tỷ đồng khi khai thác đá, Công ty Xây dựng Bình Dương không bị thuế kiểm tra trong hơn 10 năm",
+          "link": "https://cafef.vn/bo-ngoai-so-sach-28-ty-dong-khi-khai-thac-da-cong-ty-xay-dung-binh-duong-khong-bi-thue-kiem-tra-trong-hon-10-nam-188261001070555724.chn",
+          "pubDate": "2026-10-01T00:05:00.000Z",
+          "excerpt": "Công ty CP Xây dựng Bình Dương liên tục khai thác vượt công suất, vi phạm kéo dài qua nhiều năm nhưng không được cơ quan quản lý phát hiện, xử lý kịp thời,…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -192,54 +236,10 @@
           "condensed": null
         },
         {
-          "title": "Thái Nguyên 'chốt' thời gian hoàn thành 2 cây cầu huyết mạch",
-          "link": "https://cafef.vn/thai-nguyen-chot-thoi-gian-hoan-thanh-2-cay-cau-huyet-mach-188260930203356386.chn",
-          "pubDate": "2026-09-30T14:00:00.000Z",
-          "excerpt": "TPO - Ông Nguyễn Thế Mạnh, Chủ tịch UBND tỉnh Thái Nguyên yêu cầu chủ đầu tư, đơn vị thi công đẩy nhanh tiến độ, phấn đấu đến ngày 30/4/2027 thông xe kỹ thuật…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cần Thơ giao hơn 670 m2 đất bố trí tái định cư",
-          "link": "https://cafef.vn/can-tho-giao-hon-670-m2-dat-bo-tri-tai-dinh-cu-18826093020244592.chn",
-          "pubDate": "2026-09-30T13:37:00.000Z",
-          "excerpt": "Cần Thơ thu hồi 671,1 m2 đất ở tại phường Hưng Phú do Công ty Cổ phần Phát triển nhà Cần Thơ làm chủ đầu tư và giao UBND phường Hưng Phú bố trí tái định cư.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Chính phủ yêu cầu tăng nhà ở xã hội cho thuê",
           "link": "https://vnexpress.net/chinh-phu-yeu-cau-tang-nha-o-xa-hoi-cho-thue-5126822.html",
           "pubDate": "2026-09-30T13:36:02.000Z",
           "excerpt": "Chính phủ yêu cầu các địa phương tăng chỉ tiêu nhà ở xã hội cho thuê lên hơn 191.000 căn, giảm tỷ lệ nhà để bán trong 4 năm tới.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "GS Đặng Hùng Võ: Chung cư cam kết 70 năm nhưng xuống cấp ở năm thứ 60, chủ đầu tư phải bồi thường 10 năm",
-          "link": "https://cafef.vn/gs-dang-hung-vo-chung-cu-cam-ket-70-nam-nhung-xuong-cap-o-nam-thu-60-chu-dau-tu-phai-boi-thuong-10-nam-18826093020351033.chn",
-          "pubDate": "2026-09-30T13:35:00.000Z",
-          "excerpt": "Trước bài toán niên hạn chung cư, chuyên gia Đặng Hùng Võ đề xuất quy định rõ trách nhiệm của chủ đầu tư nếu thời gian sử dụng thực tế ngắn hơn cam kết trong…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "7 phân khu Aqua City không phải nộp thêm tiền sử dụng đất",
-          "link": "https://vnexpress.net/7-phan-khu-aqua-city-khong-phai-nop-them-tien-su-dung-dat-5126683.html",
-          "pubDate": "2026-09-30T11:34:12.000Z",
-          "excerpt": "Đồng Nai xác định 7 trong 8 phân khu của Aqua City không phát sinh thêm tiền sử dụng đất sau khi điều chỉnh quy hoạch, một khu còn lại phải xác định nghĩa vụ…",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -254,54 +254,76 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
+          "title": "Quốc lộ 6 qua Yên Nghĩa: Từ 'điểm nghẽn' đến tuyến đường cửa ngõ rộng mở",
+          "link": "https://cafef.vn/quoc-lo-6-qua-yen-nghia-tu-diem-nghen-den-tuyen-duong-cua-ngo-rong-mo-188260930204802388.chn",
+          "pubDate": "2026-10-01T01:00:00.000Z",
+          "excerpt": "Từng là điểm nóng ùn tắc kéo dài, đặc biệt tại khu vực cầu Mai Lĩnh, Quốc lộ 6 qua phường Yên Nghĩa đang từng bước được mở rộng. Dự án được kỳ vọng không chỉ…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chính phủ đôn đốc tháo gỡ 1.131 dự án vướng mắc, nguồn lực hơn 779.000 tỷ đồng",
+          "link": "https://cafef.vn/chinh-phu-don-doc-thao-go-1131-du-an-vuong-mac-nguon-luc-hon-779000-ty-dong-188261001075621084.chn",
+          "pubDate": "2026-10-01T00:56:00.000Z",
+          "excerpt": "Có 3.557 dự án với tổng mức đầu tư 2.490.432 tỷ đồng đã được xử lý, nhưng hơn 779.000 tỷ đồng vẫn nằm trong 1.131 dự án gặp khó khăn, vướng mắc. Các bộ, ngành,…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Khan hiếm nhân lực hạt nhân tại Việt Nam",
+          "link": "https://cafef.vn/khan-hiem-nhan-luc-hat-nhan-tai-viet-nam-188260930204912724.chn",
+          "pubDate": "2026-10-01T00:30:00.000Z",
+          "excerpt": "Nhân lực là một trong những vấn đề hàng đầu cần sớm giải quyết để công nghệ hạt nhân được phát triển đúng tiềm năng tại Việt Nam…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Hết thời hút vốn FDI chỉ dựa vào lao động giá rẻ, ưu đãi thuế",
+          "link": "https://cafef.vn/het-thoi-hut-von-fdi-chi-dua-vao-lao-dong-gia-re-uu-dai-thue-188260930204653839.chn",
+          "pubDate": "2026-10-01T00:00:00.000Z",
+          "excerpt": "TPO - Việc thu hút vốn FDI hiện nay không còn dựa chủ yếu vào lao động giá rẻ hay ưu đãi thuế. Cuộc cạnh tranh đang chuyển sang chất lượng thể chế, năng lực…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Masan duy trì đà tăng trưởng nhờ MSR và mảng tiêu dùng",
+          "link": "https://vnexpress.net/masan-duy-tri-da-tang-truong-nho-msr-va-mang-tieu-dung-5126807.html",
+          "pubDate": "2026-10-01T00:00:00.000Z",
+          "excerpt": "Masan ghi nhận doanh thu tăng 52% trong 8 tháng, với đóng góp từ MSR và nhóm hàng tiêu dùng, được các tổ chức quốc tế nâng giá mục tiêu cổ phiếu.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Người gửi tiền 'săn' ngân hàng lãi suất cao",
+          "link": "https://vnexpress.net/nguoi-gui-tien-san-ngan-hang-lai-suat-cao-5126404.html",
+          "pubDate": "2026-09-30T23:00:18.000Z",
+          "excerpt": "Miệt mài lên các hội nhóm tìm nơi lãi cao, chị Dung không ngần ngại đổi ngay ngân hàng có chênh lệch tiền lãi hàng chục triệu đồng mỗi năm cho khoản gửi 2 tỷ…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Lưu ý quan trọng từ cơ quan Công an đến toàn bộ người dân đang làm hộ chiếu",
           "link": "https://cafef.vn/luu-y-quan-trong-tu-co-quan-cong-an-den-toan-bo-nguoi-dan-dang-lam-ho-chieu-188260930223340061.chn",
           "pubDate": "2026-09-30T17:12:00.000Z",
           "excerpt": "Mới đây, Phòng Quản lý Xuất nhập cảnh CATP Hà Nội đã có bài viết hướng dẫn công dân tra cứu quá trình làm hộ chiếu.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cần Thơ có khu tái định cư mới với vốn đầu tư gần 1.000 tỷ đồng",
-          "link": "https://cafef.vn/can-tho-co-khu-tai-dinh-cu-moi-voi-von-dau-tu-gan-1000-ty-dong-188260930134134202.chn",
-          "pubDate": "2026-09-30T16:21:00.000Z",
-          "excerpt": "Ngày 30/9, UBND TP Cần Thơ tổ chức Lễ khởi công dự án Khu tái định cư Vĩnh Thạnh (giai đoạn 2) tại xã Vĩnh Trinh. Dự án có tổng mức đầu tư gần 977 tỷ đồng,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Chính phủ ra chỉ đạo mới về nhà ở xã hội, nhà ở cho thuê",
-          "link": "https://cafef.vn/chinh-phu-ra-chi-dao-moi-ve-nha-o-xa-hoi-nha-o-cho-thue-188260930200358145.chn",
-          "pubDate": "2026-09-30T13:03:00.000Z",
-          "excerpt": "Mới đây, Phó Thủ tướng Thường trực Phạm Gia Túc đã thay mặt Chính phủ ký ban hành Nghị quyết số 303/NQ-CP ngày 30/9/2026 về việc giao chỉ tiêu phát triển nhà ở…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cơ quan Thuế yêu cầu Vietcombank, Agribank, BIDV... phong tỏa tài khoản ngân hàng của loạt cá nhân, hộ kinh doanh có tên sau",
-          "link": "https://cafef.vn/co-quan-thue-yeu-cau-vietcombank-agribank-bidv-phong-toa-tai-khoan-ngan-hang-cua-loat-ca-nhan-ho-kinh-doanh-co-ten-sau-18826093017095616.chn",
-          "pubDate": "2026-09-30T11:10:00.000Z",
-          "excerpt": "Các trường hợp này bị cưỡng chế với lý do người nộp thuế có tiền thuế nợ quá 90 ngày kể từ ngày hết thời hạn nộp theo quy định.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "3 tuyến cao tốc được đề xuất thí điểm tổ chức ‘làn vượt xe’",
-          "link": "https://cafef.vn/3-tuyen-cao-toc-duoc-de-xuat-thi-diem-to-chuc-lan-vuot-xe-188260930154006275.chn",
-          "pubDate": "2026-09-30T10:00:00.000Z",
-          "excerpt": "Cao tốc Hà Nội - Hải Phòng, Cầu Giẽ - Cao Bồ, Vĩnh Hảo - Phan Thiết là những được được đề xuất thí điểm tổ chức làn vượt xe trong thời gian tới.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -318,28 +340,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Cao tốc Hữu Nghị - Chi Lăng và Đồng Đăng - Trà Lĩnh tăng tốc để hoàn thành trong 2026",
-          "link": "https://vneconomy.vn/cao-toc-huu-nghi-chi-lang-va-dong-dang-tra-linh-tang-toc-de-hoan-thanh-trong-2026.htm",
-          "pubDate": "2026-09-29T23:43:55.000Z",
-          "excerpt": "Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc yêu cầu các địa phương, nhà đầu tư và nhà thầu tập trung nguồn lực, phấn đấu hoàn thành cao tốc Hữu Nghị - Chi…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Cục Đường bộ đề nghị làm rõ các đoạn cao tốc xử phạt vi phạm khoảng cách an toàn",
-          "link": "https://vneconomy.vn/cuc-duong-bo-de-nghi-lam-ro-cac-doan-cao-toc-xu-phat-vi-pham-khoang-cach-an-toan.htm",
-          "pubDate": "2026-09-29T23:37:31.000Z",
-          "excerpt": "Cục Đường bộ Việt Nam đề nghị Cục Cảnh sát giao thông cung cấp danh sách các đoạn cao tốc đang áp dụng xử phạt hành vi không tuân thủ khoảng cách an toàn, làm…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
-          "link": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
-          "pubDate": "2026-09-30T21:15:00.000Z",
-          "excerpt": "The S&P 500 has gained slightly in September, but three-quarters of its components have declined.",
+          "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+          "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+          "pubDate": "2026-10-01T00:45:00.000Z",
+          "excerpt": "“When my paycheck lands, it takes a detour through bitcoin.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -360,53 +360,20 @@
           "condensed": null
         },
         {
-          "title": "Surging Yields Bring the Bond Market Back to the Turn of the Century",
-          "link": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f?mod=rss_markets_main",
-          "pubDate": "2026-09-30T21:07:00.000Z",
-          "excerpt": "The 10-year Treasury yield climbs above 5.3% to a level not seen in 24 years.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "How the ‘AI Put’ has become the only thing that matters for stocks",
-          "link": "https://www.marketwatch.com/story/this-is-the-big-risk-that-stock-investors-should-be-watching-as-rising-bond-yields-menace-markets-904cae0a?mod=mw_rss_topstories",
-          "pubDate": "2026-09-30T20:59:00.000Z",
-          "excerpt": "While investors worry a spike in global bond yields will trigger a selloff in U.S. equities, strategists at BofA Global Research say the real threat lies…",
+          "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+          "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+          "pubDate": "2026-10-01T00:20:00.000Z",
+          "excerpt": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "A brutal September for bonds points to an even darker October",
-          "link": "https://www.marketwatch.com/story/a-brutal-september-for-bonds-points-to-an-even-darker-october-239d0fb5?mod=mw_rss_topstories",
-          "pubDate": "2026-09-30T20:56:00.000Z",
-          "excerpt": "September has been a brutal month for the bond market. If history is any guide, October might be even worse.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Israel PM hails Indian pilot wounded in diverted flydubai flight",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3369392/israel-pm-hails-indian-pilot-wounded-diverted-flydubai-flight?utm_source=rss_feed",
-          "pubDate": "2026-09-30T20:45:03.000Z",
-          "excerpt": "Israel’s leader credited the Indian pilot of a Dubai-Tel Aviv flight, as well as the aircraft’s passengers, with averting catastrophe on Wednesday after the…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         },
         {
           "title": "I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?",
           "link": "https://www.marketwatch.com/story/im-71-and-still-working-i-earn-108-000-a-year-am-i-doing-the-right-thing-aaedcaa4?mod=mw_rss_topstories",
-          "pubDate": "2026-09-30T20:45:00.000Z",
+          "pubDate": "2026-10-01T00:11:00.000Z",
           "excerpt": "“I have $152,000 in my IRA and Roth accounts.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -415,10 +382,32 @@
           "condensed": null
         },
         {
-          "title": "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
-          "link": "https://www.marketwatch.com/story/u-s-bond-yields-head-for-biggest-jump-in-a-generation-as-global-rout-rattles-investors-7dede2f2?mod=mw_rss_topstories",
-          "pubDate": "2026-09-30T20:32:00.000Z",
-          "excerpt": "Yields in the global bond market have risen with startling speed over the past few months, and the more than $30 trillion market for U.S. government debt…",
+          "title": "Woman told Cornell police 2 years ago she was 100% sure she was raped, transcript shows",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3369397/woman-told-cornell-police-2-years-ago-she-was-100-sure-she-was-raped-transcript-shows?utm_source=rss_feed",
+          "pubDate": "2026-09-30T23:34:09.000Z",
+          "excerpt": "A woman who filed a lawsuit saying she was sexually assaulted by seven men at a Cornell University fraternity house told police weeks after the incident that…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Money Managers Are Asking Clients to Give the Bond Market Another Chance",
+          "link": "https://www.wsj.com/finance/investing/money-managers-are-asking-clients-to-give-the-bond-market-another-chance-6f874f1c?mod=rss_markets_main",
+          "pubDate": "2026-09-30T23:00:00.000Z",
+          "excerpt": "The bond market is selling off, but the classic 60-40 portfolio is doing what it is supposed to for the first time in years.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Google shows it’s not out of the AI race just yet",
+          "link": "https://www.marketwatch.com/story/google-shows-its-not-out-of-the-ai-race-just-yet-75e19860?mod=mw_rss_topstories",
+          "pubDate": "2026-09-30T22:51:00.000Z",
+          "excerpt": "The company’s Gemini 4 Argon announcement shows Google is back with the pack when it comes to cutting-edge AI models.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -426,14 +415,25 @@
           "condensed": null
         },
         {
-          "title": "10-Year Treasury Yield Rises to New 24-Year High",
-          "link": "https://www.wsj.com/finance/investing/10-year-treasury-yield-rises-to-new-24-year-high-641f0790?mod=rss_markets_main",
-          "pubDate": "2026-09-30T20:21:00.000Z",
-          "excerpt": "Plus, Nasdaq gains after second-quarter GDP growth revised to 2.2%.",
+          "title": "How Arc’teryx Turned Climbing Gear Into a Luxury Status Symbol",
+          "link": "https://www.wsj.com/business/retail/how-arcteryx-turned-climbing-gear-into-a-luxury-status-symbol-e8bab768?mod=rss_markets_main",
+          "pubDate": "2026-09-30T22:16:00.000Z",
+          "excerpt": "The upscale mountaineering brand grew from $500 million to $2 billion in revenue by expanding beyond climbers.",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
           "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Trump defence chief says US slashed number of generals and admirals by 20%",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3369394/trump-defence-chief-says-us-slashed-number-generals-and-admirals-20?utm_source=rss_feed",
+          "pubDate": "2026-09-30T21:42:41.000Z",
+          "excerpt": "US Defence Secretary Pete Hegseth announced on Wednesday that the United States has slashed the number of its generals and admirals by 20 per cent, in a move…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         }
       ],
