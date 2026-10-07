@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T17:21:09.844Z",
+  "lastUpdated": "2026-10-07T22:53:39.203Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4145,
+      "value": 4129.5,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7802.38,
-      "change": 150.84000000000015,
-      "changePercent": 1.9713678553598382
+      "value": 7801.77,
+      "change": 150.23000000000047,
+      "changePercent": 1.9633956040222031
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 27501.168,
-      "change": 640.1080000000002,
-      "changePercent": 2.383033283124345
+      "value": 27538.691,
+      "change": 677.6309999999976,
+      "changePercent": 2.522726206635172
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Kho dầu dự trữ thế giới xuống thấp kỷ lục",
+          "link": "https://vnexpress.net/kho-dau-du-tru-the-gioi-xuong-thap-ky-luc-5129673.html",
+          "pubDate": "2026-10-07T17:30:00.000Z",
+          "excerpt": "Các lãnh đạo dầu khí toàn cầu cảnh báo kho dự trữ thế giới đang xuống thấp kỷ lục, khiến thị trường mất bộ đệm an toàn và tăng sức ép lên giá năng lượng.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Quê nhà tỷ phú Phạm Nhật Vượng tăng tốc sản xuất xe điện: Hơn 62.000 ô tô và 169.000 xe máy xuất xưởng từ đầu năm",
           "link": "https://cafef.vn/que-nha-ty-phu-pham-nhat-vuong-tang-toc-san-xuat-xe-dien-hon-62000-o-to-va-169000-xe-may-xuat-xuong-tu-dau-nam-188261007225930356.chn",
@@ -119,6 +130,17 @@
           "condensed": null
         },
         {
+          "title": "Chính phủ Mỹ chuyển hơn 100 triệu USD tiền số khỏi ví",
+          "link": "https://vnexpress.net/chinh-phu-my-chuyen-hon-100-trieu-usd-tien-so-khoi-vi-5129572.html",
+          "pubDate": "2026-10-07T17:00:00.000Z",
+          "excerpt": "Mỹ chuyển hơn 100 triệu USD tiền số bị tịch thu trong các vụ án, nhưng chưa cho thấy dấu hiệu đã bán số tài sản trên ra thị trường.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
           "title": "Chính phủ yêu cầu 9 địa phương tăng trưởng trên 15% trong quý IV",
           "link": "https://vnexpress.net/chinh-phu-yeu-cau-9-dia-phuong-tang-truong-tren-15-trong-quy-iv-5129670.html",
           "pubDate": "2026-10-07T15:50:52.000Z",
@@ -127,28 +149,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "VN-Index tiếp tục hình thành đáy quanh 1730 điểm",
-          "link": "https://vneconomy.vn/vn-index-tiep-tuc-hinh-thanh-day-quanh-1730-diem.htm",
-          "pubDate": "2026-10-07T14:55:42.000Z",
-          "excerpt": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 08/10/2026.",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Tín dụng nhà ở xã hội: Vốn đã mở rộng, nút thắt vẫn ở khả năng hấp thụ",
-          "link": "http://vietstock.vn/2026/10/tin-dung-nha-o-xa-hoi-von-da-mo-rong-nut-that-van-o-kha-nang-hap-thu-757-1499955.htm",
-          "pubDate": "2026-10-07T14:12:00.000Z",
-          "excerpt": "Quy mô chương trình tín dụng nhà ở xã hội đã mở rộng lên hơn 153.000 tỷ đồng, trong khi cam kết cho vay đạt khoảng 50.300 tỷ đồng. Tuy nhiên, khả năng giải…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
           "condensed": null
         }
       ],
@@ -192,6 +192,17 @@
           "condensed": null
         },
         {
+          "title": "Dòng sông đặc biệt mang tên một màu sắc, chảy qua thành phố giàu nhất miền Bắc: Chuyên gia nói gì về quy hoạch tương lai hai bên bờ?",
+          "link": "https://cafef.vn/dong-song-dac-biet-mang-ten-mot-mau-sac-chay-qua-thanh-pho-giau-nhat-mien-bac-chuyen-gia-noi-gi-ve-quy-hoach-tuong-lai-hai-ben-bo-188260930161145587.chn",
+          "pubDate": "2026-10-07T17:01:00.000Z",
+          "excerpt": "Theo các chuyên gia, phát triển hai bên sông Hồng không chỉ là xây đại lộ và nhà cao tầng, mà còn cần mở không gian công cộng, gìn giữ sinh kế và gắn kết cộng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Nhà một tầng nâng sàn, mở không gian ra hồ hoa súng",
           "link": "https://vnexpress.net/nha-mot-tang-nang-san-mo-khong-gian-ra-ho-hoa-sung-5129586.html",
           "pubDate": "2026-10-07T17:00:00.000Z",
@@ -207,17 +218,6 @@
           "link": "https://cafef.vn/thong-tin-moi-nhat-lien-quan-toi-khu-do-thi-rong-193ha-nam-o-phia-nam-thu-do-lien-quan-den-dai-gia-dieu-cay-le-thanh-than-188261007231146086.chn",
           "pubDate": "2026-10-07T16:05:00.000Z",
           "excerpt": "Khu đô thị mới Mỹ Hưng - Cienco5 có tổng diện tích nghiên cứu khoảng 193ha, nằm liền kề Thanh Hà và tiếp giáp tuyến đường trục phía Nam, Vành đai 4. Công tác…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Dự án BĐS đầu tay của ông Đặng Lê Nguyên Vũ: Áp dụng kiến trúc đặc biệt mà Nhật Bản, Mỹ đã làm, khẳng định \"người Việt mình cũng làm được và làm tốt hơn”",
-          "link": "https://cafef.vn/du-an-bds-dau-tay-cua-ong-dang-le-nguyen-vu-ap-dung-kien-truc-dac-biet-ma-nhat-ban-my-da-lam-khang-dinh-nguoi-viet-minh-cung-lam-duoc-va-lam-tot-hon-188261007214047825.chn",
-          "pubDate": "2026-10-07T14:40:00.000Z",
-          "excerpt": "Đây là dự án bất động sản của Trung Nguyên Legend tại Đắk Lắk, được phát triển theo định hướng kiến trúc “chữa lành”, gắn không gian sống với thiên nhiên và…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -309,17 +309,6 @@
           "condensed": null
         },
         {
-          "title": "Bộ Công Thương: Sẽ cảnh báo khi doanh nghiệp điều chỉnh giá xăng dầu bất thường",
-          "link": "https://vnexpress.net/bo-cong-thuong-se-canh-bao-khi-doanh-nghiep-dieu-chinh-gia-xang-dau-bat-thuong-5129535.html",
-          "pubDate": "2026-10-07T09:53:07.000Z",
-          "excerpt": "Hệ thống dữ liệu sẽ đưa ra cảnh báo doanh nghiệp định giá xăng dầu bất thường, để cơ quan quản lý kiểm tra, giám sát, theo Bộ Công Thương.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "TP.Hồ Chí Minh lấy ý kiến dự thảo nghị quyết phát hành trái phiếu đô thị",
           "link": "https://vneconomy.vn/tpho-chi-minh-lay-y-kien-du-thao-nghi-quyet-phat-hanh-trai-phieu-do-thi.htm",
           "pubDate": "2026-10-07T09:06:50.000Z",
@@ -340,6 +329,17 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Ứng dụng trí tuệ nhân tạo hiện thân, thúc đẩy nâng cao năng suất của Việt Nam",
+          "link": "https://vneconomy.vn/ung-dung-tri-tue-nhan-tao-hien-than-thuc-day-nang-cao-nang-suat-cua-viet-nam.htm",
+          "pubDate": "2026-10-06T23:58:12.000Z",
+          "excerpt": "Trí tuệ nhân tạo (AI) đang có sự dịch chuyển mạnh mẽ từ không gian số sang môi trường vật lý. Thay vì chỉ giới hạn trong việc xử lý dữ liệu, hình ảnh hay ngôn…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Trump wants to turn Florida golf course into presidential retreat",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370098/trump-wants-turn-florida-golf-course-presidential-retreat?utm_source=rss_feed",
-          "pubDate": "2026-10-07T17:00:31.000Z",
-          "excerpt": "Donald Trump wants to turn his luxury Florida golf course into retreat for future US presidents modelled on the historic Camp David getaway, the White House…",
+          "title": "Trump says he deserves Nobel Peace Prize but has doubts he’ll get it",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370107/trump-says-he-deserves-nobel-peace-prize-has-doubts-hell-get-it?utm_source=rss_feed",
+          "pubDate": "2026-10-07T22:41:05.000Z",
+          "excerpt": "US President ⁠Donald Trump, who waged war ⁠with Iran and has ⁠yet to broker peace in Ukraine, said on Wednesday that he should win the Nobel Peace Prize but…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -360,43 +360,10 @@
           "condensed": null
         },
         {
-          "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
-          "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
-          "pubDate": "2026-10-07T16:18:22.000Z",
-          "excerpt": "The Survey of Consumer Expectations indicated that the median outlook for inflation over the next 12 months rose to 3.9%.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "Wells Fargo Faces Regulator Probe Over Efforts to Boost Black Homeownership",
-          "link": "https://www.wsj.com/finance/banking/wells-fargo-faces-regulator-probe-over-efforts-to-boost-black-homeownership-a337b46e?mod=rss_markets_main",
-          "pubDate": "2026-10-07T15:40:00.000Z",
-          "excerpt": "Trump’s Housing and Urban Development is seeking to crack down on race-based lending, calling it a potential violation of the Fair Housing Act.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "France halts use of stun grenades in policing of student protests",
-          "link": "https://www.scmp.com/news/world/europe/article/3370096/france-halts-use-stun-grenades-policing-student-protests?utm_source=rss_feed",
-          "pubDate": "2026-10-07T15:37:20.000Z",
-          "excerpt": "The French government said on Wednesday it was pausing the use of stun grenades in its policing of student protests, after a 15-year-old boy’s hand was blown…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "College students have to use credit cards just to cover basic living expenses. Here’s what it’s costing them.",
-          "link": "https://www.marketwatch.com/story/more-college-students-have-to-use-credit-cards-just-to-cover-basic-living-expenses-heres-what-its-costing-them-cfd82561?mod=mw_rss_topstories",
-          "pubDate": "2026-10-07T15:35:00.000Z",
-          "excerpt": "Nearly 9 out of every 10 students who use credit cards report doing so to pay for basic living expenses such as food, housing and gas.",
+          "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+          "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+          "pubDate": "2026-10-07T22:32:00.000Z",
+          "excerpt": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,36 +371,69 @@
           "condensed": null
         },
         {
-          "title": "The important judgments for Healey in the coming Budget",
-          "link": "https://www.ft.com/content/b07bd481-a492-4b95-af55-914176f8d2b6?syn-25a6b1a6=1",
-          "pubDate": "2026-10-07T15:06:12.000Z",
-          "excerpt": "No fancy equations or AI models will illuminate the right path for the chancellor",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Trump to give Musk top US science medal",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370106/trump-give-musk-top-us-science-medal?utm_source=rss_feed",
+          "pubDate": "2026-10-07T22:29:00.000Z",
+          "excerpt": "President Donald Trump will present close ally Elon Musk and other tech bosses with the top US scientific award at a ceremony on Thursday, the White House…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         },
         {
-          "title": "Badenoch promises to scrap inheritance tax on family homes",
-          "link": "https://www.ft.com/content/742f1f44-1b5f-4905-8a09-1c14bce54b4d?syn-25a6b1a6=1",
-          "pubDate": "2026-10-07T15:03:07.000Z",
-          "excerpt": "Pledge aims to cement Conservatives’ reputation as ‘party of home ownership’",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Rubio touts US power, calls on Europe to emerge from ‘slumber’",
+          "link": "https://www.scmp.com/news/world/europe/article/3370105/rubio-touts-us-power-calls-europe-emerge-slumber?utm_source=rss_feed",
+          "pubDate": "2026-10-07T22:17:09.000Z",
+          "excerpt": "US Secretary of State Marco Rubio on Wednesday flexed American power and called on Europe to shake off its “long slumber” in a rousing speech delivered beneath…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
           "condensed": null
         },
         {
-          "title": "Six things we learnt from the Tory party conference",
-          "link": "https://www.ft.com/content/63755a98-d187-4b92-b49c-5b33af666517?syn-25a6b1a6=1",
-          "pubDate": "2026-10-07T15:02:30.000Z",
-          "excerpt": "The Conservatives’ annual gathering in Birmingham has closed with leader Kemi Badenoch focusing on the economy and homeowners",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Can the Gulf aviation superhub model survive the war?",
+          "link": "https://www.scmp.com/opinion/world-opinion/article/3369927/can-gulf-aviation-superhub-model-survive-war?utm_source=rss_feed",
+          "pubDate": "2026-10-07T21:30:05.000Z",
+          "excerpt": "For decades, the Gulf superhubs of Dubai, Doha and Abu Dhabi performed an improbable trick. They redirected millions of people travelling between the West and…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Rising Rates Are Eroding the Value of Even the Most High-Flying Tech Stocks",
+          "link": "https://www.wsj.com/finance/stocks/rising-rates-are-eroding-the-value-of-even-the-most-high-flying-tech-stocks-fb420a5e?mod=rss_markets_main",
+          "pubDate": "2026-10-07T21:10:00.000Z",
+          "excerpt": "The shares of many industry groups have fallen sharply. And tech darlings are no longer commanding the multiples that they once did.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "Venezuela’s Maduro to face new US charges over alleged torture of Americans, official says",
+          "link": "https://www.scmp.com/news/world/americas/article/3370104/venezuelas-maduro-face-new-us-charges-over-alleged-torture-americans-official-says?utm_source=rss_feed",
+          "pubDate": "2026-10-07T20:58:12.000Z",
+          "excerpt": "Ousted Venezuelan President Nicolas Maduro and his wife, Cilia Flores, are expected to face new criminal charges in ‌the US over the alleged torture of…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+          "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+          "pubDate": "2026-10-07T20:58:00.000Z",
+          "excerpt": "Technology is the only one of the S&P 500’s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
