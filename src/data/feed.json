@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T22:53:39.203Z",
+  "lastUpdated": "2026-10-08T02:37:03.224Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,12 +9,12 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4129.5,
+      "value": 4162,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
-    "marketOpen": false,
-    "note": "Thị trường đóng cửa — hiển thị giá đóng cửa gần nhất"
+    "marketOpen": true,
+    "note": null
   },
   "globalIndices": [
     {
@@ -37,17 +37,17 @@
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 70035.71,
-      "change": 1078.9900000000052,
-      "changePercent": 1.5647350976090584
+      "value": 69418.26,
+      "change": 1108.7999999999884,
+      "changePercent": 1.6232012374274196
     },
     {
       "symbol": "^HSI",
       "name": "Hang Seng",
       "region": "Asia",
-      "value": 24130.5,
-      "change": -393.0699999999997,
-      "changePercent": -1.6028253635176268
+      "value": 24070.95,
+      "change": -542.3199999999997,
+      "changePercent": -2.203364282762915
     },
     {
       "symbol": "^GDAXI",
@@ -63,6 +63,61 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Chứng khoán Mỹ trượt dốc vì Fed phát tín hiệu còn tăng lãi suất, giá dầu “cố thủ” mốc 100 USD/thùng",
+          "link": "https://vneconomy.vn/chung-khoan-my-truot-doc-vi-fed-phat-tin-hieu-con-tang-lai-suat-gia-dau-co-thu-moc-100-usdthung.htm",
+          "pubDate": "2026-10-08T01:16:34.000Z",
+          "excerpt": "Thị trường chứng khoán Mỹ giảm điểm trong phiên giao dịch ngày thứ Tư (7/10), khi lợi suất trái phiếu kho bạc Mỹ tiếp tục leo thang lên đỉnh mới và Cục Dự trữ…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Nâng hạng thị trường: Pinetree tăng tốc nâng cấp trải nghiệm đầu tư",
+          "link": "https://cafef.vn/nang-hang-thi-truong-pinetree-tang-toc-nang-cap-trai-nghiem-dau-tu-188261008081319791.chn",
+          "pubDate": "2026-10-08T01:00:00.000Z",
+          "excerpt": "Thị trường chứng khoán được nâng hạng mở ra nhiều cơ hội mới, đồng thời đặt ra yêu cầu cao hơn đối với các công ty chứng khoán. Khi tốc độ, sự thuận tiện và…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Giá vàng tụt xuống mức thấp nhất 2 tháng do đồng USD tăng mạnh",
+          "link": "https://vneconomy.vn/gia-vang-tut-xuong-muc-thap-nhat-2-thang-do-dong-usd-tang-manh.htm",
+          "pubDate": "2026-10-08T00:25:43.000Z",
+          "excerpt": "Tại thời điểm lập đáy, giá vàng chịu áp lực cộng hưởng từ đồng USD tăng giá và bán tháo trên thị trường trái phiếu chính phủ toàn cầu khiến lợi suất tăng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Ba nhóm cổ phiếu tâm điểm \"hút tiền\" trong những tháng cuối năm nhờ tăng trưởng GDP",
+          "link": "https://vneconomy.vn/ba-nhom-co-phieu-tam-diem-hut-tien-trong-nhung-thang-cuoi-nam-nho-tang-truong-gdp.htm",
+          "pubDate": "2026-10-08T00:25:30.000Z",
+          "excerpt": "Với mục tiêu tăng trưởng GDP của Chính phủ từ 10% trở lên trong năm 2026 và tiếp tục duy trì định hướng tăng trưởng cao trong các năm tới, nhu cầu vốn của nền…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Người vay mua xe lao đao vì lãi thả nổi lên 17-18%",
+          "link": "https://vnexpress.net/nguoi-vay-mua-xe-lao-dao-vi-lai-tha-noi-len-17-18-5129684.html",
+          "pubDate": "2026-10-07T23:22:28.000Z",
+          "excerpt": "Hết thời gian ưu đãi, lãi suất vay mua ôtô thả nổi vọt lên 17-18% mỗi năm, thậm chí gần 20% nếu không kèm bảo hiểm thân vỏ, khiến nhiều chủ xe chịu áp lực trả…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Kho dầu dự trữ thế giới xuống thấp kỷ lục",
           "link": "https://vnexpress.net/kho-dau-du-tru-the-gioi-xuong-thap-ky-luc-5129673.html",
@@ -95,61 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Xuất hiện tín hiệu đáng chú ý sau nhịp điều chỉnh của VN-Index",
-          "link": "https://cafef.vn/xuat-hien-tin-hieu-dang-chu-y-sau-nhip-dieu-chinh-cua-vn-index-188261007222325244.chn",
-          "pubDate": "2026-10-07T17:04:00.000Z",
-          "excerpt": "Sau tháng 9 nhiều biến động, thị trường đang xuất hiện một tín hiệu có thể trở thành “điểm tựa” mới cho dòng tiền trong thời gian tới.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Buồn: Khối ngoại bán ròng hơn 100.000 tỷ đồng trên TTCK Việt Nam từ đầu năm",
-          "link": "https://cafef.vn/buon-khoi-ngoai-ban-rong-hon-100000-ty-dong-tren-ttck-viet-nam-tu-dau-nam-188261007225424669.chn",
-          "pubDate": "2026-10-07T17:02:00.000Z",
-          "excerpt": "Cột mốc khối ngoại bán ròng 100.000 tỷ đồng đã bị vượt qua chỉ ít ngày sau khi bước sang quý 4.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "CTCK bất ngờ hạ dự báo VN-Index vào cuối năm 2026",
-          "link": "https://cafef.vn/ctck-bat-ngo-ha-du-bao-vn-index-vao-cuoi-nam-2026-188261007222243577.chn",
-          "pubDate": "2026-10-07T17:02:00.000Z",
-          "excerpt": "Ở góc độ kinh tế, công ty chứng khoán tiếp tục duy trì quan điểm tích cực về triển vọng Việt Nam năm 2026, với GDP dự kiến tăng 8,5-9%.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Chính phủ Mỹ chuyển hơn 100 triệu USD tiền số khỏi ví",
-          "link": "https://vnexpress.net/chinh-phu-my-chuyen-hon-100-trieu-usd-tien-so-khoi-vi-5129572.html",
-          "pubDate": "2026-10-07T17:00:00.000Z",
-          "excerpt": "Mỹ chuyển hơn 100 triệu USD tiền số bị tịch thu trong các vụ án, nhưng chưa cho thấy dấu hiệu đã bán số tài sản trên ra thị trường.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Chính phủ yêu cầu 9 địa phương tăng trưởng trên 15% trong quý IV",
-          "link": "https://vnexpress.net/chinh-phu-yeu-cau-9-dia-phuong-tang-truong-tren-15-trong-quy-iv-5129670.html",
-          "pubDate": "2026-10-07T15:50:52.000Z",
-          "excerpt": "Nhiều tỉnh, thành phải tăng GRDP hai chữ số trong quý IV, trong đó 9 địa phương trên 15%, để cả nước đạt mục tiêu tăng trưởng 10% năm nay.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -159,10 +159,10 @@
       "displayName": "Bất động sản",
       "articles": [
         {
-          "title": "Diễn biến mới nhất về 2 dự án gần 500ha, vốn hơn 30.000 tỷ đồng tại thành phố đang hút loạt ông lớn Vingroup, Sun Group, T&T… đổ về đầu tư",
-          "link": "https://cafef.vn/dien-bien-moi-nhat-ve-2-du-an-gan-500ha-von-hon-30000-ty-dong-tai-thanh-pho-dang-hut-loat-ong-lon-vingroup-sun-group-tt-do-ve-dau-tu-188261007220415396.chn",
-          "pubDate": "2026-10-07T17:03:00.000Z",
-          "excerpt": "Hai dự án khu đô thị mới, du lịch sinh thái, văn hóa, nghỉ dưỡng, vui chơi giải trí tại phường Tam Sơn và phường Tiên Du có tổng diện tích gần 500ha, tổng chi…",
+          "title": "Sun Group làm cảng tàu khách du lịch quốc tế chuyên biệt đầu tiên Việt Nam, 4 lần được vinh danh tại Giải thưởng Du lịch Thế giới",
+          "link": "https://cafef.vn/sun-group-lam-cang-tau-khach-du-lich-quoc-te-chuyen-biet-dau-tien-viet-nam-4-lan-duoc-vinh-danh-tai-giai-thuong-du-lich-the-gioi-188261007214103301.chn",
+          "pubDate": "2026-10-08T02:29:00.000Z",
+          "excerpt": "Công trình do Sun Group đầu tư nằm tại trung tâm Bãi Cháy, gồm bến quốc tế, bến nội địa và nhà ga hành khách 3 tầng do kiến trúc sư Bill Bensley thiết kế.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -170,10 +170,10 @@
           "condensed": null
         },
         {
-          "title": "Siêu sân bay 325.000 tỷ đồng, công suất gấp 2,2 lần sân bay Tân Sơn Nhất: Tương lai có thể đón tới 110 triệu khách/năm, có chỗ đỗ cho 270 máy bay, dự kiến mở cửa vào năm 2030",
-          "link": "https://cafef.vn/sieu-san-bay-325000-ty-dong-cong-suat-gap-22-lan-san-bay-tan-son-nhat-tuong-lai-co-the-don-toi-110-trieu-khach-nam-co-cho-do-cho-270-may-bay-du-kien-mo-cua-vao-nam-2030-188261007150007877.chn",
-          "pubDate": "2026-10-07T17:01:00.000Z",
-          "excerpt": "Dự kiến khi hoàn thành đây sẽ là sân bay lớn nhất châu Phi.",
+          "title": "Vụ không biết chữ nhưng đứng đơn xin 60 ha đất trồng rừng: UBND xã giải trình những gì?",
+          "link": "https://cafef.vn/vu-khong-biet-chu-nhung-dung-don-xin-60-ha-dat-trong-rung-ubnd-xa-giai-trinh-nhung-gi-188261008092845101.chn",
+          "pubDate": "2026-10-08T02:28:00.000Z",
+          "excerpt": "Liên quan vụ việc “Uẩn khúc vụ không biết chữ nhưng ‘đứng đơn’ xin 60 ha đất trồng rừng ở Gia Lai” mà Báo Tiền Phong phản ánh, UBND xã Sró giải trình rằng do…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -181,10 +181,10 @@
           "condensed": null
         },
         {
-          "title": "Việt Nam có 1 nơi được vinh danh 15 điểm đến tuyệt vời nhất thế giới năm 2026: Nơi ông Đặng Lê Nguyên Vũ xây công trình đặc biệt lưu giữ hơn 10.000 hiện vật về cà phê",
-          "link": "https://cafef.vn/viet-nam-co-1-noi-duoc-vinh-danh-15-diem-den-tuyet-voi-nhat-the-gioi-nam-2026-noi-ong-dang-le-nguyen-vu-xay-cong-trinh-dac-biet-luu-giu-hon-10000-hien-vat-ve-ca-phe-188261007115926711.chn",
-          "pubDate": "2026-10-07T17:01:00.000Z",
-          "excerpt": "Buôn Ma Thuột được biết đến là thủ phủ cà phê của Việt Nam, đồng thời sở hữu một công trình đặc biệt do Trung Nguyên Legend đầu tư xây dựng, nơi đang lưu giữ…",
+          "title": "TPHCM làm rõ trách nhiệm xử lý hồ sơ đất đai quá hạn cho dân",
+          "link": "https://cafef.vn/tphcm-lam-ro-trach-nhiem-xu-ly-ho-so-dat-dai-qua-han-cho-dan-188261008081438662.chn",
+          "pubDate": "2026-10-08T02:08:00.000Z",
+          "excerpt": "Ông Nguyễn Toàn Thắng - Giám đốc Sở Nông nghiệp và Môi trường TPHCM cho rằng, vẫn còn một số đơn vị có tỷ lệ hồ sơ trễ hạn cao. Do đó, ông Thắng yêu cầu phải…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -192,10 +192,32 @@
           "condensed": null
         },
         {
-          "title": "Dòng sông đặc biệt mang tên một màu sắc, chảy qua thành phố giàu nhất miền Bắc: Chuyên gia nói gì về quy hoạch tương lai hai bên bờ?",
-          "link": "https://cafef.vn/dong-song-dac-biet-mang-ten-mot-mau-sac-chay-qua-thanh-pho-giau-nhat-mien-bac-chuyen-gia-noi-gi-ve-quy-hoach-tuong-lai-hai-ben-bo-188260930161145587.chn",
-          "pubDate": "2026-10-07T17:01:00.000Z",
-          "excerpt": "Theo các chuyên gia, phát triển hai bên sông Hồng không chỉ là xây đại lộ và nhà cao tầng, mà còn cần mở không gian công cộng, gìn giữ sinh kế và gắn kết cộng…",
+          "title": "Dưỡng lão bán trú \"sáng đi, chiều về\": Nơi thu 100.000 đồng/ngày, nhiều điểm ở Hà Nội đang \"cháy chỗ\"",
+          "link": "https://cafef.vn/duong-lao-ban-tru-sang-di-chieu-ve-noi-thu-100000-dong-ngay-nhieu-diem-o-ha-noi-dang-chay-cho-188261008084250582.chn",
+          "pubDate": "2026-10-08T01:42:00.000Z",
+          "excerpt": "Mô hình mới đang thu hút người cao tuổi nhưng mức phí giữa các nơi chênh lệch đáng kể.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "The President Park: Không gian sống mới, cân bằng phía Tây Hà Nội",
+          "link": "https://vneconomy.vn/the-president-park-khong-gian-song-moi-can-bang-phia-tay-ha-noi.htm",
+          "pubDate": "2026-10-08T01:04:59.000Z",
+          "excerpt": "Khi Hà Nội chuyển dần sang cấu trúc đô thị đa cực, tiêu chí lựa chọn nơi ở cũng thay đổi: từ khoảng cách tới một lõi trung tâm sang khả năng kết nối nhiều cực…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Trung tâm hành chính dịch chuyển, “cú hích” của thị trường bất động sản Nghệ An",
+          "link": "https://cafef.vn/trung-tam-hanh-chinh-dich-chuyen-cu-hich-cua-thi-truong-bat-dong-san-nghe-an-188261008075713548.chn",
+          "pubDate": "2026-10-08T01:00:00.000Z",
+          "excerpt": "Tại Nghệ An, trung tâm hành chính mới của tỉnh dịch chuyển về gần khu vực Cửa Lò sẽ kích hoạt làn sóng đầu tư mới. Bất động sản khu vực lân cận trở thành điểm…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -214,17 +236,6 @@
           "condensed": null
         },
         {
-          "title": "Thông tin mới nhất liên quan tới khu đô thị rộng 193ha nằm ở phía Nam Thủ đô liên quan đến \"đại gia điếu cày\" Lê Thanh Thản",
-          "link": "https://cafef.vn/thong-tin-moi-nhat-lien-quan-toi-khu-do-thi-rong-193ha-nam-o-phia-nam-thu-do-lien-quan-den-dai-gia-dieu-cay-le-thanh-than-188261007231146086.chn",
-          "pubDate": "2026-10-07T16:05:00.000Z",
-          "excerpt": "Khu đô thị mới Mỹ Hưng - Cienco5 có tổng diện tích nghiên cứu khoảng 193ha, nằm liền kề Thanh Hà và tiếp giáp tuyến đường trục phía Nam, Vành đai 4. Công tác…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
           "title": "Nhà xã hội gần khu công nghệ cao Hòa Lạc 23,5 triệu đồng mỗi m2",
           "link": "https://vnexpress.net/nha-xa-hoi-gan-khu-cong-nghe-cao-hoa-lac-23-5-trieu-dong-moi-m2-5129513.html",
           "pubDate": "2026-10-07T14:01:28.000Z",
@@ -233,17 +244,6 @@
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
           "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Flamenco và Ảo thuật: Lễ hội châu Âu thu nhỏ tại Nha Trang",
-          "link": "https://vneconomy.vn/flamenco-va-ao-thuat-le-hoi-chau-au-thu-nho-tai-nha-trang.htm",
-          "pubDate": "2026-10-07T12:57:49.000Z",
-          "excerpt": "Điệu Flamenco rực rỡ, những màn ảo thuật bất ngờ, thử tài bắn cung, lễ hội âm nhạc rộn ràng và loạt trò chơi sôi động, Libera Nha Trang đang có rất nhiều gợi ý…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
           "condensed": null
         }
       ],
@@ -254,10 +254,10 @@
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
         {
-          "title": "Việt Nam có duy nhất một tỉnh 3 mặt giáp biển, được mệnh danh là ‘đất biết nở', diện tích mở rộng mỗi năm",
-          "link": "https://cafef.vn/viet-nam-co-duy-nhat-mot-tinh-3-mat-giap-bien-duoc-menh-danh-la-dat-biet-no-dien-tich-mo-rong-moi-nam-188261007232406299.chn",
-          "pubDate": "2026-10-07T17:02:00.000Z",
-          "excerpt": "Từ những lợi thế về tài nguyên và vị trí địa lý, địa phương này có tiềm năng phát triển thủy sản, năng lượng tái tạo, công nghiệp chế biến, dịch vụ hậu cần…",
+          "title": "Tin vui: Tết Nguyên đán Đinh Mùi 2027, những trường hợp sau sẽ được nhận lên đến 2 triệu đồng tiền mặt",
+          "link": "https://cafef.vn/tin-vui-tet-nguyen-dan-dinh-mui-2027-nhung-truong-hop-sau-se-duoc-nhan-len-den-2-trieu-dong-tien-mat-188261008093206757.chn",
+          "pubDate": "2026-10-08T02:31:00.000Z",
+          "excerpt": "Một trong những nội dung đáng chú ý được nêu tại Kế hoạch 56/KH-TLĐ về tổ chức các hoạt động chăm lo cho đoàn viên, người lao động dịp Tết Nguyên đán Đinh Mùi…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -265,10 +265,10 @@
           "condensed": null
         },
         {
-          "title": "Hà Nội đạt GRDP 10,02%: Từ quyết tâm đến năng lực tăng trưởng",
-          "link": "https://cafef.vn/ha-noi-dat-grdp-1002-tu-quyet-tam-den-nang-luc-tang-truong-188261007212753068.chn",
-          "pubDate": "2026-10-07T14:27:00.000Z",
-          "excerpt": "GRDP quý III-2026 của Hà Nội ước tăng 10,02%, lần đầu tiên trong năm đạt mức tăng trưởng hai con số và là mức tăng cao nhất trong ba quý.",
+          "title": "Thêm vốn cho nhà ở xã hội tại TPHCM",
+          "link": "https://cafef.vn/them-von-cho-nha-o-xa-hoi-tai-tphcm-18826100808322391.chn",
+          "pubDate": "2026-10-08T02:31:00.000Z",
+          "excerpt": "UBND TPHCM đang hoàn thiện dự thảo Nghị quyết về chính sách hỗ trợ lãi suất đối với các dự án được Công ty Đầu tư tài chính Nhà nước TPHCM (HFIC) cho vay, dự…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -276,10 +276,10 @@
           "condensed": null
         },
         {
-          "title": "Chính phủ yêu cầu 9 địa phương tăng trưởng trên 15% trong quý IV",
-          "link": "https://cafef.vn/chinh-phu-yeu-cau-9-dia-phuong-tang-truong-tren-15-trong-quy-iv-188261007203035943.chn",
-          "pubDate": "2026-10-07T14:09:00.000Z",
-          "excerpt": "Chính phủ đặt ra kịch bản tăng trưởng quý IV cho từng địa phương, trong đó 9 tỉnh, thành phố cần đạt trên 15%, cao nhất là Lạng Sơn với 18,41%.",
+          "title": "Quảng Ninh quy hoạch xây mới 5 kho dự trữ xăng dầu",
+          "link": "https://cafef.vn/quang-ninh-quy-hoach-xay-moi-5-kho-du-tru-xang-dau-18826100808040313.chn",
+          "pubDate": "2026-10-08T02:01:00.000Z",
+          "excerpt": "Thành phố Quảng Ninh đã quy hoạch xây mới 5 kho dự trữ xăng dầu, tổng sức chứa từ 346.000 đến 376.000 m3.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -287,10 +287,10 @@
           "condensed": null
         },
         {
-          "title": "Bỗng dưng đứng tên doanh nghiệp, bị chặn ở sân bay: 'Giám đốc' khắc khoải gỡ vướng",
-          "link": "https://cafef.vn/bong-dung-dung-ten-doanh-nghiep-bi-chan-o-san-bay-giam-doc-khac-khoai-go-vuong-188261007202829099.chn",
-          "pubDate": "2026-10-07T13:59:00.000Z",
-          "excerpt": "Phát hiện thông tin cá nhân bị sử dụng trái phép để đứng tên doanh nghiệp, “giám đốc bất đắc dĩ” phải nhiều lần làm việc với cơ quan thuế, đăng ký kinh doanh…",
+          "title": "Từ 1/7/2026, người trúng giải đặc biệt 2 tỷ đồng cần lưu ý cách tính thuế mới: Khoản tiền bị trừ có gì thay đổi?",
+          "link": "https://cafef.vn/tu-1-7-2026-nguoi-trung-giai-dac-biet-2-ty-dong-can-luu-y-cach-tinh-thue-moi-khoan-tien-bi-tru-co-gi-thay-doi-188261007203703607.chn",
+          "pubDate": "2026-10-08T01:14:00.000Z",
+          "excerpt": "Từ 1/7/2026, ngưỡng tính thuế với thu nhập từ trúng thưởng được điều chỉnh, kéo theo cách xác định số tiền bị khấu trừ khi nhận giải đặc biệt 2 tỷ đồng.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -298,10 +298,10 @@
           "condensed": null
         },
         {
-          "title": "Bộ Công Thương nói gì về việc dùng chung trạm sạc xe điện?",
-          "link": "https://cafef.vn/bo-cong-thuong-noi-gi-ve-viec-dung-chung-tram-sac-xe-dien-188261007202742802.chn",
-          "pubDate": "2026-10-07T13:27:00.000Z",
-          "excerpt": "Quy chuẩn mới yêu cầu trạm sạc phải bảo đảm khả năng kỹ thuật để dùng chung cho các xe điện tương thích về đầu nối, chế độ sạc và cấu hình kỹ thuật. Tuy nhiên,…",
+          "title": "Hà Nội: Dự án nâng cấp Quốc lộ 6 gần 9.600 tỷ đồng trước nguy cơ chậm tiến độ",
+          "link": "https://cafef.vn/ha-noi-du-an-nang-cap-quoc-lo-6-gan-9600-ty-dong-truoc-nguy-co-cham-tien-do-188261008070340911.chn",
+          "pubDate": "2026-10-08T01:11:00.000Z",
+          "excerpt": "Dự án cải tạo, nâng cấp Quốc lộ 6 đoạn Ba La – Xuân Mai vướng tiến độ do giải phóng mặt bằng nghĩa trang người nước ngoài, chưa di chuyển tuyến cấp nước sạch…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,7 +349,73 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Trump says he deserves Nobel Peace Prize but has doubts he’ll get it",
+          "title": "Workers, mostly Indian, building US consulate in Milan agree to record settlement",
+          "link": "https://www.scmp.com/news/world/europe/article/3370118/workers-mostly-indian-building-us-consulate-milan-agree-record-settlement?utm_source=rss_feed",
+          "pubDate": "2026-10-08T02:33:22.000Z",
+          "excerpt": "Foreign workers building the vast new US consulate compound in Milan signed agreements at a Milan hotel Wednesday securing payouts averaging €45,000…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+          "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+          "pubDate": "2026-10-08T02:00:00.000Z",
+          "excerpt": "“Both properties will be solely in his name.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Houthi strikes on Saudi airports leave 3 dead, dozens wounded",
+          "link": "https://www.scmp.com/news/world/middle-east/article/3370112/houthi-strikes-saudi-airports-leave-3-dead-dozens-wounded?utm_source=rss_feed",
+          "pubDate": "2026-10-08T01:54:42.000Z",
+          "excerpt": "Saudi authorities said Wednesday that three people were killed in attacks on two of the kingdom’s international airports, including in the capital Riyadh,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Dow Jones quay đầu giảm hơn 340 điểm",
+          "link": "http://vietstock.vn/2026/10/dow-jones-quay-dau-giam-hon-340-diem-773-1499964.htm",
+          "pubDate": "2026-10-08T01:38:01.000Z",
+          "excerpt": "Chứng khoán Mỹ giảm trong ngày 07/10 khi áp lực tiếp tục gia tăng trên thị trường trái phiếu, đẩy lợi suất trái phiếu Chính phủ Mỹ lên những mức chưa từng thấy…",
+          "sourceId": "vietstock",
+          "sourceName": "Vietstock",
+          "sourceUrl": "https://vietstock.vn",
+          "attribution": "Vietstock",
+          "condensed": null
+        },
+        {
+          "title": "Beyond the summit: how US-China relations could still unravel",
+          "link": "https://www.scmp.com/opinion/china-opinion/article/3369893/beyond-summit-how-us-china-relations-could-still-unravel?utm_source=rss_feed",
+          "pubDate": "2026-10-08T01:00:10.000Z",
+          "excerpt": "This year’s Chinese National Day reception in Washington felt noticeably jollier than those I have attended in recent years. The mood was more relaxed and…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "China races to build AI data centres across energy-rich hinterland",
+          "link": "https://www.ft.com/content/e1dd8bff-b06d-4a40-bbb7-c0a6a36f1c8e?syn-25a6b1a6=1",
+          "pubDate": "2026-10-08T00:15:04.000Z",
+          "excerpt": "In the first report of a three-part series, how Inner Mongolia became the engine room for the nation’s vast AI ambition",
+          "sourceId": "ft",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com",
+          "attribution": "FT",
+          "condensed": null
+        },
+        {
+          "title": "Trump says he deserves Nobel Peace Prize but has doubts he will get it",
           "link": "https://www.scmp.com/news/world/united-states-canada/article/3370107/trump-says-he-deserves-nobel-peace-prize-has-doubts-hell-get-it?utm_source=rss_feed",
           "pubDate": "2026-10-07T22:41:05.000Z",
           "excerpt": "US President ⁠Donald Trump, who waged war ⁠with Iran and has ⁠yet to broker peace in Ukraine, said on Wednesday that he should win the Nobel Peace Prize but…",
@@ -364,72 +430,6 @@
           "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
           "pubDate": "2026-10-07T22:32:00.000Z",
           "excerpt": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump to give Musk top US science medal",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370106/trump-give-musk-top-us-science-medal?utm_source=rss_feed",
-          "pubDate": "2026-10-07T22:29:00.000Z",
-          "excerpt": "President Donald Trump will present close ally Elon Musk and other tech bosses with the top US scientific award at a ceremony on Thursday, the White House…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Rubio touts US power, calls on Europe to emerge from ‘slumber’",
-          "link": "https://www.scmp.com/news/world/europe/article/3370105/rubio-touts-us-power-calls-europe-emerge-slumber?utm_source=rss_feed",
-          "pubDate": "2026-10-07T22:17:09.000Z",
-          "excerpt": "US Secretary of State Marco Rubio on Wednesday flexed American power and called on Europe to shake off its “long slumber” in a rousing speech delivered beneath…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Can the Gulf aviation superhub model survive the war?",
-          "link": "https://www.scmp.com/opinion/world-opinion/article/3369927/can-gulf-aviation-superhub-model-survive-war?utm_source=rss_feed",
-          "pubDate": "2026-10-07T21:30:05.000Z",
-          "excerpt": "For decades, the Gulf superhubs of Dubai, Doha and Abu Dhabi performed an improbable trick. They redirected millions of people travelling between the West and…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Rising Rates Are Eroding the Value of Even the Most High-Flying Tech Stocks",
-          "link": "https://www.wsj.com/finance/stocks/rising-rates-are-eroding-the-value-of-even-the-most-high-flying-tech-stocks-fb420a5e?mod=rss_markets_main",
-          "pubDate": "2026-10-07T21:10:00.000Z",
-          "excerpt": "The shares of many industry groups have fallen sharply. And tech darlings are no longer commanding the multiples that they once did.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "Venezuela’s Maduro to face new US charges over alleged torture of Americans, official says",
-          "link": "https://www.scmp.com/news/world/americas/article/3370104/venezuelas-maduro-face-new-us-charges-over-alleged-torture-americans-official-says?utm_source=rss_feed",
-          "pubDate": "2026-10-07T20:58:12.000Z",
-          "excerpt": "Ousted Venezuelan President Nicolas Maduro and his wife, Cilia Flores, are expected to face new criminal charges in ‌the US over the alleged torture of…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-          "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
-          "pubDate": "2026-10-07T20:58:00.000Z",
-          "excerpt": "Technology is the only one of the S&P 500’s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
