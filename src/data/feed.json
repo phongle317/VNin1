@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T17:23:47.812Z",
+  "lastUpdated": "2026-10-09T22:26:02.785Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4214.7,
+      "value": 4220.3,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7805.23,
-      "change": 82.50999999999931,
-      "changePercent": 1.0684059502351413
+      "value": 7811.54,
+      "change": 88.81999999999971,
+      "changePercent": 1.1501129135848471
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 27334.307,
-      "change": 143.44700000000012,
-      "changePercent": 0.5275559507864044
+      "value": 27366.17,
+      "change": 175.30999999999767,
+      "changePercent": 0.6447387099929817
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,17 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Vì sao Vinhomes bán lô lớn cho chủ đầu tư khác thay vì tự bán từng căn?",
+          "link": "https://vnexpress.net/vi-sao-vinhomes-ban-lo-lon-cho-chu-dau-tu-khac-thay-vi-tu-ban-tung-can-5130302.html",
+          "pubDate": "2026-10-09T20:00:40.000Z",
+          "excerpt": "Bán sỉ chiếm khoảng 81% doanh số bất động sản của Vinhomes trong nửa đầu năm, giúp thu tiền sớm và chia sẻ rủi ro phát triển với đối tác.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "SHS huy động lô trái phiếu 123 tỷ đồng",
           "link": "https://cafef.vn/shs-huy-dong-lo-trai-phieu-123-ty-dong-188261009232205583.chn",
@@ -130,21 +141,10 @@
           "condensed": null
         },
         {
-          "title": "Tuần 05-09/10: USD quốc tế giằng co mạnh, tỷ giá tự do trong nước tăng mạnh",
-          "link": "http://vietstock.vn/2026/10/tuan-05-0910-usd-quoc-te-giang-co-manh-ty-gia-tu-do-trong-nuoc-tang-manh-757-1500930.htm",
-          "pubDate": "2026-10-09T13:32:00.000Z",
-          "excerpt": "Trong tuần thứ 2 của tháng 10 (05 - 09/10), USD trên thị trường quốc tế có nhịp giằng co quanh mốc 102 điểm dưới tác động đan xen từ kỳ vọng chính sách của Fed…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Phó thủ tướng yêu cầu không để giá hàng hóa tăng bất hợp lý",
-          "link": "https://vnexpress.net/pho-thu-tuong-yeu-cau-khong-de-gia-hang-hoa-tang-bat-hop-ly-5130535.html",
-          "pubDate": "2026-10-09T13:25:10.000Z",
-          "excerpt": "Phó thủ tướng Nguyễn Văn Thắng yêu cầu tăng kiểm tra, xử lý hành vi tăng giá bất hợp lý, nhất là với hàng thiết yếu trong bối cảnh CPI bình quân 9 tháng tăng…",
+          "title": "Việt Nam - Campuchia dự kiến nâng thương mại lên 20 tỷ USD",
+          "link": "https://vnexpress.net/viet-nam-campuchia-du-kien-nang-thuong-mai-len-20-ty-usd-5130552.html",
+          "pubDate": "2026-10-09T14:41:14.000Z",
+          "excerpt": "Việt Nam và Campuchia đặt mục tiêu nâng kim ngạch thương mại song phương lên 20 tỷ USD, với trọng tâm tháo gỡ rào cản giao thương và tăng kết nối sản xuất.",
           "sourceId": "vnexpress",
           "sourceName": "VnExpress",
           "sourceUrl": "https://vnexpress.net",
@@ -276,28 +276,6 @@
           "condensed": null
         },
         {
-          "title": "Việt Nam - Campuchia dự kiến nâng thương mại lên 20 tỷ USD",
-          "link": "https://vnexpress.net/viet-nam-campuchia-du-kien-nang-thuong-mai-len-20-ty-usd-5130552.html",
-          "pubDate": "2026-10-09T14:41:14.000Z",
-          "excerpt": "Việt Nam và Campuchia đặt mục tiêu nâng kim ngạch thương mại song phương lên 20 tỷ USD, với trọng tâm tháo gỡ rào cản giao thương và tăng kết nối sản xuất.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Hai Bộ Tài chính - Công Thương chưa thống nhất tách truyền tải điện khỏi EVN",
-          "link": "https://vnexpress.net/hai-bo-tai-chinh-cong-thuong-chua-thong-nhat-tach-truyen-tai-dien-khoi-evn-5130525.html",
-          "pubDate": "2026-10-09T14:01:55.000Z",
-          "excerpt": "Bộ Tài chính - Công Thương chưa thống nhất phương án giảm vốn tại các tổng công ty phát điện, sắp xếp nhà máy thủy điện và tách đơn vị truyền tải điện khỏi EVN.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
           "title": "Đỗ Thị Huế: Từ một lời cha dặn, 15 năm bền bỉ trao niềm tin cho những người cùng cảnh",
           "link": "https://cafef.vn/do-thi-hue-tu-mot-loi-cha-dan-15-nam-ben-bi-trao-niem-tin-cho-nhung-nguoi-cung-canh-188261009195217966.chn",
           "pubDate": "2026-10-09T12:30:00.000Z",
@@ -340,6 +318,28 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Trong 9 tháng đầu năm 2026, TP. Hồ Chí Minh thu hút 17,8 tỷ USD vốn FDI",
+          "link": "https://vneconomy.vn/trong-9-thang-dau-nam-2026-tp-ho-chi-minh-thu-hut-178-ty-usd-von-fdi.htm",
+          "pubDate": "2026-10-09T09:35:04.000Z",
+          "excerpt": "TP. Hồ Chí Minh đã thu hút 17,8 tỷ USD vốn đầu tư trực tiếp nước ngoài (FDI) trong 9 tháng đầu năm 2026, gấp 4,2 lần so với cùng kỳ năm 2025 và vượt 162,4% kế…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "R&I nâng Việt Nam lên BBB-: Từ nâng hạng tín nhiệm đến mở cửa thị trường vốn Nhật Bản",
+          "link": "https://vneconomy.vn/ri-nang-viet-nam-len-bbb-tu-nang-hang-tin-nhiem-den-mo-cua-thi-truong-von-nhat-ban.htm",
+          "pubDate": "2026-10-09T02:44:41.000Z",
+          "excerpt": "Việc R&I lần đầu đưa Việt Nam vào nhóm xếp hạng tín nhiệm Đầu tư là một cột mốc về uy tín tín dụng quốc gia. Quan trọng hơn, kết quả này tạo thêm một điểm tựa…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Omani Flydubai co-pilot planned to crash plane into Israeli airport, UAE says",
-          "link": "https://www.scmp.com/news/world/middle-east/article/3370407/omani-flydubai-co-pilot-planned-crash-plane-israeli-airport-uae-says?utm_source=rss_feed",
-          "pubDate": "2026-10-09T17:01:59.000Z",
-          "excerpt": "An ⁠Omani Flydubai co-pilot had intended to seize a Dubai-Tel Aviv flight and crash it into a terminal at Israel’s Ben Gurion airport on September 30 in a…",
+          "title": "Panama rocked by 2 powerful earthquakes, multiple aftershocks",
+          "link": "https://www.scmp.com/news/world/americas/article/3370411/panama-rocked-2-powerful-earthquakes-multiple-aftershocks?utm_source=rss_feed",
+          "pubDate": "2026-10-09T22:10:33.000Z",
+          "excerpt": "Two powerful 7.7 and 6.6 magnitude earthquakes and a series of aftershocks struck Panama on Friday afternoon, collapsing buildings near the epicentre and…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -360,54 +360,10 @@
           "condensed": null
         },
         {
-          "title": "More evidence that broad-market index funds remain unbeatable, even in the era of AI stock-picking",
-          "link": "https://www.marketwatch.com/story/more-evidence-that-broad-market-index-funds-remain-unbeatable-even-in-the-era-of-ai-stock-picking-3c61deac?mod=mw_rss_topstories",
-          "pubDate": "2026-10-09T16:50:00.000Z",
-          "excerpt": "Even with the rising use of AI, picking market-beating stocks has not become any easier this year, a new report finds.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Elon Musk is now richer than any American ever — and it’s not even close",
-          "link": "https://www.marketwatch.com/story/elon-musk-is-now-richer-than-any-american-ever-and-its-not-even-close-58f31401?mod=mw_rss_topstories",
-          "pubDate": "2026-10-09T16:43:00.000Z",
-          "excerpt": "Musk’s trillioniare status means he’s wealthier than his next three contemporaries combined — and also worth more than historical tycoons like John D.…",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Flu season is already here. Here’s what to know about this year’s flu shots.",
-          "link": "https://www.marketwatch.com/story/flu-season-is-already-here-heres-what-to-know-about-this-years-flu-shots-58aeb705?mod=mw_rss_topstories",
-          "pubDate": "2026-10-09T16:31:00.000Z",
-          "excerpt": "This year’s flu season has arrived about seven weeks earlier than in 2025 or 2024.",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. She wants me to leave my home to her two children.",
-          "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
-          "pubDate": "2026-10-09T16:30:00.000Z",
-          "excerpt": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump and Hegseth’s execution-type deal",
-          "link": "https://www.ft.com/content/39764d10-6b87-4103-8e7d-290a72a5ea5a?syn-25a6b1a6=1",
-          "pubDate": "2026-10-09T16:18:01.000Z",
-          "excerpt": "The decision to livestream the execution of Nidal Malik Hasan is a sign of profound moral decay",
+          "title": "Trump agrees deal with Putin for Russia to release diesel",
+          "link": "https://www.ft.com/content/84ca76fd-0eed-4fb6-aea4-f72638a9d9c8?syn-25a6b1a6=1",
+          "pubDate": "2026-10-09T22:06:22.000Z",
+          "excerpt": "Pact between Washington and Moscow comes just weeks before critical midterm elections in the US",
           "sourceId": "ft",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com",
@@ -415,25 +371,69 @@
           "condensed": null
         },
         {
-          "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-          "link": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
-          "pubDate": "2026-10-09T16:10:41.000Z",
-          "excerpt": "Researchers found that while wealth disparities narrowed somewhat, the ability to meet debt payments deteriorated significantly.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
+          "title": "Trump taps Russia to boost global diesel supplies ahead of midterms. It may be ‘too little, too late,’ says strategist.",
+          "link": "https://www.marketwatch.com/story/trump-taps-russia-to-boost-global-diesel-supplies-ahead-of-midterms-it-may-be-too-little-too-late-says-strategist-8c789030?mod=mw_rss_topstories",
+          "pubDate": "2026-10-09T22:00:00.000Z",
+          "excerpt": "The Trump administration has enlisted Russia to help boost U.S. and global diesel supplies in an effort to lower prices for the fuel ahead of the U.S. midterm…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         },
         {
-          "title": "Donald Trump launches committee to investigate Fed governor Lisa Cook",
-          "link": "https://www.ft.com/content/d0c81cd2-f944-46b9-a859-abc3f0bd3516?syn-25a6b1a6=1",
-          "pubDate": "2026-10-09T15:08:49.000Z",
-          "excerpt": "Move comes after Supreme Court in June rebuffed president’s attempt to sack central banker",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
+          "title": "Kalshi Probes Bets on Trump’s Pick for New White House Press Secretary",
+          "link": "https://www.wsj.com/finance/regulation/kalshi-probes-bets-on-trumps-pick-for-new-white-house-press-secretary-8b73a546?mod=rss_markets_main",
+          "pubDate": "2026-10-09T21:47:00.000Z",
+          "excerpt": "The prediction market is examining a series of trades that correctly predicted the appointment of Katie Zacharia, who wasn’t previously seen as a front-runner.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "As Yields Surged, Small-Cap Stocks Were Hit Hard",
+          "link": "https://www.wsj.com/finance/stocks/as-yields-surged-small-cap-stocks-were-hit-hard-7470f7e4?mod=rss_markets_main",
+          "pubDate": "2026-10-09T21:45:00.000Z",
+          "excerpt": "The Russell 2000, which tracks the shares of small companies, closed Friday on a five-week losing streak.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
+          "condensed": null
+        },
+        {
+          "title": "The EU is its own worst enemy",
+          "link": "https://www.scmp.com/opinion/china-opinion/article/3370176/eu-its-own-worst-enemy?utm_source=rss_feed",
+          "pubDate": "2026-10-09T21:30:05.000Z",
+          "excerpt": "Another day, another hardline statement from the European Union. This week, the European Parliament voted by a landslide for a significantly tougher China…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders.",
+          "link": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
+          "pubDate": "2026-10-09T21:30:00.000Z",
+          "excerpt": "Component orders for the iPhone 18 Pro and the iPhone 18 Pro Max are down about 15% in October, according to Nikkei Asia.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
+          "link": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
+          "pubDate": "2026-10-09T21:27:00.000Z",
+          "excerpt": "A new report paints OpenAI’s financial picture in a more optimistic light.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
           "condensed": null
         }
       ],
