@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T15:41:28.001Z",
+  "lastUpdated": "2026-10-13T21:03:05.004Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4185.8,
+      "value": 4182.2,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7788.59,
-      "change": -30.340000000000146,
-      "changePercent": -0.38803263362122625
+      "value": 7805.45,
+      "change": -13.480000000000473,
+      "changePercent": -0.17240210617054344
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 27144.512,
-      "change": -455.27800000000207,
-      "changePercent": -1.6495705220945593
+      "value": 27204.38,
+      "change": -395.40999999999985,
+      "changePercent": -1.4326558281784023
     },
     {
       "symbol": "^N225",
@@ -53,9 +53,9 @@
       "symbol": "^GDAXI",
       "name": "DAX",
       "region": "Europe",
-      "value": 25252.06,
-      "change": -197.12999999999738,
-      "changePercent": -0.774602256496169
+      "value": 25259.9,
+      "change": -189.28999999999724,
+      "changePercent": -0.7437957750325148
     }
   ],
   "themes": [
@@ -63,6 +63,83 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Một gia đình Việt có hai chị em đều là tỷ phú USD",
+          "link": "https://cafef.vn/mot-gia-dinh-viet-co-hai-chi-em-deu-la-ty-phu-usd-188261012164917978.chn",
+          "pubDate": "2026-10-13T17:05:00.000Z",
+          "excerpt": "Cả hai nữ tỷ phú đều gắn bó với Vingroup từ những ngày đầu thành lập.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đón sóng KQKD quý 3, CTCK chỉ ra loạt nhóm cổ phiếu đang được định giá rẻ bất ngờ",
+          "link": "https://cafef.vn/don-song-kqkd-quy-3-ctck-chi-ra-loat-nhom-co-phieu-dang-duoc-dinh-gia-re-bat-ngo-188261013163022714.chn",
+          "pubDate": "2026-10-13T17:04:00.000Z",
+          "excerpt": "Dù kết quả kinh doanh cải thiện, định giá của nhiều nhóm cổ phiếu vẫn đang ở mức thấp so với trung bình lịch sử. Đây được TPS xem là một trong những yếu tố tạo…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Giá euro xuống dưới 30.000 đồng",
+          "link": "https://vnexpress.net/gia-euro-xuong-duoi-30-000-dong-5131940.html",
+          "pubDate": "2026-10-13T17:04:00.000Z",
+          "excerpt": "Các ngân hàng và thị trường tự do liên tục giảm giá đồng euro, hiện mua bán quanh 28.500 - 29.900 đồng, thấp nhất 1,5 năm.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "'Việt Nam có số căn hộ hàng hiệu nhiều thứ ba thế giới'",
+          "link": "https://vnexpress.net/viet-nam-co-so-can-ho-hang-hieu-nhieu-thu-ba-the-gioi-5131822.html",
+          "pubDate": "2026-10-13T17:03:45.000Z",
+          "excerpt": "Việt Nam có hơn 16.000 căn thuộc diện \"bất động sản hàng hiệu\" (gồm cả đã và đang hoàn thành) nhiều thứ ba thế giới, sau UAE và Mỹ, theo Global Branded…",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Một quỹ đầu tư bất ngờ bán sạch cổ phiếu Vingroup trong tháng 9",
+          "link": "https://cafef.vn/mot-quy-dau-tu-bat-ngo-ban-sach-co-phieu-vingroup-trong-thang-9-188261013224247368.chn",
+          "pubDate": "2026-10-13T17:03:00.000Z",
+          "excerpt": "Cổ phiếu Vingroup từng là khoản đầu tư lớn nhất trong danh mục quỹ khi bước vào tháng 9.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Cơn bĩ cực của cổ đông FPT: 3 tuần không thấy màu \"xanh\", cổ phiếu rơi xuống vùng đáy 3 năm",
+          "link": "https://cafef.vn/con-bi-cuc-cua-co-dong-fpt-3-tuan-khong-thay-mau-xanh-co-phieu-roi-xuong-vung-day-3-nam-188261013233853065.chn",
+          "pubDate": "2026-10-13T17:02:00.000Z",
+          "excerpt": "Từng là một trong những cổ phiếu công nghệ được săn đón trên thị trường, FPT đang trải qua chuỗi ngày khó khăn hiếm thấy, gần 20.000 tỷ đồng vốn hóa bốc hơi…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Vietcap dự báo bất ngờ về lợi nhuận PNJ trong 7 năm tới",
+          "link": "https://cafef.vn/vietcap-du-bao-bat-ngo-ve-loi-nhuan-pnj-trong-7-nam-toi-188261013221225447.chn",
+          "pubDate": "2026-10-13T17:02:00.000Z",
+          "excerpt": "Vietcap cảnh báo rủi ro giảm tới 54% tổng dự báo lợi nhuận PNJ giai đoạn 2026–2032, đồng thời đưa ra kịch bản giá trị sổ sách cuối năm nay có thể chỉ còn hơn…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "VN-Index giảm nhẹ, xác suất tạo đáy quanh 1715 điểm",
           "link": "https://vneconomy.vn/vn-index-giam-nhe-xac-suat-tao-day-quanh-1715-diem.htm",
@@ -73,83 +150,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Khối ngoại mua ròng PNJ",
-          "link": "https://vneconomy.vn/khoi-ngoai-mua-rong-pnj.htm",
-          "pubDate": "2026-10-13T15:29:12.000Z",
-          "excerpt": "Thanh khoản ba sàn hôm nay tiếp tục co về vùng dưới 14.000 tỷ đồng, trong khi khối ngoại tiếp tục gây áp lực khi bán ròng 467,9 tỷ đồng; riêng giao dịch khớp…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
-        },
-        {
-          "title": "Đằng sau “cú sốc” thổi bay 22.000 tỷ đồng vốn hoá của PNJ",
-          "link": "https://cafef.vn/dang-sau-cu-soc-thoi-bay-22000-ty-dong-von-hoa-cua-pnj-188261013170047924.chn",
-          "pubDate": "2026-10-13T13:12:00.000Z",
-          "excerpt": "Chuỗi giảm diễn ra trong bối cảnh hàng loạt thông tin liên quan đến pháp lý, kết quả kinh doanh, phương án huy động vốn và giao dịch của người liên quan liên…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ngân hàng NCB tặng quà tổng trị giá 338 tỷ đồng cho khách hàng gửi Tiết kiệm Siêu đặc quyền",
-          "link": "http://vietstock.vn/2026/10/ngan-hang-ncb-tang-qua-tong-tri-gia-338-ty-dong-cho-khach-hang-gui-tiet-kiem-sieu-dac-quyen-757-1502073.htm",
-          "pubDate": "2026-10-13T12:42:32.000Z",
-          "excerpt": "Sản phẩm Tiết kiệm Siêu đặc quyền của ngân hàng NCB tiếp tục gây sốt với chương trình “Lời Quà Bạt Ngàn – Lãi Nhà Bạc Tỷ”, tổng giá trị giải thưởng lên tới 338…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
-        },
-        {
-          "title": "Mẹ trở lại ghế tổng giám đốc, Cường 'đô la' có động thái gây chú ý",
-          "link": "https://cafef.vn/me-tro-lai-ghe-tong-giam-doc-cuong-do-la-co-dong-thai-gay-chu-y-188261013194259161.chn",
-          "pubDate": "2026-10-13T12:42:00.000Z",
-          "excerpt": "Vừa chấp hành xong hình phạt trong vụ án chuyển nhượng trái pháp luật khu đất vàng rộng 6.000 m2 tại số 39-39B Bến Vân Đồn, bà Nguyễn Thị Như Loan được Công ty…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Lời chia tay của Cường Đô La",
-          "link": "https://cafef.vn/loi-chia-tay-cua-cuong-do-la-18826101319285318.chn",
-          "pubDate": "2026-10-13T12:28:00.000Z",
-          "excerpt": "Ông thừa nhận kết quả đạt được trong hai năm điều hành vẫn chưa đáp ứng đầy đủ kỳ vọng của cổ đông.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Một tiến sĩ vừa bị công ty chứng khoán bán giải chấp cổ phiếu",
-          "link": "https://cafef.vn/mot-tien-si-vua-bi-cong-ty-chung-khoan-ban-giai-chap-co-phieu-188261013172825723.chn",
-          "pubDate": "2026-10-13T12:25:00.000Z",
-          "excerpt": "Động thái liên tục bị giải chấp của vị Chủ tịch và tổ chức liên quan diễn ra trong bối cảnh giá cổ phiếu \"rơi tự do\" trong khoảng hơn tháng trở lại đây.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Ông Dương Sơn Bá bị bắt, doanh nghiệp chốt ngày họp đại hội bất thường",
-          "link": "https://cafef.vn/ong-duong-son-ba-bi-bat-doanh-nghiep-chot-ngay-hop-dai-hoi-bat-thuong-188261013165048368.chn",
-          "pubDate": "2026-10-13T11:30:00.000Z",
-          "excerpt": "Động thái này diễn ra trong bối cảnh bộ máy lãnh đạo Nhiệt điện Hải Phòng liên tiếp có những biến động đáng chú ý.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,50 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Việt Nam có một thiên đường nghỉ dưỡng được tạp chí Mỹ đánh giá hàng đầu châu Á, do “phù thủy kiến trúc” danh tiếng toàn cầu thiết kế",
+          "link": "https://cafef.vn/viet-nam-co-mot-thien-duong-nghi-duong-duoc-tap-chi-my-danh-gia-hang-dau-chau-a-do-phu-thuy-kien-truc-danh-tieng-toan-cau-thiet-ke-188261013144502361.chn",
+          "pubDate": "2026-10-13T17:03:00.000Z",
+          "excerpt": "Khu nghỉ dưỡng của Sun Group bên Bãi Kem vừa đứng thứ 8 tại bảng “Rest of Asia” trong bình chọn của độc giả Condé Nast Traveller năm 2026.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Tập đoàn Geleximco của đại gia Vũ Văn Tiền bắt tay DN Trung Quốc, nhắm loạt dự án ở lĩnh vực đặc biệt tại một tỉnh vùng núi Tây Bắc, nơi có cao nguyên được mệnh danh là \"Đà Lạt của miền Bắc\"",
+          "link": "https://cafef.vn/tap-doan-geleximco-cua-dai-gia-vu-van-tien-bat-tay-dn-trung-quoc-nham-loat-du-an-o-linh-vuc-dac-biet-tai-mot-tinh-vung-nui-tay-bac-noi-co-cao-nguyen-duoc-menh-danh-la-da-lat-cua-mien-bac-188261013163056315.chn",
+          "pubDate": "2026-10-13T17:02:00.000Z",
+          "excerpt": "Tập đoàn Geleximco cùng đối tác Trung Quốc đang tìm hiểu cơ hội đầu tư hạ tầng khu công nghiệp, năng lượng tái tạo tại Sơn La.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Giá chào bán chung cư Hà Nội dự báo giảm tiếp: Chuyên gia khuyên người mua điều này thay vì xác định thời điểm thị trường \"chạm đáy\"",
+          "link": "https://cafef.vn/gia-chao-ban-chung-cu-ha-noi-du-bao-giam-tiep-chuyen-gia-khuyen-nguoi-mua-dieu-nay-thay-vi-xac-dinh-thoi-diem-thi-truong-cham-day-188261008145449854.chn",
+          "pubDate": "2026-10-13T17:01:00.000Z",
+          "excerpt": "Sau thời gian cùng tăng giá mạnh, chung cư Hà Nội đang xuất hiện diễn biến trái chiều giữa thị trường sơ cấp và thứ cấp. Trong khi giá sơ cấp vẫn tiếp tục tăng…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Một tuyến đại lộ được quy hoạch rộng gấp 4 đường băng sân bay, nối thẳng thành phố giàu nhất miền Bắc ra biển, rút ngắn thời gian di chuyển không quá 1 giờ",
+          "link": "https://cafef.vn/mot-tuyen-dai-lo-duoc-quy-hoach-rong-gap-4-duong-bang-san-bay-noi-thang-thanh-pho-giau-nhat-mien-bac-ra-bien-rut-ngan-thoi-gian-di-chuyen-khong-qua-1-gio-188261013150913083.chn",
+          "pubDate": "2026-10-13T15:41:00.000Z",
+          "excerpt": "Tỉnh Hưng Yên định hướng phát triển tuyến đại lộ rộng 180m, tốc độ tối đa 120 km/h, kết nối Hà Nội với khu vực ven biển, hướng tới rút ngắn thời gian di chuyển…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Nghiên cứu mua lại nhà thương mại chưa bán được để cho thuê",
           "link": "https://cafef.vn/nghien-cuu-mua-lai-nha-thuong-mai-chua-ban-duoc-de-cho-thue-188261013203256851.chn",
@@ -201,50 +245,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Tồn kho bất động sản tăng, giá nhà vẫn vượt khả năng chi trả của đại đa số người dân",
-          "link": "https://cafef.vn/ton-kho-bat-dong-san-tang-gia-nha-van-vuot-kha-nang-chi-tra-cua-dai-da-so-nguoi-dan-18826101314410308.chn",
-          "pubDate": "2026-10-13T11:46:00.000Z",
-          "excerpt": "Cả nước hiện có 2.221 dự án bất động sản với tổng vốn đầu tư khoảng 6,87 triệu tỷ đồng. Chính phủ yêu cầu khẩn trương tháo gỡ các điểm nghẽn, ưu tiên phát…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "“Chất Nghệ”, “chất Vinh” tại biểu tượng sống mới giữa lõi trung tâm Vinh",
-          "link": "https://cafef.vn/chat-nghe-chat-vinh-tai-bieu-tuong-song-moi-giua-loi-trung-tam-vinh-188261013152756184.chn",
-          "pubDate": "2026-10-13T09:30:00.000Z",
-          "excerpt": "Ra mắt tại trung tâm thành Vinh, tổ hợp Sun Glory Residence không chỉ thiết lập chuẩn mực sống hạng sang mà còn là biểu tượng kiêu hãnh vinh danh vùng đất địa…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Siêu quần thể “Bà Nà Hills thứ 2” do Sun Group đầu tư nằm trên ngọn núi cao 1.000m dự kiến khởi công ngay trong tháng này",
-          "link": "https://cafef.vn/sieu-quan-the-ba-na-hills-thu-2-do-sun-group-dau-tu-nam-tren-ngon-nui-cao-1000m-du-kien-khoi-cong-ngay-trong-thang-nay-188261013155630845.chn",
-          "pubDate": "2026-10-13T08:59:00.000Z",
-          "excerpt": "Quần thể du lịch sinh thái, nghỉ dưỡng và vui chơi giải trí núi U Bò - hồ Thác Chuối, tổng vốn đầu tư dự kiến hơn 16.234 tỷ đồng dự kiến khởi công vào 30/10.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Lập bản đồ nhu cầu nhà ở thực và thí điểm mô hình dịch vụ mua nhà",
-          "link": "https://vneconomy.vn/lap-ban-do-nhu-cau-nha-o-thuc-va-thi-diem-mo-hinh-dich-vu-mua-nha.htm",
-          "pubDate": "2026-10-13T08:51:47.000Z",
-          "excerpt": "Theo số liệu từ Bộ Xây dựng, cả nước có khoảng 6.188 căn nhà do tổ chức, cá nhân nước ngoài sở hữu và đã được cấp Giấy chứng nhận; riêng từ khi Luật Nhà ở 2023…",
-          "sourceId": "vneconomy",
-          "sourceName": "VnEconomy",
-          "sourceUrl": "https://vneconomy.vn",
-          "attribution": "VnEconomy",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -262,17 +262,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Cục thuế yêu cầu không 'om' hồ sơ của người dân, doanh nghiệp",
-          "link": "https://vnexpress.net/cuc-thue-yeu-cau-khong-om-ho-so-cua-nguoi-dan-doanh-nghiep-5131899.html",
-          "pubDate": "2026-10-13T13:32:25.000Z",
-          "excerpt": "Theo quy tắc vừa được ban hành, cán bộ thuế không được gây khó dễ và phải chủ động xử lý khi hồ sơ đủ điều kiện thay vì chờ được nhắc mới giải quyết.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -295,17 +284,6 @@
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "UOB nâng dự báo tăng trưởng Việt Nam lên 9,2%",
-          "link": "https://vnexpress.net/uob-nang-du-bao-tang-truong-viet-nam-len-9-2-5131875.html",
-          "pubDate": "2026-10-13T11:59:55.000Z",
-          "excerpt": "UOB nâng dự báo GDP Việt Nam năm nay lên 9,2% nhờ kinh tế ba quý đầu vượt kỳ vọng khi công nghiệp và xây dựng là động lực tăng trưởng chính.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
           "condensed": null
         },
         {
@@ -340,6 +318,28 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Nhu cầu nhà ở cho người nước ngoài tăng cao ở Bắc Ninh",
+          "link": "https://vneconomy.vn/nhu-cau-nha-o-cho-nguoi-nuoc-ngoai-tang-cao-o-bac-ninh.htm",
+          "pubDate": "2026-10-12T15:51:05.000Z",
+          "excerpt": "Với hơn 41.000 người nước ngoài đăng ký tạm trú tại địa bàn, chủ yếu là chuyên gia và lao động tại các doanh nghiệp FDI, nhu cầu nhà ở và môi trường sống đồng…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
+        },
+        {
+          "title": "Mở rộng thị trường nhà ở cho người nước ngoài tại Bắc Ninh",
+          "link": "https://vneconomy.vn/mo-rong-thi-truong-nha-o-cho-nguoi-nuoc-ngoai-tai-bac-ninh.htm",
+          "pubDate": "2026-10-12T15:48:28.000Z",
+          "excerpt": "Số lượng người nước ngoài làm việc và sinh sống tại Việt Nam ngày càng tăng, nhưng thị trường nhà ở dành cho nhóm khách hàng này vẫn chưa phát triển tương…",
+          "sourceId": "vneconomy",
+          "sourceName": "VnEconomy",
+          "sourceUrl": "https://vneconomy.vn",
+          "attribution": "VnEconomy",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,54 +349,10 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "‘Pharma Bro’ Martin Shkreli is in trouble with regulators again, this time for influencing biopharma stocks",
-          "link": "https://www.marketwatch.com/story/pharma-bro-martin-shkreli-is-in-trouble-with-regulators-again-this-time-for-influencing-biopharma-stocks-7356c3bb?mod=mw_rss_topstories",
-          "pubDate": "2026-10-13T15:37:00.000Z",
-          "excerpt": "The Federal Trade Commission and seven states say Shkreli should be held in contempt",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-          "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
-          "pubDate": "2026-10-13T15:15:00.000Z",
-          "excerpt": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "US asks Greece ambassador Kimberly Guilfoyle to resign over alleged misconduct",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370779/us-asks-greece-ambassador-kimberly-guilfoyle-resign-over-alleged-misconduct?utm_source=rss_feed",
-          "pubDate": "2026-10-13T15:02:49.000Z",
-          "excerpt": "Trump appointee Kimberly Guilfoyle, the US ambassador to Greece, has been asked to resign from her post after coming under severe criticism over allegations…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
-          "condensed": null
-        },
-        {
-          "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
-          "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-          "pubDate": "2026-10-13T15:00:00.000Z",
-          "excerpt": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "For Stocks, the Future Ain’t What It Used to Be",
-          "link": "https://www.wsj.com/finance/investing/for-stocks-the-future-aint-what-it-used-to-be-5b210467?mod=rss_markets_main",
-          "pubDate": "2026-10-13T14:55:00.000Z",
-          "excerpt": "",
+          "title": "Financial Services Roundup: Market Talk",
+          "link": "https://www.wsj.com/business/financial-services-roundup-market-talk-51c2b458?mod=rss_markets_main",
+          "pubDate": "2026-10-13T20:57:00.000Z",
+          "excerpt": "Find insight on major Gulf stocks, JP Morgan Chase, Goldman Sachs and more in the latest Market Talks covering financial services.",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
@@ -404,10 +360,21 @@
           "condensed": null
         },
         {
-          "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-          "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-          "pubDate": "2026-10-13T14:45:00.000Z",
-          "excerpt": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
+          "title": "Cornell suspends frat parties after alleged gang rape",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370788/cornell-suspends-frat-parties-after-alleged-gang-rape?utm_source=rss_feed",
+          "pubDate": "2026-10-13T20:50:34.000Z",
+          "excerpt": "Cornell University on Tuesday suspended fraternities’ parties and social events for the remaining academic year following outcry over an alleged gang rape at…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
+          "link": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+          "pubDate": "2026-10-13T20:42:00.000Z",
+          "excerpt": "Bernstein analyst Laurent Yoon no longer recommends any of the major telecommunications stocks as he warns of more volatility ahead.",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -415,10 +382,10 @@
           "condensed": null
         },
         {
-          "title": "Higher Rates Are Coming for Private Equity—and Smaller Firms Are Already Hurting",
-          "link": "https://www.wsj.com/finance/investing/higher-rates-are-coming-for-private-equityand-smaller-firms-are-already-hurting-754ada6c?mod=rss_markets_main",
-          "pubDate": "2026-10-13T14:00:00.000Z",
-          "excerpt": "Firms are facing employee turnover as hopes for payouts dim amid sluggish exits.",
+          "title": "Rising Interest Rates Threaten to Spoil the Party for Big Banks",
+          "link": "https://www.wsj.com/finance/banking/rising-interest-rates-threaten-to-spoil-the-party-for-big-banks-0ef3e7c0?mod=rss_markets_main",
+          "pubDate": "2026-10-13T20:42:00.000Z",
+          "excerpt": "Goldman Sachs and JPMorgan post higher profit, but the mood on Wall Street is becoming more cautious.",
           "sourceId": "wsj",
           "sourceName": "WSJ",
           "sourceUrl": "https://www.wsj.com",
@@ -426,14 +393,47 @@
           "condensed": null
         },
         {
-          "title": "MI5 chief warns Iran is targeting military sites in UK as hostile state threats surge",
-          "link": "https://www.scmp.com/news/world/europe/article/3370774/mi5-chief-warns-iran-targeting-military-sites-uk-hostile-state-threats-surge?utm_source=rss_feed",
-          "pubDate": "2026-10-13T13:39:32.000Z",
-          "excerpt": "Iran is trying to hit military sites in the UK and the suspected plot to attack a US-run military airbase in September was “not unique”, the head of Britain’s…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
+          "title": "Six Flags’ stock slumps near 17-year low after fatal incident",
+          "link": "https://www.marketwatch.com/story/six-flags-stock-slumps-near-52-week-lows-after-fatal-accident-3f938112?mod=mw_rss_topstories",
+          "pubDate": "2026-10-13T20:41:00.000Z",
+          "excerpt": "A fatal accident on a Six Flags Entertainment roller coaster sent shares of the amusement-park operator tumbling.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
+          "link": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+          "pubDate": "2026-10-13T20:32:00.000Z",
+          "excerpt": "AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
+          "link": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
+          "pubDate": "2026-10-13T20:29:00.000Z",
+          "excerpt": "The health-insurance giant said its medical-cost ratio was 88.4% in the third quarter of this year, as the company tries to rein in spending on medical care.",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Bank Earnings Look Strong, But Markets Shrug",
+          "link": "https://www.wsj.com/finance/stocks/bank-earnings-look-strong-but-markets-shrug-26533199?mod=rss_markets_main",
+          "pubDate": "2026-10-13T20:15:00.000Z",
+          "excerpt": "Plus, memory stocks fall, and private equity is facing a reckoning.",
+          "sourceId": "wsj",
+          "sourceName": "WSJ",
+          "sourceUrl": "https://www.wsj.com",
+          "attribution": "WSJ",
           "condensed": null
         }
       ],
