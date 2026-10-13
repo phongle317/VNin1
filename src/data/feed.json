@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T17:31:58.343Z",
+  "lastUpdated": "2026-10-13T00:18:59.809Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4190.2,
+      "value": 4190.6,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,25 +21,25 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7804.45,
-      "change": 30.5,
-      "changePercent": 0.3923359424745464
+      "value": 7807.24,
+      "change": 33.289999999999964,
+      "changePercent": 0.42822503360582415
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 27245.326,
-      "change": -231.98400000000038,
-      "changePercent": -0.8442747852682828
+      "value": 27245.902,
+      "change": -231.40800000000309,
+      "changePercent": -0.8421785101962422
     },
     {
       "symbol": "^N225",
       "name": "Nikkei",
       "region": "Asia",
-      "value": 69030.92,
-      "change": -915.9400000000023,
-      "changePercent": -1.3094797965198186
+      "value": 68710.99,
+      "change": -1972.9899999999907,
+      "changePercent": -2.7912831167684544
     },
     {
       "symbol": "^HSI",
@@ -159,43 +159,54 @@
       "displayName": "Bất động sản",
       "articles": [
         {
+          "title": "Phát hiện cổ vật thời Trần khi đào móng nhà ở Ninh Bình",
+          "link": "https://cafef.vn/phat-hien-co-vat-thoi-tran-khi-dao-mong-nha-o-ninh-binh-188261013062352776.chn",
+          "pubDate": "2026-10-13T00:15:00.000Z",
+          "excerpt": "Trong quá trình thăm dò nền đất chuẩn bị xây nhà tại khu tái định cư Cửa Bạc, phường Hoa Lư, tỉnh Ninh Bình, một người dân bất ngờ phát hiện nhiều hiện vật…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Những người dám làm việc lớn",
+          "link": "https://cafef.vn/nhung-nguoi-dam-lam-viec-lon-188261013062213488.chn",
+          "pubDate": "2026-10-13T00:09:00.000Z",
+          "excerpt": "Từ bán đảo Bình Quới - Thanh Đa chờ đổi thay hơn ba thập niên đến công trường Cần Giờ, từ tuyến metro ngầm dưới sông Sài Gòn đến cảng nước sâu Cái Mép, TPHCM…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Từ người bán mì ăn liền, thuốc thú y, thợ cơ khí… đến những doanh nhân quyền lực trên thị trường bất động sản",
+          "link": "https://cafef.vn/tu-nguoi-ban-mi-an-lien-thuoc-thu-y-tho-co-khi-den-nhung-doanh-nhan-quyen-luc-tren-thi-truong-bat-dong-san-18826101301224285.chn",
+          "pubDate": "2026-10-12T23:51:00.000Z",
+          "excerpt": "Trước khi sở hữu những Tập đoàn tỷ USD, nhiều doanh nhân có tiếng trên thị trường bất động sản từng khởi nghiệp từ những công việc rất đỗi bình thường.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Chủ tịch Nam Long Group Nguyễn Xuân Quang: Nguyên tắc \"lụt thì lụt cả làng\" nhưng DN phải biết chia sẻ rủi ro với khách hàng...nếu sức chưa đủ, chúng tôi thẳng thắn khuyên khách hàng chưa nên mua nhà vội",
+          "link": "https://cafef.vn/chu-tich-nam-long-nguyen-xuan-quang-nguyen-tac-lut-thi-lut-ca-lang-nhung-dn-phai-biet-chia-se-rui-ro-voi-khach-hangneu-suc-chua-du-chung-toi-thang-than-khuyen-khach-hang-chua-nen-mua-nha-voi-18826101223221681.chn",
+          "pubDate": "2026-10-12T23:33:00.000Z",
+          "excerpt": "Gặp Chủ tịch Hội đồng quản trị Công ty cổ phần đầu tư Nam Long (Nam Long Group, HOSE: NLG) vào một ngày đầu tháng 10, giữa bối cảnh thị trường bất động sản gặp…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
           "title": "Giá chung cư TP.HCM chạm 125 triệu đồng/m2, thanh khoản giảm còn 28%: \"Thị trường vẫn chưa đóng băng\"",
           "link": "https://cafef.vn/gia-chung-cu-tphcm-cham-125-trieu-dong-m2-thanh-khoan-giam-con-28-thi-truong-van-chua-dong-bang-188261012160432948.chn",
           "pubDate": "2026-10-12T17:03:00.000Z",
           "excerpt": "Avison Young Việt Nam đánh giá về thị trường căn hộ TP.HCM, bất chấp tâm lý phòng thủ, thị trường vẫn chưa đóng băng.",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Diễn biến mới nhất tại tuyến metro hơn 60.000 tỷ đồng, nối thẳng thành phố giàu nhất Việt Nam tới siêu dự án 16 tỷ USD chưa từng có trong lịch sử",
-          "link": "https://cafef.vn/dien-bien-moi-nhat-tai-tuyen-metro-hon-60000-ty-dong-noi-thang-thanh-pho-giau-nhat-viet-nam-toi-sieu-du-an-16-ty-usd-chua-tung-co-trong-lich-su-188261012224614134.chn",
-          "pubDate": "2026-10-12T17:01:00.000Z",
-          "excerpt": "Dự án kéo dài tuyến Metro Bến Thành – Suối Tiên đến Trung tâm hành chính thành phố Đồng Nai và Cảng hàng không quốc tế Long Thành, đoạn qua phường Long Hưng,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Siêu đường sắt cao tốc 250 km/h, vốn đầu tư 174.000 tỷ đồng chạy xuyên khu vực đóng băng lâu năm, mùa đông có thể lạnh tới -40°C",
-          "link": "https://cafef.vn/sieu-duong-sat-cao-toc-250-km-h-von-dau-tu-174000-ty-dong-chay-xuyen-khu-vuc-dong-bang-lau-nam-mua-dong-co-the-lanh-toi-40c-188261012194916795.chn",
-          "pubDate": "2026-10-12T17:01:00.000Z",
-          "excerpt": "Đây là tuyến đường sắt cao tốc đi qua 14 dải đất đóng băng lâu năm, nơi chênh lệch nhiệt độ trong năm vượt 70°C, đặt ra nhiều thách thức về thi công và vận…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Siêu dự án 1,7 tỷ USD của tỷ phú Phạm Nhật Vượng nằm tại chân đèo đẹp nhất Việt Nam, được mệnh danh là “Thiên hạ đệ nhất hùng quan” đón tin vui",
-          "link": "https://cafef.vn/sieu-du-an-17-ty-usd-cua-ty-phu-pham-nhat-vuong-nam-tai-chan-deo-dep-nhat-viet-nam-duoc-menh-danh-la-thien-ha-de-nhat-hung-quan-don-tin-vui-188261012231413992.chn",
-          "pubDate": "2026-10-12T17:00:00.000Z",
-          "excerpt": "154 căn nhà ở hình thành trong tương lai thuộc phân khu 2 của dự án Khu phức hợp du lịch và đô thị nghỉ dưỡng Làng Vân đủ điều kiện đưa vào kinh doanh.",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Cận cảnh 15 km đường song hành Vành đai 4 qua Hà Nội vừa thông xe kỹ thuật",
-          "link": "https://cafef.vn/can-canh-15-km-duong-song-hanh-vanh-dai-4-qua-ha-noi-vua-thong-xe-ky-thuat-188261012221403872.chn",
-          "pubDate": "2026-10-12T15:13:00.000Z",
-          "excerpt": "Khoảng 15 km đường song hành Vành đai 4, đoạn từ cầu Hồng Hà đến nút giao Đại lộ Thăng Long, được thông xe kỹ thuật ngày 10/10. Mặt đường cơ bản hoàn thiện,…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,6 +253,17 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
+        {
+          "title": "Huy động 2.046 người và 897 máy móc, Đèo Cả quyết mang tin vui tại dự án giao thông thách thức bậc nhất cả nước",
+          "link": "https://cafef.vn/huy-dong-2046-nguoi-va-897-may-moc-deo-ca-quyet-mang-tin-vui-tai-du-an-giao-thong-thach-thuc-bac-nhat-ca-nuoc-188261012202234664.chn",
+          "pubDate": "2026-10-13T00:00:00.000Z",
+          "excerpt": "Với cấu tạo địa chất karst cùng địa hình hiểm trở, đây là một trong những dự án cao tốc thách thức bậc nhất trên cả nước.",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
         {
           "title": "Tin cực vui: Tổng thống Nga Vladimir Putin chính thức ký sắc lệnh miễn visa du lịch cho người Việt từ 15/10",
           "link": "https://cafef.vn/tin-cuc-vui-tong-thong-nga-vladimir-putin-chinh-thuc-ky-sac-lenh-mien-visa-cho-nguoi-viet-tu-15-10-188261013000311391.chn",
@@ -291,17 +302,6 @@
           "link": "https://cafef.vn/tin-vui-cho-doanh-nghiep-viet-nam-muon-vao-chuoi-cung-ung-cua-samsung-18826101217593031.chn",
           "pubDate": "2026-10-12T11:59:00.000Z",
           "excerpt": "Theo thông tin từ Cổng thông tin điện tử Bộ Công thương, mới đây, Cục Công nghiệp (Bộ Công Thương) đã có buổi làm việc với Samsung Việt Nam nhằm trao đổi các…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Hà Nội tính chi bao nhiêu tiền để xử lý gần 4 triệu tấn rác chôn lấp suốt 27 năm?",
-          "link": "https://cafef.vn/ha-noi-tinh-chi-bao-nhieu-tien-de-xu-ly-gan-4-trieu-tan-rac-chon-lap-suot-27-nam-188261012163046322.chn",
-          "pubDate": "2026-10-12T11:30:00.000Z",
-          "excerpt": "Sở Nông nghiệp và Môi trường Hà Nội cho biết, đơn vị vừa có đề xuất về việc xử lý toàn bộ rác tại Khu xử lý chất thải rắn Xuân Sơn (trên địa bàn phường Tùng…",
           "sourceId": "cafef",
           "sourceName": "CafeF",
           "sourceUrl": "https://cafef.vn",
@@ -349,10 +349,21 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "Elon Musk becomes biggest known donor in midterm elections in bid to save Republicans",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370645/elon-musk-becomes-biggest-known-donor-midterm-elections-bid-save-republicans?utm_source=rss_feed",
-          "pubDate": "2026-10-12T17:20:29.000Z",
-          "excerpt": "Elon Musk, the world’s only trillionaire, has quietly become the biggest known donor in this year’s midterm elections, doling out more than US$276 million…",
+          "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
+          "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+          "pubDate": "2026-10-12T23:31:00.000Z",
+          "excerpt": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Nato’s top commander says alliance does not want war but is ‘ready to fight tonight’",
+          "link": "https://www.scmp.com/news/world/russia-central-asia/article/3370653/natos-top-commander-says-alliance-does-not-want-war-ready-fight-tonight?utm_source=rss_feed",
+          "pubDate": "2026-10-12T23:25:50.000Z",
+          "excerpt": "Nato’s top military commander said the alliance is “ready to fight tonight” if it is attacked, as European officials warn Russia could test Nato’s defences…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -362,7 +373,7 @@
         {
           "title": "‘The prospectus looks impressive’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
           "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-          "pubDate": "2026-10-12T17:15:00.000Z",
+          "pubDate": "2026-10-12T23:15:00.000Z",
           "excerpt": "“I’m in my 60s, recently retired and living my best life.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
@@ -371,21 +382,10 @@
           "condensed": null
         },
         {
-          "title": "Zuckerberg says Meta has reached AI ‘frontier’ and rejects calls for slowdown",
-          "link": "https://www.ft.com/content/fca23e77-be57-4d7e-ae61-74ff299e25cb?syn-25a6b1a6=1",
-          "pubDate": "2026-10-12T17:00:02.000Z",
-          "excerpt": "FT interview: tech billionaire touts release of new Muse Wonder model after vast spending to challenge rivals in AI race",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "US federal agents search Democrat Ilhan Omar’s home as part of a criminal investigation",
-          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370643/federal-agents-search-democrat-ilhan-omars-home-part-criminal-investigation?utm_source=rss_feed",
-          "pubDate": "2026-10-12T16:53:02.000Z",
-          "excerpt": "Federal agents on Monday searched the home of Democratic congresswoman Ilhan Omar as part of a criminal investigation, a startling escalation that brings…",
+          "title": "Breaking Bad actor and disability rights champion R.J. Mitte dies at 34",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3370652/breaking-bad-actor-and-disability-rights-champion-rj-mitte-dies-34?utm_source=rss_feed",
+          "pubDate": "2026-10-12T22:55:52.000Z",
+          "excerpt": "Breaking Bad actor and disability rights advocate R.J. Mitte died on Monday at age 34, authorities and his representatives said. Cameron County Justice of the…",
           "sourceId": "scmp",
           "sourceName": "SCMP",
           "sourceUrl": "https://www.scmp.com",
@@ -393,10 +393,10 @@
           "condensed": null
         },
         {
-          "title": "These stocks could be the future winners — and losers — of a massive shift in IT spending",
-          "link": "https://www.marketwatch.com/story/these-stocks-could-be-the-future-winners-and-losers-of-a-massive-shift-in-it-spending-bfc88c05?mod=mw_rss_topstories",
-          "pubDate": "2026-10-12T16:47:00.000Z",
-          "excerpt": "As more money flows toward AI software offerings, Salesforce could deepen its customer relationships while Adobe looks vulnerable, analysts say.",
+          "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
+          "link": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
+          "pubDate": "2026-10-12T22:27:00.000Z",
+          "excerpt": "Contrary to a widespread current worry among some on Wall Street, bull markets do not die of old age,",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -404,10 +404,21 @@
           "condensed": null
         },
         {
-          "title": "Buy these stocks as plays on Google’s big spending, analyst says",
-          "link": "https://www.marketwatch.com/story/buy-these-stocks-as-plays-on-googles-big-spending-analyst-says-a159c170?mod=mw_rss_topstories",
-          "pubDate": "2026-10-12T16:31:00.000Z",
-          "excerpt": "Google Cloud is growing fast, but several chip makers and networking providers could be better ways to capitalize on that trend, according to Melius Research.",
+          "title": "2 dead, 10 missing as hurricane and tropical storm hit Mexico",
+          "link": "https://www.scmp.com/news/world/americas/article/3370651/2-dead-10-missing-hurricane-and-tropical-storm-hit-mexico?utm_source=rss_feed",
+          "pubDate": "2026-10-12T22:23:52.000Z",
+          "excerpt": "At least two people have been killed and 10 are missing in Mexico as severe weather linked to a hurricane and a tropical storm battered parts of the country,…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+          "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+          "pubDate": "2026-10-12T22:00:00.000Z",
+          "excerpt": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -415,21 +426,10 @@
           "condensed": null
         },
         {
-          "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
-          "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-          "pubDate": "2026-10-12T16:30:00.000Z",
-          "excerpt": "“I presume these are sophisticated investors taking a profit.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘The house is worth $925,000’: My sister moved in with our mother, 78, and says she deserves the family home. Is she right?",
-          "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-          "pubDate": "2026-10-12T16:30:00.000Z",
-          "excerpt": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+          "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
+          "link": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
+          "pubDate": "2026-10-12T22:00:00.000Z",
+          "excerpt": "Brazil’s presidential election is powering optimism in the country’s stock market — and capturing the attention of investors wary of having too much exposure…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
