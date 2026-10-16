@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T19:26:45.335Z",
+  "lastUpdated": "2026-10-16T22:41:12.263Z",
   "market": {
     "vnIndex": null,
     "hnxIndex": null,
@@ -9,7 +9,7 @@
     },
     "goldVnd": null,
     "goldUsd": {
-      "value": 4185.8,
+      "value": 4186.7,
       "unit": "USD/oz",
       "source": "Yahoo Finance"
     },
@@ -21,17 +21,17 @@
       "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
-      "value": 7656.34,
-      "change": -155.19999999999982,
-      "changePercent": -1.9868041384925355
+      "value": 7659.44,
+      "change": -152.10000000000036,
+      "changePercent": -1.9471192620149211
     },
     {
       "symbol": "^IXIC",
       "name": "Nasdaq",
       "region": "US",
-      "value": 26135.998,
-      "change": -1230.1719999999987,
-      "changePercent": -4.495228963351462
+      "value": 26140.033,
+      "change": -1226.1369999999988,
+      "changePercent": -4.480484481387052
     },
     {
       "symbol": "^N225",
@@ -63,6 +63,39 @@
       "key": "stocks",
       "displayName": "Chứng khoán",
       "articles": [
+        {
+          "title": "Phó thủ tướng yêu cầu giảm lãi suất cho vay 1,5-2%",
+          "link": "https://vnexpress.net/pho-thu-tuong-yeu-cau-giam-lai-suat-cho-vay-1-5-2-5133422.html",
+          "pubDate": "2026-10-16T18:30:00.000Z",
+          "excerpt": "Phó thủ tướng Nguyễn Văn Thắng yêu cầu giảm lãi suất cho vay 1,5-2% với sản xuất, kinh doanh và lĩnh vực ưu tiên, hỗ trợ người dân, doanh nghiệp.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Thủ tướng: Sẽ thu hồi thương hiệu quốc gia nếu không còn đạt tiêu chí",
+          "link": "https://vnexpress.net/thu-tuong-se-thu-hoi-thuong-hieu-quoc-gia-neu-khong-con-dat-tieu-chi-5133406.html",
+          "pubDate": "2026-10-16T18:17:39.000Z",
+          "excerpt": "Thủ tướng Lê Minh Hưng yêu cầu tăng kiểm tra sau công nhận, thu hồi danh hiệu thương hiệu quốc gia với những trường hợp không còn đáp ứng tiêu chí.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
+        {
+          "title": "Tập đoàn dầu khí Malaysia muốn cung cấp LNG dài hạn cho Việt Nam",
+          "link": "https://vnexpress.net/tap-doan-dau-khi-malaysia-muon-cung-cap-lng-dai-han-cho-viet-nam-5133408.html",
+          "pubDate": "2026-10-16T18:13:55.000Z",
+          "excerpt": "Tập đoàn Dầu khí quốc gia Malaysia (Petronas) đề xuất cung cấp khí tự nhiên hóa lỏng (LNG) theo hợp đồng dài hạn, hợp tác phát triển hạ tầng LNG tại Việt Nam.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Hơn 3.000 tỷ đồng cổ phiếu Việt Nam vừa bị khối ngoại bán ròng xuyên suốt 5 phiên, mã nào là tâm điểm \"xả\"?",
           "link": "https://cafef.vn/hon-3000-ty-dong-co-phieu-viet-nam-vua-bi-khoi-ngoai-ban-rong-xuyen-suot-5-phien-ma-nao-la-tam-diem-xa-188261016232430514.chn",
@@ -117,39 +150,6 @@
           "sourceUrl": "https://cafef.vn",
           "attribution": "CafeF",
           "condensed": null
-        },
-        {
-          "title": "Một cổ phiếu bất động sản giảm sàn phiên thứ 20",
-          "link": "https://cafef.vn/mot-co-phieu-bat-dong-san-giam-san-phien-thu-20-188261016215822844.chn",
-          "pubDate": "2026-10-16T14:58:00.000Z",
-          "excerpt": "VN-Index hồi phục hơn 7 điểm trong phiên cuối tuần 16/10, lấy lại mốc 1.700 điểm dù thanh khoản giảm mạnh. Trong khi nhóm ngân hàng, chứng khoán khởi sắc, cổ…",
-          "sourceId": "cafef",
-          "sourceName": "CafeF",
-          "sourceUrl": "https://cafef.vn",
-          "attribution": "CafeF",
-          "condensed": null
-        },
-        {
-          "title": "Tập đoàn Citigroup muốn huy động vốn cho ngành năng lượng Việt Nam",
-          "link": "https://vnexpress.net/tap-doan-citigroup-muon-huy-dong-von-cho-nganh-nang-luong-viet-nam-5133320.html",
-          "pubDate": "2026-10-16T13:55:39.000Z",
-          "excerpt": "Citigroup - tập đoàn dịch vụ tài chính, ngân hàng của Mỹ - đang tìm kiếm các giải pháp huy động vốn phục vụ phát triển ngành năng lượng Việt Nam.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "FE CREDIT thắng giải “Doanh nghiệp xuất sắc châu Á” tại APEA 2026",
-          "link": "http://vietstock.vn/2026/10/fe-credit-thang-giai-doanh-nghiep-xuat-sac-chau-a-tai-apea-2026-757-1503251.htm",
-          "pubDate": "2026-10-16T11:15:46.000Z",
-          "excerpt": "Tối 15/10, FE CREDIT đã được vinh danh tại hạng mục “Doanh nghiệp xuất sắc châu Á” (Corporate Excellence Award) trong khuôn khổ Lễ trao giải Asia Pacific…",
-          "sourceId": "vietstock",
-          "sourceName": "Vietstock",
-          "sourceUrl": "https://vietstock.vn",
-          "attribution": "Vietstock",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -158,6 +158,17 @@
       "key": "realestate",
       "displayName": "Bất động sản",
       "articles": [
+        {
+          "title": "Nhà gỗ 'lơ lửng' trên sườn núi ở độ cao 1.530 m",
+          "link": "https://vnexpress.net/nha-go-lo-lung-tren-suon-nui-o-do-cao-1-530-m-5133157.html",
+          "pubDate": "2026-10-16T17:00:00.000Z",
+          "excerpt": "Công trình sử dụng kết cấu gỗ lắp ghép, nâng sàn khỏi mặt đất nhằm hạn chế tác động đến địa hình tự nhiên.",
+          "sourceId": "vnexpress",
+          "sourceName": "VnExpress",
+          "sourceUrl": "https://vnexpress.net",
+          "attribution": "VnExpress",
+          "condensed": null
+        },
         {
           "title": "Phó Thủ tướng: 'Đường sắt phải trở thành trục hạ tầng chiến lược quốc gia'",
           "link": "https://cafef.vn/pho-thu-tuong-duong-sat-phai-tro-thanh-truc-ha-tang-chien-luoc-quoc-gia-188261016213446802.chn",
@@ -234,17 +245,6 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
-        },
-        {
-          "title": "Thêm dự án nhà xã hội gần 30 triệu đồng một m2 tại Hà Nội",
-          "link": "https://vnexpress.net/them-du-an-nha-xa-hoi-gan-30-trieu-dong-mot-m2-tai-ha-noi-5133167.html",
-          "pubDate": "2026-10-16T08:30:00.000Z",
-          "excerpt": "Dự án nhà xã hội tại Phúc Thịnh, nơi dự kiến thí điểm phát triển mô hình xã xã hội chủ nghĩa ở Hà Nội, có giá 29,7 triệu đồng một m2.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
         }
       ],
       "aiSummary": null
@@ -253,39 +253,6 @@
       "key": "macro",
       "displayName": "Vĩ mô / Đầu tư",
       "articles": [
-        {
-          "title": "Phó thủ tướng yêu cầu giảm lãi suất cho vay 1,5-2%",
-          "link": "https://vnexpress.net/pho-thu-tuong-yeu-cau-giam-lai-suat-cho-vay-1-5-2-5133422.html",
-          "pubDate": "2026-10-16T18:30:00.000Z",
-          "excerpt": "Phó thủ tướng Nguyễn Văn Thắng yêu cầu giảm lãi suất cho vay 1,5-2% với sản xuất, kinh doanh và lĩnh vực ưu tiên, hỗ trợ người dân, doanh nghiệp.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Thủ tướng: Sẽ thu hồi thương hiệu quốc gia nếu không còn đạt tiêu chí",
-          "link": "https://vnexpress.net/thu-tuong-se-thu-hoi-thuong-hieu-quoc-gia-neu-khong-con-dat-tieu-chi-5133406.html",
-          "pubDate": "2026-10-16T18:17:39.000Z",
-          "excerpt": "Thủ tướng Lê Minh Hưng yêu cầu tăng kiểm tra sau công nhận, thu hồi danh hiệu thương hiệu quốc gia với những trường hợp không còn đáp ứng tiêu chí.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
-        {
-          "title": "Tập đoàn dầu khí Malaysia muốn cung cấp LNG dài hạn cho Việt Nam",
-          "link": "https://vnexpress.net/tap-doan-dau-khi-malaysia-muon-cung-cap-lng-dai-han-cho-viet-nam-5133408.html",
-          "pubDate": "2026-10-16T18:13:55.000Z",
-          "excerpt": "Tập đoàn Dầu khí quốc gia Malaysia (Petronas) đề xuất cung cấp khí tự nhiên hóa lỏng (LNG) theo hợp đồng dài hạn, hợp tác phát triển hạ tầng LNG tại Việt Nam.",
-          "sourceId": "vnexpress",
-          "sourceName": "VnExpress",
-          "sourceUrl": "https://vnexpress.net",
-          "attribution": "VnExpress",
-          "condensed": null
-        },
         {
           "title": "Sang năm 2027, những ai sử dụng thẻ Căn cước/CCCD vào việc này sẽ bị phạt tiền lên đến 10 triệu đồng",
           "link": "https://cafef.vn/sang-nam-2027-nhung-ai-su-dung-the-can-cuoc-cccd-vao-viec-nay-se-bi-phat-tien-len-den-10-trieu-dong-1882610162126019.chn",
@@ -340,6 +307,39 @@
           "sourceUrl": "https://vneconomy.vn",
           "attribution": "VnEconomy",
           "condensed": null
+        },
+        {
+          "title": "Hạ tầng đồng bộ mở đường cho TPHCM tăng trưởng hai con số",
+          "link": "https://cafef.vn/ha-tang-dong-bo-mo-duong-cho-tphcm-tang-truong-hai-con-so-188261016161147176.chn",
+          "pubDate": "2026-10-16T10:30:00.000Z",
+          "excerpt": "Đó là nhận định của các chuyên gia, nhà quản lý tại Hội thảo “Đầu tư phát triển hạ tầng đồng bộ - Động lực tăng trưởng kinh tế và mở rộng không gian phát triển…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "GDP tăng cao, vì sao túi tiền người dân vẫn ‘mỏng’?",
+          "link": "https://cafef.vn/gdp-tang-cao-vi-sao-tui-tien-nguoi-dan-van-mong-188261016160626132.chn",
+          "pubDate": "2026-10-16T10:00:00.000Z",
+          "excerpt": "TPO - GDP tăng 9,01% trong 9 tháng năm nay, thu nhập bình quân của người lao động tăng 9,1%, nhưng nhiều người đặt câu hỏi vì sao tiền trong túi không dư dả…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
+        },
+        {
+          "title": "Đà Nẵng: Phê duyệt dự án tái định cư Hòa Tiến, vốn hơn 380 tỷ đồng",
+          "link": "https://cafef.vn/da-nang-phe-duyet-du-an-tai-dinh-cu-hoa-tien-von-hon-380-ty-dong-188261016154803165.chn",
+          "pubDate": "2026-10-16T09:32:00.000Z",
+          "excerpt": "Ngày 16/10, Văn phòng UBND TP Đà Nẵng cho biết, UBND thành phố phê duyệt dự án khu tái định cư (TĐC) Hòa Tiến với tổng mức đầu tư hơn 380,85 tỷ đồng, nhằm bảo…",
+          "sourceId": "cafef",
+          "sourceName": "CafeF",
+          "sourceUrl": "https://cafef.vn",
+          "attribution": "CafeF",
+          "condensed": null
         }
       ],
       "aiSummary": null
@@ -349,10 +349,76 @@
       "displayName": "International",
       "articles": [
         {
-          "title": "My sister moved in with our mother, 78, and says she deserves the $925,000 family home. Is she right?",
-          "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-          "pubDate": "2026-10-16T19:00:00.000Z",
-          "excerpt": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+          "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+          "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+          "pubDate": "2026-10-16T22:34:29.000Z",
+          "excerpt": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
+          "sourceId": "cnbc",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com",
+          "attribution": "CNBC",
+          "condensed": null
+        },
+        {
+          "title": "China warns EU not to ‘fantasise’ on trade approach as Brussels confirms new ‘kill switch’",
+          "link": "https://www.scmp.com/news/china/diplomacy/article/3371217/china-warns-eu-not-fantasise-trade-approach-brussels-confirms-new-kill-switch?utm_source=rss_feed",
+          "pubDate": "2026-10-16T22:30:02.000Z",
+          "excerpt": "Beijing warned Brussels not to “fantasise” that taking a hard line will force it into concessions, as the bloc confirmed plans for a gung-ho new kill switch…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Oregon teen gunman was tackled by ‘heroic’ teacher then shot by students’ father",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3371216/oregon-teen-gunman-was-tackled-heroic-teacher-then-shot-parent-students?utm_source=rss_feed",
+          "pubDate": "2026-10-16T22:22:36.000Z",
+          "excerpt": "A teacher threw her phone at the teenage gunman who killed four people at an Oregon junior school, then tackled and fought with him – probably saving lives…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+          "link": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
+          "pubDate": "2026-10-16T21:59:00.000Z",
+          "excerpt": "The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the…",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com",
+          "attribution": "MarketWatch",
+          "condensed": null
+        },
+        {
+          "title": "Sean ‘Diddy’ Combs moved to new prison after reports of luxury lifestyle behind bars",
+          "link": "https://www.scmp.com/news/world/united-states-canada/article/3371215/sean-diddy-combs-moved-new-prison-after-reports-luxury-lifestyle-behind-bars?utm_source=rss_feed",
+          "pubDate": "2026-10-16T21:55:02.000Z",
+          "excerpt": "Sean “Diddy” Combs has been moved to a federal prison in Pennsylvania after reports that the hip-hop mogul was living the high life and was injured in a fight…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "Paraguay’s tech minister defies Beijing sanctions, says Taiwan ties ‘not up for negotiation’",
+          "link": "https://www.scmp.com/news/china/article/3371214/paraguays-tech-minister-defies-beijing-sanctions-says-taiwan-ties-not-negotiation?utm_source=rss_feed",
+          "pubDate": "2026-10-16T21:43:02.000Z",
+          "excerpt": "Paraguay’s technology minister said on Thursday that sanctions imposed on him by Beijing over his country’s ties with Taiwan would only accelerate joint…",
+          "sourceId": "scmp",
+          "sourceName": "SCMP",
+          "sourceUrl": "https://www.scmp.com",
+          "attribution": "SCMP",
+          "condensed": null
+        },
+        {
+          "title": "This Senate race where data centers are a crucial issue has more spending than any other midterm clash",
+          "link": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d?mod=mw_rss_topstories",
+          "pubDate": "2026-10-16T21:43:00.000Z",
+          "excerpt": "Money is pouring in and funding intense, negative ads: “It’s everywhere, and you can’t escape it.”",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
@@ -362,78 +428,12 @@
         {
           "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
           "link": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
-          "pubDate": "2026-10-16T18:37:00.000Z",
+          "pubDate": "2026-10-16T21:35:00.000Z",
           "excerpt": "Anthropic and New York City’s comptroller have opened a line of communication to discuss “existential risks” posed by AI and what that could mean for the…",
           "sourceId": "marketwatch",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com",
           "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "‘I like the idea of a big return’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
-          "link": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
-          "pubDate": "2026-10-16T18:30:00.000Z",
-          "excerpt": "“I know you’re not supposed to put money you can’t afford to lose into speculative stuff.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "Trump’s press secretary Katie Zacharia fired after five days",
-          "link": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
-          "pubDate": "2026-10-16T18:23:09.000Z",
-          "excerpt": "Exit comes amid deepening turmoil for White House as midterm elections loom",
-          "sourceId": "ft",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com",
-          "attribution": "FT",
-          "condensed": null
-        },
-        {
-          "title": "From Verizon to UnitedHealth, Corporate America Is Balking at ‘Tokenized’ Stocks",
-          "link": "https://www.wsj.com/finance/stocks/from-verizon-to-unitedhealth-corporate-america-is-balking-at-tokenized-stocks-6dbbeada?mod=rss_markets_main",
-          "pubDate": "2026-10-16T18:18:00.000Z",
-          "excerpt": "Broadcom and other companies have objected to tokenizing their shares under a new regulatory framework.",
-          "sourceId": "wsj",
-          "sourceName": "WSJ",
-          "sourceUrl": "https://www.wsj.com",
-          "attribution": "WSJ",
-          "condensed": null
-        },
-        {
-          "title": "I’m 64 with two sons, but only one works in the family firm. Should I leave him 70% of the business?",
-          "link": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382?mod=mw_rss_topstories",
-          "pubDate": "2026-10-16T18:01:00.000Z",
-          "excerpt": "“I have some reservations about the long-term stability of my younger son’s marriage.”",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com",
-          "attribution": "MarketWatch",
-          "condensed": null
-        },
-        {
-          "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-          "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
-          "pubDate": "2026-10-16T18:00:15.000Z",
-          "excerpt": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
-          "sourceId": "cnbc",
-          "sourceName": "CNBC",
-          "sourceUrl": "https://www.cnbc.com",
-          "attribution": "CNBC",
-          "condensed": null
-        },
-        {
-          "title": "From hospital, Pope Leo pushes Putin for ceasefire in contested Ukraine city",
-          "link": "https://www.scmp.com/news/world/europe/article/3371210/hospital-pope-leo-pushes-putin-ceasefire-contested-ukraine-city?utm_source=rss_feed",
-          "pubDate": "2026-10-16T17:47:47.000Z",
-          "excerpt": "Pope Leo spoke with Russian President Vladimir Putin by phone on Friday, calling for a ceasefire in a Russian-occupied city in southern Ukraine, as he recovers…",
-          "sourceId": "scmp",
-          "sourceName": "SCMP",
-          "sourceUrl": "https://www.scmp.com",
-          "attribution": "SCMP",
           "condensed": null
         }
       ],
